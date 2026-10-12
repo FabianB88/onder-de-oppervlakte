@@ -4,6 +4,10 @@ Dutch browser adventure for all five Business Ethics lessons. The authored modul
 
 ## Play
 
+Live on GitHub Pages: https://fabianb88.github.io/onder-de-oppervlakte/
+
+Hosting is GitHub Pages only. The repository's `main` branch is published from `/`; `index.html` opens the static app in `dist/`. `.nojekyll` preserves the authored assets. No ChatGPT login or OpenAI hosting is used by this deployment.
+
 Start the static server with `npm start`. Fly the inspection drone with the arrow keys, WASD, or by clicking a destination. Click an object to approach it. Collect physical tools, select a tool in the inventory, and use it on an object. NPC conversations provide clickable questions and targeted follow-ups. The notebook preserves clues, predictions, experiments and personal notes.
 
 All clues must be investigated before each reconstruction unlocks. Reconstructions require causal interpretation and evidence. The lesson finale applies the learned lenses to a new sector.
@@ -29,6 +33,8 @@ The complete original course is pinned to GitHub commit `de712d3616e669404cded87
 Before educational rollout, independent subject review must confirm equivalence of the teaching propositions and accessibility of required media. These basic quality requirements do not wait for six months of usage feedback. Later matched-content comparison, independent delayed and transfer assessments and reasoning rubrics can test actual effectiveness. For blended classroom use, learners compare evidence maps and revise their intervention after peer critique and teacher debriefing. The standalone route includes the teaching content.
 
 ## Validation
+
+Run `npm run build` after editing chapter or NPC authoring data to refresh the complete runtime module, conversations and readable plan. Commit and push changes to `main` to update GitHub Pages.
 
 `npm test` validates all five lessons, source references, activity shapes, dialogue depth, causal evidence, model results, progression gates, replay rewards and navigation. `scripts/qa-module.mjs` exercises all authored activity answers, dialogue branches, area/lesson finales and knowledge checks using synthetic DOM activation in a separate test profile. `qa-controls.mjs` checks pointer movement/cancellation, inspection and save isolation. `qa-features.mjs` checks all briefings, theory panels, hotspot hit targets and mobile layout. Screenshots and reports are in ignored `qa/`. Structural coverage is distinct from the separate semantic proposition and media audits in `sources/`.
 
