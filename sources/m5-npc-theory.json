@@ -1,0 +1,330 @@
+{
+  "schemaVersion": 1,
+  "lessonId": "m5",
+  "panels": [
+    {
+      "investigationId": "m5-01",
+      "name": "Lena",
+      "theory": {
+        "title": "Waarom maatschappelijke erkenning niet hetzelfde is als bewijs",
+        "concepts": [
+          "legitimiteit",
+          "Suchman",
+          "institutionele druk",
+          "decoupling"
+        ],
+        "sections": [
+          {
+            "title": "De theorie uitgelegd",
+            "text": "Legitimiteit betekent dat anderen een organisatie als passend en aanvaardbaar zien. Suchman helpt begrijpen waarom bedrijven reageren op maatschappelijke verwachtingen, naast prijs en winst. Consumenten, financiers, ngo’s, media en toezichthouders kunnen verschillende verwachtingen stellen. Erkenning kan volgen op echte verandering, maar ook op zichtbare symbolen. Een gunstige indruk is daarom iets anders dan bewijs dat de beloofde duurzaamheidsuitkomst werkelijk is bereikt."
+          },
+          {
+            "title": "Wat je hier onderzoekt",
+            "text": "Op de markt staan de poster, financieringsmail en werkplanning naast elkaar. De omgeving vraagt al om een circulaire service, terwijl de praktijk nog één retourpilot omvat. Dat verschil noemen we een communicatie-praktijkkloof. Decoupling beschrijft de ontkoppeling van formele boodschap en feitelijk werk. De verklaring kan systemisch zijn zonder medewerkers vrij te spreken: onderzoek ook wie welke claim kiest en welk bewijs beschikbaar is."
+          },
+          {
+            "title": "Voorbeeld en grens",
+            "text": "Een organisatie kan een serieuze pilot uitvoeren en daarvoor maatschappelijke waardering krijgen. Dat maakt de uitspraak over die pilot nog niet tot een bedrijfsbrede prestatie. Benoem wat al werkt, hoe groot het bereik is en wat toekomstplan blijft. De ontkoppeling kan zonder één centraal misleidingsbesluit groeien, maar ook samengaan met bewuste onwaarheid. Het begrip verklaart een mechanisme; het bewijst niet automatisch iemands intentie."
+          }
+        ]
+      }
+    },
+    {
+      "investigationId": "m5-01",
+      "name": "Omar",
+      "theory": {
+        "title": "De verwachting kan sneller bewegen dan het werk",
+        "concepts": [
+          "systeemfenomeen",
+          "organisatorische capaciteit",
+          "economische prikkels",
+          "verantwoordelijkheid"
+        ],
+        "sections": [
+          {
+            "title": "De theorie uitgelegd",
+            "text": "Een systeemverklaring verbindt maatschappelijke druk, economische beloning en organisatorische mogelijkheden. Een groene reputatie kan klanten of financiering aantrekken, terwijl machines, kennis en contracten trager veranderen. Die spanning kan communicatie vooruit laten lopen. Het is geen natuurwet dat iedere organisatie daardoor greenwasht. Bedrijven kunnen investeren, beloften begrenzen of een andere route kiezen. Een oorzaak begrijpen is bovendien iets anders dan een misleidende claim rechtvaardigen."
+          },
+          {
+            "title": "Wat je hier onderzoekt",
+            "text": "De hub mist nog reparatiecapaciteit en betrouwbare vervolgverwerking voor alle materiaalstromen. Tegelijk wil de financier snel een overtuigend verhaal. Zoek dus niet alleen naar de persoon die de poster maakte. Kijk naar budget, planning, kennis en beoordeling van prestaties. De opening van de marktstand vraagt een houdbare uitspraak en een uitvoerbare vervolgstap: je verbindt wat gezegd wordt aan wat vandaag werkelijk kan gebeuren."
+          },
+          {
+            "title": "Voorbeeld en grens",
+            "text": "Twee routes kunnen verantwoord zijn. De hub kan de beperkte pilot publiceren met expliciete grenzen, of een bredere claim uitstellen totdat extra processen getest zijn. De afweging hangt van belangen en bewijs af. Een tekort aan geld maakt de brede claim niet waar; meer geld bewijst evenmin dat verandering al uitgevoerd is. Volg de keten van middelen naar handelingen en vervolgens naar gemeten gevolgen."
+          }
+        ]
+      }
+    },
+    {
+      "investigationId": "m5-02",
+      "name": "Lena",
+      "theory": {
+        "title": "Vier manieren waarop een groen beeld kan overdrijven",
+        "concepts": [
+          "selectieve communicatie",
+          "vage claims",
+          "irrelevante communicatie",
+          "symbolische duurzaamheid"
+        ],
+        "sections": [
+          {
+            "title": "De theorie uitgelegd",
+            "text": "De cursus gebruikt vier analytische lenzen. Selectieve communicatie laat relevante effecten weg; vage claims missen duidelijke betekenis of criteria. Irrelevante communicatie maakt een basisvoorwaarde tot speciaal voordeel. Symbolische duurzaamheid geeft een kleine maatregel een veel groter gewicht. Die vormen kunnen overlappen. Delmas en Burbano onderzoeken daarnaast verschillende prikkelniveaus; deze vier lenzen zijn geen exact, universeel en exclusief taxonomisch schema uit hun artikel."
+          },
+          {
+            "title": "Wat je hier onderzoekt",
+            "text": "Poster A gebruikt verpakkingsdata voor een brede conclusie. Poster B zegt eco-friendly zonder maatstaf. Poster C viert een eigenschap die in deze productcontext al de basis is. Poster D maakt één kleine actie het gezicht van het hele bedrijf. Je zoekt steeds het specifieke ontbrekende bewijs. Ook kleuren en natuurbeelden kunnen een indruk oproepen zonder een expliciet groen woord te gebruiken."
+          },
+          {
+            "title": "Voorbeeld en grens",
+            "text": "Een advertentie kan een echte kleine inzamelactie uitvergroten én grotere productiestromen weglaten. Dan zijn symboliek en selectie tegelijk relevant. Kies in de oefening het geïsoleerde hoofdmechanisme, maar houd bij echte reclame meerdere lenzen open. Een groen beeld of een kleine verbetering is niet op zichzelf misleiding. Het oordeel vraagt vergelijking tussen de gewekte indruk, de reikwijdte van de uitspraak en de beschikbare onderbouwing."
+          }
+        ]
+      }
+    },
+    {
+      "investigationId": "m5-02",
+      "name": "Noor",
+      "theory": {
+        "title": "Een correcte deeluitspraak kan een onjuist totaalbeeld geven",
+        "concepts": [
+          "claimgrens",
+          "controleerbaarheid",
+          "waarheidsgetrouwheid",
+          "compensatie en reductie"
+        ],
+        "sections": [
+          {
+            "title": "De theorie uitgelegd",
+            "text": "Een claimgrens zegt over welk product, proces, periode en effect een uitspraak gaat. Zonder die grens kun je een klein resultaat voor het geheel aanzien. Controleerbaarheid vraagt daarnaast een betekenis, meetmethode en vergelijking. Waarheidsgetrouwheid gaat dus verder dan een los kloppend getal. Ook wat wordt weggelaten en welke indruk het publiek redelijkerwijs krijgt, kan de kwaliteit van de informatie bepalen."
+          },
+          {
+            "title": "Wat je hier onderzoekt",
+            "text": "Je maakt hier een drukproef waarin prestatie en grenzen samen staan. De materiaalnaam vegan leather vertelt iets over dierlijke herkomst, niet vanzelf over milieuprestaties. Een compensatiebon voor een project elders meet geen lagere uitstoot in de eigen keten. De campagne moet daarom verschillende gegevensstromen uit elkaar houden en duidelijk maken welke conclusie de eigen meting werkelijk draagt, inclusief nog onbekende gevolgen."
+          },
+          {
+            "title": "Voorbeeld en grens",
+            "text": "Stel dat de eigen uitstoot gelijk blijft en het bedrijf een extern natuurproject financiert. Het kan die bijdrage beschrijven met passende onderbouwing, maar niet de bon als gemeten eigen uitstootdaling presenteren. Een bijdrage van twintig procent van het budget is ook geen emissiedaling van twintig procent. Dat rekent verschillende grootheden door elkaar. De ethische waarde van compensatie blijft een aparte discussie over werkelijk effect en voorwaarden."
+          }
+        ]
+      }
+    },
+    {
+      "investigationId": "m5-03",
+      "name": "Mila",
+      "theory": {
+        "title": "Eerdere keuzes maken veranderen gekoppeld werk",
+        "concepts": [
+          "padafhankelijkheid",
+          "machines en contracten",
+          "kennis en capaciteit",
+          "agency"
+        ],
+        "sections": [
+          {
+            "title": "De theorie uitgelegd",
+            "text": "Padafhankelijkheid betekent dat eerdere keuzes toekomstige mogelijkheden mede begrenzen. Een machine vraagt bepaalde materialen, medewerkers leren die werkwijze en contracten sluiten erop aan. Overschakelen verandert dan meer dan één onderdeel. Dat is niet hetzelfde als zeggen dat verandering onmogelijk is. Onderzoek welke afhankelijkheden echt kosten of tijd geven en welke gefaseerde alternatieven bestaan. Kennis, bereidheid, financiering en fysieke capaciteit zijn verschillende vragen."
+          },
+          {
+            "title": "Wat je hier onderzoekt",
+            "text": "De materiaalwerkplaats toont een oude lijn met gekoppelde contracten. Een nieuwe poster past direct op de muur; een nieuwe materiaalroute past niet direct op de machine. Je reconstrueert daarom hoe de investering, routines en contracten samen zijn gaan werken. Vervolgens verbind je iedere beperking met onderzoek naar een alternatief. De uitweg is geen geheim slot, maar een onderbouwde verandering van de feitelijke route."
+          },
+          {
+            "title": "Voorbeeld en grens",
+            "text": "Nieuwe reparatiekennis kan het bestaande apparaat bruikbaarder maken zonder meteen de hele fabriek te vervangen. Soms is juist gefaseerde vervanging nodig. Vergelijk technische tests, training, financiering en gevolgen voor betrokkenen. Verzonken uitgaven zijn al gedaan, maar huidige contracten en koppelingen kunnen nog echte overstapkosten geven. Een veranderwens heft die beperkingen niet op; een beperking levert evenmin bewijs voor een prestatie die nog niet bestaat."
+          }
+        ]
+      }
+    },
+    {
+      "investigationId": "m5-03",
+      "name": "Eva",
+      "theory": {
+        "title": "Verbetering per stuk is iets anders dan minder totale impact",
+        "concepts": [
+          "intensiteit en absolute impact",
+          "pilotbereik",
+          "volume",
+          "selectieve communicatie"
+        ],
+        "sections": [
+          {
+            "title": "De theorie uitgelegd",
+            "text": "Impact per product noemen we hier intensiteit. Totale impact hangt ook af van hoeveel producten er zijn en welk aandeel daadwerkelijk verbeterd is. Een pilot kan dus echt beter presteren terwijl de totale belasting groeit. Vergelijk steeds dezelfde indicator en grens. Dit rekenmechanisme helpt een claim beoordelen, maar is geen volledige levenscyclusanalyse en bepaalt niet vanzelf welke bedrijfsstrategie moreel de beste is."
+          },
+          {
+            "title": "Wat je hier onderzoekt",
+            "text": "In de proef verbeter je pilotproducten met twintig procent, terwijl ze maar vijf procent van de productie vormen en het volume anderhalf keer zo groot wordt. Het gemiddelde verbetert dan veel minder dan het pilotgetal. Je verandert volume en pilotbereik apart om de oorzaak te zien. Zo leer je welke deeluitspraak houdbaar is en waarom een bedrijfsbrede dalingsclaim aanvullend bewijs vraagt."
+          },
+          {
+            "title": "Voorbeeld en grens",
+            "text": "Bij de fictieve uitgangssituatie leveren duizend producten van tien punten samen tienduizend impactpunten op. Met vijf procent verbeterde producten wordt het gemiddelde 9,9 punten. Vijftienhonderd producten geven dan 14.850 punten: 48,5 procent hoger. De pilotverbetering blijft echt binnen het model. De punten zijn leswaarden; transport, gebruik, arbeid en afval zijn niet volledig meegenomen, zodat hieruit geen compleet duurzaamheidsoordeel volgt."
+          }
+        ]
+      }
+    },
+    {
+      "investigationId": "m5-04",
+      "name": "Mila",
+      "theory": {
+        "title": "Een duurzamere collectie is niet vanzelf een ander bedrijfsmodel",
+        "concepts": [
+          "Conscious Collection broncasus",
+          "fast fashion",
+          "deel en geheel",
+          "selectieve communicatie"
+        ],
+        "sections": [
+          {
+            "title": "De theorie uitgelegd",
+            "text": "Een productlijn en een bedrijfsmodel zijn verschillende analyse-eenheden. Een andere materiaalkeuze kan een deelprestatie verbeteren, terwijl productritme, prijsstrategie en volumes gelijk blijven. De cursus gebruikt de historische discussie rond H&M’s Conscious Collection om die verhouding te onderzoeken. Het gaat om beschreven kritiek op de koppeling tussen de collectie en het grotere fast-fashionmodel, niet om een tijdloos juridisch of volledig oordeel over huidige prestaties."
+          },
+          {
+            "title": "Wat je hier onderzoekt",
+            "text": "De casekaart noemt gerecyclede materialen en productiemethoden. Daarnaast liggen de kaarten van snelle cycli, lage prijzen en grote volumes. Je mag de deelverbetering serieus nemen en tegelijk vragen of de bedrijfsbrede indruk ermee onderbouwd wordt. De recyclingruimte laat vervolgens zien waarom een inzamelbelofte ook vervolgverwerking nodig heeft. Communicatie moet bij het aangetoonde deel blijven totdat de bredere route is onderzocht."
+          },
+          {
+            "title": "Voorbeeld en grens",
+            "text": "Een kleine collectie kan werkelijk minder van één grondstof gebruiken. Wanneer de rest van het aanbod groeit en dezelfde snelle vervangingsprikkels houdt, is daarmee geen volledige verandering aangetoond. Vraag naar aandeel, volume en overige effecten. Dat betekent niet dat de collectie waardeloos of verzonnen is. Ook kritiek op een historische campagne mag niet als bewijs over elke huidige productlijn worden herhaald zonder nieuwe gegevens."
+          }
+        ]
+      }
+    },
+    {
+      "investigationId": "m5-04",
+      "name": "Omar",
+      "theory": {
+        "title": "Volg een materiaal voorbij het inzamelpunt",
+        "concepts": [
+          "circulaire processen",
+          "ketenbewijs",
+          "levenscyclus",
+          "Environmental Footprint"
+        ],
+        "sections": [
+          {
+            "title": "De theorie uitgelegd",
+            "text": "Inzameling meet ontvangst, geen eindbestemming. Hergebruik vraagt opnieuw bruikbare producten; reparatie vraagt herstel en verder gebruik; recycling vraagt verwerking en teruggewonnen materialen. De levenscyclus omvat bovendien winning, productie, gebruik en afval. Environmental Footprint is in het Europese bronfragment een voorbeeld van een wetenschappelijke aanpak voor milieueffecten. Een geordende ketenkaart helpt vragen stellen, maar bevat nog geen gemeten volledige levenscyclusanalyse."
+          },
+          {
+            "title": "Wat je hier onderzoekt",
+            "text": "Hier volgt de retourkaart het materiaal door verwerking, verliezen en bestemming. Daardoor zie je waar een belofte groter wordt dan het bewijs. Een gewicht op de ontvangstbon dekt niet vanzelf alle verdere stappen. Je legt ook de levenscyclus naast de claim: minder impact in de fabriek kan samengaan met andere effecten tijdens gebruik of afval. Iedere conclusie moet noemen welke stappen en indicatoren onderzocht zijn."
+          },
+          {
+            "title": "Voorbeeld en grens",
+            "text": "Van honderd ingezamelde apparaten kunnen zeventig opnieuw gebruikt worden, twintig naar materiaalverwerking gaan en tien afvallen. Dat fictieve voorbeeld ondersteunt niet de uitspraak dat honderd apparaten opnieuw zijn gebruikt. Voor recycling vraag je ook hoeveel materiaal werkelijk terugkomt. Verschillende routes kunnen zinvol zijn, afhankelijk van kwaliteit en omstandigheden. Een bewijsroute voor deze stroom dekt bovendien niet automatisch alle producten, sociale omstandigheden en toekomstige gevolgen van het bedrijf."
+          }
+        ]
+      }
+    },
+    {
+      "investigationId": "m5-05",
+      "name": "Eva",
+      "theory": {
+        "title": "Reputatie en prestatie kunnen verschillend worden beloond",
+        "concepts": [
+          "ESG",
+          "kapitaalmarkten",
+          "reputatie",
+          "informatie-asymmetrie"
+        ],
+        "sections": [
+          {
+            "title": "De theorie uitgelegd",
+            "text": "ESG verwijst naar Environmental, Social en Governance: milieu, sociale gevolgen en verantwoording. Een gunstig duurzaamheidsbeeld kan financiering of waardering helpen, maar investeerders verschillen in doelen en afwegingen. Informatie-asymmetrie ontstaat wanneer het bedrijf meer relevante kennis heeft dan de buitenwereld. Daardoor kan een aantrekkelijk deelbeeld besluiten sturen. Lyon en Montgomery helpen de reputatievoordelen van claims onderzoeken wanneer de onderliggende prestaties niet overeenkomstig veranderen."
+          },
+          {
+            "title": "Wat je hier onderzoekt",
+            "text": "De financier ontvangt een groene poster en een gunstig pilotgetal. De hub kent ook verliezen en volledige volumes. Dat is een concrete kenniskloof, geen bewijs dat iedere financier ondeskundig is. Je opent daarom het dossier met vergelijkbare gegevens, grenzen en controle. Een hoge milieuscore op één materiaal zegt bovendien weinig over arbeidsomstandigheden of governance. Houd de drie ESG-dimensies en de gebruikte meetgrens uit elkaar."
+          },
+          {
+            "title": "Voorbeeld en grens",
+            "text": "Hetzelfde getal op tien platforms verspreiden vergroot bereik, maar voegt de ontbrekende stromen niet toe. Een onafhankelijke toets van alleen de pilot vergroot controleerbaarheid binnen die beperkte grens, geen bedrijfsbrede kennis. Geef dus aan wat de financier wel en niet weet. Het historische consumentenonderzoek in de bron meet daarnaast geuite bereidheid, geen geobserveerde aankoop en geen universele voorkeur van de studenten die nu deze ervaring spelen."
+          }
+        ]
+      }
+    },
+    {
+      "investigationId": "m5-05",
+      "name": "Lena",
+      "theory": {
+        "title": "De gevolgen raken ook concurrenten en betrouwbare labels",
+        "concepts": [
+          "eerlijke concurrentie",
+          "institutioneel vertrouwen",
+          "green fatigue",
+          "stakeholders"
+        ],
+        "sections": [
+          {
+            "title": "De theorie uitgelegd",
+            "text": "Greenwashing kan meer schaden dan één misleidende aankoop. Een goedkoop groen imago kan reputatie opleveren die een ander bedrijf pas na dure procesinvesteringen krijgt. Dat roept vragen over eerlijke concurrentie op. Herhaalde misleiding kan bovendien vertrouwen in labels, keurmerken en beleid aantasten. Green fatigue benoemt het risico dat mensen zulke claims niet meer serieus nemen. Wantrouwen en feitelijke onbetrouwbaarheid zijn daarbij verschillende zaken."
+          },
+          {
+            "title": "Wat je hier onderzoekt",
+            "text": "In het archief ligt de bon van een concurrent met echte reparatie-investeringen naast de goedkope campagne. De klachtkaarten tonen hoe wantrouwen kan uitstralen naar eerlijke initiatieven. Je volgt wie kennis mist, wie kosten maakt en wie de gevolgen draagt. Stakeholderverantwoordelijkheid vraagt die betrokkenen zichtbaar maken; intergenerationele rechtvaardigheid voegt toekomstige mensen toe, die vandaag niet kunnen kopen, investeren of protesteren tegen de claim."
+          },
+          {
+            "title": "Voorbeeld en grens",
+            "text": "Een betrouwbare gecertificeerde producent kan klanten verliezen wanneer die na andere schandalen geen enkel groen label meer geloven. Dat laat een vertrouwenseffect zien, geen bewezen meetfout van zijn label. Evenzo bewijst een lage prijs op zichzelf geen greenwashing: echte verbetering kan efficiënt zijn. Vergelijk prestaties en reputatiebeloning. De casus ondersteunt een onderzoek naar een mechanisme, niet een beschuldiging van iedere goedkope of populaire concurrent."
+          }
+        ]
+      }
+    },
+    {
+      "investigationId": "m5-06",
+      "name": "Lena",
+      "theory": {
+        "title": "Betere informatie en echte uitvoering horen bij elkaar",
+        "concepts": [
+          "CSRD",
+          "vergelijkbaarheid",
+          "transparantie",
+          "organisatorische verandering"
+        ],
+        "sections": [
+          {
+            "title": "De theorie uitgelegd",
+            "text": "Vergelijkbare rapportage helpt anderen prestaties beoordelen omdat definities, grenzen en perioden duidelijker worden. CSRD is een institutioneel rapportagevoorbeeld, met veranderd toepassingsbereik en invoering die actueel moeten worden gecontroleerd. Rapporteren is iets anders dan daadwerkelijk verduurzamen. Het Europese fragment uit 2023 bespreekt daarnaast een voorstel over groene claims. Een historische beleidsvideo maakt het genoemde voorstel niet vanzelf tot een ongewijzigde actuele plicht voor ieder bedrijf."
+          },
+          {
+            "title": "Wat je hier onderzoekt",
+            "text": "Het forum vraagt een publicatie die gemeten prestaties, resterende onzekerheid en een werkelijk veranderplan verbindt. De standaard raakt de kenniskloof; training en financiering raken uitvoeringscapaciteit; aangepaste beoordeling raakt de reputatieprikkel. EU Ecolabel en EMAS verschijnen als bestaande vrijwillige kaders met criteria en grenzen. Je moet dus steeds zeggen welke functie een instrument vervult en welk ander werk daarmee nog niet is uitgevoerd."
+          },
+          {
+            "title": "Voorbeeld en grens",
+            "text": "De hub kan haar pilotresultaat eerlijk publiceren en middelen voor uitbreiding vastleggen. Een budgetafspraak is echter nog geen gerealiseerde verbetering, net zoals een rapportageplicht de productielijn niet zelf verbouwt. Volg later uitvoering en totale effecten, ook bij tegenvallers. Meer informatie kan nuttig zijn terwijl verdere maatregelen nodig blijven. De keuze tussen publiceren en wachten vraagt onderbouwing van scope en risico, geen verplichte voorkeur voor één communicatiestrategie."
+          }
+        ]
+      }
+    },
+    {
+      "investigationId": "m5-06",
+      "name": "Eva",
+      "theory": {
+        "title": "Een overtuigend eindplan kijkt voorbij de reputatie van vandaag",
+        "concepts": [
+          "stakeholderverantwoordelijkheid",
+          "intergenerationele rechtvaardigheid",
+          "systeemtransitie",
+          "herziening"
+        ],
+        "sections": [
+          {
+            "title": "De theorie uitgelegd",
+            "text": "Stakeholdertheorie vraagt rekening houden met partijen die een organisatie raken of door haar geraakt worden. Intergenerationele rechtvaardigheid kijkt ook naar mogelijkheden van toekomstige mensen. Die lenzen verbreden de beoordeling voorbij huidige klanten en financiers. Wanneer overdreven communicatie suggereert dat de transitie af is, kan de druk op verdere verandering afnemen. Dat is een mogelijk systeemmechanisme, geen bewijs dat iedere duurzaamheidsclaim verandering noodzakelijk vertraagt."
+          },
+          {
+            "title": "Wat je hier onderzoekt",
+            "text": "Je eindplan moet de gevonden informatiekloof, economische prikkels en operationele beperkingen samen raken. Een eerlijke poster ondersteunt keuzes, maar toekomstige milieugevolgen vragen ook veranderwerk. Leg vast wie middelen en bevoegdheid heeft, wie controleert en wanneer beloften worden herzien. De hotelcasus verandert straks de sector zodat je niet alleen de bekende poster herkent, maar het mechanisme opnieuw moet onderbouwen met nieuwe feiten."
+          },
+          {
+            "title": "Voorbeeld en grens",
+            "text": "Een gefaseerde hotelpilot kan uitstoot in één locatie verminderen terwijl oude installaties elders blijven staan. Publiceer het beperkte resultaat of stel de brede campagne uit; beide kunnen verdedigbaar zijn. Laat geen deelbewijs voor de hele keten doorgaan. Onderzoek daarnaast volumes, langlopende contracten en toekomstige gevolgen. Een ondertekend veranderplan laat zien wat men van plan is, maar pas vervolggegevens tonen welk werk en welk resultaat echt gerealiseerd werden."
+          }
+        ]
+      }
+    }
+  ]
+}

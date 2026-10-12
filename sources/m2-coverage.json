@@ -1,0 +1,1863 @@
+{
+  "schemaVersion": 1,
+  "lessonId": "m2",
+  "coverageKind": "Author-audited proposition, example, exercise, figure and media learning-function map; not proof of learning equivalence.",
+  "originalCourse": "sources/business-ethics-course.json",
+  "chapterFile": "dist/chapters/m2.json",
+  "chapterSha256": "12e57cd566bbaeaabce66f8e7ac9ed8cc3e7acab2f14d7c447e109be9353af32",
+  "status": {
+    "authoringSchemaValid": true,
+    "coreTextAndExerciseFunctionsMapped": true,
+    "fullReplacementClaim": "Not certified solely by this map. Required source projections and all delivered world encounters need runtime/fidelity inspection; learning outcomes need later evaluation.",
+    "sourceMediaGaps": [
+      {
+        "sourceBlock": 4,
+        "status": "transcript-mirror-read",
+        "resolution": "Authored world teaching; original media available for review",
+        "gap": "Transcript mirror reviewed; primary maker identifies the same video. Primary spoken/visual verification is less direct."
+      },
+      {
+        "sourceBlock": 12,
+        "status": "required-projection-unverified",
+        "resolution": "Required in-world original source projection plus case application",
+        "gap": "Unique full spoken details are not fully audited; required original source projection must be delivered and its application checked."
+      },
+      {
+        "sourceBlock": 23,
+        "status": "required-projection-unverified",
+        "resolution": "Required in-world original source projection plus case application",
+        "gap": "Unique full spoken details are not fully audited; required original source projection must be delivered and its application checked."
+      },
+      {
+        "sourceBlock": 35,
+        "status": "required-projection-unverified",
+        "resolution": "Required in-world original source projection plus case application",
+        "gap": "Unique full spoken details are not fully audited; required original source projection must be delivered and its application checked."
+      },
+      {
+        "sourceBlock": 43,
+        "status": "required-projection-unverified",
+        "resolution": "Required in-world original source projection plus case application",
+        "gap": "Unique full spoken details are not fully audited; required original source projection must be delivered and its application checked."
+      }
+    ],
+    "requiresLearnerFeedbackForBasicQuality": false
+  },
+  "counts": {
+    "areas": 6,
+    "worldTeachingBeats": 37,
+    "npcs": 12,
+    "npcTopics": 48,
+    "npcFollowups": 144,
+    "corePropositions": 43,
+    "originalExercisesAudited": 12,
+    "sourceMediaAudited": 7,
+    "figureFunctionsAudited": 1,
+    "knowledgeCheckItems": 8,
+    "sourceProjections": 5,
+    "npcTheorySections": 36,
+    "knowledgeCheckAlternatives": 32
+  },
+  "propositions": [
+    {
+      "id": "m2-src0-p1",
+      "sourceBlocks": [
+        0
+      ],
+      "statement": "Systeemgedrag ontstaat via menselijke keuzes, interpretaties en psychologische reacties op schaal.",
+      "teachingEncounters": [
+        {
+          "id": "m2-01-b1",
+          "type": "inspect",
+          "title": "Een bekende naam, nieuwe omstandigheden",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m2-01-b3",
+          "type": "connect",
+          "title": "Van dagtarget naar systeemgedrag",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m2-06-b2",
+          "type": "connect",
+          "title": "Maak de kleine handelingsruimte bruikbaar",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m2-k1",
+        "m2-k8"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m2-src0-p2",
+      "sourceBlocks": [
+        0
+      ],
+      "statement": "Context en gedeelde inrichting kunnen patronen vormen die geen individuele deelnemer expliciet wenst.",
+      "teachingEncounters": [
+        {
+          "id": "m2-01-b1",
+          "type": "inspect",
+          "title": "Een bekende naam, nieuwe omstandigheden",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m2-01-b3",
+          "type": "connect",
+          "title": "Van dagtarget naar systeemgedrag",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m2-06-b2",
+          "type": "connect",
+          "title": "Maak de kleine handelingsruimte bruikbaar",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m2-k1",
+        "m2-k8"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m2-src5-p1",
+      "sourceBlocks": [
+        5
+      ],
+      "statement": "Mensen handelen via intuïtie, emotie, ervaring, beperkte informatie en sociale context, niet als perfect rationele individuen.",
+      "teachingEncounters": [
+        {
+          "id": "m2-01-b1",
+          "type": "inspect",
+          "title": "Een bekende naam, nieuwe omstandigheden",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m2-01-b2",
+          "type": "sort",
+          "title": "Welke dossiers vragen een pauze?",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m2-01-b3",
+          "type": "connect",
+          "title": "Van dagtarget naar systeemgedrag",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m2-k1"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m2-src5-p2",
+      "sourceBlocks": [
+        5
+      ],
+      "statement": "Routines en heuristieken besparen aandacht; een relevant correctiemoment is nodig wanneer omstandigheden veranderen.",
+      "teachingEncounters": [
+        {
+          "id": "m2-01-b1",
+          "type": "inspect",
+          "title": "Een bekende naam, nieuwe omstandigheden",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m2-01-b2",
+          "type": "sort",
+          "title": "Welke dossiers vragen een pauze?",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m2-01-b3",
+          "type": "connect",
+          "title": "Van dagtarget naar systeemgedrag",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m2-k1"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m2-src5-p3",
+      "sourceBlocks": [
+        5
+      ],
+      "statement": "Tijdsdruk en groepsverwachtingen kunnen afwijken sociaal kostbaar maken.",
+      "teachingEncounters": [
+        {
+          "id": "m2-01-b1",
+          "type": "inspect",
+          "title": "Een bekende naam, nieuwe omstandigheden",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m2-01-b2",
+          "type": "sort",
+          "title": "Welke dossiers vragen een pauze?",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m2-01-b3",
+          "type": "connect",
+          "title": "Van dagtarget naar systeemgedrag",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m2-k1"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m2-src8-p1",
+      "sourceBlocks": [
+        8
+      ],
+      "statement": "Reflectie hangt mede af van beschikbare tijd, hiërarchie, informatie en normen.",
+      "teachingEncounters": [
+        {
+          "id": "m2-01-b3",
+          "type": "connect",
+          "title": "Van dagtarget naar systeemgedrag",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m2-01-b4",
+          "type": "build",
+          "title": "Bouw de wijzigingsroute",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m2-03-b1",
+          "type": "inspect",
+          "title": "Publieke stilte, private twijfel",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        }
+      ],
+      "assessmentReferences": [
+        "m2-k1",
+        "m2-k7"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m2-src8-p2",
+      "sourceBlocks": [
+        8
+      ],
+      "statement": "Een schadelijke handeling kan binnen de context logisch of veilig voelen zonder instemming met het gevolg.",
+      "teachingEncounters": [
+        {
+          "id": "m2-01-b3",
+          "type": "connect",
+          "title": "Van dagtarget naar systeemgedrag",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m2-01-b4",
+          "type": "build",
+          "title": "Bouw de wijzigingsroute",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m2-03-b1",
+          "type": "inspect",
+          "title": "Publieke stilte, private twijfel",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        }
+      ],
+      "assessmentReferences": [
+        "m2-k1",
+        "m2-k7"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m2-src16-p1",
+      "sourceBlocks": [
+        16
+      ],
+      "statement": "Cognitieve dissonantie kan ontstaan wanneer handelen en waarden botsen.",
+      "teachingEncounters": [
+        {
+          "id": "m2-02-b1",
+          "type": "inspect",
+          "title": "Het toestel en de woorden",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m2-02-b2",
+          "type": "sort",
+          "title": "Decodeer de opdracht",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m2-02-b3",
+          "type": "order",
+          "title": "Het protocol reist door handen",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m2-02-b4",
+          "type": "connect",
+          "title": "Waarom blijft het gedrag gelijk?",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m2-k2"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m2-src16-p2",
+      "sourceBlocks": [
+        16
+      ],
+      "statement": "Morele ontkoppeling verandert een geruststellend verhaal zonder de handeling te hoeven veranderen.",
+      "teachingEncounters": [
+        {
+          "id": "m2-02-b1",
+          "type": "inspect",
+          "title": "Het toestel en de woorden",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m2-02-b2",
+          "type": "sort",
+          "title": "Decodeer de opdracht",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m2-02-b3",
+          "type": "order",
+          "title": "Het protocol reist door handen",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m2-02-b4",
+          "type": "connect",
+          "title": "Waarom blijft het gedrag gelijk?",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m2-k2"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m2-src16-p3",
+      "sourceBlocks": [
+        16
+      ],
+      "statement": "Herdefiniëring, minimalisering en verplaatsing of verdunning van verantwoordelijkheid zijn onderscheiden mechanismen.",
+      "teachingEncounters": [
+        {
+          "id": "m2-02-b1",
+          "type": "inspect",
+          "title": "Het toestel en de woorden",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m2-02-b2",
+          "type": "sort",
+          "title": "Decodeer de opdracht",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m2-02-b3",
+          "type": "order",
+          "title": "Het protocol reist door handen",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m2-02-b4",
+          "type": "connect",
+          "title": "Waarom blijft het gedrag gelijk?",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m2-k2"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m2-src16-p4",
+      "sourceBlocks": [
+        16
+      ],
+      "statement": "Goodpaster helpt de spanning tussen individuele morele zorg en economisch ingerichte organisatie begrijpen.",
+      "teachingEncounters": [
+        {
+          "id": "m2-02-b1",
+          "type": "inspect",
+          "title": "Het toestel en de woorden",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m2-02-b2",
+          "type": "sort",
+          "title": "Decodeer de opdracht",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m2-02-b3",
+          "type": "order",
+          "title": "Het protocol reist door handen",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m2-02-b4",
+          "type": "connect",
+          "title": "Waarom blijft het gedrag gelijk?",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m2-k2"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m2-src19-p1",
+      "sourceBlocks": [
+        19
+      ],
+      "statement": "Conformiteit, groepsdenken en pluralistische onwetendheid zijn verwant maar verschillend.",
+      "teachingEncounters": [
+        {
+          "id": "m2-03-b1",
+          "type": "inspect",
+          "title": "Publieke stilte, private twijfel",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m2-03-b2",
+          "type": "connect",
+          "title": "Maak de stille lus zichtbaar",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m2-03-b3",
+          "type": "order",
+          "title": "Een uitzondering wordt de norm",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m2-k3",
+        "m2-k4"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m2-src19-p2",
+      "sourceBlocks": [
+        19
+      ],
+      "statement": "Een verkeerde inschatting van gedeelde steun kan een collectief actieprobleem in stand houden.",
+      "teachingEncounters": [
+        {
+          "id": "m2-03-b1",
+          "type": "inspect",
+          "title": "Publieke stilte, private twijfel",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m2-03-b2",
+          "type": "connect",
+          "title": "Maak de stille lus zichtbaar",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m2-03-b3",
+          "type": "order",
+          "title": "Een uitzondering wordt de norm",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m2-k3",
+        "m2-k4"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m2-src19-p3",
+      "sourceBlocks": [
+        19
+      ],
+      "statement": "Herhaling, stilte en beloning kunnen een aanvankelijke afwijking normaliseren.",
+      "teachingEncounters": [
+        {
+          "id": "m2-03-b1",
+          "type": "inspect",
+          "title": "Publieke stilte, private twijfel",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m2-03-b2",
+          "type": "connect",
+          "title": "Maak de stille lus zichtbaar",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m2-03-b3",
+          "type": "order",
+          "title": "Een uitzondering wordt de norm",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m2-k3",
+        "m2-k4"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m2-src22-p1",
+      "sourceBlocks": [
+        22
+      ],
+      "statement": "Structuren maken keuzes makkelijk of riskant; individuele schuld alleen verklaart de uitkomst niet.",
+      "teachingEncounters": [
+        {
+          "id": "m2-03-b2",
+          "type": "connect",
+          "title": "Maak de stille lus zichtbaar",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m2-03-b4",
+          "type": "build",
+          "title": "Herstel een bruikbaar overleg",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m2-06-b1",
+          "type": "inspect",
+          "title": "Een kleine vraag met grote kosten",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m2-06-b2",
+          "type": "connect",
+          "title": "Maak de kleine handelingsruimte bruikbaar",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m2-k7",
+        "m2-k8"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m2-src22-p2",
+      "sourceBlocks": [
+        22
+      ],
+      "statement": "Agency bestaat in relaties met regels, middelen, normen en andere mensen.",
+      "teachingEncounters": [
+        {
+          "id": "m2-03-b2",
+          "type": "connect",
+          "title": "Maak de stille lus zichtbaar",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m2-03-b4",
+          "type": "build",
+          "title": "Herstel een bruikbaar overleg",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m2-06-b1",
+          "type": "inspect",
+          "title": "Een kleine vraag met grote kosten",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m2-06-b2",
+          "type": "connect",
+          "title": "Maak de kleine handelingsruimte bruikbaar",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m2-k7",
+        "m2-k8"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m2-src25-p1",
+      "sourceBlocks": [
+        25
+      ],
+      "statement": "Mensen kunnen geleidelijk in praktijken groeien zonder die hele route expliciet te kiezen.",
+      "teachingEncounters": [
+        {
+          "id": "m2-04-b1",
+          "type": "inspect",
+          "title": "Een handige functie wordt een dagelijks ritme",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m2-04-b2",
+          "type": "order",
+          "title": "Van herhaling naar vanzelfsprekendheid",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m2-04-b4",
+          "type": "connect",
+          "title": "Van gegevens naar zichtbaarheid",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m2-k5",
+        "m2-k6"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m2-src25-p2",
+      "sourceBlocks": [
+        25
+      ],
+      "statement": "Infrastructuur, sociale en professionele verwachtingen kunnen gebruik blijven sturen ook bij twijfel over welzijn.",
+      "teachingEncounters": [
+        {
+          "id": "m2-04-b1",
+          "type": "inspect",
+          "title": "Een handige functie wordt een dagelijks ritme",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m2-04-b2",
+          "type": "order",
+          "title": "Van herhaling naar vanzelfsprekendheid",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m2-04-b4",
+          "type": "connect",
+          "title": "Van gegevens naar zichtbaarheid",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m2-k5",
+        "m2-k6"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m2-src25-p3",
+      "sourceBlocks": [
+        25
+      ],
+      "statement": "Gewoontes kunnen normen en vervolgens verwachtingen helpen vormen.",
+      "teachingEncounters": [
+        {
+          "id": "m2-04-b1",
+          "type": "inspect",
+          "title": "Een handige functie wordt een dagelijks ritme",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m2-04-b2",
+          "type": "order",
+          "title": "Van herhaling naar vanzelfsprekendheid",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m2-04-b4",
+          "type": "connect",
+          "title": "Van gegevens naar zichtbaarheid",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m2-k5",
+        "m2-k6"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m2-src25-p4",
+      "sourceBlocks": [
+        25
+      ],
+      "statement": "Een optimaliserend systeem verklaart een patroon zonder dat een complot of slechte intentie bewezen is.",
+      "teachingEncounters": [
+        {
+          "id": "m2-04-b1",
+          "type": "inspect",
+          "title": "Een handige functie wordt een dagelijks ritme",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m2-04-b2",
+          "type": "order",
+          "title": "Van herhaling naar vanzelfsprekendheid",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m2-04-b4",
+          "type": "connect",
+          "title": "Van gegevens naar zichtbaarheid",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m2-k5",
+        "m2-k6"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m2-src28-p1",
+      "sourceBlocks": [
+        28
+      ],
+      "statement": "Aanbod, reclame, rangschikking en standaarden kunnen vraag en behoeften mede vormen.",
+      "teachingEncounters": [
+        {
+          "id": "m2-04-b1",
+          "type": "inspect",
+          "title": "Een handige functie wordt een dagelijks ritme",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m2-04-b3",
+          "type": "sort",
+          "title": "Wat probeert de boodschap te doen?",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m2-04-b4",
+          "type": "connect",
+          "title": "Van gegevens naar zichtbaarheid",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m2-04-b5",
+          "type": "build",
+          "title": "Maak het menu onderzoekbaar",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m2-05-b1",
+          "type": "inspect",
+          "title": "Drie modellen, één ecosysteem",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        }
+      ],
+      "assessmentReferences": [
+        "m2-k5",
+        "m2-k6"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m2-src28-p2",
+      "sourceBlocks": [
+        28
+      ],
+      "statement": "Identiteitsassociaties en sociale vergelijking zijn andere aanknopingspunten dan een controleerbare functieclaim.",
+      "teachingEncounters": [
+        {
+          "id": "m2-04-b1",
+          "type": "inspect",
+          "title": "Een handige functie wordt een dagelijks ritme",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m2-04-b3",
+          "type": "sort",
+          "title": "Wat probeert de boodschap te doen?",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m2-04-b4",
+          "type": "connect",
+          "title": "Van gegevens naar zichtbaarheid",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m2-04-b5",
+          "type": "build",
+          "title": "Maak het menu onderzoekbaar",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m2-05-b1",
+          "type": "inspect",
+          "title": "Drie modellen, één ecosysteem",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        }
+      ],
+      "assessmentReferences": [
+        "m2-k5",
+        "m2-k6"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m2-src28-p3",
+      "sourceBlocks": [
+        28
+      ],
+      "statement": "Distributie, data en infrastructuur kunnen toetreding en praktische keuzevrijheid begrenzen.",
+      "teachingEncounters": [
+        {
+          "id": "m2-04-b1",
+          "type": "inspect",
+          "title": "Een handige functie wordt een dagelijks ritme",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m2-04-b3",
+          "type": "sort",
+          "title": "Wat probeert de boodschap te doen?",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m2-04-b4",
+          "type": "connect",
+          "title": "Van gegevens naar zichtbaarheid",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m2-04-b5",
+          "type": "build",
+          "title": "Maak het menu onderzoekbaar",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m2-05-b1",
+          "type": "inspect",
+          "title": "Drie modellen, één ecosysteem",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        }
+      ],
+      "assessmentReferences": [
+        "m2-k5",
+        "m2-k6"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m2-src33-p1",
+      "sourceBlocks": [
+        33
+      ],
+      "statement": "Reclame kan psychologische kwetsbaarheid, aspiratie en behoefte aan bevestiging benutten.",
+      "teachingEncounters": [
+        {
+          "id": "m2-04-b3",
+          "type": "sort",
+          "title": "Wat probeert de boodschap te doen?",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m2-04-b4",
+          "type": "connect",
+          "title": "Van gegevens naar zichtbaarheid",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m2-04-b5",
+          "type": "build",
+          "title": "Maak het menu onderzoekbaar",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m2-k5"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m2-src33-p2",
+      "sourceBlocks": [
+        33
+      ],
+      "statement": "Platforms kunnen sturing via individueel gemeten gedrag aanpassen.",
+      "teachingEncounters": [
+        {
+          "id": "m2-04-b3",
+          "type": "sort",
+          "title": "Wat probeert de boodschap te doen?",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m2-04-b4",
+          "type": "connect",
+          "title": "Van gegevens naar zichtbaarheid",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m2-04-b5",
+          "type": "build",
+          "title": "Maak het menu onderzoekbaar",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m2-k5"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m2-src33-p3",
+      "sourceBlocks": [
+        33
+      ],
+      "statement": "Autonomie, kwetsbaarheid, eerlijkheid en ongelijke invloed vragen afzonderlijke beoordeling.",
+      "teachingEncounters": [
+        {
+          "id": "m2-04-b3",
+          "type": "sort",
+          "title": "Wat probeert de boodschap te doen?",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m2-04-b4",
+          "type": "connect",
+          "title": "Van gegevens naar zichtbaarheid",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m2-04-b5",
+          "type": "build",
+          "title": "Maak het menu onderzoekbaar",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m2-k5"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m2-src37-p1",
+      "sourceBlocks": [
+        37
+      ],
+      "statement": "Monopolie of duopolie en dominante infrastructuur kunnen keuze en afhankelijkheid begrenzen.",
+      "teachingEncounters": [
+        {
+          "id": "m2-05-b1",
+          "type": "inspect",
+          "title": "Drie modellen, één ecosysteem",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m2-05-b2",
+          "type": "sort",
+          "title": "Optie, drempel of aanname?",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m2-05-b4",
+          "type": "build",
+          "title": "Maak overstappen toetsbaar",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m2-k6"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m2-src37-p2",
+      "sourceBlocks": [
+        37
+      ],
+      "statement": "Interfaces, accounts, abonnementen, routines en sociale relaties kunnen ecosysteemafhankelijkheid versterken.",
+      "teachingEncounters": [
+        {
+          "id": "m2-05-b1",
+          "type": "inspect",
+          "title": "Drie modellen, één ecosysteem",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m2-05-b2",
+          "type": "sort",
+          "title": "Optie, drempel of aanname?",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m2-05-b4",
+          "type": "build",
+          "title": "Maak overstappen toetsbaar",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m2-k6"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m2-src37-p3",
+      "sourceBlocks": [
+        37
+      ],
+      "statement": "Formele productvariatie is niet hetzelfde als een praktisch bereikbare uitweg.",
+      "teachingEncounters": [
+        {
+          "id": "m2-05-b1",
+          "type": "inspect",
+          "title": "Drie modellen, één ecosysteem",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m2-05-b2",
+          "type": "sort",
+          "title": "Optie, drempel of aanname?",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m2-05-b4",
+          "type": "build",
+          "title": "Maak overstappen toetsbaar",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m2-k6"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m2-src40-p1",
+      "sourceBlocks": [
+        40
+      ],
+      "statement": "Macht werkt ook via verwachtingen en een genormaliseerd beeld dat er geen alternatief bestaat.",
+      "teachingEncounters": [
+        {
+          "id": "m2-05-b1",
+          "type": "inspect",
+          "title": "Drie modellen, één ecosysteem",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m2-05-b2",
+          "type": "sort",
+          "title": "Optie, drempel of aanname?",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m2-05-b3",
+          "type": "connect",
+          "title": "Dezelfde regel, een ander perspectief",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m2-k6",
+        "m2-k7"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m2-src40-p2",
+      "sourceBlocks": [
+        40
+      ],
+      "statement": "Psychologische en formele drempels moeten naast werkelijke alternatieven worden onderzocht.",
+      "teachingEncounters": [
+        {
+          "id": "m2-05-b1",
+          "type": "inspect",
+          "title": "Drie modellen, één ecosysteem",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m2-05-b2",
+          "type": "sort",
+          "title": "Optie, drempel of aanname?",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m2-05-b3",
+          "type": "connect",
+          "title": "Dezelfde regel, een ander perspectief",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m2-k6",
+        "m2-k7"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m2-src42-p1",
+      "sourceBlocks": [
+        42
+      ],
+      "statement": "Morele moed kan een vraag, weigering of gerichte vertraging zijn; zij is niet alleen heroïsch gedrag.",
+      "teachingEncounters": [
+        {
+          "id": "m2-06-b1",
+          "type": "inspect",
+          "title": "Een kleine vraag met grote kosten",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m2-06-b2",
+          "type": "connect",
+          "title": "Maak de kleine handelingsruimte bruikbaar",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m2-06-b4",
+          "type": "experiment",
+          "title": "Welke route kan de zorg bereiken?",
+          "teachingMechanism": "prediction, controlled comparison and interpretation"
+        },
+        {
+          "id": "m2-06-b5",
+          "type": "build",
+          "title": "Maak de pilot uitvoerbaar",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m2-k8"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m2-src42-p2",
+      "sourceBlocks": [
+        42
+      ],
+      "statement": "Afwijken kan sociale en professionele kosten hebben in routines gericht op snelheid en continuïteit.",
+      "teachingEncounters": [
+        {
+          "id": "m2-06-b1",
+          "type": "inspect",
+          "title": "Een kleine vraag met grote kosten",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m2-06-b2",
+          "type": "connect",
+          "title": "Maak de kleine handelingsruimte bruikbaar",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m2-06-b4",
+          "type": "experiment",
+          "title": "Welke route kan de zorg bereiken?",
+          "teachingMechanism": "prediction, controlled comparison and interpretation"
+        },
+        {
+          "id": "m2-06-b5",
+          "type": "build",
+          "title": "Maak de pilot uitvoerbaar",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m2-k8"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m2-src42-p3",
+      "sourceBlocks": [
+        42
+      ],
+      "statement": "Veiligheid, steun, erkenning, reflectietijd en taal kunnen handelingsruimte ondersteunen.",
+      "teachingEncounters": [
+        {
+          "id": "m2-06-b1",
+          "type": "inspect",
+          "title": "Een kleine vraag met grote kosten",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m2-06-b2",
+          "type": "connect",
+          "title": "Maak de kleine handelingsruimte bruikbaar",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m2-06-b4",
+          "type": "experiment",
+          "title": "Welke route kan de zorg bereiken?",
+          "teachingMechanism": "prediction, controlled comparison and interpretation"
+        },
+        {
+          "id": "m2-06-b5",
+          "type": "build",
+          "title": "Maak de pilot uitvoerbaar",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m2-k8"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m2-src46-p1",
+      "sourceBlocks": [
+        46
+      ],
+      "statement": "Macht en machteloosheid kunnen dezelfde structuur verschillend doen voelen.",
+      "teachingEncounters": [
+        {
+          "id": "m2-05-b3",
+          "type": "connect",
+          "title": "Dezelfde regel, een ander perspectief",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m2-03-b4",
+          "type": "build",
+          "title": "Herstel een bruikbaar overleg",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m2-k7"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m2-src46-p2",
+      "sourceBlocks": [
+        46
+      ],
+      "statement": "Meer invloed en verschillen in informatie en alternatieven maken verantwoordelijkheid ongelijk verdeeld.",
+      "teachingEncounters": [
+        {
+          "id": "m2-05-b3",
+          "type": "connect",
+          "title": "Dezelfde regel, een ander perspectief",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m2-03-b4",
+          "type": "build",
+          "title": "Herstel een bruikbaar overleg",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m2-k7"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m2-src46-p3",
+      "sourceBlocks": [
+        46
+      ],
+      "statement": "Psychologische veiligheid kan eerder gemiste gevolgen en kritiek zichtbaar maken; tendensen zijn geen universele karakterwetten.",
+      "teachingEncounters": [
+        {
+          "id": "m2-05-b3",
+          "type": "connect",
+          "title": "Dezelfde regel, een ander perspectief",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m2-03-b4",
+          "type": "build",
+          "title": "Herstel een bruikbaar overleg",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m2-k7"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m2-src50-p1",
+      "sourceBlocks": [
+        50
+      ],
+      "statement": "Agency betekent handelen binnen structurele grenzen, niet daarbuiten en niet vanzelf totale machteloosheid.",
+      "teachingEncounters": [
+        {
+          "id": "m2-06-b1",
+          "type": "inspect",
+          "title": "Een kleine vraag met grote kosten",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m2-06-b2",
+          "type": "connect",
+          "title": "Maak de kleine handelingsruimte bruikbaar",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m2-06-b5",
+          "type": "build",
+          "title": "Maak de pilot uitvoerbaar",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m2-k8"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m2-src50-p2",
+      "sourceBlocks": [
+        50
+      ],
+      "statement": "Vragen, informatie, vertraging, interpretatie, alternatieven en relaties kunnen kleine of gezamenlijke verschuivingen mogelijk maken.",
+      "teachingEncounters": [
+        {
+          "id": "m2-06-b1",
+          "type": "inspect",
+          "title": "Een kleine vraag met grote kosten",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m2-06-b2",
+          "type": "connect",
+          "title": "Maak de kleine handelingsruimte bruikbaar",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m2-06-b5",
+          "type": "build",
+          "title": "Maak de pilot uitvoerbaar",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m2-k8"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m2-src53-p1",
+      "sourceBlocks": [
+        53
+      ],
+      "statement": "Normverandering kan verlopen via frictie, gedeelde twijfel, publieke taal, alternatieven en andere verwachtingen.",
+      "teachingEncounters": [
+        {
+          "id": "m2-06-b3",
+          "type": "order",
+          "title": "Van frictie naar een nieuwe norm",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m2-06-b5",
+          "type": "build",
+          "title": "Maak de pilot uitvoerbaar",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m2-06.finale",
+        "m2-k8"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m2-src53-p2",
+      "sourceBlocks": [
+        53
+      ],
+      "statement": "De geschiedenis is niet noodzakelijk lineair en kan door externe druk of omstandigheden veranderen.",
+      "teachingEncounters": [
+        {
+          "id": "m2-06-b3",
+          "type": "order",
+          "title": "Van frictie naar een nieuwe norm",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m2-06-b5",
+          "type": "build",
+          "title": "Maak de pilot uitvoerbaar",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m2-06.finale",
+        "m2-k8"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m2-src55-p1",
+      "sourceBlocks": [
+        55
+      ],
+      "statement": "Mens en systeem beïnvloeden elkaar; individuele en structurele ethische analyse vullen elkaar aan.",
+      "teachingEncounters": [
+        {
+          "id": "m2-06-b2",
+          "type": "connect",
+          "title": "Maak de kleine handelingsruimte bruikbaar",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m2-06-b4",
+          "type": "experiment",
+          "title": "Welke route kan de zorg bereiken?",
+          "teachingMechanism": "prediction, controlled comparison and interpretation"
+        },
+        {
+          "id": "m2-06-b5",
+          "type": "build",
+          "title": "Maak de pilot uitvoerbaar",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m2.chapterFinale",
+        "m2-k8"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m2-src55-p2",
+      "sourceBlocks": [
+        55
+      ],
+      "statement": "Verandering ontstaat via mensen binnen structuren en vraagt beoordeling van zowel ruimte als daadwerkelijke gevolgen.",
+      "teachingEncounters": [
+        {
+          "id": "m2-06-b2",
+          "type": "connect",
+          "title": "Maak de kleine handelingsruimte bruikbaar",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m2-06-b4",
+          "type": "experiment",
+          "title": "Welke route kan de zorg bereiken?",
+          "teachingMechanism": "prediction, controlled comparison and interpretation"
+        },
+        {
+          "id": "m2-06-b5",
+          "type": "build",
+          "title": "Maak de pilot uitvoerbaar",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m2.chapterFinale",
+        "m2-k8"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    }
+  ],
+  "exerciseAudit": [
+    {
+      "sourceBlock": 2,
+      "type": "quiz",
+      "question": " Welke uitspraken beschrijven correct hoe menselijk gedrag zich manifesteert binnen economische en organisatorische systemen ",
+      "originalFeedback": "De twee onjuiste uitspraken gaan allebei uit van een rationele, autonome mens. De module laat juist zien dat context — tijdsdruk, groepsnormen, de manier waarop een keuze wordt aangeboden — vaak zwaarder weegt dan overtuiging.",
+      "reviewStatus": "Question, correct answer(s), matching distinctions and feedback read",
+      "uniqueLearningFunction": "Answer-feedback mechanism and conceptual distinction are represented by the listed world actions; original exercise remains a review option.",
+      "mappedTo": [
+        "m2-01-b1",
+        "m2-01-b3"
+      ]
+    },
+    {
+      "sourceBlock": 6,
+      "type": "quiz",
+      "question": " Waarom vertrouwen mensen in drukke, complexe organisaties zo sterk op routines en vuistregels? ",
+      "originalFeedback": "De volgorde is verrassend: we handelen eerst en zoeken de redenering er daarna bij. Dat maakt vuistregels niet dom — ze zijn efficiënt. Het probleem ontstaat pas als er geen moment meer is om ze te toetsen.",
+      "reviewStatus": "Question, correct answer(s), matching distinctions and feedback read",
+      "uniqueLearningFunction": "Answer-feedback mechanism and conceptual distinction are represented by the listed world actions; original exercise remains a review option.",
+      "mappedTo": [
+        "m2-01-b2",
+        "m2-01-b4"
+      ]
+    },
+    {
+      "sourceBlock": 10,
+      "type": "quiz",
+      "question": " Waarom leidt intuïtief denken binnen complexe systemen vaker tot problematische uitkomsten dan tot evenwichtige besluitvorming? ",
+      "originalFeedback": "Intuïtie is niet het probleem; het ontbreken van een correctiemoment is dat. In een systeem dat vaart en volume beloont, is er zelden een plek ingebouwd waar iemand hardop kan vragen of het nog klopt.",
+      "reviewStatus": "Question, correct answer(s), matching distinctions and feedback read",
+      "uniqueLearningFunction": "Answer-feedback mechanism and conceptual distinction are represented by the listed world actions; original exercise remains a review option.",
+      "mappedTo": [
+        "m2-01-b4"
+      ]
+    },
+    {
+      "sourceBlock": 17,
+      "type": "match",
+      "question": " Bandura beschrijft verschillende manieren waarop mensen zich moreel ontkoppelen. Koppel elk mechanisme aan het voorbeeld. ",
+      "originalFeedback": "Bandura’s punt is dat dit geen kwade wil is maar zelfbescherming. Niet het gedrag verandert, maar het verhaal erover — en dat gebeurt meestal zonder dat iemand het doorheeft.",
+      "reviewStatus": "Question, correct answer(s), matching distinctions and feedback read",
+      "uniqueLearningFunction": "Answer-feedback mechanism and conceptual distinction are represented by the listed world actions; original exercise remains a review option.",
+      "mappedTo": [
+        "m2-02-b2",
+        "m2-02-b3",
+        "m2-03-b3"
+      ]
+    },
+    {
+      "sourceBlock": 20,
+      "type": "quiz",
+      "question": " Wat maakt collectieve illusies volgens de theorie zo hardnekkig in groepen? ",
+      "originalFeedback": "Bij pluralistische onwetendheid twijfelt bijna iedereen in stilte, maar spreekt niemand zich uit — waardoor iedereen denkt de enige te zijn. De groep houdt zo een norm in stand die vrijwel niemand echt aanhangt.",
+      "reviewStatus": "Question, correct answer(s), matching distinctions and feedback read",
+      "uniqueLearningFunction": "Answer-feedback mechanism and conceptual distinction are represented by the listed world actions; original exercise remains a review option.",
+      "mappedTo": [
+        "m2-03-b1",
+        "m2-03-b2"
+      ]
+    },
+    {
+      "sourceBlock": 26,
+      "type": "quiz",
+      "question": " De module schrijft: ‘Dat is geen complot, het is systeemlogica.’ Wat wordt daarmee bedoeld? ",
+      "originalFeedback": "Er hoeft niemand iets kwaads te willen. Een systeem dat op aandacht optimaliseert produceert vanzelf gedrag dat aandacht oplevert — of dat nu goed voor je is of niet.",
+      "reviewStatus": "Question, correct answer(s), matching distinctions and feedback read",
+      "uniqueLearningFunction": "Answer-feedback mechanism and conceptual distinction are represented by the listed world actions; original exercise remains a review option.",
+      "mappedTo": [
+        "m2-04-b4"
+      ]
+    },
+    {
+      "sourceBlock": 30,
+      "type": "quiz",
+      "question": " Welke verklaring vat het best samen hoe de module de combinatie beschrijft van (1) gedrag dat mensen niet expliciet kiezen en (2) het idee dat aanbod steeds vaker vraag en behoeften vormt? ",
+      "originalFeedback": "Let op de volgorde. Het gaat niet alleen om beïnvloede voorkeuren, maar om een omgeving waarin de ene optie gemakkelijk is gemaakt en de andere lastig. Je kiest nog steeds — maar binnen een kader dat iemand anders heeft neergezet.",
+      "reviewStatus": "Question, correct answer(s), matching distinctions and feedback read",
+      "uniqueLearningFunction": "Answer-feedback mechanism and conceptual distinction are represented by the listed world actions; original exercise remains a review option.",
+      "mappedTo": [
+        "m2-04-b1",
+        "m2-04-b5"
+      ]
+    },
+    {
+      "sourceBlock": 38,
+      "type": "quiz",
+      "question": " Wat maakt keuzevrijheid in dit kader van consumeren volgens de module problematisch? ",
+      "originalFeedback": "De vraag is niet óf je kunt kiezen, maar wie het menu heeft samengesteld. Zolang je alleen de opties ziet die iemand voor je heeft klaargezet, is de keuze echt en de vrijheid beperkt.",
+      "reviewStatus": "Question, correct answer(s), matching distinctions and feedback read",
+      "uniqueLearningFunction": "Answer-feedback mechanism and conceptual distinction are represented by the listed world actions; original exercise remains a review option.",
+      "mappedTo": [
+        "m2-05-b1",
+        "m2-05-b4"
+      ]
+    },
+    {
+      "sourceBlock": 44,
+      "type": "quiz",
+      "question": " Waarom is morele moed binnen organisaties volgens de module zo zeldzaam? ",
+      "originalFeedback": "Let op de omkering in de tekst: moed is meestal niet dramatisch. Het is een vraag stellen die niemand stelde, of een beslissing vertragen. Klein gedrag, hoge sociale kosten.",
+      "reviewStatus": "Question, correct answer(s), matching distinctions and feedback read",
+      "uniqueLearningFunction": "Answer-feedback mechanism and conceptual distinction are represented by the listed world actions; original exercise remains a review option.",
+      "mappedTo": [
+        "m2-06-b1",
+        "m2-06-b4"
+      ]
+    },
+    {
+      "sourceBlock": 47,
+      "type": "quiz",
+      "question": " Waarom is macht volgens de module moeilijk te herkennen voor wie haar bezit? ",
+      "originalFeedback": "De asymmetrie zit in wat normaal voélt. Wie ruimte heeft merkt de muren niet. Daarom is het oordeel van wie weinig macht heeft vaak scherper — niet omdat die persoon beter kijkt, maar omdat de muur voelbaar is.",
+      "reviewStatus": "Question, correct answer(s), matching distinctions and feedback read",
+      "uniqueLearningFunction": "Answer-feedback mechanism and conceptual distinction are represented by the listed world actions; original exercise remains a review option.",
+      "mappedTo": [
+        "m2-05-b3"
+      ]
+    },
+    {
+      "sourceBlock": 51,
+      "type": "quiz",
+      "question": " Hoe positioneert de module  agency  ten opzichte van de sterke structurele krachten die gedrag sturen (infrastructuur, platformen, normen en aanbodgestuurde behoeften)? ",
+      "originalFeedback": "Dit is de spil van de module. Niet ‘de mens is machteloos’ en niet ‘iedereen kiest zelf’, maar: je handelt binnen kaders, en juist daar zit ruimte om een patroon zichtbaar te maken of te verschuiven.",
+      "reviewStatus": "Question, correct answer(s), matching distinctions and feedback read",
+      "uniqueLearningFunction": "Answer-feedback mechanism and conceptual distinction are represented by the listed world actions; original exercise remains a review option.",
+      "mappedTo": [
+        "m2-06-b2"
+      ]
+    },
+    {
+      "sourceBlock": 56,
+      "type": "quiz",
+      "question": " Deze module ging over de mens binnen het systeem. Welke conclusies passen bij wat je hebt gelezen? (meerdere antwoorden juist) ",
+      "originalFeedback": "De twee onjuiste opties leunen allebei op dezelfde aanname: dat overtuiging vanzelf tot handelen leidt. De module laat juist zien dat daar een systeem tussen zit.",
+      "reviewStatus": "Question, correct answer(s), matching distinctions and feedback read",
+      "uniqueLearningFunction": "Answer-feedback mechanism and conceptual distinction are represented by the listed world actions; original exercise remains a review option.",
+      "mappedTo": [
+        "m2-06-b2",
+        "m2-06-b5"
+      ]
+    }
+  ],
+  "mediaAudit": [
+    {
+      "sourceBlock": 4,
+      "url": "https://nerdfighteria.info/v/_wFZ5Dbj8DA",
+      "reviewStatus": "transcript-mirror-read",
+      "reviewEvidence": "Volledige transcriptmirror gelezen; makertitel en inhoudsomvang gecontroleerd via officiële Crash Course-pagina.",
+      "mappedEncounters": [
+        "m2-01-b5",
+        "m2-01-b6",
+        "m2-01-b7",
+        "m2-03-b5",
+        "m2-03-b6",
+        "m2-03-b7"
+      ],
+      "learningFunction": "Groep/aggregaat/categorie; primaire/secundaire en vrijwillige/toegewezen groepen; leiderschapsfuncties/stijlen; conformiteit/Milgram; referentiegroepen; grootte/netwerken/zwakke banden.",
+      "wholeSpokenContentVerified": false,
+      "delivery": "Authored world teaching; original media available for review",
+      "remainingGap": "Transcript mirror reviewed; primary maker identifies the same video. Primary spoken/visual verification is less direct."
+    },
+    {
+      "sourceBlock": 12,
+      "url": "https://www.youtube.com/watch?v=VqfWt2OS4rI",
+      "reviewStatus": "required-projection-unverified",
+      "reviewEvidence": "Maker en titel geverifieerd; transcript niet toegankelijk.",
+      "mappedEncounters": [
+        "m2-02-b1; m2-v12"
+      ],
+      "learningFunction": "Moraal/ethiek-conventies en bronvoorbeelden; eigen vergelijking noodzakelijk.",
+      "wholeSpokenContentVerified": false,
+      "delivery": "Required in-world original source projection plus case application",
+      "remainingGap": "Unique full spoken details are not fully audited; required original source projection must be delivered and its application checked."
+    },
+    {
+      "sourceBlock": 14,
+      "url": "https://ethicsunwrapped.utexas.edu/glossary/moral-disengagement",
+      "reviewStatus": "publisher-transcript-read",
+      "reviewEvidence": "De makerpagina bevat de volledige tekst van de video.",
+      "mappedEncounters": [
+        "m2-02-b1",
+        "m2-02-b2",
+        "m2-02-b3",
+        "m2-02-b6",
+        "m2-02-b7"
+      ],
+      "learningFunction": "Gedrag, agency, effecten, slachtoffer; rechtvaardiging/eufemisme/vergelijking; verplaatsing/verdunning; ontkennen; ontmenselijking/beschuldigen; identiteit/empathie als begrensde beschermingsfactor.",
+      "wholeSpokenContentVerified": true,
+      "delivery": "Authored world teaching; original media available for review",
+      "remainingGap": null
+    },
+    {
+      "sourceBlock": 23,
+      "url": "https://www.youtube.com/watch?v=4NOLCSIpaJ0",
+      "reviewStatus": "required-projection-unverified",
+      "reviewEvidence": "Makerbeschrijving noemt drie key issues; exacte drie issues niet geverifieerd.",
+      "mappedEncounters": [
+        "m2-03-b2",
+        "m2-06-b2; m2-v23"
+      ],
+      "learningFunction": "Structuur, agency en kritische analyse inclusief de drie bronproblemen.",
+      "wholeSpokenContentVerified": false,
+      "delivery": "Required in-world original source projection plus case application",
+      "remainingGap": "Unique full spoken details are not fully audited; required original source projection must be delivered and its application checked."
+    },
+    {
+      "sourceBlock": 31,
+      "url": "https://www.ted.com/talks/ted_ed_is_capitalism_actually_broken?view=transcript",
+      "reviewStatus": "publisher-transcript-read-required-detail-projection",
+      "reviewEvidence": "Volledige TED-transcript uit officiële paginadata gelezen.",
+      "mappedEncounters": [
+        "m2-04-b6",
+        "m2-04-b7; m2-v31"
+      ],
+      "learningFunction": "Inputs, drie institutionele dimensies, historische voedselregulering, klimaat/winstprikkels, contextafhankelijke ongelijkheid, machtsfeedback en debat hervorming/vervanging; oorspronkelijke historische cijfers blijven in verplichte bronprojectie.",
+      "wholeSpokenContentVerified": true,
+      "delivery": "Required in-world original source projection plus case application",
+      "remainingGap": null
+    },
+    {
+      "sourceBlock": 35,
+      "url": "https://amara.org/videos/CefhpJh2AfW4/info/de-online-fabeltjesfuik-zondag-met-lubach-s12/",
+      "reviewStatus": "required-projection-unverified",
+      "reviewEvidence": "VPRO-beschrijving gelezen en officiële subtitlepublicatie gevonden; volledige ondertitels niet toegankelijk.",
+      "mappedEncounters": [
+        "m2-04-b4; m2-v35"
+      ],
+      "learningFunction": "Aanbeveling, eenzijdige informatieroute, polarisatie/misvertrouwen en satirische bronvoorbeelden.",
+      "wholeSpokenContentVerified": false,
+      "delivery": "Required in-world original source projection plus case application",
+      "remainingGap": "Unique full spoken details are not fully audited; required original source projection must be delivered and its application checked."
+    },
+    {
+      "sourceBlock": 43,
+      "url": "https://www.youtube.com/watch?v=i-78niX-jzU",
+      "reviewStatus": "required-projection-unverified",
+      "reviewEvidence": "Makerbeschrijving noemt drie ontwikkelmanieren en CODE; exacte inhoud onbekend.",
+      "mappedEncounters": [
+        "m2-06-b1",
+        "m2-06-b2; m2-v43"
+      ],
+      "learningFunction": "Morele moed, persoonlijke voorbereiding en context; unieke drie manieren/CODE behouden via verplichte bronprojectie.",
+      "wholeSpokenContentVerified": false,
+      "delivery": "Required in-world original source projection plus case application",
+      "remainingGap": "Unique full spoken details are not fully audited; required original source projection must be delivered and its application checked."
+    }
+  ],
+  "figureAudit": [
+    {
+      "sourceBlock": 49,
+      "status": "pixels-inspected",
+      "captionMismatch": true,
+      "learningFunction": "Agency en structuur beïnvloeden elkaar; regels, cultuur, instituties en hiërarchie begrenzen handelen en worden via keuzes mede gevormd.",
+      "mappedTo": [
+        "m2-03-b2",
+        "m2-06-b2"
+      ],
+      "note": "Originele caption noemt ontkoppeling; de werkelijke figuur gaat over agency/structuur."
+    }
+  ],
+  "beforeRealUse": [
+    "Confirm each listed explanation and consequence appears in the actual player route.",
+    "Deliver required source projections and targeted application; a clip title or an optional library link is insufficient.",
+    "Check meaningful exits, help, evidence storage, revised attempts and transfer questions.",
+    "Do not equate collected clues or eventual trial-and-error success with independent mastery."
+  ],
+  "legalAndTheoryLimits": [
+    "Context explanations do not prove intent or remove all agency; psychological tendencies are not universal character laws."
+  ],
+  "validation": {
+    "errors": [],
+    "wordBudgets": "beat intro<=35; hint/explain/reveal<=45; NPC opening<=30, questions<=12, replies<=45",
+    "checked": "JSON schema, source indices, causal evidence links, answer shapes, NPC depth and all substantive source-text blocks",
+    "theoryDepth": "Ieder van twaalf NPC-instanties heeft drie verschillende theorieteksten van 45–75 woorden: uitleg, precieze casusverbinding, voorbeeld en grens."
+  },
+  "requiredSourceProjections": [
+    {
+      "investigationId": "m2-02",
+      "id": "m2-v12",
+      "sourceBlocks": [
+        12
+      ],
+      "youtube": "VqfWt2OS4rI",
+      "title": "Morals vs Ethics Explained in 2 Minutes w/Memes",
+      "contentVerification": "Maker en metadata geverifieerd; volledige transcript en unieke voorbeelden niet beschikbaar.",
+      "viewingTask": "Noteer hoe deze maker moraal en ethiek onderscheidt; vergelijk met onze werkdefinitie.",
+      "afterPrompt": "Gebruik beide conventies op de retourcasus. Welk deel beschrijft een norm en welk deel onderzoekt haar reden?"
+    },
+    {
+      "investigationId": "m2-03",
+      "id": "m2-v23",
+      "sourceBlocks": [
+        23
+      ],
+      "youtube": "4NOLCSIpaJ0",
+      "title": "Structure and agency theory for postgrads",
+      "contentVerification": "Definities en makerbeschrijving geverifieerd; de drie concrete issues niet volledig geverifieerd.",
+      "viewingTask": "Noteer de drie problemen die de maker onderscheidt en verbind één met ons overleg.",
+      "afterPrompt": "Welk casusbewijs ondersteunt een structurele verklaring en welke handeling toont agency?"
+    },
+    {
+      "investigationId": "m2-04",
+      "id": "m2-v31",
+      "sourceBlocks": [
+        31
+      ],
+      "youtube": "wcR815SfWOU",
+      "title": "Is capitalism actually broken?",
+      "contentVerification": "Volledige makertranscript in TED-paginadata gelezen; historische details aanvullend via verplichte bronprojectie.",
+      "viewingTask": "Vergelijk één historisch of landenvoorbeeld met de drie ontwerpknoppen.",
+      "afterPrompt": "Welke institutie en welk bewijs ondersteunen een mechanismelens; welke politieke conclusie blijft discussie?"
+    },
+    {
+      "investigationId": "m2-04",
+      "id": "m2-v35",
+      "sourceBlocks": [
+        35
+      ],
+      "youtube": "FLoR2Spftwg",
+      "title": "De online fabeltjesfuik | Zondag met Lubach (S12)",
+      "contentVerification": "VPRO-makerbeschrijving en uitgeversubtitleverwijzing geverifieerd; volledige ondertitels nog niet toegankelijk.",
+      "viewingTask": "Volg één aanbevelingsketen en onderscheid de getoonde waarneming van de verklaring.",
+      "afterPrompt": "Welk ontwerpdoel kan de selectie verklaren; welk nieuw bewijs is nodig voor een claim over werkelijke polarisatie?"
+    },
+    {
+      "investigationId": "m2-06",
+      "id": "m2-v43",
+      "sourceBlocks": [
+        43
+      ],
+      "youtube": "i-78niX-jzU",
+      "title": "What is Moral Courage?",
+      "contentVerification": "Makerbeschrijving bevestigt drie manieren en CODE; exacte inhoud daarvan nog niet geverifieerd.",
+      "viewingTask": "Noteer de drie manieren en CODE; vergelijk ze met ruimte, steun en risico in ons atelier.",
+      "afterPrompt": "Welke persoonlijke voorbereiding en welke organisatorische voorwaarde heb je allebei nodig?"
+    }
+  ],
+  "deliveryRequirement": "Deze oorspronkelijke clips zijn verplichte onderzoeksobjecten, met gerichte casustoepassing. Alleen opname in auteurdata of naslag bewijst geen daadwerkelijke aflevering of beheersing.",
+  "npcFile": "dist/chapters/m2-npcs.json",
+  "npcSha256": "443df33abf95f5fe983cb2a84b5739161be17c01f97202a3bd105fc3ce370123",
+  "assessmentRefinement": "Vier plausibele alternatieven per vraag; twee juiste antwoorden op iedere positie. Toetsen onderscheiden aangrenzende causale mechanismen, onzekerheid en formele versus feitelijke invloed; ethische prioriteiten worden niet als overtuiging beoordeeld."
+}

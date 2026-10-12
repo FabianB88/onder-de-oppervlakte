@@ -1,0 +1,3009 @@
+{
+  "lessonId": "m5",
+  "title": "De belofte onder het licht",
+  "premise": "De circulaire warenmarkt staat op het punt te openen. Posters, materiaalstromen en investeringsplannen vertellen verschillende verhalen. Je onderzoekt wat beloften werkelijk dragen en maakt een controleerbare publicatie plus veranderplan.",
+  "investigations": [
+    {
+      "id": "m5-01",
+      "world": {
+        "name": "De warenmarkt",
+        "imageKey": "room-market",
+        "exit": {
+          "label": "Maak de publieksstand controleerbaar",
+          "lockType": "claim-evidence",
+          "problem": "Bezoekers krijgen de indruk dat de hele service al duurzaam is. Onderzoek de beloften en maatschappelijke verwachtingen; verbind elke uitspraak met haar werkelijke reikwijdte voordat de stand opent.",
+          "unlockedText": "De publieksstand maakt duidelijk wat veranderd is en wat nog onderzocht moet worden.",
+          "destinationReason": "Volg de poster terug naar de studio waar de communicatie wordt gemaakt."
+        },
+        "spots": [
+          {
+            "id": "m5-01-record",
+            "title": "Werknotitie naast het dossier",
+            "point": [
+              0.18,
+              0.55
+            ],
+            "approach": [
+              0.25,
+              0.7
+            ],
+            "observation": "Een korte werknotitie verbindt dit dossier met de dagelijkse praktijk.",
+            "detail": "Greenwashing is een discrepantie tussen duurzaamheidscommunicatie en feitelijke prestaties. De systeemanalyse volgt institutionele druk, economische prikkels en organisatorische beperkingen; zij verklaart gedrag zonder misleiding goed te praten."
+          },
+          {
+            "id": "m5-01-empty",
+            "title": "Een ongebruikte lade",
+            "point": [
+              0.84,
+              0.73
+            ],
+            "approach": [
+              0.76,
+              0.83
+            ],
+            "observation": "De lade is leeg. De krassen en stoflaag vertellen niet waarom het besluit is genomen.",
+            "detail": "Dit spoor geeft geen inhoudelijk bewijs voor je verklaring. Een onderzoek bevat ook doodlopende sporen: keer terug naar de concrete documenten, handelingen en mensen."
+          }
+        ]
+      },
+      "beats": [
+        {
+          "type": "inspect",
+          "title": "Verzamel de verwachtingen rond de stand",
+          "sceneObject": "evidence",
+          "intro": "Onderzoek publieksvragen, investeerdersmail, ngo-notitie en poster. Greenwashing kan ontstaan uit de spanning tussen wat verwacht wordt, wat beloofd wordt en wat werkelijk verandert.",
+          "hint": "Greenwashing is een discrepantie tussen duurzaamheidscommunicatie en feitelijke prestaties. De systeemanalyse volgt institutionele druk, economische prikkels en organisatorische beperkingen; zij verklaart gedrag zonder misleiding goed te praten.",
+          "explainAfter": "De stand staat in een omgeving van consumenten, investeerders, media, ngo’s en toezichthouders. Hun verwachtingen kunnen verandering stimuleren, maar ook druk geven om sneller duurzaam te lijken dan te veranderen.",
+          "concepts": [
+            "greenwashing als systeemfenomeen",
+            "institutionele druk",
+            "organisatorische beperkingen",
+            "economische prikkels"
+          ],
+          "sourceBlocks": [
+            0,
+            3,
+            27
+          ],
+          "boundary": "Druk bewijst niet dat greenwashing optreedt. Vergelijk concrete claims met bewijs en onderscheid verklaring van rechtvaardiging.",
+          "reveal": [
+            {
+              "id": "r1",
+              "label": "Publieksvraag",
+              "title": "Meer dan een productprijs",
+              "text": "Een bezoeker vraagt naar milieu-impact en arbeidsomstandigheden. Maatschappelijke verwachtingen gaan verder dan goedkoop en snel leveren."
+            },
+            {
+              "id": "r2",
+              "label": "Investeerdersmail",
+              "title": "Reputatie opent deuren",
+              "text": "Een financier wil aantoonbare duurzaamheid zien vóór de volgende ronde. De wens om kapitaal te krijgen verhoogt de druk op communicatie."
+            },
+            {
+              "id": "r3",
+              "label": "Ngo-notitie",
+              "title": "Een maatschappelijke norm",
+              "text": "Een ngo vraagt bewijs over materiaalstromen. Media en toezichthouders kunnen dezelfde kloof tussen belofte en praktijk zichtbaar maken."
+            },
+            {
+              "id": "r4",
+              "label": "Poster",
+              "title": "De belofte loopt vooruit",
+              "text": "De poster noemt de hele service circulair. Het bewijs betreft voorlopig één retourpilot; de rest van het bedrijfsmodel is nog niet aangepast."
+            },
+            {
+              "id": "r5",
+              "label": "Werkplanning",
+              "title": "Verwachting en capaciteit",
+              "text": "Nieuwe infrastructuur, kennis en investeringen kosten tijd. Een capaciteitstekort kan de kloof verklaren, maar maakt een te brede claim niet waar."
+            },
+            {
+              "id": "r6",
+              "label": "Maatschappijkaart",
+              "title": "Verwachtingen bewegen",
+              "text": "Klimaatverandering, biodiversiteitsverlies en sociale ongelijkheid vergroten verwachtingen rond verantwoord ondernemen. Consumenten, financiers, media en overheden kunnen daar verschillend op reageren."
+            },
+            {
+              "id": "r7",
+              "label": "Prijskaart",
+              "title": "Een groen beeld kan commercieel lonen",
+              "text": "De oorspronkelijke GLOBIS-uitleg verbindt groene reputatie met consumenten die een meerprijs willen betalen. Dat is een mogelijke prikkel, geen bewijs dat iedere consument hetzelfde kiest."
+            },
+            {
+              "id": "r8",
+              "label": "Ontkoppelkaart",
+              "title": "Een mechanisme, geen vrijspraak",
+              "text": "Decoupling beschrijft de afstand tussen formele boodschap en feitelijke praktijk. Dat kan zonder een centraal misleidingsbesluit groeien, maar ook samengaan met bewuste onwaarheid. Onderzoek mechanisme én verantwoordelijkheid."
+            }
+          ],
+          "required": [
+            "r1",
+            "r2",
+            "r3",
+            "r4",
+            "r5",
+            "r6",
+            "r7",
+            "r8"
+          ],
+          "id": "m5-01-b1",
+          "clueId": "m5-01-b1-clue",
+          "clueTitle": "Verzamel de verwachtingen rond de stand"
+        },
+        {
+          "type": "connect",
+          "title": "Legitimiteit is niet hetzelfde als bewijs",
+          "sceneObject": "evidence",
+          "intro": "Verbind verwachtingen met organisatorische reacties. Suchman beschrijft legitimiteit als maatschappelijke aanvaardbaarheid; een gunstige indruk bewijst geen duurzame prestatie.",
+          "hint": "Organisaties willen als passend en verantwoord worden erkend. Dat kan via werkelijk handelen of symbolische afstemming. Zoek het bewijs dat communicatie met praktijk verbindt.",
+          "explainAfter": "Legitimiteit betreft sociale erkenning. Decoupling betekent een loskoppeling tussen formele boodschap en feitelijke praktijk. De reactie op druk kan dus een echt veranderplan of vooral een zichtbaar symbool zijn.",
+          "concepts": [
+            "Suchman",
+            "legitimiteit",
+            "decoupling",
+            "symbolische communicatie"
+          ],
+          "sourceBlocks": [
+            3
+          ],
+          "boundary": "Populariteit of een prijs bewijst niet dat een claim feitelijk juist is. Ook een legitiem doel kan met onvolledig bewijs worden gecommuniceerd.",
+          "pairs": [
+            {
+              "id": "p1",
+              "left": "Een maatschappelijk gewenste circulaire service",
+              "right": "Een organisatie wil erkenning als verantwoord deelnemer.",
+              "feedback": "Dit is de legitimiteitsvraag."
+            },
+            {
+              "id": "p2",
+              "left": "Een publieksbelofte zonder gewijzigde werkprocessen",
+              "right": "Communicatie en praktijk raken van elkaar losgekoppeld.",
+              "feedback": "Dit is decoupling wanneer de discrepantie wordt aangetoond."
+            },
+            {
+              "id": "p3",
+              "left": "Een gefinancierd retourproces met gemeten resultaten",
+              "right": "Communicatie krijgt operationele grondslag.",
+              "feedback": "Een reactie op druk kan ook echte verandering zijn."
+            },
+            {
+              "id": "p4",
+              "left": "Een duurzaamheidsprijs op de poster",
+              "right": "Erkenning beïnvloedt reputatie, maar vervangt de materiaalgegevens niet.",
+              "feedback": "Symbolische erkenning en bewijs hebben verschillende functies."
+            }
+          ],
+          "id": "m5-01-b2",
+          "clueId": "m5-01-b2-clue",
+          "clueTitle": "Legitimiteit is niet hetzelfde als bewijs"
+        },
+        {
+          "type": "sort",
+          "title": "Volg woorden en werk afzonderlijk",
+          "sceneObject": "evidence",
+          "intro": "Sorteer de gevonden veranderingen als communicatie/erkenning of operationele praktijk. Beide kunnen nuttig zijn; de vraag is of de boodschap door het werk wordt gedragen.",
+          "hint": "Een nieuw label verandert de presentatie; een retourproces verandert handelingen. Een formeel plan kan richting geven, maar uitvoering en effect moeten apart worden onderzocht.",
+          "explainAfter": "Een organisatie kan symbolisch voldoen aan verwachtingen terwijl haar werkwijze blijft bestaan. Het systeemonderzoek vergelijkt verwachtingen, doelen, middelen, uitvoering en communicatie; geen enkel symbool bewijst die gehele keten.",
+          "concepts": [
+            "symbolische maatregelen",
+            "feitelijke praktijk",
+            "decoupling"
+          ],
+          "sourceBlocks": [
+            0,
+            3,
+            9
+          ],
+          "boundary": "Een communicatiemiddel is niet automatisch greenwashing. Misleiding ontstaat door de relatie tussen de uitspraak en het beschikbare bewijs.",
+          "categories": [
+            {
+              "id": "symbol",
+              "label": "Communicatie of erkenning"
+            },
+            {
+              "id": "practice",
+              "label": "Operationele praktijk"
+            }
+          ],
+          "cards": [
+            {
+              "id": "c1",
+              "text": "Een groene naam op de bestaande verpakking.",
+              "category": "symbol",
+              "feedback": "Dit verandert de presentatie; het materiaal is niet daardoor gewijzigd."
+            },
+            {
+              "id": "c2",
+              "text": "Een getest retourproces met controle van teruggewonnen materialen.",
+              "category": "practice",
+              "feedback": "Dit verandert de werkroute en levert toetsbare resultaten."
+            },
+            {
+              "id": "c3",
+              "text": "Een publiek ondertekende intentieverklaring zonder uitvoering.",
+              "category": "symbol",
+              "feedback": "De intentie is nog geen aangetoonde praktijk."
+            },
+            {
+              "id": "c4",
+              "text": "Een structureel budget voor reparatiecapaciteit met werkende uitvoering.",
+              "category": "practice",
+              "feedback": "Middelen zijn verbonden aan daadwerkelijke activiteiten."
+            },
+            {
+              "id": "c5",
+              "text": "Een reputatieprijs die niet de volledige service heeft beoordeeld.",
+              "category": "symbol",
+              "feedback": "Erkenning zegt niet vanzelf iets over de claimgrens."
+            }
+          ],
+          "id": "m5-01-b3",
+          "clueId": "m5-01-b3-clue",
+          "clueTitle": "Volg woorden en werk afzonderlijk"
+        },
+        {
+          "type": "decision",
+          "title": "Open de stand met een houdbare belofte",
+          "sceneObject": "person",
+          "intro": "Kies een publicatie die de huidige beperkte pilot eerlijk weergeeft. Een kleinere claim of tijdelijk uitstel is verdedigbaar; licht je gekozen route toe.",
+          "hint": "Maak de meetgrens, resultaten en onzekerheden zichtbaar. Een sterke toekomstambitie mag als ambitie worden benoemd, maar niet als al bereikte bedrijfsbrede prestatie.",
+          "explainAfter": "Je kunt een afgebakende pilot communiceren of wachten op breder bewijs. Beide behouden ruimte voor verandering. Leg uit wat bekend is, wat niet en welk werk de organisatie nog moet doen.",
+          "concepts": [
+            "waarheidsgetrouwe communicatie",
+            "claimgrens",
+            "legitimiteit"
+          ],
+          "sourceBlocks": [
+            3,
+            21,
+            24
+          ],
+          "boundary": "Een juiste pilotclaim bewijst niet dat ieder aspect van de pilot of het bedrijf duurzaam is. Een afgebakende uitspraak blijft afgebakend.",
+          "options": [
+            {
+              "id": "pilot",
+              "text": "Publiceer het pilotresultaat met meetgrens, beperkingen en het resterende werk.",
+              "correct": true,
+              "feedback": "Dit houdt de lokale prestatie apart van de brede ambitie."
+            },
+            {
+              "id": "wait",
+              "text": "Stel de brede belofte uit en leg uit welke metingen en veranderingen nog ontbreken.",
+              "correct": true,
+              "feedback": "Uitstel kan verantwoord zijn wanneer de huidige boodschap meer suggereert dan bekend is."
+            },
+            {
+              "id": "whole",
+              "text": "Gebruik het pilotresultaat als bewijs dat de complete service al circulair is.",
+              "correct": false,
+              "feedback": "Het bewijs bestrijkt één route, niet de gehele service."
+            }
+          ],
+          "id": "m5-01-b4",
+          "clueId": "m5-01-b4-clue",
+          "clueTitle": "Open de stand met een houdbare belofte"
+        }
+      ],
+      "finale": {
+        "intro": "Bezoekers krijgen de indruk dat de hele service al duurzaam is. Onderzoek de beloften en maatschappelijke verwachtingen; verbind elke uitspraak met haar werkelijke reikwijdte voordat de stand opent.",
+        "slots": [
+          {
+            "id": "pressure",
+            "label": "Welke verklaring volgt uit de combinatie van mail, poster en werkplanning?",
+            "evidenceBeatId": "m5-01-b1",
+            "options": [
+              {
+                "id": "tension",
+                "text": "Maatschappelijke en financiële druk kan communicatie versnellen terwijl de operationele capaciteit achterblijft.",
+                "correct": true,
+                "feedback": "De documenten verbinden prikkel en beperking aan de claimkloof."
+              },
+              {
+                "id": "intent",
+                "text": "De kloof bewijst zonder verdere informatie dat iedere betrokken medewerker bewust liegt.",
+                "correct": false,
+                "feedback": "Een systeemverklaring vraagt geen universele kwade intentie."
+              },
+              {
+                "id": "capacity",
+                "text": "Een beperking van capaciteit maakt de brede duurzaamheidsclaim feitelijk juist.",
+                "correct": false,
+                "feedback": "Een verklaring is geen bewijs dat de belofte klopt."
+              }
+            ]
+          },
+          {
+            "id": "decoupling",
+            "label": "Welk extra bewijs zou de aangetoonde ontkoppeling verminderen?",
+            "evidenceBeatId": "m5-01-b2",
+            "options": [
+              {
+                "id": "award",
+                "text": "Een extra prijs die alleen de poster beoordeelt.",
+                "correct": false,
+                "feedback": "Meer erkenning verandert de operatie niet."
+              },
+              {
+                "id": "likes",
+                "text": "Meer positieve reacties zonder onderzoek van de service.",
+                "correct": false,
+                "feedback": "Legitimiteit en feiten blijven verschillende vragen."
+              },
+              {
+                "id": "operation",
+                "text": "Aantoonbare uitvoering en gemeten verandering binnen de reikwijdte van de publieke belofte.",
+                "correct": true,
+                "feedback": "Dat verbindt boodschap aan praktijk."
+              }
+            ]
+          }
+        ],
+        "conclusion": "De stand opent met een houdbare claim. Je gaat nu onderzoeken welke communicatievormen een kloof kunnen verbergen."
+      },
+      "originalSourceBlocks": [
+        0,
+        3,
+        9,
+        21,
+        24,
+        27
+      ],
+      "optionalReviewBlocks": []
+    },
+    {
+      "id": "m5-02",
+      "world": {
+        "name": "De campagnestudio",
+        "imageKey": "chapter-5",
+        "exit": {
+          "label": "Ontgrendel de drukproef",
+          "lockType": "verifiable-copy",
+          "problem": "De drukproef bevat vier verschillende probleemclaims. Diagnoseer hun primaire mechanisme en bouw een controleerbare tekst voordat de posters naar de materiaalroute gaan.",
+          "unlockedText": "De drukproef noemt een afgebakende prestatie met toetsbare gegevens en beperkingen.",
+          "destinationReason": "Een controleerbare tekst vraagt materiaalbewijs; ga naar de werkplaats."
+        },
+        "spots": [
+          {
+            "id": "m5-02-record",
+            "title": "Werknotitie naast het dossier",
+            "point": [
+              0.18,
+              0.55
+            ],
+            "approach": [
+              0.25,
+              0.7
+            ],
+            "observation": "Een korte werknotitie verbindt dit dossier met de dagelijkse praktijk.",
+            "detail": "Selectief laat relevante impact weg. Vaag mist duidelijke criteria. Irrelevant presenteert een basisvoorwaarde als onderscheidend voordeel. Symbolisch vergroot een kleine maatregel tot een veel groter duurzaam beeld."
+          },
+          {
+            "id": "m5-02-empty",
+            "title": "Een ongebruikte lade",
+            "point": [
+              0.84,
+              0.73
+            ],
+            "approach": [
+              0.76,
+              0.83
+            ],
+            "observation": "De lade is leeg. De krassen en stoflaag vertellen niet waarom het besluit is genomen.",
+            "detail": "Dit spoor geeft geen inhoudelijk bewijs voor je verklaring. Een onderzoek bevat ook doodlopende sporen: keer terug naar de concrete documenten, handelingen en mensen."
+          }
+        ]
+      },
+      "beats": [
+        {
+          "type": "inspect",
+          "title": "Vier manieren om een groen beeld te maken",
+          "sceneObject": "evidence",
+          "intro": "Onderzoek vier posters en één goede tegenhanger. Selectieve, vage, irrelevante en symbolische communicatie kunnen overlappen; je onderzoekt welk mechanisme ieder bewijsstuk vooral toont.",
+          "hint": "Selectief laat relevante impact weg. Vaag mist duidelijke criteria. Irrelevant presenteert een basisvoorwaarde als onderscheidend voordeel. Symbolisch vergroot een kleine maatregel tot een veel groter duurzaam beeld.",
+          "explainAfter": "Greenwashing is subtieler dan een volledig verzonnen getal. Een ware deeluitspraak kan door weglating of presentatie misleiden. Benoem meetgrens en bewijs voordat je over de hele organisatie concludeert.",
+          "concepts": [
+            "selectieve communicatie",
+            "vage claims",
+            "irrelevante communicatie",
+            "symbolische duurzaamheid"
+          ],
+          "sourceBlocks": [
+            9,
+            10
+          ],
+          "boundary": "De vier typen zijn analytische lenzen, geen altijd exclusieve vakjes. Een claim kan tegelijk vaag en selectief zijn.",
+          "reveal": [
+            {
+              "id": "r1",
+              "label": "Poster A",
+              "title": "Selectie buiten de meetgrens",
+              "text": "De advertentie toont alleen lagere verpakkingsemissies; grotere productie-emissies ontbreken terwijl de kop een totaalverbetering suggereert."
+            },
+            {
+              "id": "r2",
+              "label": "Poster B",
+              "title": "Geen controleerbare betekenis",
+              "text": "Het label zegt eco-friendly zonder te definiëren welke impact, vergelijking of meetmethode daarbij hoort."
+            },
+            {
+              "id": "r3",
+              "label": "Poster C",
+              "title": "Een basisregel als onderscheid",
+              "text": "De cursus gebruikt CFK-vrij als voorbeeld wanneer CFK’s in de relevante productcontext al verboden zijn. Voldoen aan die basisregel is dan geen uniek extra voordeel."
+            },
+            {
+              "id": "r4",
+              "label": "Poster D",
+              "title": "Een kleine maatregel, een groot beeld",
+              "text": "Eén kleine inzamelactie vult de gehele campagne, terwijl productvolume en hoofdprocessen ongewijzigd blijven."
+            },
+            {
+              "id": "r5",
+              "label": "Tegenhanger",
+              "title": "Een begrensde deelprestatie",
+              "text": "De tekst noemt een gemeten reparatiepilot, de periode, de gebruikte indicator en welke overige gevolgen nog niet zijn onderzocht."
+            },
+            {
+              "id": "r6",
+              "label": "Beeldkaart",
+              "title": "Een boodschap zonder groen woord",
+              "text": "GLOBIS laat zien dat groene kleuren en natuurbeelden een milieuvriendelijke indruk kunnen suggereren zonder expliciete claim. Onderzoek de publieksindruk en het bewijs; een kleur alleen bewijst geen greenwashing."
+            },
+            {
+              "id": "r7",
+              "label": "Materiaalnaam",
+              "title": "Een andere naam is geen milieumeting",
+              "text": "Vegan leather kan kunststof zijn. Een uitspraak over dierlijke herkomst zegt niet vanzelf iets over milieu-impact, levensduur of verwerking. Vraag welke eigenschap echt is aangetoond."
+            },
+            {
+              "id": "r8",
+              "label": "Compensatiekaart",
+              "title": "Compensatie is niet eigen uitstootvermindering",
+              "text": "Een compensatieproject buiten de eigen keten toont niet automatisch minder eigen uitstoot. Onderzoek methode, werkelijk effect en claimgrens; houd compensatie en eigen reductie zichtbaar gescheiden."
+            },
+            {
+              "id": "r9",
+              "label": "Bronkaart",
+              "title": "Vier cursuslenzen",
+              "text": "De cursus onderscheidt vier communicatievormen. Delmas en Burbano onderzoeken onder meer externe, organisatorische en individuele prikkels en bespreken andere taxonomieën. De vier lenzen helpen deze route analyseren; ze zijn geen universele, exclusieve indeling."
+            }
+          ],
+          "required": [
+            "r1",
+            "r2",
+            "r3",
+            "r4",
+            "r5",
+            "r6",
+            "r7",
+            "r8",
+            "r9"
+          ],
+          "id": "m5-02-b1",
+          "clueId": "m5-02-b1-clue",
+          "clueTitle": "Vier manieren om een groen beeld te maken"
+        },
+        {
+          "type": "sort",
+          "title": "Leg de poster bij het getoonde mechanisme",
+          "sceneObject": "evidence",
+          "intro": "Koppel ieder scherp afgebakend bewijsstuk aan zijn primaire mechanisme. Bij twijfel: kijk naar wat specifiek ontbreekt of wordt uitvergroot.",
+          "hint": "Een ontbrekende definitie wijst op vaagheid; een weggelaten grote stroom op selectie; een al verplichte eigenschap op irrelevantie; een uitvergrote kleine actie op symboliek.",
+          "explainAfter": "De categorie helpt gericht bewijs vragen. Zij bewijst geen intentie en is niet zelf de volledige ethische beoordeling. Beoordeel ook de indruk die de presentatie bij een publiek kan maken.",
+          "concepts": [
+            "selectieve communicatie",
+            "vage claims",
+            "irrelevante communicatie",
+            "symbolische duurzaamheid"
+          ],
+          "sourceBlocks": [
+            9
+          ],
+          "boundary": "Deze oefenkaarten isoleren één hoofdprobleem. Echte advertenties kunnen meerdere mechanismen combineren.",
+          "categories": [
+            {
+              "id": "selective",
+              "label": "Selectief"
+            },
+            {
+              "id": "vague",
+              "label": "Vaag"
+            },
+            {
+              "id": "irrelevant",
+              "label": "Irrelevant"
+            },
+            {
+              "id": "symbolic",
+              "label": "Symbolisch"
+            }
+          ],
+          "cards": [
+            {
+              "id": "c1",
+              "text": "Een bedrijfsbrede kop gebruikt alleen verpakkingsdata en laat de grotere productiestroom weg.",
+              "category": "selective",
+              "feedback": "Het meetbereik past niet bij de indruk van het geheel."
+            },
+            {
+              "id": "c2",
+              "text": "Groen wordt nergens gedefinieerd of met een indicator onderbouwd.",
+              "category": "vague",
+              "feedback": "Er ontbreekt een controleerbare betekenis."
+            },
+            {
+              "id": "c3",
+              "text": "Een algemeen verplichte producteigenschap wordt als uniek milieuwonder verkocht.",
+              "category": "irrelevant",
+              "feedback": "De eigenschap onderscheidt het product niet op de gesuggereerde manier."
+            },
+            {
+              "id": "c4",
+              "text": "Een kleine sponsoractie wordt als bewijs voor een veranderd bedrijfsmodel gepresenteerd.",
+              "category": "symbolic",
+              "feedback": "De schaal van de maatregel draagt de grote conclusie niet."
+            }
+          ],
+          "id": "m5-02-b2",
+          "clueId": "m5-02-b2-clue",
+          "clueTitle": "Leg de poster bij het getoonde mechanisme"
+        },
+        {
+          "type": "connect",
+          "title": "Vraag het bewijs dat de claim mist",
+          "sceneObject": "evidence",
+          "intro": "Verbind de poster met een vraag die het specifieke gat onderzoekt. Een langere brochure maakt de informatie niet vanzelf controleerbaar.",
+          "hint": "Vraag naar betekenis, meetgrens, vergelijking, omvang en uitvoering. Een bewijsverzoek moet het concrete claimprobleem raken; populariteit is geen vervanging voor gegevens.",
+          "explainAfter": "Transparante informatie is volledig genoeg voor de bedoelde uitspraak, controleerbaar en niet misleidend. Juridische toelaatbaarheid en ethische deugdelijkheid zijn niet identiek; ook ware selectie kan een verkeerd totaalbeeld geven.",
+          "concepts": [
+            "transparantie",
+            "controleerbaarheid",
+            "waarheidsgetrouwheid",
+            "legaliteit versus ethiek"
+          ],
+          "sourceBlocks": [
+            9,
+            21
+          ],
+          "boundary": "Volledigheid betekent geen eindeloze datadump. Geef de relevante informatie en beperkingen die de uitspraak en beslissing begrijpelijk maken.",
+          "pairs": [
+            {
+              "id": "p1",
+              "left": "De claim gebruikt een ongedefinieerd groen begrip",
+              "right": "Welke impact en toetsbare maatstaf bedoelt de claim?",
+              "feedback": "Dit raakt vaagheid."
+            },
+            {
+              "id": "p2",
+              "left": "Een deelprestatie suggereert het hele bedrijf",
+              "right": "Hoe groot is dit deel en welke grotere gevolgen vallen buiten beeld?",
+              "feedback": "Dit raakt selectieve reikwijdte."
+            },
+            {
+              "id": "p3",
+              "left": "De advertentie viert een verplichte eigenschap",
+              "right": "Welke aanvullende prestatie boven de relevante basisnorm is aangetoond?",
+              "feedback": "Dit raakt irrelevante onderscheiding."
+            },
+            {
+              "id": "p4",
+              "left": "Een kleine actie krijgt een bedrijfsbrede kop",
+              "right": "Welke operationele verandering en schaal ondersteunen de brede indruk?",
+              "feedback": "Dit raakt symbolische uitvergroting."
+            }
+          ],
+          "id": "m5-02-b3",
+          "clueId": "m5-02-b3-clue",
+          "clueTitle": "Vraag het bewijs dat de claim mist"
+        },
+        {
+          "type": "build",
+          "title": "Maak een controleerbare drukproef",
+          "sceneObject": "system",
+          "intro": "Kies de onderdelen die een specifieke prestatie, een eerlijke vergelijking en haar begrenzing samen beschrijven. De opdrachtgever mag een ambitie hebben; label die als toekomstplan.",
+          "hint": "Een sterke claim heeft een betekenis, een meetgrens, gegevens en een vergelijking nodig. Benoem relevante beperkingen; toon wat al gebeurde en wat nog een plan is.",
+          "explainAfter": "De beste reparatie van een misleidende tekst is niet alleen een rustiger kleur. De uitspraak moet aansluiten op het bewijs. Daarna blijft een afzonderlijke vraag of het bedrijfsmodel voldoende verandert.",
+          "concepts": [
+            "claimgrens",
+            "transparantie",
+            "feitelijke prestatie",
+            "symbolische communicatie"
+          ],
+          "sourceBlocks": [
+            9,
+            21,
+            27
+          ],
+          "boundary": "Een correcte poster kan een te beperkte verandering beschrijven. Houd claimkwaliteit en werkelijke transformatie als twee aparte beoordelingen.",
+          "options": [
+            {
+              "id": "metric",
+              "text": "Definieer welke prestatie en meetmethode worden bedoeld.",
+              "correct": true,
+              "feedback": "Hierdoor krijgt de uitspraak een controleerbare betekenis."
+            },
+            {
+              "id": "comparison",
+              "text": "Noem periode, vergelijking en het deel waarop de gegevens betrekking hebben.",
+              "correct": true,
+              "feedback": "Hiermee kan het publiek de verandering en schaal beoordelen."
+            },
+            {
+              "id": "limits",
+              "text": "Benoem relevante ontbrekende effecten en scheid doel van resultaat.",
+              "correct": true,
+              "feedback": "Dit voorkomt dat een ambitie als gerealiseerde prestatie wordt gelezen."
+            },
+            {
+              "id": "volume",
+              "text": "Vervang bewijs door het aantal mensen dat de campagne aantrekkelijk vindt.",
+              "correct": false,
+              "feedback": "Waardering is geen meting van de duurzaamheidsclaim."
+            },
+            {
+              "id": "symbol",
+              "text": "Vervang alleen eco-friendly door een sterker groen woord.",
+              "correct": false,
+              "feedback": "Een ander adjectief levert geen definitie of meetgrens."
+            }
+          ],
+          "required": [
+            "metric",
+            "comparison",
+            "limits"
+          ],
+          "id": "m5-02-b4",
+          "clueId": "m5-02-b4-clue",
+          "clueTitle": "Maak een controleerbare drukproef"
+        },
+        {
+          "type": "decision",
+          "title": "Wat bewijst de compensatiebon?",
+          "sceneObject": "person",
+          "intro": "Een fictief bedrijf houdt zijn eigen uitstoot gelijk en financiert een project elders. Welke uitspraak houdt de twee gegevensstromen inhoudelijk uit elkaar?",
+          "hint": "Een externe projectbijdrage en een vermindering in eigen processen zijn verschillende claims. Beoordeel hun afzonderlijke meetmethoden en effecten voordat je een totaalresultaat beweert.",
+          "explainAfter": "Compensatie vraagt eigen bewijs en begrenzing. Zij verandert niet door haar bestaan het gemeten eigen uitstootniveau. Een verantwoord oordeel kan meerdere afwegingen toelaten; het gegeven uitstootfeit mag niet worden vervangen.",
+          "concepts": [
+            "compensatie versus reductie",
+            "claimgrens",
+            "waarheidsgetrouwheid"
+          ],
+          "sourceBlocks": [
+            1,
+            25
+          ],
+          "boundary": "Deze taak stelt geen universeel oordeel over alle compensatieprojecten. Werkelijke effectiviteit en passende claims vragen project- en ketenbewijs.",
+          "options": [
+            {
+              "id": "separate",
+              "text": "Eigen uitstoot bleef gelijk; de externe bijdrage en haar effect moeten afzonderlijk worden verantwoord.",
+              "correct": true,
+              "feedback": "Een compensatiebon is geen meting van een eigen procesverbetering."
+            },
+            {
+              "id": "budget",
+              "text": "Een bijdrage van 20% van het budget betekent een eigen uitstootreductie van 20%.",
+              "correct": false,
+              "feedback": "Een budgetaandeel en een fysieke uitstootverandering zijn verschillende grootheden."
+            },
+            {
+              "id": "material",
+              "text": "De externe projectplaats bewijst dat de eigen materiaalroute nu minder grondstoffen verbruikt.",
+              "correct": false,
+              "feedback": "De bon geeft geen bewijs over die eigen procesverandering."
+            }
+          ],
+          "id": "m5-02-b5",
+          "clueId": "m5-02-b5-clue",
+          "clueTitle": "Wat bewijst de compensatiebon?"
+        }
+      ],
+      "finale": {
+        "intro": "De drukproef bevat vier verschillende probleemclaims. Diagnoseer hun primaire mechanisme en bouw een controleerbare tekst voordat de posters naar de materiaalroute gaan.",
+        "slots": [
+          {
+            "id": "scope",
+            "label": "De verpakking verbetert echt, maar de bedrijfsbrede kop laat grotere productie-impact weg. Welke diagnose is precies?",
+            "evidenceBeatId": "m5-02-b1",
+            "options": [
+              {
+                "id": "false",
+                "text": "Omdat de totaalindruk misleidt, moet het verpakkingsgetal zelf verzonnen zijn.",
+                "correct": false,
+                "feedback": "Een waar gegeven kan in een onjuist totaalbeeld worden gebruikt."
+              },
+              {
+                "id": "irrelevant",
+                "text": "De verbetering is automatisch irrelevant omdat alle deelprestaties zonder betekenis zijn.",
+                "correct": false,
+                "feedback": "Een echte deelprestatie kan waardevol zijn, maar moet worden begrensd."
+              },
+              {
+                "id": "selective",
+                "text": "Een ware deelprestatie wordt selectief gepresenteerd als een breder resultaat.",
+                "correct": true,
+                "feedback": "Het probleem ligt in de indruk en meetgrens, niet noodzakelijk het deelgetal."
+              }
+            ]
+          },
+          {
+            "id": "meaning",
+            "label": "Welke wijziging maakt een vaag label het meest rechtstreeks toetsbaar?",
+            "evidenceBeatId": "m5-02-b3",
+            "options": [
+              {
+                "id": "font",
+                "text": "Het groene woord groter afdrukken en de criteria weglaten.",
+                "correct": false,
+                "feedback": "Zichtbaarheid is geen controleerbaarheid."
+              },
+              {
+                "id": "definition",
+                "text": "Een concrete indicator, meetmethode, toepassingsgrens en vergelijking toevoegen.",
+                "correct": true,
+                "feedback": "Dit geeft de claim een betekenis die onderzocht kan worden."
+              },
+              {
+                "id": "award",
+                "text": "Een publieksprijs toevoegen zonder onderzoekscriteria te tonen.",
+                "correct": false,
+                "feedback": "Erkenning levert niet de ontbrekende definitie."
+              }
+            ]
+          }
+        ],
+        "conclusion": "De drukproef is toetsbaar. De werkplaats moet nu laten zien of de prestatie zelf en de schaal van het veranderplan kloppen."
+      },
+      "originalSourceBlocks": [
+        1,
+        9,
+        10,
+        21,
+        25,
+        27
+      ],
+      "optionalReviewBlocks": [
+        1,
+        10,
+        25
+      ]
+    },
+    {
+      "id": "m5-03",
+      "world": {
+        "name": "De materiaalwerkplaats",
+        "imageKey": "room-materials",
+        "exit": {
+          "label": "Leg de pilot naast de volledige stroom",
+          "lockType": "full-boundary",
+          "problem": "Een kleine materiaalpilot krijgt een grote toekomstbelofte. Onderzoek padafhankelijkheid en vergelijk per-productverbetering met totale productie voordat de route naar inzameling wordt geopend.",
+          "unlockedText": "De pilot en volledige stroom zijn apart gemeten; de boodschap blijft binnen die grens.",
+          "destinationReason": "Volg nu wat na verkoop terugkomt en of de beloofde circulariteit echt doorwerkt."
+        },
+        "spots": [
+          {
+            "id": "m5-03-record",
+            "title": "Werknotitie naast het dossier",
+            "point": [
+              0.18,
+              0.55
+            ],
+            "approach": [
+              0.25,
+              0.7
+            ],
+            "observation": "Een korte werknotitie verbindt dit dossier met de dagelijkse praktijk.",
+            "detail": "Een bestaande lijn, contract en infrastructuur verbinden kosten en werkprocessen. Nieuwe verwachtingen veranderen sneller dan deze samenhang. Vraag naar middelen, kennis en bereidheid voor een uitvoerbare omschakeling."
+          },
+          {
+            "id": "m5-03-empty",
+            "title": "Een ongebruikte lade",
+            "point": [
+              0.84,
+              0.73
+            ],
+            "approach": [
+              0.76,
+              0.83
+            ],
+            "observation": "De lade is leeg. De krassen en stoflaag vertellen niet waarom het besluit is genomen.",
+            "detail": "Dit spoor geeft geen inhoudelijk bewijs voor je verklaring. Een onderzoek bevat ook doodlopende sporen: keer terug naar de concrete documenten, handelingen en mensen."
+          }
+        ]
+      },
+      "beats": [
+        {
+          "type": "inspect",
+          "title": "Een oude machine, een nieuwe verwachting",
+          "sceneObject": "evidence",
+          "intro": "Bekijk investeringsbon, productielijn, levertijd en pilotmonster. Padafhankelijkheid beschrijft hoe eerdere keuzes latere mogelijkheden beperken, zonder verandering onmogelijk te maken.",
+          "hint": "Een bestaande lijn, contract en infrastructuur verbinden kosten en werkprocessen. Nieuwe verwachtingen veranderen sneller dan deze samenhang. Vraag naar middelen, kennis en bereidheid voor een uitvoerbare omschakeling.",
+          "explainAfter": "Path dependency maakt organisatorische traagheid begrijpelijk. De spanning tussen verwachting en capaciteit kan communicatie vooruit laten lopen. Een beperking verklaart de situatie; zij rechtvaardigt geen onware claim.",
+          "concepts": [
+            "path dependency",
+            "padafhankelijkheid",
+            "verwachting versus capaciteit",
+            "organisatorische traagheid"
+          ],
+          "sourceBlocks": [
+            0,
+            3
+          ],
+          "boundary": "Eerdere investeringen zijn geen natuurwet. Alternatieven, afschrijving, nieuwe financiering en herontwerp kunnen de ruimte voor verandering beïnvloeden.",
+          "reveal": [
+            {
+              "id": "r1",
+              "label": "Investeringsbon",
+              "title": "Een eerdere keuze werkt door",
+              "text": "De oude productielijn is gekoppeld aan specifieke materialen en contracten. Een verandering vraagt niet alleen een andere poster, maar aanpassing van die relaties."
+            },
+            {
+              "id": "r2",
+              "label": "Levertijd",
+              "title": "Capaciteit groeit niet op papier",
+              "text": "Nieuwe machines en reparatiekennis zijn nog niet beschikbaar. Tijd, middelen en organisatie beperken wat vandaag uitgevoerd kan worden."
+            },
+            {
+              "id": "r3",
+              "label": "Pilotmonster",
+              "title": "Een echte kleine verbetering",
+              "text": "Een deel van de producten gebruikt een minder belastende materiaalroute binnen één gemeten indicator. Het deel is nog niet de volledige productie."
+            },
+            {
+              "id": "r4",
+              "label": "Bestelplanning",
+              "title": "De schaal blijft groeien",
+              "text": "Meer productie kan een verbetering per stuk tenietdoen in het totale effect. Bekijk per-product- en absolute cijfers afzonderlijk."
+            },
+            {
+              "id": "r5",
+              "label": "Vergaderbon",
+              "title": "Een handelingsvraag",
+              "text": "Een keuze voor lagere volumes, herontwerp of gefaseerde vervanging heeft verschillende kosten en belangen. Vergelijk die routes in plaats van traagheid als onvermijdelijk te behandelen."
+            }
+          ],
+          "required": [
+            "r1",
+            "r2",
+            "r3",
+            "r4",
+            "r5"
+          ],
+          "id": "m5-03-b1",
+          "clueId": "m5-03-b1-clue",
+          "clueTitle": "Een oude machine, een nieuwe verwachting"
+        },
+        {
+          "type": "order",
+          "title": "Reconstrueer de afhankelijke route",
+          "sceneObject": "system",
+          "intro": "Orden hoe eerdere investeringen de huidige keuze beperken. Deze route beschrijft één mechanisme; het maakt intentie of onvermijdelijkheid niet bewezen.",
+          "hint": "Volg investering, bijpassende contracten en routines, omschakelkosten en de huidige beperkte speelruimte. Daarna onderzoek je alternatieven en bevoegde partijen.",
+          "explainAfter": "Padafhankelijkheid ontstaat doordat keuzes zich in apparaten, contracten en werkwijzen vastzetten. Daardoor is veranderen kostbaar en gecoördineerd werk nodig. Die geschiedenis bepaalt niet elke toekomstige uitkomst.",
+          "concepts": [
+            "padafhankelijkheid",
+            "investeringen",
+            "organisatorische beperkingen"
+          ],
+          "sourceBlocks": [
+            3
+          ],
+          "boundary": "Kosten verklaren niet alles: ook kennis, bereidheid, strategie en institutionele voorwaarden kunnen verandering beïnvloeden.",
+          "order": [
+            {
+              "id": "s1",
+              "text": "De organisatie investeert in een specifieke materiaal- en productielijn",
+              "feedback": "Deze keuze verbindt capaciteit aan een bepaalde werkwijze."
+            },
+            {
+              "id": "s2",
+              "text": "Contracten, vaardigheden en logistiek worden op die lijn afgestemd",
+              "feedback": "Andere onderdelen raken met de eerdere keuze verweven."
+            },
+            {
+              "id": "s3",
+              "text": "Een nieuwe route vraagt herbouw, leren en financiering",
+              "feedback": "Omschakeling heeft technische en organisatorische kosten."
+            },
+            {
+              "id": "s4",
+              "text": "De organisatie weegt alternatieven binnen die beperkingen",
+              "feedback": "Zij kan gefaseerd veranderen, heronderhandelen of andere doelen kiezen."
+            }
+          ],
+          "correctOrder": [
+            "s1",
+            "s2",
+            "s3",
+            "s4"
+          ],
+          "id": "m5-03-b2",
+          "clueId": "m5-03-b2-clue",
+          "clueTitle": "Reconstrueer de afhankelijke route"
+        },
+        {
+          "type": "connect",
+          "title": "Maak beperking geen vrijbrief",
+          "sceneObject": "evidence",
+          "intro": "Verbind ieder obstakel met het onderzoek dat veranderingsruimte zichtbaar maakt. Een overtuigende diagnose wijst op mogelijke handelingen, niet alleen op een excuus.",
+          "hint": "Scheid fysieke capaciteit, financiering, kennis en bereidheid. Elk obstakel vraagt ander bewijs en een andere aanpak; druk op reputatie vervangt de verandering niet.",
+          "explainAfter": "De greenwashing-kloof ontstaat uit meer dan één persoon. Een systeemaanpak onderzoekt institutionele druk, prikkels en beperkingen én wie het werk kan aanpassen. Leg de feitelijke grenzen eerlijk uit.",
+          "concepts": [
+            "systeemfenomeen",
+            "capaciteit",
+            "middelen kennis bereidheid",
+            "agency"
+          ],
+          "sourceBlocks": [
+            0,
+            3,
+            27
+          ],
+          "boundary": "Een geïnventariseerd obstakel bewijst niet dat de voorgestelde oplossing werkt. Toets uitvoerbaarheid en gevolgen voordat je een resultaat claimt.",
+          "pairs": [
+            {
+              "id": "p1",
+              "left": "Nieuwe materialen passen niet op de oude machine",
+              "right": "Test aanpassing of gefaseerde vervanging van de productieroute.",
+              "feedback": "Dit onderzoekt technische veranderingsruimte."
+            },
+            {
+              "id": "p2",
+              "left": "Het investeringsbudget ontbreekt",
+              "right": "Vergelijk financiering, planning en de kosten van alternatieven.",
+              "feedback": "Dit onderzoekt middelen en strategie."
+            },
+            {
+              "id": "p3",
+              "left": "Medewerkers kennen de reparatiemethode nog niet",
+              "right": "Onderzoek training en benodigde capaciteit.",
+              "feedback": "Dit onderzoekt kennis en uitvoerbaarheid."
+            },
+            {
+              "id": "p4",
+              "left": "De reputatiebelofte loopt voor op uitvoering",
+              "right": "Begrens de claim en verbind doelen aan een echt veranderplan.",
+              "feedback": "Dit corrigeert communicatie zonder de structurele vraag te laten verdwijnen."
+            }
+          ],
+          "id": "m5-03-b3",
+          "clueId": "m5-03-b3-clue",
+          "clueTitle": "Maak beperking geen vrijbrief"
+        },
+        {
+          "type": "experiment",
+          "title": "Verander volume en pilotbereik",
+          "sceneObject": "system",
+          "intro": "Voorspel de totale impact. Varieer daarna volume en pilotaandeel bij dezelfde per-productverbetering. Kijk welke claim binnen de meetgrens houdbaar blijft.",
+          "hint": "Een lagere impact per pilotproduct zegt niets op zichzelf over de volledige organisatie. Totaal hangt ook af van volume en welk deel verbeterd is; vaste grenzen maken vergelijken mogelijk.",
+          "explainAfter": "Een lokale verbetering kan echt zijn terwijl de totale impact stijgt. Selectieve communicatie ontstaat wanneer de beperkte indicator een brede indruk draagt. De fictieve proef meet geen volledige duurzaamheid.",
+          "concepts": [
+            "per-product versus absolute impact",
+            "selectieve communicatie",
+            "claimgrens",
+            "volume"
+          ],
+          "sourceBlocks": [
+            9,
+            14,
+            21,
+            24
+          ],
+          "boundary": "De impactpunten zijn fictief. Energie, transport, sociale effecten en einde levensduur ontbreken; geen bedrijfsbrede duurzaamheidsbeoordeling volgt uit dit ene model.",
+          "simulation": "claim-boundary",
+          "simulationSpec": {
+            "id": "claim-boundary",
+            "title": "Een kleiner voetafdrukje, een grotere voorraad",
+            "parameters": [
+              {
+                "id": "productionMultiplier",
+                "label": "Totaal geproduceerd volume",
+                "type": "select",
+                "options": [
+                  {
+                    "value": 1,
+                    "label": "1.000 stuks"
+                  },
+                  {
+                    "value": 1.5,
+                    "label": "1.500 stuks"
+                  },
+                  {
+                    "value": 2,
+                    "label": "2.000 stuks"
+                  }
+                ]
+              },
+              {
+                "id": "perUnitReduction",
+                "label": "Verbetering per pilotproduct",
+                "type": "select",
+                "options": [
+                  {
+                    "value": 0,
+                    "label": "0%"
+                  },
+                  {
+                    "value": 20,
+                    "label": "20%"
+                  },
+                  {
+                    "value": 40,
+                    "label": "40%"
+                  }
+                ]
+              },
+              {
+                "id": "coveragePercent",
+                "label": "Aandeel pilotproducten",
+                "type": "select",
+                "options": [
+                  {
+                    "value": 5,
+                    "label": "5% van productie"
+                  },
+                  {
+                    "value": 20,
+                    "label": "20% van productie"
+                  },
+                  {
+                    "value": 100,
+                    "label": "Alle productie"
+                  }
+                ]
+              }
+            ],
+            "defaults": {
+              "productionMultiplier": 1.5,
+              "perUnitReduction": 20,
+              "coveragePercent": 5
+            },
+            "fixedInput": {
+              "baselineVolume": 1000,
+              "baselineImpactPerUnit": 10,
+              "baselineTotalImpact": 10000
+            },
+            "illustrativeOutcomeRules": [
+              "volume = 1000 * productionMultiplier; pilotImpactPerUnit = 10 * (1 - perUnitReduction / 100).",
+              "averageImpactPerUnit = (coveragePercent / 100) * pilotImpactPerUnit + (1 - coveragePercent / 100) * 10.",
+              "totalImpact = volume * averageImpactPerUnit; absoluteChangePercent = (totalImpact / 10000 - 1) * 100.",
+              "Een claim over per-pilotproductimpact betreft alleen de geselecteerde pilot. Een bedrijfsbrede dalingsclaim vereist lager totalImpact binnen dezelfde meetgrens en vergelijking."
+            ],
+            "outputRows": [
+              {
+                "id": "pilotImpactPerUnit",
+                "label": "Impact per pilotproduct",
+                "unit": "impactpunten"
+              },
+              {
+                "id": "averageImpactPerUnit",
+                "label": "Gemiddelde impact per product",
+                "unit": "impactpunten"
+              },
+              {
+                "id": "totalImpact",
+                "label": "Totale impact productie",
+                "unit": "impactpunten; uitgangspunt 10.000"
+              },
+              {
+                "id": "absoluteChangePercent",
+                "label": "Verandering totale impact",
+                "unit": "% tegenover uitgangspunt"
+              }
+            ],
+            "assumptions": [
+              "Alle cijfers zijn fictieve leswaarden, geen levenscyclusanalyse van H&M of NOVA.",
+              "De impactpunten zijn één vereenvoudigde indicator binnen een vaste productiegrens; geen volledig oordeel over duurzaamheid.",
+              "Gebruik, transport, arbeidsomstandigheden en einde levensduur ontbreken. Een brede duurzaamheidsclaim vereist extra bewijs.",
+              "Een per-productverbetering kan echt zijn terwijl hogere volumes de totale impact verhogen."
+            ],
+            "contrastRequirements": [
+              "Houd verbetering en pilotaandeel gelijk; vergelijk productievolumes.",
+              "Houd volume gelijk; vergelijk pilotaandeel met volledige productie."
+            ],
+            "minimumTrials": 3,
+            "conceptQuestion": "Welke uitspraak is bij de startinstellingen verdedigbaar zonder de pilot tot het hele bedrijf te verheffen?",
+            "options": [
+              {
+                "id": "pilot",
+                "text": "Pilotproducten hebben binnen deze indicator 20% minder impact per stuk; de totale productie-impact stijgt.",
+                "correct": true,
+                "feedback": "De pilotverbetering is echt in het model, maar geldt voor 5% terwijl het totale volume stijgt."
+              },
+              {
+                "id": "company",
+                "text": "De bedrijfsimpact daalt met 20%, omdat de pilotverbetering representatief is voor alle producten.",
+                "correct": false,
+                "feedback": "De pilot beslaat 5%. Vergelijk het totale volume en de volledige meetgrens."
+              },
+              {
+                "id": "fake",
+                "text": "De stijgende totale impact bewijst dat ook de gemeten pilotverbetering per stuk verzonnen is.",
+                "correct": false,
+                "feedback": "Een echte lokale verbetering en stijgende totale impact kunnen tegelijk voorkomen."
+              }
+            ]
+          },
+          "minimumTrials": 3,
+          "id": "m5-03-b4",
+          "clueId": "m5-03-b4-clue",
+          "clueTitle": "Verander volume en pilotbereik",
+          "requiresTool": "lens"
+        }
+      ],
+      "finale": {
+        "intro": "Een kleine materiaalpilot krijgt een grote toekomstbelofte. Onderzoek padafhankelijkheid en vergelijk per-productverbetering met totale productie voordat de route naar inzameling wordt geopend.",
+        "slots": [
+          {
+            "id": "past",
+            "label": "Welke gevolgtrekking past bij de oude lijn en contracten?",
+            "evidenceBeatId": "m5-03-b2",
+            "options": [
+              {
+                "id": "lie",
+                "text": "De investeringsbon bewijst dat elke betrokken medewerker een onware claim bedoelt.",
+                "correct": false,
+                "feedback": "De bon toont een beperking, geen universele intentie."
+              },
+              {
+                "id": "constraint",
+                "text": "Eerdere investeringen maken verandering kostbaar en gecoördineerd, maar sluiten alternatieven niet uit.",
+                "correct": true,
+                "feedback": "Padafhankelijkheid begrenst mogelijkheden zonder volledige determinatie."
+              },
+              {
+                "id": "inevitable",
+                "text": "Het verleden maakt iedere verandering technisch en moreel onmogelijk.",
+                "correct": false,
+                "feedback": "Onderzoek welke onderdelen kunnen veranderen en met welke middelen."
+              }
+            ]
+          },
+          {
+            "id": "total",
+            "label": "De pilot verbetert per stuk; het totale volume stijgt. Wat moet je vóór een bedrijfsbrede dalingsclaim onderzoeken?",
+            "evidenceBeatId": "m5-03-b4",
+            "options": [
+              {
+                "id": "whole",
+                "text": "De volledige productie, het verbeterde aandeel en totale impact binnen dezelfde meetgrens.",
+                "correct": true,
+                "feedback": "Een per-stukgetal moet met schaal en dekking worden verbonden."
+              },
+              {
+                "id": "likes",
+                "text": "Alleen hoeveel bezoekers de pilot positief beoordelen.",
+                "correct": false,
+                "feedback": "Populariteit zegt niets over de totale impact."
+              },
+              {
+                "id": "colour",
+                "text": "Alleen of het pilotmonster zichtbaar groener oogt.",
+                "correct": false,
+                "feedback": "Uiterlijk is geen impactmeting."
+              }
+            ]
+          },
+          {
+            "id": "responsibility",
+            "label": "Wat verbindt een eerlijke claim aan werkelijk veranderingsvermogen?",
+            "evidenceBeatId": "m5-03-b3",
+            "options": [
+              {
+                "id": "delay",
+                "text": "Een toekomstambitie als bereikt resultaat presenteren omdat omschakelen lang duurt.",
+                "correct": false,
+                "feedback": "Vertraging maakt een nog niet bereikt resultaat niet waar."
+              },
+              {
+                "id": "silence",
+                "text": "Geen gegevens verzamelen, zodat de kloof tussen belofte en praktijk onbekend blijft.",
+                "correct": false,
+                "feedback": "Onbekendheid vermindert de verantwoordelijkheid voor onderzoek niet."
+              },
+              {
+                "id": "plan",
+                "text": "Een begrensde boodschap én een getoetst plan voor middelen, kennis en uitvoering.",
+                "correct": true,
+                "feedback": "Communicatiekwaliteit en structurele verandering vullen elkaar aan."
+              }
+            ]
+          }
+        ],
+        "conclusion": "Je hebt schaal en beperkingen zichtbaar gemaakt. De retourroute laat zien of een mooi begin ook verder door de keten werkt."
+      },
+      "originalSourceBlocks": [
+        0,
+        3,
+        9,
+        14,
+        21,
+        24,
+        27
+      ],
+      "optionalReviewBlocks": []
+    },
+    {
+      "id": "m5-04",
+      "world": {
+        "name": "De retour- en recyclingroute",
+        "imageKey": "room-recycling",
+        "exit": {
+          "label": "Geef de circulariteitskaart vrij",
+          "lockType": "operational-proof",
+          "problem": "De campagne gebruikt een duurzame collectie als bewijs voor een veranderd bedrijfsmodel. Volg het materiaal voorbij de verkoop en vergelijk deelinitiatief met productritme en volume.",
+          "unlockedText": "De kaart onderscheidt echte deelverbetering, ketenbewijs en de nog benodigde verandering van het bedrijfsmodel.",
+          "destinationReason": "Neem deze gegevens mee naar het archief waar investeerders en concurrenten de claims beoordelen."
+        },
+        "spots": [
+          {
+            "id": "m5-04-record",
+            "title": "Werknotitie naast het dossier",
+            "point": [
+              0.18,
+              0.55
+            ],
+            "approach": [
+              0.25,
+              0.7
+            ],
+            "observation": "Een korte werknotitie verbindt dit dossier met de dagelijkse praktijk.",
+            "detail": "De broncasus draait om gerecyclede materialen naast snelle cycli, lage prijzen en hoge volumes. Een echte deelverbetering kan een te brede totaalindruk geven. Onderzoek schaal en hoofdprocessen."
+          },
+          {
+            "id": "m5-04-empty",
+            "title": "Een ongebruikte lade",
+            "point": [
+              0.84,
+              0.73
+            ],
+            "approach": [
+              0.76,
+              0.83
+            ],
+            "observation": "De lade is leeg. De krassen en stoflaag vertellen niet waarom het besluit is genomen.",
+            "detail": "Dit spoor geeft geen inhoudelijk bewijs voor je verklaring. Een onderzoek bevat ook doodlopende sporen: keer terug naar de concrete documenten, handelingen en mensen."
+          }
+        ]
+      },
+      "beats": [
+        {
+          "type": "inspect",
+          "title": "Een collectie is nog geen bedrijfsmodel",
+          "sceneObject": "evidence",
+          "intro": "Bekijk bronarchief, verkooptempo, aanbodverdeling en retourbak. De cursus gebruikt de historische discussie rond H&M’s Conscious Collection om een deelinitiatief naast het fast-fashionmodel te leggen.",
+          "hint": "De broncasus draait om gerecyclede materialen naast snelle cycli, lage prijzen en hoge volumes. Een echte deelverbetering kan een te brede totaalindruk geven. Onderzoek schaal en hoofdprocessen.",
+          "explainAfter": "De kritiek in de cursus betreft de sprong van collectie naar bedrijfsstrategie. Deze casus is geen uitspraak over alle huidige H&M-prestaties. Dezelfde analyse past op onze fictieve publicatie.",
+          "concepts": [
+            "H&M Conscious Collection broncasus",
+            "fast fashion",
+            "deelinitiatief versus bedrijfsmodel",
+            "selectieve communicatie"
+          ],
+          "sourceBlocks": [
+            14,
+            15
+          ],
+          "boundary": "Een kritische broncasus is geen definitief juridisch oordeel. Beoordeel de concrete claim, periode en gegevens; neem geen actuele bedrijfsfeiten aan zonder nieuw bewijs.",
+          "reveal": [
+            {
+              "id": "r1",
+              "label": "Bronarchief",
+              "title": "De historische cursuscasus",
+              "text": "De Conscious Collection werd als duurzamere lijn gepresenteerd, met gerecyclede materialen en productiemethoden. De cursus beschrijft kritiek op de relatie met het bredere fast-fashionmodel."
+            },
+            {
+              "id": "r2",
+              "label": "Verkooptempo",
+              "title": "Een onveranderd hoofdproces",
+              "text": "Snelle productiecycli, lage prijzen en grote volumes kunnen blijven bestaan naast een duurzamere collectie. Materiaalkeuze is niet hetzelfde als verandering van alle productieprikkels."
+            },
+            {
+              "id": "r3",
+              "label": "Aanbodkaart",
+              "title": "Deel en geheel",
+              "text": "Een kleine collectie kan een beperkt aandeel zijn. Een bedrijfsbrede claim vraagt informatie over het volledige aanbod en de grotere impactstromen."
+            },
+            {
+              "id": "r4",
+              "label": "Retourbak",
+              "title": "Een belofte vraagt uitvoering",
+              "text": "Een inzamelactie zonder betrouwbare verwerking toont niet dat materiaal daadwerkelijk opnieuw gebruikt of gerecycled wordt. Volg de vervolgstappen."
+            },
+            {
+              "id": "r5",
+              "label": "Ketenvraag",
+              "title": "Wie draagt de gevolgen?",
+              "text": "Productie, gebruik, afval en sociale omstandigheden raken andere groepen en toekomstige mogelijkheden. Een groen materiaal zegt daar niet vanzelf alles over."
+            }
+          ],
+          "required": [
+            "r1",
+            "r2",
+            "r3",
+            "r4",
+            "r5"
+          ],
+          "id": "m5-04-b1",
+          "clueId": "m5-04-b1-clue",
+          "clueTitle": "Een collectie is nog geen bedrijfsmodel"
+        },
+        {
+          "type": "connect",
+          "title": "Volg de belofte naar het werk",
+          "sceneObject": "evidence",
+          "intro": "Verbind iedere circulariteitsbelofte met het benodigde operationele bewijs. Een gedoneerd of ingezameld object is nog geen aantoonbaar gesloten kringloop.",
+          "hint": "Vraag wat werkelijk gebeurt na de handeling en op welke schaal. Hergebruik, reparatie en recycling vragen verschillende processen; één telling vervangt geen ketenbewijs.",
+          "explainAfter": "Communicatie moet aansluiten op de uitgevoerde route. Bedrijven zijn ook verantwoordelijk voor gevolgen verder in de keten. Een duurzame ambitie heeft geen vrijbrief om onbekende vervolguitkomsten als bewezen te presenteren.",
+          "concepts": [
+            "feitelijke praktijk",
+            "verantwoordelijkheid voor gevolgen",
+            "claimgrens",
+            "circulaire processen"
+          ],
+          "sourceBlocks": [
+            14,
+            21,
+            24
+          ],
+          "boundary": "Ook ketenbewijs voor één stroom dekt geen volledige bedrijfsprestatie. Onderzoek ontbrekende stromen, groepen en tijdsperioden.",
+          "pairs": [
+            {
+              "id": "p1",
+              "left": "De poster zegt hergebruik",
+              "right": "Volg hoeveel producten bruikbaar opnieuw worden ingezet.",
+              "feedback": "Inzameling alleen bewijst geen tweede gebruik."
+            },
+            {
+              "id": "p2",
+              "left": "De poster zegt reparatie verlengt levensduur",
+              "right": "Volg bruikbare reparaties en daadwerkelijk verder gebruik.",
+              "feedback": "Een ingeleverde aanvraag is nog geen geslaagde reparatie."
+            },
+            {
+              "id": "p3",
+              "left": "De poster zegt recycling van alle retourmateriaal",
+              "right": "Volg verwerking, verliezen en eindbestemming per materiaalstroom.",
+              "feedback": "Een verzamelde hoeveelheid is nog niet een teruggewonnen hoeveelheid."
+            },
+            {
+              "id": "p4",
+              "left": "De poster zegt veranderd bedrijfsmodel",
+              "right": "Onderzoek productritme, volumes, financiering en de volledige keten.",
+              "feedback": "Een collectie kan bijdragen, maar niet het geheel bewijzen."
+            }
+          ],
+          "id": "m5-04-b2",
+          "clueId": "m5-04-b2-clue",
+          "clueTitle": "Volg de belofte naar het werk"
+        },
+        {
+          "type": "sort",
+          "title": "Sorteer wat de bewijsgrens toelaat",
+          "sceneObject": "evidence",
+          "intro": "Leg conclusies bij aangetoonde deelprestatie of aanvullende onderbouwing nodig. Bewaar de deelverbetering zonder haar tot het geheel uit te vergroten.",
+          "hint": "Een resultaat binnen één indicator is bruikbaar als deelbewijs. Voor het hele bedrijf heb je schaal, overige impact en uitvoering nodig. Kritiek bewijst niet dat iedere verbetering fictief is.",
+          "explainAfter": "Selectieve communicatie kan op echte gegevens rusten. Waarheidsgetrouwheid vraagt dat de indruk bij het publiek klopt met reikwijdte en relevante ontbrekende informatie, ook als elk los getal juist is.",
+          "concepts": [
+            "selectieve communicatie",
+            "deelinitiatief versus bedrijfsmodel",
+            "waarheidsgetrouwheid"
+          ],
+          "sourceBlocks": [
+            9,
+            14,
+            21
+          ],
+          "boundary": "Het onderscheid zegt niets over de uiteindelijke beste bedrijfsstrategie. Dat vraagt een bredere normatieve en praktische afweging.",
+          "categories": [
+            {
+              "id": "part",
+              "label": "Afgebakend ondersteund"
+            },
+            {
+              "id": "extra",
+              "label": "Meer bewijs nodig"
+            }
+          ],
+          "cards": [
+            {
+              "id": "c1",
+              "text": "De geteste pilot gebruikt minder van de gemeten grondstof per product.",
+              "category": "part",
+              "feedback": "Dat kan een echte lokale verbetering zijn."
+            },
+            {
+              "id": "c2",
+              "text": "Daarom is ieder product van de organisatie duurzaam.",
+              "category": "extra",
+              "feedback": "De pilot en indicator dekken het gehele aanbod niet."
+            },
+            {
+              "id": "c3",
+              "text": "De retourtelling toont hoeveel objecten zijn ingezameld.",
+              "category": "part",
+              "feedback": "Dit meet ontvangst, niet automatisch verwerking."
+            },
+            {
+              "id": "c4",
+              "text": "Alle ingezamelde materialen zijn effectief teruggewonnen zonder verlies.",
+              "category": "extra",
+              "feedback": "Volg de verdere verwerking en verliezen."
+            },
+            {
+              "id": "c5",
+              "text": "De cursuscasus stelt vragen bij de koppeling tussen collectie en fast-fashionmodel.",
+              "category": "part",
+              "feedback": "Dat is de beschreven analytische kritiek, geen tijdloos oordeel over ieder bedrijf."
+            }
+          ],
+          "id": "m5-04-b3",
+          "clueId": "m5-04-b3-clue",
+          "clueTitle": "Sorteer wat de bewijsgrens toelaat"
+        },
+        {
+          "type": "build",
+          "title": "Maak een veranderkaart voor de hele route",
+          "sceneObject": "system",
+          "intro": "Kies onderdelen die claimgrens, uitvoering en bedrijfsmodel met elkaar verbinden. De opdracht vraagt een controleerbaar plan, geen éénmalige reputatieactie.",
+          "hint": "Een betrouwbare route volgt feitelijke stromen, benoemt schaal en verbindt doelen aan productritme, budget en verantwoordelijkheid. Kleine verbeteringen mogen zichtbaar zijn, mits hun beperking zichtbaar blijft.",
+          "explainAfter": "Een echte transitie kan geleidelijk zijn. Werk met gemeten deelresultaten, structurele veranderingen en open onzekerheden. Zo neemt communicatie het werk niet over en kunnen anderen de voortgang beoordelen.",
+          "concepts": [
+            "structurele verandering",
+            "feitelijke praktijk",
+            "verantwoordelijkheid",
+            "vertraging van systeemverandering"
+          ],
+          "sourceBlocks": [
+            14,
+            24,
+            27
+          ],
+          "boundary": "Een plan kan ambitieus zijn en toch falen. Rapporteer later uitvoering en gevolgen, inclusief tegenvallers.",
+          "options": [
+            {
+              "id": "flow",
+              "text": "Volg retour, verwerking en verliezen per materiaalstroom.",
+              "correct": true,
+              "feedback": "Dit maakt de operationele route controleerbaar."
+            },
+            {
+              "id": "scale",
+              "text": "Leg deelresultaat naast volume en volledige aanbodgrens.",
+              "correct": true,
+              "feedback": "Dit voorkomt dat de collectie de hele organisatie representeert."
+            },
+            {
+              "id": "strategy",
+              "text": "Verbind vervolgdoelen aan budget, werkprocessen en een verantwoordelijke.",
+              "correct": true,
+              "feedback": "Dit koppelt de belofte aan structurele handelingsruimte."
+            },
+            {
+              "id": "photo",
+              "text": "Maak alleen foto’s van de eerste inzameldag.",
+              "correct": false,
+              "feedback": "Beelden tonen een handeling, niet verwerking en schaal."
+            },
+            {
+              "id": "rename",
+              "text": "Noem het bestaande hoge productritme circulair zonder routeaanpassing.",
+              "correct": false,
+              "feedback": "Een woord verandert de bepalende bedrijfsprocessen niet."
+            }
+          ],
+          "required": [
+            "flow",
+            "scale",
+            "strategy"
+          ],
+          "id": "m5-04-b4",
+          "clueId": "m5-04-b4-clue",
+          "clueTitle": "Maak een veranderkaart voor de hele route"
+        },
+        {
+          "type": "order",
+          "title": "De meetgrens volgt de levenscyclus",
+          "sceneObject": "system",
+          "intro": "Leg de materiaalroute van winning tot afval naast de claim. De Europese Environmental Footprint-uitleg vraagt verder kijken dan de opvallende productiestap.",
+          "hint": "Een levenscyclusgrens kan winning, productie, gebruik en afval omvatten. Emissies en middelen kunnen over die stappen verschuiven; meet wat de claim werkelijk bestrijkt.",
+          "explainAfter": "Een wetenschappelijke methode ondersteunt vergelijking binnen duidelijke grenzen. Minder impact in één stap kan met meer impact elders samengaan. De drukproef moet zeggen welke levenscyclusstappen en indicatoren onderzocht zijn.",
+          "concepts": [
+            "Environmental Footprint",
+            "levenscyclus",
+            "claimgrens",
+            "selectieve communicatie"
+          ],
+          "sourceBlocks": [
+            18,
+            21,
+            24
+          ],
+          "boundary": "Een geordende route is nog geen levenscyclusanalyse. Hoeveelheden, impactcategorieën, methode en onzekerheid moeten worden gemeten en verantwoord.",
+          "order": [
+            {
+              "id": "s1",
+              "text": "Winning van de gebruikte grondstoffen",
+              "feedback": "De oorsprong kan emissies en middelengebruik veroorzaken."
+            },
+            {
+              "id": "s2",
+              "text": "Productie en verwerking van het product",
+              "feedback": "De zichtbare fabrieksstap is een deel van de route."
+            },
+            {
+              "id": "s3",
+              "text": "Gebruik, onderhoud en levensduur",
+              "feedback": "Verbruik en bruikbaarheid tijdens gebruik kunnen het totaal veranderen."
+            },
+            {
+              "id": "s4",
+              "text": "Inzameling, afvalverwerking en mogelijke terugwinning",
+              "feedback": "Een retourtelling is niet automatisch een bewezen duurzame eindbestemming."
+            }
+          ],
+          "correctOrder": [
+            "s1",
+            "s2",
+            "s3",
+            "s4"
+          ],
+          "id": "m5-04-b5",
+          "clueId": "m5-04-b5-clue",
+          "clueTitle": "De meetgrens volgt de levenscyclus"
+        }
+      ],
+      "finale": {
+        "intro": "De campagne gebruikt een duurzame collectie als bewijs voor een veranderd bedrijfsmodel. Volg het materiaal voorbij de verkoop en vergelijk deelinitiatief met productritme en volume.",
+        "slots": [
+          {
+            "id": "model",
+            "label": "Waarom is een gerecyclede collectie geen voldoende bewijs van een veranderd fast-fashionmodel?",
+            "evidenceBeatId": "m5-04-b1",
+            "options": [
+              {
+                "id": "process",
+                "text": "Productritme, volumes en hoofdprocessen kunnen gelijk blijven terwijl één materiaalroute verbetert.",
+                "correct": true,
+                "feedback": "Het deel en het model zijn verschillende analyse-eenheden."
+              },
+              {
+                "id": "nothing",
+                "text": "Iedere materiaalverbetering is zonder waarde omdat het model niet volledig veranderd is.",
+                "correct": false,
+                "feedback": "Een deelverbetering kan echt en nuttig zijn; de brede claim vraagt meer."
+              },
+              {
+                "id": "automatic",
+                "text": "Eén collectie verandert automatisch alle ketens en investeringsprikkels.",
+                "correct": false,
+                "feedback": "De bronnen tonen geen automatische systeemtransformatie."
+              }
+            ]
+          },
+          {
+            "id": "route",
+            "label": "Wat ontbreekt wanneer alleen ingezamelde kilo’s bekend zijn?",
+            "evidenceBeatId": "m5-04-b2",
+            "options": [
+              {
+                "id": "symbol",
+                "text": "Een mooier label dat meer retouren oproept.",
+                "correct": false,
+                "feedback": "Het vervolgproces blijft onbekend."
+              },
+              {
+                "id": "complete",
+                "text": "Er ontbreekt niets: een ontvangen kilogram is per definitie gerecycled.",
+                "correct": false,
+                "feedback": "Materiaal kan verloren gaan of anders worden afgevoerd."
+              },
+              {
+                "id": "follow",
+                "text": "Bewijs over verwerking, verliezen, eindbestemming en werkelijke terugwinning.",
+                "correct": true,
+                "feedback": "Ontvangst is niet de laatste stap van een kringloop."
+              }
+            ]
+          }
+        ],
+        "conclusion": "De circulariteitskaart toont wat werkt én wat nog niet bewezen is. Nu onderzoek je wat de claim met kapitaal, concurrentie en vertrouwen doet."
+      },
+      "originalSourceBlocks": [
+        9,
+        14,
+        15,
+        18,
+        21,
+        24,
+        27
+      ],
+      "optionalReviewBlocks": [
+        15,
+        18
+      ]
+    },
+    {
+      "id": "m5-05",
+      "world": {
+        "name": "Het investerings- en bewijsarchief",
+        "imageKey": "room-archive",
+        "exit": {
+          "label": "Open het toetsbare investeringsdossier",
+          "lockType": "information-access",
+          "problem": "Een financier ziet alleen de groene poster, terwijl een concurrent dure procesverbetering uitvoert. Onderzoek informatie-asymmetrie, reputatie en ethische gevolgen voordat het dossier openbaar wordt.",
+          "unlockedText": "De financier krijgt controleerbare prestaties, beperkingen en de relatie met echte investeringen.",
+          "destinationReason": "Breng de gevonden prikkels en gevolgen naar het forum voor een systeemreactie."
+        },
+        "spots": [
+          {
+            "id": "m5-05-record",
+            "title": "Werknotitie naast het dossier",
+            "point": [
+              0.18,
+              0.55
+            ],
+            "approach": [
+              0.25,
+              0.7
+            ],
+            "observation": "Een korte werknotitie verbindt dit dossier met de dagelijkse praktijk.",
+            "detail": "ESG staat voor Environmental, Social en Governance. Een gunstig duurzaamheidsbeeld kan kapitaal helpen aantrekken. Informatie-asymmetrie betekent ongelijke kennis; slechte controleerbaarheid kan de claimkloof laten bestaan."
+          },
+          {
+            "id": "m5-05-empty",
+            "title": "Een ongebruikte lade",
+            "point": [
+              0.84,
+              0.73
+            ],
+            "approach": [
+              0.76,
+              0.83
+            ],
+            "observation": "De lade is leeg. De krassen en stoflaag vertellen niet waarom het besluit is genomen.",
+            "detail": "Dit spoor geeft geen inhoudelijk bewijs voor je verklaring. Een onderzoek bevat ook doodlopende sporen: keer terug naar de concrete documenten, handelingen en mensen."
+          }
+        ]
+      },
+      "beats": [
+        {
+          "type": "inspect",
+          "title": "Wie weet wat en wie betaalt?",
+          "sceneObject": "evidence",
+          "intro": "Open financieringsmail, interne stroomgegevens, concurrentenbon en klachtenboek. Een reputatievoordeel kan kapitaal aantrekken terwijl het publiek minder weet dan de organisatie.",
+          "hint": "ESG staat voor Environmental, Social en Governance. Een gunstig duurzaamheidsbeeld kan kapitaal helpen aantrekken. Informatie-asymmetrie betekent ongelijke kennis; slechte controleerbaarheid kan de claimkloof laten bestaan.",
+          "explainAfter": "Lyon en Montgomery onderzoeken reputatievoordelen uit claims zonder overeenkomstige prestatieverandering. ESG kan echte verandering belonen, maar informatie en standaarden moeten controleerbaar zijn om schijn en prestatie te onderscheiden.",
+          "concepts": [
+            "ESG",
+            "reputatie als bedrijfsmiddel",
+            "kapitaalmarkten",
+            "informatie-asymmetrie",
+            "Lyon en Montgomery"
+          ],
+          "sourceBlocks": [
+            6,
+            7
+          ],
+          "boundary": "Een ESG-score of duurzaamheidsfonds bewijst niet dat iedere claim klopt of iedere dimensie is onderzocht. Financiële voorkeuren verschillen per investeerder.",
+          "reveal": [
+            {
+              "id": "r1",
+              "label": "Financieringsmail",
+              "title": "Toegang tot kapitaal",
+              "text": "De financier vraagt duurzaamheid naast rendement. Een reputatievoordeel kan toegang tot financiering of waardering beïnvloeden."
+            },
+            {
+              "id": "r2",
+              "label": "Interne stroomgegevens",
+              "title": "Ongelijke kennis",
+              "text": "De organisatie kent verliezen en volledige volumes; het publiek ziet alleen het gunstige pilotgetal. Dit is informatie-asymmetrie."
+            },
+            {
+              "id": "r3",
+              "label": "Concurrentenbon",
+              "title": "Verschillende werkelijke kosten",
+              "text": "Een concurrent investeert in reparatie en lagere impact. Wanneer alleen uitstraling beloond wordt, kan een goedkoper symbool vergelijkbaar reputatievoordeel krijgen."
+            },
+            {
+              "id": "r4",
+              "label": "ESG-kaart",
+              "title": "Drie dimensies",
+              "text": "Milieu, sociale gevolgen en governance zijn verschillende onderdelen. Een groene materiaalindicator dekt sociale omstandigheden en verantwoording niet vanzelf."
+            },
+            {
+              "id": "r5",
+              "label": "Klachtenboek",
+              "title": "Vertrouwen kan afbrokkelen",
+              "text": "Herhaaldelijk niet-kloppende claims kunnen wantrouwen oproepen tegenover bedrijven, keurmerken, labels en beleid. Dat kan ook betrouwbare initiatieven raken."
+            },
+            {
+              "id": "r6",
+              "label": "Verantwoordelijkheidskaart",
+              "title": "Twee ethische lenzen",
+              "text": "Stakeholdertheorie vraagt aandacht voor geraakte belanghebbenden. Intergenerationele rechtvaardigheid kijkt ook naar mogelijkheden van toekomstige generaties. Een reputatievoordeel bij huidige klanten dekt die gevolgen niet."
+            },
+            {
+              "id": "r7",
+              "label": "Vertrouwenskaart",
+              "title": "Green fatigue",
+              "text": "Green fatigue beschrijft het risico dat mensen duurzaamheidsclaims niet meer serieus nemen. Herhaalde misleiding kan ook vertrouwen in betrouwbare labels en echte verandering verzwakken."
+            }
+          ],
+          "required": [
+            "r1",
+            "r2",
+            "r3",
+            "r4",
+            "r5",
+            "r6",
+            "r7"
+          ],
+          "id": "m5-05-b1",
+          "clueId": "m5-05-b1-clue",
+          "clueTitle": "Wie weet wat en wie betaalt?"
+        },
+        {
+          "type": "connect",
+          "title": "Van kenniskloof naar voordeel",
+          "sceneObject": "evidence",
+          "intro": "Verbind de informatieroute met het gevolg dat je moet onderzoeken. Een verschil in kennis kan machtsverschil worden wanneer het beslissingen van anderen beïnvloedt.",
+          "hint": "Volg wie interne gegevens heeft, wat de ander te zien krijgt en hoe reputatie of kapitaal daarop reageert. De oorzaak is niet hetzelfde als een bewezen totale maatschappelijke uitkomst.",
+          "explainAfter": "Informatie-asymmetrie kan keuze en investering vertekenen. Betere toegang tot controleerbare gegevens kan de kloof verkleinen. Transparantie alleen verandert echter niet automatisch productie en financieringsprikkels.",
+          "concepts": [
+            "informatie-asymmetrie",
+            "macht door informatie",
+            "kapitaalmarkten",
+            "transparantie"
+          ],
+          "sourceBlocks": [
+            6,
+            17,
+            24
+          ],
+          "boundary": "Minder asymmetrie betekent niet dat iedereen alle kennis heeft. Gegevens moeten ook vergelijkbaar, begrijpelijk en toetsbaar zijn.",
+          "pairs": [
+            {
+              "id": "p1",
+              "left": "De organisatie kent de volledige impact, de financier niet",
+              "right": "Een gunstig deelbeeld kan de investeringsafweging sturen.",
+              "feedback": "Een kenniskloof raakt besluiten van anderen."
+            },
+            {
+              "id": "p2",
+              "left": "Dezelfde claim kent verschillende verborgen meetgrenzen",
+              "right": "Vergelijking tussen bedrijven wordt onbetrouwbaar.",
+              "feedback": "Standaarden en toelichting kunnen vergelijkbaarheid verbeteren."
+            },
+            {
+              "id": "p3",
+              "left": "Prestatiegegevens worden onafhankelijk controleerbaar",
+              "right": "De ruimte voor ongecontroleerde reputatieclaims kan afnemen.",
+              "feedback": "Dit verkleint de informatie-asymmetrie, geen garantie tegen alle misleiding."
+            },
+            {
+              "id": "p4",
+              "left": "De beloning blijft alleen bereik van de campagne tellen",
+              "right": "Een uitvoeringsprikkel voor echte verandering kan blijven ontbreken.",
+              "feedback": "Informatie en organisatorische incentives moeten samen worden onderzocht."
+            }
+          ],
+          "id": "m5-05-b2",
+          "clueId": "m5-05-b2-clue",
+          "clueTitle": "Van kenniskloof naar voordeel"
+        },
+        {
+          "type": "sort",
+          "title": "Wie draagt welk ethisch gevolg?",
+          "sceneObject": "evidence",
+          "intro": "Koppel gevolgen aan informatiekwaliteit, concurrentie of breder vertrouwen en toekomstige gevolgen. Sommige effecten hebben meerdere dimensies; deze kaarten leggen hun primaire vraag bloot.",
+          "hint": "Misleiding raakt beslissingen; oneerlijke reputatieconcurrentie raakt investeerders in echte verandering; wantrouwen raakt instituties. Stakeholders en toekomstige generaties worden getroffen door de feitelijke milieu- en sociale gevolgen.",
+          "explainAfter": "Greenwashing reikt verder dan marketing. Transparantie, eerlijke concurrentie, vertrouwen, stakeholderverantwoordelijkheid en intergenerationele rechtvaardigheid vragen zicht op betrokkenen, feiten en toekomstige gevolgen.",
+          "concepts": [
+            "transparantie",
+            "eerlijke concurrentie",
+            "institutioneel vertrouwen",
+            "green fatigue",
+            "stakeholderverantwoordelijkheid",
+            "intergenerationele rechtvaardigheid"
+          ],
+          "sourceBlocks": [
+            21,
+            22,
+            24
+          ],
+          "boundary": "Een risico op maatschappelijk wantrouwen bewijst niet dat alle keurmerken onbetrouwbaar zijn. Beoordeel afzonderlijke claims en controles.",
+          "categories": [
+            {
+              "id": "info",
+              "label": "Besluitinformatie"
+            },
+            {
+              "id": "competition",
+              "label": "Eerlijke concurrentie"
+            },
+            {
+              "id": "broader",
+              "label": "Vertrouwen en gevolgen over tijd"
+            }
+          ],
+          "cards": [
+            {
+              "id": "c1",
+              "text": "Een koper kiest op basis van een ontbrekende grote impactstroom.",
+              "category": "info",
+              "feedback": "De keuze wordt gebaseerd op een onvolledig beeld."
+            },
+            {
+              "id": "c2",
+              "text": "Een bedrijf met echte procesinvesteringen verliest reputatievoordeel aan een goedkope schijnclaim.",
+              "category": "competition",
+              "feedback": "Werkelijke kosten en reputatiebeloning raken uit balans."
+            },
+            {
+              "id": "c3",
+              "text": "Burgers nemen ook gecontroleerde labels minder serieus na herhaalde misleiding.",
+              "category": "broader",
+              "feedback": "Verlies van vertrouwen kan verder reiken dan één merk."
+            },
+            {
+              "id": "c4",
+              "text": "De indruk van bereikte duurzaamheid vermindert druk op toekomstige verandering.",
+              "category": "broader",
+              "feedback": "Dit kan collectieve aanpassing vertragen."
+            },
+            {
+              "id": "c5",
+              "text": "Interne informatie wordt alleen gunstig samengevat voor een financier.",
+              "category": "info",
+              "feedback": "De financier mist gegevens voor een geïnformeerde afweging."
+            },
+            {
+              "id": "c6",
+              "text": "Milieugevolgen beperken mogelijkheden van toekomstige generaties.",
+              "category": "broader",
+              "feedback": "Intergenerationele rechtvaardigheid kijkt voorbij de huidige gebruikers."
+            }
+          ],
+          "id": "m5-05-b3",
+          "clueId": "m5-05-b3-clue",
+          "clueTitle": "Wie draagt welk ethisch gevolg?"
+        },
+        {
+          "type": "decision",
+          "title": "Repareer de informatie vóór de investering",
+          "sceneObject": "person",
+          "intro": "Kies wat de gegeven kenniskloof verkleint. Een volledig dossier of een onafhankelijk gecontroleerde beperkte claim kan helpen; de investeringsstrategie blijft bespreekbaar.",
+          "hint": "Maak de relevante prestatie en grenzen toegankelijk en toetsbaar. Een hoger reclamebudget verandert niet wat de financier over werkelijke effecten weet.",
+          "explainAfter": "De organisatie moet anderen geen breder resultaat laten afleiden dan haar bewijs draagt. Eerlijke informatie ondersteunt keuzes; vervolgens moet ook de investering in werkelijke transformatie worden onderzocht.",
+          "concepts": [
+            "informatie-asymmetrie",
+            "controleerbaarheid",
+            "macht door informatie"
+          ],
+          "sourceBlocks": [
+            6,
+            21,
+            24
+          ],
+          "boundary": "Een beter geïnformeerde financier kan nog een andere waarde- of risicoafweging maken. Transparantie schrijft niet één investeringsbesluit voor.",
+          "options": [
+            {
+              "id": "dossier",
+              "text": "Deel vergelijkbare volledige-stroomgegevens met meetgrens, onzekerheden en controle.",
+              "correct": true,
+              "feedback": "Dit vermindert de concrete kenniskloof in het dossier."
+            },
+            {
+              "id": "limited",
+              "text": "Laat de beperkte pilotclaim onafhankelijk toetsen en vermeld welke bedrijfseffecten ontbreken.",
+              "correct": true,
+              "feedback": "Dit maakt bekend wat de claim wél draagt en houdt de ongetoetste rest zichtbaar."
+            },
+            {
+              "id": "reach",
+              "text": "Vergroot alleen het campagnebereik met hetzelfde gunstige deelgetal.",
+              "correct": false,
+              "feedback": "Meer mensen zien hetzelfde beperkte beeld; de kennis ontbreekt nog."
+            }
+          ],
+          "id": "m5-05-b4",
+          "clueId": "m5-05-b4-clue",
+          "clueTitle": "Repareer de informatie vóór de investering"
+        },
+        {
+          "type": "sort",
+          "title": "Wat vertelt een consumentenonderzoek?",
+          "sceneObject": "evidence",
+          "intro": "Bekijk de gedateerde WSJ-bronkaarten. Onderscheid gerapporteerde bereidheid van werkelijk gedrag en van onbewezen uitspraken over huidige studenten.",
+          "hint": "Een enquête meet wat mensen zeggen. Dat kan een reputatieprikkel helpen begrijpen, maar een percentage bewijst geen aankoopgedrag, geen huidige universele voorkeur en geen duurzame prestatie.",
+          "explainAfter": "WSJ rapporteert in het bronfragment uit 2023 consumentenbereidheid om meer te betalen voor duurzame verpakking. De leerfunctie is commercieel belang en bewijsgrens, niet het memoriseren van een tijdloos percentage.",
+          "concepts": [
+            "reputatie als bedrijfsmiddel",
+            "consumentenprikkels",
+            "bewijslimiet"
+          ],
+          "sourceBlocks": [
+            6,
+            25
+          ],
+          "boundary": "Bronjaar, steekproef en meetvraag begrenzen een percentage. Gedrag en actuele doelgroepen vragen eigen gegevens.",
+          "categories": [
+            {
+              "id": "reported",
+              "label": "Door de bronkaart gerapporteerd"
+            },
+            {
+              "id": "unverified",
+              "label": "Niet hiermee aangetoond"
+            }
+          ],
+          "cards": [
+            {
+              "id": "c1",
+              "text": "De videobeschrijving uit 2023 vermeldt dat meer dan 60% zegt meer te willen betalen voor duurzame verpakking.",
+              "category": "reported",
+              "feedback": "Dit is een gedateerde gerapporteerde intentie."
+            },
+            {
+              "id": "c2",
+              "text": "Dezelfde mensen kochten aantoonbaar in een praktijktest het duurdere product.",
+              "category": "unverified",
+              "feedback": "Een gerapporteerde wens is nog geen geobserveerde aankoop."
+            },
+            {
+              "id": "c3",
+              "text": "Iedere huidige student betaalt meer voor elk groen label.",
+              "category": "unverified",
+              "feedback": "Deze doelgroep en universele uitspraak zijn niet onderzocht."
+            },
+            {
+              "id": "c4",
+              "text": "De uitspraak kan verklaren waarom bedrijven groene reputatie commercieel aantrekkelijk vinden.",
+              "category": "reported",
+              "feedback": "Dit is de aangegeven commerciële leerfunctie, geen garantie van succes."
+            }
+          ],
+          "id": "m5-05-b5",
+          "clueId": "m5-05-b5-clue",
+          "clueTitle": "Wat vertelt een consumentenonderzoek?"
+        }
+      ],
+      "finale": {
+        "intro": "Een financier ziet alleen de groene poster, terwijl een concurrent dure procesverbetering uitvoert. Onderzoek informatie-asymmetrie, reputatie en ethische gevolgen voordat het dossier openbaar wordt.",
+        "slots": [
+          {
+            "id": "asymmetry",
+            "label": "Welk bewijs toont hier informatie-asymmetrie?",
+            "evidenceBeatId": "m5-05-b1",
+            "options": [
+              {
+                "id": "size",
+                "text": "De omvang van het kantoor bewijst dat iedere financier minder deskundig is.",
+                "correct": false,
+                "feedback": "Het gaat om gegeven informatie, niet een algemene uitspraak over deskundigheid."
+              },
+              {
+                "id": "opinion",
+                "text": "Een verschil in duurzaamheidsvoorkeur is op zichzelf een kenniskloof.",
+                "correct": false,
+                "feedback": "Verschillende waarden en ongelijke feitenkennis zijn onderscheiden."
+              },
+              {
+                "id": "difference",
+                "text": "De organisatie kent volledige stromen; de financier ontvangt alleen gunstige pilotinformatie.",
+                "correct": true,
+                "feedback": "Het verschil in relevante kennis is concreet zichtbaar."
+              }
+            ]
+          },
+          {
+            "id": "competition",
+            "label": "Waarom kan greenwashing echte verduurzaming financieel benadelen?",
+            "evidenceBeatId": "m5-05-b3",
+            "options": [
+              {
+                "id": "guarantee",
+                "text": "Een transparant dossier garandeert dat alle financiers de duurste route kiezen.",
+                "correct": false,
+                "feedback": "Informatie maakt keuzes beter onderbouwbaar, niet identiek."
+              },
+              {
+                "id": "cost",
+                "text": "Een symbolische claim kan vergelijkbare reputatie opleveren zonder de kosten van echte procesverandering.",
+                "correct": true,
+                "feedback": "De beloning raakt niet noodzakelijk aan de werkelijke inspanning."
+              },
+              {
+                "id": "all",
+                "text": "Elke lage productprijs bewijst een greenwashingstrategie.",
+                "correct": false,
+                "feedback": "Een lage prijs heeft meer mogelijke oorzaken."
+              }
+            ]
+          },
+          {
+            "id": "future",
+            "label": "Welk mechanisme kan structurele verandering vertragen?",
+            "evidenceBeatId": "m5-05-b3",
+            "options": [
+              {
+                "id": "done",
+                "text": "Een overdreven beeld van bereikte voortgang kan druk op verdere verandering verminderen.",
+                "correct": true,
+                "feedback": "De indruk dat het werk af is kan het resterende werk minder urgent maken."
+              },
+              {
+                "id": "inevitable",
+                "text": "Iedere duurzaamheidsclaim vertraagt per definitie elke verandering.",
+                "correct": false,
+                "feedback": "Goed onderbouwde communicatie kan ook echte verandering ondersteunen."
+              },
+              {
+                "id": "only",
+                "text": "Alleen individuele consumenten bepalen of bedrijven investeren; instituties spelen geen rol.",
+                "correct": false,
+                "feedback": "Prikkels, governance en kapitaalmarkten beïnvloeden de verandering mee."
+              }
+            ]
+          }
+        ],
+        "conclusion": "Het dossier is beter toetsbaar. Het forum vraagt nu maatregelen die zowel informatie als structurele verandering raken."
+      },
+      "sourceProjections": [
+        {
+          "id": "source-25",
+          "youtube": "2NsBcVrPQok",
+          "start": 81,
+          "title": "Greenwashing: When Companies Aren’t as Sustainable as They Claim | WSJ",
+          "owner": "The Wall Street Journal",
+          "sourceBlocks": [
+            25
+          ],
+          "purpose": "Welke claim en welk ontbrekend bewijs laat het fragment zien? Leg daarna uit wat een geuite koopintentie wel en niet bewijst in de eigen hubcasus.",
+          "viewingTask": "Welke claim en welk ontbrekend bewijs laat het fragment zien? Leg daarna uit wat een geuite koopintentie wel en niet bewijst in de eigen hubcasus.",
+          "afterPrompt": "Welke claim en welk ontbrekend bewijs laat het fragment zien? Leg daarna uit wat een geuite koopintentie wel en niet bewijst in de eigen hubcasus.",
+          "knownCoreConcepts": [
+            "reputatie als bedrijfsmiddel",
+            "consumentenprikkels",
+            "bewijslimiet"
+          ],
+          "contentVerification": "Oorspronkelijk bronfragment. De bekende leerfunctie is in de route verwerkt; unieke gesproken details worden via dit volledige fragment aangeboden. Beoordeel historische uitspraken in hun broncontext.",
+          "fullOriginalClip": true,
+          "minimumSynthesisWords": 15,
+          "completionInterpretation": "Opening plus case synthesis records engagement, not verified complete viewing or mastery."
+        }
+      ],
+      "originalSourceBlocks": [
+        6,
+        7,
+        17,
+        21,
+        22,
+        24,
+        25
+      ],
+      "optionalReviewBlocks": [
+        7,
+        22,
+        25
+      ]
+    },
+    {
+      "id": "m5-06",
+      "world": {
+        "name": "Het publieke forum",
+        "imageKey": "room-forum",
+        "exit": {
+          "label": "Open de eerlijke publieksroute",
+          "lockType": "credible-transition",
+          "problem": "Het publiek vraagt een houdbare belofte en echte voortgang. Combineer bewijs, organisatorische uitvoering en institutionele verantwoording voordat de finale publicatie doorgaat.",
+          "unlockedText": "De publieksroute toont grenzen, vergelijkbare resultaten en een aanspreekbaar veranderplan.",
+          "destinationReason": "Een nieuwe-sectorcasus toetst straks of je deze systeemanalyse buiten de warenmarkt kunt toepassen."
+        },
+        "spots": [
+          {
+            "id": "m5-06-record",
+            "title": "Werknotitie naast het dossier",
+            "point": [
+              0.18,
+              0.55
+            ],
+            "approach": [
+              0.25,
+              0.7
+            ],
+            "observation": "Een korte werknotitie verbindt dit dossier met de dagelijkse praktijk.",
+            "detail": "CSRD is een institutioneel rapportagekader. Standaarden kunnen informatie-asymmetrie en onvergelijkbaarheid verminderen. Actuele scope en invoering moeten worden gecontroleerd; rapportage is geen garantie voor duurzame productie."
+          },
+          {
+            "id": "m5-06-empty",
+            "title": "Een ongebruikte lade",
+            "point": [
+              0.84,
+              0.73
+            ],
+            "approach": [
+              0.76,
+              0.83
+            ],
+            "observation": "De lade is leeg. De krassen en stoflaag vertellen niet waarom het besluit is genomen.",
+            "detail": "Dit spoor geeft geen inhoudelijk bewijs voor je verklaring. Een onderzoek bevat ook doodlopende sporen: keer terug naar de concrete documenten, handelingen en mensen."
+          }
+        ]
+      },
+      "beats": [
+        {
+          "type": "inspect",
+          "title": "Welke reactie verandert het systeem?",
+          "sceneObject": "evidence",
+          "intro": "Open rapportagestandaard, toezichtskaart, budget en toekomstbrief. Greenwashing verminderen vraagt meer dan één poster: ook prikkels, kennis en uitvoeringsmogelijkheden tellen mee.",
+          "hint": "CSRD is een institutioneel rapportagekader. Standaarden kunnen informatie-asymmetrie en onvergelijkbaarheid verminderen. Actuele scope en invoering moeten worden gecontroleerd; rapportage is geen garantie voor duurzame productie.",
+          "explainAfter": "Systeemreacties omvatten controleerbare informatie, passende toezichtkaders en daadwerkelijke organisatieverandering. Geen enkele maatregel voorkomt alle greenwashing. Leg vast wat zij kan veranderen en wat aanvullend werk vraagt.",
+          "concepts": [
+            "CSRD",
+            "institutionele interventie",
+            "transparantie",
+            "vergelijkbaarheid",
+            "structurele verandering"
+          ],
+          "sourceBlocks": [
+            17,
+            19,
+            24,
+            27
+          ],
+          "boundary": "Een kaderkaart is geen actuele juridische toepassingstoets. Rapporteren, naleven en daadwerkelijk duurzamer worden blijven verschillende begrippen.",
+          "reveal": [
+            {
+              "id": "r1",
+              "label": "Rapportagestandaard",
+              "title": "Een gemeenschappelijke taal",
+              "text": "Vergelijkbare indicatoren, grenzen en perioden helpen anderen prestatieclaims beoordelen. Ze kunnen de kenniskloof verkleinen."
+            },
+            {
+              "id": "r2",
+              "label": "CSRD-kaart",
+              "title": "Kader met begrensde toepassing",
+              "text": "De cursus gebruikt CSRD als voorbeeld van rapportage over milieu, sociale prestaties en governance. Het toepassingsbereik is inmiddels gewijzigd; controleer actuele publieke informatie."
+            },
+            {
+              "id": "r3",
+              "label": "Toezichtskaart",
+              "title": "Claims moeten toetsbaar blijven",
+              "text": "Richtlijnen en toezicht kunnen misleidende communicatie begrenzen. Hun werking vraagt passende criteria, uitvoering en controle."
+            },
+            {
+              "id": "r4",
+              "label": "Budget",
+              "title": "Informatie verandert de lijn niet alleen",
+              "text": "Werkelijke productie- en ketenverandering heeft middelen, kennis, bevoegdheid en beheer nodig. Een rapport zonder uitvoering sluit de kloof niet."
+            },
+            {
+              "id": "r5",
+              "label": "Toekomstbrief",
+              "title": "Verantwoordelijkheid over tijd",
+              "text": "Stakeholders en toekomstige generaties dragen gevolgen. Overdreven voortgang kan noodzakelijke transities vertragen en vertrouwen beschadigen."
+            },
+            {
+              "id": "r6",
+              "label": "Methodekaart",
+              "title": "Environmental Footprint",
+              "text": "De Europese bronvideo noemt wetenschappelijke methoden om milieueffecten en grondstoffengebruik over de levenscyclus te onderzoeken. Een meting van verpakking alleen dekt winning, productie, gebruik en afval niet."
+            },
+            {
+              "id": "r7",
+              "label": "Keurmerkkaart",
+              "title": "Bestaande vrijwillige kaders",
+              "text": "De bronvideo noemt EU Ecolabel en EMAS als bestaande vrijwillige initiatieven. Een label heeft criteria en een toepassingsgrens; het bewijst niet vanzelf dat alle bedrijfseffecten zijn onderzocht."
+            },
+            {
+              "id": "r8",
+              "label": "Voorstelkaart",
+              "title": "Een video uit 2023",
+              "text": "Het EU-fragment bespreekt een voorstel voor onderbouwing en controle van groene claims en labelbeheer. Een voorstel is geen bewijs dat elke genoemde regel vandaag ongewijzigd geldt."
+            }
+          ],
+          "required": [
+            "r1",
+            "r2",
+            "r3",
+            "r4",
+            "r5",
+            "r6",
+            "r7",
+            "r8"
+          ],
+          "id": "m5-06-b1",
+          "clueId": "m5-06-b1-clue",
+          "clueTitle": "Welke reactie verandert het systeem?"
+        },
+        {
+          "type": "connect",
+          "title": "Laat iedere maatregel een mechanisme raken",
+          "sceneObject": "evidence",
+          "intro": "Koppel maatregelen aan de vastgestelde oorzaak. Een verklaring op het label, een audit en een investering hebben verschillende functies en kunnen samen nodig zijn.",
+          "hint": "Informatie-asymmetrie vraagt toetsbare toegang; een vage claim vraagt definitie; een uitvoeringsbeperking vraagt middelen of herontwerp; een reputatieprikkel vraagt een andere beoordeling en verantwoording.",
+          "explainAfter": "Een systeembenadering verbindt maatschappelijke verwachtingen, economische prikkels en organisatiepraktijk. De interventie moet het aangetoonde mechanisme raken; een los symbool doet dat niet vanzelf.",
+          "concepts": [
+            "systeemfenomeen",
+            "institutionele druk",
+            "economische prikkels",
+            "organisatorische beperkingen",
+            "verantwoordelijkheid"
+          ],
+          "sourceBlocks": [
+            0,
+            3,
+            6,
+            17,
+            27
+          ],
+          "boundary": "Een maatregel kan nieuwe kosten of ongewenste prikkels geven. Test gevolgen en bespreek proportionele alternatieven.",
+          "pairs": [
+            {
+              "id": "p1",
+              "left": "Het publiek kan prestatie en meetgrens niet vergelijken",
+              "right": "Gebruik controleerbare, vergelijkbare informatie en passende toetsing.",
+              "feedback": "Dit raakt de kenniskloof."
+            },
+            {
+              "id": "p2",
+              "left": "De tekst heeft geen betekenis van groen",
+              "right": "Definieer de concrete prestatie en haar toepassingsgrens.",
+              "feedback": "Dit raakt de vage claim."
+            },
+            {
+              "id": "p3",
+              "left": "De oude route mist geld en reparatiekennis",
+              "right": "Verbind financiering, planning en training aan daadwerkelijke aanpassing.",
+              "feedback": "Dit raakt organisatorische capaciteit."
+            },
+            {
+              "id": "p4",
+              "left": "Managers krijgen alleen waardering voor publiciteitsbereik",
+              "right": "Beoordeel ook uitvoering, volledige effecten en betrouwbare communicatie.",
+              "feedback": "Dit raakt de reputatieprikkel in de organisatie."
+            }
+          ],
+          "id": "m5-06-b2",
+          "clueId": "m5-06-b2-clue",
+          "clueTitle": "Laat iedere maatregel een mechanisme raken"
+        },
+        {
+          "type": "build",
+          "title": "Maak de publicatie en het veranderplan samen",
+          "sceneObject": "system",
+          "intro": "Kies wat huidige prestaties, daadwerkelijke uitvoering en toekomstig toezicht controleerbaar verbindt. Leg je waardeprioriteit apart vast; deze taak toetst of het plan de vereiste functies bevat.",
+          "hint": "Een plan noemt bewijs en begrenzing, middelen voor echt werk, verantwoordelijke bevoegdheid en momenten om voortgang te controleren. De precieze ambitie kan onderwerp van verdedigbare discussie blijven.",
+          "explainAfter": "Een eerlijke claim en een echt veranderplan zijn beide nodig. Ze ondersteunen transparantie, concurrentie en vertrouwen, maar garanderen geen perfecte transitie. Blijf ook tegenvallers, tradeoffs en onzekerheden zichtbaar maken.",
+          "concepts": [
+            "waarheidsgetrouwheid",
+            "structurele verandering",
+            "governance",
+            "stakeholderverantwoordelijkheid",
+            "systeemreactie"
+          ],
+          "sourceBlocks": [
+            21,
+            24,
+            27
+          ],
+          "boundary": "Een gefinancierde afspraak is nog geen gerealiseerde uitkomst. Volg later de praktijk en pas beloften aan wanneer resultaten tegenvallen.",
+          "options": [
+            {
+              "id": "evidence",
+              "text": "Publiceer gemeten huidige resultaten, grenzen en relevante onzekerheden.",
+              "correct": true,
+              "feedback": "De uitspraak blijft bij de aantoonbare prestatie."
+            },
+            {
+              "id": "change",
+              "text": "Beleg middelen, kennis en bevoegdheden voor concreet veranderwerk.",
+              "correct": true,
+              "feedback": "Dit verbindt de belofte met organisatorische uitvoering."
+            },
+            {
+              "id": "review",
+              "text": "Leg onafhankelijke controle, correctie en herzieningsmomenten vast.",
+              "correct": true,
+              "feedback": "Zo kunnen anderen voortgang en tegenvallers blijven onderzoeken."
+            },
+            {
+              "id": "promise",
+              "text": "Vervang gemeten resultaten door een ambitie alsof die al bereikt is.",
+              "correct": false,
+              "feedback": "Een toekomstdoel is geen prestatiebewijs."
+            },
+            {
+              "id": "ranking",
+              "text": "Stuur uitsluitend op de populariteit van de groene slogan.",
+              "correct": false,
+              "feedback": "Campagnewaardering houdt de uitvoerings- en informatievragen open."
+            }
+          ],
+          "required": [
+            "evidence",
+            "change",
+            "review"
+          ],
+          "id": "m5-06-b3",
+          "clueId": "m5-06-b3-clue",
+          "clueTitle": "Maak de publicatie en het veranderplan samen"
+        },
+        {
+          "type": "decision",
+          "title": "Geef de volgende belofte vrij",
+          "sceneObject": "person",
+          "intro": "Kies een verdedigbare publicatieroute. Een begrensde voortgangsrapportage of uitstel van de brede claim kan; beide moeten bekende resultaten en resterend werk eerlijk behandelen.",
+          "hint": "Tijd, middelen en getroffen belangen kunnen verschillende prioriteiten rechtvaardigen. De grens is dat de boodschap geen onbekende of onbereikte prestatie als feit presenteert.",
+          "explainAfter": "De eindkeuze mag verschillen wanneer bewijs en waarden helder zijn. Greenwashing begrijpen als systeemfenomeen maakt verantwoordelijkheden breder, maar ontslaat niemand van eerlijkheid en daadwerkelijk veranderwerk.",
+          "concepts": [
+            "systeemfenomeen",
+            "transparantie",
+            "verantwoordelijkheid",
+            "ethische afweging"
+          ],
+          "sourceBlocks": [
+            0,
+            21,
+            24,
+            27
+          ],
+          "boundary": "De publicatie is een stap in een traject. Volg uitvoering, vertrouwen en impact; behandel succes van de campagne niet als succes van de transitie.",
+          "options": [
+            {
+              "id": "progress",
+              "text": "Publiceer begrensde voortgang met gecontroleerde gegevens en uitvoerbaar vervolgplan.",
+              "correct": true,
+              "feedback": "Dit maakt leren en voortgang zichtbaar zonder het geheel als afgerond te presenteren."
+            },
+            {
+              "id": "postpone",
+              "text": "Stel de brede claim uit en publiceer welke bewijzen en veranderingen nog nodig zijn.",
+              "correct": true,
+              "feedback": "Dit kan verantwoord zijn bij een nog te grote kloof tussen belofte en werk."
+            },
+            {
+              "id": "finished",
+              "text": "Noem de transitie voltooid omdat een publiek veranderplan is ondertekend.",
+              "correct": false,
+              "feedback": "Ondertekening en gerealiseerde verandering zijn verschillende stappen."
+            }
+          ],
+          "id": "m5-06-b4",
+          "clueId": "m5-06-b4-clue",
+          "clueTitle": "Geef de volgende belofte vrij"
+        }
+      ],
+      "finale": {
+        "intro": "Het publiek vraagt een houdbare belofte en echte voortgang. Combineer bewijs, organisatorische uitvoering en institutionele verantwoording voordat de finale publicatie doorgaat.",
+        "slots": [
+          {
+            "id": "report",
+            "label": "Wat kan vergelijkbare rapportage rechtstreeks verbeteren?",
+            "evidenceBeatId": "m5-06-b1",
+            "options": [
+              {
+                "id": "all",
+                "text": "De rapportage bewijst dat geen enkel deel van het bedrijf ooit nog misleidend communiceert.",
+                "correct": false,
+                "feedback": "Geen kader elimineert alle risico’s of controlebehoefte."
+              },
+              {
+                "id": "knowledge",
+                "text": "De informatiebasis voor het vergelijken en toetsen van prestaties binnen expliciete grenzen.",
+                "correct": true,
+                "feedback": "Dit kan informatie-asymmetrie verkleinen."
+              },
+              {
+                "id": "automatic",
+                "text": "Alle werkprocessen veranderen automatisch zodra het rapport is gepubliceerd.",
+                "correct": false,
+                "feedback": "Uitvoering vraagt aparte middelen en besluiten."
+              }
+            ]
+          },
+          {
+            "id": "system",
+            "label": "Wat maakt je plan een systeemreactie in plaats van uitsluitend een nieuwe tekst?",
+            "evidenceBeatId": "m5-06-b3",
+            "options": [
+              {
+                "id": "combined",
+                "text": "Het verbindt informatie met uitvoering, prikkels, middelen en aanspreekbare controle.",
+                "correct": true,
+                "feedback": "De reactie raakt meerdere oorzaken van de kloof."
+              },
+              {
+                "id": "length",
+                "text": "Het is langer dan de oorspronkelijke slogan, ongeacht praktijk.",
+                "correct": false,
+                "feedback": "Lengte is geen structurele wijziging."
+              },
+              {
+                "id": "public",
+                "text": "Een grote publieksopening bewijst dat alle maatschappelijke verwachtingen vervuld zijn.",
+                "correct": false,
+                "feedback": "Erkenning en daadwerkelijke prestaties blijven onderscheiden."
+              }
+            ]
+          }
+        ],
+        "conclusion": "Je opent de route met toetsbare belofte en uitvoering. De afsluitende casus verplaatst de analyse naar een andere sector."
+      },
+      "originalSourceBlocks": [
+        0,
+        3,
+        6,
+        17,
+        19,
+        21,
+        24,
+        27
+      ],
+      "optionalReviewBlocks": [
+        19
+      ]
+    }
+  ],
+  "chapterFinale": {
+    "title": "Een hotelketen verkoopt de groene overnachting",
+    "intro": "Een hotelketen promoot één verbeterd hotel als bewijs voor de hele groep. Een financier beloont reputatie, oude installaties vertragen verandering en het publiek ziet weinig volledige gegevens.",
+    "caseFacts": [
+      {
+        "id": "pilot",
+        "label": "Projectkaart",
+        "text": "Eén van veertig hotels heeft een aantoonbare energiebesparing; de advertentie noemt alle overnachtingen groen."
+      },
+      {
+        "id": "capital",
+        "label": "Investeerdersmail",
+        "text": "De financier vraagt een duurzaamheidsbeeld; het interne budget telt vooral campagnereik en kortetermijnbezetting."
+      },
+      {
+        "id": "plant",
+        "label": "Installatiearchief",
+        "text": "Langlopende gasinstallaties, onderhoudscontracten en budgetbeperkingen maken vervanging kostbaar maar niet onmogelijk."
+      },
+      {
+        "id": "info",
+        "label": "Rapportagevergelijking",
+        "text": "Intern zijn alle hotelstromen bekend; publiek verschijnt alleen het gunstige projectresultaat zonder groepsgrens."
+      }
+    ],
+    "slots": [
+      {
+        "id": "boundary",
+        "label": "Welke mismatch wordt door de projectkaart rechtstreeks aangetoond?",
+        "evidenceBeatId": "m5-04-b1",
+        "options": [
+          {
+            "id": "part",
+            "text": "Een deelprestatie draagt niet vanzelf de claim over alle veertig hotels.",
+            "correct": true,
+            "feedback": "Het project en de groep zijn verschillende meetgrenzen."
+          },
+          {
+            "id": "false",
+            "text": "De brede claim bewijst dat ook de gemeten lokale besparing verzonnen is.",
+            "correct": false,
+            "feedback": "Een echte verbetering kan te breed worden gepresenteerd."
+          },
+          {
+            "id": "done",
+            "text": "Eén hotel verandert automatisch de installaties en stromen van alle andere hotels.",
+            "correct": false,
+            "feedback": "Daarvoor ontbreekt operationeel bewijs."
+          }
+        ]
+      },
+      {
+        "id": "incentive",
+        "label": "Welke systeemspanning blijkt uit mail en budget?",
+        "evidenceBeatId": "m5-05-b1",
+        "options": [
+          {
+            "id": "allbad",
+            "text": "De documenten bewijzen dat iedereen de milieugevolgen onbelangrijk vindt.",
+            "correct": false,
+            "feedback": "Je kent de prikkels, niet alle persoonlijke motieven."
+          },
+          {
+            "id": "none",
+            "text": "Omdat financiering belangrijk is, kan communicatie nooit problematisch zijn.",
+            "correct": false,
+            "feedback": "Een belang maakt een te brede claim niet waar."
+          },
+          {
+            "id": "reputation",
+            "text": "Druk op een duurzaam beeld komt samen met beloningen voor bereik en bezetting in plaats van aangetoonde transformatie.",
+            "correct": true,
+            "feedback": "De prikkelstructuur kan communicatie vooruit laten lopen."
+          }
+        ]
+      },
+      {
+        "id": "path",
+        "label": "Hoe interpreteer je het installatiearchief zonder verandering onmogelijk te verklaren?",
+        "evidenceBeatId": "m5-03-b2",
+        "options": [
+          {
+            "id": "excuse",
+            "text": "Hoge vervangingskosten bewijzen dat de brede groene claim al klopt.",
+            "correct": false,
+            "feedback": "Een beperking van uitvoering verandert geen prestatiefeit."
+          },
+          {
+            "id": "dependency",
+            "text": "Eerdere investeringen en contracten beperken routes; onderzoek financiering, planning en alternatieven.",
+            "correct": true,
+            "feedback": "Padafhankelijkheid is een beperking, geen noodlot."
+          },
+          {
+            "id": "nature",
+            "text": "Het verleden sluit iedere toekomstige herziening definitief uit.",
+            "correct": false,
+            "feedback": "Mogelijke verandering moet praktisch worden onderzocht."
+          }
+        ]
+      },
+      {
+        "id": "asymmetry",
+        "label": "Welke ingreep raakt de gegeven informatie-asymmetrie het meest direct?",
+        "evidenceBeatId": "m5-05-b2",
+        "options": [
+          {
+            "id": "compare",
+            "text": "Maak vergelijkbare groepsgegevens en de projectgrens controleerbaar, met relevante beperkingen.",
+            "correct": true,
+            "feedback": "Dit verkleint het verschil tussen interne kennis en publieksbeeld."
+          },
+          {
+            "id": "advert",
+            "text": "Vergroot het bereik van hetzelfde projectgetal zonder groepsdata.",
+            "correct": false,
+            "feedback": "Meer blootstelling aan beperkte informatie verkleint de kenniskloof niet."
+          },
+          {
+            "id": "build",
+            "text": "Vervang één ketel en neem aan dat daarmee alle publieke informatie volledig is.",
+            "correct": false,
+            "feedback": "Een technische verbetering vervangt geen controleerbare informatie."
+          }
+        ]
+      }
+    ],
+    "conclusion": "Je hebt deelprestatie, legitimiteitsdruk, padafhankelijkheid en informatie-asymmetrie in een nieuwe sector herkend. Een eerlijke boodschap en een uitvoerbaar veranderplan blijven verschillende, verbonden verantwoordelijkheden."
+  },
+  "knowledgeCheck": {
+    "intro": "Acht nieuwe situaties toetsen feiten, causaliteit en bewijsgrenzen na het avontuur. De gewenste bedrijfsstrategie kan verschillen; deze vragen toetsen wat het gegeven bewijs wel en niet ondersteunt.",
+    "items": [
+      {
+        "id": "m5-k1",
+        "question": "Een merk financiert echt één buurtproject en concludeert dat zijn volledige productie duurzaam is. Welke diagnose volgt zonder de waarde van het project te ontkennen?",
+        "concepts": [
+          "symbolische duurzaamheid",
+          "deelinitiatief versus bedrijfsmodel"
+        ],
+        "sourceBlocks": [
+          9,
+          14
+        ],
+        "options": [
+          {
+            "id": "scale",
+            "text": "Het buurtproject kan echt waarde hebben; de verhouding tot alle bedrijfsactiviteiten is nog niet onderzocht en draagt de brede conclusie niet.",
+            "correct": true,
+            "feedback": "Het probleem is de sprong van een deelmaatregel naar bedrijfsbrede duurzaamheid. Het deel kan zinvol zijn zonder die sprong te rechtvaardigen."
+          },
+          {
+            "id": "intention",
+            "text": "Het project toont een duurzame intentie; die intentie vormt de relevante meetgrens voor het oordeel over de volledige productie.",
+            "correct": false,
+            "feedback": "Intentie en feitelijke impact zijn verschillend. De productieclaim vraagt gegevens over de bedrijfsactiviteiten, niet alleen het doel van een project."
+          },
+          {
+            "id": "external",
+            "text": "Omdat de maatregel buiten de productie plaatsvindt, kan zij geen waarde hebben en moet het projectbewijs als verzonnen worden behandeld.",
+            "correct": false,
+            "feedback": "Een extern project kan echt en waardevol zijn. De casus geeft geen reden om zijn bestaan te ontkennen; alleen de brede conclusie is ongedekt."
+          },
+          {
+            "id": "verification",
+            "text": "Als een onafhankelijke partij het buurtproject controleert, dekt die controle ook de claim over de overige productieprocessen.",
+            "correct": false,
+            "feedback": "De scope van de controle blijft bij het onderzochte project. Onafhankelijkheid maakt de controle niet automatisch bedrijfsbreed."
+          }
+        ]
+      },
+      {
+        "id": "m5-k2",
+        "question": "Een producent zit aan specifieke machines en contracten vast. Welke analyse van path dependency is correct?",
+        "concepts": [
+          "padafhankelijkheid",
+          "organisatorische beperkingen"
+        ],
+        "sourceBlocks": [
+          3
+        ],
+        "options": [
+          {
+            "id": "sunk",
+            "text": "Eerdere uitgaven zijn al gedaan; daarom hebben onderhoud, gekoppelde contracten en benodigde nieuwe capaciteit geen betekenis voor de huidige overstap.",
+            "correct": false,
+            "feedback": "Verzonken kosten en huidige afhankelijkheden zijn verschillend. Contracten, technische koppelingen en nieuwe capaciteit kunnen nog echte omschakelkosten geven."
+          },
+          {
+            "id": "capacity",
+            "text": "Zodra het bedrijf bereid is te veranderen, zijn kennis, financiering en nieuwe capaciteit geen afzonderlijke barrières meer in deze keten.",
+            "correct": false,
+            "feedback": "Bereidheid is een dimensie naast middelen, kennis en capaciteit. Een veranderwens heft operationele afhankelijkheden niet op."
+          },
+          {
+            "id": "communication",
+            "text": "De beperkte overstapruimte verklaart de communicatiekloof; daardoor worden claims over toekomstige prestaties bewijs voor huidige prestaties.",
+            "correct": false,
+            "feedback": "Een verklaring voor traagheid is geen rechtvaardiging van een te brede claim. Huidige feiten en toekomstige plannen moeten gescheiden blijven."
+          },
+          {
+            "id": "limits",
+            "text": "Machines, contracten en gekoppelde processen verhogen de kosten van omschakeling; onderzoek gefaseerde alternatieven zonder beperkingen als onvermijdelijkheid te behandelen.",
+            "correct": true,
+            "feedback": "Padafhankelijkheid betreft het gewicht van eerdere keuzes. Zij beperkt mogelijkheden, maar sluit verandering niet principieel uit."
+          }
+        ]
+      },
+      {
+        "id": "m5-k3",
+        "question": "Een bedrijf publiceert dezelfde gunstige pilotcijfers op tien platforms. Intern kent het ook grote ongunstige stromen. Wat verandert er aan de informatie-asymmetrie?",
+        "concepts": [
+          "informatie-asymmetrie",
+          "transparantie"
+        ],
+        "sourceBlocks": [
+          6,
+          24
+        ],
+        "options": [
+          {
+            "id": "precision",
+            "text": "De kenniskloof wordt kleiner wanneer het pilotgetal nauwkeuriger wordt afgerond; de overige stromen zijn daarvoor niet nodig.",
+            "correct": false,
+            "feedback": "Een preciezer deelgetal blijft een deelgetal. De ontbrekende relevante stromen worden niet door nauwkeurigheid van de pilot ingevuld."
+          },
+          {
+            "id": "preference",
+            "text": "De resterende kloof gaat over voorkeuren: met dezelfde openbare pilotcijfers kunnen publiek en bedrijf verschillende waarden toekennen.",
+            "correct": false,
+            "feedback": "Verschillende voorkeuren zijn mogelijk, maar de casus noemt ook intern bekende gegevens die het publiek mist. Dat is informatie-asymmetrie."
+          },
+          {
+            "id": "remains",
+            "text": "De pilot wordt bekender; de volledige ongunstige stromen blijven bij het bedrijf en dus blijft de relevante kenniskloof bestaan.",
+            "correct": true,
+            "feedback": "Meer verspreiding van dezelfde selectie vermindert het gebrek aan volledige prestatie-informatie niet."
+          },
+          {
+            "id": "channels",
+            "text": "De kenniskloof wordt kleiner door het aantal kanalen; tien onafhankelijke plaatsingen vormen tien verificaties van het volledige bedrijfsbeeld.",
+            "correct": false,
+            "feedback": "Tien plaatsingen kunnen dezelfde bron herhalen. Onafhankelijke controle en volledige gegevens zijn iets anders dan distributie."
+          }
+        ]
+      },
+      {
+        "id": "m5-k4",
+        "question": "In deze casus is een producteigenschap al voor alle verkopers verplicht. Eén verkoper noemt die eigenschap als uniek groen voordeel. Welk primair mechanisme wordt getoond?",
+        "concepts": [
+          "irrelevante communicatie"
+        ],
+        "sourceBlocks": [
+          9
+        ],
+        "options": [
+          {
+            "id": "symbolic",
+            "text": "Het primaire probleem is de geringe projectomvang; de casus bewijst dat de verkoper alleen een klein nieuw milieu-initiatief uitvoerde.",
+            "correct": false,
+            "feedback": "Een gemeenschappelijk verplichte eigenschap is niet beschreven als een klein nieuw initiatief. De misleiding zit in het onderscheidende voordeel."
+          },
+          {
+            "id": "irrelevant",
+            "text": "De eigenschap kan feitelijk kloppen, maar de verplichte basis wordt gepresenteerd als een onderscheidende extra milieuprestatie.",
+            "correct": true,
+            "feedback": "Het ontbrekende onderscheid maakt de claim hier irrelevant als uniek voordeel. De basiseigenschap zelf kan waar en nuttig zijn."
+          },
+          {
+            "id": "vague",
+            "text": "Het primaire probleem is een ontbrekende definitie; de genoemde verplichte eigenschap is in deze casus niet als criterium vastgelegd.",
+            "correct": false,
+            "feedback": "De casus specificeert juist een verplichte eigenschap. Het probleem is de gesuggereerde extra prestatie tegenover andere verkopers."
+          },
+          {
+            "id": "selective",
+            "text": "Het primaire probleem is selectiviteit; de casus bewijst dat een grotere negatieve impactstroom doelbewust buiten de publicatie blijft.",
+            "correct": false,
+            "feedback": "Selectiviteit kan elders spelen, maar er is geen weggelaten grotere stroom genoemd. De gegeven norm toont vooral een niet-onderscheidend voordeel."
+          }
+        ]
+      },
+      {
+        "id": "m5-k5",
+        "question": "Binnen één vaste indicator daalt impact per product van 10 naar 8 punten. Productie stijgt van 100 naar 150 stuks. Welke totale vergelijking klopt?",
+        "concepts": [
+          "per-product versus absolute impact",
+          "volume"
+        ],
+        "sourceBlocks": [
+          14,
+          24
+        ],
+        "options": [
+          {
+            "id": "rise",
+            "text": "De totale impact stijgt van 1.000 naar 1.200 punten, ondanks de daling per product van 10 naar 8.",
+            "correct": true,
+            "feedback": "Oud: 100 × 10 = 1.000. Nieuw: 150 × 8 = 1.200. De absolute stijging is 20%; de daling per stuk is ook 20%."
+          },
+          {
+            "id": "net",
+            "text": "De totale impact stijgt naar 1.300 punten, omdat 50% meer productie en 20% minder per stuk netto 30% opleveren.",
+            "correct": false,
+            "feedback": "Percentuele veranderingen werken multiplicatief: 1,50 × 0,80 = 1,20. Richtingen optellen geeft hier het verkeerde totaal."
+          },
+          {
+            "id": "oldvolume",
+            "text": "De totale impact daalt naar 800 punten, omdat de oude 100 producten nu ieder 8 punten veroorzaken.",
+            "correct": false,
+            "feedback": "De intensiteit is juist, maar het nieuwe volume is 150. De berekening moet beide nieuwe waarden gebruiken."
+          },
+          {
+            "id": "oldintensity",
+            "text": "De totale impact stijgt naar 1.500 punten, omdat het nieuwe volume 150 producten ieder 10 punten veroorzaakt.",
+            "correct": false,
+            "feedback": "Het volume is juist, maar de nieuwe intensiteit is 8. De berekening moet beide nieuwe waarden gebruiken."
+          }
+        ]
+      },
+      {
+        "id": "m5-k6",
+        "question": "Een bedrijf met echte procesinvesteringen heeft hogere kosten dan een bedrijf met vooral een sterk groen imago. Wanneer kan oneerlijke reputatieconcurrentie ontstaan?",
+        "concepts": [
+          "eerlijke concurrentie",
+          "reputatie als bedrijfsmiddel",
+          "kapitaalmarkten"
+        ],
+        "sourceBlocks": [
+          6,
+          21
+        ],
+        "options": [
+          {
+            "id": "efficiency",
+            "text": "Het goedkopere bedrijf maakt dezelfde echte procesverbetering met minder middelen; een lagere kostprijs is daarmee het bewijs van greenwashing.",
+            "correct": false,
+            "feedback": "Goedkopere echte verduurzaming kan efficiëntie betekenen. Oneerlijke schijnconcurrentie betreft reputatievoordeel zonder de overeenkomstige prestaties."
+          },
+          {
+            "id": "capital",
+            "text": "Financiers beoordelen beide bedrijven op dezelfde controleerbare volledige prestatiegegevens; het gelijke imago toont dan de informatie-asymmetrie.",
+            "correct": false,
+            "feedback": "Gedeelde volledige controleerbare gegevens verkleinen juist de genoemde kenniskloof. Een imago alleen bewijst geen verborgen gebrek aan prestatie."
+          },
+          {
+            "id": "price",
+            "text": "Het bedrijf met echte investeringen vraagt een hogere prijs; daardoor is elk reputatieverschil primair een gevolg van de nieuwe productprijs.",
+            "correct": false,
+            "feedback": "Prijs kan voorkeuren beïnvloeden, maar de casus gaat om vergelijkbare reputatie zonder vergelijkbare prestaties. De hogere prijs bewijst die oorzaak niet."
+          },
+          {
+            "id": "reward",
+            "text": "Financiers en klanten belonen het groene imago vergelijkbaar, terwijl de overeenkomstige kosten en prestaties van echte procesverandering ontbreken.",
+            "correct": true,
+            "feedback": "De reputatiebeloning raakt los van inspanning. Dit kan bedrijven met echte veranderingskosten benadelen."
+          }
+        ]
+      },
+      {
+        "id": "m5-k7",
+        "question": "Na herhaalde misleidende claims wantrouwen burgers ook goed gecontroleerde labels. Wat illustreert dit?",
+        "concepts": [
+          "institutioneel vertrouwen",
+          "green fatigue"
+        ],
+        "sourceBlocks": [
+          21
+        ],
+        "options": [
+          {
+            "id": "competition",
+            "text": "De gecontroleerde labels zijn minder geloofwaardig doordat hun bedrijven aantoonbaar minder in productie investeren dan de misleidende bedrijven.",
+            "correct": false,
+            "feedback": "Die investering is niet gegeven. Het beschreven effect gaat over uitstraling van wantrouwen, niet over bewezen omgekeerde prestaties."
+          },
+          {
+            "id": "choice",
+            "text": "De burgers hebben dezelfde feitelijke informatie over alle labels; hun reactie laat daarom alleen een veranderde duurzaamheidsvoorkeur zien.",
+            "correct": false,
+            "feedback": "De casus koppelt hun wantrouwen aan herhaalde misleiding. Wantrouwen tegenover claims is iets anders dan minder waarde hechten aan duurzaamheid."
+          },
+          {
+            "id": "spillover",
+            "text": "Een wantrouwenseffect breidt zich uit van misleidende bedrijven naar het maatschappelijke instrument waarmee ook betrouwbare prestaties worden herkenbaar gemaakt.",
+            "correct": true,
+            "feedback": "Green fatigue kan vertrouwen in keurmerken, labels en beleid raken. Perceptie en de feitelijke betrouwbaarheid van een afzonderlijk label blijven verschillend."
+          },
+          {
+            "id": "accuracy",
+            "text": "De gecontroleerde labels hebben daardoor een aangetoonde meetfout; het wantrouwen is het empirische bewijs dat de onderliggende controles slechter werden.",
+            "correct": false,
+            "feedback": "De casus geeft een verandering in vertrouwen, geen nieuwe meting van labelkwaliteit. Een betrouwbaar instrument kan door bredere misleiding worden gewantrouwd."
+          }
+        ]
+      },
+      {
+        "id": "m5-k8",
+        "question": "Vergelijkbare rapportage maakt impactdata beter toegankelijk, maar werkprocessen en beloningen blijven gelijk. Welke conclusie is het meest verantwoord?",
+        "concepts": [
+          "CSRD",
+          "structurele verandering",
+          "institutionele interventie"
+        ],
+        "sourceBlocks": [
+          17,
+          24,
+          27
+        ],
+        "options": [
+          {
+            "id": "proof",
+            "text": "De informatiebasis kan beter worden; meer toegankelijke gegevens bewijzen daarmee dat de totale impact sinds de vorige periode afnam.",
+            "correct": false,
+            "feedback": "Betere toegankelijkheid is geen gemeten impactdaling. De gegevens kunnen juist een stijging zichtbaar maken."
+          },
+          {
+            "id": "partial",
+            "text": "De informatiebasis kan beter worden; of processen en prikkels veranderen moet afzonderlijk worden gevolgd en zo nodig met uitvoeringsmaatregelen worden aangepakt.",
+            "correct": true,
+            "feedback": "Vergelijkbare rapportage kan informatie-asymmetrie verkleinen. Zij is geen vervanging voor technische, organisatorische of financiële verandering."
+          },
+          {
+            "id": "scope",
+            "text": "De informatiebasis kan beter worden; vergelijkbaarheid betekent hier dat iedere gerapporteerde indicator ook de volledige levenscyclus van ieder product dekt.",
+            "correct": false,
+            "feedback": "Vergelijkbare definities hebben nog een scope. Rapporteer welke processen, perioden en indicatoren de gegevens daadwerkelijk omvatten."
+          },
+          {
+            "id": "incentive",
+            "text": "De informatiebasis kan beter worden; de publicatie zet de bestaande volumebonus daardoor al om in een beloning voor lagere absolute impact.",
+            "correct": false,
+            "feedback": "Publicatie verandert de genoemde beloningsregel niet vanzelf. Governance en organisatorische doelen vragen een eigen aangrijpingspunt."
+          }
+        ]
+      }
+    ]
+  },
+  "originalSourceBlocks": [
+    0,
+    1,
+    3,
+    4,
+    6,
+    7,
+    9,
+    10,
+    11,
+    12,
+    14,
+    15,
+    17,
+    18,
+    19,
+    21,
+    22,
+    24,
+    25,
+    27
+  ],
+  "optionalReviewBlocks": [
+    1,
+    4,
+    7,
+    10,
+    15,
+    18,
+    19,
+    22,
+    25
+  ],
+  "coverageNote": "De route onderwijst en oefent de geauditeerde cursusproposities. Unieke videodetails zonder volledig geverifieerd transcript worden uitsluitend gedekt wanneer de oorspronkelijke volledige projecties in de speelroute zijn geïntegreerd. Authored dekking is geen bewijs van beheersing.",
+  "sourceMediaRequirements": [
+    {
+      "sourceBlock": 1,
+      "youtube": "_RoA0wxsJMw",
+      "owner": "GLOBIS Insights",
+      "title": "Greenwashing...Basically",
+      "start": 0,
+      "originalUrl": "https://www.youtube.com/watch?v=_RoA0wxsJMw",
+      "verificationStatus": "complete-primary-transcript-reviewed-and-purpose-mapped",
+      "knownCoreTeachingPurpose": "Explicit and implicit green impressions; partial recycled/compensation claims; vegan leather material naming; willingness to pay; ask for transparent detail.",
+      "teachingLocations": [
+        "m5-01-b1",
+        "m5-02-b1",
+        "m5-02-b5"
+      ],
+      "verificationUrls": [
+        "https://www.globis.ac.jp/insights/entrepreneurship-business-strategy/greenwashing-basically/",
+        "https://www.youtube.com/watch?v=_RoA0wxsJMw"
+      ],
+      "uniqueUnverifiedContent": null,
+      "requiredProjection": false,
+      "projectionRequirements": {
+        "investigationId": "m5-02",
+        "fullOriginalClip": true,
+        "shortSegmentsAllowed": true,
+        "transcriptOrCaptionsForAccessibility": true,
+        "applicationPrompt": "Welke indruk wekt de poster zonder expliciete groene claim, en welk bewijs draagt alleen een deelprestatie?",
+        "completionCriterion": "Original clip delivered within the investigation; learner applies its claim to this case and marks uncertainty. A click or source ID is not content coverage."
+      }
+    },
+    {
+      "sourceBlock": 18,
+      "youtube": "j3ckSNsraJc",
+      "owner": "EU Environment",
+      "title": "EU measures to tackle greenwashing",
+      "start": 0,
+      "originalUrl": "https://www.youtube.com/watch?v=j3ckSNsraJc",
+      "verificationStatus": "complete-primary-transcript-reviewed-and-purpose-mapped",
+      "knownCoreTeachingPurpose": "2023 proposed substantiation and verification rules; scientific methods, Environmental Footprint/full life cycle, label governance and existing voluntary EU Ecolabel/EMAS.",
+      "teachingLocations": [
+        "m5-04-b5",
+        "m5-06-b1"
+      ],
+      "verificationUrls": [
+        "https://audiovisual.ec.europa.eu/en/media/video/I-239279",
+        "https://www.youtube.com/watch?v=j3ckSNsraJc"
+      ],
+      "uniqueUnverifiedContent": null,
+      "requiredProjection": false,
+      "projectionRequirements": {
+        "investigationId": "m5-06",
+        "fullOriginalClip": true,
+        "shortSegmentsAllowed": true,
+        "transcriptOrCaptionsForAccessibility": true,
+        "applicationPrompt": "Welke levenscyclusstappen missen in de claim? Houd het historische voorstel, de meetmethode en de bestaande vrijwillige kaders uit elkaar.",
+        "completionCriterion": "Original clip delivered within the investigation; learner applies its claim to this case and marks uncertainty. A click or source ID is not content coverage."
+      }
+    },
+    {
+      "sourceBlock": 25,
+      "youtube": "2NsBcVrPQok",
+      "owner": "The Wall Street Journal",
+      "title": "Greenwashing: When Companies Aren’t as Sustainable as They Claim | WSJ",
+      "start": 81,
+      "originalUrl": "https://www.youtube.com/watch?v=2NsBcVrPQok",
+      "verificationStatus": "original-owner-description-and-chapter-outline-reviewed; full-transcript-unavailable",
+      "knownCoreTeachingPurpose": "2023 consumer stated willingness to pay for sustainable packaging; greenwashing definition/accountability; American Airlines and H&M examples; historical US/EU regulatory plans.",
+      "teachingLocations": [
+        "m5-05-b5",
+        "m5-04-b1",
+        "m5-02-b5"
+      ],
+      "verificationUrls": [
+        "https://www.youtube.com/watch?v=2NsBcVrPQok"
+      ],
+      "uniqueUnverifiedContent": "Unique American Airlines and investigation details are not invented or declared covered. The full source projection is required. Historical proposals and consumer percentages are not timeless current facts.",
+      "requiredProjection": true,
+      "projectionRequirements": {
+        "investigationId": "m5-05",
+        "fullOriginalClip": true,
+        "shortSegmentsAllowed": true,
+        "transcriptOrCaptionsForAccessibility": true,
+        "applicationPrompt": "Welke claim en welk ontbrekend bewijs laat het fragment zien? Leg daarna uit wat een geuite koopintentie wel en niet bewijst in de eigen hubcasus.",
+        "completionCriterion": "Original clip delivered within the investigation; learner applies its claim to this case and marks uncertainty. A click or source ID is not content coverage."
+      }
+    }
+  ],
+  "status": "playable-runtime-checked"
+}

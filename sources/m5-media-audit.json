@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "lessonId": "m5",
+  "auditDate": "2026-10-12",
+  "method": "Original source JSON, original-owner metadata/descriptions, publisher module/transcript where accessible. Attempts to retrieve unavailable full captions failed (429/400); no guessed transcript substitute. Start preserves original assignment: WSJ begins at 81 seconds; its untrimmed player remains seekable.",
+  "clips": [
+    {
+      "sourceBlock": 1,
+      "youtube": "_RoA0wxsJMw",
+      "owner": "GLOBIS Insights",
+      "title": "Greenwashing...Basically",
+      "start": 0,
+      "originalUrl": "https://www.youtube.com/watch?v=_RoA0wxsJMw",
+      "verificationStatus": "complete-primary-transcript-reviewed-and-purpose-mapped",
+      "knownCoreTeachingPurpose": "Explicit and implicit green impressions; partial recycled/compensation claims; vegan leather material naming; willingness to pay; ask for transparent detail.",
+      "teachingLocations": [
+        "m5-01-b1",
+        "m5-02-b1",
+        "m5-02-b5"
+      ],
+      "verificationUrls": [
+        "https://www.globis.ac.jp/insights/entrepreneurship-business-strategy/greenwashing-basically/",
+        "https://www.youtube.com/watch?v=_RoA0wxsJMw"
+      ],
+      "uniqueUnverifiedContent": null,
+      "requiredProjection": false,
+      "projectionRequirements": {
+        "investigationId": "m5-02",
+        "fullOriginalClip": true,
+        "shortSegmentsAllowed": true,
+        "transcriptOrCaptionsForAccessibility": true,
+        "applicationPrompt": "Welke indruk wekt de poster zonder expliciete groene claim, en welk bewijs draagt alleen een deelprestatie?",
+        "completionCriterion": "Original clip delivered within the investigation; learner applies its claim to this case and marks uncertainty. A click or source ID is not content coverage."
+      }
+    },
+    {
+      "sourceBlock": 18,
+      "youtube": "j3ckSNsraJc",
+      "owner": "EU Environment",
+      "title": "EU measures to tackle greenwashing",
+      "start": 0,
+      "originalUrl": "https://www.youtube.com/watch?v=j3ckSNsraJc",
+      "verificationStatus": "complete-primary-transcript-reviewed-and-purpose-mapped",
+      "knownCoreTeachingPurpose": "2023 proposed substantiation and verification rules; scientific methods, Environmental Footprint/full life cycle, label governance and existing voluntary EU Ecolabel/EMAS.",
+      "teachingLocations": [
+        "m5-04-b5",
+        "m5-06-b1"
+      ],
+      "verificationUrls": [
+        "https://audiovisual.ec.europa.eu/en/media/video/I-239279",
+        "https://www.youtube.com/watch?v=j3ckSNsraJc"
+      ],
+      "uniqueUnverifiedContent": null,
+      "requiredProjection": false,
+      "projectionRequirements": {
+        "investigationId": "m5-06",
+        "fullOriginalClip": true,
+        "shortSegmentsAllowed": true,
+        "transcriptOrCaptionsForAccessibility": true,
+        "applicationPrompt": "Welke levenscyclusstappen missen in de claim? Houd het historische voorstel, de meetmethode en de bestaande vrijwillige kaders uit elkaar.",
+        "completionCriterion": "Original clip delivered within the investigation; learner applies its claim to this case and marks uncertainty. A click or source ID is not content coverage."
+      }
+    },
+    {
+      "sourceBlock": 25,
+      "youtube": "2NsBcVrPQok",
+      "owner": "The Wall Street Journal",
+      "title": "Greenwashing: When Companies Aren’t as Sustainable as They Claim | WSJ",
+      "start": 81,
+      "originalUrl": "https://www.youtube.com/watch?v=2NsBcVrPQok",
+      "verificationStatus": "original-owner-description-and-chapter-outline-reviewed; full-transcript-unavailable",
+      "knownCoreTeachingPurpose": "2023 consumer stated willingness to pay for sustainable packaging; greenwashing definition/accountability; American Airlines and H&M examples; historical US/EU regulatory plans.",
+      "teachingLocations": [
+        "m5-05-b5",
+        "m5-04-b1",
+        "m5-02-b5"
+      ],
+      "verificationUrls": [
+        "https://www.youtube.com/watch?v=2NsBcVrPQok"
+      ],
+      "uniqueUnverifiedContent": "Unique American Airlines and investigation details are not invented or declared covered. The full source projection is required. Historical proposals and consumer percentages are not timeless current facts.",
+      "requiredProjection": true,
+      "projectionRequirements": {
+        "investigationId": "m5-05",
+        "fullOriginalClip": true,
+        "shortSegmentsAllowed": true,
+        "transcriptOrCaptionsForAccessibility": true,
+        "applicationPrompt": "Welke claim en welk ontbrekend bewijs laat het fragment zien? Leg daarna uit wat een geuite koopintentie wel en niet bewijst in de eigen hubcasus.",
+        "completionCriterion": "Original clip delivered within the investigation; learner applies its claim to this case and marks uncertainty. A click or source ID is not content coverage."
+      }
+    }
+  ],
+  "allRequiredProjectionIntegration": "Required sourceProjections authored in the chapter investigation arrays; runtime delivery remains parent QA. Known-purpose mapping is not a substitute for unverified unique spoken source content."
+}

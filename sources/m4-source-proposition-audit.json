@@ -1,0 +1,585 @@
+{
+  "schemaVersion": 1,
+  "lessonId": "m4",
+  "auditDate": "2026-10-12",
+  "method": "Read every original text/list/tab, every original quiz question/options/feedback and matching question/pairs/feedback; inspect SVG source and render/image pixels. Map original assertions and unique example functions to authored teaching and practice, independently of concept labels.",
+  "rows": [
+    {
+      "id": "m4-source-audit-01",
+      "sourceBlocks": [
+        0,
+        1,
+        2
+      ],
+      "sourceProposition": "Moral architecture: design structures possible/easy/difficult actions, distributing resources, risks, access and priorities; responsibility extends across design, implementation and use.",
+      "teachingLocations": [
+        "m4-01-b1:intro",
+        "m4-01-b1:reveal:r3",
+        "m4-01-b1:reveal:r5",
+        "m4-05-b2:explainAfter"
+      ],
+      "practiceLocations": [
+        "m4-01-b2",
+        "m4-05-b2",
+        "m4-k1"
+      ],
+      "sourceExampleFunction": "The automatic door and source stair-without-lift analogy expose a barrier without an explicit prohibition.",
+      "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+    },
+    {
+      "id": "m4-source-audit-02",
+      "sourceBlocks": [
+        4,
+        5,
+        22
+      ],
+      "sourceProposition": "Winner distinguishes political ordering through design arrangements and technologies that require/support particular organization; an observed effect alone does not establish intention.",
+      "teachingLocations": [
+        "m4-01-b2:explainAfter",
+        "m4-01-b1:reveal:r7"
+      ],
+      "practiceLocations": [
+        "m4-01-b2",
+        "m4-01:finale"
+      ],
+      "sourceExampleFunction": "Source low-overpass feedback illustrates material exclusion. The route uses an independently clear door barrier and an intent/effect distinction rather than asserting a disputed historic motive.",
+      "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+    },
+    {
+      "id": "m4-source-audit-03",
+      "sourceBlocks": [
+        6,
+        8
+      ],
+      "sourceProposition": "The neutral-tool thesis locates morality solely in use. Search-engine ranking requires values and an answer to who legitimately chooses them.",
+      "teachingLocations": [
+        "m4-03-b5:intro",
+        "m4-03-b5:explainAfter"
+      ],
+      "practiceLocations": [
+        "m4-03-b5",
+        "m4-k1"
+      ],
+      "sourceExampleFunction": "Wi-Phi search example makes ranking criteria and decision authority visible; paid advertising is distinguished from organic ranking.",
+      "limit": "Full unverified spoken content is delivered only by the required original projection; the scene maps the established learning purpose."
+    },
+    {
+      "id": "m4-source-audit-04",
+      "sourceBlocks": [
+        10,
+        11
+      ],
+      "sourceProposition": "The automatic door helps disabled people, people with luggage or prams; electricity, sensors and maintenance create new dependency, including asymmetric vulnerability at outage.",
+      "teachingLocations": [
+        "m4-01-b1:reveal:r1",
+        "m4-01-b1:reveal:r2",
+        "m4-01-b1:reveal:r4"
+      ],
+      "practiceLocations": [
+        "m4-01-b4",
+        "m4-01:finale"
+      ],
+      "sourceExampleFunction": "Normal/outage contrast teaches a dual effect instead of a blanket pro/anti-technology judgement.",
+      "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+    },
+    {
+      "id": "m4-source-audit-05",
+      "sourceBlocks": [
+        10,
+        27,
+        31,
+        37
+      ],
+      "sourceProposition": "Zuboff: systematic traces of human experience become profiles, commercial prediction and influence; recommendation design affects products, information, consumption and public opinion.",
+      "teachingLocations": [
+        "m4-03-b1:reveal:r3",
+        "m4-03-b1:reveal:r4",
+        "m4-03-b2:explainAfter",
+        "m4-06-b1:reveal:r7"
+      ],
+      "practiceLocations": [
+        "m4-03-b2",
+        "m4-03:finale",
+        "m4-k4"
+      ],
+      "sourceExampleFunction": "Following a commercial trace distinguishes prediction as monetized human behavior from operational maintenance.",
+      "limit": "A critical theoretical lens is not a claim that every platform or every dataset meets it."
+    },
+    {
+      "id": "m4-source-audit-06",
+      "sourceBlocks": [
+        13,
+        14,
+        15
+      ],
+      "sourceProposition": "ANT examines human and non-human actors and their relationships; new monitoring can redistribute employees’ behavior, managers’ decisions, measures and accountability.",
+      "teachingLocations": [
+        "m4-01-b3:hint",
+        "m4-01-b3:explainAfter",
+        "m4-05-b1:reveal:r8",
+        "m4-05-b2:explainAfter"
+      ],
+      "practiceLocations": [
+        "m4-01-b3",
+        "m4-05-b2",
+        "m4-k2"
+      ],
+      "sourceExampleFunction": "Sensor/rule/worker relationships and an explicit energy-meter work-network card operationalize the source energy-monitor example. Extra selectable source lens notes identify fashion/Uber/architecture and map limits.",
+      "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+    },
+    {
+      "id": "m4-source-audit-07",
+      "sourceBlocks": [
+        13
+      ],
+      "sourceProposition": "Verbeek: technology mediates perception and perceived action possibilities. A navigation app can remove unshown routes from attention without physically deleting them or wholly determining behavior.",
+      "teachingLocations": [
+        "m4-01-b3:pairs:p3",
+        "m4-05-b1:explainAfter"
+      ],
+      "practiceLocations": [
+        "m4-01-b3",
+        "m4-k1"
+      ],
+      "sourceExampleFunction": "The hidden alternative entrance is the room-level analogue; the separate check changes context to navigation.",
+      "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+    },
+    {
+      "id": "m4-source-audit-08",
+      "sourceBlocks": [
+        13,
+        41
+      ],
+      "sourceProposition": "A productivity/cost dashboard foregrounds selected indicators and can obscure wellbeing, sustainability and social impact; efficiency may conflict with transparency and justice.",
+      "teachingLocations": [
+        "m4-05-b1:reveal:r1",
+        "m4-05-b1:reveal:r4",
+        "m4-05-b1:explainAfter"
+      ],
+      "practiceLocations": [
+        "m4-05-b4",
+        "m4-05:finale",
+        "m4-k7"
+      ],
+      "sourceExampleFunction": "Repairing the displayed measure and its organizational incentives demonstrates mediation rather than only labeling it.",
+      "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+    },
+    {
+      "id": "m4-source-audit-09",
+      "sourceBlocks": [
+        17,
+        18,
+        23,
+        24
+      ],
+      "sourceProposition": "Infrastructure enables activities, connects large networks and establishes standards/dependencies; it often recedes into the background when functioning and becomes visible at breakdown.",
+      "teachingLocations": [
+        "m4-02-b1:reveal:r1",
+        "m4-02-b1:reveal:r2",
+        "m4-02-b1:reveal:r3",
+        "m4-02-b1:reveal:r4"
+      ],
+      "practiceLocations": [
+        "m4-02-b2",
+        "m4-02:finale"
+      ],
+      "sourceExampleFunction": "Three-characteristic source diagram is taught as an operational route, including transport/energy/data.",
+      "limit": "Scale alone does not logically cause invisibility; the route describes background dependence conditionally."
+    },
+    {
+      "id": "m4-source-audit-10",
+      "sourceBlocks": [
+        17,
+        20
+      ],
+      "sourceProposition": "Ports, shipping, distribution centers and tracking combine physical and digital logistics; stock/time/demand information supports rapid coordinated distribution.",
+      "teachingLocations": [
+        "m4-02-b1:reveal:r5",
+        "m4-02-b2:explainAfter",
+        "m4-03-b1:reveal:r2"
+      ],
+      "practiceLocations": [
+        "m4-02-b2",
+        "m4-03-b3"
+      ],
+      "sourceExampleFunction": "The depot route traces dependencies and coordination across a chain, instead of treating a warehouse as a standalone device.",
+      "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+    },
+    {
+      "id": "m4-source-audit-11",
+      "sourceBlocks": [
+        20,
+        22,
+        28,
+        38
+      ],
+      "sourceProposition": "Amazon’s source logistics example combines warehouses, algorithmic planning, transport and market/data advantage; sellers can gain reach while depending on a gatekeeper’s rules, prices and visibility.",
+      "teachingLocations": [
+        "m4-02-b1:reveal:r5",
+        "m4-02-b3:explainAfter",
+        "m4-03-b3:cards:c4"
+      ],
+      "practiceLocations": [
+        "m4-02-b3",
+        "m4-02:finale",
+        "m4-k3"
+      ],
+      "sourceExampleFunction": "The example separates an asymmetrical position from unsupported proof of every kind of actual abuse.",
+      "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+    },
+    {
+      "id": "m4-source-audit-12",
+      "sourceBlocks": [
+        22,
+        30
+      ],
+      "sourceProposition": "Costly long-lived infrastructure can concentrate expertise/control; access, standards and cost/benefit distribution affect opportunity and public interests over time.",
+      "teachingLocations": [
+        "m4-02-b1:explainAfter",
+        "m4-02-b3:hint",
+        "m4-02-b4:explainAfter"
+      ],
+      "practiceLocations": [
+        "m4-02-b4",
+        "m4-02:finale",
+        "m4-k3"
+      ],
+      "sourceExampleFunction": "The gatekeeper’s conditional access and investment history make authority and long-term choices investigateable.",
+      "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+    },
+    {
+      "id": "m4-source-audit-13",
+      "sourceBlocks": [
+        26,
+        34,
+        35
+      ],
+      "sourceProposition": "Data are an economic resource for logistics, market insight, prediction, new services and IoT maintenance; access/analysis also organize knowledge and power, and copies differ from consumed material resources.",
+      "teachingLocations": [
+        "m4-03-b1:reveal:r1",
+        "m4-03-b1:reveal:r2",
+        "m4-03-b1:reveal:r6",
+        "m4-03-b1:reveal:r7"
+      ],
+      "practiceLocations": [
+        "m4-03-b3",
+        "m4-k4"
+      ],
+      "sourceExampleFunction": "Slippage logs/routes/new services teach concrete uses; the copy card preserves the unique original quiz-feedback distinction.",
+      "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+    },
+    {
+      "id": "m4-source-audit-14",
+      "sourceBlocks": [
+        27,
+        30,
+        32
+      ],
+      "sourceProposition": "Cloud integration can create technical/financial lock-in, giving innovation benefits and barriers to competition/autonomy. Ownership, local storage and practical access are not identical.",
+      "teachingLocations": [
+        "m4-03-b1:reveal:r5",
+        "m4-03-b4:explainAfter",
+        "m4-03-b6:explainAfter"
+      ],
+      "practiceLocations": [
+        "m4-03-b4",
+        "m4-03-b6",
+        "m4-03:finale"
+      ],
+      "sourceExampleFunction": "The failed migration and historical cloud-dependence media function require a tested usable alternative, not an arbitrary lock code.",
+      "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+    },
+    {
+      "id": "m4-source-audit-15",
+      "sourceBlocks": [
+        27
+      ],
+      "sourceProposition": "Smart grids coordinate variable renewables using real-time production/consumption data; sustainable systems require networks, with data governance, investment cost and unequal access questions.",
+      "teachingLocations": [
+        "m4-05-b1:reveal:r2",
+        "m4-05-b1:reveal:r3",
+        "m4-05-b1:reveal:r5",
+        "m4-05-b1:reveal:r7"
+      ],
+      "practiceLocations": [
+        "m4-05-b2",
+        "m4-05-b4"
+      ],
+      "sourceExampleFunction": "The energy-grid dossier asks ownership, cost and access questions; EV and circular logistics show three distinct infrastructure dependencies.",
+      "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+    },
+    {
+      "id": "m4-source-audit-16",
+      "sourceBlocks": [
+        37
+      ],
+      "sourceProposition": "An algorithm is an instruction sequence; learned models use patterns in training data. Speed/complexity benefits in credit, selection or logistics do not establish neutrality.",
+      "teachingLocations": [
+        "m4-04-b1:intro",
+        "m4-04-b1:reveal:r5",
+        "m4-04-b1:reveal:r1"
+      ],
+      "practiceLocations": [
+        "m4-04-b2",
+        "m4-04-b3"
+      ],
+      "sourceExampleFunction": "Data, recognition and objective are separate causal stages in the working sorter model.",
+      "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+    },
+    {
+      "id": "m4-source-audit-17",
+      "sourceBlocks": [
+        37,
+        40
+      ],
+      "sourceProposition": "Historical unequal treatment and poor representation can carry through training to new decisions; average accuracy can conceal unequal group errors.",
+      "teachingLocations": [
+        "m4-04-b1:reveal:r1",
+        "m4-04-b1:reveal:r5",
+        "m4-04-b5:reveal:r1"
+      ],
+      "practiceLocations": [
+        "m4-04-b2",
+        "m4-04-b6",
+        "m4-k5"
+      ],
+      "sourceExampleFunction": "The source Gender Shades example is corrected to commercial gender classification, with exact task/group scope rather than generic facial identity recognition.",
+      "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+    },
+    {
+      "id": "m4-source-audit-18",
+      "sourceBlocks": [
+        37
+      ],
+      "sourceProposition": "Gender Shades (2018) showed much larger error for darker female faces than lighter male faces in tested commercial gender classifiers; concrete tasks and groups must be separated.",
+      "teachingLocations": [
+        "m4-04-b1:reveal:r4",
+        "m4-04-b1:reveal:r6"
+      ],
+      "practiceLocations": [
+        "m4-04-b3",
+        "m4-k5"
+      ],
+      "sourceExampleFunction": "The historical research card teaches representativeness and grouped tests. Toy sorter numbers are not its effect estimates.",
+      "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+    },
+    {
+      "id": "m4-source-audit-19",
+      "sourceBlocks": [
+        40
+      ],
+      "sourceProposition": "The AI image uniquely names bias/discrimination, privacy/consent, opacity, accountability/legal ambiguity, misuse/deepfakes, and job displacement/economic impact.",
+      "teachingLocations": [
+        "m4-04-b5:reveal:r1",
+        "m4-04-b5:reveal:r2",
+        "m4-04-b5:reveal:r3",
+        "m4-04-b5:reveal:r4",
+        "m4-04-b5:reveal:r5",
+        "m4-04-b5:reveal:r6"
+      ],
+      "practiceLocations": [
+        "m4-04-b6",
+        "m4-06-b3"
+      ],
+      "sourceExampleFunction": "A six-incident hub risk register turns every image label into an explanation and a matching research question.",
+      "limit": "Image is physically inspected; no all-AI legal or job-loss prediction is asserted."
+    },
+    {
+      "id": "m4-source-audit-20",
+      "sourceBlocks": [
+        41,
+        42
+      ],
+      "sourceProposition": "Circularity extends use by reuse/repair/recycling; AMP camera/robot/model sorting can improve recovery, but training coverage and market-value objectives can exclude lower-value materials.",
+      "teachingLocations": [
+        "m4-04-b1:reveal:r2",
+        "m4-04-b1:reveal:r3",
+        "m4-04-b1:explainAfter",
+        "m4-04-b2:explainAfter"
+      ],
+      "practiceLocations": [
+        "m4-04-b2",
+        "m4-04:finale"
+      ],
+      "sourceExampleFunction": "Holding data fixed while changing objective, and objective fixed while changing coverage, separates recognition from value selection.",
+      "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+    },
+    {
+      "id": "m4-source-audit-21",
+      "sourceBlocks": [
+        41,
+        47
+      ],
+      "sourceProposition": "Black-box opacity complicates explanations of credit/personnel decisions. XAI and audits support inquiry, but accountable developers/using organizations and substantive fairness still matter.",
+      "teachingLocations": [
+        "m4-04-b3:explainAfter",
+        "m4-04-b4:explainAfter",
+        "m4-04-b5:reveal:r3",
+        "m4-04-b5:reveal:r4"
+      ],
+      "practiceLocations": [
+        "m4-04-b4",
+        "m4-04-b6",
+        "m4-k6"
+      ],
+      "sourceExampleFunction": "The review mechanism distinguishes explainability, grouped performance, authority and correction. A dataset is an influence, not a moral/legal person.",
+      "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+    },
+    {
+      "id": "m4-source-audit-22",
+      "sourceBlocks": [
+        1,
+        13,
+        27,
+        41
+      ],
+      "sourceProposition": "Efficiency/cost pressures plus reputational incentives and organizational constraints can create selective sustainability dashboards without substantial underlying change.",
+      "teachingLocations": [
+        "m4-05-b1:reveal:r2",
+        "m4-05-b1:reveal:r6",
+        "m4-05-b4:explainAfter"
+      ],
+      "practiceLocations": [
+        "m4-05-b4",
+        "m4-05:finale",
+        "m4-k7"
+      ],
+      "sourceExampleFunction": "The green single-metric dashboard is analyzed alongside incentives, missing material/energy effects and control.",
+      "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+    },
+    {
+      "id": "m4-source-audit-23",
+      "sourceBlocks": [
+        44,
+        45,
+        51
+      ],
+      "sourceProposition": "Technological determinism is rejected: systems arise from human choices, organizations and institutions; agency means deliberate but distributed and constrained capacity to change them.",
+      "teachingLocations": [
+        "m4-06-b1:explainAfter",
+        "m4-06-b2:explainAfter",
+        "m4-03-b4:explainAfter"
+      ],
+      "practiceLocations": [
+        "m4-06-b3",
+        "m4-06:finale"
+      ],
+      "sourceExampleFunction": "The player actually changes door fallback, export, selection and governance; reflection identifies their limits.",
+      "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+    },
+    {
+      "id": "m4-source-audit-24",
+      "sourceBlocks": [
+        44,
+        47,
+        48,
+        51
+      ],
+      "sourceProposition": "Design intervention changes architecture/data/options; organizational intervention changes implementation, audit and governance; institutional intervention changes public rules. The levels can complement each other.",
+      "teachingLocations": [
+        "m4-05-b3:hint",
+        "m4-05-b3:explainAfter"
+      ],
+      "practiceLocations": [
+        "m4-05-b3",
+        "m4-06-b3",
+        "m4-k7"
+      ],
+      "sourceExampleFunction": "All original matching functions are covered: explainable AI, an internal ethical committee/audit and risk-based AI Act.",
+      "limit": "Organizational measures can have effects without a new law; the original claim that governance without law stays merely voluntary is not reproduced as ineffectiveness."
+    },
+    {
+      "id": "m4-source-audit-25",
+      "sourceBlocks": [
+        44,
+        47
+      ],
+      "sourceProposition": "VSD (Friedman/Kahn/Borning) integrates values in design; responsible innovation (Stilgoe/Owen/Macnaghten) anticipates societal consequences and revises development. Inclusion, transparency and early tests need execution.",
+      "teachingLocations": [
+        "m4-06-b1:reveal:r1",
+        "m4-06-b1:reveal:r2"
+      ],
+      "practiceLocations": [
+        "m4-06-b2",
+        "m4-06-b3"
+      ],
+      "sourceExampleFunction": "Selectable short teaching plus a revisit cycle replaces an unexplained acronym checklist.",
+      "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+    },
+    {
+      "id": "m4-source-audit-26",
+      "sourceBlocks": [
+        47
+      ],
+      "sourceProposition": "Public regulation can set protection and responsibility norms; AI Act risk approach and CSRD reporting are distinct tools with current application limits. Protection/innovation tradeoffs need specific analysis.",
+      "teachingLocations": [
+        "m4-06-b1:reveal:r3",
+        "m4-06-b1:reveal:r4",
+        "m4-06-b1:reveal:r6"
+      ],
+      "practiceLocations": [
+        "m4-06-b4",
+        "m4-k8"
+      ],
+      "sourceExampleFunction": "Historical source examples are corrected and scoped, not presented as universal current legal advice.",
+      "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+    },
+    {
+      "id": "m4-source-audit-27",
+      "sourceBlocks": [
+        50,
+        52
+      ],
+      "sourceProposition": "DSA institutional governance illustrates very-large-service systemic risk analysis, recommender transparency and researcher access; it can change designed systems without wholly solving disinformation.",
+      "teachingLocations": [
+        "m4-06-b1:reveal:r5",
+        "m4-06-b1:reveal:r7"
+      ],
+      "practiceLocations": [
+        "m4-06:finale",
+        "m4-k8"
+      ],
+      "sourceExampleFunction": "Original multi-answer feedback function is retained: intervene at relevant decision levels and avoid either deterministic fatalism or one-measure solution claims.",
+      "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+    }
+  ],
+  "accuracyAdjustments": [
+    {
+      "sourceBlocks": [
+        5
+      ],
+      "issue": "Original low-overpass quiz feedback conflates the example with an unintentional effect; Winner presents intended political ordering in that example, while the broader argument also permits effects without stated intention.",
+      "adjustment": "The route separates observed access effects from claims about intention and teaches both routes through door evidence. No unverified historic motive is required for a correct answer.",
+      "verifiedUrl": "https://www.jstor.org/stable/20024652",
+      "verifiedOn": "2026-10-12"
+    },
+    {
+      "sourceBlocks": [
+        6,
+        8
+      ],
+      "issue": "Search ranking examples must not imply that Google accepts payment for higher organic search position.",
+      "adjustment": "Paid advertising and organic results are explicitly separated. The exercise teaches value/authority choices rather than a false current factual ranking rule.",
+      "verifiedUrl": "https://developers.google.com/search/docs/fundamentals/how-search-works",
+      "verifiedOn": "2026-10-12"
+    },
+    {
+      "sourceBlocks": [
+        24
+      ],
+      "issue": "The source diagram rhetorically ties scale to invisibility; large scale alone is not a sufficient causal explanation of invisibility.",
+      "adjustment": "The route teaches infrastructure often becoming background during normal functioning and salient at breakdown, with scale as a separate characteristic."
+    },
+    {
+      "sourceBlocks": [
+        48
+      ],
+      "issue": "The source feedback says governance without statutory framework remains merely voluntary; this must not be mistaken for organizational measures having no effect.",
+      "adjustment": "Internal audit/authority/incentives can change practice; institutional rules can reinforce and scale accountability without replacing design or organization."
+    }
+  ],
+  "limitations": [
+    "The original media whose transcript remains unavailable have separate exact clip metadata and mandatory projection requirements.",
+    "A proposition can be encountered without being understood; local synthesis, separate changed-case checks and future evaluation are distinct safeguards, not empirical proof of learning."
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "claim-boundary",
+  "title": "Een kleiner voetafdrukje, een grotere voorraad",
+  "parameters": [
+    {"id":"productionMultiplier","label":"Totaal geproduceerd volume","type":"select","options":[{"value":1,"label":"1.000 stuks"},{"value":1.5,"label":"1.500 stuks"},{"value":2,"label":"2.000 stuks"}]},
+    {"id":"perUnitReduction","label":"Verbetering per pilotproduct","type":"select","options":[{"value":0,"label":"0%"},{"value":20,"label":"20%"},{"value":40,"label":"40%"}]},
+    {"id":"coveragePercent","label":"Aandeel pilotproducten","type":"select","options":[{"value":5,"label":"5% van productie"},{"value":20,"label":"20% van productie"},{"value":100,"label":"Alle productie"}]}
+  ],
+  "defaults": {"productionMultiplier":1.5,"perUnitReduction":20,"coveragePercent":5},
+  "fixedInput": {"baselineVolume":1000,"baselineImpactPerUnit":10,"baselineTotalImpact":10000},
+  "illustrativeOutcomeRules": [
+    "volume = 1000 * productionMultiplier; pilotImpactPerUnit = 10 * (1 - perUnitReduction / 100).",
+    "averageImpactPerUnit = (coveragePercent / 100) * pilotImpactPerUnit + (1 - coveragePercent / 100) * 10.",
+    "totalImpact = volume * averageImpactPerUnit; absoluteChangePercent = (totalImpact / 10000 - 1) * 100.",
+    "Een claim over per-pilotproductimpact betreft alleen de geselecteerde pilot. Een bedrijfsbrede dalingsclaim vereist lager totalImpact binnen dezelfde meetgrens en vergelijking."
+  ],
+  "outputRows": [
+    {"id":"pilotImpactPerUnit","label":"Impact per pilotproduct","unit":"impactpunten"},
+    {"id":"averageImpactPerUnit","label":"Gemiddelde impact per product","unit":"impactpunten"},
+    {"id":"totalImpact","label":"Totale impact productie","unit":"impactpunten; uitgangspunt 10.000"},
+    {"id":"absoluteChangePercent","label":"Verandering totale impact","unit":"% tegenover uitgangspunt"}
+  ],
+  "assumptions": ["Alle cijfers zijn fictieve leswaarden, geen levenscyclusanalyse van H&M of NOVA.","De impactpunten zijn één vereenvoudigde indicator binnen een vaste productiegrens; geen volledig oordeel over duurzaamheid.","Gebruik, transport, arbeidsomstandigheden en einde levensduur ontbreken. Een brede duurzaamheidsclaim vereist extra bewijs.","Een per-productverbetering kan echt zijn terwijl hogere volumes de totale impact verhogen."],
+  "contrastRequirements": ["Houd verbetering en pilotaandeel gelijk; vergelijk productievolumes.","Houd volume gelijk; vergelijk pilotaandeel met volledige productie."],
+  "minimumTrials": 3,
+  "conceptQuestion": "Welke uitspraak is bij de startinstellingen verdedigbaar zonder de pilot tot het hele bedrijf te verheffen?",
+  "options": [
+    {"id":"pilot","text":"Pilotproducten hebben binnen deze indicator 20% minder impact per stuk; de totale productie-impact stijgt.","correct":true,"feedback":"De pilotverbetering is echt in het model, maar geldt voor 5% terwijl het totale volume stijgt."},
+    {"id":"company","text":"De bedrijfsimpact daalt met 20%, omdat de pilotverbetering representatief is voor alle producten.","correct":false,"feedback":"De pilot beslaat 5%. Vergelijk het totale volume en de volledige meetgrens."},
+    {"id":"fake","text":"De stijgende totale impact bewijst dat ook de gemeten pilotverbetering per stuk verzonnen is.","correct":false,"feedback":"Een echte lokale verbetering en stijgende totale impact kunnen tegelijk voorkomen."}
+  ]
+}

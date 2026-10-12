@@ -1,0 +1,1487 @@
+{
+  "schemaVersion": 1,
+  "rooms": [
+    {
+      "investigationId": "m2-01",
+      "npcs": [
+        {
+          "name": "Noor",
+          "role": "Systeemanalist",
+          "cell": [
+            3,
+            4
+          ],
+          "opening": "Ik zie een groene routine en nieuwe omstandigheden. Laten we kijken wanneer de oude beoordeling nog bruikbaar is.",
+          "topics": [
+            {
+              "id": "noor-t1",
+              "question": "Wat is een heuristiek?",
+              "answer": "Een snelle vuistregel die aandacht en tijd bespaart. Ze kan deskundig werken wanneer de omstandigheden passen.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "In complexe situaties kan niemand alle informatie telkens opnieuw afwegen. Een vuistregel selecteert wat als belangrijk wordt behandeld."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "'Deze leverancier is al goedgekeurd' is bruikbaar zolang de relevante eigenaar, productie en risico's niet veranderd zijn."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Een snelle keuze bewijst niet dat iemand irrationeel is. Onderzoek eerst of de regel bij de situatie past."
+                }
+              ]
+            },
+            {
+              "id": "noor-t2",
+              "question": "Waarom mist het dossier de overname?",
+              "answer": "Het groenstempel verwijst naar een beoordeling van vóór de nieuwe eigenaar. Die nieuwe omstandigheden zijn nog niet onderzocht.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Bekendheid van de naam kan de aandacht voor een inhoudelijke verandering verdringen."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Zet de datum van de audit naast de overnamedatum. Dan verschijnt een concrete ontbrekende beoordelingsstap."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "De overname bewijst nog geen schade. Zij maakt een nieuwe vraag nodig, geen automatisch schuldverdict."
+                }
+              ]
+            },
+            {
+              "id": "noor-t3",
+              "question": "Hoe wordt dit systeemgedrag?",
+              "answer": "Als alle balies dezelfde vuistregel herhalen, kunnen kleine afzonderlijke keuzes één grote blinde vlek vormen.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Het patroon ontstaat via menselijk handelen binnen gedeelde regels, verwachtingen en informatie."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Eén gemiste nieuwe afvalroute wordt over vele aanvragen een stroom die nergens opnieuw wordt gecontroleerd."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Andere balies kunnen meer informatie of tijd hebben. Het patroon moet in de feitelijke organisatie worden onderzocht."
+                }
+              ]
+            },
+            {
+              "id": "noor-t4",
+              "question": "Welke wijziging past bij het probleem?",
+              "answer": "Een inhoudelijk pauzesignaal, beschikbare beoordelingsruimte en een verantwoordelijke maken gerichte heroverweging mogelijk.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Een signaal zonder tijd wordt een vinkje; tijd zonder signaal kan aan de verkeerde gevallen worden besteed."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Nieuwe eigenaar of nieuwe afvalbestemming markeren het dossier. Een aangewezen beoordelaar onderzoekt de gemarkeerde verandering."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Volledig onderzoek van ieder detail kan aandacht overbelasten. De route moet gericht en proportioneel zijn."
+                }
+              ]
+            }
+          ],
+          "theory": {
+            "title": "Hoe een handige vuistregel een verkeerd geval wordt",
+            "concepts": [
+              "heuristieken",
+              "contextdruk",
+              "systeemgedrag"
+            ],
+            "sections": [
+              {
+                "title": "Een routine is een verkorte redenering",
+                "text": "Een heuristiek is een vuistregel waarmee je met beperkte tijd en informatie kunt handelen. Dat is vaak nuttig: je hoeft niet ieder bekend geval volledig opnieuw te beoordelen. Het risico ontstaat wanneer een relevante voorwaarde verandert, terwijl dezelfde regel blijft werken. Een verkeerde uitkomst hoeft daarom niet te beginnen met onwil of onzorgvuldigheid."
+              },
+              {
+                "title": "De balie vergelijkt niet hetzelfde geval",
+                "text": "De groene stempel verwijst naar de eerdere leverancier, maar het eigenaarsbericht meldt een gewijzigde situatie. De balietimer en het dagtarget maken heropenen relatief kostbaar. Zo versterken dossierontwerp, beloning en routine elkaar. Ik onderzoek eerst welke verandering buiten beeld blijft, vervolgens wie dat signaal kan verwerken en welke ruimte daarvoor daadwerkelijk beschikbaar is."
+              },
+              {
+                "title": "Een wijzigingssignaal in plaats van extra schuld",
+                "text": "Stel dat iedere bestaande leverancier groen krijgt, behalve wanneer eigendom of productieketen verandert. Een apart wijzigingssignaal kan de relevante dossiers naar herbeoordeling sturen. Dat is gerichter dan iedereen steeds alles opnieuw laten lezen. De grens: een nieuwe eigenaar bewijst nog geen misstand. Het signaal opent onderzoek; het levert de inhoudelijke beoordeling niet zelf."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Mila",
+          "role": "Reparatietechnicus",
+          "cell": [
+            7,
+            4
+          ],
+          "opening": "Aan de balie moet ik werk afkrijgen. Ik wil geen verandering missen, maar heb niet onbeperkt tijd.",
+          "topics": [
+            {
+              "id": "mila-t1",
+              "question": "Waarom volg je de routine?",
+              "answer": "Ze maakt mijn werk uitvoerbaar. Ervaring, tijdsdruk en wat collega's verwachten beïnvloeden welke route veilig en logisch voelt.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Bewust nadenken kost aandacht. Een organisatie kan die aandacht ondersteunen of voortdurend wegdrukken."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Als ik alleen op snelheid word beoordeeld, heeft een extra vraag een zichtbare prijs in mijn dagscore."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Mijn ervaring bewijst niet hoe iedere collega reageert. Vraag naar hun informatie en omstandigheden."
+                }
+              ]
+            },
+            {
+              "id": "mila-t2",
+              "question": "Is vertragen altijd beter?",
+              "answer": "Nee. Sommige dossiers zijn werkelijk ongewijzigd. Ik wil gerichte tijd voor relevante onzekerheid, niet ieder klein detail opnieuw doen.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Onnodige controle kan wachttijd vergroten en echte risicogevallen juist minder aandacht geven."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Een nieuw lettertype vraagt iets anders dan een nieuwe eigenaar of onbekende afvalbestemming."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Wat relevant is, hangt af van proces en risico. We moeten de gekozen signalen testen."
+                }
+              ]
+            },
+            {
+              "id": "mila-t3",
+              "question": "Waarom voelt tegenspreken riskant?",
+              "answer": "Wanneer de leiding alleen snelheid beloont, kan een kritische vraag als slecht presteren voelen.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Formele doelen en sociale verwachtingen maken een keuze aantrekkelijk of moeilijk, ook zonder expliciet verbod."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Een collega die stopt voor een nieuw risico krijgt dezelfde lage score als iemand die niets doet."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Een aangepaste score alleen garandeert geen veiligheid. Reacties van leiding en collega's blijven belangrijk."
+                }
+              ]
+            },
+            {
+              "id": "mila-t4",
+              "question": "Wat heb jij nodig om anders te handelen?",
+              "answer": "Heldere wijzigingssignalen, tijd en een aanspreekbare beoordelaar. Dan is een vraag een werkroute in plaats van persoonlijk oponthoud.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Een bruikbare structuur verbindt mijn zorg met een daadwerkelijke beslissing."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Ik kan het overnamebericht markeren en het dossier naar iemand met onderzoeksruimte sturen."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Mijn handelingsruimte blijft begrensd. De beoordelaar moet ook informatie, middelen en bevoegdheden hebben."
+                }
+              ]
+            }
+          ],
+          "theory": {
+            "title": "Waarom snel werken logisch kan voelen",
+            "concepts": [
+              "contextdruk",
+              "groepsnormen",
+              "agency"
+            ],
+            "sections": [
+              {
+                "title": "De persoon handelt binnen een omgeving",
+                "text": "Psychologische en sociale omstandigheden beïnvloeden wat iemand ziet, verwacht en haalbaar vindt. Een dagtarget beloont snelheid; een team kan voorspelbaar werk waarderen; een eerdere reactie kan tegenspreken riskant maken. Dat verklaart gedrag zonder verantwoordelijkheid weg te nemen. Agency betekent handelingsruimte, maar die ruimte verschilt naar positie, kennis, steun en de gevolgen van een keuze."
+              },
+              {
+                "title": "Mijn stempel heeft ook een sociale kant",
+                "text": "Aan de balie ken ik de leveranciersnaam en wil ik de wachtrij helpen. Een pauze betekent extra werk voor collega’s en mogelijk een gemist target. Dat maakt de routine aantrekkelijk, ook als ik het wijzigingsbericht zie. Voor verbetering heb ik daarom niet alleen kennis nodig, maar ook toestemming, tijd en een collega die het onderzoek overneemt."
+              },
+              {
+                "title": "Een bruikbare uitzondering organiseren",
+                "text": "Als Noor een eigenaarswijziging markeert en mijn team hiervoor een korte onderzoekspauze afspreekt, wordt afwijken uitvoerbaar. Dezelfde medewerker kan dan anders handelen doordat de omstandigheden veranderen. Extra tijd is echter geen garantie op een beter oordeel: relevante informatie en een passende beoordelingsvraag blijven nodig. Een pauze zonder duidelijk doel kan vooral een nieuwe wachtrij maken."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "investigationId": "m2-02",
+      "npcs": [
+        {
+          "name": "Omar",
+          "role": "Logistiek coördinator",
+          "cell": [
+            3,
+            5
+          ],
+          "opening": "Ik kan volgen welke rol een retour doorgeeft. Het protocol verklaart niet vanzelf waarom vernietiging verantwoord zou zijn.",
+          "topics": [
+            {
+              "id": "omar-t1",
+              "question": "Wie maakt het retourbesluit?",
+              "answer": "De beleidsrol schrijft de regel, de leiding keurt middelen goed, het depot plant en de medewerker voert uit.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Die taakverdeling verdeelt informatie en invloed. Het laatste fysieke contact is niet automatisch de gehele verantwoordelijkheid."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "De uitvoerder ziet het werkende toestel; het hoofdkantoor kan de vernietigingsregel veranderen."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Onderzoek wie welk gevolg kon kennen en beïnvloeden. Een organogram alleen geeft nog geen volledig oordeel."
+                }
+              ]
+            },
+            {
+              "id": "omar-t2",
+              "question": "Waarom zegt iedereen: iemand anders beslist?",
+              "answer": "Een lange keten kan de morele afweging laten verdwijnen tussen kleine taakdelen.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Als niemand de samenhang ziet, lijkt verantwoordelijkheid elders te liggen, terwijl meerdere rollen invloed kunnen hebben."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Ik plan een stap en verwijs naar goedkeuring; de goedkeurder verwijst naar de bestaande regeling."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Dat is een mogelijk mechanisme, geen bewijs dat iedereen bewust verantwoordelijkheid ontwijkt."
+                }
+              ]
+            },
+            {
+              "id": "omar-t3",
+              "question": "Wat verandert door 'optimalisatie'?",
+              "answer": "De feitelijke handeling blijft gelijk, maar het woord kan haar morele lading verminderen.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Herdefiniëring maakt een schadelijk gevolg makkelijker verenigbaar met een positief zelfbeeld."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Een werkend toestel vernietigen klinkt anders dan voorraad optimaliseren; het toestel op tafel verandert niet."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Sommige optimalisatie is werkelijk nuttig. Onderzoek inhoud en gevolgen, niet alleen het gebruikte woord."
+                }
+              ]
+            },
+            {
+              "id": "omar-t4",
+              "question": "Hoe onderzoek je dit zonder schuldverhaal?",
+              "answer": "Verbind handeling, gevolg, informatie en beslisruimte per rol.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Je krijgt een toetsbare kaart in plaats van een oordeel dat vooral op naam of functie berust."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Leg de opdracht naast het toestel en de goedkeuringsketen, en vraag wie een alternatief kan uitvoeren."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Context kan handelen verklaren; zij heft verantwoordelijkheid niet automatisch op."
+                }
+              ]
+            }
+          ],
+          "theory": {
+            "title": "Hoe verantwoordelijkheid tussen handen verdwijnt",
+            "concepts": [
+              "morele ontkoppeling",
+              "verspreide verantwoordelijkheid",
+              "verantwoordingsketen"
+            ],
+            "sections": [
+              {
+                "title": "Uitvoeren en verantwoorden zijn verschillende vragen",
+                "text": "Een handeling kan door meerdere mensen en regels tot stand komen. Verschoven verantwoordelijkheid betekent dat iemand de beslissing aan een autoriteit toeschrijft; verspreide verantwoordelijkheid verdeelt de bijdrage over velen. Beide kunnen morele zelfbeoordeling verzwakken. Een werkelijke taakverdeling is daarmee nog geen geldige vrijstelling: je moet onderzoeken wie informatie, invloed en mogelijkheden tot ingrijpen had."
+              },
+              {
+                "title": "Het retourtoestel reist door een protocol",
+                "text": "Het werkende toestel wordt vernietigd. De opdracht heet optimalisatie, de planner verwijst naar het beleid en de uitvoerder naar de opdracht. Deze bronnen tonen verschillende schakels, maar nog geen volledig antwoord op verantwoordelijkheid. Ik wil het besluit, de kennis van het gevolg en de bevoegdheid om terug te sturen naast elkaar kunnen leggen."
+              },
+              {
+                "title": "Een keten reconstrueren zonder één schuldige te kiezen",
+                "text": "Denk aan een planner die de voorraadregel opstelt en een technicus die ontdekt dat het toestel nog werkt. De technicus kan nieuwe informatie leveren; de planner kan de regel heropenen. Een verantwoordingsketen verbindt die functies. De grens: een functiekaart bewijst geen persoonlijke opzet of nalatigheid. Daarvoor moeten concrete kennis, handelingen en beschikbare alternatieven worden onderzocht."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Lena",
+          "role": "Analist marketing en impact",
+          "cell": [
+            7,
+            5
+          ],
+          "opening": "Ik werk met woorden. Hier moeten woorden het gevolg laten zien, niet alleen mensen geruststellen.",
+          "topics": [
+            {
+              "id": "lena-t1",
+              "question": "Wat is cognitieve dissonantie?",
+              "answer": "Spanning wanneer handelen en waarden botsen. Een ander verhaal kan die spanning verminderen zonder de handeling te veranderen.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Mensen willen hun gedrag en zelfbeeld begrijpelijk houden. Dat kan reflectie oproepen, maar ook rationalisatie."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Iemand vindt verspilling verkeerd en noemt dezelfde vernietiging voortaan een noodzakelijk efficiëntieproces."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Dissonantie leidt niet altijd tot ontkoppeling. Iemand kan ook het handelen of de regel veranderen."
+                }
+              ]
+            },
+            {
+              "id": "lena-t2",
+              "question": "Wat onderscheidt moraal van ethiek?",
+              "answer": "Moraal betreft normen en opvattingen over goed handelen. Ethiek onderzoekt en beargumenteert zulke normen.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Een norm noemen is iets anders dan uitleggen waarom die norm hier overtuigt."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "'Verspilling is verkeerd' benoemt een norm; onderzoek naar gevolgen, rechten en tegenargumenten vormt ethische reflectie."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "De termen worden in verschillende tradities anders gebruikt. Dit is de werkdefinitie voor deze route."
+                }
+              ]
+            },
+            {
+              "id": "lena-t3",
+              "question": "Hoe herken je minimalisering?",
+              "answer": "Een boodschap maakt gevolgen kleiner of minder belangrijk, bijvoorbeeld door een schadelijke hoeveelheid met een grotere te vergelijken.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Zo kan de aanleiding om in te grijpen uit het verhaal verdwijnen terwijl de feitelijke schade blijft."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "'Het is maar één procent van onze toestellen' zegt niets over de gevolgen voor degenen die die stroom verwerken."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Omvang is wel relevante informatie. Onderzoek of de vergelijking informeert of gevolgen onterecht wegdrukt."
+                }
+              ]
+            },
+            {
+              "id": "lena-t4",
+              "question": "Is de schrijver dan een leugenaar?",
+              "answer": "Dat kunnen we niet uit één woord afleiden. Morele ontkoppeling kan zonder bewuste misleiding werken.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Een mechanisme herkennen vereist minder bewijs dan een uitspraak over opzet of volledig karakter."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "We kunnen herdefiniëring aanwijzen en daarna vragen welke schade de schrijver kent en welke alternatieven mogelijk zijn."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Controleer feiten en intentie afzonderlijk. Een verklaring is nog geen rechtvaardiging."
+                }
+              ]
+            }
+          ],
+          "theory": {
+            "title": "Wanneer een geruststellend verhaal de handeling vervangt",
+            "concepts": [
+              "cognitieve dissonantie",
+              "moraal en ethiek",
+              "morele ontkoppeling"
+            ],
+            "sections": [
+              {
+                "title": "Spanning is nog niet hetzelfde als ontkoppeling",
+                "text": "Cognitieve dissonantie is spanning tussen opvattingen, zelfbeeld en handelen. Iemand kan daarop reageren door gedrag te veranderen, maar ook door het verhaal te veranderen. Morele ontkoppeling omvat manieren waarop schadelijk handelen minder met zelfbeoordeling wordt verbonden. Onze werkdefinitie onderscheidt moraal als normen en ethiek als onderzoek naar hun redenen; andere bronnen gebruiken de woorden soms anders."
+              },
+              {
+                "title": "De notitie en het toestel moeten samen gelezen worden",
+                "text": "De medewerker vindt verspilling verkeerd en vernietigt toch een werkend toestel. De term voorraadoptimalisatie kan die spanning verzachten, maar verandert het toestel niet. Ik let ook op minimalisering van gevolgen, gunstige vergelijking met ernstiger praktijken en beschuldigingen aan het adres van getroffen mensen. De tekst is een aanwijzing voor een mechanisme, geen toegang tot iemands gedachten."
+              },
+              {
+                "title": "Vergelijk een verhaal met een veranderd gevolg",
+                "text": "Als het toestel werkelijk wordt hergebruikt, verandert het gedrag en mogelijk de spanning. Als alleen vernietiging een zachtere naam krijgt, verandert vooral de beschrijving. Dat onderscheid helpt ons bewijs zoeken. Een geruststellende term kan echter ook vaktaal zijn zonder bewuste misleiding. Toets daarom de feitelijke gevolgen en het gebruik van de woorden in het besluit."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "investigationId": "m2-03",
+      "npcs": [
+        {
+          "name": "Iris",
+          "role": "Ontwerper van planning en procedures",
+          "cell": [
+            3,
+            4
+          ],
+          "opening": "Mijn notulen zeggen unaniem. De afzonderlijke reacties vertellen iets anders. De overlegprocedure moet dat verschil kunnen herkennen.",
+          "topics": [
+            {
+              "id": "iris-t1",
+              "question": "Wat is pluralistische onwetendheid?",
+              "answer": "Iedereen schat anderen als instemmend in, terwijl meerdere mensen privé twijfelen.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Die verkeerde groepsinschatting maakt spreken riskant en laat stilte zichzelf bevestigen."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Vier mensen vrezen de korte test, maar ieder ziet drie zwijgende anderen en denkt alleen te staan."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Stilte op zichzelf bewijst dit niet. Je hebt informatie over de echte overtuigingen nodig."
+                }
+              ]
+            },
+            {
+              "id": "iris-t2",
+              "question": "Wat is het verschil met groepsdenken?",
+              "answer": "Groepsdenken betreft beperkte tegenspraak en kritische afweging. Pluralistische onwetendheid betreft specifiek de verkeerde inschatting van andermans overtuiging.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "De begrippen kunnen samengaan, maar verklaren niet precies hetzelfde."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Een team kan kritiek vermijden terwijl leden het plan echt steunen; dat is geen bewezen privé-publieke misinschatting."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Onderzoek procedure én overtuigingen. Eén groepslabel mag verschillende mechanismen niet verbergen."
+                }
+              ]
+            },
+            {
+              "id": "iris-t3",
+              "question": "Waarom werd de korte test normaal?",
+              "answer": "De uitzondering werd herhaald, stilte bleef bestaan en snelle oplevering werd beloond.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Herhaling en sociale bevestiging kunnen de grens van wat professioneel voelt verschuiven."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Een eenmalige noodoplossing werd zonder nieuwe afweging de standaard voor elk project."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "De chronologie moet worden onderzocht. Niet iedere herhaalde praktijk is een schadelijke normverschuiving."
+                }
+              ]
+            },
+            {
+              "id": "iris-t4",
+              "question": "Wat maakt het bezwarenregister bruikbaar?",
+              "answer": "Veilige inventarisatie vóór de beslissing, inhoudelijke weging en een zichtbare respons.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Informatie verandert pas besluitvorming als er tijd en bevoegdheid is om erop te reageren."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Het team ziet dat meerdere mensen hetzelfde risico ervaren en krijgt uitleg over de gekozen testduur."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Een register garandeert geen consensus of oplossing. De argumenten en gevolgen blijven te beoordelen."
+                }
+              ]
+            }
+          ],
+          "theory": {
+            "title": "Waarom een unaniem overleg toch gedeelde twijfel kan verbergen",
+            "concepts": [
+              "pluralistische onwetendheid",
+              "groepsdenken",
+              "normalisatie"
+            ],
+            "sections": [
+              {
+                "title": "Drie verschillende groepsmechanismen",
+                "text": "Pluralistische onwetendheid ontstaat wanneer mensen de privéopvattingen van anderen verkeerd inschatten en hun eigen gedrag daarop aanpassen. Groepsdenken gaat over een groepsproces dat kritiek en alternatieven onderdrukt om overeenstemming te bewaren. Normalisatie beschrijft hoe een eerdere afwijking door herhaling aanvaardbaar wordt. Ze kunnen samengaan, maar hebben andere aanwijzingen en vragen om verschillende herstelmaatregelen."
+              },
+              {
+                "title": "Notulen alleen vertellen niet waarom mensen knikten",
+                "text": "De openbare notulen noemen unanimiteit; afzonderlijke reacties tonen vier twijfelaars die elkaar niet herkenden. Dat ondersteunt pluralistische onwetendheid. De eerdere beperking van projectruimte kan bovendien de sociale prijs van kritiek verhogen. Het steeds korter testen laat een ander verloop zien: een uitzondering werd gewoonte. Daarom combineren we reacties, geschiedenis en procedure in één bezwarenregister."
+              },
+              {
+                "title": "Een peiling verbreekt één lus, niet elk probleem",
+                "text": "Een anonieme peiling kan laten zien dat de twijfel gedeeld is. Dat corrigeert een verkeerde groepsinschatting en kan spreken makkelijker maken. Maar als kritiek werkelijk wordt bestraft, neemt bekendheid met de meerderheid het risico niet weg. Dan moet ook de reactie op bezwaren veranderen. Openheid over opvattingen en bescherming van tegenspraak zijn aanvullende functies."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Mila",
+          "role": "Reparatietechnicus",
+          "cell": [
+            7,
+            4
+          ],
+          "opening": "Ik dacht dat ik de enige was. Nu zie ik anderen dezelfde twijfel opschrijven. Dat verandert wat ik durf te vragen.",
+          "topics": [
+            {
+              "id": "mila-t1",
+              "question": "Waarom knikte je mee?",
+              "answer": "Afwijken leek sociaal duur; een eerdere vraagsteller verloor overlegruimte. Stilte voelde veiliger dan alleen tegen het team ingaan.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Conformiteit wordt mede gevormd door behoefte aan aansluiting en verwachte gevolgen."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Ik kende het risico, maar zag iedereen knikken en dacht dat zij beter geïnformeerd waren."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Mijn reactie verklaart niet iedereen. Er kunnen ook echte steun, onzekerheid of vermoeidheid zijn."
+                }
+              ]
+            },
+            {
+              "id": "mila-t2",
+              "question": "Ben je verantwoordelijk als de context sterk is?",
+              "answer": "Context beïnvloedt mijn ruimte, maar maakt mijn eigen keuzes niet vanzelf irrelevant.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Structuur en agency hangen samen: regels vormen handelen, terwijl mensen regels kunnen bevestigen of wijzigen."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Met steun kan ik gegevens delen; een manager kan meer veranderen aan overlegtoegang en beoordeling."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Verantwoordelijkheid hangt ook af van kennis, positie en reële alternatieven. Niet iedere rol draagt dezelfde last."
+                }
+              ]
+            },
+            {
+              "id": "mila-t3",
+              "question": "Waarom helpt anoniem verzamelen soms?",
+              "answer": "Het kan de eerste sociale blootstelling verminderen en gedeelde twijfel zichtbaar maken.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Daarmee wordt de foutieve inschatting van de groep minder makkelijk volgehouden."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "We zien vier dezelfde zorgen vóór iemand zich publiek als eenzame tegenstander hoeft op te stellen."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Anonimiteit kan grenzen hebben en vervangt geen respons. Controleer bescherming en gebruik van gegevens."
+                }
+              ]
+            },
+            {
+              "id": "mila-t4",
+              "question": "Waarom niet één collega alles laten verdedigen?",
+              "answer": "Dan blijven de kosten bij één persoon liggen terwijl het een gedeelde zorg is.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Een gezamenlijk patroon vraagt een gezamenlijke basis en een procedure die informatie eerlijk laat meewegen."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Iedereen levert bewijs aan; de bespreking richt zich op het risico, niet op het karakter van de eerste spreker."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Sommige mensen willen een vertegenwoordiger. Maak die keuze bewust en organiseer steun en verantwoording."
+                }
+              ]
+            }
+          ],
+          "theory": {
+            "title": "Wat structuur verklaart en waar handelen begint",
+            "concepts": [
+              "structuur en agency",
+              "gehoorzaamheid",
+              "netwerkrelaties"
+            ],
+            "sections": [
+              {
+                "title": "Invloed is geen volledige gedragsbepaling",
+                "text": "Structuur omvat regels, middelen, posities en terugkerende sociale verwachtingen. Agency is het vermogen daarbinnen te handelen, te reageren of verandering te organiseren. Het onderscheid helpt verklaren waarom dezelfde vraag voor verschillende mensen andere kosten heeft. Gehoorzaamheidsonderzoek laat contextinvloed zien, maar voorspelt niet het karakter van iedere medewerker en neemt eigen afwegingen niet uit het beeld."
+              },
+              {
+                "title": "Mijn knik staat in een geschiedenis",
+                "text": "Ik zie dat een eerdere vraagsteller projectruimte verloor en verwacht dat mijn bezwaar onwelkom is. Tegelijk weet ik niet dat collega’s dezelfde twijfel hebben. Een klein overleg kan hechte steun bieden, maar ook druk tot overeenstemming. Een contact buiten de groep kan nieuwe informatie geven. Daarom zoek ik zowel veilige verbindingen als een procedure voor inhoudelijke bezwaren."
+              },
+              {
+                "title": "Gezamenlijke twijfel kan een ingang maken",
+                "text": "Wanneer ik mijn testzorg eerst met een collega bespreek, kunnen we samen bewijs verzamelen en de vraag aan Iris voorleggen. Dat verandert de handelingsroute zonder dat het hele bedrijf onmiddellijk verandert. De grens: één vertrouwenspersoon vertegenwoordigt niet automatisch alle betrokkenen. Een gedeelde zorg moet alsnog met gegevens, andere perspectieven en een concrete verantwoordelijke voor opvolging worden verbonden."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "investigationId": "m2-04",
+      "npcs": [
+        {
+          "name": "Lena",
+          "role": "Analist marketing en aandacht",
+          "cell": [
+            3,
+            5
+          ],
+          "opening": "Ik kan laten zien welke boodschap bij welk doel hoort. Klikgedrag vertelt niet vanzelf of een wens onafhankelijk van dat ontwerp bestond.",
+          "topics": [
+            {
+              "id": "lena-t1",
+              "question": "Kan aanbod werkelijk vraag vormen?",
+              "answer": "Producten, zichtbaarheid en associaties kunnen mede vormen wat aantrekkelijk of normaal voelt.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Vraag en aanbod beïnvloeden elkaar; een aankoop is geen directe meting van een vooraf volledig onafhankelijke behoefte."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Een reparatieoptie onderaan en een nieuw model op ooghoogte maken verschillende routes opvallend."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Beïnvloeding betekent niet dat mensen geen eigen doelen of goede redenen meer hebben."
+                }
+              ]
+            },
+            {
+              "id": "lena-t2",
+              "question": "Waarom gebruiken merken identiteitsbeelden?",
+              "answer": "Ze koppelen bezit aan status, succes, verbondenheid of volwassenheid in plaats van alleen een functie.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Sociale vergelijking en verlangen naar aansluiting kunnen voorkeuren en identiteitsidealen beïnvloeden."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "'Een echte professional loopt niet achter' laat een telefoon als bewijs van identiteit verschijnen."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Een associatie bewijst niet de reactie van ieder individu. Onderzoek de concrete betekenis en gevolgen."
+                }
+              ]
+            },
+            {
+              "id": "lena-t3",
+              "question": "Wat verandert door persoonlijke profielen?",
+              "answer": "Selectie en timing kunnen op gemeten individueel gedrag worden aangepast.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Dat maakt beïnvloeding gericht en roept vragen op over kwetsbaarheid, informatie en controle."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Een aanbod verschijnt wanneer iemands gebruikspatroon op onzekerheid of lange aandacht wijst."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Welke gegevens werkelijk worden gebruikt, moet worden gecontroleerd. Een vermoeden is geen aangetoond profiel."
+                }
+              ]
+            },
+            {
+              "id": "lena-t4",
+              "question": "Welke vrijheid moet het menu ondersteunen?",
+              "answer": "Begrijpelijke informatie, bereikbare alternatieven en controle over relevante standaardinstellingen.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Autonomie vraagt meer dan een keuze uit voorgeselecteerde knoppen."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Toon behoud, reparatie en vervanging met hun grenzen; leg advertentiebelang uit en laat personalisatie wijzigen."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Eén extra optie lost niet alle overstapkosten of sociale afhankelijkheid op."
+                }
+              ]
+            }
+          ],
+          "theory": {
+            "title": "Hoe een product ook een behoefte kan helpen vormen",
+            "concepts": [
+              "reclame als psychologische technologie",
+              "identiteitsassociaties",
+              "vraagvorming"
+            ],
+            "sections": [
+              {
+                "title": "Vraag ontstaat ook in een aangeboden wereld",
+                "text": "Reclame geeft informatie, maar kan producten ook verbinden met identiteit, erkenning of een gewenst leven. Aanbod kan zo mede vormen wat nodig of normaal lijkt, in plaats van alleen bestaande voorkeuren te volgen. Dat betekent niet dat elke boodschap iedereen hetzelfde beïnvloedt. Ontvangers, sociale context en de concrete inhoud bepalen welke werking onderzocht moet worden."
+              },
+              {
+                "title": "De nieuwe telefoon betekent meer dan een functie",
+                "text": "De campagnekaart koppelt vernieuwen aan erbij horen. De app deelt ondertussen werkroosters en berichten, zodat bereikbaarheid praktische en sociale waarde krijgt. In het menu is kopen makkelijk en reparatie minder zichtbaar. Ik onderzoek dus een combinatie van boodschap, interface en gebruikscontext. Een meetbare functieclaim en een identiteitsbeeld verdienen elk hun eigen toets."
+              },
+              {
+                "title": "Vergelijk een statusbeeld met een remtest",
+                "text": "Een fietsadvertentie kan een prestigieuze groep tonen of remprestaties onder testvoorwaarden geven. De eerste koppelt het product aan betekenis; de tweede geeft een begrensde prestatieclaim. Beide kunnen keuzes beïnvloeden. We weten zonder gebruiksonderzoek niet hoeveel. Een goede vergelijking houdt prijs en context gelijk en onderzoekt welke informatie of associatie daadwerkelijk verandert, niet alleen welke advertentie mooier is."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Noor",
+          "role": "Systeemanalist",
+          "cell": [
+            7,
+            5
+          ],
+          "opening": "Ik onderzoek hoe een handige functie een vaste verwachting werd. De geschiedenis kan meer verklaren dan één individuele klik.",
+          "topics": [
+            {
+              "id": "noor-t1",
+              "question": "Waarom bleef de app ondanks klachten in gebruik?",
+              "answer": "Werkroosters, contacten, routines en sociale verwachtingen maakten vertrekken praktisch moeilijk.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Welzijn is niet de enige determinant van gedrag; middelen en relaties begrenzen wat uitvoerbaar is."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Een gebruiker wil minder meldingen maar moet via hetzelfde platform bereikbaar blijven voor collega's."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Dat bewijst niet dat alle gebruikers ontevreden zijn. Vraag hun doelen en daadwerkelijke alternatieven."
+                }
+              ]
+            },
+            {
+              "id": "noor-t2",
+              "question": "Hoe ontstaat een vanzelfsprekende norm?",
+              "answer": "Herhaald gemak kan een gewoonte worden; de groep gaat die route vervolgens verwachten.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "De verwachting geeft afwijken een nieuwe sociale en praktische prijs."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Een optionele chat wordt de enige plaats voor roosters; niet meedoen lijkt daarna ongemotiveerd."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "De route is een casus, geen noodzakelijke volgorde. Normen kunnen ook bewust worden afgesproken of veranderd."
+                }
+              ]
+            },
+            {
+              "id": "noor-t3",
+              "question": "Waarom is dat geen bewezen complot?",
+              "answer": "Meerdere partijen kunnen hun eigen doelen optimaliseren en samen een patroon vormen.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Een systeemverklaring hoeft geen centraal plan of kwaadaardige coördinatie te veronderstellen."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "De app wil aandacht; de werkgever wil bereikbaarheid; collega's kiezen gemak. De combinatie beperkt vertrek."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Opzettelijke manipulatie kan bestaan, maar vraagt eigen bewijs. Verklaring en intentie moeten apart blijven."
+                }
+              ]
+            },
+            {
+              "id": "noor-t4",
+              "question": "Hoe onderzoek je een menu-effect?",
+              "answer": "Vergelijk zichtbaarheid bij gelijke prijzen en observeer gedrag, doelen en ervaringen.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Een gecontroleerd verschil helpt oorzaken onderscheiden, maar neemt niet alle context weg."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Maak reparatie prominenter zonder prijswijziging; vraag waarom gebruikers anders kiezen."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Eén korte test bewijst geen universeel gedragspatroon of langetermijnwelzijn."
+                }
+              ]
+            }
+          ],
+          "theory": {
+            "title": "Hoe herhaling en selectie een vanzelfsprekende route maken",
+            "concepts": [
+              "gewoontevorming",
+              "informatiefuik",
+              "institutionele keuzes"
+            ],
+            "sections": [
+              {
+                "title": "Een terugkoppeling is een onderzoekbare keten",
+                "text": "Herhaald gebruik kan een gewoonte worden; sociale verwachtingen kunnen die gewoonte versterken. Een aanbevelingssysteem kiest vervolgens wat zichtbaar wordt op basis van gegevens en doelen. Klikken beïnvloeden nieuwe aanbevelingen, die weer klikken uitlokken. Dat kan informatie vernauwen, maar een gesloten keten of polarisatie vraagt daadwerkelijk bewijs. Een plausibel mechanisme is nog geen gemeten maatschappelijk effect."
+              },
+              {
+                "title": "De app werd ook een werkafspraak",
+                "text": "De app begon als hulpmiddel, maar collega’s gingen roosters en berichten alleen daar plaatsen. Notificaties en doorscrollen ondersteunen de makkelijke route. Daardoor kan iemand blijven deelnemen ondanks klachten over aandacht. De economische ontwerpknoppen tonen daarnaast dat eigendom, coördinatie en prijsregels institutionele keuzes zijn. De bestaande inrichting is dus niet vanzelf de enige mogelijke organisatievorm."
+              },
+              {
+                "title": "Verander één instelling en meet wat verschuift",
+                "text": "Zet bijvoorbeeld reparatie-informatie even zichtbaar als koopadvies en vergelijk dezelfde gebruikersvragen onder beide menu’s. Dat maakt een ontwerpwerking onderzoekbaar. Als koopgedrag niet verandert, is de interventie mogelijk te klein of de afhankelijkheid elders groter. Je mag daaruit niet direct concluderen dat interfaces geen invloed hebben. Werkroosters, sociale verwachtingen en aanbevelingsdoelen kunnen tegelijk blijven sturen."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "investigationId": "m2-05",
+      "npcs": [
+        {
+          "name": "Eva",
+          "role": "Investeerder en adviseur over zeggenschap",
+          "cell": [
+            3,
+            4
+          ],
+          "opening": "Een hub kan gemak en schaal bieden. Ik moet ook zien welke voorwaarden anderen afhankelijk maken.",
+          "topics": [
+            {
+              "id": "eva-t1",
+              "question": "Waarom is productvariatie niet genoeg?",
+              "answer": "Verschillende modellen kunnen één gesloten gegevens- en onderdelennetwerk gebruiken.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Keuzevrijheid vraagt niet alleen opties, maar ook bereikbare alternatieven en kosten van afwijken."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Een vierde telefoon verandert niets aan de niet-overdraagbare reparatiehistorie."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Een gesloten onderdeel kan een veiligheidsreden hebben. Onderzoek doel, proportionaliteit en alternatieven."
+                }
+              ]
+            },
+            {
+              "id": "eva-t2",
+              "question": "Wat is psychologische macht hier?",
+              "answer": "Verwachtingen en vanzelfsprekendheden kunnen gedrag sturen zonder een expliciet verbod.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "'Er is geen alternatief' kan kritiek en zicht op andere mogelijkheden beperken."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Een voorwaarde die wij eenvoudig noemen, kost een kleine reparateur zijn opdrachten."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Niet iedere verwachting is misbruik. Maak het mechanisme en de gevolgen concreet."
+                }
+              ]
+            },
+            {
+              "id": "eva-t3",
+              "question": "Waarom ziet de beheerder een andere wereld?",
+              "answer": "Wie regels kan veranderen, ervaart meer ruimte dan wie ervan afhankelijk is.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Positie kan beïnvloeden wat vanzelfsprekend, veilig of onrechtvaardig voelt."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Ik kan een uitzondering aanvragen; iemand zonder bestuurlijke contacten heeft die route niet."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Dit is een mogelijke tendens, geen wet dat machtige mensen nooit empathie hebben."
+                }
+              ]
+            },
+            {
+              "id": "eva-t4",
+              "question": "Welke verantwoordelijkheid volgt uit invloed?",
+              "answer": "Onderzoek wie voorwaarden kan wijzigen, gevolgen kan kennen en verantwoording moet afleggen.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Meer invloed kan een grotere mogelijkheid geven schade te voorkomen of anderen te horen."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Een beheerder kan datatoegang regelen; een uitvoerder kan hoogstens een probleem signaleren."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Verantwoordelijkheid vraagt context en rechten. Intentie, positie en kennis zijn verschillende vragen."
+                }
+              ]
+            }
+          ],
+          "theory": {
+            "title": "Wanneer veel producten weinig onafhankelijke routes bieden",
+            "concepts": [
+              "formele en praktische vrijheid",
+              "monopolie en duopolie",
+              "positie en macht"
+            ],
+            "sections": [
+              {
+                "title": "Tel aanbieders en mogelijkheden afzonderlijk",
+                "text": "Een monopolie heeft één aanbieder, een duopolie twee. Meerdere modellen bij dezelfde aanbieder zijn daarom geen bewijs van meerdere onafhankelijke marktpartijen. Formele keuze gaat over beschikbare opties; praktische vrijheid vraagt ook toegang, kosten, gegevens en uitvoerbaarheid. Macht kan bovendien werken via wat mensen mogelijk of bespreekbaar vinden, naast expliciete besluiten en contractuele bevoegdheden."
+              },
+              {
+                "title": "Dezelfde servicepoort ziet er per positie anders uit",
+                "text": "De beheerder ziet drie modellen en een beschikbaar alternatief. Een medewerker ziet een gebonden reparatiehistorie en collega’s die alleen dit rooster gebruiken. Die verschillen zijn niet uitsluitend persoonlijke smaak: posities bepalen welke middelen en gevolgen iemand ontmoet. Wie voorwaarden kan veranderen, heeft andere handelingsruimte dan iemand die zijn werkcontacten bij vertrek zou verliezen."
+              },
+              {
+                "title": "Een alternatief wordt praktisch door een route",
+                "text": "Als dezelfde dossiers en contacten overdraagbaar worden, kan een gebruiker het andere platform proberen zonder alles opnieuw op te bouwen. Dat vergroot een mogelijkheid, maar bewijst nog geen concurrerende prijs, kwaliteit of volledige vrijheid. De verantwoordelijkheid van de beheerder moet daarom op concrete invloed en gevolgen worden onderzocht. Meer modellen aanbieden kan nuttig zijn zonder het overstapprobleem op te lossen."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Omar",
+          "role": "Logistiek coördinator",
+          "cell": [
+            7,
+            4
+          ],
+          "opening": "Ik zie of een alternatief werkt: komen onderdelen, opdrachten en gegevens daar daadwerkelijk aan?",
+          "topics": [
+            {
+              "id": "omar-t1",
+              "question": "Wat maakt een overstap praktisch?",
+              "answer": "Bruikbare gegevens, werkende samenwerking, bereikbare onderdelen en uitvoerbare kosten.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Een formele opzegknop regelt niet automatisch de volgende werkroute."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Een technicus kan het account sluiten, maar zonder historie en opdrachten verliest hij een deel van zijn werk."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Sommige kosten zijn legitiem of technisch moeilijk te vermijden. Onderzoek welke drempel veranderbaar is."
+                }
+              ]
+            },
+            {
+              "id": "omar-t2",
+              "question": "Waarom zijn relaties ook infrastructuur?",
+              "answer": "Werkafspraken en contacten maken een netwerk waardevol en kunnen vertrek moeilijker maken.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "De afhankelijkheid zit niet uitsluitend in software of een contract."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Iedere partner verwacht een order via dezelfde hub; een alternatief zonder partners biedt weinig praktijkwaarde."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Relaties kunnen ook steun voor verandering geven. Ze begrenzen niet alleen agency."
+                }
+              ]
+            },
+            {
+              "id": "omar-t3",
+              "question": "Hoe testen we een alternatieve route?",
+              "answer": "Gebruik een afgebakende proef met gegevensoverdracht, samenwerking en benodigde onderdelen.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Dan vergelijk je toestemming met werkelijk gebruik en zichtbaar verlies of voordeel."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Een reparatie wordt van aanvraag tot afhandeling buiten de hub uitgevoerd en teruggekoppeld."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Een geslaagde proef bewijst niet dat overstappen voor iedere groep even betaalbaar is."
+                }
+              ]
+            },
+            {
+              "id": "omar-t4",
+              "question": "Wat weten we nog niet?",
+              "answer": "Welke gebruikers willen vertrekken, welke gegevens nodig zijn en welke rechten overdracht beperken.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "De afhankelijkheidskaart moet op ervaringen en concrete voorwaarden rusten."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Vraag de gebruiker én de beheerder waarom historie niet meegaat en welke oplossing mogelijk is."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Mijn logistieke test beantwoordt niet automatisch privacy, juridische of normatieve vragen."
+                }
+              ]
+            }
+          ],
+          "theory": {
+            "title": "Waarom relaties deel van de overstapkosten zijn",
+            "concepts": [
+              "ecosysteemafhankelijkheid",
+              "overstapkosten",
+              "haalbare alternatieven"
+            ],
+            "sections": [
+              {
+                "title": "Overstappen kost meer dan een andere prijs betalen",
+                "text": "Een ecosysteem verbindt producten, gegevens, onderdelen en mensen. Afhankelijkheid ontstaat wanneer een bruikbaar alternatief niet dezelfde aansluitingen heeft of vertrek waarde vernietigt. Sommige kosten zijn geld, andere zijn tijd, informatieverlies of verbroken samenwerking. Dat onderscheid helpt voorkomen dat keuzevrijheid uitsluitend wordt beoordeeld met een prijslijst of het aantal knoppen op een scherm."
+              },
+              {
+                "title": "Het rooster is hier ook infrastructuur",
+                "text": "De reparatiehistorie ondersteunt diagnoses; het werkrooster verbindt collega’s. Wie vertrekt, mist dus niet alleen een app maar ook dagelijkse relaties en eerder opgebouwde kennis. Ik wil die gevolgen uitproberen met een beperkte vertrekroute. We vergelijken dan welke dossiers meekunnen, wie bereikbaar blijft en welke handelingen opnieuw nodig zijn, voordat we over echte alternatieven spreken."
+              },
+              {
+                "title": "Maak het alternatief klein genoeg om te testen",
+                "text": "Neem één werkweek met exporteerbare dossiers en een gedeelde berichtenroute buiten het huidige account. Als hetzelfde werk uitvoerbaar blijft, is een concrete drempel verkleind. Maar één geslaagde week zegt weinig over onderdelenbeschikbaarheid, latere storingen of alle functies. Het experiment geeft begrensd bewijs voor een route; langdurige afhankelijkheid vraagt aanvullende tests en afspraken."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "investigationId": "m2-06",
+      "npcs": [
+        {
+          "name": "Iris",
+          "role": "Ontwerper van planning en procedures",
+          "cell": [
+            3,
+            5
+          ],
+          "opening": "Ik kan ruimte voor een vraag organiseren. Of mensen die ruimte veilig ervaren en of de uitkomst verbetert, moeten we apart toetsen.",
+          "topics": [
+            {
+              "id": "iris-t1",
+              "question": "Wat maakt morele moed haalbaar?",
+              "answer": "Steun, veiligheid, erkenning, taal en reflectietijd kunnen handelen ondersteunen.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Een vraag heeft sociale en professionele kosten. Alleen op persoonlijke dapperheid rekenen laat die omstandigheden bestaan."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Een medewerker kan een zorg met bewijs in een beschermde bespreking brengen in plaats van alleen publiek risico te dragen."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Ondersteuning garandeert geen risicoloze uitkomst. Kijk naar echte reacties en ervaringen."
+                }
+              ]
+            },
+            {
+              "id": "iris-t2",
+              "question": "Wat laat de protocolproef zien?",
+              "answer": "Hoe beschermde toegang en beoordelingsplaatsen bepalen welke fictieve dossiers deze route bereiken.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "De formule illustreert een inrichting; ze voorspelt geen kans op menselijke moed."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Zonder deze beschermde route bereikt geen dossier haar in het model. Met route en tijd worden dossiers beoordeelbaar."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Andere menselijke acties en hun risico's zijn buiten het model. Bereiken is niet hetzelfde als oplossen."
+                }
+              ]
+            },
+            {
+              "id": "iris-t3",
+              "question": "Waarom heeft de pilot een eigenaar nodig?",
+              "answer": "Zonder middelen en bevoegdheid kan een goed alternatief een idee blijven.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Verantwoordelijkheid verbindt zorg aan uitvoering, toetsing en herziening."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Iemand krijgt capaciteit voor reparatie en moet terugkoppelen over kwaliteit, werkdruk en schade."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Eén eigenaar moet niet alle betrokken kennis vervangen. Partners en gebruikers blijven belangrijk."
+                }
+              ]
+            },
+            {
+              "id": "iris-t4",
+              "question": "Waarom een normverandering niet als recept aanbieden?",
+              "answer": "De gevonden geschiedenis heeft fasen, maar organisaties kunnen terugvallen, sprongen maken of andere invloeden ervaren.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Een casusvolgorde is bewijs over dit proces, geen universele psychologische wet."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Gedeelde twijfel leidde hier via taal en een pilot tot andere verwachtingen."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Toets de context en tegenvoorbeelden. Een verwachting kan ook veranderen door regelgeving of nieuwe omstandigheden."
+                }
+              ]
+            }
+          ],
+          "theory": {
+            "title": "Van morele moed naar een werkbare procedure",
+            "concepts": [
+              "morele moed",
+              "psychologische veiligheid",
+              "protocol en prikkels"
+            ],
+            "sections": [
+              {
+                "title": "Moed en veiligheid vervullen andere functies",
+                "text": "Morele moed betekent handelen vanuit een morele zorg terwijl daar risico aan kan zitten. Psychologische veiligheid gaat over de ruimte om bijvoorbeeld vragen, fouten of bezwaren te delen zonder verwachte sociale bestraffing. Een organisatie kan die ruimte ondersteunen, maar hoeft risico niet volledig weg te nemen. Het is onredelijk alle verbeterkracht uitsluitend als persoonlijke heldhaftigheid te ontwerpen."
+              },
+              {
+                "title": "Onze proef rekent een protocol door",
+                "text": "In het atelier bereik je dossiers via een beschermde route met beschikbare reviewtijd en productiedruk. De uitkomst volgt uit expliciete spelregels; zij is geen empirische voorspelling van menselijk durven. Twee contrasterende instellingen laten zien hoe dezelfde zorg in dit protocol wel of niet bij overleg komt. Bereiken betekent nog niet dat een bezwaar wordt opgelost."
+              },
+              {
+                "title": "Een pilot heeft bescherming én opvolging nodig",
+                "text": "Een vast tijdvenster, een gezamenlijke vraag en iemand die het antwoord vastlegt kunnen een kleine pilot uitvoerbaar maken. Vergelijk daarna gebruik, reacties, eventuele nadelen en concrete wijzigingen. Meer meldingen kan meer vertrouwen betekenen, maar ook meer problemen of bekendheid met het kanaal. Je hebt daarom meerdere aanwijzingen nodig voordat je de pilot veilig of effectief noemt."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Mila",
+          "role": "Reparatietechnicus",
+          "cell": [
+            7,
+            5
+          ],
+          "opening": "Mijn eerste vraag wordt sterker als ik feiten en steun heb. Ik hoef niet te doen alsof ik buiten het systeem sta.",
+          "topics": [
+            {
+              "id": "mila-t1",
+              "question": "Wat betekent agency voor jou?",
+              "answer": "De ruimte om te handelen binnen regels, middelen en relaties.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Ik kan sommige dingen veranderen, andere alleen met iemand die meer bevoegdheid heeft."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Gegevens delen, een beslissing laten onderzoeken en een reparatiealternatief testen zijn kleinere acties dan het hele bedrijf ombouwen."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "De ruimte kan zeer beperkt zijn. Schrijf geen onbegrensde vrijheid of verantwoordelijkheid toe."
+                }
+              ]
+            },
+            {
+              "id": "mila-t2",
+              "question": "Waarom helpt gezamenlijke twijfel?",
+              "answer": "Ze laat zien dat de zorg niet alleen een persoonlijk gevoel of eenzaam probleem is.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Relaties verbinden informatie, steun en verschillende beïnvloedingsmogelijkheden."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Ik breng toestellen en resultaten mee; Iris kan een beoordelingsmoment en middelen regelen."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Ook een groep kan fouten maken. Gedeelde twijfel moet inhoudelijk worden onderzocht."
+                }
+              ]
+            },
+            {
+              "id": "mila-t3",
+              "question": "Hoe kunnen kleine handelingen een systeem wijzigen?",
+              "answer": "Handelingen kunnen informatie, interpretatie, procedure of een werkbaar alternatief veranderen.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Mensen bevestigen structuren door gebruik en kunnen ze ook gezamenlijk verschuiven."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Een proef toont dat repareren mogelijk is; 'vernietigen is de enige route' wordt daardoor betwistbaar."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Niet iedere kleine actie heeft grote gevolgen. Volg wat werkelijk verandert en waar druk blijft."
+                }
+              ]
+            },
+            {
+              "id": "mila-t4",
+              "question": "Wanneer durf je de pilot geslaagd te noemen?",
+              "answer": "Als het alternatief werkt, betrokkenen veilig kunnen spreken en gevolgen beter worden binnen de gekozen criteria.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Alleen meer meldingen of een mooi gevoel bewijst geen verbetering."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Ik wil zien wat met toestellen gebeurt, of de werkdruk haalbaar is en hoe bezwaren worden behandeld."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Over sommige waardeprioriteiten kunnen we blijven verschillen. Maak criteria en onzekerheid expliciet."
+                }
+              ]
+            }
+          ],
+          "theory": {
+            "title": "Hoe een kleine handeling een nieuwe norm kan openen",
+            "concepts": [
+              "relationele agency",
+              "systeemverandering",
+              "collectieve verantwoordelijkheid"
+            ],
+            "sections": [
+              {
+                "title": "Handelingsruimte wordt mede tussen mensen gemaakt",
+                "text": "Agency is niet alleen een persoonlijke eigenschap. Kennis, steun, toegang tot overleg en de reactie van anderen kunnen een mogelijke handeling uitvoerbaar maken. Kleine ingrepen kunnen terugkerende verwachtingen veranderen wanneer mensen erop reageren en nieuwe afspraken ontstaan. Dat verklaart een veranderroute zonder te beweren dat één goede intentie of één moedige vraag een heel systeem beheerst."
+              },
+              {
+                "title": "Onze vraag begint bij een concreet toestel",
+                "text": "Ik stel samen met een collega de vraag waarom een werkende retour wordt vernietigd. Iris biedt een beoordelingsmoment en iemand bewaakt de opvolging. Daardoor krijgt twijfel een route van waarneming naar overleg. De oorspronkelijke routine verdwijnt nog niet. Ik wil zien of nieuw bewijs tot herbeoordeling leidt en of vraagstellers hun toegang tot werk behouden."
+              },
+              {
+                "title": "Herhaling kan nu ook verbetering normaliseren",
+                "text": "Wanneer een bruikbare retourvraag vaker serieus wordt behandeld, kan vragen stellen geleidelijk onderdeel van goed werk worden. Dat is een andere terugkoppeling dan steeds stilzwijgend vernietigen. De grens: een nieuwe norm kan ook nieuwe uitsluiting creëren, bijvoorbeeld als alleen vaste medewerkers mogen deelnemen. Daarom toetsen we wie de route kan gebruiken en welke gevolgen daadwerkelijk veranderen."
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

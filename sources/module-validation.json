@@ -1,0 +1,1345 @@
+{
+  "schemaVersion": 2,
+  "scope": "Full authored module",
+  "coverageKind": "Structural teaching references; semantic fidelity is separately recorded in the proposition/media audits. No empirical learning equivalence claim.",
+  "sourceSha256": "7fa9b0b4c664c90da7dd8e5b58ee532d37d298aee3927733c4bf7bdc67098449",
+  "valid": true,
+  "lessons": [
+    {
+      "lessonId": "m1",
+      "areas": 8,
+      "activities": 36,
+      "requiredSourceProjections": 1,
+      "questions": 10,
+      "sourceRows": [
+        {
+          "index": 0,
+          "type": "text",
+          "mappedTo": [
+            "m1-01-b1",
+            "m1-01-b2"
+          ]
+        },
+        {
+          "index": 2,
+          "type": "text",
+          "mappedTo": [
+            "m1-01-b1",
+            "m1-01-b2",
+            "m1-01-b3"
+          ]
+        },
+        {
+          "index": 3,
+          "type": "video",
+          "mappedTo": [
+            "m1-07-b1",
+            "m1-07-b2",
+            "m1-07-b3",
+            "m1-07-b4",
+            "m1-07-b5"
+          ]
+        },
+        {
+          "index": 4,
+          "type": "quiz",
+          "mappedTo": [
+            "m1-01-b3"
+          ]
+        },
+        {
+          "index": 6,
+          "type": "text",
+          "mappedTo": [
+            "m1-02-b1"
+          ]
+        },
+        {
+          "index": 7,
+          "type": "tabs",
+          "mappedTo": [
+            "m1-02-b1",
+            "m1-02-b2",
+            "m1-02-b3"
+          ]
+        },
+        {
+          "index": 9,
+          "type": "quiz",
+          "mappedTo": [
+            "m1-02-b2",
+            "m1-02-b3"
+          ]
+        },
+        {
+          "index": 11,
+          "type": "video",
+          "mappedTo": [
+            "m1-03-b1",
+            "m1-projection-rare-metals"
+          ]
+        },
+        {
+          "index": 12,
+          "type": "text",
+          "mappedTo": [
+            "m1-03-b1",
+            "m1-03-b2",
+            "m1-03-b3"
+          ]
+        },
+        {
+          "index": 13,
+          "type": "quiz",
+          "mappedTo": [
+            "m1-03-b2",
+            "m1-03-b3"
+          ]
+        },
+        {
+          "index": 15,
+          "type": "text",
+          "mappedTo": [
+            "m1-04-b1",
+            "m1-04-b2",
+            "m1-04-b3"
+          ]
+        },
+        {
+          "index": 16,
+          "type": "image",
+          "mappedTo": [
+            "m1-04-b1"
+          ]
+        },
+        {
+          "index": 17,
+          "type": "quiz",
+          "mappedTo": [
+            "m1-04-b2",
+            "m1-04-b3"
+          ]
+        },
+        {
+          "index": 19,
+          "type": "text",
+          "mappedTo": [
+            "m1-05-b1",
+            "m1-05-b2",
+            "m1-05-b4",
+            "m1-05-b5"
+          ]
+        },
+        {
+          "index": 21,
+          "type": "video",
+          "mappedTo": [
+            "m1-08-b1",
+            "m1-08-b2",
+            "m1-08-b3",
+            "m1-08-b4",
+            "m1-08-b5"
+          ]
+        },
+        {
+          "index": 22,
+          "type": "quiz",
+          "mappedTo": [
+            "m1-05-b1",
+            "m1-05-b5"
+          ]
+        },
+        {
+          "index": 24,
+          "type": "text",
+          "mappedTo": [
+            "m1-05-b3",
+            "m1-05-b4",
+            "m1-05-b6",
+            "m1-05-b7"
+          ]
+        },
+        {
+          "index": 25,
+          "type": "image",
+          "mappedTo": [
+            "m1-05-b3",
+            "m1-05-b6",
+            "m1-05-b7"
+          ]
+        },
+        {
+          "index": 26,
+          "type": "quiz",
+          "mappedTo": [
+            "m1-05-b3",
+            "m1-05-b6"
+          ]
+        },
+        {
+          "index": 28,
+          "type": "text",
+          "mappedTo": [
+            "m1-06-b1",
+            "m1-06-b3",
+            "m1-06-b4"
+          ]
+        },
+        {
+          "index": 29,
+          "type": "quiz",
+          "mappedTo": [
+            "m1-06-b1"
+          ]
+        },
+        {
+          "index": 31,
+          "type": "text",
+          "mappedTo": [
+            "m1-06-b2",
+            "m1-06-b3",
+            "m1-06-b5",
+            "m1-06-b6"
+          ]
+        },
+        {
+          "index": 32,
+          "type": "quiz",
+          "mappedTo": [
+            "m1-06-b2",
+            "m1-06-b5",
+            "m1-06-b6"
+          ]
+        },
+        {
+          "index": 34,
+          "type": "match",
+          "mappedTo": [
+            "m1-06-b2",
+            "m1-06-b3"
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "m2",
+      "areas": 6,
+      "activities": 42,
+      "requiredSourceProjections": 5,
+      "questions": 8,
+      "sourceRows": [
+        {
+          "index": 0,
+          "type": "text",
+          "mappedTo": [
+            "m2-01-b1",
+            "m2-01-b3"
+          ]
+        },
+        {
+          "index": 2,
+          "type": "quiz",
+          "mappedTo": []
+        },
+        {
+          "index": 4,
+          "type": "video",
+          "mappedTo": [
+            "m2-01-b5",
+            "m2-01-b6",
+            "m2-01-b7",
+            "m2-03-b5",
+            "m2-03-b6",
+            "m2-03-b7"
+          ]
+        },
+        {
+          "index": 5,
+          "type": "text",
+          "mappedTo": [
+            "m2-01-b1",
+            "m2-01-b2",
+            "m2-01-b3",
+            "m2-01-b4"
+          ]
+        },
+        {
+          "index": 6,
+          "type": "quiz",
+          "mappedTo": [
+            "m2-01-b2"
+          ]
+        },
+        {
+          "index": 8,
+          "type": "text",
+          "mappedTo": [
+            "m2-01-b1",
+            "m2-01-b2",
+            "m2-01-b3",
+            "m2-01-b4"
+          ]
+        },
+        {
+          "index": 10,
+          "type": "quiz",
+          "mappedTo": [
+            "m2-01-b2",
+            "m2-01-b4"
+          ]
+        },
+        {
+          "index": 12,
+          "type": "video",
+          "mappedTo": [
+            "m2-02-b1",
+            "m2-projection-m2-v12"
+          ]
+        },
+        {
+          "index": 14,
+          "type": "video",
+          "mappedTo": [
+            "m2-02-b1",
+            "m2-02-b6",
+            "m2-02-b7"
+          ]
+        },
+        {
+          "index": 16,
+          "type": "text",
+          "mappedTo": [
+            "m2-02-b1",
+            "m2-02-b2",
+            "m2-02-b3",
+            "m2-02-b4",
+            "m2-02-b5",
+            "m2-02-b6"
+          ]
+        },
+        {
+          "index": 17,
+          "type": "match",
+          "mappedTo": [
+            "m2-02-b2",
+            "m2-02-b4",
+            "m2-02-b5"
+          ]
+        },
+        {
+          "index": 19,
+          "type": "text",
+          "mappedTo": [
+            "m2-03-b1",
+            "m2-03-b2",
+            "m2-03-b3",
+            "m2-03-b4",
+            "m2-03-b5",
+            "m2-03-b6"
+          ]
+        },
+        {
+          "index": 20,
+          "type": "quiz",
+          "mappedTo": [
+            "m2-03-b1",
+            "m2-03-b2"
+          ]
+        },
+        {
+          "index": 22,
+          "type": "text",
+          "mappedTo": [
+            "m2-03-b1",
+            "m2-03-b2",
+            "m2-03-b4"
+          ]
+        },
+        {
+          "index": 23,
+          "type": "video",
+          "mappedTo": [
+            "m2-03-b2",
+            "m2-projection-m2-v23"
+          ]
+        },
+        {
+          "index": 25,
+          "type": "text",
+          "mappedTo": [
+            "m2-04-b1",
+            "m2-04-b2"
+          ]
+        },
+        {
+          "index": 26,
+          "type": "quiz",
+          "mappedTo": [
+            "m2-04-b1"
+          ]
+        },
+        {
+          "index": 28,
+          "type": "text",
+          "mappedTo": [
+            "m2-04-b1",
+            "m2-04-b3",
+            "m2-04-b4",
+            "m2-04-b5",
+            "m2-04-b7"
+          ]
+        },
+        {
+          "index": 30,
+          "type": "quiz",
+          "mappedTo": [
+            "m2-04-b4",
+            "m2-04-b5"
+          ]
+        },
+        {
+          "index": 31,
+          "type": "video",
+          "mappedTo": [
+            "m2-04-b6",
+            "m2-04-b7",
+            "m2-projection-m2-v31"
+          ]
+        },
+        {
+          "index": 33,
+          "type": "text",
+          "mappedTo": [
+            "m2-04-b3",
+            "m2-04-b4",
+            "m2-04-b5"
+          ]
+        },
+        {
+          "index": 35,
+          "type": "video",
+          "mappedTo": [
+            "m2-04-b4",
+            "m2-projection-m2-v35"
+          ]
+        },
+        {
+          "index": 37,
+          "type": "text",
+          "mappedTo": [
+            "m2-05-b1",
+            "m2-05-b2",
+            "m2-05-b4"
+          ]
+        },
+        {
+          "index": 38,
+          "type": "quiz",
+          "mappedTo": [
+            "m2-05-b1"
+          ]
+        },
+        {
+          "index": 40,
+          "type": "text",
+          "mappedTo": [
+            "m2-05-b1",
+            "m2-05-b2",
+            "m2-05-b4"
+          ]
+        },
+        {
+          "index": 42,
+          "type": "text",
+          "mappedTo": [
+            "m2-06-b1",
+            "m2-06-b4",
+            "m2-06-b5"
+          ]
+        },
+        {
+          "index": 43,
+          "type": "video",
+          "mappedTo": [
+            "m2-06-b1",
+            "m2-projection-m2-v43"
+          ]
+        },
+        {
+          "index": 44,
+          "type": "quiz",
+          "mappedTo": [
+            "m2-06-b1"
+          ]
+        },
+        {
+          "index": 46,
+          "type": "text",
+          "mappedTo": [
+            "m2-05-b2",
+            "m2-05-b3",
+            "m2-05-b4"
+          ]
+        },
+        {
+          "index": 47,
+          "type": "quiz",
+          "mappedTo": [
+            "m2-05-b3"
+          ]
+        },
+        {
+          "index": 49,
+          "type": "image",
+          "mappedTo": [
+            "m2-06-b2"
+          ]
+        },
+        {
+          "index": 50,
+          "type": "text",
+          "mappedTo": [
+            "m2-06-b1",
+            "m2-06-b2",
+            "m2-06-b4",
+            "m2-06-b5"
+          ]
+        },
+        {
+          "index": 51,
+          "type": "quiz",
+          "mappedTo": [
+            "m2-06-b2"
+          ]
+        },
+        {
+          "index": 53,
+          "type": "text",
+          "mappedTo": [
+            "m2-06-b3",
+            "m2-06-b5"
+          ]
+        },
+        {
+          "index": 55,
+          "type": "text",
+          "mappedTo": [
+            "m2-06-b2",
+            "m2-06-b3",
+            "m2-06-b4",
+            "m2-06-b5"
+          ]
+        },
+        {
+          "index": 56,
+          "type": "quiz",
+          "mappedTo": [
+            "m2-06-b2"
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "m3",
+      "areas": 6,
+      "activities": 37,
+      "requiredSourceProjections": 2,
+      "questions": 8,
+      "sourceRows": [
+        {
+          "index": 0,
+          "type": "text",
+          "mappedTo": [
+            "m3-01-b1"
+          ]
+        },
+        {
+          "index": 2,
+          "type": "text",
+          "mappedTo": [
+            "m3-01-b1",
+            "m3-01-b2",
+            "m3-01-b3",
+            "m3-01-b4",
+            "m3-01-b6",
+            "m3-01-b7"
+          ]
+        },
+        {
+          "index": 4,
+          "type": "video",
+          "mappedTo": [
+            "m3-01-b2",
+            "m3-01-b5",
+            "m3-01-b6",
+            "m3-01-b7",
+            "m3-projection-m3-v4"
+          ]
+        },
+        {
+          "index": 5,
+          "type": "quiz",
+          "mappedTo": [
+            "m3-01-b1",
+            "m3-01-b3",
+            "m3-01-b7"
+          ]
+        },
+        {
+          "index": 7,
+          "type": "text",
+          "mappedTo": [
+            "m3-02-b1",
+            "m3-02-b2",
+            "m3-02-b3",
+            "m3-02-b4"
+          ]
+        },
+        {
+          "index": 9,
+          "type": "quiz",
+          "mappedTo": [
+            "m3-02-b1",
+            "m3-02-b3"
+          ]
+        },
+        {
+          "index": 11,
+          "type": "text",
+          "mappedTo": [
+            "m3-03-b1",
+            "m3-03-b2",
+            "m3-03-b3",
+            "m3-03-b4",
+            "m3-03-b5",
+            "m3-03-b7"
+          ]
+        },
+        {
+          "index": 13,
+          "type": "text",
+          "mappedTo": [
+            "m3-03-b1",
+            "m3-03-b3"
+          ]
+        },
+        {
+          "index": 14,
+          "type": "quiz",
+          "mappedTo": [
+            "m3-03-b1",
+            "m3-03-b4",
+            "m3-03-b5"
+          ]
+        },
+        {
+          "index": 16,
+          "type": "video",
+          "mappedTo": [
+            "m3-03-b1",
+            "m3-03-b6",
+            "m3-03-b7"
+          ]
+        },
+        {
+          "index": 18,
+          "type": "text",
+          "mappedTo": [
+            "m3-04-b1",
+            "m3-04-b2",
+            "m3-04-b5",
+            "m3-04-b6"
+          ]
+        },
+        {
+          "index": 19,
+          "type": "quiz",
+          "mappedTo": [
+            "m3-04-b1",
+            "m3-04-b2"
+          ]
+        },
+        {
+          "index": 21,
+          "type": "image",
+          "mappedTo": [
+            "m3-04-b3",
+            "m3-04-b4"
+          ]
+        },
+        {
+          "index": 22,
+          "type": "tabs",
+          "mappedTo": [
+            "m3-04-b3",
+            "m3-04-b4",
+            "m3-04-b5"
+          ]
+        },
+        {
+          "index": 23,
+          "type": "text",
+          "mappedTo": [
+            "m3-04-b2",
+            "m3-04-b4",
+            "m3-04-b5",
+            "m3-04-b6"
+          ]
+        },
+        {
+          "index": 24,
+          "type": "svg",
+          "mappedTo": [
+            "m3-04-b4",
+            "m3-04-b5"
+          ]
+        },
+        {
+          "index": 26,
+          "type": "text",
+          "mappedTo": [
+            "m3-05-b1",
+            "m3-05-b5"
+          ]
+        },
+        {
+          "index": 27,
+          "type": "text",
+          "mappedTo": [
+            "m3-05-b1",
+            "m3-05-b3",
+            "m3-05-b5"
+          ]
+        },
+        {
+          "index": 28,
+          "type": "quiz",
+          "mappedTo": [
+            "m3-05-b3"
+          ]
+        },
+        {
+          "index": 30,
+          "type": "video",
+          "mappedTo": [
+            "m3-05-b4",
+            "m3-05-b6",
+            "m3-projection-m3-v30"
+          ]
+        },
+        {
+          "index": 31,
+          "type": "text",
+          "mappedTo": [
+            "m3-05-b1",
+            "m3-05-b2",
+            "m3-05-b4",
+            "m3-05-b5"
+          ]
+        },
+        {
+          "index": 32,
+          "type": "quiz",
+          "mappedTo": [
+            "m3-05-b2"
+          ]
+        },
+        {
+          "index": 34,
+          "type": "quiz",
+          "mappedTo": [
+            "m3-05-b2"
+          ]
+        },
+        {
+          "index": 36,
+          "type": "text",
+          "mappedTo": [
+            "m3-05-b3",
+            "m3-05-b4",
+            "m3-05-b5"
+          ]
+        },
+        {
+          "index": 37,
+          "type": "quiz",
+          "mappedTo": [
+            "m3-05-b3",
+            "m3-05-b4"
+          ]
+        },
+        {
+          "index": 39,
+          "type": "text",
+          "mappedTo": [
+            "m3-06-b1",
+            "m3-06-b2",
+            "m3-06-b4",
+            "m3-06-b5"
+          ]
+        },
+        {
+          "index": 40,
+          "type": "quiz",
+          "mappedTo": [
+            "m3-06-b1",
+            "m3-06-b2"
+          ]
+        },
+        {
+          "index": 42,
+          "type": "text",
+          "mappedTo": [
+            "m3-06-b3",
+            "m3-06-b4",
+            "m3-06-b5"
+          ]
+        },
+        {
+          "index": 44,
+          "type": "match",
+          "mappedTo": [
+            "m3-06-b4"
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "m4",
+      "areas": 6,
+      "activities": 32,
+      "requiredSourceProjections": 4,
+      "questions": 8,
+      "sourceRows": [
+        {
+          "index": 0,
+          "type": "text",
+          "mappedTo": [
+            "m4-01-b1",
+            "m4-05-b2"
+          ]
+        },
+        {
+          "index": 1,
+          "type": "list",
+          "mappedTo": [
+            "m4-01-b1",
+            "m4-05-b2",
+            "m4-06-b4"
+          ]
+        },
+        {
+          "index": 2,
+          "type": "quiz",
+          "mappedTo": []
+        },
+        {
+          "index": 4,
+          "type": "text",
+          "mappedTo": [
+            "m4-01-b2"
+          ]
+        },
+        {
+          "index": 5,
+          "type": "quiz",
+          "mappedTo": []
+        },
+        {
+          "index": 6,
+          "type": "text",
+          "mappedTo": []
+        },
+        {
+          "index": 8,
+          "type": "video",
+          "mappedTo": [
+            "m4-03-b5",
+            "m4-projection-source-8"
+          ]
+        },
+        {
+          "index": 10,
+          "type": "text",
+          "mappedTo": [
+            "m4-01-b1",
+            "m4-01-b4",
+            "m4-03-b1",
+            "m4-03-b5"
+          ]
+        },
+        {
+          "index": 11,
+          "type": "quiz",
+          "mappedTo": []
+        },
+        {
+          "index": 13,
+          "type": "text",
+          "mappedTo": [
+            "m4-01-b3",
+            "m4-03-b5",
+            "m4-05-b1",
+            "m4-05-b4"
+          ]
+        },
+        {
+          "index": 14,
+          "type": "video",
+          "mappedTo": [
+            "m4-projection-source-14"
+          ]
+        },
+        {
+          "index": 15,
+          "type": "quiz",
+          "mappedTo": [
+            "m4-01-b3"
+          ]
+        },
+        {
+          "index": 17,
+          "type": "text",
+          "mappedTo": [
+            "m4-02-b1"
+          ]
+        },
+        {
+          "index": 18,
+          "type": "quiz",
+          "mappedTo": [
+            "m4-02-b1"
+          ]
+        },
+        {
+          "index": 20,
+          "type": "text",
+          "mappedTo": [
+            "m4-02-b1",
+            "m4-02-b2",
+            "m4-02-b3"
+          ]
+        },
+        {
+          "index": 22,
+          "type": "text",
+          "mappedTo": [
+            "m4-01-b2",
+            "m4-02-b3",
+            "m4-02-b4"
+          ]
+        },
+        {
+          "index": 23,
+          "type": "quiz",
+          "mappedTo": [
+            "m4-02-b3"
+          ]
+        },
+        {
+          "index": 24,
+          "type": "svg",
+          "mappedTo": []
+        },
+        {
+          "index": 26,
+          "type": "video",
+          "mappedTo": [
+            "m4-projection-source-26"
+          ]
+        },
+        {
+          "index": 27,
+          "type": "text",
+          "mappedTo": [
+            "m4-03-b1",
+            "m4-03-b2",
+            "m4-03-b3",
+            "m4-03-b4",
+            "m4-03-b6",
+            "m4-05-b1"
+          ]
+        },
+        {
+          "index": 28,
+          "type": "quiz",
+          "mappedTo": []
+        },
+        {
+          "index": 30,
+          "type": "text",
+          "mappedTo": [
+            "m4-02-b4",
+            "m4-03-b4",
+            "m4-03-b6"
+          ]
+        },
+        {
+          "index": 31,
+          "type": "quiz",
+          "mappedTo": []
+        },
+        {
+          "index": 32,
+          "type": "video",
+          "mappedTo": [
+            "m4-03-b6",
+            "m4-projection-source-32"
+          ]
+        },
+        {
+          "index": 34,
+          "type": "text",
+          "mappedTo": [
+            "m4-03-b1",
+            "m4-03-b3"
+          ]
+        },
+        {
+          "index": 35,
+          "type": "quiz",
+          "mappedTo": [
+            "m4-03-b1"
+          ]
+        },
+        {
+          "index": 37,
+          "type": "text",
+          "mappedTo": [
+            "m4-03-b1",
+            "m4-03-b2",
+            "m4-03-b3",
+            "m4-04-b1",
+            "m4-04-b2",
+            "m4-04-b4",
+            "m4-04-b5"
+          ]
+        },
+        {
+          "index": 38,
+          "type": "quiz",
+          "mappedTo": [
+            "m4-04-b4"
+          ]
+        },
+        {
+          "index": 40,
+          "type": "image",
+          "mappedTo": [
+            "m4-04-b5",
+            "m4-04-b6"
+          ]
+        },
+        {
+          "index": 41,
+          "type": "text",
+          "mappedTo": [
+            "m4-04-b1",
+            "m4-04-b2",
+            "m4-04-b3",
+            "m4-04-b4",
+            "m4-04-b5",
+            "m4-04-b6",
+            "m4-05-b1",
+            "m4-05-b2",
+            "m4-05-b4"
+          ]
+        },
+        {
+          "index": 42,
+          "type": "quiz",
+          "mappedTo": [
+            "m4-04-b1"
+          ]
+        },
+        {
+          "index": 44,
+          "type": "text",
+          "mappedTo": [
+            "m4-01-b4",
+            "m4-03-b4",
+            "m4-05-b2",
+            "m4-05-b3",
+            "m4-06-b1",
+            "m4-06-b2",
+            "m4-06-b3",
+            "m4-06-b4"
+          ]
+        },
+        {
+          "index": 45,
+          "type": "quiz",
+          "mappedTo": [
+            "m4-06-b1"
+          ]
+        },
+        {
+          "index": 47,
+          "type": "tabs",
+          "mappedTo": [
+            "m4-01-b4",
+            "m4-03-b4",
+            "m4-04-b3",
+            "m4-04-b4",
+            "m4-04-b6",
+            "m4-05-b3",
+            "m4-05-b4",
+            "m4-06-b1",
+            "m4-06-b2",
+            "m4-06-b3",
+            "m4-06-b4"
+          ]
+        },
+        {
+          "index": 48,
+          "type": "match",
+          "mappedTo": []
+        },
+        {
+          "index": 50,
+          "type": "text",
+          "mappedTo": [
+            "m4-05-b3",
+            "m4-06-b1",
+            "m4-06-b3",
+            "m4-06-b4"
+          ]
+        },
+        {
+          "index": 51,
+          "type": "text",
+          "mappedTo": [
+            "m4-05-b2",
+            "m4-05-b3",
+            "m4-06-b1",
+            "m4-06-b2",
+            "m4-06-b3",
+            "m4-06-b4"
+          ]
+        },
+        {
+          "index": 52,
+          "type": "quiz",
+          "mappedTo": []
+        }
+      ]
+    },
+    {
+      "lessonId": "m5",
+      "areas": 6,
+      "activities": 28,
+      "requiredSourceProjections": 1,
+      "questions": 8,
+      "sourceRows": [
+        {
+          "index": 0,
+          "type": "text",
+          "mappedTo": [
+            "m5-01-b1",
+            "m5-01-b3",
+            "m5-03-b1",
+            "m5-03-b3",
+            "m5-06-b2",
+            "m5-06-b4"
+          ]
+        },
+        {
+          "index": 1,
+          "type": "video",
+          "mappedTo": [
+            "m5-02-b5"
+          ]
+        },
+        {
+          "index": 3,
+          "type": "text",
+          "mappedTo": [
+            "m5-01-b1",
+            "m5-01-b2",
+            "m5-01-b3",
+            "m5-01-b4",
+            "m5-03-b1",
+            "m5-03-b2",
+            "m5-03-b3",
+            "m5-06-b2"
+          ]
+        },
+        {
+          "index": 4,
+          "type": "quiz",
+          "mappedTo": []
+        },
+        {
+          "index": 6,
+          "type": "text",
+          "mappedTo": [
+            "m5-05-b1",
+            "m5-05-b2",
+            "m5-05-b4",
+            "m5-05-b5",
+            "m5-06-b2"
+          ]
+        },
+        {
+          "index": 7,
+          "type": "quiz",
+          "mappedTo": [
+            "m5-05-b1"
+          ]
+        },
+        {
+          "index": 9,
+          "type": "text",
+          "mappedTo": [
+            "m5-01-b3",
+            "m5-02-b1",
+            "m5-02-b2",
+            "m5-02-b3",
+            "m5-02-b4",
+            "m5-03-b4",
+            "m5-04-b3"
+          ]
+        },
+        {
+          "index": 10,
+          "type": "quiz",
+          "mappedTo": [
+            "m5-02-b1"
+          ]
+        },
+        {
+          "index": 11,
+          "type": "match",
+          "mappedTo": []
+        },
+        {
+          "index": 12,
+          "type": "svg",
+          "mappedTo": []
+        },
+        {
+          "index": 14,
+          "type": "text",
+          "mappedTo": [
+            "m5-03-b4",
+            "m5-04-b1",
+            "m5-04-b2",
+            "m5-04-b3",
+            "m5-04-b4"
+          ]
+        },
+        {
+          "index": 15,
+          "type": "quiz",
+          "mappedTo": [
+            "m5-04-b1"
+          ]
+        },
+        {
+          "index": 17,
+          "type": "text",
+          "mappedTo": [
+            "m5-05-b2",
+            "m5-06-b1",
+            "m5-06-b2"
+          ]
+        },
+        {
+          "index": 18,
+          "type": "video",
+          "mappedTo": [
+            "m5-04-b5"
+          ]
+        },
+        {
+          "index": 19,
+          "type": "quiz",
+          "mappedTo": [
+            "m5-06-b1"
+          ]
+        },
+        {
+          "index": 21,
+          "type": "text",
+          "mappedTo": [
+            "m5-01-b4",
+            "m5-02-b3",
+            "m5-02-b4",
+            "m5-03-b4",
+            "m5-04-b2",
+            "m5-04-b3",
+            "m5-04-b5",
+            "m5-05-b3",
+            "m5-05-b4",
+            "m5-06-b3",
+            "m5-06-b4"
+          ]
+        },
+        {
+          "index": 22,
+          "type": "quiz",
+          "mappedTo": [
+            "m5-05-b3"
+          ]
+        },
+        {
+          "index": 24,
+          "type": "text",
+          "mappedTo": [
+            "m5-01-b4",
+            "m5-03-b4",
+            "m5-04-b2",
+            "m5-04-b4",
+            "m5-04-b5",
+            "m5-05-b2",
+            "m5-05-b3",
+            "m5-05-b4",
+            "m5-06-b1",
+            "m5-06-b3",
+            "m5-06-b4"
+          ]
+        },
+        {
+          "index": 25,
+          "type": "video",
+          "mappedTo": [
+            "m5-02-b5",
+            "m5-05-b5",
+            "m5-projection-source-25"
+          ]
+        },
+        {
+          "index": 27,
+          "type": "text",
+          "mappedTo": [
+            "m5-01-b1",
+            "m5-02-b4",
+            "m5-03-b3",
+            "m5-04-b4",
+            "m5-06-b1",
+            "m5-06-b2",
+            "m5-06-b3",
+            "m5-06-b4"
+          ]
+        }
+      ]
+    }
+  ],
+  "counts": {
+    "lessons": 5,
+    "areas": 32,
+    "activities": 175,
+    "questions": 42,
+    "types": {
+      "experiment": 6,
+      "sort": 24,
+      "decision": 10,
+      "inspect": 48,
+      "build": 22,
+      "order": 17,
+      "connect": 35,
+      "media": 13
+    }
+  },
+  "errors": []
+}

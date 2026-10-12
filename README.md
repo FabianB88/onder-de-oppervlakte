@@ -1,6 +1,6 @@
 # Onder de oppervlakte
 
-First playable Business Ethics adventure, in Dutch. This release implements lesson 1, Economics & Systems. Lessons 2–5 retain their source material in the optional reference library and have draft campaign material, but their adventures are not implemented.
+Dutch browser adventure for all five Business Ethics lessons. The authored module contains 32 areas, 162 world activities, 13 required original source projections, area reconstructions, five transfer finales and 42 application questions. This is a substantial playable implementation; its educational superiority has not been empirically established.
 
 ## Play
 
@@ -10,9 +10,15 @@ All clues must be investigated before each reconstruction unlocks. Reconstructio
 
 ## Teaching and scope
 
-The first lesson contains 30 optional environmental investigations (including evidence checks, dead ends and a services-key return route), 24 experiential beats, six investigation reconstructions and a changed-sector lesson finale. An authored map traces 72 essential concepts to the original Economics & Systems lesson. This is a curriculum audit, not empirical evidence of learning equivalence. Source media and original quizzes remain available as optional review.
+Lesson 1 contains eight areas; the other lessons each contain six. The first route includes 30 optional environmental investigations, evidence checks, dead ends and a services-key return route. Later routes include optional work records and dead ends. Physical tools also unlock later accounting, model configuration and claim inspection tasks.
 
-The two experiments require a prediction, contrasting trials, an interpretation and a concept check. Early hints and NPC examples provide beginner support. Ethical disagreement is allowed: causal explanations and evidential support are assessed, rather than moral conformity.
+Each area has a location and mission briefing. A quick theory overview can be read before play. There are two NPCs per area: 64 NPC instances using a six-character cast, with questions, follow-ups and three substantial optional theory sections each. The notebook stores evidence, predictions and personal notes.
+
+Use **Beheer**, code **fabian1**, to jump directly to any area, preview activities, read conversations, inspect area/lesson puzzles and view the questions. Preview changes never overwrite the ordinary learner save. This is a local content-review facility, not an authentication system for sensitive accounts.
+
+`dist/plan.html` is the readable complete production plan. `dist/research.html` presents the design evidence and evaluation plan. The original source remains intact in Naslag. Thirteen clips are mandatory world sources where the exact spoken content has not been fully replaced or verified; opening a clip plus a synthesis is engagement evidence, not proof of complete viewing or mastery.
+
+Six experiments require a prediction, contrasting trials, an interpretation and a concept check. Their numerical consequences are explicitly fictional and limited by stated assumptions. Early hints and NPC examples provide beginner support. Ethical disagreement is allowed: causal explanations and evidential support are assessed, rather than moral conformity.
 
 The complete original course is pinned to GitHub commit `de712d3616e669404cded8711e2ed1dc317deec9`, `FabianB88/minor-ce-elearnings`, `modules/business-ethics/course.json`. Source provenance and conceptual coverage are stored in `sources/`.
 
@@ -20,12 +26,12 @@ The complete original course is pinned to GitHub commit `de712d3616e669404cded87
 
 `sources/learning-evidence.json` contains a targeted critical review of 25 original sources, 14 design requirements, study limitations and a proposed evaluation. It includes guided investigation, worked examples, cognitive engagement, intrinsic integration, feedback, retention/transfer, motivation and blended learning. It is not an exhaustive systematic review and does not establish that this implementation is superior.
 
-Next evaluation stages: subject expert review of the concept map; novice usability sessions; student co-design of challenge, support and reward preferences; matched-content comparison with the original e-learning; independent delayed and transfer assessments with a reasoning rubric. For blended classroom use, learners compare evidence maps and revise their intervention after peer critique and teacher debriefing. The standalone route remains self-contained.
+Before educational rollout, independent subject review must confirm equivalence of the teaching propositions and accessibility of required media. These basic quality requirements do not wait for six months of usage feedback. Later matched-content comparison, independent delayed and transfer assessments and reasoning rubrics can test actual effectiveness. For blended classroom use, learners compare evidence maps and revise their intervention after peer critique and teacher debriefing. The standalone route includes the teaching content.
 
 ## Validation
 
-`node scripts/check-playbook.mjs` verifies short-panel limits, required concepts, source references, causal evidence and the content schema. `node scripts/test-adventure.mjs` verifies progression/evidence gates, replay rewards and navigation. `scripts/qa-first.mjs` and `scripts/qa-adventure.mjs` exercise the browser route with the bundled local Playwright runtime.
+`npm test` validates all five lessons, source references, activity shapes, dialogue depth, causal evidence, model results, progression gates, replay rewards and navigation. `scripts/qa-module.mjs` exercises all authored activity answers, dialogue branches, area/lesson finales and knowledge checks using synthetic DOM activation in a separate test profile. `qa-controls.mjs` checks pointer movement/cancellation, inspection and save isolation. `qa-features.mjs` checks all briefings, theory panels, hotspot hit targets and mobile layout. Screenshots and reports are in ignored `qa/`. Structural coverage is distinct from the separate semantic proposition and media audits in `sources/`.
 
 ## Artwork
 
-All game environments, the inspection drone, the early investigator study and six NPCs and collectible-tool atlas are original assets created with the built-in image generation tool. Full prompts, provenance and visual QA are in `sources/art-prompts.md`. WebP assets are used for environments; original PNGs are retained separately. Artwork has been inspected. Further animation and authored object interactions remain part of production refinement.
+Game environments, the inspection drone, the early investigator study, six NPCs and the collectible-tool atlas are original assets created with the built-in image generation tool. Full prompts, provenance and visual QA are in `sources/art-prompts.md`. WebP environments are used at runtime; original PNGs are retained. The inspection drone uses a deliberate flight animation.

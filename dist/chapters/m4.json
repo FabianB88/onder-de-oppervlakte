@@ -1,0 +1,3180 @@
+{
+  "lessonId": "m4",
+  "title": "De waarden in de machine",
+  "premise": "Een nieuwe circulaire service moet vandaag openen. De toegangspoort, logistiek, data, sorteerband en toezicht moeten samen werken. Je bouwt een verantwoord vrijgavevoorstel; een groen etiket opent geen deur.",
+  "investigations": [
+    {
+      "id": "m4-01",
+      "world": {
+        "name": "De ingang die kiest",
+        "imageKey": "room-helpdesk",
+        "exit": {
+          "label": "Open de onderhoudsdoorgang",
+          "lockType": "accessible-fallback",
+          "problem": "Een automatische deur helpt veel bezoekers, maar bij uitval kan een rolstoelgebruiker niet zelfstandig naar binnen. Onderbouw een toegangsoplossing voordat de onderhoudsroute wordt geopend.",
+          "unlockedText": "De fallback is afgesproken en getest. De onderhoudsroute is toegankelijk.",
+          "destinationReason": "Volg nu de infrastructuur die de ingang van energie en leveringen voorziet."
+        },
+        "spots": [
+          {
+            "id": "m4-01-record",
+            "title": "Werknotitie naast het dossier",
+            "point": [
+              0.18,
+              0.55
+            ],
+            "approach": [
+              0.25,
+              0.7
+            ],
+            "observation": "Een korte werknotitie verbindt dit dossier met de dagelijkse praktijk.",
+            "detail": "Morele architectuur betekent: ontwerp maakt handelingen gemakkelijker of moeilijker en verdeelt zo toegang, risico en afhankelijkheid. Kijk naar gebruik én uitval."
+          },
+          {
+            "id": "m4-01-empty",
+            "title": "Een ongebruikte lade",
+            "point": [
+              0.84,
+              0.73
+            ],
+            "approach": [
+              0.76,
+              0.83
+            ],
+            "observation": "De lade is leeg. De krassen en stoflaag vertellen niet waarom het besluit is genomen.",
+            "detail": "Dit spoor geeft geen inhoudelijk bewijs voor je verklaring. Een onderzoek bevat ook doodlopende sporen: keer terug naar de concrete documenten, handelingen en mensen."
+          }
+        ]
+      },
+      "beats": [
+        {
+          "type": "inspect",
+          "title": "Test de deur in vier omstandigheden",
+          "sceneObject": "evidence",
+          "intro": "Bekijk de deur, sensor, uitvalkaart en bedieningshoogte. Hetzelfde ontwerp helpt iemand in de ene situatie en vormt een barrière in een andere.",
+          "hint": "Morele architectuur betekent: ontwerp maakt handelingen gemakkelijker of moeilijker en verdeelt zo toegang, risico en afhankelijkheid. Kijk naar gebruik én uitval.",
+          "explainAfter": "De deur is niet alleen een hulpmiddel. Stroom, sensoren, onderhoud en bediening bepalen samen wie toegang heeft. Verantwoordelijkheid betreft dus ontwerp, gebruik en beheer.",
+          "concepts": [
+            "morele architectuur",
+            "toegang en afhankelijkheid",
+            "automatische deur"
+          ],
+          "sourceBlocks": [
+            0,
+            1,
+            10
+          ],
+          "boundary": "Een storing bewijst geen slechte intentie. Een bereikbaar alternatief moet ook veilig, begrijpelijk en onderhouden zijn.",
+          "reveal": [
+            {
+              "id": "r1",
+              "label": "Deur",
+              "title": "Bij normaal gebruik",
+              "text": "De sensor opent zonder duwkracht. Dit helpt rolstoelgebruikers, mensen met bagage en ouders met een kinderwagen."
+            },
+            {
+              "id": "r2",
+              "label": "Uitvalkaart",
+              "title": "De proef zonder stroom",
+              "text": "Bij stroomuitval blijft het zware paneel dicht. Juist gebruikers die op automatisering rekenen, kunnen minder zelfstandig naar binnen."
+            },
+            {
+              "id": "r3",
+              "label": "Bediening",
+              "title": "Een verborgen keuze",
+              "text": "De noodknop zit hoog. De hoogte en benodigde kracht verdelen feitelijke toegang, ook zonder uitsluitingsregel."
+            },
+            {
+              "id": "r4",
+              "label": "Werkbon",
+              "title": "De andere helft van het ontwerp",
+              "text": "Een goed ontwerp heeft een bereikbaar bedieningsalternatief én afspraken over sensortests, onderhoud en hulp bij uitval."
+            },
+            {
+              "id": "r5",
+              "label": "Tekening",
+              "title": "Waarden worden materiaal",
+              "text": "Snelheid en veiligheid zijn ontwerpwaarden. Een snel sluitende deur kan toegankelijkheid verminderen; de waarden moeten samen worden onderzocht."
+            },
+            {
+              "id": "r6",
+              "label": "Lenskaart",
+              "title": "ANT heeft een begrenzing nodig",
+              "text": "ANT kan ook kledingketens, vervoerapps en architectuur als relaties analyseren. Een eindeloze kaart verklaart niet vanzelf welke ingreep helpt. Kies de relevante relaties en onderzoek macht, verandering en verantwoordelijkheid expliciet."
+            },
+            {
+              "id": "r7",
+              "label": "Afweegkaart",
+              "title": "Een barrière toont nog geen motief",
+              "text": "Een trap zonder lift of een te lage doorgang kan toegang beperken. Het gevolg is zichtbaar; intentie vraagt apart historisch of ontwerpbewijs. Winners analyse onderscheidt ontwerpkeuzes en organisatieverhoudingen."
+            }
+          ],
+          "required": [
+            "r1",
+            "r2",
+            "r3",
+            "r4",
+            "r5",
+            "r6",
+            "r7"
+          ],
+          "id": "m4-01-b1",
+          "clueId": "m4-01-b1-clue",
+          "clueTitle": "Test de deur in vier omstandigheden"
+        },
+        {
+          "type": "sort",
+          "title": "Twee soorten politieke werking",
+          "sceneObject": "evidence",
+          "intro": "Leg ontwerpnotities bij bewust ingestelde toegang of een organisatievoorwaarde van het systeem. Winner onderscheidt beide; je hebt bewijs nodig om intentie vast te stellen.",
+          "hint": "Een expliciete keuzeregel kan toegang bewust beperken. Een complexe techniek kan ook expertise en coördinatie vereisen zonder dat uitsluiting het doel was.",
+          "explainAfter": "Winner laat twee routes zien: bewust ingebouwde sociale ordening en politieke gevolgen van de organisatie die een techniek vereist. Dezelfde techniek kan beide hebben.",
+          "concepts": [
+            "Winner",
+            "bewuste ontwerpsturing",
+            "organisatorische vereisten"
+          ],
+          "sourceBlocks": [
+            4,
+            22
+          ],
+          "boundary": "Een systeemvereiste bewijst niet dat alleen één politieke bestuursvorm mogelijk is. Vraag welke alternatieve ontwerpen bestaan.",
+          "categories": [
+            {
+              "id": "intent",
+              "label": "Bewuste toegangsregel"
+            },
+            {
+              "id": "structure",
+              "label": "Organisatievereiste"
+            }
+          ],
+          "cards": [
+            {
+              "id": "c1",
+              "text": "De ontwerpopdracht schrijft alleen contractpassen als ingang voor.",
+              "category": "intent",
+              "feedback": "De toegangsselectie staat expliciet in de opdracht."
+            },
+            {
+              "id": "c2",
+              "text": "De installatie vraagt permanent gespecialiseerde storingscoördinatie.",
+              "category": "structure",
+              "feedback": "De werking creëert een coördinatievereiste."
+            },
+            {
+              "id": "c3",
+              "text": "De beheerder kiest één centrale bevoegdheid voor alle vergunningen.",
+              "category": "intent",
+              "feedback": "Dit is een gekozen concentratie van beslisrecht."
+            },
+            {
+              "id": "c4",
+              "text": "Onderhoud vraagt afstemming tussen sensorleverancier en gebouwbeheer.",
+              "category": "structure",
+              "feedback": "Afhankelijkheid ontstaat door de samenhang van onderdelen."
+            }
+          ],
+          "id": "m4-01-b2",
+          "clueId": "m4-01-b2-clue",
+          "clueTitle": "Twee soorten politieke werking"
+        },
+        {
+          "type": "connect",
+          "title": "De deur is een netwerk",
+          "sceneObject": "evidence",
+          "intro": "Verbind ieder onderdeel met wat het in de toegangsroute verandert. Actor-Network Theory kijkt naar menselijke én niet-menselijke actoren in relaties.",
+          "hint": "In Latours ANT beïnvloeden bezoekers, sensoren, regels en monteurs elkaar. Een actor kan handelen bemiddelen zonder bewustzijn of menselijke morele schuld te hebben.",
+          "explainAfter": "ANT maakt zichtbaar hoe de sensor, afspraak en monteur samen handelingen sturen. Verbeek legt de nadruk op bemiddeling: technologie verandert wat mensen waarnemen en kunnen doen.",
+          "concepts": [
+            "Actor-Network Theory",
+            "menselijke en niet-menselijke actoren",
+            "Verbeek",
+            "technologische bemiddeling"
+          ],
+          "sourceBlocks": [
+            13,
+            15
+          ],
+          "boundary": "Een sensor beïnvloedt handelen, maar wordt daarmee geen moreel persoon. Mensen en organisaties blijven aanspreekbaar op ontwerp en beheer.",
+          "pairs": [
+            {
+              "id": "p1",
+              "left": "Sensor bepaalt wanneer beweging wordt herkend",
+              "right": "Bepaalt wanneer een bezoeker de doorgang als beschikbaar ervaart.",
+              "feedback": "Een technische waarneming vormt de handelingsruimte."
+            },
+            {
+              "id": "p2",
+              "left": "Onderhoudsregel zegt wie na een storing belt",
+              "right": "Verdeelt wie het defect ontdekt en wie herstel organiseert.",
+              "feedback": "Een regel doet mee in het netwerk, naast apparaten en mensen."
+            },
+            {
+              "id": "p3",
+              "left": "Navigatiescherm toont alleen de hoofdingang",
+              "right": "Maakt de alternatieve route minder zichtbaar voor bezoekers.",
+              "feedback": "Bemiddeling betreft waarneming; een verborgen route bestaat nog wel."
+            },
+            {
+              "id": "p4",
+              "left": "Monteur past de gevoeligheid aan",
+              "right": "Verandert welke bewegingen de sensor herkent.",
+              "feedback": "Menselijk handelen kan het netwerk aanpassen."
+            }
+          ],
+          "id": "m4-01-b3",
+          "clueId": "m4-01-b3-clue",
+          "clueTitle": "De deur is een netwerk"
+        },
+        {
+          "type": "decision",
+          "title": "Kies een werkende fallback",
+          "sceneObject": "person",
+          "intro": "Selecteer een voorstel dat de beschreven uitvalbarrière aanpakt. Twee plannen zijn verdedigbaar, maar hebben andere afhankelijkheden. Leg je keuze in je notities uit.",
+          "hint": "Een fallback moet ook zonder de uitgevallen functie bereikbaar zijn. Meer normale snelheid verhelpt geen onbereikbare noodbediening.",
+          "explainAfter": "Een noodaccu of een zelfstandig bruikbare mechanische route kan helpen. Test het met betrokken bezoekers en regel beheer. Het ontwerp beïnvloedt gedrag, maar kan bewust worden veranderd.",
+          "concepts": [
+            "ontwerpinterventie",
+            "menselijke agency",
+            "automatische deur"
+          ],
+          "sourceBlocks": [
+            10,
+            44,
+            47
+          ],
+          "boundary": "Een geslaagde proef bewijst nog niet dat iedere bezoeker onder iedere noodsituatie veilig toegang heeft.",
+          "options": [
+            {
+              "id": "mechanical",
+              "text": "Een bereikbare mechanische bediening met lage benodigde kracht en gebruikstest.",
+              "correct": true,
+              "feedback": "Je verlaagt de uitvalafhankelijkheid; onderzoek veiligheid, kracht en gebruiksgemak."
+            },
+            {
+              "id": "battery",
+              "text": "Een bewaakte noodaccu plus bereikbare bediening en een herstelafspraak.",
+              "correct": true,
+              "feedback": "Dit beschermt toegang tijdens korte uitval; accuduur en onderhoud blijven afhankelijkheden."
+            },
+            {
+              "id": "faster",
+              "text": "Een sneller reagerende normale sensor, met ongewijzigde noodknop.",
+              "correct": false,
+              "feedback": "De normale werking kan verbeteren; de stroomuitval en bedieningshoogte blijven onveranderd."
+            }
+          ],
+          "id": "m4-01-b4",
+          "clueId": "m4-01-b4-clue",
+          "clueTitle": "Kies een werkende fallback"
+        }
+      ],
+      "finale": {
+        "intro": "Een automatische deur helpt veel bezoekers, maar bij uitval kan een rolstoelgebruiker niet zelfstandig naar binnen. Onderbouw een toegangsoplossing voordat de onderhoudsroute wordt geopend.",
+        "slots": [
+          {
+            "id": "dependence",
+            "label": "Waarom wordt juist de geholpen groep bij uitval kwetsbaar?",
+            "evidenceBeatId": "m4-01-b1",
+            "options": [
+              {
+                "id": "design",
+                "text": "Hun zelfstandige toegang berust op automatisering waarvoor geen bruikbare fallback beschikbaar is.",
+                "correct": true,
+                "feedback": "De deurproef koppelt toegankelijkheid aan stroom en bediening."
+              },
+              {
+                "id": "preference",
+                "text": "De uitval toont dat bezoekers de automatische route alleen uit gemak prefereerden.",
+                "correct": false,
+                "feedback": "De benodigde kracht en knophoogte tonen een feitelijke barrière, geen voorkeur."
+              },
+              {
+                "id": "intent",
+                "text": "De storing bewijst dat de ontwerper deze bezoekers wilde uitsluiten.",
+                "correct": false,
+                "feedback": "Effecten kunnen zonder aangetoonde uitsluitingsintentie ontstaan."
+              }
+            ]
+          },
+          {
+            "id": "network",
+            "label": "Welke verandering laat een socio-technisch mechanisme zien?",
+            "evidenceBeatId": "m4-01-b3",
+            "options": [
+              {
+                "id": "sensor",
+                "text": "Een sensor meet een waarde; daarmee is de volledige toegangsverdeling verklaard.",
+                "correct": false,
+                "feedback": "Ook bediening, regels en onderhoud beïnvloeden de toegang."
+              },
+              {
+                "id": "awareness",
+                "text": "Een extra bord zonder gewijzigde bediening maakt de hoge noodknop zelfstandig bereikbaar.",
+                "correct": false,
+                "feedback": "Informatie alleen verandert de fysieke bedieningsbarrière niet."
+              },
+              {
+                "id": "relation",
+                "text": "Een onderhoudsafspraak verandert wie het defect meldt en hoe de technische route wordt hersteld.",
+                "correct": true,
+                "feedback": "De afspraak verbindt mensen, apparaat en verantwoordelijkheid."
+              }
+            ]
+          }
+        ],
+        "conclusion": "Een toegankelijk ontwerp vraagt een netwerk van techniek, beheer en gebruikerspraktijken. Je hebt een beargumenteerde fallback; je hoeft geen universeel beste ontwerp te kiezen."
+      },
+      "sourceProjections": [
+        {
+          "id": "source-14",
+          "youtube": "xqB1Gw34J28",
+          "start": 0,
+          "title": "Actor-Network Theory: For the Confused",
+          "owner": "Draftish.",
+          "sourceBlocks": [
+            14
+          ],
+          "purpose": "Welke menselijke en niet-menselijke onderdelen veranderen samen de toegang, en welke grens heeft jouw netwerkkaart?",
+          "viewingTask": "Welke menselijke en niet-menselijke onderdelen veranderen samen de toegang, en welke grens heeft jouw netwerkkaart?",
+          "afterPrompt": "Welke menselijke en niet-menselijke onderdelen veranderen samen de toegang, en welke grens heeft jouw netwerkkaart?",
+          "knownCoreConcepts": [
+            "morele architectuur",
+            "toegang en afhankelijkheid",
+            "automatische deur",
+            "Actor-Network Theory",
+            "menselijke en niet-menselijke actoren",
+            "Verbeek",
+            "technologische bemiddeling"
+          ],
+          "contentVerification": "Oorspronkelijk bronfragment. De bekende leerfunctie is in de route verwerkt; unieke gesproken details worden via dit volledige fragment aangeboden. Beoordeel historische uitspraken in hun broncontext.",
+          "fullOriginalClip": true,
+          "minimumSynthesisWords": 15,
+          "completionInterpretation": "Opening plus case synthesis records engagement, not verified complete viewing or mastery."
+        }
+      ],
+      "originalSourceBlocks": [
+        0,
+        1,
+        4,
+        10,
+        13,
+        15,
+        22,
+        44,
+        47
+      ],
+      "optionalReviewBlocks": [
+        15
+      ]
+    },
+    {
+      "id": "m4-02",
+      "world": {
+        "name": "Het logistieke knooppunt",
+        "imageKey": "room-depot",
+        "exit": {
+          "label": "Activeer de route voor onafhankelijke reparateurs",
+          "lockType": "interoperable-access",
+          "problem": "Een gerepareerd apparaat bereikt de klant alleen via een netwerk waarvoor kleine reparateurs geen standaardkoppeling hebben. Reconstrueer de route en stel verantwoorde aansluiting vast.",
+          "unlockedText": "De aansluiting heeft een bruikbaar formaat, toetsbare voorwaarden en een aanspreekpunt.",
+          "destinationReason": "De gegevens die je koppeling nodig heeft, liggen in de datakluis."
+        },
+        "spots": [
+          {
+            "id": "m4-02-record",
+            "title": "Werknotitie naast het dossier",
+            "point": [
+              0.18,
+              0.55
+            ],
+            "approach": [
+              0.25,
+              0.7
+            ],
+            "observation": "Een korte werknotitie verbindt dit dossier met de dagelijkse praktijk.",
+            "detail": "Een infrastructuur ondersteunt andere activiteiten, werkt over grote schaal en maakt standaarden en afhankelijkheden. Een los apparaat kan zonder netwerk weinig doen."
+          },
+          {
+            "id": "m4-02-empty",
+            "title": "Een ongebruikte lade",
+            "point": [
+              0.84,
+              0.73
+            ],
+            "approach": [
+              0.76,
+              0.83
+            ],
+            "observation": "De lade is leeg. De krassen en stoflaag vertellen niet waarom het besluit is genomen.",
+            "detail": "Dit spoor geeft geen inhoudelijk bewijs voor je verklaring. Een onderzoek bevat ook doodlopende sporen: keer terug naar de concrete documenten, handelingen en mensen."
+          }
+        ]
+      },
+      "beats": [
+        {
+          "type": "inspect",
+          "title": "Zoek wat de apparaten mogelijk maakt",
+          "sceneObject": "evidence",
+          "intro": "Onderzoek rails, stroomkast, routekaart en protocol. Infrastructuur is het onderliggende netwerk; zij valt vaak pas op wanneer ze uitvalt.",
+          "hint": "Een infrastructuur ondersteunt andere activiteiten, werkt over grote schaal en maakt standaarden en afhankelijkheden. Een los apparaat kan zonder netwerk weinig doen.",
+          "explainAfter": "Star en Bowker benadrukken de achtergrondfunctie van infrastructuur. De storing toont afhankelijkheid. Wie standaarden en toegang beheert, beïnvloedt welke organisaties kunnen deelnemen.",
+          "concepts": [
+            "infrastructuur",
+            "achtergrond en uitval",
+            "standaarden en afhankelijkheden",
+            "Star en Bowker"
+          ],
+          "sourceBlocks": [
+            17,
+            18,
+            20
+          ],
+          "boundary": "Niet ieder groot apparaat is een infrastructuur. Onderzoek de ondersteunende relaties, schaal en standaarden.",
+          "reveal": [
+            {
+              "id": "r1",
+              "label": "Rails",
+              "title": "Onderliggende structuur",
+              "text": "Het transportnetwerk verbindt haven, magazijn en reparatiehub. Het maakt leveringen mogelijk voor meerdere organisaties."
+            },
+            {
+              "id": "r2",
+              "label": "Stroomkast",
+              "title": "Op de achtergrond",
+              "text": "Bij uitval stoppen scanners en banden. De apparaten waren afhankelijk van een netwerk dat tijdens normaal werk onzichtbaar leek."
+            },
+            {
+              "id": "r3",
+              "label": "Protocol",
+              "title": "Een gedeelde standaard",
+              "text": "Scanners accepteren één gegevensformaat. De standaard helpt afstemming, maar een niet-passend formaat sluit een reparateur feitelijk uit."
+            },
+            {
+              "id": "r4",
+              "label": "Routekaart",
+              "title": "Schaal maakt verschil",
+              "text": "Transport, elektriciteit, digitale platformecosystemen en wereldwijde datanetwerken verbinden organisaties, regio’s of landen."
+            },
+            {
+              "id": "r5",
+              "label": "Contract",
+              "title": "Het beheer kiest voorwaarden",
+              "text": "Toegang vraagt een contract en een interface. Wie die voorwaarden bepaalt, kan marktdeelname en kosten beïnvloeden."
+            }
+          ],
+          "required": [
+            "r1",
+            "r2",
+            "r3",
+            "r4",
+            "r5"
+          ],
+          "id": "m4-02-b1",
+          "clueId": "m4-02-b1-clue",
+          "clueTitle": "Zoek wat de apparaten mogelijk maakt"
+        },
+        {
+          "type": "order",
+          "title": "Laat de reparatie echt reizen",
+          "sceneObject": "system",
+          "intro": "Leg de onderdelen in de route van bestelling naar aflevering. Verbind fysieke en digitale schakels; een trackingbericht bezorgt op zichzelf geen pakket.",
+          "hint": "Logistiek combineert transport, opslag en datacoördinatie. Volg eerst het product; vraag daarna welke gegevens iedere stap mogelijk maken.",
+          "explainAfter": "Wereldwijde handel steunt op havens, scheepvaart, magazijnen en tracking. Data over voorraad, reistijd en vraag coördineren die fysieke route; infrastructuur is meer dan de losse scanner.",
+          "concepts": [
+            "logistieke infrastructuur",
+            "fysiek en digitaal netwerk",
+            "coördinatie"
+          ],
+          "sourceBlocks": [
+            20
+          ],
+          "boundary": "Deze volgorde beschrijft de proefroute. Andere logistieke netwerken kunnen andere stappen en retourlussen hebben.",
+          "order": [
+            {
+              "id": "s1",
+              "text": "Een klant plaatst een reparatieorder",
+              "feedback": "De vraag wordt als orderinformatie zichtbaar."
+            },
+            {
+              "id": "s2",
+              "text": "Het hubmagazijn koppelt voorraad en beschikbare reparatiecapaciteit",
+              "feedback": "Digitale coördinatie organiseert beschikbare fysieke middelen."
+            },
+            {
+              "id": "s3",
+              "text": "Een vervoerder brengt het apparaat via de distributieroute",
+              "feedback": "Het product verplaatst dankzij transportinfrastructuur."
+            },
+            {
+              "id": "s4",
+              "text": "Aflevering wordt geregistreerd en de retourinformatie gaat terug",
+              "feedback": "Tracking verbindt de fysieke levering aan informatie en verdere planning."
+            }
+          ],
+          "correctOrder": [
+            "s1",
+            "s2",
+            "s3",
+            "s4"
+          ],
+          "id": "m4-02-b2",
+          "clueId": "m4-02-b2-clue",
+          "clueTitle": "Laat de reparatie echt reizen"
+        },
+        {
+          "type": "connect",
+          "title": "De snelste route heeft een eigenaar",
+          "sceneObject": "evidence",
+          "intro": "Verbind contractregels met voordelen of afhankelijkheden. Bekijk het bronvoorbeeld Amazon als infrastructuurcasus; de NOVA-contracten zijn fictief.",
+          "hint": "Een groot platform kan efficiënte levering en markttoegang bieden én regels, algoritmen en prijzen bepalen. Die combinatie kan asymmetrische afhankelijkheid creëren.",
+          "explainAfter": "Amazon illustreert de verbinding van magazijnen, planning, transport en consumentendata. Efficiëntie is een reëel voordeel; infrastructuurmacht ontstaat mede uit controle over noodzakelijke deelnamevoorwaarden.",
+          "concepts": [
+            "Amazon voorbeeld",
+            "infrastructuurmacht",
+            "markttoegang",
+            "asymmetrische afhankelijkheid"
+          ],
+          "sourceBlocks": [
+            20,
+            22,
+            23
+          ],
+          "boundary": "Afhankelijkheid bewijst op zichzelf geen misbruik. Onderzoek alternatieven, contracten, publieke belangen en feitelijke gevolgen.",
+          "pairs": [
+            {
+              "id": "p1",
+              "left": "De aansluiting bereikt een grote klantenmarkt",
+              "right": "Een deelnemer kan meer afnemers bereiken.",
+              "feedback": "Dit is een daadwerkelijk netwerkvoordeel."
+            },
+            {
+              "id": "p2",
+              "left": "Alleen de beheerder bepaalt het formaat en wijzigingsmoment",
+              "right": "De deelnemer moet zijn systemen aan de poortvoorwaarden aanpassen.",
+              "feedback": "Controle over een standaard kan onderhandelingsmacht geven."
+            },
+            {
+              "id": "p3",
+              "left": "Dezelfde eigenaar beschikt over klantdata en leverplanning",
+              "right": "De beheerder ziet patronen die een individuele verkoper niet ziet.",
+              "feedback": "Datatoegang kan kennis en macht concentreren."
+            },
+            {
+              "id": "p4",
+              "left": "De installatie vraagt langdurige investeringen en specialistisch beheer",
+              "right": "Beheer kan bij weinig actoren worden geconcentreerd.",
+              "feedback": "Winners lens helpt de organisatorische gevolgen onderzoeken."
+            }
+          ],
+          "id": "m4-02-b3",
+          "clueId": "m4-02-b3-clue",
+          "clueTitle": "De snelste route heeft een eigenaar"
+        },
+        {
+          "type": "build",
+          "title": "Bouw de aansluitafspraak",
+          "sceneObject": "system",
+          "intro": "Kies onderdelen die formaat, verantwoording en uitvalroute samen regelen. De opdracht vraagt aansluiting; de tariefhoogte blijft een afzonderlijke afweging.",
+          "hint": "Een interface lost gegevensuitwisseling op; verantwoording regelt wie voorwaarden wijzigt; een fallback beperkt afhankelijkheid bij uitval. Geen onderdeel vervangt de andere.",
+          "explainAfter": "Infrastructuur verdeelt toegang, kosten en kansen op lange termijn. Een bruikbare aansluiting vraagt technisch functioneren én bestuurlijke afspraken die kleine deelnemers kunnen begrijpen en betwisten.",
+          "concepts": [
+            "toegang en voorwaarden",
+            "infrastructuur als morele structuur",
+            "langetermijneffecten"
+          ],
+          "sourceBlocks": [
+            22,
+            30
+          ],
+          "boundary": "Open toegang kan nieuwe veiligheids- of beheerproblemen geven. Toets voorwaarden en verdeling; open betekent niet zonder regels.",
+          "options": [
+            {
+              "id": "format",
+              "text": "Een gedocumenteerd gegevensformaat met een testkoppeling.",
+              "correct": true,
+              "feedback": "Hiermee kan de kleine reparateur technisch aansluiten."
+            },
+            {
+              "id": "appeal",
+              "text": "Een aanspreekpunt en toetsbare procedure voor toegangsvoorwaarden.",
+              "correct": true,
+              "feedback": "De deelnemer kan begrijpen waarom toegang wordt toegekend of geweigerd."
+            },
+            {
+              "id": "fallback",
+              "text": "Een uitvalroute en onderhoudsafspraak voor de aansluiting.",
+              "correct": true,
+              "feedback": "De route blijft niet volledig aan één live dienst hangen."
+            },
+            {
+              "id": "advert",
+              "text": "Een promotiecampagne voor kleine reparateurs zonder interface.",
+              "correct": false,
+              "feedback": "Bekendheid maakt het incompatibele formaat niet bruikbaar."
+            },
+            {
+              "id": "discount",
+              "text": "Een tijdelijk lager tarief met hetzelfde gesloten formaat.",
+              "correct": false,
+              "feedback": "De prijs verandert; de aansluitbarrière blijft."
+            }
+          ],
+          "required": [
+            "format",
+            "appeal",
+            "fallback"
+          ],
+          "id": "m4-02-b4",
+          "clueId": "m4-02-b4-clue",
+          "clueTitle": "Bouw de aansluitafspraak"
+        }
+      ],
+      "finale": {
+        "intro": "Een gerepareerd apparaat bereikt de klant alleen via een netwerk waarvoor kleine reparateurs geen standaardkoppeling hebben. Reconstrueer de route en stel verantwoorde aansluiting vast.",
+        "slots": [
+          {
+            "id": "standard",
+            "label": "Waarom is het formaat meer dan een technisch detail?",
+            "evidenceBeatId": "m4-02-b1",
+            "options": [
+              {
+                "id": "size",
+                "text": "Het aantal magazijnen bewijst welke reparateur het voordeligste tarief krijgt.",
+                "correct": false,
+                "feedback": "Schaal alleen toont geen concrete prijsverdeling."
+              },
+              {
+                "id": "speed",
+                "text": "Snellere levering neemt de afhankelijkheid van alle contractvoorwaarden weg.",
+                "correct": false,
+                "feedback": "Een voordeel kan met afhankelijkheid samengaan."
+              },
+              {
+                "id": "gate",
+                "text": "Het formaat bepaalt wie mee kan doen; de eigenaar kan de deelnameregels wijzigen.",
+                "correct": true,
+                "feedback": "De standaard verbindt coördinatie aan toegangsmacht."
+              }
+            ]
+          },
+          {
+            "id": "duration",
+            "label": "Wat maakt de aansluiting tot een langdurige morele ontwerpkeuze?",
+            "evidenceBeatId": "m4-02-b4",
+            "options": [
+              {
+                "id": "temporary",
+                "text": "Een maandcontract maakt onderliggende systemen direct kosteloos vervangbaar.",
+                "correct": false,
+                "feedback": "De ingebouwde technische en financiële afhankelijkheden verdwijnen niet door een korte contractduur."
+              },
+              {
+                "id": "path",
+                "text": "Investeringen en gedeelde standaarden vormen latere keuzemogelijkheden en overstapkosten.",
+                "correct": true,
+                "feedback": "De structuur vandaag kan mogelijkheden morgen vastzetten."
+              },
+              {
+                "id": "screen",
+                "text": "Een nieuwe kleur van de routekaart verandert noodzakelijk de eigendomsrechten.",
+                "correct": false,
+                "feedback": "Uiterlijk bewijst geen verschuiving van beslisrechten."
+              }
+            ]
+          }
+        ],
+        "conclusion": "De route opent omdat je aansluiting én bestuurlijke voorwaarden hebt georganiseerd. Het volgende onderzoek volgt de data achter de poort."
+      },
+      "originalSourceBlocks": [
+        17,
+        18,
+        20,
+        22,
+        23,
+        30
+      ],
+      "optionalReviewBlocks": [
+        18,
+        23
+      ]
+    },
+    {
+      "id": "m4-03",
+      "world": {
+        "name": "De datakluis",
+        "imageKey": "room-archive",
+        "exit": {
+          "label": "Maak de exportdeur bruikbaar",
+          "lockType": "portable-data",
+          "problem": "De hub kan haar onderhoudsgegevens niet naar een andere dienst verplaatsen zonder functies te verliezen. Onderzoek doelen, datagebruik en overstapkosten; bouw een gecontroleerde export.",
+          "unlockedText": "Een geteste export, verantwoordelijk beheer en een continuïteitsplan maken overstappen mogelijk.",
+          "destinationReason": "Dezelfde data voeden de sorteerband; onderzoek nu wat zij leert en selecteert."
+        },
+        "spots": [
+          {
+            "id": "m4-03-record",
+            "title": "Werknotitie naast het dossier",
+            "point": [
+              0.18,
+              0.55
+            ],
+            "approach": [
+              0.25,
+              0.7
+            ],
+            "observation": "Een korte werknotitie verbindt dit dossier met de dagelijkse praktijk.",
+            "detail": "Data kunnen een economische hulpbron zijn. Wie gegevens verzamelt en analyseert, kan ook bepalen wat zichtbaar is, wie invloed heeft en welk gedrag wordt gestimuleerd."
+          },
+          {
+            "id": "m4-03-empty",
+            "title": "Een ongebruikte lade",
+            "point": [
+              0.84,
+              0.73
+            ],
+            "approach": [
+              0.76,
+              0.83
+            ],
+            "observation": "De lade is leeg. De krassen en stoflaag vertellen niet waarom het besluit is genomen.",
+            "detail": "Dit spoor geeft geen inhoudelijk bewijs voor je verklaring. Een onderzoek bevat ook doodlopende sporen: keer terug naar de concrete documenten, handelingen en mensen."
+          }
+        ]
+      },
+      "beats": [
+        {
+          "type": "inspect",
+          "title": "Volg één gegevensspoor",
+          "sceneObject": "evidence",
+          "intro": "Open sensorlogs, profielkaart, aanbevelingen en cloudcontract. Data zijn bruikbaar voor onderhoud én voor controle. Het doel en de toegang maken verschil.",
+          "hint": "Data kunnen een economische hulpbron zijn. Wie gegevens verzamelt en analyseert, kan ook bepalen wat zichtbaar is, wie invloed heeft en welk gedrag wordt gestimuleerd.",
+          "explainAfter": "Zuboffs surveillancekapitalisme-lens betreft het commercieel voorspellen en beïnvloeden van gedrag. Niet alle sensordata zijn daarvan een voorbeeld. Volg doel, informatie, toegang en gebruik.",
+          "concepts": [
+            "data als hulpbron",
+            "data als macht",
+            "Zuboff",
+            "surveillancekapitalisme",
+            "Internet of Things"
+          ],
+          "sourceBlocks": [
+            10,
+            27,
+            34,
+            35,
+            37
+          ],
+          "boundary": "Dataverzameling bewijst geen manipulatie. Onderzoek het werkelijke gebruik, de betrokkenen en de mogelijkheden om te weigeren of te controleren.",
+          "reveal": [
+            {
+              "id": "r1",
+              "label": "Sensorlog",
+              "title": "Voorspellend onderhoud",
+              "text": "IoT-sensoren meten slijtage en energieverbruik. De onderhoudsplanner gebruikt patronen om een storing eerder te herkennen."
+            },
+            {
+              "id": "r2",
+              "label": "Routebestand",
+              "title": "Economische hulpbron",
+              "text": "Verkeer, brandstof en levertijden helpen routes en voorraden plannen. Data kunnen betrouwbaarheid verbeteren en kosten verminderen."
+            },
+            {
+              "id": "r3",
+              "label": "Profielkaart",
+              "title": "Van ervaring naar product",
+              "text": "Zoekopdrachten, locaties en interacties worden tot gedragsprofielen verwerkt. De commerciële advertentiedienst verkoopt daarmee voorspelde aandacht."
+            },
+            {
+              "id": "r4",
+              "label": "Aanbeveling",
+              "title": "Een gestuurd keuzemenu",
+              "text": "Een profiel beïnvloedt welke producten en berichten zichtbaar zijn. Dat kan consumptie en publieke informatie beïnvloeden zonder iedere keuze vast te leggen."
+            },
+            {
+              "id": "r5",
+              "label": "Cloudcontract",
+              "title": "Lock-in",
+              "text": "Speciale interfaces, databestanden en bedrijfskritische integraties maken overstappen technisch en financieel moeilijk. Het cloudvoordeel kan dus nieuwe afhankelijkheid brengen."
+            },
+            {
+              "id": "r6",
+              "label": "Marktkaart",
+              "title": "Gegevens maken nieuwe diensten mogelijk",
+              "text": "Vraagpatronen en operationele gegevens kunnen nieuwe producten en diensten helpen ontwikkelen. Data zijn een economische hulpbron én geven kennisvoordeel aan wie toegang en analyse beheerst."
+            },
+            {
+              "id": "r7",
+              "label": "Kopiekaart",
+              "title": "Een grondstofvergelijking heeft grenzen",
+              "text": "Een bruikbare gegevenskopie raakt niet zoals verbruikte brandstof op door analyse. Toegang, kwaliteit en beslisrecht kunnen toch schaars zijn: wie kennis mag gebruiken heeft invloed."
+            }
+          ],
+          "required": [
+            "r1",
+            "r2",
+            "r3",
+            "r4",
+            "r5",
+            "r6",
+            "r7"
+          ],
+          "id": "m4-03-b1",
+          "clueId": "m4-03-b1-clue",
+          "clueTitle": "Volg één gegevensspoor"
+        },
+        {
+          "type": "order",
+          "title": "Van handeling naar aanbeveling",
+          "sceneObject": "system",
+          "intro": "Leg het commerciële gegevensspoor in volgorde. Vergelijk daarna met het onderhoudsspoor in je notebook: dezelfde techniek hoeft niet hetzelfde doel te dienen.",
+          "hint": "Volg verzamelen, profileren, voorspellen en beïnvloeden. Een aanbeveling heeft invoer en een commercieel of organisatorisch doel; ze is geen spontaan neutraal venster.",
+          "explainAfter": "Gedrag wordt data, data vormen profielen en profielen sturen selectie. Het platform bepaalt welke informatie zichtbaar wordt. De keten is Zuboffs kritische lens, geen oordeel over ieder digitaal systeem.",
+          "concepts": [
+            "gedragsdata",
+            "profilering",
+            "voorspellen en beïnvloeden",
+            "surveillancekapitalisme"
+          ],
+          "sourceBlocks": [
+            27,
+            37
+          ],
+          "boundary": "Een voorspelling is niet hetzelfde als zekere beïnvloeding. Gebruikers kunnen aanbevelingen negeren en alternatieven zoeken.",
+          "order": [
+            {
+              "id": "s1",
+              "text": "Een gebruiker zoekt, klikt en deelt een locatie",
+              "feedback": "Een menselijke activiteit wordt meetbare invoer."
+            },
+            {
+              "id": "s2",
+              "text": "Het platform koppelt die signalen aan een profiel",
+              "feedback": "Losse sporen worden samengebracht tot een patroon."
+            },
+            {
+              "id": "s3",
+              "text": "Een model voorspelt welke aanbieding aandacht krijgt",
+              "feedback": "Het model schat gedrag op basis van eerdere data."
+            },
+            {
+              "id": "s4",
+              "text": "Het aanbevelingsmenu toont geselecteerde aanbiedingen",
+              "feedback": "De digitale omgeving verandert welke opties eerst worden gezien."
+            }
+          ],
+          "correctOrder": [
+            "s1",
+            "s2",
+            "s3",
+            "s4"
+          ],
+          "id": "m4-03-b2",
+          "clueId": "m4-03-b2-clue",
+          "clueTitle": "Van handeling naar aanbeveling"
+        },
+        {
+          "type": "sort",
+          "title": "Onderscheid voordeel en zeggenschap",
+          "sceneObject": "evidence",
+          "intro": "Sorteer de gevonden effecten als operationeel voordeel of machts-/afhankelijkheidsvraag. Eén systeem kan beide hebben; de categorie is een onderzoeksvraag, geen goed-of-kwaadlabel.",
+          "hint": "Data ondersteunen planning, maar wie toegang tot data of de beslisregels beheert, kan ook invloed krijgen. Scheid functie van zeggenschap.",
+          "explainAfter": "Digitale infrastructuur kan innovatie en efficiënte coördinatie stimuleren, terwijl gesloten toegang concurrentie of autonomie beperkt. Beoordeel beide dimensies met concrete gegevens.",
+          "concepts": [
+            "efficiëntie",
+            "datatoegang",
+            "lock-in",
+            "concurrentie",
+            "autonomie"
+          ],
+          "sourceBlocks": [
+            27,
+            34,
+            37
+          ],
+          "boundary": "Een mogelijk machtsmechanisme bewijst niet dat een bedrijf concurrentie daadwerkelijk heeft beperkt. Daarvoor zijn markt- en contractgegevens nodig.",
+          "categories": [
+            {
+              "id": "benefit",
+              "label": "Operationeel voordeel"
+            },
+            {
+              "id": "power",
+              "label": "Zeggenschap of afhankelijkheid"
+            }
+          ],
+          "cards": [
+            {
+              "id": "c1",
+              "text": "Een slijtagewaarschuwing helpt een stilstand voorkomen.",
+              "category": "benefit",
+              "feedback": "Dit betreft betrouwbare werking."
+            },
+            {
+              "id": "c2",
+              "text": "Alleen de leverancier kan de historische logs inlezen.",
+              "category": "power",
+              "feedback": "Dit beperkt de mogelijkheden om zelfstandig verder te werken."
+            },
+            {
+              "id": "c3",
+              "text": "Een route voorspelt voorraadbehoefte nauwkeuriger.",
+              "category": "benefit",
+              "feedback": "Dit is het coördinatievoordeel."
+            },
+            {
+              "id": "c4",
+              "text": "De beheerder verandert eenzijdig welke verkopers zichtbaar zijn.",
+              "category": "power",
+              "feedback": "Dit betreft regels voor markttoegang en zichtbaarheid."
+            },
+            {
+              "id": "c5",
+              "text": "Migratie vraagt een dure herbouw van bedrijfskritische interfaces.",
+              "category": "power",
+              "feedback": "Dit is een technisch-financiële overstapbarrière."
+            }
+          ],
+          "id": "m4-03-b3",
+          "clueId": "m4-03-b3-clue",
+          "clueTitle": "Onderscheid voordeel en zeggenschap"
+        },
+        {
+          "type": "build",
+          "title": "Voer een beheerste export uit",
+          "sceneObject": "system",
+          "intro": "Selecteer wat gegevensoverdracht, bruikbaarheid en bedrijfscontinuïteit organiseert. Een lege downloadknop maakt een overstap nog niet mogelijk.",
+          "hint": "Portabiliteit vereist bruikbare gegevens en koppelingen. Test de nieuwe omgeving, leg verantwoordelijkheden vast en houd noodzakelijke dienstverlening tijdens migratie beschikbaar.",
+          "explainAfter": "Een export en testomgeving kunnen lock-in verminderen. Agency betekent gericht veranderen binnen bestaande afhankelijkheden. Prijs, beveiliging en beheer blijven afwegingen; geen leverancier is door het formaat alleen verantwoord.",
+          "concepts": [
+            "lock-in",
+            "menselijke agency",
+            "ontwerpinterventie",
+            "organisatorische interventie"
+          ],
+          "sourceBlocks": [
+            27,
+            30,
+            44,
+            47
+          ],
+          "boundary": "Een technisch bruikbare export lost privacy, rechten en alle kosten niet automatisch op. Onderzoek welke data verantwoord mogen worden overgedragen.",
+          "options": [
+            {
+              "id": "format",
+              "text": "Exporteer logs in een gedocumenteerd en getest leesbaar formaat.",
+              "correct": true,
+              "feedback": "Dit vermindert de afhankelijkheid van een exclusieve bestandslezer."
+            },
+            {
+              "id": "test",
+              "text": "Test de kritieke koppelingen in de nieuwe omgeving.",
+              "correct": true,
+              "feedback": "Bruikbaarheid moet worden aangetoond vóór omschakeling."
+            },
+            {
+              "id": "owner",
+              "text": "Wijs beheer, toegangsrechten en een continuïteitsroute toe.",
+              "correct": true,
+              "feedback": "De organisatie moet veilig kunnen blijven werken en weten wie verantwoordelijk is."
+            },
+            {
+              "id": "zip",
+              "text": "Download een archief zonder te testen of nieuwe systemen het lezen.",
+              "correct": false,
+              "feedback": "Opslag alleen bewijst geen praktische overdraagbaarheid."
+            },
+            {
+              "id": "price",
+              "text": "Onderhandel alleen een korting bij de huidige provider.",
+              "correct": false,
+              "feedback": "Een lagere prijs verandert de migratiebarrière niet."
+            }
+          ],
+          "required": [
+            "format",
+            "test",
+            "owner"
+          ],
+          "id": "m4-03-b4",
+          "clueId": "m4-03-b4-clue",
+          "clueTitle": "Voer een beheerste export uit"
+        },
+        {
+          "type": "connect",
+          "title": "Wie bepaalt wat een zoekmachine laat zien?",
+          "sceneObject": "evidence",
+          "intro": "Vergelijk de rangschikkingskaarten uit Wi-Phi’s zoekmachinevoorbeeld. Verbind een criterium aan de waarde en bevoegdheid die je moet bespreken. Er bestaat geen volledig waardevrije rangschikking.",
+          "hint": "Een rangschikking vraagt keuzes over relevantie, betrouwbaarheid, commerciële doelen en mogelijke schade. De ontwerper of beheerder kiest hun gewicht; gebruikers en publieke kaders kunnen invloed hebben.",
+          "explainAfter": "Het zoekmachinevoorbeeld maakt neutraliteit bevraagbaar. Een andere rangschikking is een andere waardenafweging, niet vanzelf een fout. Maak criteria en verantwoordelijkheden zichtbaar zonder één morele prioriteit als de enige juiste te behandelen.",
+          "concepts": [
+            "morele architectuur",
+            "rangschikkingscriteria",
+            "waarden in technologie",
+            "zoekmachinevoorbeeld"
+          ],
+          "sourceBlocks": [
+            8,
+            10,
+            13
+          ],
+          "boundary": "Een betaald advertentievak is niet hetzelfde als organische zoekrangschikking. Het voorbeeld bewijst geen actuele werkwijze van elk afzonderlijk Google-resultaat.",
+          "pairs": [
+            {
+              "id": "p1",
+              "left": "Een kaart ordent op betrouwbaarheid van informatie",
+              "right": "Bespreek welke broncriteria gelden en wie die vaststelt.",
+              "feedback": "Ook betrouwbaarheid moet operationeel worden gekozen."
+            },
+            {
+              "id": "p2",
+              "left": "Een advertentievak ordent op een commerciële vergoeding",
+              "right": "Maak commerciële prioritering onderscheidbaar van een inhoudelijk oordeel.",
+              "feedback": "Betalen is niet hetzelfde als een bewijs dat inhoud waar is."
+            },
+            {
+              "id": "p3",
+              "left": "Een veiligheidsregel beperkt een schadelijke toepassing",
+              "right": "Verantwoord welke bescherming en gebruikersmogelijkheden worden afgewogen.",
+              "feedback": "Bescherming vraagt een expliciete waardeafweging."
+            },
+            {
+              "id": "p4",
+              "left": "Een gebruiker wil de keuzecriteria begrijpen",
+              "right": "Maak de rangschikkingslogica en verantwoordelijke beheerder bevraagbaar.",
+              "feedback": "Agency vraagt bruikbare informatie over de ontworpen omgeving."
+            }
+          ],
+          "id": "m4-03-b5",
+          "clueId": "m4-03-b5-clue",
+          "clueTitle": "Wie bepaalt wat een zoekmachine laat zien?"
+        },
+        {
+          "type": "connect",
+          "title": "De cloud heeft ook een bestuurlijke grens",
+          "sceneObject": "evidence",
+          "intro": "Een fictieve provider stopt een kritieke dienst. Verbind de continuïteitskaarten met hun beperking. Lubachs bronvoorbeeld stelt de vraag naar buitenlandse clouddiensten, afsluiting en alternatieven.",
+          "hint": "Eigendom van gegevens, locatie van opslag en feitelijke toegang zijn verschillende zaken. Dienstverlening kan ook van providerbestuur, wetgeving, authenticatie en contracten afhangen. Test een uitweg vóór uitval.",
+          "explainAfter": "Digitale autonomie gaat om bruikbare zeggenschap en continuïteit. Een kopie of lokaal datacenter is geen volledige garantie. De historische media vragen naar afhankelijkheden; deze fictieve route laat je het mechanisme onderzoeken.",
+          "concepts": [
+            "cloudafhankelijkheid",
+            "digitale autonomie",
+            "lock-in",
+            "infrastructuurmacht"
+          ],
+          "sourceBlocks": [
+            27,
+            30,
+            32
+          ],
+          "boundary": "De fictieve dienststop voorspelt geen actuele politieke beslissing. Jurisdictie, contract en technische architectuur verschillen per situatie.",
+          "pairs": [
+            {
+              "id": "p1",
+              "left": "Een kopie is alleen in een exclusief formaat beschikbaar",
+              "right": "Bezitten betekent nog niet dat een andere dienst het bestand kan gebruiken.",
+              "feedback": "Praktische portabiliteit is een aparte voorwaarde."
+            },
+            {
+              "id": "p2",
+              "left": "Data staan lokaal maar de login is extern beheerd",
+              "right": "De dienst kan nog van buitenlandse toegangsdiensten afhangen.",
+              "feedback": "Locatie alleen garandeert geen operationele onafhankelijkheid."
+            },
+            {
+              "id": "p3",
+              "left": "Twee providers gebruiken dezelfde kritieke login",
+              "right": "De gedeelde schakel kan beide uitvalroutes tegelijk raken.",
+              "feedback": "Twee merknamen betekenen geen twee onafhankelijke systemen."
+            },
+            {
+              "id": "p4",
+              "left": "Een geteste uitwijkroute heeft eigen toegang en leesbare gegevens",
+              "right": "Er ontstaat een werkbare continuïteitsmogelijkheid met eigen beheer.",
+              "feedback": "Testen en bevoegdheid maken een alternatief bruikbaar."
+            }
+          ],
+          "id": "m4-03-b6",
+          "clueId": "m4-03-b6-clue",
+          "clueTitle": "De cloud heeft ook een bestuurlijke grens"
+        }
+      ],
+      "finale": {
+        "intro": "De hub kan haar onderhoudsgegevens niet naar een andere dienst verplaatsen zonder functies te verliezen. Onderzoek doelen, datagebruik en overstapkosten; bouw een gecontroleerde export.",
+        "slots": [
+          {
+            "id": "use",
+            "label": "Welk bewijs onderscheidt het onderhoudsspoor van het commerciële profielspoor?",
+            "evidenceBeatId": "m4-03-b1",
+            "options": [
+              {
+                "id": "screen",
+                "text": "Een modern dashboard bewijst dat de gebruiker alle beslisregels kan controleren.",
+                "correct": false,
+                "feedback": "Uiterlijk toont geen controle over data en selectie."
+              },
+              {
+                "id": "purpose",
+                "text": "De gekoppelde gegevens en beslisdoelen tonen onderhoud tegenover het voorspellen en verkopen van aandacht.",
+                "correct": true,
+                "feedback": "Het doel en de toepassing zijn belangrijker dan het woord data."
+              },
+              {
+                "id": "amount",
+                "text": "Alleen het aantal gemeten datapunten bepaalt of het surveillancekapitalisme is.",
+                "correct": false,
+                "feedback": "Omvang zegt nog niet hoe data commercieel worden gebruikt."
+              }
+            ]
+          },
+          {
+            "id": "switch",
+            "label": "Waarom kan een overstap ondanks een lagere prijs bij een concurrent moeilijk blijven?",
+            "evidenceBeatId": "m4-03-b4",
+            "options": [
+              {
+                "id": "integration",
+                "text": "Bestaande gegevensformaten en kritieke koppelingen vereisen herbouw en een veilige migratie.",
+                "correct": true,
+                "feedback": "Dit is lock-in; prijs is slechts een deel van de keuze."
+              },
+              {
+                "id": "taste",
+                "text": "De contractduur bewijst dat medewerkers de huidige leverancier prettiger vinden.",
+                "correct": false,
+                "feedback": "Het contract toont geen persoonlijke voorkeur als verklaring."
+              },
+              {
+                "id": "volume",
+                "text": "Meer opgeslagen data garanderen dat iedere export volledig uitwisselbaar is.",
+                "correct": false,
+                "feedback": "Meer data maken incompatibiliteit niet ongedaan."
+              }
+            ]
+          }
+        ],
+        "conclusion": "De exportdeur opent via bruikbaarheid en verantwoord beheer. Achter die deur wacht een systeem dat uit data keuzes leert."
+      },
+      "sourceProjections": [
+        {
+          "id": "source-8",
+          "youtube": "4XEM1pl-7tU",
+          "start": 0,
+          "title": "PHILOSOPHY - EMERGING TECHNOLOGIES 1: Is Technology as “Neutral” as We Think It Is?",
+          "owner": "Wireless Philosophy",
+          "sourceBlocks": [
+            8
+          ],
+          "purpose": "Welke rangschikkingswaarde kiest de hub, wie bepaalt die waarde en welke alternatieve waarde blijft bespreekbaar?",
+          "viewingTask": "Welke rangschikkingswaarde kiest de hub, wie bepaalt die waarde en welke alternatieve waarde blijft bespreekbaar?",
+          "afterPrompt": "Welke rangschikkingswaarde kiest de hub, wie bepaalt die waarde en welke alternatieve waarde blijft bespreekbaar?",
+          "knownCoreConcepts": [
+            "morele architectuur",
+            "rangschikkingscriteria",
+            "waarden in technologie",
+            "zoekmachinevoorbeeld"
+          ],
+          "contentVerification": "Oorspronkelijk bronfragment. De bekende leerfunctie is in de route verwerkt; unieke gesproken details worden via dit volledige fragment aangeboden. Beoordeel historische uitspraken in hun broncontext.",
+          "fullOriginalClip": true,
+          "minimumSynthesisWords": 15,
+          "completionInterpretation": "Opening plus case synthesis records engagement, not verified complete viewing or mastery."
+        },
+        {
+          "id": "source-26",
+          "youtube": "eVSfJhssXUA",
+          "start": 0,
+          "title": "What Is Big Data?",
+          "owner": "World Economic Forum",
+          "sourceBlocks": [
+            26
+          ],
+          "purpose": "Volg één gegevensspoor van activiteit tot besluit. Wat is hier een actuele casusobservatie en wat is een gedateerde voorspelling?",
+          "viewingTask": "Volg één gegevensspoor van activiteit tot besluit. Wat is hier een actuele casusobservatie en wat is een gedateerde voorspelling?",
+          "afterPrompt": "Volg één gegevensspoor van activiteit tot besluit. Wat is hier een actuele casusobservatie en wat is een gedateerde voorspelling?",
+          "knownCoreConcepts": [
+            "data als hulpbron",
+            "data als macht",
+            "Zuboff",
+            "surveillancekapitalisme",
+            "Internet of Things",
+            "gedragsdata",
+            "profilering",
+            "voorspellen en beïnvloeden"
+          ],
+          "contentVerification": "Oorspronkelijk bronfragment. De bekende leerfunctie is in de route verwerkt; unieke gesproken details worden via dit volledige fragment aangeboden. Beoordeel historische uitspraken in hun broncontext.",
+          "fullOriginalClip": true,
+          "minimumSynthesisWords": 15,
+          "completionInterpretation": "Opening plus case synthesis records engagement, not verified complete viewing or mastery."
+        },
+        {
+          "id": "source-32",
+          "youtube": "uoTMwX_clDs",
+          "start": 0,
+          "title": "Kan Trump Nederland digitaal platleggen? | LUBACH",
+          "owner": "LUBACH",
+          "sourceBlocks": [
+            32
+          ],
+          "purpose": "Welke afhankelijkheid toont het fragment? Vergelijk haar met de fictieve hub en onderbouw één geteste uitwijkroute zonder een actuele politieke voorspelling.",
+          "viewingTask": "Welke afhankelijkheid toont het fragment? Vergelijk haar met de fictieve hub en onderbouw één geteste uitwijkroute zonder een actuele politieke voorspelling.",
+          "afterPrompt": "Welke afhankelijkheid toont het fragment? Vergelijk haar met de fictieve hub en onderbouw één geteste uitwijkroute zonder een actuele politieke voorspelling.",
+          "knownCoreConcepts": [
+            "lock-in",
+            "menselijke agency",
+            "ontwerpinterventie",
+            "organisatorische interventie",
+            "cloudafhankelijkheid",
+            "digitale autonomie",
+            "infrastructuurmacht"
+          ],
+          "contentVerification": "Oorspronkelijk bronfragment. De bekende leerfunctie is in de route verwerkt; unieke gesproken details worden via dit volledige fragment aangeboden. Beoordeel historische uitspraken in hun broncontext.",
+          "fullOriginalClip": true,
+          "minimumSynthesisWords": 15,
+          "completionInterpretation": "Opening plus case synthesis records engagement, not verified complete viewing or mastery."
+        }
+      ],
+      "originalSourceBlocks": [
+        8,
+        10,
+        13,
+        27,
+        30,
+        32,
+        34,
+        35,
+        37,
+        44,
+        47
+      ],
+      "optionalReviewBlocks": [
+        8,
+        32,
+        35
+      ]
+    },
+    {
+      "id": "m4-04",
+      "world": {
+        "name": "Het sorteerlab",
+        "imageKey": "room-ai-lab",
+        "exit": {
+          "label": "Geef de band vrij voor een getoetste pilot",
+          "lockType": "tested-model",
+          "problem": "De band heet circulair maar laat bepaalde materialen liggen. Onderzoek herkenning, doel en controle voordat de pilot naar de rapportagekamer mag doorlopen.",
+          "unlockedText": "De pilot heeft een expliciet doel, gespreide testdata en een reviewroute.",
+          "destinationReason": "Volg nu hoe de resultaten als duurzaamheidsinformatie in het dashboard verschijnen."
+        },
+        "spots": [
+          {
+            "id": "m4-04-record",
+            "title": "Werknotitie naast het dossier",
+            "point": [
+              0.18,
+              0.55
+            ],
+            "approach": [
+              0.25,
+              0.7
+            ],
+            "observation": "Een korte werknotitie verbindt dit dossier met de dagelijkse praktijk.",
+            "detail": "Scheid invoer, patroonherkenning, beslisdoel en uitkomst. Circulariteit beoogt langer gebruik via hergebruik, reparatie en recycling; snelle sortering bewijst nog geen volledige duurzaamheid."
+          },
+          {
+            "id": "m4-04-empty",
+            "title": "Een ongebruikte lade",
+            "point": [
+              0.84,
+              0.73
+            ],
+            "approach": [
+              0.76,
+              0.83
+            ],
+            "observation": "De lade is leeg. De krassen en stoflaag vertellen niet waarom het besluit is genomen.",
+            "detail": "Dit spoor geeft geen inhoudelijk bewijs voor je verklaring. Een onderzoek bevat ook doodlopende sporen: keer terug naar de concrete documenten, handelingen en mensen."
+          }
+        ]
+      },
+      "beats": [
+        {
+          "type": "inspect",
+          "title": "Wat leert de machine precies?",
+          "sceneObject": "evidence",
+          "intro": "Inspecteer de dataset, beslisregels, materiaalbakken en onderzoekskaart. Een algoritme is een instructiereeks; een geleerd model gebruikt patronen uit trainingsgegevens.",
+          "hint": "Scheid invoer, patroonherkenning, beslisdoel en uitkomst. Circulariteit beoogt langer gebruik via hergebruik, reparatie en recycling; snelle sortering bewijst nog geen volledige duurzaamheid.",
+          "explainAfter": "AI kan recycling en terugwinning ondersteunen, zoals de cursuscasus AMP Robotics. Data en ontwerp bepalen wat herkend en gewaardeerd wordt. Toets representativiteit en meer dan alleen snelheid.",
+          "concepts": [
+            "algoritme",
+            "trainingsdata",
+            "circulaire economie",
+            "AMP Robotics voorbeeld",
+            "representativiteit"
+          ],
+          "sourceBlocks": [
+            37,
+            41,
+            42
+          ],
+          "boundary": "De proefcijfers zijn verzonnen. Ze beschrijven geen prestaties van AMP Robotics en geen volledige levenscyclusanalyse.",
+          "reveal": [
+            {
+              "id": "r1",
+              "label": "Dataset",
+              "title": "Leren uit voorbeelden",
+              "text": "Het model leerde vooral schone, lichte verpakkingen. Vuile en donkere verpakkingen zijn ondervertegenwoordigd; testresultaten mogen niet blind worden veralgemeend."
+            },
+            {
+              "id": "r2",
+              "label": "Regelkaart",
+              "title": "Wat wordt gemaximaliseerd?",
+              "text": "De regel kiest verkoopopbrengst. Correct herkende goedkope materialen kunnen daardoor toch worden overgeslagen. Herkennen en prioriteit geven zijn verschillende stappen."
+            },
+            {
+              "id": "r3",
+              "label": "Materiaalbak",
+              "title": "Circulariteit vraagt een keten",
+              "text": "Herwinning helpt materialen beschikbaar houden. Hergebruik, reparatie en recycling verlengen gebruik, maar energie en vervolgverwerking tellen ook mee."
+            },
+            {
+              "id": "r4",
+              "label": "Onderzoekskaart",
+              "title": "Gender Shades, precies afgebakend",
+              "text": "Buolamwini en Gebru onderzochten in 2018 commerciële classificatie van gender uit gezichtsbeelden. Prestatieverschillen naar huidskleur en gender laten zien waarom groepsgewijze tests nodig zijn."
+            },
+            {
+              "id": "r5",
+              "label": "Controlebon",
+              "title": "Geen neutrale automatisering",
+              "text": "Een hoge gemiddelde score kan ongelijke foutverdeling verbergen. In krediet, personeelsselectie en andere taken moet de concrete beslissing apart worden onderzocht."
+            },
+            {
+              "id": "r6",
+              "label": "Groepenkaart",
+              "title": "Wat de studie aantoonde",
+              "text": "De onderzochte genderclassificatiesystemen maakten veel vaker fouten bij donkerder vrouwelijke gezichten dan bij lichtere mannelijke. Dit betrof een specifieke classificatietaak, geen bewijs over ieder AI-systeem."
+            }
+          ],
+          "required": [
+            "r1",
+            "r2",
+            "r3",
+            "r4",
+            "r5",
+            "r6"
+          ],
+          "id": "m4-04-b1",
+          "clueId": "m4-04-b1-clue",
+          "clueTitle": "Wat leert de machine precies?"
+        },
+        {
+          "type": "experiment",
+          "title": "Verander doel en oefendata",
+          "sceneObject": "system",
+          "intro": "Voorspel welke bak verandert. Vergelijk daarna verkoopopbrengst met terugwinning en beperkte met bredere oefendata. Houd overige instellingen gelijk om een mechanisme te onderscheiden.",
+          "hint": "Een doel bepaalt selectie; data beïnvloeden herkenning. Menselijke controle kan fouten vinden, maar kost middelen. Bekijk materiaalbakken én opbrengst en benoem wat dit model weglaat.",
+          "explainAfter": "De proef laat doelkeuze en trainingsdekking apart veranderen. Meer herkenning geeft niet vanzelf gelijke materiaalprioriteit. De afweging tussen opbrengst, terugwinning en controle moet expliciet worden gemaakt.",
+          "concepts": [
+            "algoritmisch doel",
+            "trainingsdata",
+            "waardeprioritering",
+            "AI recycling"
+          ],
+          "sourceBlocks": [
+            37,
+            41
+          ],
+          "boundary": "Een betere modelscore bewijst geen betere totale milieubalans. Transport, energie en latere verwerking ontbreken.",
+          "simulation": "sorter",
+          "simulationSpec": {
+            "id": "sorter",
+            "title": "De sorteerband heeft een doel",
+            "parameters": [
+              {
+                "id": "goal",
+                "label": "Optimalisatiedoel",
+                "type": "select",
+                "options": [
+                  {
+                    "value": "value",
+                    "label": "Opbrengst van de verkoop"
+                  },
+                  {
+                    "value": "recovery",
+                    "label": "Materiaal terugwinnen"
+                  }
+                ]
+              },
+              {
+                "id": "representativeTraining",
+                "label": "Ook vuile en donkere verpakkingen in de oefenset",
+                "type": "boolean"
+              },
+              {
+                "id": "humanReview",
+                "label": "Menselijke controle bij twijfel",
+                "type": "boolean"
+              }
+            ],
+            "defaults": {
+              "goal": "value",
+              "representativeTraining": false,
+              "humanReview": false
+            },
+            "fixedInput": {
+              "valuableItems": 6,
+              "difficultLowValueItems": 4,
+              "unrecoverableItems": 2
+            },
+            "illustrativeOutcomeRules": [
+              "correctHigh = representativeTraining ? 6 : 5; humanReview verhoogt correctHigh naar maximaal 6.",
+              "correctLow = goal == recovery ? (representativeTraining ? 3 : 1) : 0; bij recovery verhoogt humanReview correctLow met 1 tot maximaal 4.",
+              "recoveredItems = correctHigh + correctLow; rejectedItems = 12 - recoveredItems.",
+              "illustrativeRevenue = 8 * correctHigh + 2 * correctLow - (humanReview ? 6 : 0).",
+              "Het eindproduct toont expliciet de 6 verkoopwaardige, 4 lastige laagwaardige en 2 niet-terugwinbare objecten; niet ieder verworpen object is een classificatiefout."
+            ],
+            "outputRows": [
+              {
+                "id": "correctHigh",
+                "label": "Verkoopwaardige objecten teruggewonnen",
+                "unit": "van 6"
+              },
+              {
+                "id": "correctLow",
+                "label": "Lastige laagwaardige objecten teruggewonnen",
+                "unit": "van 4"
+              },
+              {
+                "id": "recoveredItems",
+                "label": "Totaal teruggewonnen",
+                "unit": "van 12"
+              },
+              {
+                "id": "rejectedItems",
+                "label": "Afgevoerde objecten",
+                "unit": "van 12"
+              },
+              {
+                "id": "illustrativeRevenue",
+                "label": "Illustratieve opbrengst na controlekosten",
+                "unit": "rekenpunten"
+              }
+            ],
+            "assumptions": [
+              "Dit is een fictief leerinstrument, geen prestatiemodel van AMP Robotics of een ander bedrijf.",
+              "De getallen zijn verzonnen om doelkeuze, trainingsdekking en controle apart te onderzoeken.",
+              "Meer terugwinning betekent hier niet automatisch een betere volledige milieubalans: energie, transport en latere verwerking zijn niet gemodelleerd.",
+              "De Gender Shades-casus betreft een andere taak en levert geen effectschattingen voor deze sorteerband."
+            ],
+            "contrastRequirements": [
+              "Vergelijk opbrengst en terugwinning met gelijke trainingsdekking en controle.",
+              "Vergelijk beperkte en bredere oefendata terwijl het optimalisatiedoel gelijk blijft."
+            ],
+            "minimumTrials": 3,
+            "conceptQuestion": "Waarom blijven bij een opbrengstdoel lastige goedkope materialen liggen, zelfs met een betere oefenset?",
+            "options": [
+              {
+                "id": "goal",
+                "text": "Herkennen en prioriteit geven zijn verschillende stappen; het doel geeft goedkope materialen weinig gewicht.",
+                "correct": true,
+                "feedback": "Een betere detector verandert nog niet wat het systeem probeert te maximaliseren."
+              },
+              {
+                "id": "training",
+                "text": "Een grotere oefenset bewijst dat ieder materiaal economisch dezelfde prioriteit krijgt.",
+                "correct": false,
+                "feedback": "Data kunnen herkenning verbeteren; het opbrengstdoel blijft waardering sturen."
+              },
+              {
+                "id": "failure",
+                "text": "Afvoer bewijst altijd een herkenningsfout, ook als de beslisregel het materiaal bewust overslaat.",
+                "correct": false,
+                "feedback": "Vergelijk herkenning met de doelregel: een correct herkend object kan toch niet geselecteerd worden."
+              }
+            ]
+          },
+          "minimumTrials": 3,
+          "id": "m4-04-b2",
+          "clueId": "m4-04-b2-clue",
+          "clueTitle": "Verander doel en oefendata",
+          "requiresTool": "key"
+        },
+        {
+          "type": "connect",
+          "title": "Maak de black box bevraagbaar",
+          "sceneObject": "evidence",
+          "intro": "Verbind de onduidelijke uitkomsten met het bewijs dat een audit nodig heeft. Explainable AI helpt een beslissing toelichten; uitleg alleen maakt de beslissing niet rechtvaardig.",
+          "hint": "Een black box is een systeem waarvan de werking moeilijk te begrijpen is. Vraag naar gebruikte gegevens, criteria, groepsprestaties en wie een beslissing kan laten herzien.",
+          "explainAfter": "Transparantie maakt onderzoek mogelijk. Explainable AI kan beslissingen toelichten; een audit toetst fouten en bias. Mensen, ontwikkelaars en organisaties blijven verantwoordelijk binnen het socio-technische systeem.",
+          "concepts": [
+            "black box",
+            "explainable AI",
+            "algoritme-audit",
+            "bias",
+            "verantwoordelijkheid"
+          ],
+          "sourceBlocks": [
+            41,
+            47
+          ],
+          "boundary": "Een begrijpelijke verklaring kan een fout besluit verklaren. Transparantie is geen bewijs van accuratesse of rechtvaardigheid.",
+          "pairs": [
+            {
+              "id": "p1",
+              "left": "Een afgewezen object heeft geen motivering",
+              "right": "Een trace met gebruikte kenmerken en selectiecriterium.",
+              "feedback": "Dit maakt een specifieke beslissing bevraagbaar."
+            },
+            {
+              "id": "p2",
+              "left": "Een gemiddelde score verbergt groepsverschillen",
+              "right": "Testuitkomsten uitgesplitst naar relevante materiaal- of gebruikersgroepen.",
+              "feedback": "Gelijke gemiddelden garanderen geen gelijke werking."
+            },
+            {
+              "id": "p3",
+              "left": "De oefenset bevat vrijwel één soort voorbeeld",
+              "right": "Documentatie van trainingsdekking en testen met ontbrekende gevallen.",
+              "feedback": "Representativiteit moet worden onderzocht, niet aangenomen."
+            },
+            {
+              "id": "p4",
+              "left": "Niemand kan een fout laten herstellen",
+              "right": "Een aangewezen beheerder en menselijke herzieningsprocedure.",
+              "feedback": "De organisatie moet handelen kunnen veranderen."
+            }
+          ],
+          "id": "m4-04-b3",
+          "clueId": "m4-04-b3-clue",
+          "clueTitle": "Maak de black box bevraagbaar"
+        },
+        {
+          "type": "sort",
+          "title": "Wat mag je uit de test afleiden?",
+          "sceneObject": "evidence",
+          "intro": "Sorteer conclusies als door de proef ondersteund of extra bewijs nodig. Behandel een ontbrekend gegeven niet alsof het een gemeten oorzaak is.",
+          "hint": "Een gemiddelde meet slechts een samenvatting. Een verschil in een groep vraagt onderzoek naar data, taak en criteria; het bewijst niet vanzelf één oorzaak.",
+          "explainAfter": "Algoritmen kunnen historische biases reproduceren. Dat risico vraagt representatieve data en groepsgewijze evaluatie. Een vastgestelde uitkomst en een verklaring daarvoor zijn verschillende bewijsstappen.",
+          "concepts": [
+            "algoritmische discriminatie",
+            "historische bias",
+            "groepsprestaties",
+            "bewijslimiet"
+          ],
+          "sourceBlocks": [
+            37,
+            38,
+            41,
+            47
+          ],
+          "boundary": "Testverschillen zijn belangrijk, maar bewijzen niet dat alle systemen of alle toekomstige versies dezelfde fouten hebben.",
+          "categories": [
+            {
+              "id": "shown",
+              "label": "Door dit bewijs ondersteund"
+            },
+            {
+              "id": "more",
+              "label": "Extra bewijs nodig"
+            }
+          ],
+          "cards": [
+            {
+              "id": "c1",
+              "text": "De test laat verschillende foutpercentages tussen twee geteste materiaalgroepen zien.",
+              "category": "shown",
+              "feedback": "Dit is een gemeten prestatieverschil."
+            },
+            {
+              "id": "c2",
+              "text": "Het verschil is uitsluitend door trainingsomvang veroorzaakt; doel en camera spelen zeker geen rol.",
+              "category": "more",
+              "feedback": "Een exclusieve oorzaak vraagt afzonderlijke vergelijkingen."
+            },
+            {
+              "id": "c3",
+              "text": "Een opbrengstregel kan een correct herkend laagwaardig object overslaan.",
+              "category": "shown",
+              "feedback": "De regelkaart specificeert die prioriteit."
+            },
+            {
+              "id": "c4",
+              "text": "Een betere sorteerscore bewijst dat de gehele productketen duurzaam is.",
+              "category": "more",
+              "feedback": "Andere milieueffecten en levensduur zijn niet gemeten."
+            },
+            {
+              "id": "c5",
+              "text": "Ook de uitvoerende organisatie kan de keuze voor gebruik, controle en herstel beïnvloeden.",
+              "category": "shown",
+              "feedback": "De beheer- en controlebon wijzen concrete verantwoordelijkheden aan."
+            }
+          ],
+          "id": "m4-04-b4",
+          "clueId": "m4-04-b4-clue",
+          "clueTitle": "Wat mag je uit de test afleiden?"
+        },
+        {
+          "type": "inspect",
+          "title": "Zes incidenten naast de sorteerband",
+          "sceneObject": "evidence",
+          "intro": "Open het risicoregister van de hub. De cursusafbeelding noemt zes AI-vraagstukken; concrete incidenten laten zien waarom materiaalnauwkeurigheid niet het volledige oordeel is.",
+          "hint": "Bias, privacy, transparantie, verantwoordelijkheid, misbruik en arbeid raken verschillende mensen en mechanismen. Onderzoek gegevens, bevoegdheid en gevolgen; één hoog gemiddeld prestatienummer dekt ze niet.",
+          "explainAfter": "AI is onderdeel van een socio-technisch systeem. Een nauwkeurige band kan nog privacyrisico’s, onduidelijke herstelrollen of arbeidsgevolgen hebben. Maak per incident de concrete vraag en bewijslimiet zichtbaar.",
+          "concepts": [
+            "AI-risicoregister",
+            "privacy en toestemming",
+            "algoritmische discriminatie",
+            "arbeidsverschuiving",
+            "deepfakes en misbruik",
+            "juridische onduidelijkheid"
+          ],
+          "sourceBlocks": [
+            37,
+            40,
+            41
+          ],
+          "boundary": "De incidenten zijn fictief en voorspellen geen vaste omvang van banenverlies of juridische aansprakelijkheid. Een risicoregister is geen beoordeling van alle werkelijke AI-systemen.",
+          "reveal": [
+            {
+              "id": "r1",
+              "label": "Groepslog",
+              "title": "Historische selectie kan worden herhaald",
+              "text": "Een model voor personeelsselectie leert uit oude beoordelingen waarin een groep minder kansen kreeg. Zo kan een patroon in data nieuwe beslissingen beïnvloeden; test de concrete foutverdeling."
+            },
+            {
+              "id": "r2",
+              "label": "Camerabon",
+              "title": "Privacy en toestemming",
+              "text": "De sorteercamera legt ook medewerkers en bezoekers vast. Een materiaaldoel rechtvaardigt niet vanzelf iedere persoonsregistratie. Onderzoek noodzaak, gegevensgebruik, informatie, rechten en passende grondslag."
+            },
+            {
+              "id": "r3",
+              "label": "Weigeringsbericht",
+              "title": "Ondoorzichtige besluitvorming",
+              "text": "Een gebruiker krijgt een automatische afwijzing zonder bruikbare uitleg of herzieningsroute. Het gebrek aan transparantie maakt onderzoek naar criteria en herstel moeilijker."
+            },
+            {
+              "id": "r4",
+              "label": "Herstelmail",
+              "title": "Verantwoordelijkheid en juridische onduidelijkheid",
+              "text": "Leverancier en hub verwijzen naar elkaar na een fout. Leg vast wie data, criteria en gebruik beheert en wie kan herstellen. Een contractvraag en een juridisch oordeel zijn niet hetzelfde."
+            },
+            {
+              "id": "r5",
+              "label": "Demofilm",
+              "title": "AI-misbruik en deepfakes",
+              "text": "Een synthetische video laat een persoon een verzonnen goedkeuring uitspreken. Geloofwaardig beeld is geen bewijs van authenticiteit; controleer herkomst voordat de hub het gebruikt."
+            },
+            {
+              "id": "r6",
+              "label": "Werkrooster",
+              "title": "Banen en economische gevolgen",
+              "text": "Automatisering verandert taken en personeelsbehoefte. De hub kan werk schrappen of medewerkers opleiden voor controle en reparatie. Uitkomst hangt ook van organisatiekeuzes en marktontwikkeling af."
+            }
+          ],
+          "required": [
+            "r1",
+            "r2",
+            "r3",
+            "r4",
+            "r5",
+            "r6"
+          ],
+          "id": "m4-04-b5",
+          "clueId": "m4-04-b5-clue",
+          "clueTitle": "Zes incidenten naast de sorteerband"
+        },
+        {
+          "type": "connect",
+          "title": "Van AI-incident naar gerichte onderzoeksvraag",
+          "sceneObject": "evidence",
+          "intro": "Verbind elk incident aan de vraag die zijn mechanisme raakt. Een betere materiaalherkenning is geen vervanging voor privacy, arbeidsbeleid of een bruikbare bezwaarroute.",
+          "hint": "Kies onderzoek dat past bij het aangetoonde probleem. Groepsgewijze tests meten foutverdeling; broncontrole onderzoekt authenticiteit; rollen en herziening maken herstel uitvoerbaar.",
+          "explainAfter": "De zes categorieën uit het bronbeeld vragen verschillende aangrijpingspunten. Ze kunnen samen optreden. Een expliciete onderzoeksvraag maakt duidelijk welk bewijs nodig is en welke beslissing nog openstaat.",
+          "concepts": [
+            "AI-risicoregister",
+            "privacy en toestemming",
+            "algoritmische discriminatie",
+            "arbeidsverschuiving",
+            "deepfakes en misbruik",
+            "accountability"
+          ],
+          "sourceBlocks": [
+            40,
+            41,
+            47
+          ],
+          "boundary": "De koppeling kiest een relevante vervolgvraag; zij stelt nog geen schending, ontslagomvang of wettelijke aansprakelijkheid vast.",
+          "pairs": [
+            {
+              "id": "p1",
+              "left": "Oude beoordelingen bevatten ongelijke kansen",
+              "right": "Welke groepspatronen en foutsoorten herhaalt de nieuwe selectie?",
+              "feedback": "Representativiteit en uitkomstverdeling vragen concrete tests."
+            },
+            {
+              "id": "p2",
+              "left": "De camera registreert herkenbare personen",
+              "right": "Welke persoonsgegevens zijn nodig en hoe worden gebruik en rechten verantwoord?",
+              "feedback": "Een materiaaldoel dekt niet vanzelf alle vastgelegde menselijke gegevens."
+            },
+            {
+              "id": "p3",
+              "left": "De afwijzing heeft geen bruikbare uitleg",
+              "right": "Welke criteria, onzekerheid en herzieningsroute kan de gebruiker begrijpen?",
+              "feedback": "Transparantie moet bruikbaar zijn voor onderzoek en herstel."
+            },
+            {
+              "id": "p4",
+              "left": "Partijen wijzen voor herstel naar elkaar",
+              "right": "Wie beheert de relevante keuze en heeft bevoegdheid om haar te corrigeren?",
+              "feedback": "Verdeelde rollen vragen aanspreekbare afspraken en aparte juridische toetsing."
+            },
+            {
+              "id": "p5",
+              "left": "De spreker in een demofilm kan synthetisch zijn",
+              "right": "Welke herkomst en authentieke bevestiging ondersteunen de vermeende uitspraak?",
+              "feedback": "Een overtuigend beeld vervangt bron- en authenticiteitscontrole niet."
+            },
+            {
+              "id": "p6",
+              "left": "Automatisering verandert het werkrooster",
+              "right": "Welke taken verdwijnen of ontstaan en welke omscholing en verdeling zijn mogelijk?",
+              "feedback": "Arbeidsgevolgen moeten worden onderzocht; zij volgen niet volledig uit de machine alleen."
+            }
+          ],
+          "id": "m4-04-b6",
+          "clueId": "m4-04-b6-clue",
+          "clueTitle": "Van AI-incident naar gerichte onderzoeksvraag"
+        }
+      ],
+      "finale": {
+        "intro": "De band heet circulair maar laat bepaalde materialen liggen. Onderzoek herkenning, doel en controle voordat de pilot naar de rapportagekamer mag doorlopen.",
+        "slots": [
+          {
+            "id": "selection",
+            "label": "De detector herkent nu alle goedkope materialen, maar de opbrengstregel blijft gelijk. Wat volgt?",
+            "evidenceBeatId": "m4-04-b2",
+            "options": [
+              {
+                "id": "goal",
+                "text": "Herkenningsfouten kunnen afnemen terwijl goedkope materialen nog steeds lage selectieprioriteit hebben.",
+                "correct": true,
+                "feedback": "Data verbeteren herkenning; het doel stuurt prioriteit."
+              },
+              {
+                "id": "equal",
+                "text": "Betere herkenning geeft ieder materiaal automatisch dezelfde prioriteit.",
+                "correct": false,
+                "feedback": "De doelregel is niet veranderd."
+              },
+              {
+                "id": "purpose",
+                "text": "Een hoge score bewijst dat de organisatie geen belangen in het ontwerp heeft ingebouwd.",
+                "correct": false,
+                "feedback": "De opbrengstregel blijft een waardeprioriteit."
+              }
+            ]
+          },
+          {
+            "id": "audit",
+            "label": "Welke gegevens maken een gemiddelde 95%-score inhoudelijk beoordeelbaar?",
+            "evidenceBeatId": "m4-04-b3",
+            "options": [
+              {
+                "id": "speed",
+                "text": "Alleen de hoogste testsnelheid; fouten betreffen geen ontwerpkwaliteit.",
+                "correct": false,
+                "feedback": "Snelheid zegt niet welke gevallen fout gaan."
+              },
+              {
+                "id": "brand",
+                "text": "Alleen het merk van de leverancier; dat bewijst representativiteit.",
+                "correct": false,
+                "feedback": "Een merk vervangt geen dataset- en prestatieonderzoek."
+              },
+              {
+                "id": "groups",
+                "text": "Taak, testdekking, groepsfouten en besliscriteria binnen een duidelijke toepassingsgrens.",
+                "correct": true,
+                "feedback": "De gemiddelde score alleen verbergt verdeling en context."
+              }
+            ]
+          },
+          {
+            "id": "answerability",
+            "label": "Waarom ontslaat een black box de organisatie niet van verantwoordelijkheid?",
+            "evidenceBeatId": "m4-04-b3",
+            "options": [
+              {
+                "id": "user",
+                "text": "Alle gevolgen liggen uitsluitend bij de eindgebruiker, ongeacht ontwerp en implementatie.",
+                "correct": false,
+                "feedback": "Ontwerpers en uitvoerende organisaties hebben eigen invloed en plichten."
+              },
+              {
+                "id": "govern",
+                "text": "De organisatie kiest toepassing, monitoring en herstelmogelijkheden, ook wanneer interne werking moeilijk uitlegbaar is.",
+                "correct": true,
+                "feedback": "Techniek is onderdeel van bestuur en menselijk handelen."
+              },
+              {
+                "id": "dataset",
+                "text": "Alleen de dataset kan verantwoordelijkheid dragen; mensen bepalen de werking niet meer.",
+                "correct": false,
+                "feedback": "Gegevens zijn geen moreel verantwoordelijke persoon."
+              }
+            ]
+          }
+        ],
+        "conclusion": "De band wordt vrijgegeven als begrensde pilot met controle, niet als bewijs van universele objectiviteit of volledige duurzaamheid."
+      },
+      "originalSourceBlocks": [
+        37,
+        38,
+        40,
+        41,
+        42,
+        47
+      ],
+      "optionalReviewBlocks": [
+        38,
+        42
+      ]
+    },
+    {
+      "id": "m4-05",
+      "world": {
+        "name": "De controlekamer",
+        "imageKey": "chapter-4",
+        "exit": {
+          "label": "Stuur een controleerbare rapportage door",
+          "lockType": "accountable-dashboard",
+          "problem": "Het dashboard toont alleen verkoopsnelheid en één groene indicator. Herstel de verbinding tussen prestatie, maatschappelijke gevolgen en verantwoordelijke rollen.",
+          "unlockedText": "Het dashboard toont zijn meetgrens, aanvullende gevolgen en verantwoordelijke beheerders.",
+          "destinationReason": "Gebruik deze diagnose om in de vrijgavekamer een uitvoerbare interventie te formuleren."
+        },
+        "spots": [
+          {
+            "id": "m4-05-record",
+            "title": "Werknotitie naast het dossier",
+            "point": [
+              0.18,
+              0.55
+            ],
+            "approach": [
+              0.25,
+              0.7
+            ],
+            "observation": "Een korte werknotitie verbindt dit dossier met de dagelijkse praktijk.",
+            "detail": "Verbeek verklaart hoe techniek waarneming en mogelijkheden bemiddelt. Data zichtbaar maken kan helpen; selectieve indicatoren kunnen welzijn, duurzaamheid en sociale impact buiten beeld houden."
+          },
+          {
+            "id": "m4-05-empty",
+            "title": "Een ongebruikte lade",
+            "point": [
+              0.84,
+              0.73
+            ],
+            "approach": [
+              0.76,
+              0.83
+            ],
+            "observation": "De lade is leeg. De krassen en stoflaag vertellen niet waarom het besluit is genomen.",
+            "detail": "Dit spoor geeft geen inhoudelijk bewijs voor je verklaring. Een onderzoek bevat ook doodlopende sporen: keer terug naar de concrete documenten, handelingen en mensen."
+          }
+        ]
+      },
+      "beats": [
+        {
+          "type": "inspect",
+          "title": "Wat verdwijnt buiten het scherm?",
+          "sceneObject": "evidence",
+          "intro": "Vergelijk verkoopscore, energiekaart, afvalbak en klantbericht. Een dashboard bemiddelt aandacht: wat centraal staat, krijgt eerder een plek in beslissingen.",
+          "hint": "Verbeek verklaart hoe techniek waarneming en mogelijkheden bemiddelt. Data zichtbaar maken kan helpen; selectieve indicatoren kunnen welzijn, duurzaamheid en sociale impact buiten beeld houden.",
+          "explainAfter": "De score is geen volledige werkelijkheid. Een organisatie kan digitale monitoring voor echte verbeteringen of voor reputatie gebruiken. Onderzoek meetgrens, ontbrekende gevolgen en de prikkel achter selectie.",
+          "concepts": [
+            "technologische bemiddeling",
+            "KPI",
+            "selectieve duurzaamheidsinformatie",
+            "greenwashing"
+          ],
+          "sourceBlocks": [
+            13,
+            27,
+            41
+          ],
+          "boundary": "Een ontbrekende indicator bewijst nog geen bewuste misleiding. Vraag wat bekend is en waarom de rapportagegrens werd gekozen.",
+          "reveal": [
+            {
+              "id": "r1",
+              "label": "Verkoopscore",
+              "title": "Een smal doel",
+              "text": "Het scherm telt verkochte gerecyclede grondstof. Goedkope reststromen, energieverbruik en werkomstandigheden tellen niet mee."
+            },
+            {
+              "id": "r2",
+              "label": "Energiekaart",
+              "title": "Smart grid als kans",
+              "text": "Een slim energienet koppelt stroom en realtime gegevens om variabele zon- en windproductie beter te coördineren. Dat kan nuttig zijn."
+            },
+            {
+              "id": "r3",
+              "label": "Datavraag",
+              "title": "Smart grid als bestuur",
+              "text": "Wie beheert energiedata, betaalt investeringen en krijgt toegang? Een technisch nuttig systeem verdeelt ook kennis, kosten en duurzame energiekansen."
+            },
+            {
+              "id": "r4",
+              "label": "Groene tegel",
+              "title": "Een meetgrens die iets verbergt",
+              "text": "Een daling op één indicator wordt als volledig duurzaam resultaat gepresenteerd. Selectie kan reputatie verbeteren zonder het bedrijfsmodel te veranderen."
+            },
+            {
+              "id": "r5",
+              "label": "Klantbericht",
+              "title": "Menselijke gevolgen",
+              "text": "Een niet-digitale klant kan de energiehulp niet aanvragen. De toegangsroute verdeelt voordeel, ook als het dashboard een gemiddelde verbetering laat zien."
+            },
+            {
+              "id": "r6",
+              "label": "Budgetmail",
+              "title": "Druk achter de groene tegel",
+              "text": "Kostenprikkels, maatschappelijke duurzaamheidsverwachtingen en traag veranderende infrastructuur botsen. Daardoor kan de groene communicatie sneller groeien dan de feitelijke verandering; druk bewijst nog geen misleidingsintentie."
+            },
+            {
+              "id": "r7",
+              "label": "Transitiekaart",
+              "title": "Duurzame innovatie heeft een netwerk nodig",
+              "text": "Hernieuwbare energie vraagt passende elektriciteitsnetten; elektrisch rijden vraagt laadnetten; circulaire materiaalstromen vragen logistiek. Een duurzaam apparaat werkt niet los van zijn infrastructuur."
+            },
+            {
+              "id": "r8",
+              "label": "Monitorkaart",
+              "title": "De meter verandert het werknetwerk",
+              "text": "Een nieuwe energiemeter maakt afdelingsverbruik zichtbaar. Medewerkers passen werk aan, managers spreken teams op cijfers aan en prestatieafspraken verschuiven. Het apparaat, de meetregels en mensen veranderen samen gedrag en verantwoordelijkheid."
+            }
+          ],
+          "required": [
+            "r1",
+            "r2",
+            "r3",
+            "r4",
+            "r5",
+            "r6",
+            "r7",
+            "r8"
+          ],
+          "id": "m4-05-b1",
+          "clueId": "m4-05-b1-clue",
+          "clueTitle": "Wat verdwijnt buiten het scherm?"
+        },
+        {
+          "type": "connect",
+          "title": "Wie kan wat veranderen?",
+          "sceneObject": "evidence",
+          "intro": "Verbind een bevinding met de rol die er invloed op heeft. Verantwoordelijkheid is verdeeld, maar verspreiding betekent niet dat niemand iets kan doen.",
+          "hint": "Ontwikkelaars beïnvloeden criteria; organisaties kiezen implementatie en toezicht; gebruikers handelen binnen mogelijkheden; instellingen bepalen kaders. Zoek concrete invloed en aanspreekbaarheid.",
+          "explainAfter": "Een socio-technisch systeem verbindt technologie, gebruikers, organisatie en regels. Verantwoordelijkheid vraagt verschillende invloeden zichtbaar maken, met afgesproken herstel en verantwoording.",
+          "concepts": [
+            "niveaus van verantwoordelijkheid",
+            "socio-technisch systeem",
+            "agency"
+          ],
+          "sourceBlocks": [
+            0,
+            1,
+            41,
+            44,
+            51
+          ],
+          "boundary": "Een toegewezen rol sluit andere verantwoordelijkheid niet uit. Meerdere partijen kunnen tegelijk een relevante bijdrage aan herstel hebben.",
+          "pairs": [
+            {
+              "id": "p1",
+              "left": "Een indicator telt alleen opbrengst",
+              "right": "De ontwerper kan criteria en scherminformatie aanpassen.",
+              "feedback": "Dit betreft technische architectuur en zichtbaarheid."
+            },
+            {
+              "id": "p2",
+              "left": "Een klacht blijft zonder opvolging",
+              "right": "De organisatie kan een eigenaar en auditproces aanwijzen.",
+              "feedback": "Dit betreft governance en uitvoering."
+            },
+            {
+              "id": "p3",
+              "left": "Een gebruiksprocedure sluit offline klanten uit",
+              "right": "Beheer en gebruikers kunnen een bruikbare alternatieve praktijk organiseren.",
+              "feedback": "Gebruik vindt plaats binnen ontworpen en bestuurlijke mogelijkheden."
+            },
+            {
+              "id": "p4",
+              "left": "Een marktbrede verantwoordingsnorm ontbreekt",
+              "right": "Een publieke instelling kan regels en toezicht ontwikkelen.",
+              "feedback": "Dit betreft het institutionele kader."
+            }
+          ],
+          "id": "m4-05-b2",
+          "clueId": "m4-05-b2-clue",
+          "clueTitle": "Wie kan wat veranderen?"
+        },
+        {
+          "type": "sort",
+          "title": "Leg de interventies op drie werktafels",
+          "sceneObject": "evidence",
+          "intro": "Sorteer voorstellen op ontwerp, organisatie of institutioneel niveau. Niet ieder toezichtvoorstel is een wet; niet iedere wet verandert automatisch de interface.",
+          "hint": "Ontwerp verandert de techniek. Organisatorische governance verandert toepassing, beheer en prikkels. Institutionele interventie verandert publieke kaders. Hun combinatie kan nodig zijn.",
+          "explainAfter": "Een explainable model is ontwerp; een interne audit is governance; regelgeving is institutioneel. Een technische correctie kan onvoldoende blijven wanneer doelen en incentives hetzelfde ongewenste gedrag belonen.",
+          "concepts": [
+            "ontwerpinterventie",
+            "organisatorische interventie",
+            "institutionele interventie",
+            "governance"
+          ],
+          "sourceBlocks": [
+            44,
+            47,
+            50,
+            51
+          ],
+          "boundary": "De niveaus overlappen in de uitvoering. Classificeer op de aangrijpende beslissing, niet op de functietitel van de bedenker.",
+          "categories": [
+            {
+              "id": "design",
+              "label": "Ontwerp"
+            },
+            {
+              "id": "org",
+              "label": "Organisatie"
+            },
+            {
+              "id": "institution",
+              "label": "Publieke kaders"
+            }
+          ],
+          "cards": [
+            {
+              "id": "c1",
+              "text": "De interface toont criteria, onzekerheid en een herzieningsknop.",
+              "category": "design",
+              "feedback": "Dit verandert de technische gebruikersmogelijkheden."
+            },
+            {
+              "id": "c2",
+              "text": "Een interne commissie beoordeelt pilots en wijst herstelverantwoordelijkheid toe.",
+              "category": "org",
+              "feedback": "Dit is interne governance."
+            },
+            {
+              "id": "c3",
+              "text": "Een publieke norm bepaalt welke systeemrisico’s getoetst moeten worden.",
+              "category": "institution",
+              "feedback": "Dit is een institutioneel kader."
+            },
+            {
+              "id": "c4",
+              "text": "Een algoritme-audit wordt onderdeel van het periodieke bedrijfsbeheer.",
+              "category": "org",
+              "feedback": "De organisatie regelt systematisch onderzoek."
+            },
+            {
+              "id": "c5",
+              "text": "Diverse gebruikers worden bij het prototype betrokken.",
+              "category": "design",
+              "feedback": "Dit ondersteunt inclusief ontwerp voordat brede toepassing plaatsvindt."
+            }
+          ],
+          "id": "m4-05-b3",
+          "clueId": "m4-05-b3-clue",
+          "clueTitle": "Leg de interventies op drie werktafels"
+        },
+        {
+          "type": "build",
+          "title": "Maak het dashboard aanspreekbaar",
+          "sceneObject": "system",
+          "intro": "Kies de onderdelen die de claim begrenzen, ontbrekende effecten onderzoeken en herstel beleggen. Je maakt een controleerbaar werkplan; niet alle waarden hebben dezelfde meeteenheid.",
+          "hint": "Een rapportage heeft een afgebakende claim en gegevens nodig. Voeg relevante neveneffecten, onafhankelijke toetsing en iemand met bevoegdheid voor correctie toe.",
+          "explainAfter": "Waarden in strategie opnemen vraagt meer dan nieuwe woorden. Audits, verantwoordelijkheden en bredere beoordeling moeten het echte werk raken. Kosten- en concurrentiedruk kunnen weerstand geven; onderzoek uitvoerbare aanpassingen.",
+          "concepts": [
+            "transparantie",
+            "governance",
+            "algoritme-audit",
+            "maatschappelijke verantwoordelijkheid",
+            "organisatorische weerstand"
+          ],
+          "sourceBlocks": [
+            13,
+            41,
+            47
+          ],
+          "boundary": "Meer indicatoren kunnen nieuwe blinde vlekken of meetprikkels creëren. Blijf kritisch naar de gekozen meetlat kijken.",
+          "options": [
+            {
+              "id": "scope",
+              "text": "Vermeld welke stromen, periode en effecten de claim omvat.",
+              "correct": true,
+              "feedback": "Een meetgrens maakt duidelijk waarop de uitspraak betrekking heeft."
+            },
+            {
+              "id": "effects",
+              "text": "Onderzoek energie, reststromen en toegang naast opbrengst.",
+              "correct": true,
+              "feedback": "Hiermee worden relevante ontbrekende gevolgen onderzocht."
+            },
+            {
+              "id": "owner",
+              "text": "Leg toetsing, correctiebevoegdheid en een verantwoordelijke vast.",
+              "correct": true,
+              "feedback": "De informatie kan tot daadwerkelijk herstel leiden."
+            },
+            {
+              "id": "logo",
+              "text": "Vervang de groene tegel door een keurmerk zonder toetsing.",
+              "correct": false,
+              "feedback": "Een nieuw symbool levert nog geen bewijs of herstelproces."
+            },
+            {
+              "id": "hide",
+              "text": "Toon alleen de gunstigste maand om langetermijnschommelingen te vermijden.",
+              "correct": false,
+              "feedback": "Selectie zonder uitleg maakt de vergelijking juist minder controleerbaar."
+            }
+          ],
+          "required": [
+            "scope",
+            "effects",
+            "owner"
+          ],
+          "id": "m4-05-b4",
+          "clueId": "m4-05-b4-clue",
+          "clueTitle": "Maak het dashboard aanspreekbaar"
+        }
+      ],
+      "finale": {
+        "intro": "Het dashboard toont alleen verkoopsnelheid en één groene indicator. Herstel de verbinding tussen prestatie, maatschappelijke gevolgen en verantwoordelijke rollen.",
+        "slots": [
+          {
+            "id": "visibility",
+            "label": "Waarom kan een efficiëntiedashboard een moreel effect hebben zonder een expliciet verbod?",
+            "evidenceBeatId": "m4-05-b1",
+            "options": [
+              {
+                "id": "all",
+                "text": "Iedere beschikbare indicator representeert automatisch alle waarden van getroffen groepen.",
+                "correct": false,
+                "feedback": "De meetgrens kan relevante belangen buiten beeld houden."
+              },
+              {
+                "id": "onlyuser",
+                "text": "Alleen een bewust verkeerde klik door een gebruiker kan een moreel gevolg veroorzaken.",
+                "correct": false,
+                "feedback": "Ontwerp en aandacht sturen ook zonder een verkeerde intentie."
+              },
+              {
+                "id": "attention",
+                "text": "Het maakt sommige gevolgen beslisbaar en houdt andere minder zichtbaar; dat stuurt prioriteiten.",
+                "correct": true,
+                "feedback": "Bemiddeling betreft de waarneming en handelingsruimte."
+              }
+            ]
+          },
+          {
+            "id": "levels",
+            "label": "Waarom combineer je een interfacecorrectie met governance?",
+            "evidenceBeatId": "m4-05-b3",
+            "options": [
+              {
+                "id": "law",
+                "text": "Een bedrijfsaudit heeft zonder publieke wet nooit invloed op praktijk.",
+                "correct": false,
+                "feedback": "Ook organisatorische besluiten kunnen werking veranderen."
+              },
+              {
+                "id": "incentives",
+                "text": "Criteria kunnen verbeteren terwijl bedrijfsdoelen het oude gedrag blijven belonen; toezicht en verantwoordelijkheid verbinden verandering aan uitvoering.",
+                "correct": true,
+                "feedback": "Techniek en organisatie beïnvloeden elkaar."
+              },
+              {
+                "id": "replace",
+                "text": "Een commissie kan een ontbrekende technische herzieningsfunctie vanzelf vervangen.",
+                "correct": false,
+                "feedback": "Een commissie verandert niet automatisch de beschikbare gebruikersopties."
+              }
+            ]
+          }
+        ],
+        "conclusion": "De rapportage wordt doorgezet met grenzen, gevolgen en herstelbevoegdheid. Je kunt nu de hele vrijgaveroute beoordelen."
+      },
+      "originalSourceBlocks": [
+        0,
+        1,
+        13,
+        27,
+        41,
+        44,
+        47,
+        50,
+        51
+      ],
+      "optionalReviewBlocks": []
+    },
+    {
+      "id": "m4-06",
+      "world": {
+        "name": "De vrijgavekamer",
+        "imageKey": "room-forum",
+        "exit": {
+          "label": "Open de verantwoorde pilotroute",
+          "lockType": "multi-level-release",
+          "problem": "Een publieke partner wil de service gebruiken. Maak uit je bewijs een uitvoerbaar plan met ontwerp, beheer en publieke voorwaarden voordat je de pilot vrijgeeft.",
+          "unlockedText": "De pilot heeft begrensde claims, controle, herziening en een aanspreekbaar veranderplan.",
+          "destinationReason": "Een nieuwe sector test straks of je dezelfde mechanismen zelfstandig herkent."
+        },
+        "spots": [
+          {
+            "id": "m4-06-record",
+            "title": "Werknotitie naast het dossier",
+            "point": [
+              0.18,
+              0.55
+            ],
+            "approach": [
+              0.25,
+              0.7
+            ],
+            "observation": "Een korte werknotitie verbindt dit dossier met de dagelijkse praktijk.",
+            "detail": "Value Sensitive Design neemt waarden mee tijdens ontwerp. Responsible innovation vraagt vroeg gevolgen en risico’s onderzoeken en bijsturen. CSRD, AI Act en DSA illustreren verschillende institutionele aangrijpingspunten."
+          },
+          {
+            "id": "m4-06-empty",
+            "title": "Een ongebruikte lade",
+            "point": [
+              0.84,
+              0.73
+            ],
+            "approach": [
+              0.76,
+              0.83
+            ],
+            "observation": "De lade is leeg. De krassen en stoflaag vertellen niet waarom het besluit is genomen.",
+            "detail": "Dit spoor geeft geen inhoudelijk bewijs voor je verklaring. Een onderzoek bevat ook doodlopende sporen: keer terug naar de concrete documenten, handelingen en mensen."
+          }
+        ]
+      },
+      "beats": [
+        {
+          "type": "inspect",
+          "title": "Open de drie regelkasten",
+          "sceneObject": "evidence",
+          "intro": "Onderzoek VSD, responsible innovation en de publieke kaders. Regels en ontwerp bieden handelingsruimte; geen enkel kader bewijst automatisch dat een systeem verantwoord werkt.",
+          "hint": "Value Sensitive Design neemt waarden mee tijdens ontwerp. Responsible innovation vraagt vroeg gevolgen en risico’s onderzoeken en bijsturen. CSRD, AI Act en DSA illustreren verschillende institutionele aangrijpingspunten.",
+          "explainAfter": "Systemen komen uit menselijke, organisatorische en institutionele keuzes voort. Analyse is een begin: stel interventies voor die techniek én verantwoordelijkheden veranderen, met ruimte voor maatschappelijke afweging.",
+          "concepts": [
+            "Value Sensitive Design",
+            "responsible innovation",
+            "technologisch determinisme",
+            "AI Act",
+            "CSRD",
+            "Digital Services Act"
+          ],
+          "sourceBlocks": [
+            44,
+            45,
+            47,
+            50,
+            51
+          ],
+          "boundary": "De actuele toepassingsgrenzen en fasering van wetten veranderen. Deze les leert hun mechanismen; een generieke kaderkaart is geen juridische toepassingstoets.",
+          "reveal": [
+            {
+              "id": "r1",
+              "label": "Ontwerpkast",
+              "title": "Value Sensitive Design",
+              "text": "Friedman, Kahn en Borning beschrijven waarden meenemen tijdens ontwerp. Transparantie, toegankelijkheid en inclusiviteit moeten in keuzes en tests terechtkomen."
+            },
+            {
+              "id": "r2",
+              "label": "Innovatiekaart",
+              "title": "Vroeg en opnieuw onderzoeken",
+              "text": "Stilgoe, Owen en Macnaghten benadrukken maatschappelijke verantwoordelijkheid en anticipatie. Onderzoek risico’s al tijdens ontwikkeling en stuur bij wanneer bewijs of behoeften veranderen."
+            },
+            {
+              "id": "r3",
+              "label": "AI-kader",
+              "title": "Risico bepaalt aanpak",
+              "text": "De AI Act gebruikt een risicobenadering. Toepassing en rol bepalen eisen; niet ieder algoritme heeft dezelfde verplichtingen. Controleer actuele Europese informatie."
+            },
+            {
+              "id": "r4",
+              "label": "Rapportagekader",
+              "title": "CSRD als institutioneel voorbeeld",
+              "text": "Gestandaardiseerde duurzaamheidsrapportage kan zichtbaarheid en vergelijkbaarheid vergroten. Toepassingsbereik en invoering zijn gewijzigd; een rapportageplicht is geen bewijs van volledige duurzaamheid."
+            },
+            {
+              "id": "r5",
+              "label": "Platformkader",
+              "title": "DSA en zeer grote platforms",
+              "text": "De DSA stelt onder meer systeemrisico- en transparantieverplichtingen voor zeer grote platforms en zoekmachines. Onderzoekersdata en aanbevelingssystemen zijn relevante aangrijpingspunten."
+            },
+            {
+              "id": "r6",
+              "label": "Afweegkaart",
+              "title": "Bescherming en innovatie",
+              "text": "Meer regulering kan risico’s beperken maar ook uitvoeringskosten geven. Te weinig bescherming kan schade laten bestaan. De balans vraagt specifieke risico’s en alternatieven."
+            },
+            {
+              "id": "r7",
+              "label": "Risicovenster",
+              "title": "Een platform verandert publieke informatie",
+              "text": "Aanbevelingssystemen beïnvloeden informatieverspreiding en publieke opinie. DSA-risicobeoordeling, transparantie en gecontroleerde onderzoekerstoegang kunnen verantwoording versterken; ze lossen desinformatie niet volledig op."
+            }
+          ],
+          "required": [
+            "r1",
+            "r2",
+            "r3",
+            "r4",
+            "r5",
+            "r6",
+            "r7"
+          ],
+          "id": "m4-06-b1",
+          "clueId": "m4-06-b1-clue",
+          "clueTitle": "Open de drie regelkasten"
+        },
+        {
+          "type": "order",
+          "title": "Bouw een herzienbare pilot",
+          "sceneObject": "system",
+          "intro": "Leg een onderzoekscyclus op tafel. Deze volgorde is het werkplan voor deze pilot, geen universele checklist waarmee ethiek automatisch opgelost wordt.",
+          "hint": "Begin bij betrokkenen en waarden, maak risico’s expliciet, test het ontwerp, leg bevoegdheden vast en herzie na gebruik. Een cyclus keert terug naar eerdere keuzes.",
+          "explainAfter": "Responsible innovation en VSD ondersteunen vroeg onderzoek. Agency blijft bestaan: gebruikers, ontwerpers, bestuur en publieke instellingen kunnen samen veranderen en nieuwe gevolgen onderzoeken.",
+          "concepts": [
+            "responsible innovation",
+            "Value Sensitive Design",
+            "menselijke agency",
+            "herziening"
+          ],
+          "sourceBlocks": [
+            44,
+            47,
+            51
+          ],
+          "boundary": "Een ondertekend plan bewijst geen uitvoering. Controleer later wie iets kon veranderen en welke gevolgen daadwerkelijk optraden.",
+          "order": [
+            {
+              "id": "s1",
+              "text": "Breng getroffen partijen, waarden en onzekerheden in kaart",
+              "feedback": "Inclusief ontwerp begint met meer dan de opdrachtgever."
+            },
+            {
+              "id": "s2",
+              "text": "Maak criteria, risico’s en mogelijke alternatieven expliciet",
+              "feedback": "Een doel kan andere waarden minder zichtbaar maken."
+            },
+            {
+              "id": "s3",
+              "text": "Test de pilot met passende gevallen en vergelijk gevolgen",
+              "feedback": "Meet ook toegang, fouten en neveneffecten."
+            },
+            {
+              "id": "s4",
+              "text": "Leg beheer, controle en herziening vast; volg na gebruik nieuwe gevolgen",
+              "feedback": "Bijsturing sluit de cyclus en kan eerdere aannames veranderen."
+            }
+          ],
+          "correctOrder": [
+            "s1",
+            "s2",
+            "s3",
+            "s4"
+          ],
+          "id": "m4-06-b2",
+          "clueId": "m4-06-b2-clue",
+          "clueTitle": "Bouw een herzienbare pilot"
+        },
+        {
+          "type": "connect",
+          "title": "Koppel risico aan bevoegdheid",
+          "sceneObject": "evidence",
+          "intro": "Verbind ieder probleem met een interventie die het mechanisme werkelijk raakt. Verschillende niveaus versterken elkaar; een keurmerk is geen reserveonderdeel.",
+          "hint": "Kies een aangrijpingspunt dat de oorzaak kan beïnvloeden en een partij die bevoegd is. Verantwoordingsinformatie helpt alleen wanneer iemand ernaar kan handelen.",
+          "explainAfter": "Transparantie, audits, inclusief ontwerp en regulering hebben verschillende functies. Ze kunnen samengaan; geen daarvan vervangt vanzelf de andere of garandeert alle gewenste gevolgen.",
+          "concepts": [
+            "interventieniveaus",
+            "inclusief ontwerp",
+            "audits",
+            "institutionele bescherming"
+          ],
+          "sourceBlocks": [
+            44,
+            47,
+            50,
+            51
+          ],
+          "boundary": "Een plausibele maatregel blijft een voorstel. Toets uitvoering, proportionaliteit en mogelijke nieuwe afhankelijkheden.",
+          "pairs": [
+            {
+              "id": "p1",
+              "left": "De datakluis heeft geen bruikbare export",
+              "right": "Ontwerp een overdraagbaar formaat en test de migratie.",
+              "feedback": "Dit raakt de technische lock-in-barrière."
+            },
+            {
+              "id": "p2",
+              "left": "Biasmeldingen blijven zonder eigenaar",
+              "right": "Wijs controle, besluitbevoegdheid en herstel binnen de organisatie toe.",
+              "feedback": "Dit raakt de governance."
+            },
+            {
+              "id": "p3",
+              "left": "Getroffen groepen ontbreken in de ontwerptest",
+              "right": "Betrek diverse gebruikers bij prototype en evaluatie.",
+              "feedback": "Dit raakt inclusief ontwerp en testdekking."
+            },
+            {
+              "id": "p4",
+              "left": "Systeemrisico’s blijven buiten marktbrede verantwoording",
+              "right": "Onderzoek passende publieke normen en toezicht.",
+              "feedback": "Dit raakt het institutionele kader."
+            }
+          ],
+          "id": "m4-06-b3",
+          "clueId": "m4-06-b3-clue",
+          "clueTitle": "Koppel risico aan bevoegdheid"
+        },
+        {
+          "type": "decision",
+          "title": "Kies een verdedigbare eerste stap",
+          "sceneObject": "person",
+          "intro": "Kies een plan dat de getoonde risico’s daadwerkelijk beheerst. Een gefaseerde of bredere pilot kan verdedigbaar zijn; onderbouw proportionaliteit en resterende onzekerheid.",
+          "hint": "Geen blauwdruk is overal de beste. Beide werkbare plannen noemen afbakening, tests en herziening. Een communicatieverandering zonder praktische aanpassing beheerst het aangetoonde risico niet.",
+          "explainAfter": "Ethiek stopt niet bij diagnose. Een professionele interventie maakt waarden, mechanismen, bevoegdheden en onzekerheden zichtbaar. De kwaliteit van de redenering telt, niet het onderschrijven van één favoriete morele prioriteit.",
+          "concepts": [
+            "interventie",
+            "agency",
+            "verantwoordelijkheid",
+            "proportionaliteit"
+          ],
+          "sourceBlocks": [
+            1,
+            44,
+            47,
+            50,
+            51
+          ],
+          "boundary": "Een pilot kan beperkte risico’s beheersen maar bewijst nog geen veiligheid voor onbekende groepen of grootschalige toepassing.",
+          "options": [
+            {
+              "id": "small",
+              "text": "Beperk de pilot, test ontbrekende groepen en wijs onafhankelijke herziening toe.",
+              "correct": true,
+              "feedback": "Dit geeft ruimte voor leren binnen een begrensde toepassing; leg de grenzen en stopcriteria vast."
+            },
+            {
+              "id": "broader",
+              "text": "Breid uit met geteste fallback, extra controle en een expliciete risicoafweging.",
+              "correct": true,
+              "feedback": "Dit kan verdedigbaar zijn wanneer bewijs en capaciteit de uitbreiding ondersteunen; onderzoek neveneffecten."
+            },
+            {
+              "id": "label",
+              "text": "Wijzig alleen de groene naam en laat dataset, doel en beheer ongewijzigd.",
+              "correct": false,
+              "feedback": "Het concrete risico in selectie, toegang of herstel is niet veranderd."
+            }
+          ],
+          "id": "m4-06-b4",
+          "clueId": "m4-06-b4-clue",
+          "clueTitle": "Kies een verdedigbare eerste stap"
+        }
+      ],
+      "finale": {
+        "intro": "Een publieke partner wil de service gebruiken. Maak uit je bewijs een uitvoerbaar plan met ontwerp, beheer en publieke voorwaarden voordat je de pilot vrijgeeft.",
+        "slots": [
+          {
+            "id": "determinism",
+            "label": "Wat ondersteunt de menselijke handelingsruimte in je route?",
+            "evidenceBeatId": "m4-06-b3",
+            "options": [
+              {
+                "id": "individual",
+                "text": "Een gebruiker kan alle technische en institutionele grenzen altijd alleen veranderen.",
+                "correct": false,
+                "feedback": "Agency is reëel, maar verdeeld en begrensd."
+              },
+              {
+                "id": "choices",
+                "text": "Doelen, toegang, beheer en regels kunnen door bevoegde partijen worden aangepast en getoetst.",
+                "correct": true,
+                "feedback": "De gewijzigde deur, export en audit tonen concrete interventies."
+              },
+              {
+                "id": "automatic",
+                "text": "Een complex systeem past alle waarden vanzelf aan zodra het meer data krijgt.",
+                "correct": false,
+                "feedback": "Meer gegevens vervangen geen waardenkeuze of governance."
+              }
+            ]
+          },
+          {
+            "id": "regulation",
+            "label": "Welke conclusie over publieke kaders is verantwoord?",
+            "evidenceBeatId": "m4-06-b1",
+            "options": [
+              {
+                "id": "scope",
+                "text": "Kaders kunnen transparantie en verantwoordelijkheid versterken; toepassing, uitvoering en actuele grenzen moeten apart worden onderzocht.",
+                "correct": true,
+                "feedback": "Een wet is een aangrijpingspunt, geen uitkomstgarantie."
+              },
+              {
+                "id": "allai",
+                "text": "De AI Act behandelt ieder algoritme als dezelfde hoge risicocategorie.",
+                "correct": false,
+                "feedback": "De benadering is risicogebaseerd en contextafhankelijk."
+              },
+              {
+                "id": "report",
+                "text": "Een CSRD-rapport bewijst dat alle producten en bedrijfsactiviteiten duurzaam zijn.",
+                "correct": false,
+                "feedback": "Rapportage en feitelijke prestatie zijn verschillende vragen."
+              }
+            ]
+          }
+        ],
+        "conclusion": "De pilotroute opent met toetsbare verantwoordelijkheden en herziening. De nieuwe-sectorcasus vraagt nu een zelfstandige diagnose."
+      },
+      "originalSourceBlocks": [
+        1,
+        44,
+        45,
+        47,
+        50,
+        51
+      ],
+      "optionalReviewBlocks": [
+        45
+      ]
+    }
+  ],
+  "chapterFinale": {
+    "title": "De gemeente gebruikt een woonruimteplatform",
+    "intro": "Een gemeente verdeelt tijdelijke woningen via een platform. Een hoog gemiddeld modelresultaat, verplicht digitaal aanvragen en een gesloten contract creëren vragen over toegang, data en verantwoordelijkheid.",
+    "caseFacts": [
+      {
+        "id": "access",
+        "label": "Aanvraagroute",
+        "text": "Aanvragen kunnen alleen via een app; de organisatie registreert aantoonbare uitval bij mensen zonder passend toestel."
+      },
+      {
+        "id": "data",
+        "label": "Migratietest",
+        "text": "De leverancier levert downloads in een exclusief formaat. De nieuwe dienst kan historische aanvragen niet inlezen."
+      },
+      {
+        "id": "groups",
+        "label": "Auditkaart",
+        "text": "De gemiddelde foutscore is laag, maar in de onderzochte taal- en toestelgroepen verschillen fouten sterk."
+      },
+      {
+        "id": "govern",
+        "label": "Klachtenproces",
+        "text": "De technische leverancier en gemeente verwijzen klachten naar elkaar; niemand kan een fout besluit laten herzien."
+      }
+    ],
+    "slots": [
+      {
+        "id": "access",
+        "label": "Welke diagnose ondersteunt de aanvraagroute?",
+        "evidenceBeatId": "m4-01-b1",
+        "options": [
+          {
+            "id": "architecture",
+            "text": "Het ontwerp verdeelt feitelijke toegang; een alternatieve route moet worden onderzocht.",
+            "correct": true,
+            "feedback": "De automatische-deurlens werkt nu bij een digitale ingang."
+          },
+          {
+            "id": "taste",
+            "text": "De uitval bewijst dat niet-gebruikers alleen minder interesse hebben.",
+            "correct": false,
+            "feedback": "Het toestelprobleem toont een routebarrière, geen voorkeur."
+          },
+          {
+            "id": "intent",
+            "text": "De uitval bewijst dat de ontwerper de betrokkenen bewust wilde uitsluiten.",
+            "correct": false,
+            "feedback": "Een gevolg toont niet automatisch intentie."
+          }
+        ]
+      },
+      {
+        "id": "lock",
+        "label": "Welk mechanisme belemmert de overstap?",
+        "evidenceBeatId": "m4-03-b4",
+        "options": [
+          {
+            "id": "capacity",
+            "text": "Een tekort aan woningen verklaart uitsluitend waarom het bestand onleesbaar is.",
+            "correct": false,
+            "feedback": "Woningaanbod en bestandscompatibiliteit zijn verschillende mechanismen."
+          },
+          {
+            "id": "privacy",
+            "text": "De download bewijst dat alle privacyvragen al zijn opgelost.",
+            "correct": false,
+            "feedback": "Een export zegt niets op zichzelf over rechten en verantwoord gebruik."
+          },
+          {
+            "id": "format",
+            "text": "Een exclusief formaat en integraties maken de gegevens praktisch moeilijk overdraagbaar.",
+            "correct": true,
+            "feedback": "Dit is de aangetoonde lock-in-route."
+          }
+        ]
+      },
+      {
+        "id": "quality",
+        "label": "Wat vraagt de auditkaart naast de gemiddelde score?",
+        "evidenceBeatId": "m4-04-b3",
+        "options": [
+          {
+            "id": "cause",
+            "text": "De kaart bewijst één exacte trainingsfout als enige oorzaak.",
+            "correct": false,
+            "feedback": "Uitkomstverschillen vragen afzonderlijk oorzakenonderzoek."
+          },
+          {
+            "id": "groups",
+            "text": "Onderzoek taak, groepsverschillen, testdekking en criteria voordat je werking voor iedereen claimt.",
+            "correct": true,
+            "feedback": "Een samenvatting kan ongelijke werking verbergen."
+          },
+          {
+            "id": "average",
+            "text": "Het gemiddelde maakt verdere groepstests overbodig.",
+            "correct": false,
+            "feedback": "De kaart toont al verschillen die de samenvatting niet beschrijft."
+          }
+        ]
+      },
+      {
+        "id": "govern",
+        "label": "Welke maatregel raakt het klachtenmechanisme direct?",
+        "evidenceBeatId": "m4-05-b2",
+        "options": [
+          {
+            "id": "owner",
+            "text": "Beleg herzieningsbevoegdheid en herstelafspraken tussen gemeente en leverancier.",
+            "correct": true,
+            "feedback": "Verdeelde rollen moeten tot aanspreekbaar herstel leiden."
+          },
+          {
+            "id": "colour",
+            "text": "Maak de app rustiger van kleur zonder bevoegdheden aan te passen.",
+            "correct": false,
+            "feedback": "Visueel ontwerp belegt geen herstelverantwoordelijkheid."
+          },
+          {
+            "id": "law",
+            "text": "Wacht op één wet die automatisch iedere gemeentelijke praktijk aanpast.",
+            "correct": false,
+            "feedback": "Publieke kaders moeten nog worden geïmplementeerd in concreet bestuur."
+          }
+        ]
+      }
+    ],
+    "conclusion": "Je hebt ontwerp, infrastructuur, modelkwaliteit en governance naar een andere sector overgedragen. Over verdelingscriteria kan discussie bestaan; de diagnose moet door bewijs en duidelijke begrippen gedragen worden."
+  },
+  "knowledgeCheck": {
+    "intro": "Acht nieuwe situaties toetsen de begrippen na het avontuur. Kies op basis van het gegeven bewijs; benoem bij twijfel welke informatie ontbreekt.",
+    "items": [
+      {
+        "id": "m4-k1",
+        "question": "Een navigatie-app toont alleen hoofdroutes. Bewoners melden dat chauffeurs zijstraten niet meer overwegen. Welke verklaring past zonder volledige determinatie te claimen?",
+        "concepts": [
+          "Verbeek",
+          "technologische bemiddeling"
+        ],
+        "sourceBlocks": [
+          13
+        ],
+        "options": [
+          {
+            "id": "mediation",
+            "text": "De routekeuze wordt bemiddeld door wat de app toont; de fysieke alternatieven en beslisruimte van chauffeurs blijven bestaan.",
+            "correct": true,
+            "feedback": "Verbeek onderscheidt bemiddeling van volledige gedragsbepaling: zichtbaarheid en ervaren mogelijkheden kunnen veranderen terwijl alternatieven bestaan."
+          },
+          {
+            "id": "efficiency",
+            "text": "De app realiseert een efficiëntere routeverdeling; de ontbrekende zijstraten veranderen vooral rijtijd en hebben geen betekenis voor ervaren mogelijkheden.",
+            "correct": false,
+            "feedback": "Efficiëntie kan een doel zijn, maar het verdwijnen van alternatieven uit het zicht betreft ook de ervaren handelingsruimte."
+          },
+          {
+            "id": "preference",
+            "text": "De app registreert bestaande voorkeuren; uit het feit dat zijstraten fysiek beschikbaar blijven volgt dat de interface geen keuze-effect kan hebben.",
+            "correct": false,
+            "feedback": "Fysieke beschikbaarheid is geen bewijs dat een optie even zichtbaar of denkbaar blijft. Onderzoek de bemiddeling door het scherm."
+          },
+          {
+            "id": "constraint",
+            "text": "De app verandert de juridische toegang tot de zijstraten; de melding toont daarmee een formele toegangsregel in plaats van een waarnemingseffect.",
+            "correct": false,
+            "feedback": "Er is geen gewijzigde verkeersregel genoemd. De casus beschrijft wat chauffeurs overwegen, niet hun formele recht op toegang."
+          }
+        ]
+      },
+      {
+        "id": "m4-k2",
+        "question": "Een bedrijfsmonitor verandert wie managers op energieverbruik aanspreken. Welke ANT-analyse is het meest precies?",
+        "concepts": [
+          "Actor-Network Theory",
+          "menselijke en niet-menselijke actoren"
+        ],
+        "sourceBlocks": [
+          13,
+          15
+        ],
+        "options": [
+          {
+            "id": "supplier",
+            "text": "Onderzoek vooral de afhankelijkheid van de leverancier; de veranderde aanspreekrelaties tonen in deze casus dat contractmacht naar buiten is verschoven.",
+            "correct": false,
+            "feedback": "Leveranciersafhankelijkheid kan relevant zijn, maar de gegeven verandering bewijst geen verschuiving van contractmacht. ANT vraagt het bredere netwerk."
+          },
+          {
+            "id": "individual",
+            "text": "Onderzoek vooral de persoonlijke motivatie van managers; het meetsysteem levert dezelfde verantwoordingsrelaties ongeacht de gekozen categorieën en prestatieafspraken.",
+            "correct": false,
+            "feedback": "De meetcategorieën en afspraken beïnvloeden wat zichtbaar en bespreekbaar wordt. Ze zijn geen vaste achtergrond voor individuele motivatie."
+          },
+          {
+            "id": "accuracy",
+            "text": "Onderzoek vooral de meetnauwkeurigheid; een technisch correcte meting houdt de sociale verantwoordingsstructuur in deze situatie ongewijzigd.",
+            "correct": false,
+            "feedback": "Een nauwkeurige meting kan juist nieuwe verantwoordingsrelaties creëren. Technische juistheid en sociale werking zijn verschillende vragen."
+          },
+          {
+            "id": "network",
+            "text": "Onderzoek hoe monitor, meetcategorieën, prestatieafspraken, medewerkers en managers samen bepalen welke handelingen zichtbaar worden en wie daarop wordt aangesproken.",
+            "correct": true,
+            "feedback": "ANT volgt menselijke en niet-menselijke actoren en hun relaties. Het apparaat, de regels en het gebruik zijn gezamenlijk relevant."
+          }
+        ]
+      },
+      {
+        "id": "m4-k3",
+        "question": "Een klein bedrijf kan een wereldwijd verkoopnetwerk gebruiken, maar alleen onder eenzijdig wijzigbare toelatingseisen. Wat ondersteunt dit bewijs?",
+        "concepts": [
+          "infrastructuurmacht",
+          "markttoegang"
+        ],
+        "sourceBlocks": [
+          20,
+          22
+        ],
+        "options": [
+          {
+            "id": "scale",
+            "text": "De omvang verklaart hier de toegangsmacht; wie dezelfde schaal bereikt krijgt daarmee ook zeggenschap over de huidige toelatingsregels.",
+            "correct": false,
+            "feedback": "Schaal en beslisbevoegdheid zijn verschillend. Een deelnemer kan groeien zonder de toelatingsregels van de beheerder te bepalen."
+          },
+          {
+            "id": "public",
+            "text": "Het netwerk is economisch onmisbaar; daardoor worden de eenzijdige toelatingseisen in deze casus feitelijk door publieke instanties vastgesteld.",
+            "correct": false,
+            "feedback": "Onmisbaarheid brengt vragen over publieke belangen, maar bewijst geen publieke vaststelling van de beschreven private regels."
+          },
+          {
+            "id": "both",
+            "text": "De gezamenlijke infrastructuur biedt schaalvoordeel; het recht om deelnamevoorwaarden te veranderen geeft de beheerder daarnaast invloed op markttoegang.",
+            "correct": true,
+            "feedback": "Efficiënte toegang en asymmetrische zeggenschap kunnen samengaan. De casus toont een machtsmechanisme, nog geen vastgestelde concrete misbruikuitkomst."
+          },
+          {
+            "id": "fee",
+            "text": "De commissiehoogte verklaart hier de toegangsmacht; zolang deelname goedkoper blijft dan een eigen netwerk, is de regelbevoegdheid ondergeschikt.",
+            "correct": false,
+            "feedback": "Prijsvoordeel neemt de bevoegdheid over toegang en zichtbaarheid niet weg. De casus draait juist om de eenzijdige wijzigbaarheid."
+          }
+        ]
+      },
+      {
+        "id": "m4-k4",
+        "question": "Een machine meet slijtage om onderhoud te plannen; een advertentiedienst gebruikt locaties om aandacht te verkopen. Welke tegenstelling past bij Zuboffs lens?",
+        "concepts": [
+          "surveillancekapitalisme",
+          "data als hulpbron"
+        ],
+        "sourceBlocks": [
+          27,
+          34,
+          37
+        ],
+        "options": [
+          {
+            "id": "storage",
+            "text": "Vergelijk vooral de opslaglocatie: centraal opgeslagen slijtagegegevens en locaties hebben dezelfde economische functie als zij dezelfde cloud gebruiken.",
+            "correct": false,
+            "feedback": "Dezelfde technische opslag kan verschillende doelen en waardeketens bedienen. Volg het gebruik en de verdiende waarde."
+          },
+          {
+            "id": "use",
+            "text": "Vergelijk de waardeketen: slijtagegegevens dienen procesonderhoud, terwijl menselijke locaties commerciële gedragsvoorspelling en verkochte aandacht ondersteunen.",
+            "correct": true,
+            "feedback": "In Zuboffs kritische lens telt hoe menselijke ervaring in voorspelling en beïnvloeding wordt omgezet en economisch benut."
+          },
+          {
+            "id": "consent",
+            "text": "Vergelijk vooral de toestemming: een advertentiedienst met een akkoordvenster behoort daardoor tot hetzelfde model als voorspellend onderhoud.",
+            "correct": false,
+            "feedback": "Toestemming is een aparte ethische en juridische vraag. Het beschreven doel en de commerciële waardeketen veranderen niet door een akkoordvenster."
+          },
+          {
+            "id": "prediction",
+            "text": "Vergelijk vooral de voorspelling: omdat beide toekomstige gebeurtenissen voorspellen, wordt in beide gevallen menselijke aandacht als hetzelfde product verkocht.",
+            "correct": false,
+            "feedback": "Voorspellen komt in veel modellen voor. Een voorspelde machinestoring is geen verkocht menselijk gedrags- of aandachtsproduct."
+          }
+        ]
+      },
+      {
+        "id": "m4-k5",
+        "question": "Een AI-selectiesysteem heeft hoge gemiddelde nauwkeurigheid, maar werd nauwelijks met één betrokken groep getest. Welke vervolgstap is gerechtvaardigd?",
+        "concepts": [
+          "representativiteit",
+          "groepsprestaties"
+        ],
+        "sourceBlocks": [
+          37,
+          38,
+          47
+        ],
+        "options": [
+          {
+            "id": "test",
+            "text": "Test de ondervertegenwoordigde groep apart, vergelijk foutsoorten en toets de concrete toepassing; het hoge gemiddelde begrenst die conclusie niet voldoende.",
+            "correct": true,
+            "feedback": "Groepsdekking en toepassingscontext bepalen wat de score ondersteunt. Beperkte tests bewijzen nog geen exacte discriminatieomvang of oorzaak."
+          },
+          {
+            "id": "aggregate",
+            "text": "Vergroot vooral de totale testset met dezelfde bestaande verdeling; meer gevallen maken het hoge gemiddelde tot sterker bewijs voor die ontbrekende groep.",
+            "correct": false,
+            "feedback": "Meer gevallen in dezelfde scheve verdeling kunnen de groepslacune laten bestaan. Relevante dekking en foutverdeling vragen aparte tests."
+          },
+          {
+            "id": "explanation",
+            "text": "Voeg een begrijpelijke uitleg van de beslisregel toe; die uitleg kan de ontbrekende empirische groepsmeting vervangen bij deze prestatietoets.",
+            "correct": false,
+            "feedback": "Uitlegbaarheid helpt onderzoek, maar meet niet hoe vaak beslissingen voor de ondervertegenwoordigde groep verkeerd gaan."
+          },
+          {
+            "id": "threshold",
+            "text": "Verlaag voor iedereen de selectiedrempel totdat het totale toelatingspercentage stijgt; een hoger totaal toont dan een betere verdeling van fouten.",
+            "correct": false,
+            "feedback": "Een totaal toelatingspercentage is geen groepsgewijze foutanalyse. Een drempelwijziging kan foutsoorten en verdeling verschillend beïnvloeden."
+          }
+        ]
+      },
+      {
+        "id": "m4-k6",
+        "question": "Een explainable kredietmodel legt helder uit dat een relevante groep structureel wordt afgewezen. Wat volgt uit die uitleg?",
+        "concepts": [
+          "explainable AI",
+          "black box",
+          "algoritme-audit"
+        ],
+        "sourceBlocks": [
+          41,
+          47
+        ],
+        "options": [
+          {
+            "id": "transparent",
+            "text": "De toetsbare uitleg biedt voldoende procedurele rechtvaardigheid; bij een verklaarde regel is een aparte beoordeling van het afwijzingscriterium minder noodzakelijk.",
+            "correct": false,
+            "feedback": "Een begrijpelijke procedure kan een ongepast criterium toepassen. Procedurele transparantie vervangt inhoudelijke toetsing van data, doelen en gevolgen niet."
+          },
+          {
+            "id": "parity",
+            "text": "De groepsverschillen bewijzen dat de beslisregel discrimineert; pas de aantallen afwijzingen gelijk zodat de causaliteit van het probleem is vastgesteld.",
+            "correct": false,
+            "feedback": "Een verschil vraagt onderzoek naar criteria, context en foutverdeling. Gelijke aantallen stellen niet op zichzelf de oorzaak of rechtvaardigheid vast."
+          },
+          {
+            "id": "vendor",
+            "text": "De uitleg toont welke software de beslissing berekent; daardoor ligt de herstelverantwoordelijkheid voor deze afwijzingen bij de leverancier in plaats van de gebruikende organisatie.",
+            "correct": false,
+            "feedback": "Ontwerp en gebruik hebben verschillende invloed. Een uitleg verschuift de verantwoordelijkheid niet zonder afspraken, bevoegdheden en toepassing te onderzoeken."
+          },
+          {
+            "id": "investigate",
+            "text": "De uitleg maakt criteria onderzoekbaar; toets hun legitimiteit, relevante data en foutverdeling voordat je het verschil als verantwoord of onrechtvaardig beoordeelt.",
+            "correct": true,
+            "feedback": "Verklaarbaarheid is een middel voor onderzoek. Zowel een geoorloofd criterium als een onrechtvaardige proxy kan begrijpelijk worden uitgelegd."
+          }
+        ]
+      },
+      {
+        "id": "m4-k7",
+        "question": "Een bedrijf past de interface aan, maar blijft teams belonen voor alleen verkoopvolume. Waarom kan de interventie tekortschieten?",
+        "concepts": [
+          "ontwerpinterventie",
+          "organisatorische interventie"
+        ],
+        "sourceBlocks": [
+          44,
+          47
+        ],
+        "options": [
+          {
+            "id": "metric",
+            "text": "Het tekort zit primair in meetprecisie; zodra het scherm verkoopvolume nauwkeuriger meet, worden de andere waarden even zwaar in de bonus beloond.",
+            "correct": false,
+            "feedback": "Nauwkeuriger volumemeting maakt de bonus niet breder. De prioriteit is in de organisatorische beloningsregel vastgelegd."
+          },
+          {
+            "id": "law",
+            "text": "Het tekort zit primair in ontbrekende wetgeving; de organisatie kan haar volumebonus pas veranderen wanneer een publieke norm die wijziging voorschrijft.",
+            "correct": false,
+            "feedback": "Institutionele kaders kunnen helpen, maar organisaties hebben ook eigen invloed op doelen, uitvoering en beloningsregels."
+          },
+          {
+            "id": "incentive",
+            "text": "Het scherm maakt andere waarden zichtbaar, maar de beloning stuurt handelen nog op verkoopvolume; ontwerp en governance kunnen elkaar tegenwerken.",
+            "correct": true,
+            "feedback": "Een nieuw technisch aangrijpingspunt verandert organisatorische doelen niet vanzelf. Volg hoe beide in het werk samenkomen."
+          },
+          {
+            "id": "training",
+            "text": "Het tekort zit primair in schermvaardigheid; extra instructie over de nieuwe interface verandert ook de prikkel die de volumebonus geeft.",
+            "correct": false,
+            "feedback": "Training kan gebruik verbeteren, maar verandert niet de financiële beloningsregel. Het beschreven conflict blijft bestaan."
+          }
+        ]
+      },
+      {
+        "id": "m4-k8",
+        "question": "Een projectteam zegt: er is een Europese kaderwet, dus onze toepassing is al verantwoord. Wat ontbreekt?",
+        "concepts": [
+          "AI Act",
+          "CSRD",
+          "Digital Services Act",
+          "institutionele interventie"
+        ],
+        "sourceBlocks": [
+          47,
+          50,
+          51
+        ],
+        "options": [
+          {
+            "id": "publication",
+            "text": "Publiceer de algoritmische criteria; transparantie over de regel kan hier de toepassingsscope en controle op maatschappelijke gevolgen vervangen.",
+            "correct": false,
+            "feedback": "Transparantie is een mogelijk instrument. Zij bepaalt noch de actuele juridische scope, noch de daadwerkelijke gevolgen en herstelmogelijkheden."
+          },
+          {
+            "id": "application",
+            "text": "Bepaal welk kader, welke rol en toepassingsgrens gelden; toets vervolgens concrete risico’s, uitvoering, toezicht en mogelijkheden voor herstel.",
+            "correct": true,
+            "feedback": "AI Act, CSRD en DSA hebben verschillende functies en scopes. Een bestaande wet is geen beoordeling van deze toepassing."
+          },
+          {
+            "id": "reporting",
+            "text": "Publiceer een duurzaamheidsrapport over de pilot; vergelijkbare rapportage kan hier de afzonderlijke risico- en toegangstoets vervangen.",
+            "correct": false,
+            "feedback": "Rapportage vergroot inzicht, maar vervangt geen specifieke risico-, toegangs- of uitvoeringsbeoordeling van een AI-toepassing."
+          },
+          {
+            "id": "certification",
+            "text": "Laat de leverancier verklaren dat zijn software Europees is; de toepassingscontext kan dan via de herkomst van het systeem worden afgedekt.",
+            "correct": false,
+            "feedback": "Herkomst is geen bewijs dat de juiste verplichtingen, risico’s en verantwoordelijkheden in de concrete toepassing zijn onderzocht."
+          }
+        ]
+      }
+    ]
+  },
+  "originalSourceBlocks": [
+    0,
+    1,
+    2,
+    4,
+    5,
+    6,
+    8,
+    10,
+    11,
+    13,
+    14,
+    15,
+    17,
+    18,
+    20,
+    22,
+    23,
+    24,
+    26,
+    27,
+    28,
+    30,
+    31,
+    32,
+    34,
+    35,
+    37,
+    38,
+    40,
+    41,
+    42,
+    44,
+    45,
+    47,
+    48,
+    50,
+    51,
+    52
+  ],
+  "optionalReviewBlocks": [
+    2,
+    5,
+    8,
+    11,
+    14,
+    15,
+    18,
+    23,
+    26,
+    28,
+    31,
+    32,
+    35,
+    38,
+    42,
+    45,
+    52
+  ],
+  "coverageNote": "De route onderwijst en oefent de geauditeerde cursusproposities. Unieke videodetails zonder volledig geverifieerd transcript worden uitsluitend gedekt wanneer de oorspronkelijke volledige projecties in de speelroute zijn geïntegreerd. Authored dekking is geen bewijs van beheersing.",
+  "sourceMediaRequirements": [
+    {
+      "sourceBlock": 8,
+      "youtube": "4XEM1pl-7tU",
+      "owner": "Wireless Philosophy",
+      "title": "PHILOSOPHY - EMERGING TECHNOLOGIES 1: Is Technology as “Neutral” as We Think It Is?",
+      "start": 0,
+      "originalUrl": "https://www.youtube.com/watch?v=4XEM1pl-7tU",
+      "verificationStatus": "owner-description-and-original-course-module-reviewed; full-transcript-unavailable",
+      "knownCoreTeachingPurpose": "Question the neutral-tool assumption through value choices and governance in search ranking.",
+      "teachingLocations": [
+        "m4-03-b5",
+        "m4-01-b1"
+      ],
+      "verificationUrls": [
+        "https://www.wi-phi.com/modules/emerging-technologies/",
+        "https://www.youtube.com/watch?v=4XEM1pl-7tU"
+      ],
+      "uniqueUnverifiedContent": "Any unique spoken argument or illustration outside the owner description and module prompts remains unverified. The worksheet must not be read as proof that Google sells higher organic rankings.",
+      "requiredProjection": true,
+      "projectionRequirements": {
+        "investigationId": "m4-03",
+        "fullOriginalClip": true,
+        "shortSegmentsAllowed": true,
+        "transcriptOrCaptionsForAccessibility": true,
+        "applicationPrompt": "Welke rangschikkingswaarde kiest de hub, wie bepaalt die waarde en welke alternatieve waarde blijft bespreekbaar?",
+        "completionCriterion": "Original clip delivered within the investigation; learner applies its claim to this case and marks uncertainty. A click or source ID is not content coverage."
+      }
+    },
+    {
+      "sourceBlock": 14,
+      "youtube": "xqB1Gw34J28",
+      "owner": "Draftish.",
+      "title": "Actor-Network Theory: For the Confused",
+      "start": 0,
+      "originalUrl": "https://www.youtube.com/watch?v=xqB1Gw34J28",
+      "verificationStatus": "owner-description-reviewed; full-transcript-unavailable",
+      "knownCoreTeachingPurpose": "Trace distributed influence among human and non-human actants; description also mentions fast fashion, Uber, architecture and criticism of endless mapping.",
+      "teachingLocations": [
+        "m4-01-b3",
+        "m4-01-b1"
+      ],
+      "verificationUrls": [
+        "https://www.youtube.com/watch?v=xqB1Gw34J28"
+      ],
+      "uniqueUnverifiedContent": "The precise criticisms and all unique spoken details of the three examples are not established by a full transcript.",
+      "requiredProjection": true,
+      "projectionRequirements": {
+        "investigationId": "m4-01",
+        "fullOriginalClip": true,
+        "shortSegmentsAllowed": true,
+        "transcriptOrCaptionsForAccessibility": true,
+        "applicationPrompt": "Welke menselijke en niet-menselijke onderdelen veranderen samen de toegang, en welke grens heeft jouw netwerkkaart?",
+        "completionCriterion": "Original clip delivered within the investigation; learner applies its claim to this case and marks uncertainty. A click or source ID is not content coverage."
+      }
+    },
+    {
+      "sourceBlock": 26,
+      "youtube": "eVSfJhssXUA",
+      "owner": "World Economic Forum",
+      "title": "What Is Big Data?",
+      "start": 0,
+      "originalUrl": "https://www.youtube.com/watch?v=eVSfJhssXUA",
+      "verificationStatus": "owner-description-and-historical-owner-explanation-reviewed; full-transcript-unavailable",
+      "knownCoreTeachingPurpose": "Everyday digital traces, aggregation and algorithms can create knowledge and economic value. Historical predictions remain dated.",
+      "teachingLocations": [
+        "m4-03-b1",
+        "m4-03-b2"
+      ],
+      "verificationUrls": [
+        "https://www.youtube.com/watch?v=eVSfJhssXUA",
+        "https://www.weforum.org/stories/all/6-videos-that-will-help-you-understand-davos-2016/",
+        "https://www.weforum.org/stories/economic-growth/big-data-explained-in-less-than-two-minutes/"
+      ],
+      "uniqueUnverifiedContent": "The 2015 owner explanation is corroborating context, not a verified transcript of this exact clip. Unique illustrations and dated predictions require the original projection.",
+      "requiredProjection": true,
+      "projectionRequirements": {
+        "investigationId": "m4-03",
+        "fullOriginalClip": true,
+        "shortSegmentsAllowed": true,
+        "transcriptOrCaptionsForAccessibility": true,
+        "applicationPrompt": "Volg één gegevensspoor van activiteit tot besluit. Wat is hier een actuele casusobservatie en wat is een gedateerde voorspelling?",
+        "completionCriterion": "Original clip delivered within the investigation; learner applies its claim to this case and marks uncertainty. A click or source ID is not content coverage."
+      }
+    },
+    {
+      "sourceBlock": 32,
+      "youtube": "uoTMwX_clDs",
+      "owner": "LUBACH",
+      "title": "Kan Trump Nederland digitaal platleggen? | LUBACH",
+      "start": 0,
+      "originalUrl": "https://www.youtube.com/watch?v=uoTMwX_clDs",
+      "verificationStatus": "original-owner-description-reviewed; full-transcript-unavailable",
+      "knownCoreTeachingPurpose": "Historical 2025 current-affairs example of foreign cloud dependence, operational access, possible service cutoff and alternatives.",
+      "teachingLocations": [
+        "m4-03-b6",
+        "m4-03-b4"
+      ],
+      "verificationUrls": [
+        "https://www.youtube.com/watch?v=uoTMwX_clDs"
+      ],
+      "uniqueUnverifiedContent": "Unique geopolitical, legal and corporate claims are not fully verified. Do not convert the historical clip into a universal current power-to-shut-down claim.",
+      "requiredProjection": true,
+      "projectionRequirements": {
+        "investigationId": "m4-03",
+        "fullOriginalClip": true,
+        "shortSegmentsAllowed": true,
+        "transcriptOrCaptionsForAccessibility": true,
+        "applicationPrompt": "Welke afhankelijkheid toont het fragment? Vergelijk haar met de fictieve hub en onderbouw één geteste uitwijkroute zonder een actuele politieke voorspelling.",
+        "completionCriterion": "Original clip delivered within the investigation; learner applies its claim to this case and marks uncertainty. A click or source ID is not content coverage."
+      }
+    }
+  ],
+  "status": "playable-runtime-checked"
+}

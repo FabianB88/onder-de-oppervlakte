@@ -1,0 +1,2274 @@
+{
+  "schemaVersion": 1,
+  "lessonId": "m4",
+  "rooms": [
+    {
+      "investigationId": "m4-01",
+      "npcs": [
+        {
+          "name": "Iris",
+          "role": "Ontwerper van automatisering en reparatieplanning",
+          "cell": 3,
+          "opening": "Onderzoek eerst de voorwerpen in De ingang die kiest. Ik help je de begrippen en redenering achter je bevindingen uitwerken.",
+          "topics": [
+            {
+              "id": "m4-01-iris-t1",
+              "question": "Hoe moet ik 'Test de deur in vier omstandigheden' begrijpen?",
+              "answer": "De deur is niet alleen een hulpmiddel. Stroom, sensoren, onderhoud en bediening bepalen samen wie toegang heeft. Verantwoordelijkheid betreft dus ontwerp, gebruik en beheer.",
+              "concepts": [
+                "morele architectuur",
+                "toegang en afhankelijkheid",
+                "automatische deur"
+              ],
+              "sourceBlocks": [
+                0,
+                1,
+                10
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Morele architectuur betekent: ontwerp maakt handelingen gemakkelijker of moeilijker en verdeelt zo toegang, risico en afhankelijkheid. Kijk naar gebruik én uitval."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "De sensor opent zonder duwkracht. Dit helpt rolstoelgebruikers, mensen met bagage en ouders met een kinderwagen."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Een storing bewijst geen slechte intentie. Een bereikbaar alternatief moet ook veilig, begrijpelijk en onderhouden zijn."
+                }
+              ]
+            },
+            {
+              "id": "m4-01-iris-t2",
+              "question": "Hoe moet ik 'Twee soorten politieke werking' begrijpen?",
+              "answer": "Winner laat twee routes zien: bewust ingebouwde sociale ordening en politieke gevolgen van de organisatie die een techniek vereist. Dezelfde techniek kan beide hebben.",
+              "concepts": [
+                "Winner",
+                "bewuste ontwerpsturing",
+                "organisatorische vereisten"
+              ],
+              "sourceBlocks": [
+                4,
+                22
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Een expliciete keuzeregel kan toegang bewust beperken. Een complexe techniek kan ook expertise en coördinatie vereisen zonder dat uitsluiting het doel was."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "De toegangsselectie staat expliciet in de opdracht."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Een systeemvereiste bewijst niet dat alleen één politieke bestuursvorm mogelijk is. Vraag welke alternatieve ontwerpen bestaan."
+                }
+              ]
+            },
+            {
+              "id": "m4-01-iris-t3",
+              "question": "Hoe moet ik 'De deur is een netwerk' begrijpen?",
+              "answer": "ANT maakt zichtbaar hoe de sensor, afspraak en monteur samen handelingen sturen. Verbeek legt de nadruk op bemiddeling: technologie verandert wat mensen waarnemen en kunnen doen.",
+              "concepts": [
+                "Actor-Network Theory",
+                "menselijke en niet-menselijke actoren",
+                "Verbeek",
+                "technologische bemiddeling"
+              ],
+              "sourceBlocks": [
+                13,
+                15
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "In Latours ANT beïnvloeden bezoekers, sensoren, regels en monteurs elkaar. Een actor kan handelen bemiddelen zonder bewustzijn of menselijke morele schuld te hebben."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Een technische waarneming vormt de handelingsruimte."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Een sensor beïnvloedt handelen, maar wordt daarmee geen moreel persoon. Mensen en organisaties blijven aanspreekbaar op ontwerp en beheer."
+                }
+              ]
+            },
+            {
+              "id": "m4-01-iris-t4",
+              "question": "Hoe moet ik 'Kies een werkende fallback' begrijpen?",
+              "answer": "Een noodaccu of een zelfstandig bruikbare mechanische route kan helpen. Test het met betrokken bezoekers en regel beheer. Het ontwerp beïnvloedt gedrag, maar kan bewust worden veranderd.",
+              "concepts": [
+                "ontwerpinterventie",
+                "menselijke agency",
+                "automatische deur"
+              ],
+              "sourceBlocks": [
+                10,
+                44,
+                47
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Een fallback moet ook zonder de uitgevallen functie bereikbaar zijn. Meer normale snelheid verhelpt geen onbereikbare noodbediening."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Je verlaagt de uitvalafhankelijkheid; onderzoek veiligheid, kracht en gebruiksgemak."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Een geslaagde proef bewijst nog niet dat iedere bezoeker onder iedere noodsituatie veilig toegang heeft."
+                }
+              ]
+            }
+          ],
+          "theory": {
+            "title": "Een deur kan waarden inbouwen",
+            "concepts": [
+              "morele architectuur",
+              "Winner",
+              "toegankelijkheid",
+              "ontwerp en organisatie"
+            ],
+            "sections": [
+              {
+                "title": "De theorie uitgelegd",
+                "text": "Met morele architectuur bedoelen we dat een ontwerp onze mogelijkheden ordent. Een deur kan toegang eenvoudiger maken zonder een regel uit te spreken. Winner laat zien dat zulke ordening bewust kan worden gekozen, maar ook samenhangt met de organisatie die een techniek nodig heeft. Daarom beoordelen we zowel het technische ontwerp als de afspraken eromheen, en onderscheiden we gevolgen van bedoelingen."
+              },
+              {
+                "title": "Wat je hier onderzoekt",
+                "text": "Hier opent de sensor de deur zonder duwkracht. Dat is een werkelijke toegankelijkheidswinst. Bij uitval worden stroom, onderhoud en de hoogte van de noodknop echter doorslaggevend. Dezelfde voorziening verdeelt dus ook afhankelijkheid. Je opdracht is die samenhang te herstellen: een bereikbare bediening, een bruikbare uitvalroute en iemand die het onderhoud regelt. Alleen een snellere sensor raakt niet ieder probleem."
+              },
+              {
+                "title": "Voorbeeld en grens",
+                "text": "Vergelijk twee voorstellen. Een noodaccu houdt de automatische functie tijdelijk beschikbaar, maar vraagt controle en vervanging. Een mechanische bediening vermindert stroomafhankelijkheid, maar moet met weinig kracht en veilig werken. Beide kunnen verdedigbaar zijn. Kies op basis van bezoekers, omstandigheden en tests. Een storing bewijst op zichzelf geen uitsluitingsintentie; de kwaliteit van de oplossing volgt ook niet uit haar vriendelijke naam."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Mila",
+          "role": "Reparatietechnicus en onderzoeker van ketenrecords",
+          "cell": 2,
+          "opening": "Ik volg de gevolgen voor mensen in De ingang die kiest. Leg je bewijs naast mijn vragen; een bruikbare diagnose laat ook zien wat je nog niet weet.",
+          "topics": [
+            {
+              "id": "m4-01-mila-t1",
+              "question": "Wat betekent 'Test de deur in vier omstandigheden' voor betrokkenen?",
+              "answer": "Bij stroomuitval blijft het zware paneel dicht. Juist gebruikers die op automatisering rekenen, kunnen minder zelfstandig naar binnen.",
+              "concepts": [
+                "morele architectuur",
+                "toegang en afhankelijkheid",
+                "automatische deur"
+              ],
+              "sourceBlocks": [
+                0,
+                1,
+                10
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "De deur is niet alleen een hulpmiddel. Stroom, sensoren, onderhoud en bediening bepalen samen wie toegang heeft. Verantwoordelijkheid betreft dus ontwerp, gebruik en beheer."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Bekijk de deur, sensor, uitvalkaart en bedieningshoogte. Hetzelfde ontwerp helpt iemand in de ene situatie en vormt een barrière in een andere."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Een storing bewijst geen slechte intentie. Een bereikbaar alternatief moet ook veilig, begrijpelijk en onderhouden zijn."
+                }
+              ]
+            },
+            {
+              "id": "m4-01-mila-t2",
+              "question": "Wat betekent 'Twee soorten politieke werking' voor betrokkenen?",
+              "answer": "De werking creëert een coördinatievereiste.",
+              "concepts": [
+                "Winner",
+                "bewuste ontwerpsturing",
+                "organisatorische vereisten"
+              ],
+              "sourceBlocks": [
+                4,
+                22
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Winner laat twee routes zien: bewust ingebouwde sociale ordening en politieke gevolgen van de organisatie die een techniek vereist. Dezelfde techniek kan beide hebben."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Leg ontwerpnotities bij bewust ingestelde toegang of een organisatievoorwaarde van het systeem. Winner onderscheidt beide; je hebt bewijs nodig om intentie vast te stellen."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Een systeemvereiste bewijst niet dat alleen één politieke bestuursvorm mogelijk is. Vraag welke alternatieve ontwerpen bestaan."
+                }
+              ]
+            },
+            {
+              "id": "m4-01-mila-t3",
+              "question": "Wat betekent 'De deur is een netwerk' voor betrokkenen?",
+              "answer": "Een regel doet mee in het netwerk, naast apparaten en mensen.",
+              "concepts": [
+                "Actor-Network Theory",
+                "menselijke en niet-menselijke actoren",
+                "Verbeek",
+                "technologische bemiddeling"
+              ],
+              "sourceBlocks": [
+                13,
+                15
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "ANT maakt zichtbaar hoe de sensor, afspraak en monteur samen handelingen sturen. Verbeek legt de nadruk op bemiddeling: technologie verandert wat mensen waarnemen en kunnen doen."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Verbind ieder onderdeel met wat het in de toegangsroute verandert. Actor-Network Theory kijkt naar menselijke én niet-menselijke actoren in relaties."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Een sensor beïnvloedt handelen, maar wordt daarmee geen moreel persoon. Mensen en organisaties blijven aanspreekbaar op ontwerp en beheer."
+                }
+              ]
+            },
+            {
+              "id": "m4-01-mila-t4",
+              "question": "Wat betekent 'Kies een werkende fallback' voor betrokkenen?",
+              "answer": "Je verlaagt de uitvalafhankelijkheid; onderzoek veiligheid, kracht en gebruiksgemak.",
+              "concepts": [
+                "ontwerpinterventie",
+                "menselijke agency",
+                "automatische deur"
+              ],
+              "sourceBlocks": [
+                10,
+                44,
+                47
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Een noodaccu of een zelfstandig bruikbare mechanische route kan helpen. Test het met betrokken bezoekers en regel beheer. Het ontwerp beïnvloedt gedrag, maar kan bewust worden veranderd."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Selecteer een voorstel dat de beschreven uitvalbarrière aanpakt. Twee plannen zijn verdedigbaar, maar hebben andere afhankelijkheden. Leg je keuze in je notities uit."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Een geslaagde proef bewijst nog niet dat iedere bezoeker onder iedere noodsituatie veilig toegang heeft."
+                }
+              ]
+            }
+          ],
+          "theory": {
+            "title": "Kijk naar relaties, niet alleen naar het apparaat",
+            "concepts": [
+              "Actor-Network Theory",
+              "Verbeek",
+              "technologische bemiddeling",
+              "verantwoordelijkheid"
+            ],
+            "sections": [
+              {
+                "title": "De theorie uitgelegd",
+                "text": "Actor-Network Theory onderzoekt hoe mensen, apparaten en regels samen handelen vormgeven. Een sensor is een actor in de betekenis dat hij verschil maakt, niet dat hij bewust kiest of moreel schuldig is. Verbeek legt een ander accent: techniek bemiddelt wat we waarnemen en welke handelingen mogelijk lijken. Beide helpen een deur begrijpen, maar beantwoorden niet vanzelf welke oplossing rechtvaardig is."
+              },
+              {
+                "title": "Wat je hier onderzoekt",
+                "text": "De sensor herkent een beweging, de beheerregel bepaalt wie bij een storing wordt gebeld en het scherm toont één ingang. Samen vormen ze de toegangsroute. Kijk daarom ook naar de monteur, bezoeker en verborgen alternatieve doorgang. Verantwoordelijkheid verdwijnt niet doordat veel onderdelen meedoen. Je zoekt wie het probleem kan herkennen, wie een keuze kan aanpassen en wie voor herstel aanspreekbaar blijft."
+              },
+              {
+                "title": "Voorbeeld en grens",
+                "text": "Stel dat het scherm alleen de hoofdingang toont, terwijl achter het gebouw een toegankelijke ingang bestaat. De weg is fysiek beschikbaar, maar minder zichtbaar en daardoor minder vanzelfsprekend. Dat is bemiddeling. Een nieuwe routeaanwijzing kan helpen, maar herstelt geen defecte sensor. Een netwerkkaart moet dus tot gerichte vragen leiden; een eindeloze verzameling pijlen is nog geen verklaring of bruikbare interventie."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "investigationId": "m4-02",
+      "npcs": [
+        {
+          "name": "Omar",
+          "role": "Logistiek coördinator van het depot",
+          "cell": 1,
+          "opening": "Onderzoek eerst de voorwerpen in Het logistieke knooppunt. Ik help je de begrippen en redenering achter je bevindingen uitwerken.",
+          "topics": [
+            {
+              "id": "m4-02-omar-t1",
+              "question": "Hoe moet ik 'Zoek wat de apparaten mogelijk maakt' begrijpen?",
+              "answer": "Star en Bowker benadrukken de achtergrondfunctie van infrastructuur. De storing toont afhankelijkheid. Wie standaarden en toegang beheert, beïnvloedt welke organisaties kunnen deelnemen.",
+              "concepts": [
+                "infrastructuur",
+                "achtergrond en uitval",
+                "standaarden en afhankelijkheden",
+                "Star en Bowker"
+              ],
+              "sourceBlocks": [
+                17,
+                18,
+                20
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Een infrastructuur ondersteunt andere activiteiten, werkt over grote schaal en maakt standaarden en afhankelijkheden. Een los apparaat kan zonder netwerk weinig doen."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Het transportnetwerk verbindt haven, magazijn en reparatiehub. Het maakt leveringen mogelijk voor meerdere organisaties."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Niet ieder groot apparaat is een infrastructuur. Onderzoek de ondersteunende relaties, schaal en standaarden."
+                }
+              ]
+            },
+            {
+              "id": "m4-02-omar-t2",
+              "question": "Hoe moet ik 'Laat de reparatie echt reizen' begrijpen?",
+              "answer": "Wereldwijde handel steunt op havens, scheepvaart, magazijnen en tracking. Data over voorraad, reistijd en vraag coördineren die fysieke route; infrastructuur is meer dan de losse scanner.",
+              "concepts": [
+                "logistieke infrastructuur",
+                "fysiek en digitaal netwerk",
+                "coördinatie"
+              ],
+              "sourceBlocks": [
+                20
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Logistiek combineert transport, opslag en datacoördinatie. Volg eerst het product; vraag daarna welke gegevens iedere stap mogelijk maken."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Wereldwijde handel steunt op havens, scheepvaart, magazijnen en tracking. Data over voorraad, reistijd en vraag coördineren die fysieke route; infrastructuur is meer dan de losse scanner."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Deze volgorde beschrijft de proefroute. Andere logistieke netwerken kunnen andere stappen en retourlussen hebben."
+                }
+              ]
+            },
+            {
+              "id": "m4-02-omar-t3",
+              "question": "Hoe moet ik 'De snelste route heeft een eigenaar' begrijpen?",
+              "answer": "Amazon illustreert de verbinding van magazijnen, planning, transport en consumentendata. Efficiëntie is een reëel voordeel; infrastructuurmacht ontstaat mede uit controle over noodzakelijke deelnamevoorwaarden.",
+              "concepts": [
+                "Amazon voorbeeld",
+                "infrastructuurmacht",
+                "markttoegang",
+                "asymmetrische afhankelijkheid"
+              ],
+              "sourceBlocks": [
+                20,
+                22,
+                23
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Een groot platform kan efficiënte levering en markttoegang bieden én regels, algoritmen en prijzen bepalen. Die combinatie kan asymmetrische afhankelijkheid creëren."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Dit is een daadwerkelijk netwerkvoordeel."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Afhankelijkheid bewijst op zichzelf geen misbruik. Onderzoek alternatieven, contracten, publieke belangen en feitelijke gevolgen."
+                }
+              ]
+            },
+            {
+              "id": "m4-02-omar-t4",
+              "question": "Hoe moet ik 'Bouw de aansluitafspraak' begrijpen?",
+              "answer": "Infrastructuur verdeelt toegang, kosten en kansen op lange termijn. Een bruikbare aansluiting vraagt technisch functioneren én bestuurlijke afspraken die kleine deelnemers kunnen begrijpen en betwisten.",
+              "concepts": [
+                "toegang en voorwaarden",
+                "infrastructuur als morele structuur",
+                "langetermijneffecten"
+              ],
+              "sourceBlocks": [
+                22,
+                30
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Een interface lost gegevensuitwisseling op; verantwoording regelt wie voorwaarden wijzigt; een fallback beperkt afhankelijkheid bij uitval. Geen onderdeel vervangt de andere."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Hiermee kan de kleine reparateur technisch aansluiten."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Open toegang kan nieuwe veiligheids- of beheerproblemen geven. Toets voorwaarden en verdeling; open betekent niet zonder regels."
+                }
+              ]
+            }
+          ],
+          "theory": {
+            "title": "Waarom infrastructuur meer is dan een grote machine",
+            "concepts": [
+              "infrastructuur",
+              "schaal",
+              "standaarden",
+              "fysieke en digitale logistiek"
+            ],
+            "sections": [
+              {
+                "title": "De theorie uitgelegd",
+                "text": "Infrastructuur maakt andere activiteiten mogelijk, verbindt partijen op grote schaal en legt standaarden en afhankelijkheden vast. Een scanner is een apparaat; het geheel van transport, opslag, gegevensformaten en tracking laat een levering functioneren. Goed werkende infrastructuur raakt vaak op de achtergrond. Bij uitval zie je hoeveel ervan afhankelijk was. Grootte alleen verklaart die onzichtbaarheid niet; dagelijks vanzelfsprekend gebruik speelt ook mee."
+              },
+              {
+                "title": "Wat je hier onderzoekt",
+                "text": "Je volgt hier een reparatieorder door voorraadplanning, vervoer en aflevering. Een trackingbericht verplaatst geen apparaat, terwijl een vervoerder zonder bruikbare ordergegevens moeilijk kan plannen. De fysieke en digitale schakels versterken elkaar. Het gedeelde formaat helpt coördinatie, maar sluit een reparateur met een ander formaat feitelijk buiten. Daarom vraagt de aansluiting zowel een technische koppeling als afspraken over beheer en uitval."
+              },
+              {
+                "title": "Voorbeeld en grens",
+                "text": "Een klein bedrijf kan dankzij een gezamenlijk netwerk sneller leveren dan met eigen transport. Tegelijk kan een storing in de centrale gegevensdienst al zijn leveringen raken. Een reserveprocedure beperkt die afhankelijkheid, maar moet getest en onderhouden worden. Het netwerk is daardoor niet eenvoudig goed of slecht. Onderzoek het voordeel, de kwetsbaarheid en de beschikbare alternatieven voordat je een algemene conclusie trekt."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Eva",
+          "role": "Investeerder en adviseur over zeggenschap",
+          "cell": 4,
+          "opening": "Ik volg de gevolgen voor mensen in Het logistieke knooppunt. Leg je bewijs naast mijn vragen; een bruikbare diagnose laat ook zien wat je nog niet weet.",
+          "topics": [
+            {
+              "id": "m4-02-eva-t1",
+              "question": "Wat betekent 'Zoek wat de apparaten mogelijk maakt' voor betrokkenen?",
+              "answer": "Bij uitval stoppen scanners en banden. De apparaten waren afhankelijk van een netwerk dat tijdens normaal werk onzichtbaar leek.",
+              "concepts": [
+                "infrastructuur",
+                "achtergrond en uitval",
+                "standaarden en afhankelijkheden",
+                "Star en Bowker"
+              ],
+              "sourceBlocks": [
+                17,
+                18,
+                20
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Star en Bowker benadrukken de achtergrondfunctie van infrastructuur. De storing toont afhankelijkheid. Wie standaarden en toegang beheert, beïnvloedt welke organisaties kunnen deelnemen."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Onderzoek rails, stroomkast, routekaart en protocol. Infrastructuur is het onderliggende netwerk; zij valt vaak pas op wanneer ze uitvalt."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Niet ieder groot apparaat is een infrastructuur. Onderzoek de ondersteunende relaties, schaal en standaarden."
+                }
+              ]
+            },
+            {
+              "id": "m4-02-eva-t2",
+              "question": "Wat betekent 'Laat de reparatie echt reizen' voor betrokkenen?",
+              "answer": "Wereldwijde handel steunt op havens, scheepvaart, magazijnen en tracking. Data over voorraad, reistijd en vraag coördineren die fysieke route; infrastructuur is meer dan de losse scanner.",
+              "concepts": [
+                "logistieke infrastructuur",
+                "fysiek en digitaal netwerk",
+                "coördinatie"
+              ],
+              "sourceBlocks": [
+                20
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Wereldwijde handel steunt op havens, scheepvaart, magazijnen en tracking. Data over voorraad, reistijd en vraag coördineren die fysieke route; infrastructuur is meer dan de losse scanner."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Leg de onderdelen in de route van bestelling naar aflevering. Verbind fysieke en digitale schakels; een trackingbericht bezorgt op zichzelf geen pakket."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Deze volgorde beschrijft de proefroute. Andere logistieke netwerken kunnen andere stappen en retourlussen hebben."
+                }
+              ]
+            },
+            {
+              "id": "m4-02-eva-t3",
+              "question": "Wat betekent 'De snelste route heeft een eigenaar' voor betrokkenen?",
+              "answer": "Controle over een standaard kan onderhandelingsmacht geven.",
+              "concepts": [
+                "Amazon voorbeeld",
+                "infrastructuurmacht",
+                "markttoegang",
+                "asymmetrische afhankelijkheid"
+              ],
+              "sourceBlocks": [
+                20,
+                22,
+                23
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Amazon illustreert de verbinding van magazijnen, planning, transport en consumentendata. Efficiëntie is een reëel voordeel; infrastructuurmacht ontstaat mede uit controle over noodzakelijke deelnamevoorwaarden."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Verbind contractregels met voordelen of afhankelijkheden. Bekijk het bronvoorbeeld Amazon als infrastructuurcasus; de NOVA-contracten zijn fictief."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Afhankelijkheid bewijst op zichzelf geen misbruik. Onderzoek alternatieven, contracten, publieke belangen en feitelijke gevolgen."
+                }
+              ]
+            },
+            {
+              "id": "m4-02-eva-t4",
+              "question": "Wat betekent 'Bouw de aansluitafspraak' voor betrokkenen?",
+              "answer": "Hiermee kan de kleine reparateur technisch aansluiten.",
+              "concepts": [
+                "toegang en voorwaarden",
+                "infrastructuur als morele structuur",
+                "langetermijneffecten"
+              ],
+              "sourceBlocks": [
+                22,
+                30
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Infrastructuur verdeelt toegang, kosten en kansen op lange termijn. Een bruikbare aansluiting vraagt technisch functioneren én bestuurlijke afspraken die kleine deelnemers kunnen begrijpen en betwisten."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Kies onderdelen die formaat, verantwoording en uitvalroute samen regelen. De opdracht vraagt aansluiting; de tariefhoogte blijft een afzonderlijke afweging."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Open toegang kan nieuwe veiligheids- of beheerproblemen geven. Toets voorwaarden en verdeling; open betekent niet zonder regels."
+                }
+              ]
+            }
+          ],
+          "theory": {
+            "title": "Een netwerkvoordeel kan ook beslismacht geven",
+            "concepts": [
+              "infrastructuurmacht",
+              "poortwachter",
+              "asymmetrische afhankelijkheid",
+              "publiek belang"
+            ],
+            "sections": [
+              {
+                "title": "De theorie uitgelegd",
+                "text": "Macht ontstaat niet alleen wanneer iemand toegang weigert. Wie toelatingsregels, gegevensformaten of zichtbaarheid bepaalt, kan voorwaarden voor anderen veranderen. Een platform kan tegelijk een waardevolle markt openen. Asymmetrische afhankelijkheid betekent dat deelnemers het netwerk nodig hebben, maar minder invloed op de regels hebben dan de beheerder. Dat is een machtsmechanisme; het bewijst nog niet dat iedere regel of prijs misbruik vormt."
+              },
+              {
+                "title": "Wat je hier onderzoekt",
+                "text": "In het depot bepaalt de eigenaar wanneer het formaat verandert en welke aansluiting geldig blijft. De reparateur krijgt bereik, maar moet zich aanpassen. Het bronvoorbeeld Amazon verbindt magazijnen, planning, transport en consumentendata. Hier gebruiken we fictieve contracten om die combinatie te onderzoeken. Vraag wie de voorwaarden kan betwisten, welke kosten bij deelnemers terechtkomen en hoe publieke belangen worden meegewogen."
+              },
+              {
+                "title": "Voorbeeld en grens",
+                "text": "Een lager tarief kan de aansluiting goedkoper maken zonder het gesloten formaat bruikbaar te maken. Een gedocumenteerde interface raakt de technische barrière; een bezwaarprocedure raakt de beslismacht. Ze vervullen verschillende functies. Meer openheid kan bovendien beveiligings- en beheervragen oproepen. Het doel is daarom een onderbouwde aansluitafspraak, geen aanname dat open toegang zonder voorwaarden automatisch voor alle betrokkenen de beste uitkomst geeft."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "investigationId": "m4-03",
+      "npcs": [
+        {
+          "name": "Noor",
+          "role": "Systeemanalist bij de nooddispatch",
+          "cell": 0,
+          "opening": "Onderzoek eerst de voorwerpen in De datakluis. Ik help je de begrippen en redenering achter je bevindingen uitwerken.",
+          "topics": [
+            {
+              "id": "m4-03-noor-t1",
+              "question": "Hoe moet ik 'Volg één gegevensspoor' begrijpen?",
+              "answer": "Zuboffs surveillancekapitalisme-lens betreft het commercieel voorspellen en beïnvloeden van gedrag. Niet alle sensordata zijn daarvan een voorbeeld. Volg doel, informatie, toegang en gebruik.",
+              "concepts": [
+                "data als hulpbron",
+                "data als macht",
+                "Zuboff",
+                "surveillancekapitalisme",
+                "Internet of Things"
+              ],
+              "sourceBlocks": [
+                10,
+                27,
+                34,
+                35,
+                37
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Data kunnen een economische hulpbron zijn. Wie gegevens verzamelt en analyseert, kan ook bepalen wat zichtbaar is, wie invloed heeft en welk gedrag wordt gestimuleerd."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "IoT-sensoren meten slijtage en energieverbruik. De onderhoudsplanner gebruikt patronen om een storing eerder te herkennen."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Dataverzameling bewijst geen manipulatie. Onderzoek het werkelijke gebruik, de betrokkenen en de mogelijkheden om te weigeren of te controleren."
+                }
+              ]
+            },
+            {
+              "id": "m4-03-noor-t2",
+              "question": "Hoe moet ik 'Van handeling naar aanbeveling' begrijpen?",
+              "answer": "Gedrag wordt data, data vormen profielen en profielen sturen selectie. Het platform bepaalt welke informatie zichtbaar wordt. De keten is Zuboffs kritische lens, geen oordeel over ieder digitaal systeem.",
+              "concepts": [
+                "gedragsdata",
+                "profilering",
+                "voorspellen en beïnvloeden",
+                "surveillancekapitalisme"
+              ],
+              "sourceBlocks": [
+                27,
+                37
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Volg verzamelen, profileren, voorspellen en beïnvloeden. Een aanbeveling heeft invoer en een commercieel of organisatorisch doel; ze is geen spontaan neutraal venster."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Gedrag wordt data, data vormen profielen en profielen sturen selectie. Het platform bepaalt welke informatie zichtbaar wordt. De keten is Zuboffs kritische lens, geen oordeel over ieder digitaal systeem."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Een voorspelling is niet hetzelfde als zekere beïnvloeding. Gebruikers kunnen aanbevelingen negeren en alternatieven zoeken."
+                }
+              ]
+            },
+            {
+              "id": "m4-03-noor-t3",
+              "question": "Hoe moet ik 'Onderscheid voordeel en zeggenschap' begrijpen?",
+              "answer": "Digitale infrastructuur kan innovatie en efficiënte coördinatie stimuleren, terwijl gesloten toegang concurrentie of autonomie beperkt. Beoordeel beide dimensies met concrete gegevens.",
+              "concepts": [
+                "efficiëntie",
+                "datatoegang",
+                "lock-in",
+                "concurrentie",
+                "autonomie"
+              ],
+              "sourceBlocks": [
+                27,
+                34,
+                37
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Data ondersteunen planning, maar wie toegang tot data of de beslisregels beheert, kan ook invloed krijgen. Scheid functie van zeggenschap."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Dit betreft betrouwbare werking."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Een mogelijk machtsmechanisme bewijst niet dat een bedrijf concurrentie daadwerkelijk heeft beperkt. Daarvoor zijn markt- en contractgegevens nodig."
+                }
+              ]
+            },
+            {
+              "id": "m4-03-noor-t4",
+              "question": "Hoe moet ik 'Voer een beheerste export uit' begrijpen?",
+              "answer": "Een export en testomgeving kunnen lock-in verminderen. Agency betekent gericht veranderen binnen bestaande afhankelijkheden. Prijs, beveiliging en beheer blijven afwegingen; geen leverancier is door het formaat alleen verantwoord.",
+              "concepts": [
+                "lock-in",
+                "menselijke agency",
+                "ontwerpinterventie",
+                "organisatorische interventie"
+              ],
+              "sourceBlocks": [
+                27,
+                30,
+                44,
+                47
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Portabiliteit vereist bruikbare gegevens en koppelingen. Test de nieuwe omgeving, leg verantwoordelijkheden vast en houd noodzakelijke dienstverlening tijdens migratie beschikbaar."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Dit vermindert de afhankelijkheid van een exclusieve bestandslezer."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Een technisch bruikbare export lost privacy, rechten en alle kosten niet automatisch op. Onderzoek welke data verantwoord mogen worden overgedragen."
+                }
+              ]
+            },
+            {
+              "id": "m4-03-noor-t5",
+              "question": "Hoe moet ik 'Wie bepaalt wat een zoekmachine laat zien?' begrijpen?",
+              "answer": "Het zoekmachinevoorbeeld maakt neutraliteit bevraagbaar. Een andere rangschikking is een andere waardenafweging, niet vanzelf een fout. Maak criteria en verantwoordelijkheden zichtbaar zonder één morele prioriteit als de enige juiste te behandelen.",
+              "concepts": [
+                "morele architectuur",
+                "rangschikkingscriteria",
+                "waarden in technologie",
+                "zoekmachinevoorbeeld"
+              ],
+              "sourceBlocks": [
+                8,
+                10,
+                13
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Een rangschikking vraagt keuzes over relevantie, betrouwbaarheid, commerciële doelen en mogelijke schade. De ontwerper of beheerder kiest hun gewicht; gebruikers en publieke kaders kunnen invloed hebben."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Ook betrouwbaarheid moet operationeel worden gekozen."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Een betaald advertentievak is niet hetzelfde als organische zoekrangschikking. Het voorbeeld bewijst geen actuele werkwijze van elk afzonderlijk Google-resultaat."
+                }
+              ]
+            },
+            {
+              "id": "m4-03-noor-t6",
+              "question": "Hoe moet ik 'De cloud heeft ook een bestuurlijke grens' begrijpen?",
+              "answer": "Digitale autonomie gaat om bruikbare zeggenschap en continuïteit. Een kopie of lokaal datacenter is geen volledige garantie. De historische media vragen naar afhankelijkheden; deze fictieve route laat je het mechanisme onderzoeken.",
+              "concepts": [
+                "cloudafhankelijkheid",
+                "digitale autonomie",
+                "lock-in",
+                "infrastructuurmacht"
+              ],
+              "sourceBlocks": [
+                27,
+                30,
+                32
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Eigendom van gegevens, locatie van opslag en feitelijke toegang zijn verschillende zaken. Dienstverlening kan ook van providerbestuur, wetgeving, authenticatie en contracten afhangen. Test een uitweg vóór uitval."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Praktische portabiliteit is een aparte voorwaarde."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "De fictieve dienststop voorspelt geen actuele politieke beslissing. Jurisdictie, contract en technische architectuur verschillen per situatie."
+                }
+              ]
+            }
+          ],
+          "theory": {
+            "title": "Data leveren kennis én afhankelijkheid op",
+            "concepts": [
+              "data als hulpbron",
+              "Internet of Things",
+              "lock-in",
+              "digitale autonomie"
+            ],
+            "sections": [
+              {
+                "title": "De theorie uitgelegd",
+                "text": "Data kunnen patronen zichtbaar maken en onderhoud, planning of nieuwe diensten ondersteunen. Ze verschillen van verbruikte brandstof: een gegevenskopie verdwijnt niet door analyse. Toch zijn toegang, kwaliteit en bruikbare kennis niet gelijk verdeeld. Lock-in ontstaat wanneer overstappen moeilijk wordt door formaten, koppelingen en kosten. Digitale autonomie gaat daarom om praktische zeggenschap en continuïteit, niet alleen om de vraag waar gegevens staan."
+              },
+              {
+                "title": "Wat je hier onderzoekt",
+                "text": "De slijtagelog helpt storingen voorspellen, maar de exclusieve bestandslezer houdt de hub aan één leverancier vast. Een download is nog geen werkende migratie. Je onderzoekt of de nieuwe omgeving de data begrijpt, of kritieke koppelingen blijven werken en wie toegang beheert. De cloudcasus voegt een bestuurlijke vraag toe: opslaglocatie, contract, login en feitelijke beschikbaarheid kunnen verschillende afhankelijkheden vormen."
+              },
+              {
+                "title": "Voorbeeld en grens",
+                "text": "Twee providers lijken een reserve te bieden. Gebruiken ze dezelfde kritieke login, dan kan één storing beide routes blokkeren. Een lokaal datacenter verandert dat niet vanzelf. Test daarom een uitwijkroute met bruikbare bestanden en eigen toegangsbeheer. Dit is een fictieve continuïteitsproef. De historische bronvideo geeft aanleiding tot onderzoek, maar bewijst geen universele actuele politieke bevoegdheid om elke Nederlandse dienst uit te schakelen."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Lena",
+          "role": "Analist van marketing, aandacht en impact",
+          "cell": 5,
+          "opening": "Ik volg de gevolgen voor mensen in De datakluis. Leg je bewijs naast mijn vragen; een bruikbare diagnose laat ook zien wat je nog niet weet.",
+          "topics": [
+            {
+              "id": "m4-03-lena-t1",
+              "question": "Wat betekent 'Volg één gegevensspoor' voor betrokkenen?",
+              "answer": "Verkeer, brandstof en levertijden helpen routes en voorraden plannen. Data kunnen betrouwbaarheid verbeteren en kosten verminderen.",
+              "concepts": [
+                "data als hulpbron",
+                "data als macht",
+                "Zuboff",
+                "surveillancekapitalisme",
+                "Internet of Things"
+              ],
+              "sourceBlocks": [
+                10,
+                27,
+                34,
+                35,
+                37
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Zuboffs surveillancekapitalisme-lens betreft het commercieel voorspellen en beïnvloeden van gedrag. Niet alle sensordata zijn daarvan een voorbeeld. Volg doel, informatie, toegang en gebruik."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Open sensorlogs, profielkaart, aanbevelingen en cloudcontract. Data zijn bruikbaar voor onderhoud én voor controle. Het doel en de toegang maken verschil."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Dataverzameling bewijst geen manipulatie. Onderzoek het werkelijke gebruik, de betrokkenen en de mogelijkheden om te weigeren of te controleren."
+                }
+              ]
+            },
+            {
+              "id": "m4-03-lena-t2",
+              "question": "Wat betekent 'Van handeling naar aanbeveling' voor betrokkenen?",
+              "answer": "Gedrag wordt data, data vormen profielen en profielen sturen selectie. Het platform bepaalt welke informatie zichtbaar wordt. De keten is Zuboffs kritische lens, geen oordeel over ieder digitaal systeem.",
+              "concepts": [
+                "gedragsdata",
+                "profilering",
+                "voorspellen en beïnvloeden",
+                "surveillancekapitalisme"
+              ],
+              "sourceBlocks": [
+                27,
+                37
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Gedrag wordt data, data vormen profielen en profielen sturen selectie. Het platform bepaalt welke informatie zichtbaar wordt. De keten is Zuboffs kritische lens, geen oordeel over ieder digitaal systeem."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Leg het commerciële gegevensspoor in volgorde. Vergelijk daarna met het onderhoudsspoor in je notebook: dezelfde techniek hoeft niet hetzelfde doel te dienen."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Een voorspelling is niet hetzelfde als zekere beïnvloeding. Gebruikers kunnen aanbevelingen negeren en alternatieven zoeken."
+                }
+              ]
+            },
+            {
+              "id": "m4-03-lena-t3",
+              "question": "Wat betekent 'Onderscheid voordeel en zeggenschap' voor betrokkenen?",
+              "answer": "Dit beperkt de mogelijkheden om zelfstandig verder te werken.",
+              "concepts": [
+                "efficiëntie",
+                "datatoegang",
+                "lock-in",
+                "concurrentie",
+                "autonomie"
+              ],
+              "sourceBlocks": [
+                27,
+                34,
+                37
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Digitale infrastructuur kan innovatie en efficiënte coördinatie stimuleren, terwijl gesloten toegang concurrentie of autonomie beperkt. Beoordeel beide dimensies met concrete gegevens."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Sorteer de gevonden effecten als operationeel voordeel of machts-/afhankelijkheidsvraag. Eén systeem kan beide hebben; de categorie is een onderzoeksvraag, geen goed-of-kwaadlabel."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Een mogelijk machtsmechanisme bewijst niet dat een bedrijf concurrentie daadwerkelijk heeft beperkt. Daarvoor zijn markt- en contractgegevens nodig."
+                }
+              ]
+            },
+            {
+              "id": "m4-03-lena-t4",
+              "question": "Wat betekent 'Voer een beheerste export uit' voor betrokkenen?",
+              "answer": "Dit vermindert de afhankelijkheid van een exclusieve bestandslezer.",
+              "concepts": [
+                "lock-in",
+                "menselijke agency",
+                "ontwerpinterventie",
+                "organisatorische interventie"
+              ],
+              "sourceBlocks": [
+                27,
+                30,
+                44,
+                47
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Een export en testomgeving kunnen lock-in verminderen. Agency betekent gericht veranderen binnen bestaande afhankelijkheden. Prijs, beveiliging en beheer blijven afwegingen; geen leverancier is door het formaat alleen verantwoord."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Selecteer wat gegevensoverdracht, bruikbaarheid en bedrijfscontinuïteit organiseert. Een lege downloadknop maakt een overstap nog niet mogelijk."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Een technisch bruikbare export lost privacy, rechten en alle kosten niet automatisch op. Onderzoek welke data verantwoord mogen worden overgedragen."
+                }
+              ]
+            },
+            {
+              "id": "m4-03-lena-t5",
+              "question": "Wat betekent 'Wie bepaalt wat een zoekmachine laat zien?' voor betrokkenen?",
+              "answer": "Betalen is niet hetzelfde als een bewijs dat inhoud waar is.",
+              "concepts": [
+                "morele architectuur",
+                "rangschikkingscriteria",
+                "waarden in technologie",
+                "zoekmachinevoorbeeld"
+              ],
+              "sourceBlocks": [
+                8,
+                10,
+                13
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Het zoekmachinevoorbeeld maakt neutraliteit bevraagbaar. Een andere rangschikking is een andere waardenafweging, niet vanzelf een fout. Maak criteria en verantwoordelijkheden zichtbaar zonder één morele prioriteit als de enige juiste te behandelen."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Vergelijk de rangschikkingskaarten uit Wi-Phi’s zoekmachinevoorbeeld. Verbind een criterium aan de waarde en bevoegdheid die je moet bespreken. Er bestaat geen volledig waardevrije rangschikking."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Een betaald advertentievak is niet hetzelfde als organische zoekrangschikking. Het voorbeeld bewijst geen actuele werkwijze van elk afzonderlijk Google-resultaat."
+                }
+              ]
+            },
+            {
+              "id": "m4-03-lena-t6",
+              "question": "Wat betekent 'De cloud heeft ook een bestuurlijke grens' voor betrokkenen?",
+              "answer": "Locatie alleen garandeert geen operationele onafhankelijkheid.",
+              "concepts": [
+                "cloudafhankelijkheid",
+                "digitale autonomie",
+                "lock-in",
+                "infrastructuurmacht"
+              ],
+              "sourceBlocks": [
+                27,
+                30,
+                32
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Digitale autonomie gaat om bruikbare zeggenschap en continuïteit. Een kopie of lokaal datacenter is geen volledige garantie. De historische media vragen naar afhankelijkheden; deze fictieve route laat je het mechanisme onderzoeken."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Een fictieve provider stopt een kritieke dienst. Verbind de continuïteitskaarten met hun beperking. Lubachs bronvoorbeeld stelt de vraag naar buitenlandse clouddiensten, afsluiting en alternatieven."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "De fictieve dienststop voorspelt geen actuele politieke beslissing. Jurisdictie, contract en technische architectuur verschillen per situatie."
+                }
+              ]
+            }
+          ],
+          "theory": {
+            "title": "Het gegevensdoel maakt verschil",
+            "concepts": [
+              "Zuboff",
+              "surveillancekapitalisme",
+              "profilering",
+              "rangschikkingswaarden"
+            ],
+            "sections": [
+              {
+                "title": "De theorie uitgelegd",
+                "text": "Zuboffs begrip surveillancekapitalisme richt zich op het commercieel voorspellen en beïnvloeden van menselijk gedrag. Menselijke ervaringen worden signalen, signalen worden profielen en voorspelde aandacht krijgt economische waarde. Niet elke voorspelling heeft die functie: slijtage voorspellen voor onderhoud is iets anders. Bij zoek- en aanbevelingssystemen komen bovendien waarden in de rangschikking terecht, zoals relevantie, betrouwbaarheid, commerciële doelen en bescherming tegen schade."
+              },
+              {
+                "title": "Wat je hier onderzoekt",
+                "text": "Hier liggen het onderhoudsspoor en het advertentieprofiel naast elkaar. Vraag welke gegevens gekoppeld worden, welk besluit volgt en hoe waarde wordt verdiend. De zoekkaarten laten vervolgens zien dat een rangschikking keuzes vraagt. Wie bepaalt welke bron betrouwbaar heet en wat eerst zichtbaar wordt? De student hoeft niet één favoriete prioriteit te kiezen, maar moet criteria, bevoegdheid en gevolgen begrijpelijk kunnen onderzoeken."
+              },
+              {
+                "title": "Voorbeeld en grens",
+                "text": "Een aanbeveling kan een product aantrekkelijker maken door het bovenaan te plaatsen. Dat beïnvloedt aandacht zonder de gebruiker iedere andere keuze af te nemen. Een betaald advertentievak is daarbij niet hetzelfde als organische zoekrangschikking; het voorbeeld is geen bewijs dat Google organische plaatsen verkoopt. Meer datapunten of een toestemmingvenster bepalen evenmin op zichzelf het bedrijfsmodel. Volg de concrete waardeketen en het gebruik."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "investigationId": "m4-04",
+      "npcs": [
+        {
+          "name": "Iris",
+          "role": "Ontwerper van automatisering en reparatieplanning",
+          "cell": 3,
+          "opening": "Onderzoek eerst de voorwerpen in Het sorteerlab. Ik help je de begrippen en redenering achter je bevindingen uitwerken.",
+          "topics": [
+            {
+              "id": "m4-04-iris-t1",
+              "question": "Hoe moet ik 'Wat leert de machine precies?' begrijpen?",
+              "answer": "AI kan recycling en terugwinning ondersteunen, zoals de cursuscasus AMP Robotics. Data en ontwerp bepalen wat herkend en gewaardeerd wordt. Toets representativiteit en meer dan alleen snelheid.",
+              "concepts": [
+                "algoritme",
+                "trainingsdata",
+                "circulaire economie",
+                "AMP Robotics voorbeeld",
+                "representativiteit"
+              ],
+              "sourceBlocks": [
+                37,
+                41,
+                42
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Scheid invoer, patroonherkenning, beslisdoel en uitkomst. Circulariteit beoogt langer gebruik via hergebruik, reparatie en recycling; snelle sortering bewijst nog geen volledige duurzaamheid."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Het model leerde vooral schone, lichte verpakkingen. Vuile en donkere verpakkingen zijn ondervertegenwoordigd; testresultaten mogen niet blind worden veralgemeend."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "De proefcijfers zijn verzonnen. Ze beschrijven geen prestaties van AMP Robotics en geen volledige levenscyclusanalyse."
+                }
+              ]
+            },
+            {
+              "id": "m4-04-iris-t2",
+              "question": "Hoe moet ik 'Verander doel en oefendata' begrijpen?",
+              "answer": "De proef laat doelkeuze en trainingsdekking apart veranderen. Meer herkenning geeft niet vanzelf gelijke materiaalprioriteit. De afweging tussen opbrengst, terugwinning en controle moet expliciet worden gemaakt.",
+              "concepts": [
+                "algoritmisch doel",
+                "trainingsdata",
+                "waardeprioritering",
+                "AI recycling"
+              ],
+              "sourceBlocks": [
+                37,
+                41
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Een doel bepaalt selectie; data beïnvloeden herkenning. Menselijke controle kan fouten vinden, maar kost middelen. Bekijk materiaalbakken én opbrengst en benoem wat dit model weglaat."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "De proef laat doelkeuze en trainingsdekking apart veranderen. Meer herkenning geeft niet vanzelf gelijke materiaalprioriteit. De afweging tussen opbrengst, terugwinning en controle moet expliciet worden gemaakt."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Een betere modelscore bewijst geen betere totale milieubalans. Transport, energie en latere verwerking ontbreken."
+                }
+              ]
+            },
+            {
+              "id": "m4-04-iris-t3",
+              "question": "Hoe moet ik 'Maak de black box bevraagbaar' begrijpen?",
+              "answer": "Transparantie maakt onderzoek mogelijk. Explainable AI kan beslissingen toelichten; een audit toetst fouten en bias. Mensen, ontwikkelaars en organisaties blijven verantwoordelijk binnen het socio-technische systeem.",
+              "concepts": [
+                "black box",
+                "explainable AI",
+                "algoritme-audit",
+                "bias",
+                "verantwoordelijkheid"
+              ],
+              "sourceBlocks": [
+                41,
+                47
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Een black box is een systeem waarvan de werking moeilijk te begrijpen is. Vraag naar gebruikte gegevens, criteria, groepsprestaties en wie een beslissing kan laten herzien."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Dit maakt een specifieke beslissing bevraagbaar."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Een begrijpelijke verklaring kan een fout besluit verklaren. Transparantie is geen bewijs van accuratesse of rechtvaardigheid."
+                }
+              ]
+            },
+            {
+              "id": "m4-04-iris-t4",
+              "question": "Hoe moet ik 'Wat mag je uit de test afleiden?' begrijpen?",
+              "answer": "Algoritmen kunnen historische biases reproduceren. Dat risico vraagt representatieve data en groepsgewijze evaluatie. Een vastgestelde uitkomst en een verklaring daarvoor zijn verschillende bewijsstappen.",
+              "concepts": [
+                "algoritmische discriminatie",
+                "historische bias",
+                "groepsprestaties",
+                "bewijslimiet"
+              ],
+              "sourceBlocks": [
+                37,
+                38,
+                41,
+                47
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Een gemiddelde meet slechts een samenvatting. Een verschil in een groep vraagt onderzoek naar data, taak en criteria; het bewijst niet vanzelf één oorzaak."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Dit is een gemeten prestatieverschil."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Testverschillen zijn belangrijk, maar bewijzen niet dat alle systemen of alle toekomstige versies dezelfde fouten hebben."
+                }
+              ]
+            },
+            {
+              "id": "m4-04-iris-t5",
+              "question": "Hoe moet ik 'Zes incidenten naast de sorteerband' begrijpen?",
+              "answer": "AI is onderdeel van een socio-technisch systeem. Een nauwkeurige band kan nog privacyrisico’s, onduidelijke herstelrollen of arbeidsgevolgen hebben. Maak per incident de concrete vraag en bewijslimiet zichtbaar.",
+              "concepts": [
+                "AI-risicoregister",
+                "privacy en toestemming",
+                "algoritmische discriminatie",
+                "arbeidsverschuiving",
+                "deepfakes en misbruik",
+                "juridische onduidelijkheid"
+              ],
+              "sourceBlocks": [
+                37,
+                40,
+                41
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Bias, privacy, transparantie, verantwoordelijkheid, misbruik en arbeid raken verschillende mensen en mechanismen. Onderzoek gegevens, bevoegdheid en gevolgen; één hoog gemiddeld prestatienummer dekt ze niet."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Een model voor personeelsselectie leert uit oude beoordelingen waarin een groep minder kansen kreeg. Zo kan een patroon in data nieuwe beslissingen beïnvloeden; test de concrete foutverdeling."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "De incidenten zijn fictief en voorspellen geen vaste omvang van banenverlies of juridische aansprakelijkheid. Een risicoregister is geen beoordeling van alle werkelijke AI-systemen."
+                }
+              ]
+            },
+            {
+              "id": "m4-04-iris-t6",
+              "question": "Hoe moet ik 'Van AI-incident naar gerichte onderzoeksvraag' begrijpen?",
+              "answer": "De zes categorieën uit het bronbeeld vragen verschillende aangrijpingspunten. Ze kunnen samen optreden. Een expliciete onderzoeksvraag maakt duidelijk welk bewijs nodig is en welke beslissing nog openstaat.",
+              "concepts": [
+                "AI-risicoregister",
+                "privacy en toestemming",
+                "algoritmische discriminatie",
+                "arbeidsverschuiving",
+                "deepfakes en misbruik",
+                "accountability"
+              ],
+              "sourceBlocks": [
+                40,
+                41,
+                47
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Kies onderzoek dat past bij het aangetoonde probleem. Groepsgewijze tests meten foutverdeling; broncontrole onderzoekt authenticiteit; rollen en herziening maken herstel uitvoerbaar."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Representativiteit en uitkomstverdeling vragen concrete tests."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "De koppeling kiest een relevante vervolgvraag; zij stelt nog geen schending, ontslagomvang of wettelijke aansprakelijkheid vast."
+                }
+              ]
+            }
+          ],
+          "theory": {
+            "title": "Herkennen en prioriteit geven zijn verschillende keuzes",
+            "concepts": [
+              "algoritme",
+              "trainingsdata",
+              "doelfunctie",
+              "explainable AI"
+            ],
+            "sections": [
+              {
+                "title": "De theorie uitgelegd",
+                "text": "Een algoritme is een instructiereeks. Een geleerd model gebruikt patronen uit voorbeelden; zijn herkenning hangt mede af van die voorbeelden. Daarna kan een beslisregel bepalen welk herkend object aandacht krijgt. Die twee stappen zijn verschillend. Explainable AI helpt criteria of beslissingen begrijpelijk maken. Een begrijpelijke uitleg bewijst echter nog niet dat de gegevens betrouwbaar, de criteria passend of de gevolgen rechtvaardig zijn."
+              },
+              {
+                "title": "Wat je hier onderzoekt",
+                "text": "De band kan een goedkoop materiaal correct herkennen en het toch overslaan wanneer verkoopopbrengst het doel is. Daarom verander je in de proef eerst het doel bij gelijkblijvende data, en daarna de data bij hetzelfde doel. Zo onderzoek je afzonderlijke mechanismen. De controlekaarten verbinden de uitkomst bovendien met een audit, groepsgewijze tests en iemand die een fout daadwerkelijk kan laten herstellen."
+              },
+              {
+                "title": "Voorbeeld en grens",
+                "text": "Met bredere oefendata herkent het model meer moeilijke verpakkingen. Bij hetzelfde opbrengstdoel kunnen goed herkende goedkope materialen alsnog blijven liggen. Wisselen naar terugwinning raakt een andere keuze. De getallen in deze proef zijn illustratief en beschrijven geen werkelijke AMP-prestaties. Een hogere sorteerscore bewijst ook geen volledige duurzaamheid: energie, vervolgverwerking en andere gevolgen ontbreken nog in deze vereenvoudigde meetgrens."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Mila",
+          "role": "Reparatietechnicus en onderzoeker van ketenrecords",
+          "cell": 2,
+          "opening": "Ik volg de gevolgen voor mensen in Het sorteerlab. Leg je bewijs naast mijn vragen; een bruikbare diagnose laat ook zien wat je nog niet weet.",
+          "topics": [
+            {
+              "id": "m4-04-mila-t1",
+              "question": "Wat betekent 'Wat leert de machine precies?' voor betrokkenen?",
+              "answer": "De regel kiest verkoopopbrengst. Correct herkende goedkope materialen kunnen daardoor toch worden overgeslagen. Herkennen en prioriteit geven zijn verschillende stappen.",
+              "concepts": [
+                "algoritme",
+                "trainingsdata",
+                "circulaire economie",
+                "AMP Robotics voorbeeld",
+                "representativiteit"
+              ],
+              "sourceBlocks": [
+                37,
+                41,
+                42
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "AI kan recycling en terugwinning ondersteunen, zoals de cursuscasus AMP Robotics. Data en ontwerp bepalen wat herkend en gewaardeerd wordt. Toets representativiteit en meer dan alleen snelheid."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Inspecteer de dataset, beslisregels, materiaalbakken en onderzoekskaart. Een algoritme is een instructiereeks; een geleerd model gebruikt patronen uit trainingsgegevens."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "De proefcijfers zijn verzonnen. Ze beschrijven geen prestaties van AMP Robotics en geen volledige levenscyclusanalyse."
+                }
+              ]
+            },
+            {
+              "id": "m4-04-mila-t2",
+              "question": "Wat betekent 'Verander doel en oefendata' voor betrokkenen?",
+              "answer": "De proef laat doelkeuze en trainingsdekking apart veranderen. Meer herkenning geeft niet vanzelf gelijke materiaalprioriteit. De afweging tussen opbrengst, terugwinning en controle moet expliciet worden gemaakt.",
+              "concepts": [
+                "algoritmisch doel",
+                "trainingsdata",
+                "waardeprioritering",
+                "AI recycling"
+              ],
+              "sourceBlocks": [
+                37,
+                41
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "De proef laat doelkeuze en trainingsdekking apart veranderen. Meer herkenning geeft niet vanzelf gelijke materiaalprioriteit. De afweging tussen opbrengst, terugwinning en controle moet expliciet worden gemaakt."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Voorspel welke bak verandert. Vergelijk daarna verkoopopbrengst met terugwinning en beperkte met bredere oefendata. Houd overige instellingen gelijk om een mechanisme te onderscheiden."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Een betere modelscore bewijst geen betere totale milieubalans. Transport, energie en latere verwerking ontbreken."
+                }
+              ]
+            },
+            {
+              "id": "m4-04-mila-t3",
+              "question": "Wat betekent 'Maak de black box bevraagbaar' voor betrokkenen?",
+              "answer": "Gelijke gemiddelden garanderen geen gelijke werking.",
+              "concepts": [
+                "black box",
+                "explainable AI",
+                "algoritme-audit",
+                "bias",
+                "verantwoordelijkheid"
+              ],
+              "sourceBlocks": [
+                41,
+                47
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Transparantie maakt onderzoek mogelijk. Explainable AI kan beslissingen toelichten; een audit toetst fouten en bias. Mensen, ontwikkelaars en organisaties blijven verantwoordelijk binnen het socio-technische systeem."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Verbind de onduidelijke uitkomsten met het bewijs dat een audit nodig heeft. Explainable AI helpt een beslissing toelichten; uitleg alleen maakt de beslissing niet rechtvaardig."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Een begrijpelijke verklaring kan een fout besluit verklaren. Transparantie is geen bewijs van accuratesse of rechtvaardigheid."
+                }
+              ]
+            },
+            {
+              "id": "m4-04-mila-t4",
+              "question": "Wat betekent 'Wat mag je uit de test afleiden?' voor betrokkenen?",
+              "answer": "Een exclusieve oorzaak vraagt afzonderlijke vergelijkingen.",
+              "concepts": [
+                "algoritmische discriminatie",
+                "historische bias",
+                "groepsprestaties",
+                "bewijslimiet"
+              ],
+              "sourceBlocks": [
+                37,
+                38,
+                41,
+                47
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Algoritmen kunnen historische biases reproduceren. Dat risico vraagt representatieve data en groepsgewijze evaluatie. Een vastgestelde uitkomst en een verklaring daarvoor zijn verschillende bewijsstappen."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Sorteer conclusies als door de proef ondersteund of extra bewijs nodig. Behandel een ontbrekend gegeven niet alsof het een gemeten oorzaak is."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Testverschillen zijn belangrijk, maar bewijzen niet dat alle systemen of alle toekomstige versies dezelfde fouten hebben."
+                }
+              ]
+            },
+            {
+              "id": "m4-04-mila-t5",
+              "question": "Wat betekent 'Zes incidenten naast de sorteerband' voor betrokkenen?",
+              "answer": "De sorteercamera legt ook medewerkers en bezoekers vast. Een materiaaldoel rechtvaardigt niet vanzelf iedere persoonsregistratie. Onderzoek noodzaak, gegevensgebruik, informatie, rechten en passende grondslag.",
+              "concepts": [
+                "AI-risicoregister",
+                "privacy en toestemming",
+                "algoritmische discriminatie",
+                "arbeidsverschuiving",
+                "deepfakes en misbruik",
+                "juridische onduidelijkheid"
+              ],
+              "sourceBlocks": [
+                37,
+                40,
+                41
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "AI is onderdeel van een socio-technisch systeem. Een nauwkeurige band kan nog privacyrisico’s, onduidelijke herstelrollen of arbeidsgevolgen hebben. Maak per incident de concrete vraag en bewijslimiet zichtbaar."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Open het risicoregister van de hub. De cursusafbeelding noemt zes AI-vraagstukken; concrete incidenten laten zien waarom materiaalnauwkeurigheid niet het volledige oordeel is."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "De incidenten zijn fictief en voorspellen geen vaste omvang van banenverlies of juridische aansprakelijkheid. Een risicoregister is geen beoordeling van alle werkelijke AI-systemen."
+                }
+              ]
+            },
+            {
+              "id": "m4-04-mila-t6",
+              "question": "Wat betekent 'Van AI-incident naar gerichte onderzoeksvraag' voor betrokkenen?",
+              "answer": "Een materiaaldoel dekt niet vanzelf alle vastgelegde menselijke gegevens.",
+              "concepts": [
+                "AI-risicoregister",
+                "privacy en toestemming",
+                "algoritmische discriminatie",
+                "arbeidsverschuiving",
+                "deepfakes en misbruik",
+                "accountability"
+              ],
+              "sourceBlocks": [
+                40,
+                41,
+                47
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "De zes categorieën uit het bronbeeld vragen verschillende aangrijpingspunten. Ze kunnen samen optreden. Een expliciete onderzoeksvraag maakt duidelijk welk bewijs nodig is en welke beslissing nog openstaat."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Verbind elk incident aan de vraag die zijn mechanisme raakt. Een betere materiaalherkenning is geen vervanging voor privacy, arbeidsbeleid of een bruikbare bezwaarroute."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "De koppeling kiest een relevante vervolgvraag; zij stelt nog geen schending, ontslagomvang of wettelijke aansprakelijkheid vast."
+                }
+              ]
+            }
+          ],
+          "theory": {
+            "title": "Een hoge score vertelt niet wie de gevolgen draagt",
+            "concepts": [
+              "representativiteit",
+              "algoritmische discriminatie",
+              "socio-technisch systeem",
+              "AI-risico’s"
+            ],
+            "sections": [
+              {
+                "title": "De theorie uitgelegd",
+                "text": "Een gemiddelde score vat prestaties samen, maar kan grote verschillen tussen groepen verbergen. Representativiteit gaat over welke gevallen in oefenen en testen aanwezig zijn. Historische ongelijke behandeling kan bovendien in gegevens doorwerken. Gender Shades onderzocht in 2018 commerciële genderclassificatie uit gezichtsbeelden, met sterke verschillen naar huidskleur en gender. Die specifieke studie motiveert groepsgewijs onderzoek; zij is geen prestatiebewijs voor ieder AI-systeem."
+              },
+              {
+                "title": "Wat je hier onderzoekt",
+                "text": "Het risicoregister vraagt meer dan nauwkeurige materiaalherkenning. De camera legt ook personen vast, een afwijzing heeft geen bruikbare uitleg en partijen wijzen voor herstel naar elkaar. Daarnaast kan een synthetische film een verzonnen goedkeuring tonen en verandert automatisering het werkrooster. Elk incident vraagt passend bewijs. Een hogere totaalscore vervangt geen privacyonderzoek, broncontrole, herstelafspraak of beoordeling van arbeidsgevolgen."
+              },
+              {
+                "title": "Voorbeeld en grens",
+                "text": "Stel dat vrijwel alle testgevallen schone verpakkingen zijn. Een hoog gemiddelde zegt dan weinig over vuile verpakkingen. Voeg gerichte tests toe en vergelijk foutsoorten; het ontbrekende onderzoek bewijst nog geen exacte oorzaak. Bij personeelsbesluiten geldt dezelfde voorzichtigheid, met andere belangen. Automatisering kan taken laten verdwijnen of nieuwe taken creëren. Organisatiekeuzes, opleiding en marktontwikkeling moeten worden onderzocht voordat je een banenuitkomst voorspelt."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "investigationId": "m4-05",
+      "npcs": [
+        {
+          "name": "Noor",
+          "role": "Systeemanalist bij de nooddispatch",
+          "cell": 0,
+          "opening": "Onderzoek eerst de voorwerpen in De controlekamer. Ik help je de begrippen en redenering achter je bevindingen uitwerken.",
+          "topics": [
+            {
+              "id": "m4-05-noor-t1",
+              "question": "Hoe moet ik 'Wat verdwijnt buiten het scherm?' begrijpen?",
+              "answer": "De score is geen volledige werkelijkheid. Een organisatie kan digitale monitoring voor echte verbeteringen of voor reputatie gebruiken. Onderzoek meetgrens, ontbrekende gevolgen en de prikkel achter selectie.",
+              "concepts": [
+                "technologische bemiddeling",
+                "KPI",
+                "selectieve duurzaamheidsinformatie",
+                "greenwashing"
+              ],
+              "sourceBlocks": [
+                13,
+                27,
+                41
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Verbeek verklaart hoe techniek waarneming en mogelijkheden bemiddelt. Data zichtbaar maken kan helpen; selectieve indicatoren kunnen welzijn, duurzaamheid en sociale impact buiten beeld houden."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Het scherm telt verkochte gerecyclede grondstof. Goedkope reststromen, energieverbruik en werkomstandigheden tellen niet mee."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Een ontbrekende indicator bewijst nog geen bewuste misleiding. Vraag wat bekend is en waarom de rapportagegrens werd gekozen."
+                }
+              ]
+            },
+            {
+              "id": "m4-05-noor-t2",
+              "question": "Hoe moet ik 'Wie kan wat veranderen?' begrijpen?",
+              "answer": "Een socio-technisch systeem verbindt technologie, gebruikers, organisatie en regels. Verantwoordelijkheid vraagt verschillende invloeden zichtbaar maken, met afgesproken herstel en verantwoording.",
+              "concepts": [
+                "niveaus van verantwoordelijkheid",
+                "socio-technisch systeem",
+                "agency"
+              ],
+              "sourceBlocks": [
+                0,
+                1,
+                41,
+                44,
+                51
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Ontwikkelaars beïnvloeden criteria; organisaties kiezen implementatie en toezicht; gebruikers handelen binnen mogelijkheden; instellingen bepalen kaders. Zoek concrete invloed en aanspreekbaarheid."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Dit betreft technische architectuur en zichtbaarheid."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Een toegewezen rol sluit andere verantwoordelijkheid niet uit. Meerdere partijen kunnen tegelijk een relevante bijdrage aan herstel hebben."
+                }
+              ]
+            },
+            {
+              "id": "m4-05-noor-t3",
+              "question": "Hoe moet ik 'Leg de interventies op drie werktafels' begrijpen?",
+              "answer": "Een explainable model is ontwerp; een interne audit is governance; regelgeving is institutioneel. Een technische correctie kan onvoldoende blijven wanneer doelen en incentives hetzelfde ongewenste gedrag belonen.",
+              "concepts": [
+                "ontwerpinterventie",
+                "organisatorische interventie",
+                "institutionele interventie",
+                "governance"
+              ],
+              "sourceBlocks": [
+                44,
+                47,
+                50,
+                51
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Ontwerp verandert de techniek. Organisatorische governance verandert toepassing, beheer en prikkels. Institutionele interventie verandert publieke kaders. Hun combinatie kan nodig zijn."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Dit verandert de technische gebruikersmogelijkheden."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "De niveaus overlappen in de uitvoering. Classificeer op de aangrijpende beslissing, niet op de functietitel van de bedenker."
+                }
+              ]
+            },
+            {
+              "id": "m4-05-noor-t4",
+              "question": "Hoe moet ik 'Maak het dashboard aanspreekbaar' begrijpen?",
+              "answer": "Waarden in strategie opnemen vraagt meer dan nieuwe woorden. Audits, verantwoordelijkheden en bredere beoordeling moeten het echte werk raken. Kosten- en concurrentiedruk kunnen weerstand geven; onderzoek uitvoerbare aanpassingen.",
+              "concepts": [
+                "transparantie",
+                "governance",
+                "algoritme-audit",
+                "maatschappelijke verantwoordelijkheid",
+                "organisatorische weerstand"
+              ],
+              "sourceBlocks": [
+                13,
+                41,
+                47
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Een rapportage heeft een afgebakende claim en gegevens nodig. Voeg relevante neveneffecten, onafhankelijke toetsing en iemand met bevoegdheid voor correctie toe."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Een meetgrens maakt duidelijk waarop de uitspraak betrekking heeft."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Meer indicatoren kunnen nieuwe blinde vlekken of meetprikkels creëren. Blijf kritisch naar de gekozen meetlat kijken."
+                }
+              ]
+            }
+          ],
+          "theory": {
+            "title": "Een meetinstrument verandert wat je kunt zien",
+            "concepts": [
+              "Verbeek",
+              "dashboardbemiddeling",
+              "smart grids",
+              "verantwoordelijkheid"
+            ],
+            "sections": [
+              {
+                "title": "De theorie uitgelegd",
+                "text": "Een dashboard is geen volledig venster op de werkelijkheid. Het selecteert indicatoren en maakt sommige gevolgen eenvoudiger bespreekbaar dan andere. Bij Verbeek heet dat bemiddeling van waarneming en handelen. Actor-Network Theory helpt daarnaast volgen hoe meter, prestatieafspraak en mensen samen verantwoordelijkheid verschuiven. De cijfers kunnen technisch correct zijn terwijl de selectie een beperkt beeld van welzijn, toegang of duurzaamheid geeft."
+              },
+              {
+                "title": "Wat je hier onderzoekt",
+                "text": "Hier telt het scherm verkochte gerecyclede grondstof, maar niet energie, reststromen of werkomstandigheden. De energiemeter verandert ook hoe managers teams aanspreken. Bij het smart grid helpen realtime gegevens variabele zon en wind coördineren, terwijl databeheer, investeringskosten en toegang aparte vragen blijven. Je herstelt daarom niet alleen de tegel: je onderzoekt ontbrekende effecten en legt vast wie informatie in actie kan omzetten."
+              },
+              {
+                "title": "Voorbeeld en grens",
+                "text": "Een dashboard toont minder energie per bestelling. Als het aantal bestellingen sterk stijgt, kan het totale verbruik toch groeien. Vraag welke vergelijking de claim gebruikt. Een extra indicator maakt zo’n verschil zichtbaar, maar verandert de bonusregel niet vanzelf. Omgekeerd is een hoger totaal geen bewijs dat de verbetering per bestelling verzonnen is. Meetgrens, schaal en bestuurlijke besluiten vragen elk hun eigen onderzoek."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Lena",
+          "role": "Analist van marketing, aandacht en impact",
+          "cell": 5,
+          "opening": "Ik volg de gevolgen voor mensen in De controlekamer. Leg je bewijs naast mijn vragen; een bruikbare diagnose laat ook zien wat je nog niet weet.",
+          "topics": [
+            {
+              "id": "m4-05-lena-t1",
+              "question": "Wat betekent 'Wat verdwijnt buiten het scherm?' voor betrokkenen?",
+              "answer": "Een slim energienet koppelt stroom en realtime gegevens om variabele zon- en windproductie beter te coördineren. Dat kan nuttig zijn.",
+              "concepts": [
+                "technologische bemiddeling",
+                "KPI",
+                "selectieve duurzaamheidsinformatie",
+                "greenwashing"
+              ],
+              "sourceBlocks": [
+                13,
+                27,
+                41
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "De score is geen volledige werkelijkheid. Een organisatie kan digitale monitoring voor echte verbeteringen of voor reputatie gebruiken. Onderzoek meetgrens, ontbrekende gevolgen en de prikkel achter selectie."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Vergelijk verkoopscore, energiekaart, afvalbak en klantbericht. Een dashboard bemiddelt aandacht: wat centraal staat, krijgt eerder een plek in beslissingen."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Een ontbrekende indicator bewijst nog geen bewuste misleiding. Vraag wat bekend is en waarom de rapportagegrens werd gekozen."
+                }
+              ]
+            },
+            {
+              "id": "m4-05-lena-t2",
+              "question": "Wat betekent 'Wie kan wat veranderen?' voor betrokkenen?",
+              "answer": "Dit betreft governance en uitvoering.",
+              "concepts": [
+                "niveaus van verantwoordelijkheid",
+                "socio-technisch systeem",
+                "agency"
+              ],
+              "sourceBlocks": [
+                0,
+                1,
+                41,
+                44,
+                51
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Een socio-technisch systeem verbindt technologie, gebruikers, organisatie en regels. Verantwoordelijkheid vraagt verschillende invloeden zichtbaar maken, met afgesproken herstel en verantwoording."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Verbind een bevinding met de rol die er invloed op heeft. Verantwoordelijkheid is verdeeld, maar verspreiding betekent niet dat niemand iets kan doen."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Een toegewezen rol sluit andere verantwoordelijkheid niet uit. Meerdere partijen kunnen tegelijk een relevante bijdrage aan herstel hebben."
+                }
+              ]
+            },
+            {
+              "id": "m4-05-lena-t3",
+              "question": "Wat betekent 'Leg de interventies op drie werktafels' voor betrokkenen?",
+              "answer": "Dit is interne governance.",
+              "concepts": [
+                "ontwerpinterventie",
+                "organisatorische interventie",
+                "institutionele interventie",
+                "governance"
+              ],
+              "sourceBlocks": [
+                44,
+                47,
+                50,
+                51
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Een explainable model is ontwerp; een interne audit is governance; regelgeving is institutioneel. Een technische correctie kan onvoldoende blijven wanneer doelen en incentives hetzelfde ongewenste gedrag belonen."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Sorteer voorstellen op ontwerp, organisatie of institutioneel niveau. Niet ieder toezichtvoorstel is een wet; niet iedere wet verandert automatisch de interface."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "De niveaus overlappen in de uitvoering. Classificeer op de aangrijpende beslissing, niet op de functietitel van de bedenker."
+                }
+              ]
+            },
+            {
+              "id": "m4-05-lena-t4",
+              "question": "Wat betekent 'Maak het dashboard aanspreekbaar' voor betrokkenen?",
+              "answer": "Een meetgrens maakt duidelijk waarop de uitspraak betrekking heeft.",
+              "concepts": [
+                "transparantie",
+                "governance",
+                "algoritme-audit",
+                "maatschappelijke verantwoordelijkheid",
+                "organisatorische weerstand"
+              ],
+              "sourceBlocks": [
+                13,
+                41,
+                47
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Waarden in strategie opnemen vraagt meer dan nieuwe woorden. Audits, verantwoordelijkheden en bredere beoordeling moeten het echte werk raken. Kosten- en concurrentiedruk kunnen weerstand geven; onderzoek uitvoerbare aanpassingen."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Kies de onderdelen die de claim begrenzen, ontbrekende effecten onderzoeken en herstel beleggen. Je maakt een controleerbaar werkplan; niet alle waarden hebben dezelfde meeteenheid."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Meer indicatoren kunnen nieuwe blinde vlekken of meetprikkels creëren. Blijf kritisch naar de gekozen meetlat kijken."
+                }
+              ]
+            }
+          ],
+          "theory": {
+            "title": "Waarom een groen dashboard de praktijk kan vooruitlopen",
+            "concepts": [
+              "greenwashing als systeemfenomeen",
+              "reputatieprikkels",
+              "interventieniveaus",
+              "governance"
+            ],
+            "sections": [
+              {
+                "title": "De theorie uitgelegd",
+                "text": "Greenwashing kan ontstaan wanneer een gunstige duurzaamheidsindruk sterker is dan de onderliggende prestaties. Dat hoeft niet tot één slechte marketingkeuze te worden teruggebracht. Kostenprikkels, reputatiedruk en langzaam veranderende infrastructuur kunnen de kloof versterken. We onderscheiden vervolgens ontwerpinterventies, organisatorische interventies en institutionele interventies. Ze raken techniek, uitvoering of publieke regels. Een verklaring voor de druk neemt verantwoordelijkheid voor een misleidende voorstelling niet weg."
+              },
+              {
+                "title": "Wat je hier onderzoekt",
+                "text": "De groene tegel toont één gunstige stroom, terwijl andere gevolgen ontbreken. Tegelijk beloont de organisatie vooral verkoopsnelheid. Een bredere interface is een ontwerpwijziging; een audit en aangepaste beoordeling zijn organisatorische wijzigingen. Publieke normen kunnen verantwoording versterken. In de ruimte verbind je daarom claimgrens, relevante effecten en herstelbevoegdheid. Anders kan de communicatie verbeteren zonder dat het gedrag achter de cijfers daadwerkelijk verandert."
+              },
+              {
+                "title": "Voorbeeld en grens",
+                "text": "Een commissie kan controleren waarom een goedkope reststroom buiten beeld blijft. Zij kan geen ontbrekende meetfunctie vanzelf vervangen. Een nieuw scherm kan die stroom tonen, maar zonder bevoegd beheer blijft opvolging onzeker. Beide kunnen dus nodig zijn. Meer indicatoren kunnen ook nieuwe meetprikkels creëren. Onderzoek uitvoering en gevolgen opnieuw; een controleplan of keurmerknaam is op zichzelf nog geen bewezen duurzaam resultaat."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "investigationId": "m4-06",
+      "npcs": [
+        {
+          "name": "Iris",
+          "role": "Ontwerper van automatisering en reparatieplanning",
+          "cell": 3,
+          "opening": "Onderzoek eerst de voorwerpen in De vrijgavekamer. Ik help je de begrippen en redenering achter je bevindingen uitwerken.",
+          "topics": [
+            {
+              "id": "m4-06-iris-t1",
+              "question": "Hoe moet ik 'Open de drie regelkasten' begrijpen?",
+              "answer": "Systemen komen uit menselijke, organisatorische en institutionele keuzes voort. Analyse is een begin: stel interventies voor die techniek én verantwoordelijkheden veranderen, met ruimte voor maatschappelijke afweging.",
+              "concepts": [
+                "Value Sensitive Design",
+                "responsible innovation",
+                "technologisch determinisme",
+                "AI Act",
+                "CSRD",
+                "Digital Services Act"
+              ],
+              "sourceBlocks": [
+                44,
+                45,
+                47,
+                50,
+                51
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Value Sensitive Design neemt waarden mee tijdens ontwerp. Responsible innovation vraagt vroeg gevolgen en risico’s onderzoeken en bijsturen. CSRD, AI Act en DSA illustreren verschillende institutionele aangrijpingspunten."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Friedman, Kahn en Borning beschrijven waarden meenemen tijdens ontwerp. Transparantie, toegankelijkheid en inclusiviteit moeten in keuzes en tests terechtkomen."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "De actuele toepassingsgrenzen en fasering van wetten veranderen. Deze les leert hun mechanismen; een generieke kaderkaart is geen juridische toepassingstoets."
+                }
+              ]
+            },
+            {
+              "id": "m4-06-iris-t2",
+              "question": "Hoe moet ik 'Bouw een herzienbare pilot' begrijpen?",
+              "answer": "Responsible innovation en VSD ondersteunen vroeg onderzoek. Agency blijft bestaan: gebruikers, ontwerpers, bestuur en publieke instellingen kunnen samen veranderen en nieuwe gevolgen onderzoeken.",
+              "concepts": [
+                "responsible innovation",
+                "Value Sensitive Design",
+                "menselijke agency",
+                "herziening"
+              ],
+              "sourceBlocks": [
+                44,
+                47,
+                51
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Begin bij betrokkenen en waarden, maak risico’s expliciet, test het ontwerp, leg bevoegdheden vast en herzie na gebruik. Een cyclus keert terug naar eerdere keuzes."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Responsible innovation en VSD ondersteunen vroeg onderzoek. Agency blijft bestaan: gebruikers, ontwerpers, bestuur en publieke instellingen kunnen samen veranderen en nieuwe gevolgen onderzoeken."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Een ondertekend plan bewijst geen uitvoering. Controleer later wie iets kon veranderen en welke gevolgen daadwerkelijk optraden."
+                }
+              ]
+            },
+            {
+              "id": "m4-06-iris-t3",
+              "question": "Hoe moet ik 'Koppel risico aan bevoegdheid' begrijpen?",
+              "answer": "Transparantie, audits, inclusief ontwerp en regulering hebben verschillende functies. Ze kunnen samengaan; geen daarvan vervangt vanzelf de andere of garandeert alle gewenste gevolgen.",
+              "concepts": [
+                "interventieniveaus",
+                "inclusief ontwerp",
+                "audits",
+                "institutionele bescherming"
+              ],
+              "sourceBlocks": [
+                44,
+                47,
+                50,
+                51
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Kies een aangrijpingspunt dat de oorzaak kan beïnvloeden en een partij die bevoegd is. Verantwoordingsinformatie helpt alleen wanneer iemand ernaar kan handelen."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Dit raakt de technische lock-in-barrière."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Een plausibele maatregel blijft een voorstel. Toets uitvoering, proportionaliteit en mogelijke nieuwe afhankelijkheden."
+                }
+              ]
+            },
+            {
+              "id": "m4-06-iris-t4",
+              "question": "Hoe moet ik 'Kies een verdedigbare eerste stap' begrijpen?",
+              "answer": "Ethiek stopt niet bij diagnose. Een professionele interventie maakt waarden, mechanismen, bevoegdheden en onzekerheden zichtbaar. De kwaliteit van de redenering telt, niet het onderschrijven van één favoriete morele prioriteit.",
+              "concepts": [
+                "interventie",
+                "agency",
+                "verantwoordelijkheid",
+                "proportionaliteit"
+              ],
+              "sourceBlocks": [
+                1,
+                44,
+                47,
+                50,
+                51
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Geen blauwdruk is overal de beste. Beide werkbare plannen noemen afbakening, tests en herziening. Een communicatieverandering zonder praktische aanpassing beheerst het aangetoonde risico niet."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Dit geeft ruimte voor leren binnen een begrensde toepassing; leg de grenzen en stopcriteria vast."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Een pilot kan beperkte risico’s beheersen maar bewijst nog geen veiligheid voor onbekende groepen of grootschalige toepassing."
+                }
+              ]
+            }
+          ],
+          "theory": {
+            "title": "Waarden vroeg onderzoeken en later kunnen herzien",
+            "concepts": [
+              "Value Sensitive Design",
+              "responsible innovation",
+              "menselijke agency",
+              "inclusief ontwerp"
+            ],
+            "sections": [
+              {
+                "title": "De theorie uitgelegd",
+                "text": "Value Sensitive Design neemt waarden mee in het ontwerp, in plaats van pas na oplevering een ethisch etiket toe te voegen. Responsible innovation vraagt anticiperen op maatschappelijke gevolgen en kunnen bijsturen. Agency betekent dat mensen bewust kunnen handelen, maar hun mogelijkheden verschillen naar rol, middelen en bevoegdheid. Technologie beïnvloedt gedrag zonder als een volledig autonome kracht iedere toekomstige uitkomst vast te leggen."
+              },
+              {
+                "title": "Wat je hier onderzoekt",
+                "text": "De vrijgave moet voortbouwen op wat je werkelijk vond: toegang bij uitval, overdraagbare data, ongelijke tests en een smal dashboard. Je brengt betrokkenen en waarden in kaart, onderzoekt alternatieven, test de pilot en belegt herziening. Dat is een terugkerende werkwijze. Een plan mag na nieuwe bevindingen veranderen. Alleen tekenen dat je inclusiviteit belangrijk vindt, maakt de noodknop nog niet bereikbaar."
+              },
+              {
+                "title": "Voorbeeld en grens",
+                "text": "Je kunt een kleine pilot kiezen met gerichte tests voor ontbrekende groepen. Een bredere pilot kan ook verdedigbaar zijn wanneer de fallback, controlecapaciteit en bewijsbasis dat ondersteunen. De juiste keuze is niet één verplichte morele voorkeur. Wel moeten afbakening, bevoegdheden en resterende onzekerheid kloppen. Een geslaagde proef bij bekende gebruikers bewijst nog geen veilige of rechtvaardige werking bij onbekende groepen op grotere schaal."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Eva",
+          "role": "Investeerder en adviseur over zeggenschap",
+          "cell": 4,
+          "opening": "Ik volg de gevolgen voor mensen in De vrijgavekamer. Leg je bewijs naast mijn vragen; een bruikbare diagnose laat ook zien wat je nog niet weet.",
+          "topics": [
+            {
+              "id": "m4-06-eva-t1",
+              "question": "Wat betekent 'Open de drie regelkasten' voor betrokkenen?",
+              "answer": "Stilgoe, Owen en Macnaghten benadrukken maatschappelijke verantwoordelijkheid en anticipatie. Onderzoek risico’s al tijdens ontwikkeling en stuur bij wanneer bewijs of behoeften veranderen.",
+              "concepts": [
+                "Value Sensitive Design",
+                "responsible innovation",
+                "technologisch determinisme",
+                "AI Act",
+                "CSRD",
+                "Digital Services Act"
+              ],
+              "sourceBlocks": [
+                44,
+                45,
+                47,
+                50,
+                51
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Systemen komen uit menselijke, organisatorische en institutionele keuzes voort. Analyse is een begin: stel interventies voor die techniek én verantwoordelijkheden veranderen, met ruimte voor maatschappelijke afweging."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Onderzoek VSD, responsible innovation en de publieke kaders. Regels en ontwerp bieden handelingsruimte; geen enkel kader bewijst automatisch dat een systeem verantwoord werkt."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "De actuele toepassingsgrenzen en fasering van wetten veranderen. Deze les leert hun mechanismen; een generieke kaderkaart is geen juridische toepassingstoets."
+                }
+              ]
+            },
+            {
+              "id": "m4-06-eva-t2",
+              "question": "Wat betekent 'Bouw een herzienbare pilot' voor betrokkenen?",
+              "answer": "Responsible innovation en VSD ondersteunen vroeg onderzoek. Agency blijft bestaan: gebruikers, ontwerpers, bestuur en publieke instellingen kunnen samen veranderen en nieuwe gevolgen onderzoeken.",
+              "concepts": [
+                "responsible innovation",
+                "Value Sensitive Design",
+                "menselijke agency",
+                "herziening"
+              ],
+              "sourceBlocks": [
+                44,
+                47,
+                51
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Responsible innovation en VSD ondersteunen vroeg onderzoek. Agency blijft bestaan: gebruikers, ontwerpers, bestuur en publieke instellingen kunnen samen veranderen en nieuwe gevolgen onderzoeken."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Leg een onderzoekscyclus op tafel. Deze volgorde is het werkplan voor deze pilot, geen universele checklist waarmee ethiek automatisch opgelost wordt."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Een ondertekend plan bewijst geen uitvoering. Controleer later wie iets kon veranderen en welke gevolgen daadwerkelijk optraden."
+                }
+              ]
+            },
+            {
+              "id": "m4-06-eva-t3",
+              "question": "Wat betekent 'Koppel risico aan bevoegdheid' voor betrokkenen?",
+              "answer": "Dit raakt de governance.",
+              "concepts": [
+                "interventieniveaus",
+                "inclusief ontwerp",
+                "audits",
+                "institutionele bescherming"
+              ],
+              "sourceBlocks": [
+                44,
+                47,
+                50,
+                51
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Transparantie, audits, inclusief ontwerp en regulering hebben verschillende functies. Ze kunnen samengaan; geen daarvan vervangt vanzelf de andere of garandeert alle gewenste gevolgen."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Verbind ieder probleem met een interventie die het mechanisme werkelijk raakt. Verschillende niveaus versterken elkaar; een keurmerk is geen reserveonderdeel."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Een plausibele maatregel blijft een voorstel. Toets uitvoering, proportionaliteit en mogelijke nieuwe afhankelijkheden."
+                }
+              ]
+            },
+            {
+              "id": "m4-06-eva-t4",
+              "question": "Wat betekent 'Kies een verdedigbare eerste stap' voor betrokkenen?",
+              "answer": "Dit geeft ruimte voor leren binnen een begrensde toepassing; leg de grenzen en stopcriteria vast.",
+              "concepts": [
+                "interventie",
+                "agency",
+                "verantwoordelijkheid",
+                "proportionaliteit"
+              ],
+              "sourceBlocks": [
+                1,
+                44,
+                47,
+                50,
+                51
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Ethiek stopt niet bij diagnose. Een professionele interventie maakt waarden, mechanismen, bevoegdheden en onzekerheden zichtbaar. De kwaliteit van de redenering telt, niet het onderschrijven van één favoriete morele prioriteit."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Kies een plan dat de getoonde risico’s daadwerkelijk beheerst. Een gefaseerde of bredere pilot kan verdedigbaar zijn; onderbouw proportionaliteit en resterende onzekerheid."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Een pilot kan beperkte risico’s beheersen maar bewijst nog geen veiligheid voor onbekende groepen of grootschalige toepassing."
+                }
+              ]
+            }
+          ],
+          "theory": {
+            "title": "Een publieke regel is een aangrijpingspunt, geen uitkomstgarantie",
+            "concepts": [
+              "institutionele interventie",
+              "AI Act",
+              "CSRD",
+              "Digital Services Act"
+            ],
+            "sections": [
+              {
+                "title": "De theorie uitgelegd",
+                "text": "Publieke kaders kunnen verantwoordelijkheid, bescherming en vergelijkbaarheid organiseren. De AI Act gebruikt een risicobenadering; CSRD betreft duurzaamheidsrapportage; de DSA kent onder meer systeemrisico- en transparantieverplichtingen voor zeer grote diensten. Het zijn verschillende aangrijpingspunten. Toepassingsbereik en invoering kunnen veranderen. Daarom leer je hier hun functies onderscheiden en niet een generieke kaderkaart als juridische toets of bewijs van verantwoord handelen behandelen."
+              },
+              {
+                "title": "Wat je hier onderzoekt",
+                "text": "In de vrijgavekamer leg je techniek, organisatie en publieke voorwaarden naast elkaar. Een bruikbare export raakt ontwerp; een herstelverantwoordelijke raakt governance; een toepasselijk publiek kader kan normen en toezicht versterken. Bij aanbevelingssystemen gaan de bronvragen ook over informatieverspreiding en publieke opinie. Je moet laten zien welke partij welk risico kan beïnvloeden en welke gegevens nodig zijn om de uitvoering te beoordelen."
+              },
+              {
+                "title": "Voorbeeld en grens",
+                "text": "Een platform kan transparanter rapporteren over aanbevelingen en onderzoekers toegang geven binnen passende voorwaarden. Daardoor wordt onderzoek mogelijk; desinformatie is niet ineens opgelost. Een duurzaamheidsrapport vervangt evenmin een aparte AI-risicobeoordeling. Bescherming en innovatie kunnen bovendien kosten en belangen oproepen. Onderzoek de concrete toepassing en actuele regels, en onderscheid een nageleefde informatieplicht van de werkelijke gevolgen die je met de pilot wilde veranderen."
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

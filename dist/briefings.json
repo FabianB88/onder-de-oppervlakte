@@ -1,0 +1,81 @@
+{
+  "lessons": {
+    "m1": {
+      "title": "Wie betaalt de echte prijs?",
+      "context": "Je bent een onderzoeksdrone bij NOVA, een fictieve telefoonproducent. Morgen wordt een nieuw toestel gelanceerd. Een stroomstoring maakt vanavond zichtbaar wat normaal achter de prijs en de belofte verdwijnt: wie krijgt voorrang, wie ontvangt de opbrengst en wie draagt de schade? Noor helpt je de verbanden onderzoeken. De andere mensen kennen ieder een ander deel van het verhaal.",
+      "goal": "Maak een verantwoord noodplan en volg daarna het toestel, het geld en de materialen. Aan het einde moet je een nieuwe situatie kunnen verklaren met bewijs, niet alleen met een mening.",
+      "primer": [
+        {"term":"Schaarste en morele economie","text":"Niet alle behoeften kunnen tegelijk worden vervuld. Een technische berekening toont wat kan; waarden bepalen welke belangen voorrang krijgen en waarom."},
+        {"term":"Friedman en spelregels","text":"Friedman legt de nadruk op winst binnen de spelregels. Onderzoek vervolgens wie die regels bepaalt en welke belangen ze beschermen of buiten beeld laten."},
+        {"term":"Externaliteiten en commons","text":"Een externaliteit is een gevolg dat buiten de rekening van een handeling valt. Een gedeelde hulpbron vraagt afspraken over gebruik, toegang, toezicht en verantwoordelijkheid."},
+        {"term":"Keten en macht","text":"Een toestel verbindt winning, productie, gebruik en afval. Controle over infrastructuur, data of schaarse grondstoffen beïnvloedt welke keuzes andere partijen werkelijk hebben."},
+        {"term":"Systeemdoelen en verantwoordelijkheid","text":"Een KPI of procedure beloont bepaalde handelingen. Dat helpt gedrag verklaren, maar wist individuele verantwoordelijkheid niet uit. Onderzoek zowel handelingsruimte als het systeemontwerp."},
+        {"term":"Eigendom, inkomen en vermogen","text":"Eigendom kan zeggenschap en opbrengst geven. Inkomen is een stroom per periode; vermogen is bezit op een moment. Verdeling van beide hoeft niet gelijk te zijn."},
+        {"term":"Piketty en cumulatie","text":"Wanneer rendement op bestaand vermogen langdurig sneller groeit dan de economie, kan vermogen zich concentreren. Dit is een mechanisme onder voorwaarden, geen wet die elk geval voorspelt."},
+        {"term":"Groei en ecologische grenzen","text":"Meer economische waarde is iets anders dan meer fysieke materialen. Een zuiniger product garandeert geen lagere totale impact als er veel meer producten worden gemaakt."},
+        {"term":"Marktregels en keuzeruimte","text":"Privatisering, deregulering en financiële prikkels veranderen verantwoordelijkheden en toegang. Aanbod, platformzichtbaarheid en eigendom kunnen mede bepalen welke vraag en keuzes ontstaan."},
+        {"term":"Kuddegedrag en verliesdruk","text":"Anderen volgen kan onder onzekerheid informatie bieden. Verliesdruk kan de aandacht vernauwen. Onderzoek de context voordat je gedrag als louter een karakterfout verklaart."}
+      ]
+    },
+    "m2": {
+      "title": "Waarom blijft het team dezelfde fouten maken?",
+      "context": "Je onderzoek volgt nu de retourstroom van NOVA. Bij de innamebalie lijkt alles volgens de procedure te gaan, maar veranderde omstandigheden worden gemist. In de retourruimte, kantine en helpdesk ontmoet je mensen met verschillende informatie, groepsverwachtingen en werkdruk. Je onderzoekt hoe gewone beslissingen samen een hardnekkig patroon kunnen vormen.",
+      "goal": "Verklaar het gedrag zonder mensen tot karikaturen te maken. Ontwerp een werkwijze die signalen zichtbaar maakt, heroverweging mogelijk maakt en verantwoordelijkheid concreet houdt.",
+      "primer": [
+        {"term":"Heuristieken","text":"Vuistregels besparen aandacht en tijd. Ze kunnen goed werken zolang hun voorwaarden passen. Een oude goedkeuring kan echter misleiden wanneer eigenaar of risico verandert."},
+        {"term":"Bias en framing","text":"De manier waarop informatie wordt aangeboden beïnvloedt aandacht en interpretatie. Een vertekening is geen bewijs dat iemand bewust verkeerd handelt; vergelijk informatie en omstandigheden."},
+        {"term":"Verliesaversie","text":"Een mogelijk verlies kan zwaarder wegen dan een vergelijkbare winst. De formulering en referentiepositie beïnvloeden keuzes, naast werkelijke gevolgen en belangen."},
+        {"term":"Groepen en normen","text":"Teams, referentiegroepen en netwerken beïnvloeden wat vanzelfsprekend lijkt. Lidmaatschap, leiderschap en informele verwachtingen zijn verschillende bronnen van invloed."},
+        {"term":"Conformiteit en gehoorzaamheid","text":"Meegaan met een groep en reageren op een gezagsfiguur zijn verschillende mechanismen. Context, nabijheid, verdeeld gezag en tegenstemmen kunnen het gedrag veranderen."},
+        {"term":"Morele ontkoppeling","text":"Mensen kunnen schadelijk gedrag rechtvaardigen, verantwoordelijkheid verschuiven of gevolgen en slachtoffers op afstand zetten. Herken het mechanisme in concrete taal en handelingen."},
+        {"term":"Structuur en agency","text":"Regels en middelen begrenzen handelen; mensen voeren die regels ook uit, veranderen of betwisten ze. Onderzoek waar iemand daadwerkelijk invloed en alternatieven heeft."},
+        {"term":"Een systeeminterventie","text":"Een waardenposter verandert geen tijdsdruk of meldroute. Een passende interventie verbindt een geconstateerd mechanisme met bevoegdheid, bescherming, middelen en controle op het gevolg."}
+      ]
+    },
+    "m3": {
+      "title": "Wie kan een besluit werkelijk veranderen?",
+      "context": "NOVA wil de reparatiedienst uitbreiden. Het logistieke netwerk, de eigendomsregisters en de bestuurskamer tonen verschillende kanten van die beslissing. Sommige mensen mogen meepraten, anderen bepalen de toegang of dragen kosten die niet in de investeringsrekening staan. Je volgt hoe eigendom, financiële doelen en institutionele regels in macht worden omgezet.",
+      "goal": "Onderscheid efficiëntie, formele rechten en feitelijke invloed. Bouw een besluitvormingsroute waarin relevante belangen zichtbaar zijn en een problematisch besluit daadwerkelijk kan worden herzien.",
+      "primer": [
+        {"term":"Schaalvoordelen en marktmacht","text":"Samen organiseren kan kosten verlagen. Macht ontstaat bijvoorbeeld wanneer een partij de toegang tot een noodzakelijk netwerk bepaalt en alternatieven moeilijk bruikbaar zijn."},
+        {"term":"Eigendom en zeggenschap","text":"Wie bezit ontvangt niet altijd dezelfde rechten als wie werkt, gebruikt of schade draagt. Onderzoek stemrechten, toegang en besluitbevoegdheid afzonderlijk."},
+        {"term":"Kapitalisme en instituties","text":"Prijscoördinatie, privé-eigendom en regels werken samen. Verschillende institutionele vormen kunnen tot verschillende uitkomsten leiden; één bedrijfsvoorbeeld bewijst niet hoe alle markten werken."},
+        {"term":"Aandeelhouders en stakeholders","text":"Aandeelhouders hebben een eigendomspositie. Stakeholders kunnen de organisatie beïnvloeden of door haar worden geraakt. Benoem welk belang, welke claim en welke invloed werkelijk bestaan."},
+        {"term":"Consultatie en bevoegdheid","text":"Een uitnodiging om advies te geven garandeert geen invloed op de uitkomst. Onderscheid gehoord worden, voorstellen doen, een besluit heropenen en daadwerkelijk meebeslissen."},
+        {"term":"Financialisering","text":"Financiële maatstaven en vermogenslogica kunnen sterker gaan sturen. Dit kan de tijdshorizon, investeringen en verdeling beïnvloeden; onderzoek het specifieke mechanisme en tegenvoorbeelden."},
+        {"term":"Waarde en meetgrenzen","text":"Een financiële rekening maakt bepaalde effecten zichtbaar. Toegankelijkheid, veiligheid of herstel kunnen afzonderlijke criteria vragen. Een andere horizon verandert ook welke kosten en baten worden meegeteld."},
+        {"term":"Verantwoording","text":"Een belangenmodel vraagt heldere verantwoordelijkheden. Zonder controleerbare afweging en aanspreekbaarheid kan brede stakeholdertaal alsnog ruimte geven aan ongecontroleerde bestuurdersmacht."}
+      ]
+    },
+    "m4": {
+      "title": "Welke waarden zitten al in het ontwerp?",
+      "context": "NOVA test nieuwe toegangssystemen, een automatisch sorteermodel en een cloudafhankelijke helpdesk. Een deur, een dataset en een dashboard lijken technische onderdelen, maar veranderen wat mensen kunnen doen en wat zichtbaar wordt. Je onderzoekt het ontwerp, probeert alternatieven en maakt een interventievoorstel voordat het systeem verder wordt uitgerold.",
+      "goal": "Leg uit hoe technologie handelen bemiddelt. Verbind een concreet risico met een passende ontwerpkeuze, test, fallback en verantwoordelijkheid, met aandacht voor onzekerheid.",
+      "primer": [
+        {"term":"Technologische bemiddeling","text":"Technologie verandert hoe mensen iets waarnemen en welke handelingen voor de hand liggen. Dat is geen volledige determinatie: mensen kunnen alternatieven gebruiken en ontwerpen wijzigen."},
+        {"term":"Scripts en actor-netwerken","text":"Een ontwerp kan bepaald gebruik uitnodigen of bemoeilijken. Onderzoek hoe mensen, apparaten, regels en infrastructuur elkaar in een netwerk beïnvloeden."},
+        {"term":"Value Sensitive Design","text":"Waarden worden onderzocht via conceptuele, empirische en technische vragen. Benoem betrokkenen, onderzoek hun ervaringen en test hoe ontwerpkeuzes de relevante waarden beïnvloeden."},
+        {"term":"Data, doel en fout","text":"Een model heeft een doel, trainingsgegevens en beoordelingscriteria. Een representatieprobleem en een problematisch doel zijn verschillende oorzaken die verschillende ingrepen vragen."},
+        {"term":"Gender Shades","text":"De studie uit 2018 onderzocht commerciële genderclassificatie en verschillen tussen groepen. Verwar dit niet met een studie naar identiteitsherkenning of met bewijs over elk huidig model."},
+        {"term":"Afhankelijkheid en autonomie","text":"Een bruikbaar systeem kan uitvallen wanneer een leverancier, verbinding of onderdeel ontbreekt. Onderzoek de alternatieve route, bereikbaarheid, beheer en herstelbevoegdheid."},
+        {"term":"Interventie en proportionaliteit","text":"Een beperkte pilot, fallback en onafhankelijke herziening kunnen risico's beheersen. Een test bewijst alleen wat onder de onderzochte omstandigheden wordt ondersteund."},
+        {"term":"Regels en morele verantwoordelijkheid","text":"Een wettelijke verplichting en een morele afweging zijn verschillende vragen. Regels veranderen en hebben een toepassingsgebied. Onderzoek daarom ook waarden, gevolgen en betrokkenen."}
+      ]
+    },
+    "m5": {
+      "title": "Wat mag NOVA aan de buitenwereld beloven?",
+      "context": "Het onderzoek komt uit bij de nieuwe campagne. NOVA heeft echte verbeteringen bereikt in een beperkte pilot. De voorgestelde reclame wekt een veel bredere indruk. Op de markt, in de campagnestudio en bij de materiaalrekening onderzoek je welke prestatie aantoonbaar is, wat de boodschap suggereert en welke verandering nog moet plaatsvinden.",
+      "goal": "Maak een houdbare publicatieroute: een claim met passende meetgrenzen, eerlijk bewijs en een uitvoerbaar vervolg. Onderzoek ook de prikkels en afhankelijkheden achter de communicatiekloof.",
+      "primer": [
+        {"term":"Greenwashing","text":"Een groene boodschap kan meer suggereren dan de prestaties dragen. Onderzoek de claim, de bewijsgrens en wat de ontvanger redelijkerwijs uit de boodschap afleidt."},
+        {"term":"Symboliek en transformatie","text":"Een zichtbaar project kan waarde hebben zonder het bedrijfsmodel te veranderen. Vergelijk omvang, middelen, totale activiteiten en daadwerkelijk gerealiseerde gevolgen."},
+        {"term":"Communicatie-praktijkontkoppeling","text":"Communicatie en handelen kunnen van elkaar losraken. Dat kan samengaan met bewuste misleiding. Een systeemverklaring maakt opzet niet per definitie onmogelijk en heft verantwoordelijkheid niet op."},
+        {"term":"Intensiteit en absolute impact","text":"Minder impact per eenheid is iets anders dan minder totale impact. Productievolume, de omvang van de pilot en andere levenscyclusfasen beïnvloeden de totale rekening."},
+        {"term":"Lifecycle en verificatie","text":"Een productclaim vraagt een passende afbakening over de levenscyclus. Onafhankelijke controle verbetert toetsbaarheid, maar vergroot de scope van het onderzochte bewijs niet automatisch."},
+        {"term":"Compensatie en eigen reductie","text":"Een compensatieproject is niet dezelfde handeling als het verminderen van de eigen uitstoot. Onderzoek waar, wanneer en onder welke voorwaarden de geclaimde verandering plaatsvindt."},
+        {"term":"Informatie-asymmetrie","text":"Een organisatie kan meer weten dan een klant of financier. Selectieve cijfers kunnen keuzes beïnvloeden. Vergelijkbare gegevens, grenzen en controle maken de kenniskloof zichtbaar."},
+        {"term":"Legitimiteit en systeemprestaties","text":"Publieke erkenning en een goede campagne zijn geen bewijs van werkelijke transformatie. Onderzoek prikkels, uitvoering en impact, naast de eerlijkheid van de belofte."}
+      ]
+    }
+  }
+}

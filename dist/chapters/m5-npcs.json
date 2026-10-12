@@ -1,0 +1,2172 @@
+{
+  "schemaVersion": 1,
+  "lessonId": "m5",
+  "rooms": [
+    {
+      "investigationId": "m5-01",
+      "npcs": [
+        {
+          "name": "Lena",
+          "role": "Analist van marketing, aandacht en impact",
+          "cell": 5,
+          "opening": "Onderzoek eerst de voorwerpen in De warenmarkt. Ik help je de begrippen en redenering achter je bevindingen uitwerken.",
+          "topics": [
+            {
+              "id": "m5-01-lena-t1",
+              "question": "Hoe moet ik 'Verzamel de verwachtingen rond de stand' begrijpen?",
+              "answer": "De stand staat in een omgeving van consumenten, investeerders, media, ngo’s en toezichthouders. Hun verwachtingen kunnen verandering stimuleren, maar ook druk geven om sneller duurzaam te lijken dan te veranderen.",
+              "concepts": [
+                "greenwashing als systeemfenomeen",
+                "institutionele druk",
+                "organisatorische beperkingen",
+                "economische prikkels"
+              ],
+              "sourceBlocks": [
+                0,
+                3,
+                27
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Greenwashing is een discrepantie tussen duurzaamheidscommunicatie en feitelijke prestaties. De systeemanalyse volgt institutionele druk, economische prikkels en organisatorische beperkingen; zij verklaart gedrag zonder misleiding goed te praten."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Een bezoeker vraagt naar milieu-impact en arbeidsomstandigheden. Maatschappelijke verwachtingen gaan verder dan goedkoop en snel leveren."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Druk bewijst niet dat greenwashing optreedt. Vergelijk concrete claims met bewijs en onderscheid verklaring van rechtvaardiging."
+                }
+              ]
+            },
+            {
+              "id": "m5-01-lena-t2",
+              "question": "Hoe moet ik 'Legitimiteit is niet hetzelfde als bewijs' begrijpen?",
+              "answer": "Legitimiteit betreft sociale erkenning. Decoupling betekent een loskoppeling tussen formele boodschap en feitelijke praktijk. De reactie op druk kan dus een echt veranderplan of vooral een zichtbaar symbool zijn.",
+              "concepts": [
+                "Suchman",
+                "legitimiteit",
+                "decoupling",
+                "symbolische communicatie"
+              ],
+              "sourceBlocks": [
+                3
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Organisaties willen als passend en verantwoord worden erkend. Dat kan via werkelijk handelen of symbolische afstemming. Zoek het bewijs dat communicatie met praktijk verbindt."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Dit is de legitimiteitsvraag."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Populariteit of een prijs bewijst niet dat een claim feitelijk juist is. Ook een legitiem doel kan met onvolledig bewijs worden gecommuniceerd."
+                }
+              ]
+            },
+            {
+              "id": "m5-01-lena-t3",
+              "question": "Hoe moet ik 'Volg woorden en werk afzonderlijk' begrijpen?",
+              "answer": "Een organisatie kan symbolisch voldoen aan verwachtingen terwijl haar werkwijze blijft bestaan. Het systeemonderzoek vergelijkt verwachtingen, doelen, middelen, uitvoering en communicatie; geen enkel symbool bewijst die gehele keten.",
+              "concepts": [
+                "symbolische maatregelen",
+                "feitelijke praktijk",
+                "decoupling"
+              ],
+              "sourceBlocks": [
+                0,
+                3,
+                9
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Een nieuw label verandert de presentatie; een retourproces verandert handelingen. Een formeel plan kan richting geven, maar uitvoering en effect moeten apart worden onderzocht."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Dit verandert de presentatie; het materiaal is niet daardoor gewijzigd."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Een communicatiemiddel is niet automatisch greenwashing. Misleiding ontstaat door de relatie tussen de uitspraak en het beschikbare bewijs."
+                }
+              ]
+            },
+            {
+              "id": "m5-01-lena-t4",
+              "question": "Hoe moet ik 'Open de stand met een houdbare belofte' begrijpen?",
+              "answer": "Je kunt een afgebakende pilot communiceren of wachten op breder bewijs. Beide behouden ruimte voor verandering. Leg uit wat bekend is, wat niet en welk werk de organisatie nog moet doen.",
+              "concepts": [
+                "waarheidsgetrouwe communicatie",
+                "claimgrens",
+                "legitimiteit"
+              ],
+              "sourceBlocks": [
+                3,
+                21,
+                24
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Maak de meetgrens, resultaten en onzekerheden zichtbaar. Een sterke toekomstambitie mag als ambitie worden benoemd, maar niet als al bereikte bedrijfsbrede prestatie."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Dit houdt de lokale prestatie apart van de brede ambitie."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Een juiste pilotclaim bewijst niet dat ieder aspect van de pilot of het bedrijf duurzaam is. Een afgebakende uitspraak blijft afgebakend."
+                }
+              ]
+            }
+          ],
+          "theory": {
+            "title": "Waarom maatschappelijke erkenning niet hetzelfde is als bewijs",
+            "concepts": [
+              "legitimiteit",
+              "Suchman",
+              "institutionele druk",
+              "decoupling"
+            ],
+            "sections": [
+              {
+                "title": "De theorie uitgelegd",
+                "text": "Legitimiteit betekent dat anderen een organisatie als passend en aanvaardbaar zien. Suchman helpt begrijpen waarom bedrijven reageren op maatschappelijke verwachtingen, naast prijs en winst. Consumenten, financiers, ngo’s, media en toezichthouders kunnen verschillende verwachtingen stellen. Erkenning kan volgen op echte verandering, maar ook op zichtbare symbolen. Een gunstige indruk is daarom iets anders dan bewijs dat de beloofde duurzaamheidsuitkomst werkelijk is bereikt."
+              },
+              {
+                "title": "Wat je hier onderzoekt",
+                "text": "Op de markt staan de poster, financieringsmail en werkplanning naast elkaar. De omgeving vraagt al om een circulaire service, terwijl de praktijk nog één retourpilot omvat. Dat verschil noemen we een communicatie-praktijkkloof. Decoupling beschrijft de ontkoppeling van formele boodschap en feitelijk werk. De verklaring kan systemisch zijn zonder medewerkers vrij te spreken: onderzoek ook wie welke claim kiest en welk bewijs beschikbaar is."
+              },
+              {
+                "title": "Voorbeeld en grens",
+                "text": "Een organisatie kan een serieuze pilot uitvoeren en daarvoor maatschappelijke waardering krijgen. Dat maakt de uitspraak over die pilot nog niet tot een bedrijfsbrede prestatie. Benoem wat al werkt, hoe groot het bereik is en wat toekomstplan blijft. De ontkoppeling kan zonder één centraal misleidingsbesluit groeien, maar ook samengaan met bewuste onwaarheid. Het begrip verklaart een mechanisme; het bewijst niet automatisch iemands intentie."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Omar",
+          "role": "Logistiek coördinator van het depot",
+          "cell": 1,
+          "opening": "Ik volg de gevolgen voor mensen in De warenmarkt. Leg je bewijs naast mijn vragen; een bruikbare diagnose laat ook zien wat je nog niet weet.",
+          "topics": [
+            {
+              "id": "m5-01-omar-t1",
+              "question": "Wat betekent 'Verzamel de verwachtingen rond de stand' voor betrokkenen?",
+              "answer": "Een financier wil aantoonbare duurzaamheid zien vóór de volgende ronde. De wens om kapitaal te krijgen verhoogt de druk op communicatie.",
+              "concepts": [
+                "greenwashing als systeemfenomeen",
+                "institutionele druk",
+                "organisatorische beperkingen",
+                "economische prikkels"
+              ],
+              "sourceBlocks": [
+                0,
+                3,
+                27
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "De stand staat in een omgeving van consumenten, investeerders, media, ngo’s en toezichthouders. Hun verwachtingen kunnen verandering stimuleren, maar ook druk geven om sneller duurzaam te lijken dan te veranderen."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Onderzoek publieksvragen, investeerdersmail, ngo-notitie en poster. Greenwashing kan ontstaan uit de spanning tussen wat verwacht wordt, wat beloofd wordt en wat werkelijk verandert."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Druk bewijst niet dat greenwashing optreedt. Vergelijk concrete claims met bewijs en onderscheid verklaring van rechtvaardiging."
+                }
+              ]
+            },
+            {
+              "id": "m5-01-omar-t2",
+              "question": "Wat betekent 'Legitimiteit is niet hetzelfde als bewijs' voor betrokkenen?",
+              "answer": "Dit is decoupling wanneer de discrepantie wordt aangetoond.",
+              "concepts": [
+                "Suchman",
+                "legitimiteit",
+                "decoupling",
+                "symbolische communicatie"
+              ],
+              "sourceBlocks": [
+                3
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Legitimiteit betreft sociale erkenning. Decoupling betekent een loskoppeling tussen formele boodschap en feitelijke praktijk. De reactie op druk kan dus een echt veranderplan of vooral een zichtbaar symbool zijn."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Verbind verwachtingen met organisatorische reacties. Suchman beschrijft legitimiteit als maatschappelijke aanvaardbaarheid; een gunstige indruk bewijst geen duurzame prestatie."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Populariteit of een prijs bewijst niet dat een claim feitelijk juist is. Ook een legitiem doel kan met onvolledig bewijs worden gecommuniceerd."
+                }
+              ]
+            },
+            {
+              "id": "m5-01-omar-t3",
+              "question": "Wat betekent 'Volg woorden en werk afzonderlijk' voor betrokkenen?",
+              "answer": "Dit verandert de werkroute en levert toetsbare resultaten.",
+              "concepts": [
+                "symbolische maatregelen",
+                "feitelijke praktijk",
+                "decoupling"
+              ],
+              "sourceBlocks": [
+                0,
+                3,
+                9
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Een organisatie kan symbolisch voldoen aan verwachtingen terwijl haar werkwijze blijft bestaan. Het systeemonderzoek vergelijkt verwachtingen, doelen, middelen, uitvoering en communicatie; geen enkel symbool bewijst die gehele keten."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Sorteer de gevonden veranderingen als communicatie/erkenning of operationele praktijk. Beide kunnen nuttig zijn; de vraag is of de boodschap door het werk wordt gedragen."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Een communicatiemiddel is niet automatisch greenwashing. Misleiding ontstaat door de relatie tussen de uitspraak en het beschikbare bewijs."
+                }
+              ]
+            },
+            {
+              "id": "m5-01-omar-t4",
+              "question": "Wat betekent 'Open de stand met een houdbare belofte' voor betrokkenen?",
+              "answer": "Dit houdt de lokale prestatie apart van de brede ambitie.",
+              "concepts": [
+                "waarheidsgetrouwe communicatie",
+                "claimgrens",
+                "legitimiteit"
+              ],
+              "sourceBlocks": [
+                3,
+                21,
+                24
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Je kunt een afgebakende pilot communiceren of wachten op breder bewijs. Beide behouden ruimte voor verandering. Leg uit wat bekend is, wat niet en welk werk de organisatie nog moet doen."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Kies een publicatie die de huidige beperkte pilot eerlijk weergeeft. Een kleinere claim of tijdelijk uitstel is verdedigbaar; licht je gekozen route toe."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Een juiste pilotclaim bewijst niet dat ieder aspect van de pilot of het bedrijf duurzaam is. Een afgebakende uitspraak blijft afgebakend."
+                }
+              ]
+            }
+          ],
+          "theory": {
+            "title": "De verwachting kan sneller bewegen dan het werk",
+            "concepts": [
+              "systeemfenomeen",
+              "organisatorische capaciteit",
+              "economische prikkels",
+              "verantwoordelijkheid"
+            ],
+            "sections": [
+              {
+                "title": "De theorie uitgelegd",
+                "text": "Een systeemverklaring verbindt maatschappelijke druk, economische beloning en organisatorische mogelijkheden. Een groene reputatie kan klanten of financiering aantrekken, terwijl machines, kennis en contracten trager veranderen. Die spanning kan communicatie vooruit laten lopen. Het is geen natuurwet dat iedere organisatie daardoor greenwasht. Bedrijven kunnen investeren, beloften begrenzen of een andere route kiezen. Een oorzaak begrijpen is bovendien iets anders dan een misleidende claim rechtvaardigen."
+              },
+              {
+                "title": "Wat je hier onderzoekt",
+                "text": "De hub mist nog reparatiecapaciteit en betrouwbare vervolgverwerking voor alle materiaalstromen. Tegelijk wil de financier snel een overtuigend verhaal. Zoek dus niet alleen naar de persoon die de poster maakte. Kijk naar budget, planning, kennis en beoordeling van prestaties. De opening van de marktstand vraagt een houdbare uitspraak en een uitvoerbare vervolgstap: je verbindt wat gezegd wordt aan wat vandaag werkelijk kan gebeuren."
+              },
+              {
+                "title": "Voorbeeld en grens",
+                "text": "Twee routes kunnen verantwoord zijn. De hub kan de beperkte pilot publiceren met expliciete grenzen, of een bredere claim uitstellen totdat extra processen getest zijn. De afweging hangt van belangen en bewijs af. Een tekort aan geld maakt de brede claim niet waar; meer geld bewijst evenmin dat verandering al uitgevoerd is. Volg de keten van middelen naar handelingen en vervolgens naar gemeten gevolgen."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "investigationId": "m5-02",
+      "npcs": [
+        {
+          "name": "Lena",
+          "role": "Analist van marketing, aandacht en impact",
+          "cell": 5,
+          "opening": "Onderzoek eerst de voorwerpen in De campagnestudio. Ik help je de begrippen en redenering achter je bevindingen uitwerken.",
+          "topics": [
+            {
+              "id": "m5-02-lena-t1",
+              "question": "Hoe moet ik 'Vier manieren om een groen beeld te maken' begrijpen?",
+              "answer": "Greenwashing is subtieler dan een volledig verzonnen getal. Een ware deeluitspraak kan door weglating of presentatie misleiden. Benoem meetgrens en bewijs voordat je over de hele organisatie concludeert.",
+              "concepts": [
+                "selectieve communicatie",
+                "vage claims",
+                "irrelevante communicatie",
+                "symbolische duurzaamheid"
+              ],
+              "sourceBlocks": [
+                9,
+                10
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Selectief laat relevante impact weg. Vaag mist duidelijke criteria. Irrelevant presenteert een basisvoorwaarde als onderscheidend voordeel. Symbolisch vergroot een kleine maatregel tot een veel groter duurzaam beeld."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "De advertentie toont alleen lagere verpakkingsemissies; grotere productie-emissies ontbreken terwijl de kop een totaalverbetering suggereert."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "De vier typen zijn analytische lenzen, geen altijd exclusieve vakjes. Een claim kan tegelijk vaag en selectief zijn."
+                }
+              ]
+            },
+            {
+              "id": "m5-02-lena-t2",
+              "question": "Hoe moet ik 'Leg de poster bij het getoonde mechanisme' begrijpen?",
+              "answer": "De categorie helpt gericht bewijs vragen. Zij bewijst geen intentie en is niet zelf de volledige ethische beoordeling. Beoordeel ook de indruk die de presentatie bij een publiek kan maken.",
+              "concepts": [
+                "selectieve communicatie",
+                "vage claims",
+                "irrelevante communicatie",
+                "symbolische duurzaamheid"
+              ],
+              "sourceBlocks": [
+                9
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Een ontbrekende definitie wijst op vaagheid; een weggelaten grote stroom op selectie; een al verplichte eigenschap op irrelevantie; een uitvergrote kleine actie op symboliek."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Het meetbereik past niet bij de indruk van het geheel."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Deze oefenkaarten isoleren één hoofdprobleem. Echte advertenties kunnen meerdere mechanismen combineren."
+                }
+              ]
+            },
+            {
+              "id": "m5-02-lena-t3",
+              "question": "Hoe moet ik 'Vraag het bewijs dat de claim mist' begrijpen?",
+              "answer": "Transparante informatie is volledig genoeg voor de bedoelde uitspraak, controleerbaar en niet misleidend. Juridische toelaatbaarheid en ethische deugdelijkheid zijn niet identiek; ook ware selectie kan een verkeerd totaalbeeld geven.",
+              "concepts": [
+                "transparantie",
+                "controleerbaarheid",
+                "waarheidsgetrouwheid",
+                "legaliteit versus ethiek"
+              ],
+              "sourceBlocks": [
+                9,
+                21
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Vraag naar betekenis, meetgrens, vergelijking, omvang en uitvoering. Een bewijsverzoek moet het concrete claimprobleem raken; populariteit is geen vervanging voor gegevens."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Dit raakt vaagheid."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Volledigheid betekent geen eindeloze datadump. Geef de relevante informatie en beperkingen die de uitspraak en beslissing begrijpelijk maken."
+                }
+              ]
+            },
+            {
+              "id": "m5-02-lena-t4",
+              "question": "Hoe moet ik 'Maak een controleerbare drukproef' begrijpen?",
+              "answer": "De beste reparatie van een misleidende tekst is niet alleen een rustiger kleur. De uitspraak moet aansluiten op het bewijs. Daarna blijft een afzonderlijke vraag of het bedrijfsmodel voldoende verandert.",
+              "concepts": [
+                "claimgrens",
+                "transparantie",
+                "feitelijke prestatie",
+                "symbolische communicatie"
+              ],
+              "sourceBlocks": [
+                9,
+                21,
+                27
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Een sterke claim heeft een betekenis, een meetgrens, gegevens en een vergelijking nodig. Benoem relevante beperkingen; toon wat al gebeurde en wat nog een plan is."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Hierdoor krijgt de uitspraak een controleerbare betekenis."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Een correcte poster kan een te beperkte verandering beschrijven. Houd claimkwaliteit en werkelijke transformatie als twee aparte beoordelingen."
+                }
+              ]
+            },
+            {
+              "id": "m5-02-lena-t5",
+              "question": "Hoe moet ik 'Wat bewijst de compensatiebon?' begrijpen?",
+              "answer": "Compensatie vraagt eigen bewijs en begrenzing. Zij verandert niet door haar bestaan het gemeten eigen uitstootniveau. Een verantwoord oordeel kan meerdere afwegingen toelaten; het gegeven uitstootfeit mag niet worden vervangen.",
+              "concepts": [
+                "compensatie versus reductie",
+                "claimgrens",
+                "waarheidsgetrouwheid"
+              ],
+              "sourceBlocks": [
+                1,
+                25
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Een externe projectbijdrage en een vermindering in eigen processen zijn verschillende claims. Beoordeel hun afzonderlijke meetmethoden en effecten voordat je een totaalresultaat beweert."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Een compensatiebon is geen meting van een eigen procesverbetering."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Deze taak stelt geen universeel oordeel over alle compensatieprojecten. Werkelijke effectiviteit en passende claims vragen project- en ketenbewijs."
+                }
+              ]
+            }
+          ],
+          "theory": {
+            "title": "Vier manieren waarop een groen beeld kan overdrijven",
+            "concepts": [
+              "selectieve communicatie",
+              "vage claims",
+              "irrelevante communicatie",
+              "symbolische duurzaamheid"
+            ],
+            "sections": [
+              {
+                "title": "De theorie uitgelegd",
+                "text": "De cursus gebruikt vier analytische lenzen. Selectieve communicatie laat relevante effecten weg; vage claims missen duidelijke betekenis of criteria. Irrelevante communicatie maakt een basisvoorwaarde tot speciaal voordeel. Symbolische duurzaamheid geeft een kleine maatregel een veel groter gewicht. Die vormen kunnen overlappen. Delmas en Burbano onderzoeken daarnaast verschillende prikkelniveaus; deze vier lenzen zijn geen exact, universeel en exclusief taxonomisch schema uit hun artikel."
+              },
+              {
+                "title": "Wat je hier onderzoekt",
+                "text": "Poster A gebruikt verpakkingsdata voor een brede conclusie. Poster B zegt eco-friendly zonder maatstaf. Poster C viert een eigenschap die in deze productcontext al de basis is. Poster D maakt één kleine actie het gezicht van het hele bedrijf. Je zoekt steeds het specifieke ontbrekende bewijs. Ook kleuren en natuurbeelden kunnen een indruk oproepen zonder een expliciet groen woord te gebruiken."
+              },
+              {
+                "title": "Voorbeeld en grens",
+                "text": "Een advertentie kan een echte kleine inzamelactie uitvergroten én grotere productiestromen weglaten. Dan zijn symboliek en selectie tegelijk relevant. Kies in de oefening het geïsoleerde hoofdmechanisme, maar houd bij echte reclame meerdere lenzen open. Een groen beeld of een kleine verbetering is niet op zichzelf misleiding. Het oordeel vraagt vergelijking tussen de gewekte indruk, de reikwijdte van de uitspraak en de beschikbare onderbouwing."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Noor",
+          "role": "Systeemanalist bij de nooddispatch",
+          "cell": 0,
+          "opening": "Ik volg de gevolgen voor mensen in De campagnestudio. Leg je bewijs naast mijn vragen; een bruikbare diagnose laat ook zien wat je nog niet weet.",
+          "topics": [
+            {
+              "id": "m5-02-noor-t1",
+              "question": "Wat betekent 'Vier manieren om een groen beeld te maken' voor betrokkenen?",
+              "answer": "Het label zegt eco-friendly zonder te definiëren welke impact, vergelijking of meetmethode daarbij hoort.",
+              "concepts": [
+                "selectieve communicatie",
+                "vage claims",
+                "irrelevante communicatie",
+                "symbolische duurzaamheid"
+              ],
+              "sourceBlocks": [
+                9,
+                10
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Greenwashing is subtieler dan een volledig verzonnen getal. Een ware deeluitspraak kan door weglating of presentatie misleiden. Benoem meetgrens en bewijs voordat je over de hele organisatie concludeert."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Onderzoek vier posters en één goede tegenhanger. Selectieve, vage, irrelevante en symbolische communicatie kunnen overlappen; je onderzoekt welk mechanisme ieder bewijsstuk vooral toont."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "De vier typen zijn analytische lenzen, geen altijd exclusieve vakjes. Een claim kan tegelijk vaag en selectief zijn."
+                }
+              ]
+            },
+            {
+              "id": "m5-02-noor-t2",
+              "question": "Wat betekent 'Leg de poster bij het getoonde mechanisme' voor betrokkenen?",
+              "answer": "Er ontbreekt een controleerbare betekenis.",
+              "concepts": [
+                "selectieve communicatie",
+                "vage claims",
+                "irrelevante communicatie",
+                "symbolische duurzaamheid"
+              ],
+              "sourceBlocks": [
+                9
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "De categorie helpt gericht bewijs vragen. Zij bewijst geen intentie en is niet zelf de volledige ethische beoordeling. Beoordeel ook de indruk die de presentatie bij een publiek kan maken."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Koppel ieder scherp afgebakend bewijsstuk aan zijn primaire mechanisme. Bij twijfel: kijk naar wat specifiek ontbreekt of wordt uitvergroot."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Deze oefenkaarten isoleren één hoofdprobleem. Echte advertenties kunnen meerdere mechanismen combineren."
+                }
+              ]
+            },
+            {
+              "id": "m5-02-noor-t3",
+              "question": "Wat betekent 'Vraag het bewijs dat de claim mist' voor betrokkenen?",
+              "answer": "Dit raakt selectieve reikwijdte.",
+              "concepts": [
+                "transparantie",
+                "controleerbaarheid",
+                "waarheidsgetrouwheid",
+                "legaliteit versus ethiek"
+              ],
+              "sourceBlocks": [
+                9,
+                21
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Transparante informatie is volledig genoeg voor de bedoelde uitspraak, controleerbaar en niet misleidend. Juridische toelaatbaarheid en ethische deugdelijkheid zijn niet identiek; ook ware selectie kan een verkeerd totaalbeeld geven."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Verbind de poster met een vraag die het specifieke gat onderzoekt. Een langere brochure maakt de informatie niet vanzelf controleerbaar."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Volledigheid betekent geen eindeloze datadump. Geef de relevante informatie en beperkingen die de uitspraak en beslissing begrijpelijk maken."
+                }
+              ]
+            },
+            {
+              "id": "m5-02-noor-t4",
+              "question": "Wat betekent 'Maak een controleerbare drukproef' voor betrokkenen?",
+              "answer": "Hierdoor krijgt de uitspraak een controleerbare betekenis.",
+              "concepts": [
+                "claimgrens",
+                "transparantie",
+                "feitelijke prestatie",
+                "symbolische communicatie"
+              ],
+              "sourceBlocks": [
+                9,
+                21,
+                27
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "De beste reparatie van een misleidende tekst is niet alleen een rustiger kleur. De uitspraak moet aansluiten op het bewijs. Daarna blijft een afzonderlijke vraag of het bedrijfsmodel voldoende verandert."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Kies de onderdelen die een specifieke prestatie, een eerlijke vergelijking en haar begrenzing samen beschrijven. De opdrachtgever mag een ambitie hebben; label die als toekomstplan."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Een correcte poster kan een te beperkte verandering beschrijven. Houd claimkwaliteit en werkelijke transformatie als twee aparte beoordelingen."
+                }
+              ]
+            },
+            {
+              "id": "m5-02-noor-t5",
+              "question": "Wat betekent 'Wat bewijst de compensatiebon?' voor betrokkenen?",
+              "answer": "Een compensatiebon is geen meting van een eigen procesverbetering.",
+              "concepts": [
+                "compensatie versus reductie",
+                "claimgrens",
+                "waarheidsgetrouwheid"
+              ],
+              "sourceBlocks": [
+                1,
+                25
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Compensatie vraagt eigen bewijs en begrenzing. Zij verandert niet door haar bestaan het gemeten eigen uitstootniveau. Een verantwoord oordeel kan meerdere afwegingen toelaten; het gegeven uitstootfeit mag niet worden vervangen."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Een fictief bedrijf houdt zijn eigen uitstoot gelijk en financiert een project elders. Welke uitspraak houdt de twee gegevensstromen inhoudelijk uit elkaar?"
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Deze taak stelt geen universeel oordeel over alle compensatieprojecten. Werkelijke effectiviteit en passende claims vragen project- en ketenbewijs."
+                }
+              ]
+            }
+          ],
+          "theory": {
+            "title": "Een correcte deeluitspraak kan een onjuist totaalbeeld geven",
+            "concepts": [
+              "claimgrens",
+              "controleerbaarheid",
+              "waarheidsgetrouwheid",
+              "compensatie en reductie"
+            ],
+            "sections": [
+              {
+                "title": "De theorie uitgelegd",
+                "text": "Een claimgrens zegt over welk product, proces, periode en effect een uitspraak gaat. Zonder die grens kun je een klein resultaat voor het geheel aanzien. Controleerbaarheid vraagt daarnaast een betekenis, meetmethode en vergelijking. Waarheidsgetrouwheid gaat dus verder dan een los kloppend getal. Ook wat wordt weggelaten en welke indruk het publiek redelijkerwijs krijgt, kan de kwaliteit van de informatie bepalen."
+              },
+              {
+                "title": "Wat je hier onderzoekt",
+                "text": "Je maakt hier een drukproef waarin prestatie en grenzen samen staan. De materiaalnaam vegan leather vertelt iets over dierlijke herkomst, niet vanzelf over milieuprestaties. Een compensatiebon voor een project elders meet geen lagere uitstoot in de eigen keten. De campagne moet daarom verschillende gegevensstromen uit elkaar houden en duidelijk maken welke conclusie de eigen meting werkelijk draagt, inclusief nog onbekende gevolgen."
+              },
+              {
+                "title": "Voorbeeld en grens",
+                "text": "Stel dat de eigen uitstoot gelijk blijft en het bedrijf een extern natuurproject financiert. Het kan die bijdrage beschrijven met passende onderbouwing, maar niet de bon als gemeten eigen uitstootdaling presenteren. Een bijdrage van twintig procent van het budget is ook geen emissiedaling van twintig procent. Dat rekent verschillende grootheden door elkaar. De ethische waarde van compensatie blijft een aparte discussie over werkelijk effect en voorwaarden."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "investigationId": "m5-03",
+      "npcs": [
+        {
+          "name": "Mila",
+          "role": "Reparatietechnicus en onderzoeker van ketenrecords",
+          "cell": 2,
+          "opening": "Onderzoek eerst de voorwerpen in De materiaalwerkplaats. Ik help je de begrippen en redenering achter je bevindingen uitwerken.",
+          "topics": [
+            {
+              "id": "m5-03-mila-t1",
+              "question": "Hoe moet ik 'Een oude machine, een nieuwe verwachting' begrijpen?",
+              "answer": "Path dependency maakt organisatorische traagheid begrijpelijk. De spanning tussen verwachting en capaciteit kan communicatie vooruit laten lopen. Een beperking verklaart de situatie; zij rechtvaardigt geen onware claim.",
+              "concepts": [
+                "path dependency",
+                "padafhankelijkheid",
+                "verwachting versus capaciteit",
+                "organisatorische traagheid"
+              ],
+              "sourceBlocks": [
+                0,
+                3
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Een bestaande lijn, contract en infrastructuur verbinden kosten en werkprocessen. Nieuwe verwachtingen veranderen sneller dan deze samenhang. Vraag naar middelen, kennis en bereidheid voor een uitvoerbare omschakeling."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "De oude productielijn is gekoppeld aan specifieke materialen en contracten. Een verandering vraagt niet alleen een andere poster, maar aanpassing van die relaties."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Eerdere investeringen zijn geen natuurwet. Alternatieven, afschrijving, nieuwe financiering en herontwerp kunnen de ruimte voor verandering beïnvloeden."
+                }
+              ]
+            },
+            {
+              "id": "m5-03-mila-t2",
+              "question": "Hoe moet ik 'Reconstrueer de afhankelijke route' begrijpen?",
+              "answer": "Padafhankelijkheid ontstaat doordat keuzes zich in apparaten, contracten en werkwijzen vastzetten. Daardoor is veranderen kostbaar en gecoördineerd werk nodig. Die geschiedenis bepaalt niet elke toekomstige uitkomst.",
+              "concepts": [
+                "padafhankelijkheid",
+                "investeringen",
+                "organisatorische beperkingen"
+              ],
+              "sourceBlocks": [
+                3
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Volg investering, bijpassende contracten en routines, omschakelkosten en de huidige beperkte speelruimte. Daarna onderzoek je alternatieven en bevoegde partijen."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Padafhankelijkheid ontstaat doordat keuzes zich in apparaten, contracten en werkwijzen vastzetten. Daardoor is veranderen kostbaar en gecoördineerd werk nodig. Die geschiedenis bepaalt niet elke toekomstige uitkomst."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Kosten verklaren niet alles: ook kennis, bereidheid, strategie en institutionele voorwaarden kunnen verandering beïnvloeden."
+                }
+              ]
+            },
+            {
+              "id": "m5-03-mila-t3",
+              "question": "Hoe moet ik 'Maak beperking geen vrijbrief' begrijpen?",
+              "answer": "De greenwashing-kloof ontstaat uit meer dan één persoon. Een systeemaanpak onderzoekt institutionele druk, prikkels en beperkingen én wie het werk kan aanpassen. Leg de feitelijke grenzen eerlijk uit.",
+              "concepts": [
+                "systeemfenomeen",
+                "capaciteit",
+                "middelen kennis bereidheid",
+                "agency"
+              ],
+              "sourceBlocks": [
+                0,
+                3,
+                27
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Scheid fysieke capaciteit, financiering, kennis en bereidheid. Elk obstakel vraagt ander bewijs en een andere aanpak; druk op reputatie vervangt de verandering niet."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Dit onderzoekt technische veranderingsruimte."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Een geïnventariseerd obstakel bewijst niet dat de voorgestelde oplossing werkt. Toets uitvoerbaarheid en gevolgen voordat je een resultaat claimt."
+                }
+              ]
+            },
+            {
+              "id": "m5-03-mila-t4",
+              "question": "Hoe moet ik 'Verander volume en pilotbereik' begrijpen?",
+              "answer": "Een lokale verbetering kan echt zijn terwijl de totale impact stijgt. Selectieve communicatie ontstaat wanneer de beperkte indicator een brede indruk draagt. De fictieve proef meet geen volledige duurzaamheid.",
+              "concepts": [
+                "per-product versus absolute impact",
+                "selectieve communicatie",
+                "claimgrens",
+                "volume"
+              ],
+              "sourceBlocks": [
+                9,
+                14,
+                21,
+                24
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Een lagere impact per pilotproduct zegt niets op zichzelf over de volledige organisatie. Totaal hangt ook af van volume en welk deel verbeterd is; vaste grenzen maken vergelijken mogelijk."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Een lokale verbetering kan echt zijn terwijl de totale impact stijgt. Selectieve communicatie ontstaat wanneer de beperkte indicator een brede indruk draagt. De fictieve proef meet geen volledige duurzaamheid."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "De impactpunten zijn fictief. Energie, transport, sociale effecten en einde levensduur ontbreken; geen bedrijfsbrede duurzaamheidsbeoordeling volgt uit dit ene model."
+                }
+              ]
+            }
+          ],
+          "theory": {
+            "title": "Eerdere keuzes maken veranderen gekoppeld werk",
+            "concepts": [
+              "padafhankelijkheid",
+              "machines en contracten",
+              "kennis en capaciteit",
+              "agency"
+            ],
+            "sections": [
+              {
+                "title": "De theorie uitgelegd",
+                "text": "Padafhankelijkheid betekent dat eerdere keuzes toekomstige mogelijkheden mede begrenzen. Een machine vraagt bepaalde materialen, medewerkers leren die werkwijze en contracten sluiten erop aan. Overschakelen verandert dan meer dan één onderdeel. Dat is niet hetzelfde als zeggen dat verandering onmogelijk is. Onderzoek welke afhankelijkheden echt kosten of tijd geven en welke gefaseerde alternatieven bestaan. Kennis, bereidheid, financiering en fysieke capaciteit zijn verschillende vragen."
+              },
+              {
+                "title": "Wat je hier onderzoekt",
+                "text": "De materiaalwerkplaats toont een oude lijn met gekoppelde contracten. Een nieuwe poster past direct op de muur; een nieuwe materiaalroute past niet direct op de machine. Je reconstrueert daarom hoe de investering, routines en contracten samen zijn gaan werken. Vervolgens verbind je iedere beperking met onderzoek naar een alternatief. De uitweg is geen geheim slot, maar een onderbouwde verandering van de feitelijke route."
+              },
+              {
+                "title": "Voorbeeld en grens",
+                "text": "Nieuwe reparatiekennis kan het bestaande apparaat bruikbaarder maken zonder meteen de hele fabriek te vervangen. Soms is juist gefaseerde vervanging nodig. Vergelijk technische tests, training, financiering en gevolgen voor betrokkenen. Verzonken uitgaven zijn al gedaan, maar huidige contracten en koppelingen kunnen nog echte overstapkosten geven. Een veranderwens heft die beperkingen niet op; een beperking levert evenmin bewijs voor een prestatie die nog niet bestaat."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Eva",
+          "role": "Investeerder en adviseur over zeggenschap",
+          "cell": 4,
+          "opening": "Ik volg de gevolgen voor mensen in De materiaalwerkplaats. Leg je bewijs naast mijn vragen; een bruikbare diagnose laat ook zien wat je nog niet weet.",
+          "topics": [
+            {
+              "id": "m5-03-eva-t1",
+              "question": "Wat betekent 'Een oude machine, een nieuwe verwachting' voor betrokkenen?",
+              "answer": "Nieuwe machines en reparatiekennis zijn nog niet beschikbaar. Tijd, middelen en organisatie beperken wat vandaag uitgevoerd kan worden.",
+              "concepts": [
+                "path dependency",
+                "padafhankelijkheid",
+                "verwachting versus capaciteit",
+                "organisatorische traagheid"
+              ],
+              "sourceBlocks": [
+                0,
+                3
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Path dependency maakt organisatorische traagheid begrijpelijk. De spanning tussen verwachting en capaciteit kan communicatie vooruit laten lopen. Een beperking verklaart de situatie; zij rechtvaardigt geen onware claim."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Bekijk investeringsbon, productielijn, levertijd en pilotmonster. Padafhankelijkheid beschrijft hoe eerdere keuzes latere mogelijkheden beperken, zonder verandering onmogelijk te maken."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Eerdere investeringen zijn geen natuurwet. Alternatieven, afschrijving, nieuwe financiering en herontwerp kunnen de ruimte voor verandering beïnvloeden."
+                }
+              ]
+            },
+            {
+              "id": "m5-03-eva-t2",
+              "question": "Wat betekent 'Reconstrueer de afhankelijke route' voor betrokkenen?",
+              "answer": "Padafhankelijkheid ontstaat doordat keuzes zich in apparaten, contracten en werkwijzen vastzetten. Daardoor is veranderen kostbaar en gecoördineerd werk nodig. Die geschiedenis bepaalt niet elke toekomstige uitkomst.",
+              "concepts": [
+                "padafhankelijkheid",
+                "investeringen",
+                "organisatorische beperkingen"
+              ],
+              "sourceBlocks": [
+                3
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Padafhankelijkheid ontstaat doordat keuzes zich in apparaten, contracten en werkwijzen vastzetten. Daardoor is veranderen kostbaar en gecoördineerd werk nodig. Die geschiedenis bepaalt niet elke toekomstige uitkomst."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Orden hoe eerdere investeringen de huidige keuze beperken. Deze route beschrijft één mechanisme; het maakt intentie of onvermijdelijkheid niet bewezen."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Kosten verklaren niet alles: ook kennis, bereidheid, strategie en institutionele voorwaarden kunnen verandering beïnvloeden."
+                }
+              ]
+            },
+            {
+              "id": "m5-03-eva-t3",
+              "question": "Wat betekent 'Maak beperking geen vrijbrief' voor betrokkenen?",
+              "answer": "Dit onderzoekt middelen en strategie.",
+              "concepts": [
+                "systeemfenomeen",
+                "capaciteit",
+                "middelen kennis bereidheid",
+                "agency"
+              ],
+              "sourceBlocks": [
+                0,
+                3,
+                27
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "De greenwashing-kloof ontstaat uit meer dan één persoon. Een systeemaanpak onderzoekt institutionele druk, prikkels en beperkingen én wie het werk kan aanpassen. Leg de feitelijke grenzen eerlijk uit."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Verbind ieder obstakel met het onderzoek dat veranderingsruimte zichtbaar maakt. Een overtuigende diagnose wijst op mogelijke handelingen, niet alleen op een excuus."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Een geïnventariseerd obstakel bewijst niet dat de voorgestelde oplossing werkt. Toets uitvoerbaarheid en gevolgen voordat je een resultaat claimt."
+                }
+              ]
+            },
+            {
+              "id": "m5-03-eva-t4",
+              "question": "Wat betekent 'Verander volume en pilotbereik' voor betrokkenen?",
+              "answer": "Een lokale verbetering kan echt zijn terwijl de totale impact stijgt. Selectieve communicatie ontstaat wanneer de beperkte indicator een brede indruk draagt. De fictieve proef meet geen volledige duurzaamheid.",
+              "concepts": [
+                "per-product versus absolute impact",
+                "selectieve communicatie",
+                "claimgrens",
+                "volume"
+              ],
+              "sourceBlocks": [
+                9,
+                14,
+                21,
+                24
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Een lokale verbetering kan echt zijn terwijl de totale impact stijgt. Selectieve communicatie ontstaat wanneer de beperkte indicator een brede indruk draagt. De fictieve proef meet geen volledige duurzaamheid."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Voorspel de totale impact. Varieer daarna volume en pilotaandeel bij dezelfde per-productverbetering. Kijk welke claim binnen de meetgrens houdbaar blijft."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "De impactpunten zijn fictief. Energie, transport, sociale effecten en einde levensduur ontbreken; geen bedrijfsbrede duurzaamheidsbeoordeling volgt uit dit ene model."
+                }
+              ]
+            }
+          ],
+          "theory": {
+            "title": "Verbetering per stuk is iets anders dan minder totale impact",
+            "concepts": [
+              "intensiteit en absolute impact",
+              "pilotbereik",
+              "volume",
+              "selectieve communicatie"
+            ],
+            "sections": [
+              {
+                "title": "De theorie uitgelegd",
+                "text": "Impact per product noemen we hier intensiteit. Totale impact hangt ook af van hoeveel producten er zijn en welk aandeel daadwerkelijk verbeterd is. Een pilot kan dus echt beter presteren terwijl de totale belasting groeit. Vergelijk steeds dezelfde indicator en grens. Dit rekenmechanisme helpt een claim beoordelen, maar is geen volledige levenscyclusanalyse en bepaalt niet vanzelf welke bedrijfsstrategie moreel de beste is."
+              },
+              {
+                "title": "Wat je hier onderzoekt",
+                "text": "In de proef verbeter je pilotproducten met twintig procent, terwijl ze maar vijf procent van de productie vormen en het volume anderhalf keer zo groot wordt. Het gemiddelde verbetert dan veel minder dan het pilotgetal. Je verandert volume en pilotbereik apart om de oorzaak te zien. Zo leer je welke deeluitspraak houdbaar is en waarom een bedrijfsbrede dalingsclaim aanvullend bewijs vraagt."
+              },
+              {
+                "title": "Voorbeeld en grens",
+                "text": "Bij de fictieve uitgangssituatie leveren duizend producten van tien punten samen tienduizend impactpunten op. Met vijf procent verbeterde producten wordt het gemiddelde 9,9 punten. Vijftienhonderd producten geven dan 14.850 punten: 48,5 procent hoger. De pilotverbetering blijft echt binnen het model. De punten zijn leswaarden; transport, gebruik, arbeid en afval zijn niet volledig meegenomen, zodat hieruit geen compleet duurzaamheidsoordeel volgt."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "investigationId": "m5-04",
+      "npcs": [
+        {
+          "name": "Mila",
+          "role": "Reparatietechnicus en onderzoeker van ketenrecords",
+          "cell": 2,
+          "opening": "Onderzoek eerst de voorwerpen in De retour- en recyclingroute. Ik help je de begrippen en redenering achter je bevindingen uitwerken.",
+          "topics": [
+            {
+              "id": "m5-04-mila-t1",
+              "question": "Hoe moet ik 'Een collectie is nog geen bedrijfsmodel' begrijpen?",
+              "answer": "De kritiek in de cursus betreft de sprong van collectie naar bedrijfsstrategie. Deze casus is geen uitspraak over alle huidige H&M-prestaties. Dezelfde analyse past op onze fictieve publicatie.",
+              "concepts": [
+                "H&M Conscious Collection broncasus",
+                "fast fashion",
+                "deelinitiatief versus bedrijfsmodel",
+                "selectieve communicatie"
+              ],
+              "sourceBlocks": [
+                14,
+                15
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "De broncasus draait om gerecyclede materialen naast snelle cycli, lage prijzen en hoge volumes. Een echte deelverbetering kan een te brede totaalindruk geven. Onderzoek schaal en hoofdprocessen."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "De Conscious Collection werd als duurzamere lijn gepresenteerd, met gerecyclede materialen en productiemethoden. De cursus beschrijft kritiek op de relatie met het bredere fast-fashionmodel."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Een kritische broncasus is geen definitief juridisch oordeel. Beoordeel de concrete claim, periode en gegevens; neem geen actuele bedrijfsfeiten aan zonder nieuw bewijs."
+                }
+              ]
+            },
+            {
+              "id": "m5-04-mila-t2",
+              "question": "Hoe moet ik 'Volg de belofte naar het werk' begrijpen?",
+              "answer": "Communicatie moet aansluiten op de uitgevoerde route. Bedrijven zijn ook verantwoordelijk voor gevolgen verder in de keten. Een duurzame ambitie heeft geen vrijbrief om onbekende vervolguitkomsten als bewezen te presenteren.",
+              "concepts": [
+                "feitelijke praktijk",
+                "verantwoordelijkheid voor gevolgen",
+                "claimgrens",
+                "circulaire processen"
+              ],
+              "sourceBlocks": [
+                14,
+                21,
+                24
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Vraag wat werkelijk gebeurt na de handeling en op welke schaal. Hergebruik, reparatie en recycling vragen verschillende processen; één telling vervangt geen ketenbewijs."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Inzameling alleen bewijst geen tweede gebruik."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Ook ketenbewijs voor één stroom dekt geen volledige bedrijfsprestatie. Onderzoek ontbrekende stromen, groepen en tijdsperioden."
+                }
+              ]
+            },
+            {
+              "id": "m5-04-mila-t3",
+              "question": "Hoe moet ik 'Sorteer wat de bewijsgrens toelaat' begrijpen?",
+              "answer": "Selectieve communicatie kan op echte gegevens rusten. Waarheidsgetrouwheid vraagt dat de indruk bij het publiek klopt met reikwijdte en relevante ontbrekende informatie, ook als elk los getal juist is.",
+              "concepts": [
+                "selectieve communicatie",
+                "deelinitiatief versus bedrijfsmodel",
+                "waarheidsgetrouwheid"
+              ],
+              "sourceBlocks": [
+                9,
+                14,
+                21
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Een resultaat binnen één indicator is bruikbaar als deelbewijs. Voor het hele bedrijf heb je schaal, overige impact en uitvoering nodig. Kritiek bewijst niet dat iedere verbetering fictief is."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Dat kan een echte lokale verbetering zijn."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Het onderscheid zegt niets over de uiteindelijke beste bedrijfsstrategie. Dat vraagt een bredere normatieve en praktische afweging."
+                }
+              ]
+            },
+            {
+              "id": "m5-04-mila-t4",
+              "question": "Hoe moet ik 'Maak een veranderkaart voor de hele route' begrijpen?",
+              "answer": "Een echte transitie kan geleidelijk zijn. Werk met gemeten deelresultaten, structurele veranderingen en open onzekerheden. Zo neemt communicatie het werk niet over en kunnen anderen de voortgang beoordelen.",
+              "concepts": [
+                "structurele verandering",
+                "feitelijke praktijk",
+                "verantwoordelijkheid",
+                "vertraging van systeemverandering"
+              ],
+              "sourceBlocks": [
+                14,
+                24,
+                27
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Een betrouwbare route volgt feitelijke stromen, benoemt schaal en verbindt doelen aan productritme, budget en verantwoordelijkheid. Kleine verbeteringen mogen zichtbaar zijn, mits hun beperking zichtbaar blijft."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Dit maakt de operationele route controleerbaar."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Een plan kan ambitieus zijn en toch falen. Rapporteer later uitvoering en gevolgen, inclusief tegenvallers."
+                }
+              ]
+            },
+            {
+              "id": "m5-04-mila-t5",
+              "question": "Hoe moet ik 'De meetgrens volgt de levenscyclus' begrijpen?",
+              "answer": "Een wetenschappelijke methode ondersteunt vergelijking binnen duidelijke grenzen. Minder impact in één stap kan met meer impact elders samengaan. De drukproef moet zeggen welke levenscyclusstappen en indicatoren onderzocht zijn.",
+              "concepts": [
+                "Environmental Footprint",
+                "levenscyclus",
+                "claimgrens",
+                "selectieve communicatie"
+              ],
+              "sourceBlocks": [
+                18,
+                21,
+                24
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Een levenscyclusgrens kan winning, productie, gebruik en afval omvatten. Emissies en middelen kunnen over die stappen verschuiven; meet wat de claim werkelijk bestrijkt."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Een wetenschappelijke methode ondersteunt vergelijking binnen duidelijke grenzen. Minder impact in één stap kan met meer impact elders samengaan. De drukproef moet zeggen welke levenscyclusstappen en indicatoren onderzocht zijn."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Een geordende route is nog geen levenscyclusanalyse. Hoeveelheden, impactcategorieën, methode en onzekerheid moeten worden gemeten en verantwoord."
+                }
+              ]
+            }
+          ],
+          "theory": {
+            "title": "Een duurzamere collectie is niet vanzelf een ander bedrijfsmodel",
+            "concepts": [
+              "Conscious Collection broncasus",
+              "fast fashion",
+              "deel en geheel",
+              "selectieve communicatie"
+            ],
+            "sections": [
+              {
+                "title": "De theorie uitgelegd",
+                "text": "Een productlijn en een bedrijfsmodel zijn verschillende analyse-eenheden. Een andere materiaalkeuze kan een deelprestatie verbeteren, terwijl productritme, prijsstrategie en volumes gelijk blijven. De cursus gebruikt de historische discussie rond H&M’s Conscious Collection om die verhouding te onderzoeken. Het gaat om beschreven kritiek op de koppeling tussen de collectie en het grotere fast-fashionmodel, niet om een tijdloos juridisch of volledig oordeel over huidige prestaties."
+              },
+              {
+                "title": "Wat je hier onderzoekt",
+                "text": "De casekaart noemt gerecyclede materialen en productiemethoden. Daarnaast liggen de kaarten van snelle cycli, lage prijzen en grote volumes. Je mag de deelverbetering serieus nemen en tegelijk vragen of de bedrijfsbrede indruk ermee onderbouwd wordt. De recyclingruimte laat vervolgens zien waarom een inzamelbelofte ook vervolgverwerking nodig heeft. Communicatie moet bij het aangetoonde deel blijven totdat de bredere route is onderzocht."
+              },
+              {
+                "title": "Voorbeeld en grens",
+                "text": "Een kleine collectie kan werkelijk minder van één grondstof gebruiken. Wanneer de rest van het aanbod groeit en dezelfde snelle vervangingsprikkels houdt, is daarmee geen volledige verandering aangetoond. Vraag naar aandeel, volume en overige effecten. Dat betekent niet dat de collectie waardeloos of verzonnen is. Ook kritiek op een historische campagne mag niet als bewijs over elke huidige productlijn worden herhaald zonder nieuwe gegevens."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Omar",
+          "role": "Logistiek coördinator van het depot",
+          "cell": 1,
+          "opening": "Ik volg de gevolgen voor mensen in De retour- en recyclingroute. Leg je bewijs naast mijn vragen; een bruikbare diagnose laat ook zien wat je nog niet weet.",
+          "topics": [
+            {
+              "id": "m5-04-omar-t1",
+              "question": "Wat betekent 'Een collectie is nog geen bedrijfsmodel' voor betrokkenen?",
+              "answer": "Snelle productiecycli, lage prijzen en grote volumes kunnen blijven bestaan naast een duurzamere collectie. Materiaalkeuze is niet hetzelfde als verandering van alle productieprikkels.",
+              "concepts": [
+                "H&M Conscious Collection broncasus",
+                "fast fashion",
+                "deelinitiatief versus bedrijfsmodel",
+                "selectieve communicatie"
+              ],
+              "sourceBlocks": [
+                14,
+                15
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "De kritiek in de cursus betreft de sprong van collectie naar bedrijfsstrategie. Deze casus is geen uitspraak over alle huidige H&M-prestaties. Dezelfde analyse past op onze fictieve publicatie."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Bekijk bronarchief, verkooptempo, aanbodverdeling en retourbak. De cursus gebruikt de historische discussie rond H&M’s Conscious Collection om een deelinitiatief naast het fast-fashionmodel te leggen."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Een kritische broncasus is geen definitief juridisch oordeel. Beoordeel de concrete claim, periode en gegevens; neem geen actuele bedrijfsfeiten aan zonder nieuw bewijs."
+                }
+              ]
+            },
+            {
+              "id": "m5-04-omar-t2",
+              "question": "Wat betekent 'Volg de belofte naar het werk' voor betrokkenen?",
+              "answer": "Een ingeleverde aanvraag is nog geen geslaagde reparatie.",
+              "concepts": [
+                "feitelijke praktijk",
+                "verantwoordelijkheid voor gevolgen",
+                "claimgrens",
+                "circulaire processen"
+              ],
+              "sourceBlocks": [
+                14,
+                21,
+                24
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Communicatie moet aansluiten op de uitgevoerde route. Bedrijven zijn ook verantwoordelijk voor gevolgen verder in de keten. Een duurzame ambitie heeft geen vrijbrief om onbekende vervolguitkomsten als bewezen te presenteren."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Verbind iedere circulariteitsbelofte met het benodigde operationele bewijs. Een gedoneerd of ingezameld object is nog geen aantoonbaar gesloten kringloop."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Ook ketenbewijs voor één stroom dekt geen volledige bedrijfsprestatie. Onderzoek ontbrekende stromen, groepen en tijdsperioden."
+                }
+              ]
+            },
+            {
+              "id": "m5-04-omar-t3",
+              "question": "Wat betekent 'Sorteer wat de bewijsgrens toelaat' voor betrokkenen?",
+              "answer": "De pilot en indicator dekken het gehele aanbod niet.",
+              "concepts": [
+                "selectieve communicatie",
+                "deelinitiatief versus bedrijfsmodel",
+                "waarheidsgetrouwheid"
+              ],
+              "sourceBlocks": [
+                9,
+                14,
+                21
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Selectieve communicatie kan op echte gegevens rusten. Waarheidsgetrouwheid vraagt dat de indruk bij het publiek klopt met reikwijdte en relevante ontbrekende informatie, ook als elk los getal juist is."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Leg conclusies bij aangetoonde deelprestatie of aanvullende onderbouwing nodig. Bewaar de deelverbetering zonder haar tot het geheel uit te vergroten."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Het onderscheid zegt niets over de uiteindelijke beste bedrijfsstrategie. Dat vraagt een bredere normatieve en praktische afweging."
+                }
+              ]
+            },
+            {
+              "id": "m5-04-omar-t4",
+              "question": "Wat betekent 'Maak een veranderkaart voor de hele route' voor betrokkenen?",
+              "answer": "Dit maakt de operationele route controleerbaar.",
+              "concepts": [
+                "structurele verandering",
+                "feitelijke praktijk",
+                "verantwoordelijkheid",
+                "vertraging van systeemverandering"
+              ],
+              "sourceBlocks": [
+                14,
+                24,
+                27
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Een echte transitie kan geleidelijk zijn. Werk met gemeten deelresultaten, structurele veranderingen en open onzekerheden. Zo neemt communicatie het werk niet over en kunnen anderen de voortgang beoordelen."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Kies onderdelen die claimgrens, uitvoering en bedrijfsmodel met elkaar verbinden. De opdracht vraagt een controleerbaar plan, geen éénmalige reputatieactie."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Een plan kan ambitieus zijn en toch falen. Rapporteer later uitvoering en gevolgen, inclusief tegenvallers."
+                }
+              ]
+            },
+            {
+              "id": "m5-04-omar-t5",
+              "question": "Wat betekent 'De meetgrens volgt de levenscyclus' voor betrokkenen?",
+              "answer": "Een wetenschappelijke methode ondersteunt vergelijking binnen duidelijke grenzen. Minder impact in één stap kan met meer impact elders samengaan. De drukproef moet zeggen welke levenscyclusstappen en indicatoren onderzocht zijn.",
+              "concepts": [
+                "Environmental Footprint",
+                "levenscyclus",
+                "claimgrens",
+                "selectieve communicatie"
+              ],
+              "sourceBlocks": [
+                18,
+                21,
+                24
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Een wetenschappelijke methode ondersteunt vergelijking binnen duidelijke grenzen. Minder impact in één stap kan met meer impact elders samengaan. De drukproef moet zeggen welke levenscyclusstappen en indicatoren onderzocht zijn."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Leg de materiaalroute van winning tot afval naast de claim. De Europese Environmental Footprint-uitleg vraagt verder kijken dan de opvallende productiestap."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Een geordende route is nog geen levenscyclusanalyse. Hoeveelheden, impactcategorieën, methode en onzekerheid moeten worden gemeten en verantwoord."
+                }
+              ]
+            }
+          ],
+          "theory": {
+            "title": "Volg een materiaal voorbij het inzamelpunt",
+            "concepts": [
+              "circulaire processen",
+              "ketenbewijs",
+              "levenscyclus",
+              "Environmental Footprint"
+            ],
+            "sections": [
+              {
+                "title": "De theorie uitgelegd",
+                "text": "Inzameling meet ontvangst, geen eindbestemming. Hergebruik vraagt opnieuw bruikbare producten; reparatie vraagt herstel en verder gebruik; recycling vraagt verwerking en teruggewonnen materialen. De levenscyclus omvat bovendien winning, productie, gebruik en afval. Environmental Footprint is in het Europese bronfragment een voorbeeld van een wetenschappelijke aanpak voor milieueffecten. Een geordende ketenkaart helpt vragen stellen, maar bevat nog geen gemeten volledige levenscyclusanalyse."
+              },
+              {
+                "title": "Wat je hier onderzoekt",
+                "text": "Hier volgt de retourkaart het materiaal door verwerking, verliezen en bestemming. Daardoor zie je waar een belofte groter wordt dan het bewijs. Een gewicht op de ontvangstbon dekt niet vanzelf alle verdere stappen. Je legt ook de levenscyclus naast de claim: minder impact in de fabriek kan samengaan met andere effecten tijdens gebruik of afval. Iedere conclusie moet noemen welke stappen en indicatoren onderzocht zijn."
+              },
+              {
+                "title": "Voorbeeld en grens",
+                "text": "Van honderd ingezamelde apparaten kunnen zeventig opnieuw gebruikt worden, twintig naar materiaalverwerking gaan en tien afvallen. Dat fictieve voorbeeld ondersteunt niet de uitspraak dat honderd apparaten opnieuw zijn gebruikt. Voor recycling vraag je ook hoeveel materiaal werkelijk terugkomt. Verschillende routes kunnen zinvol zijn, afhankelijk van kwaliteit en omstandigheden. Een bewijsroute voor deze stroom dekt bovendien niet automatisch alle producten, sociale omstandigheden en toekomstige gevolgen van het bedrijf."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "investigationId": "m5-05",
+      "npcs": [
+        {
+          "name": "Eva",
+          "role": "Investeerder en adviseur over zeggenschap",
+          "cell": 4,
+          "opening": "Onderzoek eerst de voorwerpen in Het investerings- en bewijsarchief. Ik help je de begrippen en redenering achter je bevindingen uitwerken.",
+          "topics": [
+            {
+              "id": "m5-05-eva-t1",
+              "question": "Hoe moet ik 'Wie weet wat en wie betaalt?' begrijpen?",
+              "answer": "Lyon en Montgomery onderzoeken reputatievoordelen uit claims zonder overeenkomstige prestatieverandering. ESG kan echte verandering belonen, maar informatie en standaarden moeten controleerbaar zijn om schijn en prestatie te onderscheiden.",
+              "concepts": [
+                "ESG",
+                "reputatie als bedrijfsmiddel",
+                "kapitaalmarkten",
+                "informatie-asymmetrie",
+                "Lyon en Montgomery"
+              ],
+              "sourceBlocks": [
+                6,
+                7
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "ESG staat voor Environmental, Social en Governance. Een gunstig duurzaamheidsbeeld kan kapitaal helpen aantrekken. Informatie-asymmetrie betekent ongelijke kennis; slechte controleerbaarheid kan de claimkloof laten bestaan."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "De financier vraagt duurzaamheid naast rendement. Een reputatievoordeel kan toegang tot financiering of waardering beïnvloeden."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Een ESG-score of duurzaamheidsfonds bewijst niet dat iedere claim klopt of iedere dimensie is onderzocht. Financiële voorkeuren verschillen per investeerder."
+                }
+              ]
+            },
+            {
+              "id": "m5-05-eva-t2",
+              "question": "Hoe moet ik 'Van kenniskloof naar voordeel' begrijpen?",
+              "answer": "Informatie-asymmetrie kan keuze en investering vertekenen. Betere toegang tot controleerbare gegevens kan de kloof verkleinen. Transparantie alleen verandert echter niet automatisch productie en financieringsprikkels.",
+              "concepts": [
+                "informatie-asymmetrie",
+                "macht door informatie",
+                "kapitaalmarkten",
+                "transparantie"
+              ],
+              "sourceBlocks": [
+                6,
+                17,
+                24
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Volg wie interne gegevens heeft, wat de ander te zien krijgt en hoe reputatie of kapitaal daarop reageert. De oorzaak is niet hetzelfde als een bewezen totale maatschappelijke uitkomst."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Een kenniskloof raakt besluiten van anderen."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Minder asymmetrie betekent niet dat iedereen alle kennis heeft. Gegevens moeten ook vergelijkbaar, begrijpelijk en toetsbaar zijn."
+                }
+              ]
+            },
+            {
+              "id": "m5-05-eva-t3",
+              "question": "Hoe moet ik 'Wie draagt welk ethisch gevolg?' begrijpen?",
+              "answer": "Greenwashing reikt verder dan marketing. Transparantie, eerlijke concurrentie, vertrouwen, stakeholderverantwoordelijkheid en intergenerationele rechtvaardigheid vragen zicht op betrokkenen, feiten en toekomstige gevolgen.",
+              "concepts": [
+                "transparantie",
+                "eerlijke concurrentie",
+                "institutioneel vertrouwen",
+                "green fatigue",
+                "stakeholderverantwoordelijkheid",
+                "intergenerationele rechtvaardigheid"
+              ],
+              "sourceBlocks": [
+                21,
+                22,
+                24
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Misleiding raakt beslissingen; oneerlijke reputatieconcurrentie raakt investeerders in echte verandering; wantrouwen raakt instituties. Stakeholders en toekomstige generaties worden getroffen door de feitelijke milieu- en sociale gevolgen."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "De keuze wordt gebaseerd op een onvolledig beeld."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Een risico op maatschappelijk wantrouwen bewijst niet dat alle keurmerken onbetrouwbaar zijn. Beoordeel afzonderlijke claims en controles."
+                }
+              ]
+            },
+            {
+              "id": "m5-05-eva-t4",
+              "question": "Hoe moet ik 'Repareer de informatie vóór de investering' begrijpen?",
+              "answer": "De organisatie moet anderen geen breder resultaat laten afleiden dan haar bewijs draagt. Eerlijke informatie ondersteunt keuzes; vervolgens moet ook de investering in werkelijke transformatie worden onderzocht.",
+              "concepts": [
+                "informatie-asymmetrie",
+                "controleerbaarheid",
+                "macht door informatie"
+              ],
+              "sourceBlocks": [
+                6,
+                21,
+                24
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Maak de relevante prestatie en grenzen toegankelijk en toetsbaar. Een hoger reclamebudget verandert niet wat de financier over werkelijke effecten weet."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Dit vermindert de concrete kenniskloof in het dossier."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Een beter geïnformeerde financier kan nog een andere waarde- of risicoafweging maken. Transparantie schrijft niet één investeringsbesluit voor."
+                }
+              ]
+            },
+            {
+              "id": "m5-05-eva-t5",
+              "question": "Hoe moet ik 'Wat vertelt een consumentenonderzoek?' begrijpen?",
+              "answer": "WSJ rapporteert in het bronfragment uit 2023 consumentenbereidheid om meer te betalen voor duurzame verpakking. De leerfunctie is commercieel belang en bewijsgrens, niet het memoriseren van een tijdloos percentage.",
+              "concepts": [
+                "reputatie als bedrijfsmiddel",
+                "consumentenprikkels",
+                "bewijslimiet"
+              ],
+              "sourceBlocks": [
+                6,
+                25
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Een enquête meet wat mensen zeggen. Dat kan een reputatieprikkel helpen begrijpen, maar een percentage bewijst geen aankoopgedrag, geen huidige universele voorkeur en geen duurzame prestatie."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Dit is een gedateerde gerapporteerde intentie."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Bronjaar, steekproef en meetvraag begrenzen een percentage. Gedrag en actuele doelgroepen vragen eigen gegevens."
+                }
+              ]
+            }
+          ],
+          "theory": {
+            "title": "Reputatie en prestatie kunnen verschillend worden beloond",
+            "concepts": [
+              "ESG",
+              "kapitaalmarkten",
+              "reputatie",
+              "informatie-asymmetrie"
+            ],
+            "sections": [
+              {
+                "title": "De theorie uitgelegd",
+                "text": "ESG verwijst naar Environmental, Social en Governance: milieu, sociale gevolgen en verantwoording. Een gunstig duurzaamheidsbeeld kan financiering of waardering helpen, maar investeerders verschillen in doelen en afwegingen. Informatie-asymmetrie ontstaat wanneer het bedrijf meer relevante kennis heeft dan de buitenwereld. Daardoor kan een aantrekkelijk deelbeeld besluiten sturen. Lyon en Montgomery helpen de reputatievoordelen van claims onderzoeken wanneer de onderliggende prestaties niet overeenkomstig veranderen."
+              },
+              {
+                "title": "Wat je hier onderzoekt",
+                "text": "De financier ontvangt een groene poster en een gunstig pilotgetal. De hub kent ook verliezen en volledige volumes. Dat is een concrete kenniskloof, geen bewijs dat iedere financier ondeskundig is. Je opent daarom het dossier met vergelijkbare gegevens, grenzen en controle. Een hoge milieuscore op één materiaal zegt bovendien weinig over arbeidsomstandigheden of governance. Houd de drie ESG-dimensies en de gebruikte meetgrens uit elkaar."
+              },
+              {
+                "title": "Voorbeeld en grens",
+                "text": "Hetzelfde getal op tien platforms verspreiden vergroot bereik, maar voegt de ontbrekende stromen niet toe. Een onafhankelijke toets van alleen de pilot vergroot controleerbaarheid binnen die beperkte grens, geen bedrijfsbrede kennis. Geef dus aan wat de financier wel en niet weet. Het historische consumentenonderzoek in de bron meet daarnaast geuite bereidheid, geen geobserveerde aankoop en geen universele voorkeur van de studenten die nu deze ervaring spelen."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Lena",
+          "role": "Analist van marketing, aandacht en impact",
+          "cell": 5,
+          "opening": "Ik volg de gevolgen voor mensen in Het investerings- en bewijsarchief. Leg je bewijs naast mijn vragen; een bruikbare diagnose laat ook zien wat je nog niet weet.",
+          "topics": [
+            {
+              "id": "m5-05-lena-t1",
+              "question": "Wat betekent 'Wie weet wat en wie betaalt?' voor betrokkenen?",
+              "answer": "De organisatie kent verliezen en volledige volumes; het publiek ziet alleen het gunstige pilotgetal. Dit is informatie-asymmetrie.",
+              "concepts": [
+                "ESG",
+                "reputatie als bedrijfsmiddel",
+                "kapitaalmarkten",
+                "informatie-asymmetrie",
+                "Lyon en Montgomery"
+              ],
+              "sourceBlocks": [
+                6,
+                7
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Lyon en Montgomery onderzoeken reputatievoordelen uit claims zonder overeenkomstige prestatieverandering. ESG kan echte verandering belonen, maar informatie en standaarden moeten controleerbaar zijn om schijn en prestatie te onderscheiden."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Open financieringsmail, interne stroomgegevens, concurrentenbon en klachtenboek. Een reputatievoordeel kan kapitaal aantrekken terwijl het publiek minder weet dan de organisatie."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Een ESG-score of duurzaamheidsfonds bewijst niet dat iedere claim klopt of iedere dimensie is onderzocht. Financiële voorkeuren verschillen per investeerder."
+                }
+              ]
+            },
+            {
+              "id": "m5-05-lena-t2",
+              "question": "Wat betekent 'Van kenniskloof naar voordeel' voor betrokkenen?",
+              "answer": "Standaarden en toelichting kunnen vergelijkbaarheid verbeteren.",
+              "concepts": [
+                "informatie-asymmetrie",
+                "macht door informatie",
+                "kapitaalmarkten",
+                "transparantie"
+              ],
+              "sourceBlocks": [
+                6,
+                17,
+                24
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Informatie-asymmetrie kan keuze en investering vertekenen. Betere toegang tot controleerbare gegevens kan de kloof verkleinen. Transparantie alleen verandert echter niet automatisch productie en financieringsprikkels."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Verbind de informatieroute met het gevolg dat je moet onderzoeken. Een verschil in kennis kan machtsverschil worden wanneer het beslissingen van anderen beïnvloedt."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Minder asymmetrie betekent niet dat iedereen alle kennis heeft. Gegevens moeten ook vergelijkbaar, begrijpelijk en toetsbaar zijn."
+                }
+              ]
+            },
+            {
+              "id": "m5-05-lena-t3",
+              "question": "Wat betekent 'Wie draagt welk ethisch gevolg?' voor betrokkenen?",
+              "answer": "Werkelijke kosten en reputatiebeloning raken uit balans.",
+              "concepts": [
+                "transparantie",
+                "eerlijke concurrentie",
+                "institutioneel vertrouwen",
+                "green fatigue",
+                "stakeholderverantwoordelijkheid",
+                "intergenerationele rechtvaardigheid"
+              ],
+              "sourceBlocks": [
+                21,
+                22,
+                24
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Greenwashing reikt verder dan marketing. Transparantie, eerlijke concurrentie, vertrouwen, stakeholderverantwoordelijkheid en intergenerationele rechtvaardigheid vragen zicht op betrokkenen, feiten en toekomstige gevolgen."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Koppel gevolgen aan informatiekwaliteit, concurrentie of breder vertrouwen en toekomstige gevolgen. Sommige effecten hebben meerdere dimensies; deze kaarten leggen hun primaire vraag bloot."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Een risico op maatschappelijk wantrouwen bewijst niet dat alle keurmerken onbetrouwbaar zijn. Beoordeel afzonderlijke claims en controles."
+                }
+              ]
+            },
+            {
+              "id": "m5-05-lena-t4",
+              "question": "Wat betekent 'Repareer de informatie vóór de investering' voor betrokkenen?",
+              "answer": "Dit vermindert de concrete kenniskloof in het dossier.",
+              "concepts": [
+                "informatie-asymmetrie",
+                "controleerbaarheid",
+                "macht door informatie"
+              ],
+              "sourceBlocks": [
+                6,
+                21,
+                24
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "De organisatie moet anderen geen breder resultaat laten afleiden dan haar bewijs draagt. Eerlijke informatie ondersteunt keuzes; vervolgens moet ook de investering in werkelijke transformatie worden onderzocht."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Kies wat de gegeven kenniskloof verkleint. Een volledig dossier of een onafhankelijk gecontroleerde beperkte claim kan helpen; de investeringsstrategie blijft bespreekbaar."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Een beter geïnformeerde financier kan nog een andere waarde- of risicoafweging maken. Transparantie schrijft niet één investeringsbesluit voor."
+                }
+              ]
+            },
+            {
+              "id": "m5-05-lena-t5",
+              "question": "Wat betekent 'Wat vertelt een consumentenonderzoek?' voor betrokkenen?",
+              "answer": "Een gerapporteerde wens is nog geen geobserveerde aankoop.",
+              "concepts": [
+                "reputatie als bedrijfsmiddel",
+                "consumentenprikkels",
+                "bewijslimiet"
+              ],
+              "sourceBlocks": [
+                6,
+                25
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "WSJ rapporteert in het bronfragment uit 2023 consumentenbereidheid om meer te betalen voor duurzame verpakking. De leerfunctie is commercieel belang en bewijsgrens, niet het memoriseren van een tijdloos percentage."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Bekijk de gedateerde WSJ-bronkaarten. Onderscheid gerapporteerde bereidheid van werkelijk gedrag en van onbewezen uitspraken over huidige studenten."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Bronjaar, steekproef en meetvraag begrenzen een percentage. Gedrag en actuele doelgroepen vragen eigen gegevens."
+                }
+              ]
+            }
+          ],
+          "theory": {
+            "title": "De gevolgen raken ook concurrenten en betrouwbare labels",
+            "concepts": [
+              "eerlijke concurrentie",
+              "institutioneel vertrouwen",
+              "green fatigue",
+              "stakeholders"
+            ],
+            "sections": [
+              {
+                "title": "De theorie uitgelegd",
+                "text": "Greenwashing kan meer schaden dan één misleidende aankoop. Een goedkoop groen imago kan reputatie opleveren die een ander bedrijf pas na dure procesinvesteringen krijgt. Dat roept vragen over eerlijke concurrentie op. Herhaalde misleiding kan bovendien vertrouwen in labels, keurmerken en beleid aantasten. Green fatigue benoemt het risico dat mensen zulke claims niet meer serieus nemen. Wantrouwen en feitelijke onbetrouwbaarheid zijn daarbij verschillende zaken."
+              },
+              {
+                "title": "Wat je hier onderzoekt",
+                "text": "In het archief ligt de bon van een concurrent met echte reparatie-investeringen naast de goedkope campagne. De klachtkaarten tonen hoe wantrouwen kan uitstralen naar eerlijke initiatieven. Je volgt wie kennis mist, wie kosten maakt en wie de gevolgen draagt. Stakeholderverantwoordelijkheid vraagt die betrokkenen zichtbaar maken; intergenerationele rechtvaardigheid voegt toekomstige mensen toe, die vandaag niet kunnen kopen, investeren of protesteren tegen de claim."
+              },
+              {
+                "title": "Voorbeeld en grens",
+                "text": "Een betrouwbare gecertificeerde producent kan klanten verliezen wanneer die na andere schandalen geen enkel groen label meer geloven. Dat laat een vertrouwenseffect zien, geen bewezen meetfout van zijn label. Evenzo bewijst een lage prijs op zichzelf geen greenwashing: echte verbetering kan efficiënt zijn. Vergelijk prestaties en reputatiebeloning. De casus ondersteunt een onderzoek naar een mechanisme, niet een beschuldiging van iedere goedkope of populaire concurrent."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "investigationId": "m5-06",
+      "npcs": [
+        {
+          "name": "Lena",
+          "role": "Analist van marketing, aandacht en impact",
+          "cell": 5,
+          "opening": "Onderzoek eerst de voorwerpen in Het publieke forum. Ik help je de begrippen en redenering achter je bevindingen uitwerken.",
+          "topics": [
+            {
+              "id": "m5-06-lena-t1",
+              "question": "Hoe moet ik 'Welke reactie verandert het systeem?' begrijpen?",
+              "answer": "Systeemreacties omvatten controleerbare informatie, passende toezichtkaders en daadwerkelijke organisatieverandering. Geen enkele maatregel voorkomt alle greenwashing. Leg vast wat zij kan veranderen en wat aanvullend werk vraagt.",
+              "concepts": [
+                "CSRD",
+                "institutionele interventie",
+                "transparantie",
+                "vergelijkbaarheid",
+                "structurele verandering"
+              ],
+              "sourceBlocks": [
+                17,
+                19,
+                24,
+                27
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "CSRD is een institutioneel rapportagekader. Standaarden kunnen informatie-asymmetrie en onvergelijkbaarheid verminderen. Actuele scope en invoering moeten worden gecontroleerd; rapportage is geen garantie voor duurzame productie."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Vergelijkbare indicatoren, grenzen en perioden helpen anderen prestatieclaims beoordelen. Ze kunnen de kenniskloof verkleinen."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Een kaderkaart is geen actuele juridische toepassingstoets. Rapporteren, naleven en daadwerkelijk duurzamer worden blijven verschillende begrippen."
+                }
+              ]
+            },
+            {
+              "id": "m5-06-lena-t2",
+              "question": "Hoe moet ik 'Laat iedere maatregel een mechanisme raken' begrijpen?",
+              "answer": "Een systeembenadering verbindt maatschappelijke verwachtingen, economische prikkels en organisatiepraktijk. De interventie moet het aangetoonde mechanisme raken; een los symbool doet dat niet vanzelf.",
+              "concepts": [
+                "systeemfenomeen",
+                "institutionele druk",
+                "economische prikkels",
+                "organisatorische beperkingen",
+                "verantwoordelijkheid"
+              ],
+              "sourceBlocks": [
+                0,
+                3,
+                6,
+                17,
+                27
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Informatie-asymmetrie vraagt toetsbare toegang; een vage claim vraagt definitie; een uitvoeringsbeperking vraagt middelen of herontwerp; een reputatieprikkel vraagt een andere beoordeling en verantwoording."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Dit raakt de kenniskloof."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Een maatregel kan nieuwe kosten of ongewenste prikkels geven. Test gevolgen en bespreek proportionele alternatieven."
+                }
+              ]
+            },
+            {
+              "id": "m5-06-lena-t3",
+              "question": "Hoe moet ik 'Maak de publicatie en het veranderplan samen' begrijpen?",
+              "answer": "Een eerlijke claim en een echt veranderplan zijn beide nodig. Ze ondersteunen transparantie, concurrentie en vertrouwen, maar garanderen geen perfecte transitie. Blijf ook tegenvallers, tradeoffs en onzekerheden zichtbaar maken.",
+              "concepts": [
+                "waarheidsgetrouwheid",
+                "structurele verandering",
+                "governance",
+                "stakeholderverantwoordelijkheid",
+                "systeemreactie"
+              ],
+              "sourceBlocks": [
+                21,
+                24,
+                27
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Een plan noemt bewijs en begrenzing, middelen voor echt werk, verantwoordelijke bevoegdheid en momenten om voortgang te controleren. De precieze ambitie kan onderwerp van verdedigbare discussie blijven."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "De uitspraak blijft bij de aantoonbare prestatie."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Een gefinancierde afspraak is nog geen gerealiseerde uitkomst. Volg later de praktijk en pas beloften aan wanneer resultaten tegenvallen."
+                }
+              ]
+            },
+            {
+              "id": "m5-06-lena-t4",
+              "question": "Hoe moet ik 'Geef de volgende belofte vrij' begrijpen?",
+              "answer": "De eindkeuze mag verschillen wanneer bewijs en waarden helder zijn. Greenwashing begrijpen als systeemfenomeen maakt verantwoordelijkheden breder, maar ontslaat niemand van eerlijkheid en daadwerkelijk veranderwerk.",
+              "concepts": [
+                "systeemfenomeen",
+                "transparantie",
+                "verantwoordelijkheid",
+                "ethische afweging"
+              ],
+              "sourceBlocks": [
+                0,
+                21,
+                24,
+                27
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Tijd, middelen en getroffen belangen kunnen verschillende prioriteiten rechtvaardigen. De grens is dat de boodschap geen onbekende of onbereikte prestatie als feit presenteert."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Dit maakt leren en voortgang zichtbaar zonder het geheel als afgerond te presenteren."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "De publicatie is een stap in een traject. Volg uitvoering, vertrouwen en impact; behandel succes van de campagne niet als succes van de transitie."
+                }
+              ]
+            }
+          ],
+          "theory": {
+            "title": "Betere informatie en echte uitvoering horen bij elkaar",
+            "concepts": [
+              "CSRD",
+              "vergelijkbaarheid",
+              "transparantie",
+              "organisatorische verandering"
+            ],
+            "sections": [
+              {
+                "title": "De theorie uitgelegd",
+                "text": "Vergelijkbare rapportage helpt anderen prestaties beoordelen omdat definities, grenzen en perioden duidelijker worden. CSRD is een institutioneel rapportagevoorbeeld, met veranderd toepassingsbereik en invoering die actueel moeten worden gecontroleerd. Rapporteren is iets anders dan daadwerkelijk verduurzamen. Het Europese fragment uit 2023 bespreekt daarnaast een voorstel over groene claims. Een historische beleidsvideo maakt het genoemde voorstel niet vanzelf tot een ongewijzigde actuele plicht voor ieder bedrijf."
+              },
+              {
+                "title": "Wat je hier onderzoekt",
+                "text": "Het forum vraagt een publicatie die gemeten prestaties, resterende onzekerheid en een werkelijk veranderplan verbindt. De standaard raakt de kenniskloof; training en financiering raken uitvoeringscapaciteit; aangepaste beoordeling raakt de reputatieprikkel. EU Ecolabel en EMAS verschijnen als bestaande vrijwillige kaders met criteria en grenzen. Je moet dus steeds zeggen welke functie een instrument vervult en welk ander werk daarmee nog niet is uitgevoerd."
+              },
+              {
+                "title": "Voorbeeld en grens",
+                "text": "De hub kan haar pilotresultaat eerlijk publiceren en middelen voor uitbreiding vastleggen. Een budgetafspraak is echter nog geen gerealiseerde verbetering, net zoals een rapportageplicht de productielijn niet zelf verbouwt. Volg later uitvoering en totale effecten, ook bij tegenvallers. Meer informatie kan nuttig zijn terwijl verdere maatregelen nodig blijven. De keuze tussen publiceren en wachten vraagt onderbouwing van scope en risico, geen verplichte voorkeur voor één communicatiestrategie."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Eva",
+          "role": "Investeerder en adviseur over zeggenschap",
+          "cell": 4,
+          "opening": "Ik volg de gevolgen voor mensen in Het publieke forum. Leg je bewijs naast mijn vragen; een bruikbare diagnose laat ook zien wat je nog niet weet.",
+          "topics": [
+            {
+              "id": "m5-06-eva-t1",
+              "question": "Wat betekent 'Welke reactie verandert het systeem?' voor betrokkenen?",
+              "answer": "De cursus gebruikt CSRD als voorbeeld van rapportage over milieu, sociale prestaties en governance. Het toepassingsbereik is inmiddels gewijzigd; controleer actuele publieke informatie.",
+              "concepts": [
+                "CSRD",
+                "institutionele interventie",
+                "transparantie",
+                "vergelijkbaarheid",
+                "structurele verandering"
+              ],
+              "sourceBlocks": [
+                17,
+                19,
+                24,
+                27
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Systeemreacties omvatten controleerbare informatie, passende toezichtkaders en daadwerkelijke organisatieverandering. Geen enkele maatregel voorkomt alle greenwashing. Leg vast wat zij kan veranderen en wat aanvullend werk vraagt."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Open rapportagestandaard, toezichtskaart, budget en toekomstbrief. Greenwashing verminderen vraagt meer dan één poster: ook prikkels, kennis en uitvoeringsmogelijkheden tellen mee."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Een kaderkaart is geen actuele juridische toepassingstoets. Rapporteren, naleven en daadwerkelijk duurzamer worden blijven verschillende begrippen."
+                }
+              ]
+            },
+            {
+              "id": "m5-06-eva-t2",
+              "question": "Wat betekent 'Laat iedere maatregel een mechanisme raken' voor betrokkenen?",
+              "answer": "Dit raakt de vage claim.",
+              "concepts": [
+                "systeemfenomeen",
+                "institutionele druk",
+                "economische prikkels",
+                "organisatorische beperkingen",
+                "verantwoordelijkheid"
+              ],
+              "sourceBlocks": [
+                0,
+                3,
+                6,
+                17,
+                27
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Een systeembenadering verbindt maatschappelijke verwachtingen, economische prikkels en organisatiepraktijk. De interventie moet het aangetoonde mechanisme raken; een los symbool doet dat niet vanzelf."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Koppel maatregelen aan de vastgestelde oorzaak. Een verklaring op het label, een audit en een investering hebben verschillende functies en kunnen samen nodig zijn."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Een maatregel kan nieuwe kosten of ongewenste prikkels geven. Test gevolgen en bespreek proportionele alternatieven."
+                }
+              ]
+            },
+            {
+              "id": "m5-06-eva-t3",
+              "question": "Wat betekent 'Maak de publicatie en het veranderplan samen' voor betrokkenen?",
+              "answer": "De uitspraak blijft bij de aantoonbare prestatie.",
+              "concepts": [
+                "waarheidsgetrouwheid",
+                "structurele verandering",
+                "governance",
+                "stakeholderverantwoordelijkheid",
+                "systeemreactie"
+              ],
+              "sourceBlocks": [
+                21,
+                24,
+                27
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "Een eerlijke claim en een echt veranderplan zijn beide nodig. Ze ondersteunen transparantie, concurrentie en vertrouwen, maar garanderen geen perfecte transitie. Blijf ook tegenvallers, tradeoffs en onzekerheden zichtbaar maken."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Kies wat huidige prestaties, daadwerkelijke uitvoering en toekomstig toezicht controleerbaar verbindt. Leg je waardeprioriteit apart vast; deze taak toetst of het plan de vereiste functies bevat."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "Een gefinancierde afspraak is nog geen gerealiseerde uitkomst. Volg later de praktijk en pas beloften aan wanneer resultaten tegenvallen."
+                }
+              ]
+            },
+            {
+              "id": "m5-06-eva-t4",
+              "question": "Wat betekent 'Geef de volgende belofte vrij' voor betrokkenen?",
+              "answer": "Dit maakt leren en voortgang zichtbaar zonder het geheel als afgerond te presenteren.",
+              "concepts": [
+                "systeemfenomeen",
+                "transparantie",
+                "verantwoordelijkheid",
+                "ethische afweging"
+              ],
+              "sourceBlocks": [
+                0,
+                21,
+                24,
+                27
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom werkt dit mechanisme zo?",
+                  "answer": "De eindkeuze mag verschillen wanneer bewijs en waarden helder zijn. Greenwashing begrijpen als systeemfenomeen maakt verantwoordelijkheden breder, maar ontslaat niemand van eerlijkheid en daadwerkelijk veranderwerk."
+                },
+                {
+                  "id": "example",
+                  "question": "Welk concreet bewijs maakt dit zichtbaar?",
+                  "answer": "Kies een verdedigbare publicatieroute. Een begrensde voortgangsrapportage of uitstel van de brede claim kan; beide moeten bekende resultaten en resterend werk eerlijk behandelen."
+                },
+                {
+                  "id": "boundary",
+                  "question": "Wat bewijst dit nog niet?",
+                  "answer": "De publicatie is een stap in een traject. Volg uitvoering, vertrouwen en impact; behandel succes van de campagne niet als succes van de transitie."
+                }
+              ]
+            }
+          ],
+          "theory": {
+            "title": "Een overtuigend eindplan kijkt voorbij de reputatie van vandaag",
+            "concepts": [
+              "stakeholderverantwoordelijkheid",
+              "intergenerationele rechtvaardigheid",
+              "systeemtransitie",
+              "herziening"
+            ],
+            "sections": [
+              {
+                "title": "De theorie uitgelegd",
+                "text": "Stakeholdertheorie vraagt rekening houden met partijen die een organisatie raken of door haar geraakt worden. Intergenerationele rechtvaardigheid kijkt ook naar mogelijkheden van toekomstige mensen. Die lenzen verbreden de beoordeling voorbij huidige klanten en financiers. Wanneer overdreven communicatie suggereert dat de transitie af is, kan de druk op verdere verandering afnemen. Dat is een mogelijk systeemmechanisme, geen bewijs dat iedere duurzaamheidsclaim verandering noodzakelijk vertraagt."
+              },
+              {
+                "title": "Wat je hier onderzoekt",
+                "text": "Je eindplan moet de gevonden informatiekloof, economische prikkels en operationele beperkingen samen raken. Een eerlijke poster ondersteunt keuzes, maar toekomstige milieugevolgen vragen ook veranderwerk. Leg vast wie middelen en bevoegdheid heeft, wie controleert en wanneer beloften worden herzien. De hotelcasus verandert straks de sector zodat je niet alleen de bekende poster herkent, maar het mechanisme opnieuw moet onderbouwen met nieuwe feiten."
+              },
+              {
+                "title": "Voorbeeld en grens",
+                "text": "Een gefaseerde hotelpilot kan uitstoot in één locatie verminderen terwijl oude installaties elders blijven staan. Publiceer het beperkte resultaat of stel de brede campagne uit; beide kunnen verdedigbaar zijn. Laat geen deelbewijs voor de hele keten doorgaan. Onderzoek daarnaast volumes, langlopende contracten en toekomstige gevolgen. Een ondertekend veranderplan laat zien wat men van plan is, maar pas vervolggegevens tonen welk werk en welk resultaat echt gerealiseerd werden."
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

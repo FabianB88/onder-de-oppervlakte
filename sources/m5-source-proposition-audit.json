@@ -1,0 +1,501 @@
+{
+  "schemaVersion": 1,
+  "lessonId": "m5",
+  "auditDate": "2026-10-12",
+  "method": "Read every original text/list/tab, every original quiz question/options/feedback and matching question/pairs/feedback; inspect SVG source and render/image pixels. Map original assertions and unique example functions to authored teaching and practice, independently of concept labels.",
+  "rows": [
+    {
+      "id": "m5-source-audit-01",
+      "sourceBlocks": [
+        0,
+        27
+      ],
+      "sourceProposition": "Greenwashing can arise from interacting institutional expectations, economic incentives and organizational constraints, not only an individual marketing decision.",
+      "teachingLocations": [
+        "m5-01-b1:explainAfter",
+        "m5-06-b1:explainAfter"
+      ],
+      "practiceLocations": [
+        "m5-01:finale",
+        "m5-06-b3"
+      ],
+      "sourceExampleFunction": "Market expectation, investment mail, production capacity and poster together expose the structural claim/practice gap.",
+      "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+    },
+    {
+      "id": "m5-source-audit-02",
+      "sourceBlocks": [
+        3,
+        4
+      ],
+      "sourceProposition": "Suchman legitimacy concerns socially accepted appropriateness; consumers/investors/NGOs/media/regulators can create pressure. Legitimate image and true measured performance are different.",
+      "teachingLocations": [
+        "m5-01-b2:explainAfter",
+        "m5-01-b1:reveal:r6"
+      ],
+      "practiceLocations": [
+        "m5-01-b2",
+        "m5-01:finale"
+      ],
+      "sourceExampleFunction": "Social recognition is contrasted with execution evidence and measured scope.",
+      "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+    },
+    {
+      "id": "m5-source-audit-03",
+      "sourceBlocks": [
+        3,
+        4
+      ],
+      "sourceProposition": "Decoupling separates formal communication from actual practice; symbolism can respond quickly while operations change slowly. It can grow without one central deceit decision or coexist with intentional falsehood.",
+      "teachingLocations": [
+        "m5-01-b2:explainAfter",
+        "m5-01-b1:reveal:r8"
+      ],
+      "practiceLocations": [
+        "m5-01-b3",
+        "m5-01:finale"
+      ],
+      "sourceExampleFunction": "The original feedback’s categorical ‘not a lie’ is corrected: systemic explanation is not exoneration.",
+      "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+    },
+    {
+      "id": "m5-source-audit-04",
+      "sourceBlocks": [
+        3,
+        7
+      ],
+      "sourceProposition": "Climate, biodiversity and social inequality raise responsible-business expectations while entrenched chains/infrastructure/investments can require costly and slow transition.",
+      "teachingLocations": [
+        "m5-01-b1:reveal:r6",
+        "m5-03-b1:explainAfter"
+      ],
+      "practiceLocations": [
+        "m5-03-b2",
+        "m5-03:finale"
+      ],
+      "sourceExampleFunction": "Contrasting fast-moving expectations with capacity teaches the temporal gap without claiming it always produces greenwashing.",
+      "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+    },
+    {
+      "id": "m5-source-audit-05",
+      "sourceBlocks": [
+        3,
+        7
+      ],
+      "sourceProposition": "Path dependency means previous machinery/contracts/chain choices constrain later alternatives. Missing resources, knowledge, capacity and willingness are distinct barriers; none eliminates agency.",
+      "teachingLocations": [
+        "m5-03-b1:reveal:r1",
+        "m5-03-b1:reveal:r2",
+        "m5-03-b3:hint",
+        "m5-03-b2:boundary"
+      ],
+      "practiceLocations": [
+        "m5-03-b2",
+        "m5-k2"
+      ],
+      "sourceExampleFunction": "Linked workshop machinery and contract evidence make the constraint concrete rather than an excuse for unproved claims.",
+      "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+    },
+    {
+      "id": "m5-source-audit-06",
+      "sourceBlocks": [
+        6,
+        7
+      ],
+      "sourceProposition": "Brand/reputation can earn consumer and capital advantages; ESG means Environmental/Social/Governance. A green reputation can improve finance/valuation, with investors differing and image not proving all dimensions.",
+      "teachingLocations": [
+        "m5-05-b1:hint",
+        "m5-05-b1:reveal:r1",
+        "m5-05-b1:reveal:r4"
+      ],
+      "practiceLocations": [
+        "m5-05-b2",
+        "m5-k6"
+      ],
+      "sourceExampleFunction": "The financier dossier shows how performance and reputation may be confused.",
+      "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+    },
+    {
+      "id": "m5-source-audit-07",
+      "sourceBlocks": [
+        6,
+        24
+      ],
+      "sourceProposition": "Lyon/Montgomery discuss reputational claims without matching substantial performance. Information asymmetry exists when firms know more relevant impact than consumers/investors, influencing others’ choices.",
+      "teachingLocations": [
+        "m5-05-b1:explainAfter",
+        "m5-05-b1:reveal:r2",
+        "m5-05-b2:explainAfter"
+      ],
+      "practiceLocations": [
+        "m5-05-b2",
+        "m5-05:finale",
+        "m5-k3"
+      ],
+      "sourceExampleFunction": "Internal full streams versus the public pilot number creates an inspectable evidence difference.",
+      "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+    },
+    {
+      "id": "m5-source-audit-08",
+      "sourceBlocks": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "sourceProposition": "Selective communication highlights a positive initiative while hiding larger relevant harm; vague claims lack defined measurable criteria. Both can mislead without a fabricated number.",
+      "teachingLocations": [
+        "m5-02-b1:reveal:r1",
+        "m5-02-b1:reveal:r2",
+        "m5-02-b1:explainAfter"
+      ],
+      "practiceLocations": [
+        "m5-02-b2",
+        "m5-02-b3"
+      ],
+      "sourceExampleFunction": "Original match and diagram purposes are retained, including where missing meaning or missing scope creates misdirection.",
+      "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+    },
+    {
+      "id": "m5-source-audit-09",
+      "sourceBlocks": [
+        9,
+        11,
+        12
+      ],
+      "sourceProposition": "Irrelevant communication presents an already-required/non-distinguishing property as special benefit; the CFK example requires a defined product/legal context.",
+      "teachingLocations": [
+        "m5-02-b1:reveal:r3"
+      ],
+      "practiceLocations": [
+        "m5-02-b2",
+        "m5-k4"
+      ],
+      "sourceExampleFunction": "An explicit fictional universal norm in the check tests the causal distinction without a blanket current CFK legal assertion.",
+      "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+    },
+    {
+      "id": "m5-source-audit-10",
+      "sourceBlocks": [
+        9,
+        11,
+        12
+      ],
+      "sourceProposition": "Symbolic sustainability magnifies a small real initiative into a broad impression; selectivity and symbolism differ in emphasis and can overlap. A valuable small improvement is not whole-model proof.",
+      "teachingLocations": [
+        "m5-02-b1:reveal:r4",
+        "m5-02-b1:hint",
+        "m5-04-b3:explainAfter"
+      ],
+      "practiceLocations": [
+        "m5-02-b2",
+        "m5-04-b3",
+        "m5-k1"
+      ],
+      "sourceExampleFunction": "The source’s four-box contrast is taught as primary mechanisms with real-case overlap, not mutually exclusive universal taxonomy.",
+      "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+    },
+    {
+      "id": "m5-source-audit-11",
+      "sourceBlocks": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "sourceProposition": "The four categories are the course’s analytical claim lenses. Delmas/Burbano’s primary model covers drivers and cites multiple other product-claim taxonomies, not this exact exhaustive four-category classification.",
+      "teachingLocations": [
+        "m5-02-b1:reveal:r9"
+      ],
+      "practiceLocations": [
+        "m5-02-b2"
+      ],
+      "sourceExampleFunction": "Attribution is corrected while preserving the original four distinctions.",
+      "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+    },
+    {
+      "id": "m5-source-audit-12",
+      "sourceBlocks": [
+        1
+      ],
+      "sourceProposition": "GLOBIS: green imagery can imply a benefit without explicit words; recycled fractions, material names and compensation can yield a misleading total impression. Vegan leather can be plastic; animal origin is not environmental performance.",
+      "teachingLocations": [
+        "m5-02-b1:reveal:r6",
+        "m5-02-b1:reveal:r7",
+        "m5-02-b1:reveal:r8"
+      ],
+      "practiceLocations": [
+        "m5-02-b4",
+        "m5-02-b5"
+      ],
+      "sourceExampleFunction": "Complete original-owner transcript reviewed; source examples become selectable layered evidence.",
+      "limit": "Imagery alone is not proof of greenwashing, not all vegan leather is plastic, and offsets are not all adjudged worthless."
+    },
+    {
+      "id": "m5-source-audit-13",
+      "sourceBlocks": [
+        1,
+        25
+      ],
+      "sourceProposition": "External compensation and measured reductions in the firm’s own chain are distinct claims requiring separate evidence; budget proportion is not a physical emissions percentage.",
+      "teachingLocations": [
+        "m5-02-b1:reveal:r8",
+        "m5-02-b5:explainAfter"
+      ],
+      "practiceLocations": [
+        "m5-02-b5"
+      ],
+      "sourceExampleFunction": "The offset receipt tests evidence boundary and arithmetic category, allowing ethical debate about compensation separately.",
+      "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+    },
+    {
+      "id": "m5-source-audit-14",
+      "sourceBlocks": [
+        1,
+        6,
+        25
+      ],
+      "sourceProposition": "Stated willingness to pay can create green reputation incentives, but a historical survey is not proof of real purchasing, all present students’ preferences or actual product performance.",
+      "teachingLocations": [
+        "m5-01-b1:reveal:r7",
+        "m5-05-b5:explainAfter"
+      ],
+      "practiceLocations": [
+        "m5-05-b5"
+      ],
+      "sourceExampleFunction": "GLOBIS commercial incentive plus the dated WSJ survey purpose are preserved with evidence limits.",
+      "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+    },
+    {
+      "id": "m5-source-audit-15",
+      "sourceBlocks": [
+        14,
+        15
+      ],
+      "sourceProposition": "Historical Conscious Collection critique: recycled/material improvements in a small line can be real while rapid cycles, low prices and large volumes of fast fashion remain; a broad corporate impression overreaches that scope.",
+      "teachingLocations": [
+        "m5-04-b1:reveal:r1",
+        "m5-04-b1:reveal:r2",
+        "m5-04-b1:reveal:r3",
+        "m5-04-b1:explainAfter"
+      ],
+      "practiceLocations": [
+        "m5-04-b3",
+        "m5-04:finale",
+        "m5-k1"
+      ],
+      "sourceExampleFunction": "Source case is historical criticism, not an unbounded current finding about H&M. Fictional hub metrics are explicitly separate.",
+      "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+    },
+    {
+      "id": "m5-source-audit-16",
+      "sourceBlocks": [
+        14,
+        24
+      ],
+      "sourceProposition": "Per-unit improvement, production volume, pilot coverage and total impact differ. A small lower-impact route can coexist with growing absolute burden.",
+      "teachingLocations": [
+        "m5-03-b1:reveal:r3",
+        "m5-03-b1:reveal:r4",
+        "m5-03-b4:explainAfter"
+      ],
+      "practiceLocations": [
+        "m5-03-b3",
+        "m5-03:finale",
+        "m5-k5"
+      ],
+      "sourceExampleFunction": "Illustrative claim-boundary model demonstrates causal arithmetic; it is not a predictive H&M model or complete LCA.",
+      "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+    },
+    {
+      "id": "m5-source-audit-17",
+      "sourceBlocks": [
+        14,
+        18,
+        24
+      ],
+      "sourceProposition": "A return/collection count alone does not show circular recovery; processing, losses, final destination, reuse/repair/recycling and life-cycle boundary require evidence.",
+      "teachingLocations": [
+        "m5-04-b2:explainAfter",
+        "m5-04-b5:explainAfter"
+      ],
+      "practiceLocations": [
+        "m5-04-b2",
+        "m5-04-b5",
+        "m5-04:finale"
+      ],
+      "sourceExampleFunction": "The recycling chain and EU life-cycle method prevent substituting receipt for final outcome.",
+      "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+    },
+    {
+      "id": "m5-source-audit-18",
+      "sourceBlocks": [
+        17,
+        19
+      ],
+      "sourceProposition": "Standardized reporting can reduce information asymmetry and support comparison. CSRD has changing scope/timing and neither replaces every label nor automatically produces sustainable operations.",
+      "teachingLocations": [
+        "m5-06-b1:reveal:r1",
+        "m5-06-b1:explainAfter"
+      ],
+      "practiceLocations": [
+        "m5-06-b2",
+        "m5-06:finale",
+        "m5-k8"
+      ],
+      "sourceExampleFunction": "Original quiz feedback purpose is retained with current scope caveat and separation of information and actual change.",
+      "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+    },
+    {
+      "id": "m5-source-audit-19",
+      "sourceBlocks": [
+        18
+      ],
+      "sourceProposition": "The EU 2023 video discusses scientific substantiation, common verification, label governance and Environmental Footprint over extraction, production, use and waste; Ecolabel/EMAS are existing voluntary initiatives.",
+      "teachingLocations": [
+        "m5-04-b5:explainAfter",
+        "m5-06-b1:reveal:r6",
+        "m5-06-b1:reveal:r7",
+        "m5-06-b1:reveal:r8"
+      ],
+      "practiceLocations": [
+        "m5-04-b5",
+        "m5-06-b4"
+      ],
+      "sourceExampleFunction": "Complete official primary transcript checked. The historical proposal is distinguished from current enacted requirements.",
+      "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+    },
+    {
+      "id": "m5-source-audit-20",
+      "sourceBlocks": [
+        21,
+        22
+      ],
+      "sourceProposition": "Truthful, controllable and non-misleading information supports consumers/investors/policymakers; a legally allowed claim can still create a misleading total impression.",
+      "teachingLocations": [
+        "m5-02-b4:explainAfter",
+        "m5-05-b3:explainAfter"
+      ],
+      "practiceLocations": [
+        "m5-02-b4",
+        "m5-05-b4"
+      ],
+      "sourceExampleFunction": "Claim quality and ethically sufficient transformation are separate evaluations.",
+      "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+    },
+    {
+      "id": "m5-source-audit-21",
+      "sourceBlocks": [
+        21,
+        22
+      ],
+      "sourceProposition": "Real process-change costs can be disadvantaged when a cheap green image receives similar reputation benefits; low price alone does not establish misrepresentation.",
+      "teachingLocations": [
+        "m5-05-b1:reveal:r3",
+        "m5-05-b3:cards:c2"
+      ],
+      "practiceLocations": [
+        "m5-05:finale",
+        "m5-k6"
+      ],
+      "sourceExampleFunction": "The original multi-answer economic fairness function is taught using a competitor evidence dossier.",
+      "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+    },
+    {
+      "id": "m5-source-audit-22",
+      "sourceBlocks": [
+        21,
+        22,
+        27
+      ],
+      "sourceProposition": "Repeated misleading claims can erode trust in firms, labels, certification and policy; green fatigue can spill over to honest initiatives without proving every label false.",
+      "teachingLocations": [
+        "m5-05-b1:reveal:r5",
+        "m5-05-b1:reveal:r7"
+      ],
+      "practiceLocations": [
+        "m5-05-b3",
+        "m5-k7"
+      ],
+      "sourceExampleFunction": "The complaints book and changed-case check separate perception spillover from actual label quality.",
+      "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+    },
+    {
+      "id": "m5-source-audit-23",
+      "sourceBlocks": [
+        24
+      ],
+      "sourceProposition": "Stakeholder responsibility and intergenerational justice concern present affected parties and future people’s opportunities; present reputation does not cover real ecological/social consequences.",
+      "teachingLocations": [
+        "m5-05-b1:reveal:r6",
+        "m5-05-b3:explainAfter"
+      ],
+      "practiceLocations": [
+        "m5-05-b3"
+      ],
+      "sourceExampleFunction": "Explicit short theory turn explains why future people matter even when they cannot currently buy or complain.",
+      "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+    },
+    {
+      "id": "m5-source-audit-24",
+      "sourceBlocks": [
+        24,
+        27
+      ],
+      "sourceProposition": "An impression that transition is already done can reduce pressure for further change, weakening collective capacity; transparency and implementation must address information, incentives and operational constraints together.",
+      "teachingLocations": [
+        "m5-05-b3:cards:c4",
+        "m5-06-b1:explainAfter",
+        "m5-06-b3:explainAfter"
+      ],
+      "practiceLocations": [
+        "m5-05:finale",
+        "m5-06-b3",
+        "m5-k8"
+      ],
+      "sourceExampleFunction": "The forum publication gate requires both bounded evidence and a responsible real change plan, not merely a nicer poster.",
+      "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+    }
+  ],
+  "accuracyAdjustments": [
+    {
+      "sourceBlocks": [
+        4
+      ],
+      "issue": "Original quiz feedback categorically says decoupling is not a lie. Communication/practice separation can coexist with intentional falsehood.",
+      "adjustment": "Explicit card distinguishes system mechanism, intention and responsibility; no automatic exoneration."
+    },
+    {
+      "sourceBlocks": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "issue": "The source attributes its exact four-category greenwashing scheme to Delmas and Burbano (2011). Their primary article establishes a multilevel driver framework and cites other claim taxonomies.",
+      "adjustment": "Preserve all course categories and distinctions but identify them as analytical course lenses, with overlap and a source-attribution explanation.",
+      "verifiedUrl": "https://business.columbia.edu/sites/default/files-efs/pubfiles/14016/Greenwashing.pdf",
+      "verifiedOn": "2026-10-12"
+    },
+    {
+      "sourceBlocks": [
+        10
+      ],
+      "issue": "Original feedback asserts vague claims are the most common form without source-specific population/evidence.",
+      "adjustment": "Teach what makes a claim vague; omit an unsupported prevalence ranking."
+    },
+    {
+      "sourceBlocks": [
+        18
+      ],
+      "issue": "The EU video describes a proposal in 2023, not a universal currently enacted legal rule.",
+      "adjustment": "Explicit historical proposal card distinguishes policy status from Environmental Footprint method and voluntary Ecolabel/EMAS.",
+      "verifiedUrl": "https://audiovisual.ec.europa.eu/en/media/video/I-239279",
+      "verifiedOn": "2026-10-12"
+    }
+  ],
+  "limitations": [
+    "The original media whose transcript remains unavailable have separate exact clip metadata and mandatory projection requirements.",
+    "A proposition can be encountered without being understood; local synthesis, separate changed-case checks and future evaluation are distinct safeguards, not empirical proof of learning."
+  ]
+}

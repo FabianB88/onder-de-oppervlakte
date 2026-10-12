@@ -1,0 +1,330 @@
+{
+  "schemaVersion": 1,
+  "lessonId": "m4",
+  "panels": [
+    {
+      "investigationId": "m4-01",
+      "name": "Iris",
+      "theory": {
+        "title": "Een deur kan waarden inbouwen",
+        "concepts": [
+          "morele architectuur",
+          "Winner",
+          "toegankelijkheid",
+          "ontwerp en organisatie"
+        ],
+        "sections": [
+          {
+            "title": "De theorie uitgelegd",
+            "text": "Met morele architectuur bedoelen we dat een ontwerp onze mogelijkheden ordent. Een deur kan toegang eenvoudiger maken zonder een regel uit te spreken. Winner laat zien dat zulke ordening bewust kan worden gekozen, maar ook samenhangt met de organisatie die een techniek nodig heeft. Daarom beoordelen we zowel het technische ontwerp als de afspraken eromheen, en onderscheiden we gevolgen van bedoelingen."
+          },
+          {
+            "title": "Wat je hier onderzoekt",
+            "text": "Hier opent de sensor de deur zonder duwkracht. Dat is een werkelijke toegankelijkheidswinst. Bij uitval worden stroom, onderhoud en de hoogte van de noodknop echter doorslaggevend. Dezelfde voorziening verdeelt dus ook afhankelijkheid. Je opdracht is die samenhang te herstellen: een bereikbare bediening, een bruikbare uitvalroute en iemand die het onderhoud regelt. Alleen een snellere sensor raakt niet ieder probleem."
+          },
+          {
+            "title": "Voorbeeld en grens",
+            "text": "Vergelijk twee voorstellen. Een noodaccu houdt de automatische functie tijdelijk beschikbaar, maar vraagt controle en vervanging. Een mechanische bediening vermindert stroomafhankelijkheid, maar moet met weinig kracht en veilig werken. Beide kunnen verdedigbaar zijn. Kies op basis van bezoekers, omstandigheden en tests. Een storing bewijst op zichzelf geen uitsluitingsintentie; de kwaliteit van de oplossing volgt ook niet uit haar vriendelijke naam."
+          }
+        ]
+      }
+    },
+    {
+      "investigationId": "m4-01",
+      "name": "Mila",
+      "theory": {
+        "title": "Kijk naar relaties, niet alleen naar het apparaat",
+        "concepts": [
+          "Actor-Network Theory",
+          "Verbeek",
+          "technologische bemiddeling",
+          "verantwoordelijkheid"
+        ],
+        "sections": [
+          {
+            "title": "De theorie uitgelegd",
+            "text": "Actor-Network Theory onderzoekt hoe mensen, apparaten en regels samen handelen vormgeven. Een sensor is een actor in de betekenis dat hij verschil maakt, niet dat hij bewust kiest of moreel schuldig is. Verbeek legt een ander accent: techniek bemiddelt wat we waarnemen en welke handelingen mogelijk lijken. Beide helpen een deur begrijpen, maar beantwoorden niet vanzelf welke oplossing rechtvaardig is."
+          },
+          {
+            "title": "Wat je hier onderzoekt",
+            "text": "De sensor herkent een beweging, de beheerregel bepaalt wie bij een storing wordt gebeld en het scherm toont één ingang. Samen vormen ze de toegangsroute. Kijk daarom ook naar de monteur, bezoeker en verborgen alternatieve doorgang. Verantwoordelijkheid verdwijnt niet doordat veel onderdelen meedoen. Je zoekt wie het probleem kan herkennen, wie een keuze kan aanpassen en wie voor herstel aanspreekbaar blijft."
+          },
+          {
+            "title": "Voorbeeld en grens",
+            "text": "Stel dat het scherm alleen de hoofdingang toont, terwijl achter het gebouw een toegankelijke ingang bestaat. De weg is fysiek beschikbaar, maar minder zichtbaar en daardoor minder vanzelfsprekend. Dat is bemiddeling. Een nieuwe routeaanwijzing kan helpen, maar herstelt geen defecte sensor. Een netwerkkaart moet dus tot gerichte vragen leiden; een eindeloze verzameling pijlen is nog geen verklaring of bruikbare interventie."
+          }
+        ]
+      }
+    },
+    {
+      "investigationId": "m4-02",
+      "name": "Omar",
+      "theory": {
+        "title": "Waarom infrastructuur meer is dan een grote machine",
+        "concepts": [
+          "infrastructuur",
+          "schaal",
+          "standaarden",
+          "fysieke en digitale logistiek"
+        ],
+        "sections": [
+          {
+            "title": "De theorie uitgelegd",
+            "text": "Infrastructuur maakt andere activiteiten mogelijk, verbindt partijen op grote schaal en legt standaarden en afhankelijkheden vast. Een scanner is een apparaat; het geheel van transport, opslag, gegevensformaten en tracking laat een levering functioneren. Goed werkende infrastructuur raakt vaak op de achtergrond. Bij uitval zie je hoeveel ervan afhankelijk was. Grootte alleen verklaart die onzichtbaarheid niet; dagelijks vanzelfsprekend gebruik speelt ook mee."
+          },
+          {
+            "title": "Wat je hier onderzoekt",
+            "text": "Je volgt hier een reparatieorder door voorraadplanning, vervoer en aflevering. Een trackingbericht verplaatst geen apparaat, terwijl een vervoerder zonder bruikbare ordergegevens moeilijk kan plannen. De fysieke en digitale schakels versterken elkaar. Het gedeelde formaat helpt coördinatie, maar sluit een reparateur met een ander formaat feitelijk buiten. Daarom vraagt de aansluiting zowel een technische koppeling als afspraken over beheer en uitval."
+          },
+          {
+            "title": "Voorbeeld en grens",
+            "text": "Een klein bedrijf kan dankzij een gezamenlijk netwerk sneller leveren dan met eigen transport. Tegelijk kan een storing in de centrale gegevensdienst al zijn leveringen raken. Een reserveprocedure beperkt die afhankelijkheid, maar moet getest en onderhouden worden. Het netwerk is daardoor niet eenvoudig goed of slecht. Onderzoek het voordeel, de kwetsbaarheid en de beschikbare alternatieven voordat je een algemene conclusie trekt."
+          }
+        ]
+      }
+    },
+    {
+      "investigationId": "m4-02",
+      "name": "Eva",
+      "theory": {
+        "title": "Een netwerkvoordeel kan ook beslismacht geven",
+        "concepts": [
+          "infrastructuurmacht",
+          "poortwachter",
+          "asymmetrische afhankelijkheid",
+          "publiek belang"
+        ],
+        "sections": [
+          {
+            "title": "De theorie uitgelegd",
+            "text": "Macht ontstaat niet alleen wanneer iemand toegang weigert. Wie toelatingsregels, gegevensformaten of zichtbaarheid bepaalt, kan voorwaarden voor anderen veranderen. Een platform kan tegelijk een waardevolle markt openen. Asymmetrische afhankelijkheid betekent dat deelnemers het netwerk nodig hebben, maar minder invloed op de regels hebben dan de beheerder. Dat is een machtsmechanisme; het bewijst nog niet dat iedere regel of prijs misbruik vormt."
+          },
+          {
+            "title": "Wat je hier onderzoekt",
+            "text": "In het depot bepaalt de eigenaar wanneer het formaat verandert en welke aansluiting geldig blijft. De reparateur krijgt bereik, maar moet zich aanpassen. Het bronvoorbeeld Amazon verbindt magazijnen, planning, transport en consumentendata. Hier gebruiken we fictieve contracten om die combinatie te onderzoeken. Vraag wie de voorwaarden kan betwisten, welke kosten bij deelnemers terechtkomen en hoe publieke belangen worden meegewogen."
+          },
+          {
+            "title": "Voorbeeld en grens",
+            "text": "Een lager tarief kan de aansluiting goedkoper maken zonder het gesloten formaat bruikbaar te maken. Een gedocumenteerde interface raakt de technische barrière; een bezwaarprocedure raakt de beslismacht. Ze vervullen verschillende functies. Meer openheid kan bovendien beveiligings- en beheervragen oproepen. Het doel is daarom een onderbouwde aansluitafspraak, geen aanname dat open toegang zonder voorwaarden automatisch voor alle betrokkenen de beste uitkomst geeft."
+          }
+        ]
+      }
+    },
+    {
+      "investigationId": "m4-03",
+      "name": "Noor",
+      "theory": {
+        "title": "Data leveren kennis én afhankelijkheid op",
+        "concepts": [
+          "data als hulpbron",
+          "Internet of Things",
+          "lock-in",
+          "digitale autonomie"
+        ],
+        "sections": [
+          {
+            "title": "De theorie uitgelegd",
+            "text": "Data kunnen patronen zichtbaar maken en onderhoud, planning of nieuwe diensten ondersteunen. Ze verschillen van verbruikte brandstof: een gegevenskopie verdwijnt niet door analyse. Toch zijn toegang, kwaliteit en bruikbare kennis niet gelijk verdeeld. Lock-in ontstaat wanneer overstappen moeilijk wordt door formaten, koppelingen en kosten. Digitale autonomie gaat daarom om praktische zeggenschap en continuïteit, niet alleen om de vraag waar gegevens staan."
+          },
+          {
+            "title": "Wat je hier onderzoekt",
+            "text": "De slijtagelog helpt storingen voorspellen, maar de exclusieve bestandslezer houdt de hub aan één leverancier vast. Een download is nog geen werkende migratie. Je onderzoekt of de nieuwe omgeving de data begrijpt, of kritieke koppelingen blijven werken en wie toegang beheert. De cloudcasus voegt een bestuurlijke vraag toe: opslaglocatie, contract, login en feitelijke beschikbaarheid kunnen verschillende afhankelijkheden vormen."
+          },
+          {
+            "title": "Voorbeeld en grens",
+            "text": "Twee providers lijken een reserve te bieden. Gebruiken ze dezelfde kritieke login, dan kan één storing beide routes blokkeren. Een lokaal datacenter verandert dat niet vanzelf. Test daarom een uitwijkroute met bruikbare bestanden en eigen toegangsbeheer. Dit is een fictieve continuïteitsproef. De historische bronvideo geeft aanleiding tot onderzoek, maar bewijst geen universele actuele politieke bevoegdheid om elke Nederlandse dienst uit te schakelen."
+          }
+        ]
+      }
+    },
+    {
+      "investigationId": "m4-03",
+      "name": "Lena",
+      "theory": {
+        "title": "Het gegevensdoel maakt verschil",
+        "concepts": [
+          "Zuboff",
+          "surveillancekapitalisme",
+          "profilering",
+          "rangschikkingswaarden"
+        ],
+        "sections": [
+          {
+            "title": "De theorie uitgelegd",
+            "text": "Zuboffs begrip surveillancekapitalisme richt zich op het commercieel voorspellen en beïnvloeden van menselijk gedrag. Menselijke ervaringen worden signalen, signalen worden profielen en voorspelde aandacht krijgt economische waarde. Niet elke voorspelling heeft die functie: slijtage voorspellen voor onderhoud is iets anders. Bij zoek- en aanbevelingssystemen komen bovendien waarden in de rangschikking terecht, zoals relevantie, betrouwbaarheid, commerciële doelen en bescherming tegen schade."
+          },
+          {
+            "title": "Wat je hier onderzoekt",
+            "text": "Hier liggen het onderhoudsspoor en het advertentieprofiel naast elkaar. Vraag welke gegevens gekoppeld worden, welk besluit volgt en hoe waarde wordt verdiend. De zoekkaarten laten vervolgens zien dat een rangschikking keuzes vraagt. Wie bepaalt welke bron betrouwbaar heet en wat eerst zichtbaar wordt? De student hoeft niet één favoriete prioriteit te kiezen, maar moet criteria, bevoegdheid en gevolgen begrijpelijk kunnen onderzoeken."
+          },
+          {
+            "title": "Voorbeeld en grens",
+            "text": "Een aanbeveling kan een product aantrekkelijker maken door het bovenaan te plaatsen. Dat beïnvloedt aandacht zonder de gebruiker iedere andere keuze af te nemen. Een betaald advertentievak is daarbij niet hetzelfde als organische zoekrangschikking; het voorbeeld is geen bewijs dat Google organische plaatsen verkoopt. Meer datapunten of een toestemmingvenster bepalen evenmin op zichzelf het bedrijfsmodel. Volg de concrete waardeketen en het gebruik."
+          }
+        ]
+      }
+    },
+    {
+      "investigationId": "m4-04",
+      "name": "Iris",
+      "theory": {
+        "title": "Herkennen en prioriteit geven zijn verschillende keuzes",
+        "concepts": [
+          "algoritme",
+          "trainingsdata",
+          "doelfunctie",
+          "explainable AI"
+        ],
+        "sections": [
+          {
+            "title": "De theorie uitgelegd",
+            "text": "Een algoritme is een instructiereeks. Een geleerd model gebruikt patronen uit voorbeelden; zijn herkenning hangt mede af van die voorbeelden. Daarna kan een beslisregel bepalen welk herkend object aandacht krijgt. Die twee stappen zijn verschillend. Explainable AI helpt criteria of beslissingen begrijpelijk maken. Een begrijpelijke uitleg bewijst echter nog niet dat de gegevens betrouwbaar, de criteria passend of de gevolgen rechtvaardig zijn."
+          },
+          {
+            "title": "Wat je hier onderzoekt",
+            "text": "De band kan een goedkoop materiaal correct herkennen en het toch overslaan wanneer verkoopopbrengst het doel is. Daarom verander je in de proef eerst het doel bij gelijkblijvende data, en daarna de data bij hetzelfde doel. Zo onderzoek je afzonderlijke mechanismen. De controlekaarten verbinden de uitkomst bovendien met een audit, groepsgewijze tests en iemand die een fout daadwerkelijk kan laten herstellen."
+          },
+          {
+            "title": "Voorbeeld en grens",
+            "text": "Met bredere oefendata herkent het model meer moeilijke verpakkingen. Bij hetzelfde opbrengstdoel kunnen goed herkende goedkope materialen alsnog blijven liggen. Wisselen naar terugwinning raakt een andere keuze. De getallen in deze proef zijn illustratief en beschrijven geen werkelijke AMP-prestaties. Een hogere sorteerscore bewijst ook geen volledige duurzaamheid: energie, vervolgverwerking en andere gevolgen ontbreken nog in deze vereenvoudigde meetgrens."
+          }
+        ]
+      }
+    },
+    {
+      "investigationId": "m4-04",
+      "name": "Mila",
+      "theory": {
+        "title": "Een hoge score vertelt niet wie de gevolgen draagt",
+        "concepts": [
+          "representativiteit",
+          "algoritmische discriminatie",
+          "socio-technisch systeem",
+          "AI-risico’s"
+        ],
+        "sections": [
+          {
+            "title": "De theorie uitgelegd",
+            "text": "Een gemiddelde score vat prestaties samen, maar kan grote verschillen tussen groepen verbergen. Representativiteit gaat over welke gevallen in oefenen en testen aanwezig zijn. Historische ongelijke behandeling kan bovendien in gegevens doorwerken. Gender Shades onderzocht in 2018 commerciële genderclassificatie uit gezichtsbeelden, met sterke verschillen naar huidskleur en gender. Die specifieke studie motiveert groepsgewijs onderzoek; zij is geen prestatiebewijs voor ieder AI-systeem."
+          },
+          {
+            "title": "Wat je hier onderzoekt",
+            "text": "Het risicoregister vraagt meer dan nauwkeurige materiaalherkenning. De camera legt ook personen vast, een afwijzing heeft geen bruikbare uitleg en partijen wijzen voor herstel naar elkaar. Daarnaast kan een synthetische film een verzonnen goedkeuring tonen en verandert automatisering het werkrooster. Elk incident vraagt passend bewijs. Een hogere totaalscore vervangt geen privacyonderzoek, broncontrole, herstelafspraak of beoordeling van arbeidsgevolgen."
+          },
+          {
+            "title": "Voorbeeld en grens",
+            "text": "Stel dat vrijwel alle testgevallen schone verpakkingen zijn. Een hoog gemiddelde zegt dan weinig over vuile verpakkingen. Voeg gerichte tests toe en vergelijk foutsoorten; het ontbrekende onderzoek bewijst nog geen exacte oorzaak. Bij personeelsbesluiten geldt dezelfde voorzichtigheid, met andere belangen. Automatisering kan taken laten verdwijnen of nieuwe taken creëren. Organisatiekeuzes, opleiding en marktontwikkeling moeten worden onderzocht voordat je een banenuitkomst voorspelt."
+          }
+        ]
+      }
+    },
+    {
+      "investigationId": "m4-05",
+      "name": "Noor",
+      "theory": {
+        "title": "Een meetinstrument verandert wat je kunt zien",
+        "concepts": [
+          "Verbeek",
+          "dashboardbemiddeling",
+          "smart grids",
+          "verantwoordelijkheid"
+        ],
+        "sections": [
+          {
+            "title": "De theorie uitgelegd",
+            "text": "Een dashboard is geen volledig venster op de werkelijkheid. Het selecteert indicatoren en maakt sommige gevolgen eenvoudiger bespreekbaar dan andere. Bij Verbeek heet dat bemiddeling van waarneming en handelen. Actor-Network Theory helpt daarnaast volgen hoe meter, prestatieafspraak en mensen samen verantwoordelijkheid verschuiven. De cijfers kunnen technisch correct zijn terwijl de selectie een beperkt beeld van welzijn, toegang of duurzaamheid geeft."
+          },
+          {
+            "title": "Wat je hier onderzoekt",
+            "text": "Hier telt het scherm verkochte gerecyclede grondstof, maar niet energie, reststromen of werkomstandigheden. De energiemeter verandert ook hoe managers teams aanspreken. Bij het smart grid helpen realtime gegevens variabele zon en wind coördineren, terwijl databeheer, investeringskosten en toegang aparte vragen blijven. Je herstelt daarom niet alleen de tegel: je onderzoekt ontbrekende effecten en legt vast wie informatie in actie kan omzetten."
+          },
+          {
+            "title": "Voorbeeld en grens",
+            "text": "Een dashboard toont minder energie per bestelling. Als het aantal bestellingen sterk stijgt, kan het totale verbruik toch groeien. Vraag welke vergelijking de claim gebruikt. Een extra indicator maakt zo’n verschil zichtbaar, maar verandert de bonusregel niet vanzelf. Omgekeerd is een hoger totaal geen bewijs dat de verbetering per bestelling verzonnen is. Meetgrens, schaal en bestuurlijke besluiten vragen elk hun eigen onderzoek."
+          }
+        ]
+      }
+    },
+    {
+      "investigationId": "m4-05",
+      "name": "Lena",
+      "theory": {
+        "title": "Waarom een groen dashboard de praktijk kan vooruitlopen",
+        "concepts": [
+          "greenwashing als systeemfenomeen",
+          "reputatieprikkels",
+          "interventieniveaus",
+          "governance"
+        ],
+        "sections": [
+          {
+            "title": "De theorie uitgelegd",
+            "text": "Greenwashing kan ontstaan wanneer een gunstige duurzaamheidsindruk sterker is dan de onderliggende prestaties. Dat hoeft niet tot één slechte marketingkeuze te worden teruggebracht. Kostenprikkels, reputatiedruk en langzaam veranderende infrastructuur kunnen de kloof versterken. We onderscheiden vervolgens ontwerpinterventies, organisatorische interventies en institutionele interventies. Ze raken techniek, uitvoering of publieke regels. Een verklaring voor de druk neemt verantwoordelijkheid voor een misleidende voorstelling niet weg."
+          },
+          {
+            "title": "Wat je hier onderzoekt",
+            "text": "De groene tegel toont één gunstige stroom, terwijl andere gevolgen ontbreken. Tegelijk beloont de organisatie vooral verkoopsnelheid. Een bredere interface is een ontwerpwijziging; een audit en aangepaste beoordeling zijn organisatorische wijzigingen. Publieke normen kunnen verantwoording versterken. In de ruimte verbind je daarom claimgrens, relevante effecten en herstelbevoegdheid. Anders kan de communicatie verbeteren zonder dat het gedrag achter de cijfers daadwerkelijk verandert."
+          },
+          {
+            "title": "Voorbeeld en grens",
+            "text": "Een commissie kan controleren waarom een goedkope reststroom buiten beeld blijft. Zij kan geen ontbrekende meetfunctie vanzelf vervangen. Een nieuw scherm kan die stroom tonen, maar zonder bevoegd beheer blijft opvolging onzeker. Beide kunnen dus nodig zijn. Meer indicatoren kunnen ook nieuwe meetprikkels creëren. Onderzoek uitvoering en gevolgen opnieuw; een controleplan of keurmerknaam is op zichzelf nog geen bewezen duurzaam resultaat."
+          }
+        ]
+      }
+    },
+    {
+      "investigationId": "m4-06",
+      "name": "Iris",
+      "theory": {
+        "title": "Waarden vroeg onderzoeken en later kunnen herzien",
+        "concepts": [
+          "Value Sensitive Design",
+          "responsible innovation",
+          "menselijke agency",
+          "inclusief ontwerp"
+        ],
+        "sections": [
+          {
+            "title": "De theorie uitgelegd",
+            "text": "Value Sensitive Design neemt waarden mee in het ontwerp, in plaats van pas na oplevering een ethisch etiket toe te voegen. Responsible innovation vraagt anticiperen op maatschappelijke gevolgen en kunnen bijsturen. Agency betekent dat mensen bewust kunnen handelen, maar hun mogelijkheden verschillen naar rol, middelen en bevoegdheid. Technologie beïnvloedt gedrag zonder als een volledig autonome kracht iedere toekomstige uitkomst vast te leggen."
+          },
+          {
+            "title": "Wat je hier onderzoekt",
+            "text": "De vrijgave moet voortbouwen op wat je werkelijk vond: toegang bij uitval, overdraagbare data, ongelijke tests en een smal dashboard. Je brengt betrokkenen en waarden in kaart, onderzoekt alternatieven, test de pilot en belegt herziening. Dat is een terugkerende werkwijze. Een plan mag na nieuwe bevindingen veranderen. Alleen tekenen dat je inclusiviteit belangrijk vindt, maakt de noodknop nog niet bereikbaar."
+          },
+          {
+            "title": "Voorbeeld en grens",
+            "text": "Je kunt een kleine pilot kiezen met gerichte tests voor ontbrekende groepen. Een bredere pilot kan ook verdedigbaar zijn wanneer de fallback, controlecapaciteit en bewijsbasis dat ondersteunen. De juiste keuze is niet één verplichte morele voorkeur. Wel moeten afbakening, bevoegdheden en resterende onzekerheid kloppen. Een geslaagde proef bij bekende gebruikers bewijst nog geen veilige of rechtvaardige werking bij onbekende groepen op grotere schaal."
+          }
+        ]
+      }
+    },
+    {
+      "investigationId": "m4-06",
+      "name": "Eva",
+      "theory": {
+        "title": "Een publieke regel is een aangrijpingspunt, geen uitkomstgarantie",
+        "concepts": [
+          "institutionele interventie",
+          "AI Act",
+          "CSRD",
+          "Digital Services Act"
+        ],
+        "sections": [
+          {
+            "title": "De theorie uitgelegd",
+            "text": "Publieke kaders kunnen verantwoordelijkheid, bescherming en vergelijkbaarheid organiseren. De AI Act gebruikt een risicobenadering; CSRD betreft duurzaamheidsrapportage; de DSA kent onder meer systeemrisico- en transparantieverplichtingen voor zeer grote diensten. Het zijn verschillende aangrijpingspunten. Toepassingsbereik en invoering kunnen veranderen. Daarom leer je hier hun functies onderscheiden en niet een generieke kaderkaart als juridische toets of bewijs van verantwoord handelen behandelen."
+          },
+          {
+            "title": "Wat je hier onderzoekt",
+            "text": "In de vrijgavekamer leg je techniek, organisatie en publieke voorwaarden naast elkaar. Een bruikbare export raakt ontwerp; een herstelverantwoordelijke raakt governance; een toepasselijk publiek kader kan normen en toezicht versterken. Bij aanbevelingssystemen gaan de bronvragen ook over informatieverspreiding en publieke opinie. Je moet laten zien welke partij welk risico kan beïnvloeden en welke gegevens nodig zijn om de uitvoering te beoordelen."
+          },
+          {
+            "title": "Voorbeeld en grens",
+            "text": "Een platform kan transparanter rapporteren over aanbevelingen en onderzoekers toegang geven binnen passende voorwaarden. Daardoor wordt onderzoek mogelijk; desinformatie is niet ineens opgelost. Een duurzaamheidsrapport vervangt evenmin een aparte AI-risicobeoordeling. Bescherming en innovatie kunnen bovendien kosten en belangen oproepen. Onderzoek de concrete toepassing en actuele regels, en onderscheid een nageleefde informatieplicht van de werkelijke gevolgen die je met de pilot wilde veranderen."
+          }
+        ]
+      }
+    }
+  ]
+}

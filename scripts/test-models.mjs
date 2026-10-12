@@ -1,0 +1,12 @@
+import assert from 'node:assert/strict';
+import {outcome,contrasted} from '../dist/simulations.js';
+assert.deepEqual(outcome('incentives',{pressure:2,reviewTime:1,protected:0}),{availableSlots:0,reached:0,waiting:4});
+assert.equal(outcome('incentives',{pressure:0,reviewTime:4,protected:1}).reached,4);
+assert.equal(outcome('sorter',{goal:'value',representativeTraining:true,humanReview:false}).correctLow,0);
+assert.equal(outcome('sorter',{goal:'recovery',representativeTraining:true,humanReview:true}).correctLow,4);
+const start=outcome('claim-boundary',{productionMultiplier:1.5,perUnitReduction:20,coveragePercent:5});assert.equal(start.pilotImpactPerUnit,8);assert.equal(start.totalImpact,14850);assert(Math.abs(start.absoluteChangePercent-48.5)<.00001);
+assert.deepEqual(outcome('governance',{voice:1,horizon:1,broad:0}),{shownNet:-30,panelInput:1,canReopen:0,separateValue:0});
+const spec={minimumTrials:3},values=[{goal:'value',representativeTraining:false,humanReview:false},{goal:'recovery',representativeTraining:false,humanReview:false},{goal:'recovery',representativeTraining:true,humanReview:false}];
+assert(contrasted({simulation:'sorter',simulationSpec:spec},values.map(values=>({values}))));
+assert(!contrasted({simulation:'sorter',simulationSpec:spec},[values[0],{goal:'recovery',representativeTraining:true,humanReview:true},values[0]].map(values=>({values}))));
+console.log('PASS: fixed model outcomes, control/choice distinction, per-unit vs absolute claims and unconfounded comparisons.');

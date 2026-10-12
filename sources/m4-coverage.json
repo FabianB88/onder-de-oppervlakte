@@ -1,0 +1,3377 @@
+{
+  "schemaVersion": 2,
+  "lessonId": "m4",
+  "title": "Technologie, Macht & Morele Interventie",
+  "source": "sources/business-ethics-course.json",
+  "scope": "Audited original text propositions, source examples, original quiz/matching feedback, diagrams and image content, plus explicitly scoped media fidelity.",
+  "essentialSourceBlocks": [
+    0,
+    1,
+    4,
+    10,
+    13,
+    17,
+    20,
+    22,
+    27,
+    30,
+    34,
+    37,
+    41,
+    44,
+    47,
+    50,
+    51
+  ],
+  "mappedSourceBlocks": [
+    0,
+    1,
+    4,
+    8,
+    10,
+    13,
+    15,
+    17,
+    18,
+    20,
+    22,
+    23,
+    27,
+    30,
+    32,
+    34,
+    35,
+    37,
+    38,
+    40,
+    41,
+    42,
+    44,
+    45,
+    47,
+    50,
+    51
+  ],
+  "unmappedEssentialSourceBlocks": [],
+  "propositions": [
+    {
+      "id": "m4-p001",
+      "proposition": "De sensor opent zonder duwkracht. Dit helpt rolstoelgebruikers, mensen met bagage en ouders met een kinderwagen.",
+      "concepts": [
+        "morele architectuur",
+        "toegang en afhankelijkheid",
+        "automatische deur"
+      ],
+      "sourceBlocks": [
+        0,
+        1,
+        10
+      ],
+      "teachingLocation": "m4-01-b1:reveal:r1",
+      "worldEvidence": "Test de deur in vier omstandigheden",
+      "practiceBeat": "m4-01-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m4-01:dependence",
+        "m4-01:network"
+      ],
+      "knowledgeChecks": [],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p002",
+      "proposition": "Bij stroomuitval blijft het zware paneel dicht. Juist gebruikers die op automatisering rekenen, kunnen minder zelfstandig naar binnen.",
+      "concepts": [
+        "morele architectuur",
+        "toegang en afhankelijkheid",
+        "automatische deur"
+      ],
+      "sourceBlocks": [
+        0,
+        1,
+        10
+      ],
+      "teachingLocation": "m4-01-b1:reveal:r2",
+      "worldEvidence": "Test de deur in vier omstandigheden",
+      "practiceBeat": "m4-01-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m4-01:dependence",
+        "m4-01:network"
+      ],
+      "knowledgeChecks": [],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p003",
+      "proposition": "De noodknop zit hoog. De hoogte en benodigde kracht verdelen feitelijke toegang, ook zonder uitsluitingsregel.",
+      "concepts": [
+        "morele architectuur",
+        "toegang en afhankelijkheid",
+        "automatische deur"
+      ],
+      "sourceBlocks": [
+        0,
+        1,
+        10
+      ],
+      "teachingLocation": "m4-01-b1:reveal:r3",
+      "worldEvidence": "Test de deur in vier omstandigheden",
+      "practiceBeat": "m4-01-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m4-01:dependence",
+        "m4-01:network"
+      ],
+      "knowledgeChecks": [],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p004",
+      "proposition": "Een goed ontwerp heeft een bereikbaar bedieningsalternatief én afspraken over sensortests, onderhoud en hulp bij uitval.",
+      "concepts": [
+        "morele architectuur",
+        "toegang en afhankelijkheid",
+        "automatische deur"
+      ],
+      "sourceBlocks": [
+        0,
+        1,
+        10
+      ],
+      "teachingLocation": "m4-01-b1:reveal:r4",
+      "worldEvidence": "Test de deur in vier omstandigheden",
+      "practiceBeat": "m4-01-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m4-01:dependence",
+        "m4-01:network"
+      ],
+      "knowledgeChecks": [],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p005",
+      "proposition": "Snelheid en veiligheid zijn ontwerpwaarden. Een snel sluitende deur kan toegankelijkheid verminderen; de waarden moeten samen worden onderzocht.",
+      "concepts": [
+        "morele architectuur",
+        "toegang en afhankelijkheid",
+        "automatische deur"
+      ],
+      "sourceBlocks": [
+        0,
+        1,
+        10
+      ],
+      "teachingLocation": "m4-01-b1:reveal:r5",
+      "worldEvidence": "Test de deur in vier omstandigheden",
+      "practiceBeat": "m4-01-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m4-01:dependence",
+        "m4-01:network"
+      ],
+      "knowledgeChecks": [],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p006",
+      "proposition": "ANT kan ook kledingketens, vervoerapps en architectuur als relaties analyseren. Een eindeloze kaart verklaart niet vanzelf welke ingreep helpt. Kies de relevante relaties en onderzoek macht, verandering en verantwoordelijkheid expliciet.",
+      "concepts": [
+        "morele architectuur",
+        "toegang en afhankelijkheid",
+        "automatische deur"
+      ],
+      "sourceBlocks": [
+        0,
+        1,
+        10
+      ],
+      "teachingLocation": "m4-01-b1:reveal:r6",
+      "worldEvidence": "Test de deur in vier omstandigheden",
+      "practiceBeat": "m4-01-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m4-01:dependence",
+        "m4-01:network"
+      ],
+      "knowledgeChecks": [],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p007",
+      "proposition": "Een trap zonder lift of een te lage doorgang kan toegang beperken. Het gevolg is zichtbaar; intentie vraagt apart historisch of ontwerpbewijs. Winners analyse onderscheidt ontwerpkeuzes en organisatieverhoudingen.",
+      "concepts": [
+        "morele architectuur",
+        "toegang en afhankelijkheid",
+        "automatische deur"
+      ],
+      "sourceBlocks": [
+        0,
+        1,
+        10
+      ],
+      "teachingLocation": "m4-01-b1:reveal:r7",
+      "worldEvidence": "Test de deur in vier omstandigheden",
+      "practiceBeat": "m4-01-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m4-01:dependence",
+        "m4-01:network"
+      ],
+      "knowledgeChecks": [],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p008",
+      "proposition": "Winner laat twee routes zien: bewust ingebouwde sociale ordening en politieke gevolgen van de organisatie die een techniek vereist. Dezelfde techniek kan beide hebben.",
+      "concepts": [
+        "Winner",
+        "bewuste ontwerpsturing",
+        "organisatorische vereisten"
+      ],
+      "sourceBlocks": [
+        4,
+        22
+      ],
+      "teachingLocation": "m4-01-b2:explainAfter",
+      "worldEvidence": "Twee soorten politieke werking",
+      "practiceBeat": "m4-01-b2",
+      "practiceType": "sort",
+      "synthesisSlots": [
+        "m4-01:dependence",
+        "m4-01:network"
+      ],
+      "knowledgeChecks": [],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p009",
+      "proposition": "Een expliciete keuzeregel kan toegang bewust beperken. Een complexe techniek kan ook expertise en coördinatie vereisen zonder dat uitsluiting het doel was.",
+      "concepts": [
+        "Winner",
+        "bewuste ontwerpsturing",
+        "organisatorische vereisten"
+      ],
+      "sourceBlocks": [
+        4,
+        22
+      ],
+      "teachingLocation": "m4-01-b2:hint",
+      "worldEvidence": "Twee soorten politieke werking",
+      "practiceBeat": "m4-01-b2",
+      "practiceType": "sort",
+      "synthesisSlots": [
+        "m4-01:dependence",
+        "m4-01:network"
+      ],
+      "knowledgeChecks": [],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p010",
+      "proposition": "ANT maakt zichtbaar hoe de sensor, afspraak en monteur samen handelingen sturen. Verbeek legt de nadruk op bemiddeling: technologie verandert wat mensen waarnemen en kunnen doen.",
+      "concepts": [
+        "Actor-Network Theory",
+        "menselijke en niet-menselijke actoren",
+        "Verbeek",
+        "technologische bemiddeling"
+      ],
+      "sourceBlocks": [
+        13,
+        15
+      ],
+      "teachingLocation": "m4-01-b3:explainAfter",
+      "worldEvidence": "De deur is een netwerk",
+      "practiceBeat": "m4-01-b3",
+      "practiceType": "connect",
+      "synthesisSlots": [
+        "m4-01:dependence",
+        "m4-01:network"
+      ],
+      "knowledgeChecks": [
+        "m4-k1",
+        "m4-k2"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p011",
+      "proposition": "In Latours ANT beïnvloeden bezoekers, sensoren, regels en monteurs elkaar. Een actor kan handelen bemiddelen zonder bewustzijn of menselijke morele schuld te hebben.",
+      "concepts": [
+        "Actor-Network Theory",
+        "menselijke en niet-menselijke actoren",
+        "Verbeek",
+        "technologische bemiddeling"
+      ],
+      "sourceBlocks": [
+        13,
+        15
+      ],
+      "teachingLocation": "m4-01-b3:hint",
+      "worldEvidence": "De deur is een netwerk",
+      "practiceBeat": "m4-01-b3",
+      "practiceType": "connect",
+      "synthesisSlots": [
+        "m4-01:dependence",
+        "m4-01:network"
+      ],
+      "knowledgeChecks": [
+        "m4-k1",
+        "m4-k2"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p012",
+      "proposition": "Een noodaccu of een zelfstandig bruikbare mechanische route kan helpen. Test het met betrokken bezoekers en regel beheer. Het ontwerp beïnvloedt gedrag, maar kan bewust worden veranderd.",
+      "concepts": [
+        "ontwerpinterventie",
+        "menselijke agency",
+        "automatische deur"
+      ],
+      "sourceBlocks": [
+        10,
+        44,
+        47
+      ],
+      "teachingLocation": "m4-01-b4:explainAfter",
+      "worldEvidence": "Kies een werkende fallback",
+      "practiceBeat": "m4-01-b4",
+      "practiceType": "decision",
+      "synthesisSlots": [
+        "m4-01:dependence",
+        "m4-01:network"
+      ],
+      "knowledgeChecks": [
+        "m4-k7"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p013",
+      "proposition": "Een fallback moet ook zonder de uitgevallen functie bereikbaar zijn. Meer normale snelheid verhelpt geen onbereikbare noodbediening.",
+      "concepts": [
+        "ontwerpinterventie",
+        "menselijke agency",
+        "automatische deur"
+      ],
+      "sourceBlocks": [
+        10,
+        44,
+        47
+      ],
+      "teachingLocation": "m4-01-b4:hint",
+      "worldEvidence": "Kies een werkende fallback",
+      "practiceBeat": "m4-01-b4",
+      "practiceType": "decision",
+      "synthesisSlots": [
+        "m4-01:dependence",
+        "m4-01:network"
+      ],
+      "knowledgeChecks": [
+        "m4-k7"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p014",
+      "proposition": "Het transportnetwerk verbindt haven, magazijn en reparatiehub. Het maakt leveringen mogelijk voor meerdere organisaties.",
+      "concepts": [
+        "infrastructuur",
+        "achtergrond en uitval",
+        "standaarden en afhankelijkheden",
+        "Star en Bowker"
+      ],
+      "sourceBlocks": [
+        17,
+        18,
+        20
+      ],
+      "teachingLocation": "m4-02-b1:reveal:r1",
+      "worldEvidence": "Zoek wat de apparaten mogelijk maakt",
+      "practiceBeat": "m4-02-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m4-02:standard",
+        "m4-02:duration"
+      ],
+      "knowledgeChecks": [],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p015",
+      "proposition": "Bij uitval stoppen scanners en banden. De apparaten waren afhankelijk van een netwerk dat tijdens normaal werk onzichtbaar leek.",
+      "concepts": [
+        "infrastructuur",
+        "achtergrond en uitval",
+        "standaarden en afhankelijkheden",
+        "Star en Bowker"
+      ],
+      "sourceBlocks": [
+        17,
+        18,
+        20
+      ],
+      "teachingLocation": "m4-02-b1:reveal:r2",
+      "worldEvidence": "Zoek wat de apparaten mogelijk maakt",
+      "practiceBeat": "m4-02-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m4-02:standard",
+        "m4-02:duration"
+      ],
+      "knowledgeChecks": [],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p016",
+      "proposition": "Scanners accepteren één gegevensformaat. De standaard helpt afstemming, maar een niet-passend formaat sluit een reparateur feitelijk uit.",
+      "concepts": [
+        "infrastructuur",
+        "achtergrond en uitval",
+        "standaarden en afhankelijkheden",
+        "Star en Bowker"
+      ],
+      "sourceBlocks": [
+        17,
+        18,
+        20
+      ],
+      "teachingLocation": "m4-02-b1:reveal:r3",
+      "worldEvidence": "Zoek wat de apparaten mogelijk maakt",
+      "practiceBeat": "m4-02-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m4-02:standard",
+        "m4-02:duration"
+      ],
+      "knowledgeChecks": [],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p017",
+      "proposition": "Transport, elektriciteit, digitale platformecosystemen en wereldwijde datanetwerken verbinden organisaties, regio’s of landen.",
+      "concepts": [
+        "infrastructuur",
+        "achtergrond en uitval",
+        "standaarden en afhankelijkheden",
+        "Star en Bowker"
+      ],
+      "sourceBlocks": [
+        17,
+        18,
+        20
+      ],
+      "teachingLocation": "m4-02-b1:reveal:r4",
+      "worldEvidence": "Zoek wat de apparaten mogelijk maakt",
+      "practiceBeat": "m4-02-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m4-02:standard",
+        "m4-02:duration"
+      ],
+      "knowledgeChecks": [],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p018",
+      "proposition": "Toegang vraagt een contract en een interface. Wie die voorwaarden bepaalt, kan marktdeelname en kosten beïnvloeden.",
+      "concepts": [
+        "infrastructuur",
+        "achtergrond en uitval",
+        "standaarden en afhankelijkheden",
+        "Star en Bowker"
+      ],
+      "sourceBlocks": [
+        17,
+        18,
+        20
+      ],
+      "teachingLocation": "m4-02-b1:reveal:r5",
+      "worldEvidence": "Zoek wat de apparaten mogelijk maakt",
+      "practiceBeat": "m4-02-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m4-02:standard",
+        "m4-02:duration"
+      ],
+      "knowledgeChecks": [],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p019",
+      "proposition": "Wereldwijde handel steunt op havens, scheepvaart, magazijnen en tracking. Data over voorraad, reistijd en vraag coördineren die fysieke route; infrastructuur is meer dan de losse scanner.",
+      "concepts": [
+        "logistieke infrastructuur",
+        "fysiek en digitaal netwerk",
+        "coördinatie"
+      ],
+      "sourceBlocks": [
+        20
+      ],
+      "teachingLocation": "m4-02-b2:explainAfter",
+      "worldEvidence": "Laat de reparatie echt reizen",
+      "practiceBeat": "m4-02-b2",
+      "practiceType": "order",
+      "synthesisSlots": [
+        "m4-02:standard",
+        "m4-02:duration"
+      ],
+      "knowledgeChecks": [],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p020",
+      "proposition": "Logistiek combineert transport, opslag en datacoördinatie. Volg eerst het product; vraag daarna welke gegevens iedere stap mogelijk maken.",
+      "concepts": [
+        "logistieke infrastructuur",
+        "fysiek en digitaal netwerk",
+        "coördinatie"
+      ],
+      "sourceBlocks": [
+        20
+      ],
+      "teachingLocation": "m4-02-b2:hint",
+      "worldEvidence": "Laat de reparatie echt reizen",
+      "practiceBeat": "m4-02-b2",
+      "practiceType": "order",
+      "synthesisSlots": [
+        "m4-02:standard",
+        "m4-02:duration"
+      ],
+      "knowledgeChecks": [],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p021",
+      "proposition": "Amazon illustreert de verbinding van magazijnen, planning, transport en consumentendata. Efficiëntie is een reëel voordeel; infrastructuurmacht ontstaat mede uit controle over noodzakelijke deelnamevoorwaarden.",
+      "concepts": [
+        "Amazon voorbeeld",
+        "infrastructuurmacht",
+        "markttoegang",
+        "asymmetrische afhankelijkheid"
+      ],
+      "sourceBlocks": [
+        20,
+        22,
+        23
+      ],
+      "teachingLocation": "m4-02-b3:explainAfter",
+      "worldEvidence": "De snelste route heeft een eigenaar",
+      "practiceBeat": "m4-02-b3",
+      "practiceType": "connect",
+      "synthesisSlots": [
+        "m4-02:standard",
+        "m4-02:duration"
+      ],
+      "knowledgeChecks": [
+        "m4-k3"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p022",
+      "proposition": "Een groot platform kan efficiënte levering en markttoegang bieden én regels, algoritmen en prijzen bepalen. Die combinatie kan asymmetrische afhankelijkheid creëren.",
+      "concepts": [
+        "Amazon voorbeeld",
+        "infrastructuurmacht",
+        "markttoegang",
+        "asymmetrische afhankelijkheid"
+      ],
+      "sourceBlocks": [
+        20,
+        22,
+        23
+      ],
+      "teachingLocation": "m4-02-b3:hint",
+      "worldEvidence": "De snelste route heeft een eigenaar",
+      "practiceBeat": "m4-02-b3",
+      "practiceType": "connect",
+      "synthesisSlots": [
+        "m4-02:standard",
+        "m4-02:duration"
+      ],
+      "knowledgeChecks": [
+        "m4-k3"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p023",
+      "proposition": "Infrastructuur verdeelt toegang, kosten en kansen op lange termijn. Een bruikbare aansluiting vraagt technisch functioneren én bestuurlijke afspraken die kleine deelnemers kunnen begrijpen en betwisten.",
+      "concepts": [
+        "toegang en voorwaarden",
+        "infrastructuur als morele structuur",
+        "langetermijneffecten"
+      ],
+      "sourceBlocks": [
+        22,
+        30
+      ],
+      "teachingLocation": "m4-02-b4:explainAfter",
+      "worldEvidence": "Bouw de aansluitafspraak",
+      "practiceBeat": "m4-02-b4",
+      "practiceType": "build",
+      "synthesisSlots": [
+        "m4-02:standard",
+        "m4-02:duration"
+      ],
+      "knowledgeChecks": [],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p024",
+      "proposition": "Een interface lost gegevensuitwisseling op; verantwoording regelt wie voorwaarden wijzigt; een fallback beperkt afhankelijkheid bij uitval. Geen onderdeel vervangt de andere.",
+      "concepts": [
+        "toegang en voorwaarden",
+        "infrastructuur als morele structuur",
+        "langetermijneffecten"
+      ],
+      "sourceBlocks": [
+        22,
+        30
+      ],
+      "teachingLocation": "m4-02-b4:hint",
+      "worldEvidence": "Bouw de aansluitafspraak",
+      "practiceBeat": "m4-02-b4",
+      "practiceType": "build",
+      "synthesisSlots": [
+        "m4-02:standard",
+        "m4-02:duration"
+      ],
+      "knowledgeChecks": [],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p025",
+      "proposition": "IoT-sensoren meten slijtage en energieverbruik. De onderhoudsplanner gebruikt patronen om een storing eerder te herkennen.",
+      "concepts": [
+        "data als hulpbron",
+        "data als macht",
+        "Zuboff",
+        "surveillancekapitalisme",
+        "Internet of Things"
+      ],
+      "sourceBlocks": [
+        10,
+        27,
+        34,
+        35,
+        37
+      ],
+      "teachingLocation": "m4-03-b1:reveal:r1",
+      "worldEvidence": "Volg één gegevensspoor",
+      "practiceBeat": "m4-03-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m4-03:use",
+        "m4-03:switch"
+      ],
+      "knowledgeChecks": [
+        "m4-k4"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p026",
+      "proposition": "Verkeer, brandstof en levertijden helpen routes en voorraden plannen. Data kunnen betrouwbaarheid verbeteren en kosten verminderen.",
+      "concepts": [
+        "data als hulpbron",
+        "data als macht",
+        "Zuboff",
+        "surveillancekapitalisme",
+        "Internet of Things"
+      ],
+      "sourceBlocks": [
+        10,
+        27,
+        34,
+        35,
+        37
+      ],
+      "teachingLocation": "m4-03-b1:reveal:r2",
+      "worldEvidence": "Volg één gegevensspoor",
+      "practiceBeat": "m4-03-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m4-03:use",
+        "m4-03:switch"
+      ],
+      "knowledgeChecks": [
+        "m4-k4"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p027",
+      "proposition": "Zoekopdrachten, locaties en interacties worden tot gedragsprofielen verwerkt. De commerciële advertentiedienst verkoopt daarmee voorspelde aandacht.",
+      "concepts": [
+        "data als hulpbron",
+        "data als macht",
+        "Zuboff",
+        "surveillancekapitalisme",
+        "Internet of Things"
+      ],
+      "sourceBlocks": [
+        10,
+        27,
+        34,
+        35,
+        37
+      ],
+      "teachingLocation": "m4-03-b1:reveal:r3",
+      "worldEvidence": "Volg één gegevensspoor",
+      "practiceBeat": "m4-03-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m4-03:use",
+        "m4-03:switch"
+      ],
+      "knowledgeChecks": [
+        "m4-k4"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p028",
+      "proposition": "Een profiel beïnvloedt welke producten en berichten zichtbaar zijn. Dat kan consumptie en publieke informatie beïnvloeden zonder iedere keuze vast te leggen.",
+      "concepts": [
+        "data als hulpbron",
+        "data als macht",
+        "Zuboff",
+        "surveillancekapitalisme",
+        "Internet of Things"
+      ],
+      "sourceBlocks": [
+        10,
+        27,
+        34,
+        35,
+        37
+      ],
+      "teachingLocation": "m4-03-b1:reveal:r4",
+      "worldEvidence": "Volg één gegevensspoor",
+      "practiceBeat": "m4-03-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m4-03:use",
+        "m4-03:switch"
+      ],
+      "knowledgeChecks": [
+        "m4-k4"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p029",
+      "proposition": "Speciale interfaces, databestanden en bedrijfskritische integraties maken overstappen technisch en financieel moeilijk. Het cloudvoordeel kan dus nieuwe afhankelijkheid brengen.",
+      "concepts": [
+        "data als hulpbron",
+        "data als macht",
+        "Zuboff",
+        "surveillancekapitalisme",
+        "Internet of Things"
+      ],
+      "sourceBlocks": [
+        10,
+        27,
+        34,
+        35,
+        37
+      ],
+      "teachingLocation": "m4-03-b1:reveal:r5",
+      "worldEvidence": "Volg één gegevensspoor",
+      "practiceBeat": "m4-03-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m4-03:use",
+        "m4-03:switch"
+      ],
+      "knowledgeChecks": [
+        "m4-k4"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p030",
+      "proposition": "Vraagpatronen en operationele gegevens kunnen nieuwe producten en diensten helpen ontwikkelen. Data zijn een economische hulpbron én geven kennisvoordeel aan wie toegang en analyse beheerst.",
+      "concepts": [
+        "data als hulpbron",
+        "data als macht",
+        "Zuboff",
+        "surveillancekapitalisme",
+        "Internet of Things"
+      ],
+      "sourceBlocks": [
+        10,
+        27,
+        34,
+        35,
+        37
+      ],
+      "teachingLocation": "m4-03-b1:reveal:r6",
+      "worldEvidence": "Volg één gegevensspoor",
+      "practiceBeat": "m4-03-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m4-03:use",
+        "m4-03:switch"
+      ],
+      "knowledgeChecks": [
+        "m4-k4"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p031",
+      "proposition": "Een bruikbare gegevenskopie raakt niet zoals verbruikte brandstof op door analyse. Toegang, kwaliteit en beslisrecht kunnen toch schaars zijn: wie kennis mag gebruiken heeft invloed.",
+      "concepts": [
+        "data als hulpbron",
+        "data als macht",
+        "Zuboff",
+        "surveillancekapitalisme",
+        "Internet of Things"
+      ],
+      "sourceBlocks": [
+        10,
+        27,
+        34,
+        35,
+        37
+      ],
+      "teachingLocation": "m4-03-b1:reveal:r7",
+      "worldEvidence": "Volg één gegevensspoor",
+      "practiceBeat": "m4-03-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m4-03:use",
+        "m4-03:switch"
+      ],
+      "knowledgeChecks": [
+        "m4-k4"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p032",
+      "proposition": "Gedrag wordt data, data vormen profielen en profielen sturen selectie. Het platform bepaalt welke informatie zichtbaar wordt. De keten is Zuboffs kritische lens, geen oordeel over ieder digitaal systeem.",
+      "concepts": [
+        "gedragsdata",
+        "profilering",
+        "voorspellen en beïnvloeden",
+        "surveillancekapitalisme"
+      ],
+      "sourceBlocks": [
+        27,
+        37
+      ],
+      "teachingLocation": "m4-03-b2:explainAfter",
+      "worldEvidence": "Van handeling naar aanbeveling",
+      "practiceBeat": "m4-03-b2",
+      "practiceType": "order",
+      "synthesisSlots": [
+        "m4-03:use",
+        "m4-03:switch"
+      ],
+      "knowledgeChecks": [
+        "m4-k4"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p033",
+      "proposition": "Volg verzamelen, profileren, voorspellen en beïnvloeden. Een aanbeveling heeft invoer en een commercieel of organisatorisch doel; ze is geen spontaan neutraal venster.",
+      "concepts": [
+        "gedragsdata",
+        "profilering",
+        "voorspellen en beïnvloeden",
+        "surveillancekapitalisme"
+      ],
+      "sourceBlocks": [
+        27,
+        37
+      ],
+      "teachingLocation": "m4-03-b2:hint",
+      "worldEvidence": "Van handeling naar aanbeveling",
+      "practiceBeat": "m4-03-b2",
+      "practiceType": "order",
+      "synthesisSlots": [
+        "m4-03:use",
+        "m4-03:switch"
+      ],
+      "knowledgeChecks": [
+        "m4-k4"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p034",
+      "proposition": "Digitale infrastructuur kan innovatie en efficiënte coördinatie stimuleren, terwijl gesloten toegang concurrentie of autonomie beperkt. Beoordeel beide dimensies met concrete gegevens.",
+      "concepts": [
+        "efficiëntie",
+        "datatoegang",
+        "lock-in",
+        "concurrentie",
+        "autonomie"
+      ],
+      "sourceBlocks": [
+        27,
+        34,
+        37
+      ],
+      "teachingLocation": "m4-03-b3:explainAfter",
+      "worldEvidence": "Onderscheid voordeel en zeggenschap",
+      "practiceBeat": "m4-03-b3",
+      "practiceType": "sort",
+      "synthesisSlots": [
+        "m4-03:use",
+        "m4-03:switch"
+      ],
+      "knowledgeChecks": [],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p035",
+      "proposition": "Data ondersteunen planning, maar wie toegang tot data of de beslisregels beheert, kan ook invloed krijgen. Scheid functie van zeggenschap.",
+      "concepts": [
+        "efficiëntie",
+        "datatoegang",
+        "lock-in",
+        "concurrentie",
+        "autonomie"
+      ],
+      "sourceBlocks": [
+        27,
+        34,
+        37
+      ],
+      "teachingLocation": "m4-03-b3:hint",
+      "worldEvidence": "Onderscheid voordeel en zeggenschap",
+      "practiceBeat": "m4-03-b3",
+      "practiceType": "sort",
+      "synthesisSlots": [
+        "m4-03:use",
+        "m4-03:switch"
+      ],
+      "knowledgeChecks": [],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p036",
+      "proposition": "Een export en testomgeving kunnen lock-in verminderen. Agency betekent gericht veranderen binnen bestaande afhankelijkheden. Prijs, beveiliging en beheer blijven afwegingen; geen leverancier is door het formaat alleen verantwoord.",
+      "concepts": [
+        "lock-in",
+        "menselijke agency",
+        "ontwerpinterventie",
+        "organisatorische interventie"
+      ],
+      "sourceBlocks": [
+        27,
+        30,
+        44,
+        47
+      ],
+      "teachingLocation": "m4-03-b4:explainAfter",
+      "worldEvidence": "Voer een beheerste export uit",
+      "practiceBeat": "m4-03-b4",
+      "practiceType": "build",
+      "synthesisSlots": [
+        "m4-03:use",
+        "m4-03:switch"
+      ],
+      "knowledgeChecks": [
+        "m4-k7"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p037",
+      "proposition": "Portabiliteit vereist bruikbare gegevens en koppelingen. Test de nieuwe omgeving, leg verantwoordelijkheden vast en houd noodzakelijke dienstverlening tijdens migratie beschikbaar.",
+      "concepts": [
+        "lock-in",
+        "menselijke agency",
+        "ontwerpinterventie",
+        "organisatorische interventie"
+      ],
+      "sourceBlocks": [
+        27,
+        30,
+        44,
+        47
+      ],
+      "teachingLocation": "m4-03-b4:hint",
+      "worldEvidence": "Voer een beheerste export uit",
+      "practiceBeat": "m4-03-b4",
+      "practiceType": "build",
+      "synthesisSlots": [
+        "m4-03:use",
+        "m4-03:switch"
+      ],
+      "knowledgeChecks": [
+        "m4-k7"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p038",
+      "proposition": "Het zoekmachinevoorbeeld maakt neutraliteit bevraagbaar. Een andere rangschikking is een andere waardenafweging, niet vanzelf een fout. Maak criteria en verantwoordelijkheden zichtbaar zonder één morele prioriteit als de enige juiste te behandelen.",
+      "concepts": [
+        "morele architectuur",
+        "rangschikkingscriteria",
+        "waarden in technologie",
+        "zoekmachinevoorbeeld"
+      ],
+      "sourceBlocks": [
+        8,
+        10,
+        13
+      ],
+      "teachingLocation": "m4-03-b5:explainAfter",
+      "worldEvidence": "Wie bepaalt wat een zoekmachine laat zien?",
+      "practiceBeat": "m4-03-b5",
+      "practiceType": "connect",
+      "synthesisSlots": [
+        "m4-03:use",
+        "m4-03:switch"
+      ],
+      "knowledgeChecks": [],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p039",
+      "proposition": "Een rangschikking vraagt keuzes over relevantie, betrouwbaarheid, commerciële doelen en mogelijke schade. De ontwerper of beheerder kiest hun gewicht; gebruikers en publieke kaders kunnen invloed hebben.",
+      "concepts": [
+        "morele architectuur",
+        "rangschikkingscriteria",
+        "waarden in technologie",
+        "zoekmachinevoorbeeld"
+      ],
+      "sourceBlocks": [
+        8,
+        10,
+        13
+      ],
+      "teachingLocation": "m4-03-b5:hint",
+      "worldEvidence": "Wie bepaalt wat een zoekmachine laat zien?",
+      "practiceBeat": "m4-03-b5",
+      "practiceType": "connect",
+      "synthesisSlots": [
+        "m4-03:use",
+        "m4-03:switch"
+      ],
+      "knowledgeChecks": [],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p040",
+      "proposition": "Digitale autonomie gaat om bruikbare zeggenschap en continuïteit. Een kopie of lokaal datacenter is geen volledige garantie. De historische media vragen naar afhankelijkheden; deze fictieve route laat je het mechanisme onderzoeken.",
+      "concepts": [
+        "cloudafhankelijkheid",
+        "digitale autonomie",
+        "lock-in",
+        "infrastructuurmacht"
+      ],
+      "sourceBlocks": [
+        27,
+        30,
+        32
+      ],
+      "teachingLocation": "m4-03-b6:explainAfter",
+      "worldEvidence": "De cloud heeft ook een bestuurlijke grens",
+      "practiceBeat": "m4-03-b6",
+      "practiceType": "connect",
+      "synthesisSlots": [
+        "m4-03:use",
+        "m4-03:switch"
+      ],
+      "knowledgeChecks": [
+        "m4-k3"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p041",
+      "proposition": "Eigendom van gegevens, locatie van opslag en feitelijke toegang zijn verschillende zaken. Dienstverlening kan ook van providerbestuur, wetgeving, authenticatie en contracten afhangen. Test een uitweg vóór uitval.",
+      "concepts": [
+        "cloudafhankelijkheid",
+        "digitale autonomie",
+        "lock-in",
+        "infrastructuurmacht"
+      ],
+      "sourceBlocks": [
+        27,
+        30,
+        32
+      ],
+      "teachingLocation": "m4-03-b6:hint",
+      "worldEvidence": "De cloud heeft ook een bestuurlijke grens",
+      "practiceBeat": "m4-03-b6",
+      "practiceType": "connect",
+      "synthesisSlots": [
+        "m4-03:use",
+        "m4-03:switch"
+      ],
+      "knowledgeChecks": [
+        "m4-k3"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p042",
+      "proposition": "Het model leerde vooral schone, lichte verpakkingen. Vuile en donkere verpakkingen zijn ondervertegenwoordigd; testresultaten mogen niet blind worden veralgemeend.",
+      "concepts": [
+        "algoritme",
+        "trainingsdata",
+        "circulaire economie",
+        "AMP Robotics voorbeeld",
+        "representativiteit"
+      ],
+      "sourceBlocks": [
+        37,
+        41,
+        42
+      ],
+      "teachingLocation": "m4-04-b1:reveal:r1",
+      "worldEvidence": "Wat leert de machine precies?",
+      "practiceBeat": "m4-04-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m4-04:selection",
+        "m4-04:audit",
+        "m4-04:answerability"
+      ],
+      "knowledgeChecks": [
+        "m4-k5"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p043",
+      "proposition": "De regel kiest verkoopopbrengst. Correct herkende goedkope materialen kunnen daardoor toch worden overgeslagen. Herkennen en prioriteit geven zijn verschillende stappen.",
+      "concepts": [
+        "algoritme",
+        "trainingsdata",
+        "circulaire economie",
+        "AMP Robotics voorbeeld",
+        "representativiteit"
+      ],
+      "sourceBlocks": [
+        37,
+        41,
+        42
+      ],
+      "teachingLocation": "m4-04-b1:reveal:r2",
+      "worldEvidence": "Wat leert de machine precies?",
+      "practiceBeat": "m4-04-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m4-04:selection",
+        "m4-04:audit",
+        "m4-04:answerability"
+      ],
+      "knowledgeChecks": [
+        "m4-k5"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p044",
+      "proposition": "Herwinning helpt materialen beschikbaar houden. Hergebruik, reparatie en recycling verlengen gebruik, maar energie en vervolgverwerking tellen ook mee.",
+      "concepts": [
+        "algoritme",
+        "trainingsdata",
+        "circulaire economie",
+        "AMP Robotics voorbeeld",
+        "representativiteit"
+      ],
+      "sourceBlocks": [
+        37,
+        41,
+        42
+      ],
+      "teachingLocation": "m4-04-b1:reveal:r3",
+      "worldEvidence": "Wat leert de machine precies?",
+      "practiceBeat": "m4-04-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m4-04:selection",
+        "m4-04:audit",
+        "m4-04:answerability"
+      ],
+      "knowledgeChecks": [
+        "m4-k5"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p045",
+      "proposition": "Buolamwini en Gebru onderzochten in 2018 commerciële classificatie van gender uit gezichtsbeelden. Prestatieverschillen naar huidskleur en gender laten zien waarom groepsgewijze tests nodig zijn.",
+      "concepts": [
+        "algoritme",
+        "trainingsdata",
+        "circulaire economie",
+        "AMP Robotics voorbeeld",
+        "representativiteit"
+      ],
+      "sourceBlocks": [
+        37,
+        41,
+        42
+      ],
+      "teachingLocation": "m4-04-b1:reveal:r4",
+      "worldEvidence": "Wat leert de machine precies?",
+      "practiceBeat": "m4-04-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m4-04:selection",
+        "m4-04:audit",
+        "m4-04:answerability"
+      ],
+      "knowledgeChecks": [
+        "m4-k5"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p046",
+      "proposition": "Een hoge gemiddelde score kan ongelijke foutverdeling verbergen. In krediet, personeelsselectie en andere taken moet de concrete beslissing apart worden onderzocht.",
+      "concepts": [
+        "algoritme",
+        "trainingsdata",
+        "circulaire economie",
+        "AMP Robotics voorbeeld",
+        "representativiteit"
+      ],
+      "sourceBlocks": [
+        37,
+        41,
+        42
+      ],
+      "teachingLocation": "m4-04-b1:reveal:r5",
+      "worldEvidence": "Wat leert de machine precies?",
+      "practiceBeat": "m4-04-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m4-04:selection",
+        "m4-04:audit",
+        "m4-04:answerability"
+      ],
+      "knowledgeChecks": [
+        "m4-k5"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p047",
+      "proposition": "De onderzochte genderclassificatiesystemen maakten veel vaker fouten bij donkerder vrouwelijke gezichten dan bij lichtere mannelijke. Dit betrof een specifieke classificatietaak, geen bewijs over ieder AI-systeem.",
+      "concepts": [
+        "algoritme",
+        "trainingsdata",
+        "circulaire economie",
+        "AMP Robotics voorbeeld",
+        "representativiteit"
+      ],
+      "sourceBlocks": [
+        37,
+        41,
+        42
+      ],
+      "teachingLocation": "m4-04-b1:reveal:r6",
+      "worldEvidence": "Wat leert de machine precies?",
+      "practiceBeat": "m4-04-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m4-04:selection",
+        "m4-04:audit",
+        "m4-04:answerability"
+      ],
+      "knowledgeChecks": [
+        "m4-k5"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p048",
+      "proposition": "De proef laat doelkeuze en trainingsdekking apart veranderen. Meer herkenning geeft niet vanzelf gelijke materiaalprioriteit. De afweging tussen opbrengst, terugwinning en controle moet expliciet worden gemaakt.",
+      "concepts": [
+        "algoritmisch doel",
+        "trainingsdata",
+        "waardeprioritering",
+        "AI recycling"
+      ],
+      "sourceBlocks": [
+        37,
+        41
+      ],
+      "teachingLocation": "m4-04-b2:explainAfter",
+      "worldEvidence": "Verander doel en oefendata",
+      "practiceBeat": "m4-04-b2",
+      "practiceType": "experiment",
+      "synthesisSlots": [
+        "m4-04:selection",
+        "m4-04:audit",
+        "m4-04:answerability"
+      ],
+      "knowledgeChecks": [],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p049",
+      "proposition": "Een doel bepaalt selectie; data beïnvloeden herkenning. Menselijke controle kan fouten vinden, maar kost middelen. Bekijk materiaalbakken én opbrengst en benoem wat dit model weglaat.",
+      "concepts": [
+        "algoritmisch doel",
+        "trainingsdata",
+        "waardeprioritering",
+        "AI recycling"
+      ],
+      "sourceBlocks": [
+        37,
+        41
+      ],
+      "teachingLocation": "m4-04-b2:hint",
+      "worldEvidence": "Verander doel en oefendata",
+      "practiceBeat": "m4-04-b2",
+      "practiceType": "experiment",
+      "synthesisSlots": [
+        "m4-04:selection",
+        "m4-04:audit",
+        "m4-04:answerability"
+      ],
+      "knowledgeChecks": [],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p050",
+      "proposition": "Transparantie maakt onderzoek mogelijk. Explainable AI kan beslissingen toelichten; een audit toetst fouten en bias. Mensen, ontwikkelaars en organisaties blijven verantwoordelijk binnen het socio-technische systeem.",
+      "concepts": [
+        "black box",
+        "explainable AI",
+        "algoritme-audit",
+        "bias",
+        "verantwoordelijkheid"
+      ],
+      "sourceBlocks": [
+        41,
+        47
+      ],
+      "teachingLocation": "m4-04-b3:explainAfter",
+      "worldEvidence": "Maak de black box bevraagbaar",
+      "practiceBeat": "m4-04-b3",
+      "practiceType": "connect",
+      "synthesisSlots": [
+        "m4-04:selection",
+        "m4-04:audit",
+        "m4-04:answerability"
+      ],
+      "knowledgeChecks": [
+        "m4-k6"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p051",
+      "proposition": "Een black box is een systeem waarvan de werking moeilijk te begrijpen is. Vraag naar gebruikte gegevens, criteria, groepsprestaties en wie een beslissing kan laten herzien.",
+      "concepts": [
+        "black box",
+        "explainable AI",
+        "algoritme-audit",
+        "bias",
+        "verantwoordelijkheid"
+      ],
+      "sourceBlocks": [
+        41,
+        47
+      ],
+      "teachingLocation": "m4-04-b3:hint",
+      "worldEvidence": "Maak de black box bevraagbaar",
+      "practiceBeat": "m4-04-b3",
+      "practiceType": "connect",
+      "synthesisSlots": [
+        "m4-04:selection",
+        "m4-04:audit",
+        "m4-04:answerability"
+      ],
+      "knowledgeChecks": [
+        "m4-k6"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p052",
+      "proposition": "Algoritmen kunnen historische biases reproduceren. Dat risico vraagt representatieve data en groepsgewijze evaluatie. Een vastgestelde uitkomst en een verklaring daarvoor zijn verschillende bewijsstappen.",
+      "concepts": [
+        "algoritmische discriminatie",
+        "historische bias",
+        "groepsprestaties",
+        "bewijslimiet"
+      ],
+      "sourceBlocks": [
+        37,
+        38,
+        41,
+        47
+      ],
+      "teachingLocation": "m4-04-b4:explainAfter",
+      "worldEvidence": "Wat mag je uit de test afleiden?",
+      "practiceBeat": "m4-04-b4",
+      "practiceType": "sort",
+      "synthesisSlots": [
+        "m4-04:selection",
+        "m4-04:audit",
+        "m4-04:answerability"
+      ],
+      "knowledgeChecks": [
+        "m4-k5"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p053",
+      "proposition": "Een gemiddelde meet slechts een samenvatting. Een verschil in een groep vraagt onderzoek naar data, taak en criteria; het bewijst niet vanzelf één oorzaak.",
+      "concepts": [
+        "algoritmische discriminatie",
+        "historische bias",
+        "groepsprestaties",
+        "bewijslimiet"
+      ],
+      "sourceBlocks": [
+        37,
+        38,
+        41,
+        47
+      ],
+      "teachingLocation": "m4-04-b4:hint",
+      "worldEvidence": "Wat mag je uit de test afleiden?",
+      "practiceBeat": "m4-04-b4",
+      "practiceType": "sort",
+      "synthesisSlots": [
+        "m4-04:selection",
+        "m4-04:audit",
+        "m4-04:answerability"
+      ],
+      "knowledgeChecks": [
+        "m4-k5"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p054",
+      "proposition": "Een model voor personeelsselectie leert uit oude beoordelingen waarin een groep minder kansen kreeg. Zo kan een patroon in data nieuwe beslissingen beïnvloeden; test de concrete foutverdeling.",
+      "concepts": [
+        "AI-risicoregister",
+        "privacy en toestemming",
+        "algoritmische discriminatie",
+        "arbeidsverschuiving",
+        "deepfakes en misbruik",
+        "juridische onduidelijkheid"
+      ],
+      "sourceBlocks": [
+        37,
+        40,
+        41
+      ],
+      "teachingLocation": "m4-04-b5:reveal:r1",
+      "worldEvidence": "Zes incidenten naast de sorteerband",
+      "practiceBeat": "m4-04-b5",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m4-04:selection",
+        "m4-04:audit",
+        "m4-04:answerability"
+      ],
+      "knowledgeChecks": [],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p055",
+      "proposition": "De sorteercamera legt ook medewerkers en bezoekers vast. Een materiaaldoel rechtvaardigt niet vanzelf iedere persoonsregistratie. Onderzoek noodzaak, gegevensgebruik, informatie, rechten en passende grondslag.",
+      "concepts": [
+        "AI-risicoregister",
+        "privacy en toestemming",
+        "algoritmische discriminatie",
+        "arbeidsverschuiving",
+        "deepfakes en misbruik",
+        "juridische onduidelijkheid"
+      ],
+      "sourceBlocks": [
+        37,
+        40,
+        41
+      ],
+      "teachingLocation": "m4-04-b5:reveal:r2",
+      "worldEvidence": "Zes incidenten naast de sorteerband",
+      "practiceBeat": "m4-04-b5",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m4-04:selection",
+        "m4-04:audit",
+        "m4-04:answerability"
+      ],
+      "knowledgeChecks": [],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p056",
+      "proposition": "Een gebruiker krijgt een automatische afwijzing zonder bruikbare uitleg of herzieningsroute. Het gebrek aan transparantie maakt onderzoek naar criteria en herstel moeilijker.",
+      "concepts": [
+        "AI-risicoregister",
+        "privacy en toestemming",
+        "algoritmische discriminatie",
+        "arbeidsverschuiving",
+        "deepfakes en misbruik",
+        "juridische onduidelijkheid"
+      ],
+      "sourceBlocks": [
+        37,
+        40,
+        41
+      ],
+      "teachingLocation": "m4-04-b5:reveal:r3",
+      "worldEvidence": "Zes incidenten naast de sorteerband",
+      "practiceBeat": "m4-04-b5",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m4-04:selection",
+        "m4-04:audit",
+        "m4-04:answerability"
+      ],
+      "knowledgeChecks": [],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p057",
+      "proposition": "Leverancier en hub verwijzen naar elkaar na een fout. Leg vast wie data, criteria en gebruik beheert en wie kan herstellen. Een contractvraag en een juridisch oordeel zijn niet hetzelfde.",
+      "concepts": [
+        "AI-risicoregister",
+        "privacy en toestemming",
+        "algoritmische discriminatie",
+        "arbeidsverschuiving",
+        "deepfakes en misbruik",
+        "juridische onduidelijkheid"
+      ],
+      "sourceBlocks": [
+        37,
+        40,
+        41
+      ],
+      "teachingLocation": "m4-04-b5:reveal:r4",
+      "worldEvidence": "Zes incidenten naast de sorteerband",
+      "practiceBeat": "m4-04-b5",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m4-04:selection",
+        "m4-04:audit",
+        "m4-04:answerability"
+      ],
+      "knowledgeChecks": [],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p058",
+      "proposition": "Een synthetische video laat een persoon een verzonnen goedkeuring uitspreken. Geloofwaardig beeld is geen bewijs van authenticiteit; controleer herkomst voordat de hub het gebruikt.",
+      "concepts": [
+        "AI-risicoregister",
+        "privacy en toestemming",
+        "algoritmische discriminatie",
+        "arbeidsverschuiving",
+        "deepfakes en misbruik",
+        "juridische onduidelijkheid"
+      ],
+      "sourceBlocks": [
+        37,
+        40,
+        41
+      ],
+      "teachingLocation": "m4-04-b5:reveal:r5",
+      "worldEvidence": "Zes incidenten naast de sorteerband",
+      "practiceBeat": "m4-04-b5",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m4-04:selection",
+        "m4-04:audit",
+        "m4-04:answerability"
+      ],
+      "knowledgeChecks": [],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p059",
+      "proposition": "Automatisering verandert taken en personeelsbehoefte. De hub kan werk schrappen of medewerkers opleiden voor controle en reparatie. Uitkomst hangt ook van organisatiekeuzes en marktontwikkeling af.",
+      "concepts": [
+        "AI-risicoregister",
+        "privacy en toestemming",
+        "algoritmische discriminatie",
+        "arbeidsverschuiving",
+        "deepfakes en misbruik",
+        "juridische onduidelijkheid"
+      ],
+      "sourceBlocks": [
+        37,
+        40,
+        41
+      ],
+      "teachingLocation": "m4-04-b5:reveal:r6",
+      "worldEvidence": "Zes incidenten naast de sorteerband",
+      "practiceBeat": "m4-04-b5",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m4-04:selection",
+        "m4-04:audit",
+        "m4-04:answerability"
+      ],
+      "knowledgeChecks": [],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p060",
+      "proposition": "De zes categorieën uit het bronbeeld vragen verschillende aangrijpingspunten. Ze kunnen samen optreden. Een expliciete onderzoeksvraag maakt duidelijk welk bewijs nodig is en welke beslissing nog openstaat.",
+      "concepts": [
+        "AI-risicoregister",
+        "privacy en toestemming",
+        "algoritmische discriminatie",
+        "arbeidsverschuiving",
+        "deepfakes en misbruik",
+        "accountability"
+      ],
+      "sourceBlocks": [
+        40,
+        41,
+        47
+      ],
+      "teachingLocation": "m4-04-b6:explainAfter",
+      "worldEvidence": "Van AI-incident naar gerichte onderzoeksvraag",
+      "practiceBeat": "m4-04-b6",
+      "practiceType": "connect",
+      "synthesisSlots": [
+        "m4-04:selection",
+        "m4-04:audit",
+        "m4-04:answerability"
+      ],
+      "knowledgeChecks": [],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p061",
+      "proposition": "Kies onderzoek dat past bij het aangetoonde probleem. Groepsgewijze tests meten foutverdeling; broncontrole onderzoekt authenticiteit; rollen en herziening maken herstel uitvoerbaar.",
+      "concepts": [
+        "AI-risicoregister",
+        "privacy en toestemming",
+        "algoritmische discriminatie",
+        "arbeidsverschuiving",
+        "deepfakes en misbruik",
+        "accountability"
+      ],
+      "sourceBlocks": [
+        40,
+        41,
+        47
+      ],
+      "teachingLocation": "m4-04-b6:hint",
+      "worldEvidence": "Van AI-incident naar gerichte onderzoeksvraag",
+      "practiceBeat": "m4-04-b6",
+      "practiceType": "connect",
+      "synthesisSlots": [
+        "m4-04:selection",
+        "m4-04:audit",
+        "m4-04:answerability"
+      ],
+      "knowledgeChecks": [],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p062",
+      "proposition": "Het scherm telt verkochte gerecyclede grondstof. Goedkope reststromen, energieverbruik en werkomstandigheden tellen niet mee.",
+      "concepts": [
+        "technologische bemiddeling",
+        "KPI",
+        "selectieve duurzaamheidsinformatie",
+        "greenwashing"
+      ],
+      "sourceBlocks": [
+        13,
+        27,
+        41
+      ],
+      "teachingLocation": "m4-05-b1:reveal:r1",
+      "worldEvidence": "Wat verdwijnt buiten het scherm?",
+      "practiceBeat": "m4-05-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m4-05:visibility",
+        "m4-05:levels"
+      ],
+      "knowledgeChecks": [
+        "m4-k1"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p063",
+      "proposition": "Een slim energienet koppelt stroom en realtime gegevens om variabele zon- en windproductie beter te coördineren. Dat kan nuttig zijn.",
+      "concepts": [
+        "technologische bemiddeling",
+        "KPI",
+        "selectieve duurzaamheidsinformatie",
+        "greenwashing"
+      ],
+      "sourceBlocks": [
+        13,
+        27,
+        41
+      ],
+      "teachingLocation": "m4-05-b1:reveal:r2",
+      "worldEvidence": "Wat verdwijnt buiten het scherm?",
+      "practiceBeat": "m4-05-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m4-05:visibility",
+        "m4-05:levels"
+      ],
+      "knowledgeChecks": [
+        "m4-k1"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p064",
+      "proposition": "Wie beheert energiedata, betaalt investeringen en krijgt toegang? Een technisch nuttig systeem verdeelt ook kennis, kosten en duurzame energiekansen.",
+      "concepts": [
+        "technologische bemiddeling",
+        "KPI",
+        "selectieve duurzaamheidsinformatie",
+        "greenwashing"
+      ],
+      "sourceBlocks": [
+        13,
+        27,
+        41
+      ],
+      "teachingLocation": "m4-05-b1:reveal:r3",
+      "worldEvidence": "Wat verdwijnt buiten het scherm?",
+      "practiceBeat": "m4-05-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m4-05:visibility",
+        "m4-05:levels"
+      ],
+      "knowledgeChecks": [
+        "m4-k1"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p065",
+      "proposition": "Een daling op één indicator wordt als volledig duurzaam resultaat gepresenteerd. Selectie kan reputatie verbeteren zonder het bedrijfsmodel te veranderen.",
+      "concepts": [
+        "technologische bemiddeling",
+        "KPI",
+        "selectieve duurzaamheidsinformatie",
+        "greenwashing"
+      ],
+      "sourceBlocks": [
+        13,
+        27,
+        41
+      ],
+      "teachingLocation": "m4-05-b1:reveal:r4",
+      "worldEvidence": "Wat verdwijnt buiten het scherm?",
+      "practiceBeat": "m4-05-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m4-05:visibility",
+        "m4-05:levels"
+      ],
+      "knowledgeChecks": [
+        "m4-k1"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p066",
+      "proposition": "Een niet-digitale klant kan de energiehulp niet aanvragen. De toegangsroute verdeelt voordeel, ook als het dashboard een gemiddelde verbetering laat zien.",
+      "concepts": [
+        "technologische bemiddeling",
+        "KPI",
+        "selectieve duurzaamheidsinformatie",
+        "greenwashing"
+      ],
+      "sourceBlocks": [
+        13,
+        27,
+        41
+      ],
+      "teachingLocation": "m4-05-b1:reveal:r5",
+      "worldEvidence": "Wat verdwijnt buiten het scherm?",
+      "practiceBeat": "m4-05-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m4-05:visibility",
+        "m4-05:levels"
+      ],
+      "knowledgeChecks": [
+        "m4-k1"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p067",
+      "proposition": "Kostenprikkels, maatschappelijke duurzaamheidsverwachtingen en traag veranderende infrastructuur botsen. Daardoor kan de groene communicatie sneller groeien dan de feitelijke verandering; druk bewijst nog geen misleidingsintentie.",
+      "concepts": [
+        "technologische bemiddeling",
+        "KPI",
+        "selectieve duurzaamheidsinformatie",
+        "greenwashing"
+      ],
+      "sourceBlocks": [
+        13,
+        27,
+        41
+      ],
+      "teachingLocation": "m4-05-b1:reveal:r6",
+      "worldEvidence": "Wat verdwijnt buiten het scherm?",
+      "practiceBeat": "m4-05-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m4-05:visibility",
+        "m4-05:levels"
+      ],
+      "knowledgeChecks": [
+        "m4-k1"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p068",
+      "proposition": "Hernieuwbare energie vraagt passende elektriciteitsnetten; elektrisch rijden vraagt laadnetten; circulaire materiaalstromen vragen logistiek. Een duurzaam apparaat werkt niet los van zijn infrastructuur.",
+      "concepts": [
+        "technologische bemiddeling",
+        "KPI",
+        "selectieve duurzaamheidsinformatie",
+        "greenwashing"
+      ],
+      "sourceBlocks": [
+        13,
+        27,
+        41
+      ],
+      "teachingLocation": "m4-05-b1:reveal:r7",
+      "worldEvidence": "Wat verdwijnt buiten het scherm?",
+      "practiceBeat": "m4-05-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m4-05:visibility",
+        "m4-05:levels"
+      ],
+      "knowledgeChecks": [
+        "m4-k1"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p069",
+      "proposition": "Een nieuwe energiemeter maakt afdelingsverbruik zichtbaar. Medewerkers passen werk aan, managers spreken teams op cijfers aan en prestatieafspraken verschuiven. Het apparaat, de meetregels en mensen veranderen samen gedrag en verantwoordelijkheid.",
+      "concepts": [
+        "technologische bemiddeling",
+        "KPI",
+        "selectieve duurzaamheidsinformatie",
+        "greenwashing"
+      ],
+      "sourceBlocks": [
+        13,
+        27,
+        41
+      ],
+      "teachingLocation": "m4-05-b1:reveal:r8",
+      "worldEvidence": "Wat verdwijnt buiten het scherm?",
+      "practiceBeat": "m4-05-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m4-05:visibility",
+        "m4-05:levels"
+      ],
+      "knowledgeChecks": [
+        "m4-k1"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p070",
+      "proposition": "Een socio-technisch systeem verbindt technologie, gebruikers, organisatie en regels. Verantwoordelijkheid vraagt verschillende invloeden zichtbaar maken, met afgesproken herstel en verantwoording.",
+      "concepts": [
+        "niveaus van verantwoordelijkheid",
+        "socio-technisch systeem",
+        "agency"
+      ],
+      "sourceBlocks": [
+        0,
+        1,
+        41,
+        44,
+        51
+      ],
+      "teachingLocation": "m4-05-b2:explainAfter",
+      "worldEvidence": "Wie kan wat veranderen?",
+      "practiceBeat": "m4-05-b2",
+      "practiceType": "connect",
+      "synthesisSlots": [
+        "m4-05:visibility",
+        "m4-05:levels"
+      ],
+      "knowledgeChecks": [],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p071",
+      "proposition": "Ontwikkelaars beïnvloeden criteria; organisaties kiezen implementatie en toezicht; gebruikers handelen binnen mogelijkheden; instellingen bepalen kaders. Zoek concrete invloed en aanspreekbaarheid.",
+      "concepts": [
+        "niveaus van verantwoordelijkheid",
+        "socio-technisch systeem",
+        "agency"
+      ],
+      "sourceBlocks": [
+        0,
+        1,
+        41,
+        44,
+        51
+      ],
+      "teachingLocation": "m4-05-b2:hint",
+      "worldEvidence": "Wie kan wat veranderen?",
+      "practiceBeat": "m4-05-b2",
+      "practiceType": "connect",
+      "synthesisSlots": [
+        "m4-05:visibility",
+        "m4-05:levels"
+      ],
+      "knowledgeChecks": [],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p072",
+      "proposition": "Een explainable model is ontwerp; een interne audit is governance; regelgeving is institutioneel. Een technische correctie kan onvoldoende blijven wanneer doelen en incentives hetzelfde ongewenste gedrag belonen.",
+      "concepts": [
+        "ontwerpinterventie",
+        "organisatorische interventie",
+        "institutionele interventie",
+        "governance"
+      ],
+      "sourceBlocks": [
+        44,
+        47,
+        50,
+        51
+      ],
+      "teachingLocation": "m4-05-b3:explainAfter",
+      "worldEvidence": "Leg de interventies op drie werktafels",
+      "practiceBeat": "m4-05-b3",
+      "practiceType": "sort",
+      "synthesisSlots": [
+        "m4-05:visibility",
+        "m4-05:levels"
+      ],
+      "knowledgeChecks": [
+        "m4-k7",
+        "m4-k8"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p073",
+      "proposition": "Ontwerp verandert de techniek. Organisatorische governance verandert toepassing, beheer en prikkels. Institutionele interventie verandert publieke kaders. Hun combinatie kan nodig zijn.",
+      "concepts": [
+        "ontwerpinterventie",
+        "organisatorische interventie",
+        "institutionele interventie",
+        "governance"
+      ],
+      "sourceBlocks": [
+        44,
+        47,
+        50,
+        51
+      ],
+      "teachingLocation": "m4-05-b3:hint",
+      "worldEvidence": "Leg de interventies op drie werktafels",
+      "practiceBeat": "m4-05-b3",
+      "practiceType": "sort",
+      "synthesisSlots": [
+        "m4-05:visibility",
+        "m4-05:levels"
+      ],
+      "knowledgeChecks": [
+        "m4-k7",
+        "m4-k8"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p074",
+      "proposition": "Waarden in strategie opnemen vraagt meer dan nieuwe woorden. Audits, verantwoordelijkheden en bredere beoordeling moeten het echte werk raken. Kosten- en concurrentiedruk kunnen weerstand geven; onderzoek uitvoerbare aanpassingen.",
+      "concepts": [
+        "transparantie",
+        "governance",
+        "algoritme-audit",
+        "maatschappelijke verantwoordelijkheid",
+        "organisatorische weerstand"
+      ],
+      "sourceBlocks": [
+        13,
+        41,
+        47
+      ],
+      "teachingLocation": "m4-05-b4:explainAfter",
+      "worldEvidence": "Maak het dashboard aanspreekbaar",
+      "practiceBeat": "m4-05-b4",
+      "practiceType": "build",
+      "synthesisSlots": [
+        "m4-05:visibility",
+        "m4-05:levels"
+      ],
+      "knowledgeChecks": [
+        "m4-k6"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p075",
+      "proposition": "Een rapportage heeft een afgebakende claim en gegevens nodig. Voeg relevante neveneffecten, onafhankelijke toetsing en iemand met bevoegdheid voor correctie toe.",
+      "concepts": [
+        "transparantie",
+        "governance",
+        "algoritme-audit",
+        "maatschappelijke verantwoordelijkheid",
+        "organisatorische weerstand"
+      ],
+      "sourceBlocks": [
+        13,
+        41,
+        47
+      ],
+      "teachingLocation": "m4-05-b4:hint",
+      "worldEvidence": "Maak het dashboard aanspreekbaar",
+      "practiceBeat": "m4-05-b4",
+      "practiceType": "build",
+      "synthesisSlots": [
+        "m4-05:visibility",
+        "m4-05:levels"
+      ],
+      "knowledgeChecks": [
+        "m4-k6"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p076",
+      "proposition": "Friedman, Kahn en Borning beschrijven waarden meenemen tijdens ontwerp. Transparantie, toegankelijkheid en inclusiviteit moeten in keuzes en tests terechtkomen.",
+      "concepts": [
+        "Value Sensitive Design",
+        "responsible innovation",
+        "technologisch determinisme",
+        "AI Act",
+        "CSRD",
+        "Digital Services Act"
+      ],
+      "sourceBlocks": [
+        44,
+        45,
+        47,
+        50,
+        51
+      ],
+      "teachingLocation": "m4-06-b1:reveal:r1",
+      "worldEvidence": "Open de drie regelkasten",
+      "practiceBeat": "m4-06-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m4-06:determinism",
+        "m4-06:regulation"
+      ],
+      "knowledgeChecks": [
+        "m4-k8"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p077",
+      "proposition": "Stilgoe, Owen en Macnaghten benadrukken maatschappelijke verantwoordelijkheid en anticipatie. Onderzoek risico’s al tijdens ontwikkeling en stuur bij wanneer bewijs of behoeften veranderen.",
+      "concepts": [
+        "Value Sensitive Design",
+        "responsible innovation",
+        "technologisch determinisme",
+        "AI Act",
+        "CSRD",
+        "Digital Services Act"
+      ],
+      "sourceBlocks": [
+        44,
+        45,
+        47,
+        50,
+        51
+      ],
+      "teachingLocation": "m4-06-b1:reveal:r2",
+      "worldEvidence": "Open de drie regelkasten",
+      "practiceBeat": "m4-06-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m4-06:determinism",
+        "m4-06:regulation"
+      ],
+      "knowledgeChecks": [
+        "m4-k8"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p078",
+      "proposition": "De AI Act gebruikt een risicobenadering. Toepassing en rol bepalen eisen; niet ieder algoritme heeft dezelfde verplichtingen. Controleer actuele Europese informatie.",
+      "concepts": [
+        "Value Sensitive Design",
+        "responsible innovation",
+        "technologisch determinisme",
+        "AI Act",
+        "CSRD",
+        "Digital Services Act"
+      ],
+      "sourceBlocks": [
+        44,
+        45,
+        47,
+        50,
+        51
+      ],
+      "teachingLocation": "m4-06-b1:reveal:r3",
+      "worldEvidence": "Open de drie regelkasten",
+      "practiceBeat": "m4-06-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m4-06:determinism",
+        "m4-06:regulation"
+      ],
+      "knowledgeChecks": [
+        "m4-k8"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p079",
+      "proposition": "Gestandaardiseerde duurzaamheidsrapportage kan zichtbaarheid en vergelijkbaarheid vergroten. Toepassingsbereik en invoering zijn gewijzigd; een rapportageplicht is geen bewijs van volledige duurzaamheid.",
+      "concepts": [
+        "Value Sensitive Design",
+        "responsible innovation",
+        "technologisch determinisme",
+        "AI Act",
+        "CSRD",
+        "Digital Services Act"
+      ],
+      "sourceBlocks": [
+        44,
+        45,
+        47,
+        50,
+        51
+      ],
+      "teachingLocation": "m4-06-b1:reveal:r4",
+      "worldEvidence": "Open de drie regelkasten",
+      "practiceBeat": "m4-06-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m4-06:determinism",
+        "m4-06:regulation"
+      ],
+      "knowledgeChecks": [
+        "m4-k8"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p080",
+      "proposition": "De DSA stelt onder meer systeemrisico- en transparantieverplichtingen voor zeer grote platforms en zoekmachines. Onderzoekersdata en aanbevelingssystemen zijn relevante aangrijpingspunten.",
+      "concepts": [
+        "Value Sensitive Design",
+        "responsible innovation",
+        "technologisch determinisme",
+        "AI Act",
+        "CSRD",
+        "Digital Services Act"
+      ],
+      "sourceBlocks": [
+        44,
+        45,
+        47,
+        50,
+        51
+      ],
+      "teachingLocation": "m4-06-b1:reveal:r5",
+      "worldEvidence": "Open de drie regelkasten",
+      "practiceBeat": "m4-06-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m4-06:determinism",
+        "m4-06:regulation"
+      ],
+      "knowledgeChecks": [
+        "m4-k8"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p081",
+      "proposition": "Meer regulering kan risico’s beperken maar ook uitvoeringskosten geven. Te weinig bescherming kan schade laten bestaan. De balans vraagt specifieke risico’s en alternatieven.",
+      "concepts": [
+        "Value Sensitive Design",
+        "responsible innovation",
+        "technologisch determinisme",
+        "AI Act",
+        "CSRD",
+        "Digital Services Act"
+      ],
+      "sourceBlocks": [
+        44,
+        45,
+        47,
+        50,
+        51
+      ],
+      "teachingLocation": "m4-06-b1:reveal:r6",
+      "worldEvidence": "Open de drie regelkasten",
+      "practiceBeat": "m4-06-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m4-06:determinism",
+        "m4-06:regulation"
+      ],
+      "knowledgeChecks": [
+        "m4-k8"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p082",
+      "proposition": "Aanbevelingssystemen beïnvloeden informatieverspreiding en publieke opinie. DSA-risicobeoordeling, transparantie en gecontroleerde onderzoekerstoegang kunnen verantwoording versterken; ze lossen desinformatie niet volledig op.",
+      "concepts": [
+        "Value Sensitive Design",
+        "responsible innovation",
+        "technologisch determinisme",
+        "AI Act",
+        "CSRD",
+        "Digital Services Act"
+      ],
+      "sourceBlocks": [
+        44,
+        45,
+        47,
+        50,
+        51
+      ],
+      "teachingLocation": "m4-06-b1:reveal:r7",
+      "worldEvidence": "Open de drie regelkasten",
+      "practiceBeat": "m4-06-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m4-06:determinism",
+        "m4-06:regulation"
+      ],
+      "knowledgeChecks": [
+        "m4-k8"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p083",
+      "proposition": "Responsible innovation en VSD ondersteunen vroeg onderzoek. Agency blijft bestaan: gebruikers, ontwerpers, bestuur en publieke instellingen kunnen samen veranderen en nieuwe gevolgen onderzoeken.",
+      "concepts": [
+        "responsible innovation",
+        "Value Sensitive Design",
+        "menselijke agency",
+        "herziening"
+      ],
+      "sourceBlocks": [
+        44,
+        47,
+        51
+      ],
+      "teachingLocation": "m4-06-b2:explainAfter",
+      "worldEvidence": "Bouw een herzienbare pilot",
+      "practiceBeat": "m4-06-b2",
+      "practiceType": "order",
+      "synthesisSlots": [
+        "m4-06:determinism",
+        "m4-06:regulation"
+      ],
+      "knowledgeChecks": [],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p084",
+      "proposition": "Begin bij betrokkenen en waarden, maak risico’s expliciet, test het ontwerp, leg bevoegdheden vast en herzie na gebruik. Een cyclus keert terug naar eerdere keuzes.",
+      "concepts": [
+        "responsible innovation",
+        "Value Sensitive Design",
+        "menselijke agency",
+        "herziening"
+      ],
+      "sourceBlocks": [
+        44,
+        47,
+        51
+      ],
+      "teachingLocation": "m4-06-b2:hint",
+      "worldEvidence": "Bouw een herzienbare pilot",
+      "practiceBeat": "m4-06-b2",
+      "practiceType": "order",
+      "synthesisSlots": [
+        "m4-06:determinism",
+        "m4-06:regulation"
+      ],
+      "knowledgeChecks": [],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p085",
+      "proposition": "Transparantie, audits, inclusief ontwerp en regulering hebben verschillende functies. Ze kunnen samengaan; geen daarvan vervangt vanzelf de andere of garandeert alle gewenste gevolgen.",
+      "concepts": [
+        "interventieniveaus",
+        "inclusief ontwerp",
+        "audits",
+        "institutionele bescherming"
+      ],
+      "sourceBlocks": [
+        44,
+        47,
+        50,
+        51
+      ],
+      "teachingLocation": "m4-06-b3:explainAfter",
+      "worldEvidence": "Koppel risico aan bevoegdheid",
+      "practiceBeat": "m4-06-b3",
+      "practiceType": "connect",
+      "synthesisSlots": [
+        "m4-06:determinism",
+        "m4-06:regulation"
+      ],
+      "knowledgeChecks": [],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p086",
+      "proposition": "Kies een aangrijpingspunt dat de oorzaak kan beïnvloeden en een partij die bevoegd is. Verantwoordingsinformatie helpt alleen wanneer iemand ernaar kan handelen.",
+      "concepts": [
+        "interventieniveaus",
+        "inclusief ontwerp",
+        "audits",
+        "institutionele bescherming"
+      ],
+      "sourceBlocks": [
+        44,
+        47,
+        50,
+        51
+      ],
+      "teachingLocation": "m4-06-b3:hint",
+      "worldEvidence": "Koppel risico aan bevoegdheid",
+      "practiceBeat": "m4-06-b3",
+      "practiceType": "connect",
+      "synthesisSlots": [
+        "m4-06:determinism",
+        "m4-06:regulation"
+      ],
+      "knowledgeChecks": [],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p087",
+      "proposition": "Ethiek stopt niet bij diagnose. Een professionele interventie maakt waarden, mechanismen, bevoegdheden en onzekerheden zichtbaar. De kwaliteit van de redenering telt, niet het onderschrijven van één favoriete morele prioriteit.",
+      "concepts": [
+        "interventie",
+        "agency",
+        "verantwoordelijkheid",
+        "proportionaliteit"
+      ],
+      "sourceBlocks": [
+        1,
+        44,
+        47,
+        50,
+        51
+      ],
+      "teachingLocation": "m4-06-b4:explainAfter",
+      "worldEvidence": "Kies een verdedigbare eerste stap",
+      "practiceBeat": "m4-06-b4",
+      "practiceType": "decision",
+      "synthesisSlots": [
+        "m4-06:determinism",
+        "m4-06:regulation"
+      ],
+      "knowledgeChecks": [],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m4-p088",
+      "proposition": "Geen blauwdruk is overal de beste. Beide werkbare plannen noemen afbakening, tests en herziening. Een communicatieverandering zonder praktische aanpassing beheerst het aangetoonde risico niet.",
+      "concepts": [
+        "interventie",
+        "agency",
+        "verantwoordelijkheid",
+        "proportionaliteit"
+      ],
+      "sourceBlocks": [
+        1,
+        44,
+        47,
+        50,
+        51
+      ],
+      "teachingLocation": "m4-06-b4:hint",
+      "worldEvidence": "Kies een verdedigbare eerste stap",
+      "practiceBeat": "m4-06-b4",
+      "practiceType": "decision",
+      "synthesisSlots": [
+        "m4-06:determinism",
+        "m4-06:regulation"
+      ],
+      "knowledgeChecks": [],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    }
+  ],
+  "sourcePropositionAudit": {
+    "schemaVersion": 1,
+    "lessonId": "m4",
+    "auditDate": "2026-10-12",
+    "method": "Read every original text/list/tab, every original quiz question/options/feedback and matching question/pairs/feedback; inspect SVG source and render/image pixels. Map original assertions and unique example functions to authored teaching and practice, independently of concept labels.",
+    "rows": [
+      {
+        "id": "m4-source-audit-01",
+        "sourceBlocks": [
+          0,
+          1,
+          2
+        ],
+        "sourceProposition": "Moral architecture: design structures possible/easy/difficult actions, distributing resources, risks, access and priorities; responsibility extends across design, implementation and use.",
+        "teachingLocations": [
+          "m4-01-b1:intro",
+          "m4-01-b1:reveal:r3",
+          "m4-01-b1:reveal:r5",
+          "m4-05-b2:explainAfter"
+        ],
+        "practiceLocations": [
+          "m4-01-b2",
+          "m4-05-b2",
+          "m4-k1"
+        ],
+        "sourceExampleFunction": "The automatic door and source stair-without-lift analogy expose a barrier without an explicit prohibition.",
+        "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+      },
+      {
+        "id": "m4-source-audit-02",
+        "sourceBlocks": [
+          4,
+          5,
+          22
+        ],
+        "sourceProposition": "Winner distinguishes political ordering through design arrangements and technologies that require/support particular organization; an observed effect alone does not establish intention.",
+        "teachingLocations": [
+          "m4-01-b2:explainAfter",
+          "m4-01-b1:reveal:r7"
+        ],
+        "practiceLocations": [
+          "m4-01-b2",
+          "m4-01:finale"
+        ],
+        "sourceExampleFunction": "Source low-overpass feedback illustrates material exclusion. The route uses an independently clear door barrier and an intent/effect distinction rather than asserting a disputed historic motive.",
+        "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+      },
+      {
+        "id": "m4-source-audit-03",
+        "sourceBlocks": [
+          6,
+          8
+        ],
+        "sourceProposition": "The neutral-tool thesis locates morality solely in use. Search-engine ranking requires values and an answer to who legitimately chooses them.",
+        "teachingLocations": [
+          "m4-03-b5:intro",
+          "m4-03-b5:explainAfter"
+        ],
+        "practiceLocations": [
+          "m4-03-b5",
+          "m4-k1"
+        ],
+        "sourceExampleFunction": "Wi-Phi search example makes ranking criteria and decision authority visible; paid advertising is distinguished from organic ranking.",
+        "limit": "Full unverified spoken content is delivered only by the required original projection; the scene maps the established learning purpose."
+      },
+      {
+        "id": "m4-source-audit-04",
+        "sourceBlocks": [
+          10,
+          11
+        ],
+        "sourceProposition": "The automatic door helps disabled people, people with luggage or prams; electricity, sensors and maintenance create new dependency, including asymmetric vulnerability at outage.",
+        "teachingLocations": [
+          "m4-01-b1:reveal:r1",
+          "m4-01-b1:reveal:r2",
+          "m4-01-b1:reveal:r4"
+        ],
+        "practiceLocations": [
+          "m4-01-b4",
+          "m4-01:finale"
+        ],
+        "sourceExampleFunction": "Normal/outage contrast teaches a dual effect instead of a blanket pro/anti-technology judgement.",
+        "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+      },
+      {
+        "id": "m4-source-audit-05",
+        "sourceBlocks": [
+          10,
+          27,
+          31,
+          37
+        ],
+        "sourceProposition": "Zuboff: systematic traces of human experience become profiles, commercial prediction and influence; recommendation design affects products, information, consumption and public opinion.",
+        "teachingLocations": [
+          "m4-03-b1:reveal:r3",
+          "m4-03-b1:reveal:r4",
+          "m4-03-b2:explainAfter",
+          "m4-06-b1:reveal:r7"
+        ],
+        "practiceLocations": [
+          "m4-03-b2",
+          "m4-03:finale",
+          "m4-k4"
+        ],
+        "sourceExampleFunction": "Following a commercial trace distinguishes prediction as monetized human behavior from operational maintenance.",
+        "limit": "A critical theoretical lens is not a claim that every platform or every dataset meets it."
+      },
+      {
+        "id": "m4-source-audit-06",
+        "sourceBlocks": [
+          13,
+          14,
+          15
+        ],
+        "sourceProposition": "ANT examines human and non-human actors and their relationships; new monitoring can redistribute employees’ behavior, managers’ decisions, measures and accountability.",
+        "teachingLocations": [
+          "m4-01-b3:hint",
+          "m4-01-b3:explainAfter",
+          "m4-05-b1:reveal:r8",
+          "m4-05-b2:explainAfter"
+        ],
+        "practiceLocations": [
+          "m4-01-b3",
+          "m4-05-b2",
+          "m4-k2"
+        ],
+        "sourceExampleFunction": "Sensor/rule/worker relationships and an explicit energy-meter work-network card operationalize the source energy-monitor example. Extra selectable source lens notes identify fashion/Uber/architecture and map limits.",
+        "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+      },
+      {
+        "id": "m4-source-audit-07",
+        "sourceBlocks": [
+          13
+        ],
+        "sourceProposition": "Verbeek: technology mediates perception and perceived action possibilities. A navigation app can remove unshown routes from attention without physically deleting them or wholly determining behavior.",
+        "teachingLocations": [
+          "m4-01-b3:pairs:p3",
+          "m4-05-b1:explainAfter"
+        ],
+        "practiceLocations": [
+          "m4-01-b3",
+          "m4-k1"
+        ],
+        "sourceExampleFunction": "The hidden alternative entrance is the room-level analogue; the separate check changes context to navigation.",
+        "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+      },
+      {
+        "id": "m4-source-audit-08",
+        "sourceBlocks": [
+          13,
+          41
+        ],
+        "sourceProposition": "A productivity/cost dashboard foregrounds selected indicators and can obscure wellbeing, sustainability and social impact; efficiency may conflict with transparency and justice.",
+        "teachingLocations": [
+          "m4-05-b1:reveal:r1",
+          "m4-05-b1:reveal:r4",
+          "m4-05-b1:explainAfter"
+        ],
+        "practiceLocations": [
+          "m4-05-b4",
+          "m4-05:finale",
+          "m4-k7"
+        ],
+        "sourceExampleFunction": "Repairing the displayed measure and its organizational incentives demonstrates mediation rather than only labeling it.",
+        "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+      },
+      {
+        "id": "m4-source-audit-09",
+        "sourceBlocks": [
+          17,
+          18,
+          23,
+          24
+        ],
+        "sourceProposition": "Infrastructure enables activities, connects large networks and establishes standards/dependencies; it often recedes into the background when functioning and becomes visible at breakdown.",
+        "teachingLocations": [
+          "m4-02-b1:reveal:r1",
+          "m4-02-b1:reveal:r2",
+          "m4-02-b1:reveal:r3",
+          "m4-02-b1:reveal:r4"
+        ],
+        "practiceLocations": [
+          "m4-02-b2",
+          "m4-02:finale"
+        ],
+        "sourceExampleFunction": "Three-characteristic source diagram is taught as an operational route, including transport/energy/data.",
+        "limit": "Scale alone does not logically cause invisibility; the route describes background dependence conditionally."
+      },
+      {
+        "id": "m4-source-audit-10",
+        "sourceBlocks": [
+          17,
+          20
+        ],
+        "sourceProposition": "Ports, shipping, distribution centers and tracking combine physical and digital logistics; stock/time/demand information supports rapid coordinated distribution.",
+        "teachingLocations": [
+          "m4-02-b1:reveal:r5",
+          "m4-02-b2:explainAfter",
+          "m4-03-b1:reveal:r2"
+        ],
+        "practiceLocations": [
+          "m4-02-b2",
+          "m4-03-b3"
+        ],
+        "sourceExampleFunction": "The depot route traces dependencies and coordination across a chain, instead of treating a warehouse as a standalone device.",
+        "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+      },
+      {
+        "id": "m4-source-audit-11",
+        "sourceBlocks": [
+          20,
+          22,
+          28,
+          38
+        ],
+        "sourceProposition": "Amazon’s source logistics example combines warehouses, algorithmic planning, transport and market/data advantage; sellers can gain reach while depending on a gatekeeper’s rules, prices and visibility.",
+        "teachingLocations": [
+          "m4-02-b1:reveal:r5",
+          "m4-02-b3:explainAfter",
+          "m4-03-b3:cards:c4"
+        ],
+        "practiceLocations": [
+          "m4-02-b3",
+          "m4-02:finale",
+          "m4-k3"
+        ],
+        "sourceExampleFunction": "The example separates an asymmetrical position from unsupported proof of every kind of actual abuse.",
+        "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+      },
+      {
+        "id": "m4-source-audit-12",
+        "sourceBlocks": [
+          22,
+          30
+        ],
+        "sourceProposition": "Costly long-lived infrastructure can concentrate expertise/control; access, standards and cost/benefit distribution affect opportunity and public interests over time.",
+        "teachingLocations": [
+          "m4-02-b1:explainAfter",
+          "m4-02-b3:hint",
+          "m4-02-b4:explainAfter"
+        ],
+        "practiceLocations": [
+          "m4-02-b4",
+          "m4-02:finale",
+          "m4-k3"
+        ],
+        "sourceExampleFunction": "The gatekeeper’s conditional access and investment history make authority and long-term choices investigateable.",
+        "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+      },
+      {
+        "id": "m4-source-audit-13",
+        "sourceBlocks": [
+          26,
+          34,
+          35
+        ],
+        "sourceProposition": "Data are an economic resource for logistics, market insight, prediction, new services and IoT maintenance; access/analysis also organize knowledge and power, and copies differ from consumed material resources.",
+        "teachingLocations": [
+          "m4-03-b1:reveal:r1",
+          "m4-03-b1:reveal:r2",
+          "m4-03-b1:reveal:r6",
+          "m4-03-b1:reveal:r7"
+        ],
+        "practiceLocations": [
+          "m4-03-b3",
+          "m4-k4"
+        ],
+        "sourceExampleFunction": "Slippage logs/routes/new services teach concrete uses; the copy card preserves the unique original quiz-feedback distinction.",
+        "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+      },
+      {
+        "id": "m4-source-audit-14",
+        "sourceBlocks": [
+          27,
+          30,
+          32
+        ],
+        "sourceProposition": "Cloud integration can create technical/financial lock-in, giving innovation benefits and barriers to competition/autonomy. Ownership, local storage and practical access are not identical.",
+        "teachingLocations": [
+          "m4-03-b1:reveal:r5",
+          "m4-03-b4:explainAfter",
+          "m4-03-b6:explainAfter"
+        ],
+        "practiceLocations": [
+          "m4-03-b4",
+          "m4-03-b6",
+          "m4-03:finale"
+        ],
+        "sourceExampleFunction": "The failed migration and historical cloud-dependence media function require a tested usable alternative, not an arbitrary lock code.",
+        "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+      },
+      {
+        "id": "m4-source-audit-15",
+        "sourceBlocks": [
+          27
+        ],
+        "sourceProposition": "Smart grids coordinate variable renewables using real-time production/consumption data; sustainable systems require networks, with data governance, investment cost and unequal access questions.",
+        "teachingLocations": [
+          "m4-05-b1:reveal:r2",
+          "m4-05-b1:reveal:r3",
+          "m4-05-b1:reveal:r5",
+          "m4-05-b1:reveal:r7"
+        ],
+        "practiceLocations": [
+          "m4-05-b2",
+          "m4-05-b4"
+        ],
+        "sourceExampleFunction": "The energy-grid dossier asks ownership, cost and access questions; EV and circular logistics show three distinct infrastructure dependencies.",
+        "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+      },
+      {
+        "id": "m4-source-audit-16",
+        "sourceBlocks": [
+          37
+        ],
+        "sourceProposition": "An algorithm is an instruction sequence; learned models use patterns in training data. Speed/complexity benefits in credit, selection or logistics do not establish neutrality.",
+        "teachingLocations": [
+          "m4-04-b1:intro",
+          "m4-04-b1:reveal:r5",
+          "m4-04-b1:reveal:r1"
+        ],
+        "practiceLocations": [
+          "m4-04-b2",
+          "m4-04-b3"
+        ],
+        "sourceExampleFunction": "Data, recognition and objective are separate causal stages in the working sorter model.",
+        "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+      },
+      {
+        "id": "m4-source-audit-17",
+        "sourceBlocks": [
+          37,
+          40
+        ],
+        "sourceProposition": "Historical unequal treatment and poor representation can carry through training to new decisions; average accuracy can conceal unequal group errors.",
+        "teachingLocations": [
+          "m4-04-b1:reveal:r1",
+          "m4-04-b1:reveal:r5",
+          "m4-04-b5:reveal:r1"
+        ],
+        "practiceLocations": [
+          "m4-04-b2",
+          "m4-04-b6",
+          "m4-k5"
+        ],
+        "sourceExampleFunction": "The source Gender Shades example is corrected to commercial gender classification, with exact task/group scope rather than generic facial identity recognition.",
+        "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+      },
+      {
+        "id": "m4-source-audit-18",
+        "sourceBlocks": [
+          37
+        ],
+        "sourceProposition": "Gender Shades (2018) showed much larger error for darker female faces than lighter male faces in tested commercial gender classifiers; concrete tasks and groups must be separated.",
+        "teachingLocations": [
+          "m4-04-b1:reveal:r4",
+          "m4-04-b1:reveal:r6"
+        ],
+        "practiceLocations": [
+          "m4-04-b3",
+          "m4-k5"
+        ],
+        "sourceExampleFunction": "The historical research card teaches representativeness and grouped tests. Toy sorter numbers are not its effect estimates.",
+        "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+      },
+      {
+        "id": "m4-source-audit-19",
+        "sourceBlocks": [
+          40
+        ],
+        "sourceProposition": "The AI image uniquely names bias/discrimination, privacy/consent, opacity, accountability/legal ambiguity, misuse/deepfakes, and job displacement/economic impact.",
+        "teachingLocations": [
+          "m4-04-b5:reveal:r1",
+          "m4-04-b5:reveal:r2",
+          "m4-04-b5:reveal:r3",
+          "m4-04-b5:reveal:r4",
+          "m4-04-b5:reveal:r5",
+          "m4-04-b5:reveal:r6"
+        ],
+        "practiceLocations": [
+          "m4-04-b6",
+          "m4-06-b3"
+        ],
+        "sourceExampleFunction": "A six-incident hub risk register turns every image label into an explanation and a matching research question.",
+        "limit": "Image is physically inspected; no all-AI legal or job-loss prediction is asserted."
+      },
+      {
+        "id": "m4-source-audit-20",
+        "sourceBlocks": [
+          41,
+          42
+        ],
+        "sourceProposition": "Circularity extends use by reuse/repair/recycling; AMP camera/robot/model sorting can improve recovery, but training coverage and market-value objectives can exclude lower-value materials.",
+        "teachingLocations": [
+          "m4-04-b1:reveal:r2",
+          "m4-04-b1:reveal:r3",
+          "m4-04-b1:explainAfter",
+          "m4-04-b2:explainAfter"
+        ],
+        "practiceLocations": [
+          "m4-04-b2",
+          "m4-04:finale"
+        ],
+        "sourceExampleFunction": "Holding data fixed while changing objective, and objective fixed while changing coverage, separates recognition from value selection.",
+        "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+      },
+      {
+        "id": "m4-source-audit-21",
+        "sourceBlocks": [
+          41,
+          47
+        ],
+        "sourceProposition": "Black-box opacity complicates explanations of credit/personnel decisions. XAI and audits support inquiry, but accountable developers/using organizations and substantive fairness still matter.",
+        "teachingLocations": [
+          "m4-04-b3:explainAfter",
+          "m4-04-b4:explainAfter",
+          "m4-04-b5:reveal:r3",
+          "m4-04-b5:reveal:r4"
+        ],
+        "practiceLocations": [
+          "m4-04-b4",
+          "m4-04-b6",
+          "m4-k6"
+        ],
+        "sourceExampleFunction": "The review mechanism distinguishes explainability, grouped performance, authority and correction. A dataset is an influence, not a moral/legal person.",
+        "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+      },
+      {
+        "id": "m4-source-audit-22",
+        "sourceBlocks": [
+          1,
+          13,
+          27,
+          41
+        ],
+        "sourceProposition": "Efficiency/cost pressures plus reputational incentives and organizational constraints can create selective sustainability dashboards without substantial underlying change.",
+        "teachingLocations": [
+          "m4-05-b1:reveal:r2",
+          "m4-05-b1:reveal:r6",
+          "m4-05-b4:explainAfter"
+        ],
+        "practiceLocations": [
+          "m4-05-b4",
+          "m4-05:finale",
+          "m4-k7"
+        ],
+        "sourceExampleFunction": "The green single-metric dashboard is analyzed alongside incentives, missing material/energy effects and control.",
+        "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+      },
+      {
+        "id": "m4-source-audit-23",
+        "sourceBlocks": [
+          44,
+          45,
+          51
+        ],
+        "sourceProposition": "Technological determinism is rejected: systems arise from human choices, organizations and institutions; agency means deliberate but distributed and constrained capacity to change them.",
+        "teachingLocations": [
+          "m4-06-b1:explainAfter",
+          "m4-06-b2:explainAfter",
+          "m4-03-b4:explainAfter"
+        ],
+        "practiceLocations": [
+          "m4-06-b3",
+          "m4-06:finale"
+        ],
+        "sourceExampleFunction": "The player actually changes door fallback, export, selection and governance; reflection identifies their limits.",
+        "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+      },
+      {
+        "id": "m4-source-audit-24",
+        "sourceBlocks": [
+          44,
+          47,
+          48,
+          51
+        ],
+        "sourceProposition": "Design intervention changes architecture/data/options; organizational intervention changes implementation, audit and governance; institutional intervention changes public rules. The levels can complement each other.",
+        "teachingLocations": [
+          "m4-05-b3:hint",
+          "m4-05-b3:explainAfter"
+        ],
+        "practiceLocations": [
+          "m4-05-b3",
+          "m4-06-b3",
+          "m4-k7"
+        ],
+        "sourceExampleFunction": "All original matching functions are covered: explainable AI, an internal ethical committee/audit and risk-based AI Act.",
+        "limit": "Organizational measures can have effects without a new law; the original claim that governance without law stays merely voluntary is not reproduced as ineffectiveness."
+      },
+      {
+        "id": "m4-source-audit-25",
+        "sourceBlocks": [
+          44,
+          47
+        ],
+        "sourceProposition": "VSD (Friedman/Kahn/Borning) integrates values in design; responsible innovation (Stilgoe/Owen/Macnaghten) anticipates societal consequences and revises development. Inclusion, transparency and early tests need execution.",
+        "teachingLocations": [
+          "m4-06-b1:reveal:r1",
+          "m4-06-b1:reveal:r2"
+        ],
+        "practiceLocations": [
+          "m4-06-b2",
+          "m4-06-b3"
+        ],
+        "sourceExampleFunction": "Selectable short teaching plus a revisit cycle replaces an unexplained acronym checklist.",
+        "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+      },
+      {
+        "id": "m4-source-audit-26",
+        "sourceBlocks": [
+          47
+        ],
+        "sourceProposition": "Public regulation can set protection and responsibility norms; AI Act risk approach and CSRD reporting are distinct tools with current application limits. Protection/innovation tradeoffs need specific analysis.",
+        "teachingLocations": [
+          "m4-06-b1:reveal:r3",
+          "m4-06-b1:reveal:r4",
+          "m4-06-b1:reveal:r6"
+        ],
+        "practiceLocations": [
+          "m4-06-b4",
+          "m4-k8"
+        ],
+        "sourceExampleFunction": "Historical source examples are corrected and scoped, not presented as universal current legal advice.",
+        "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+      },
+      {
+        "id": "m4-source-audit-27",
+        "sourceBlocks": [
+          50,
+          52
+        ],
+        "sourceProposition": "DSA institutional governance illustrates very-large-service systemic risk analysis, recommender transparency and researcher access; it can change designed systems without wholly solving disinformation.",
+        "teachingLocations": [
+          "m4-06-b1:reveal:r5",
+          "m4-06-b1:reveal:r7"
+        ],
+        "practiceLocations": [
+          "m4-06:finale",
+          "m4-k8"
+        ],
+        "sourceExampleFunction": "Original multi-answer feedback function is retained: intervene at relevant decision levels and avoid either deterministic fatalism or one-measure solution claims.",
+        "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+      }
+    ],
+    "accuracyAdjustments": [
+      {
+        "sourceBlocks": [
+          5
+        ],
+        "issue": "Original low-overpass quiz feedback conflates the example with an unintentional effect; Winner presents intended political ordering in that example, while the broader argument also permits effects without stated intention.",
+        "adjustment": "The route separates observed access effects from claims about intention and teaches both routes through door evidence. No unverified historic motive is required for a correct answer.",
+        "verifiedUrl": "https://www.jstor.org/stable/20024652",
+        "verifiedOn": "2026-10-12"
+      },
+      {
+        "sourceBlocks": [
+          6,
+          8
+        ],
+        "issue": "Search ranking examples must not imply that Google accepts payment for higher organic search position.",
+        "adjustment": "Paid advertising and organic results are explicitly separated. The exercise teaches value/authority choices rather than a false current factual ranking rule.",
+        "verifiedUrl": "https://developers.google.com/search/docs/fundamentals/how-search-works",
+        "verifiedOn": "2026-10-12"
+      },
+      {
+        "sourceBlocks": [
+          24
+        ],
+        "issue": "The source diagram rhetorically ties scale to invisibility; large scale alone is not a sufficient causal explanation of invisibility.",
+        "adjustment": "The route teaches infrastructure often becoming background during normal functioning and salient at breakdown, with scale as a separate characteristic."
+      },
+      {
+        "sourceBlocks": [
+          48
+        ],
+        "issue": "The source feedback says governance without statutory framework remains merely voluntary; this must not be mistaken for organizational measures having no effect.",
+        "adjustment": "Internal audit/authority/incentives can change practice; institutional rules can reinforce and scale accountability without replacing design or organization."
+      }
+    ],
+    "limitations": [
+      "The original media whose transcript remains unavailable have separate exact clip metadata and mandatory projection requirements.",
+      "A proposition can be encountered without being understood; local synthesis, separate changed-case checks and future evaluation are distinct safeguards, not empirical proof of learning."
+    ]
+  },
+  "sourceMediaAudit": {
+    "schemaVersion": 1,
+    "lessonId": "m4",
+    "auditDate": "2026-10-12",
+    "method": "Original source JSON, original-owner metadata/descriptions, publisher module/transcript where accessible. Attempts to retrieve unavailable full captions failed (429/400); no guessed transcript substitute. Start preserves original assignment: WSJ begins at 81 seconds; its untrimmed player remains seekable.",
+    "clips": [
+      {
+        "sourceBlock": 8,
+        "youtube": "4XEM1pl-7tU",
+        "owner": "Wireless Philosophy",
+        "title": "PHILOSOPHY - EMERGING TECHNOLOGIES 1: Is Technology as “Neutral” as We Think It Is?",
+        "start": 0,
+        "originalUrl": "https://www.youtube.com/watch?v=4XEM1pl-7tU",
+        "verificationStatus": "owner-description-and-original-course-module-reviewed; full-transcript-unavailable",
+        "knownCoreTeachingPurpose": "Question the neutral-tool assumption through value choices and governance in search ranking.",
+        "teachingLocations": [
+          "m4-03-b5",
+          "m4-01-b1"
+        ],
+        "verificationUrls": [
+          "https://www.wi-phi.com/modules/emerging-technologies/",
+          "https://www.youtube.com/watch?v=4XEM1pl-7tU"
+        ],
+        "uniqueUnverifiedContent": "Any unique spoken argument or illustration outside the owner description and module prompts remains unverified. The worksheet must not be read as proof that Google sells higher organic rankings.",
+        "requiredProjection": true,
+        "projectionRequirements": {
+          "investigationId": "m4-03",
+          "fullOriginalClip": true,
+          "shortSegmentsAllowed": true,
+          "transcriptOrCaptionsForAccessibility": true,
+          "applicationPrompt": "Welke rangschikkingswaarde kiest de hub, wie bepaalt die waarde en welke alternatieve waarde blijft bespreekbaar?",
+          "completionCriterion": "Original clip delivered within the investigation; learner applies its claim to this case and marks uncertainty. A click or source ID is not content coverage."
+        }
+      },
+      {
+        "sourceBlock": 14,
+        "youtube": "xqB1Gw34J28",
+        "owner": "Draftish.",
+        "title": "Actor-Network Theory: For the Confused",
+        "start": 0,
+        "originalUrl": "https://www.youtube.com/watch?v=xqB1Gw34J28",
+        "verificationStatus": "owner-description-reviewed; full-transcript-unavailable",
+        "knownCoreTeachingPurpose": "Trace distributed influence among human and non-human actants; description also mentions fast fashion, Uber, architecture and criticism of endless mapping.",
+        "teachingLocations": [
+          "m4-01-b3",
+          "m4-01-b1"
+        ],
+        "verificationUrls": [
+          "https://www.youtube.com/watch?v=xqB1Gw34J28"
+        ],
+        "uniqueUnverifiedContent": "The precise criticisms and all unique spoken details of the three examples are not established by a full transcript.",
+        "requiredProjection": true,
+        "projectionRequirements": {
+          "investigationId": "m4-01",
+          "fullOriginalClip": true,
+          "shortSegmentsAllowed": true,
+          "transcriptOrCaptionsForAccessibility": true,
+          "applicationPrompt": "Welke menselijke en niet-menselijke onderdelen veranderen samen de toegang, en welke grens heeft jouw netwerkkaart?",
+          "completionCriterion": "Original clip delivered within the investigation; learner applies its claim to this case and marks uncertainty. A click or source ID is not content coverage."
+        }
+      },
+      {
+        "sourceBlock": 26,
+        "youtube": "eVSfJhssXUA",
+        "owner": "World Economic Forum",
+        "title": "What Is Big Data?",
+        "start": 0,
+        "originalUrl": "https://www.youtube.com/watch?v=eVSfJhssXUA",
+        "verificationStatus": "owner-description-and-historical-owner-explanation-reviewed; full-transcript-unavailable",
+        "knownCoreTeachingPurpose": "Everyday digital traces, aggregation and algorithms can create knowledge and economic value. Historical predictions remain dated.",
+        "teachingLocations": [
+          "m4-03-b1",
+          "m4-03-b2"
+        ],
+        "verificationUrls": [
+          "https://www.youtube.com/watch?v=eVSfJhssXUA",
+          "https://www.weforum.org/stories/all/6-videos-that-will-help-you-understand-davos-2016/",
+          "https://www.weforum.org/stories/economic-growth/big-data-explained-in-less-than-two-minutes/"
+        ],
+        "uniqueUnverifiedContent": "The 2015 owner explanation is corroborating context, not a verified transcript of this exact clip. Unique illustrations and dated predictions require the original projection.",
+        "requiredProjection": true,
+        "projectionRequirements": {
+          "investigationId": "m4-03",
+          "fullOriginalClip": true,
+          "shortSegmentsAllowed": true,
+          "transcriptOrCaptionsForAccessibility": true,
+          "applicationPrompt": "Volg één gegevensspoor van activiteit tot besluit. Wat is hier een actuele casusobservatie en wat is een gedateerde voorspelling?",
+          "completionCriterion": "Original clip delivered within the investigation; learner applies its claim to this case and marks uncertainty. A click or source ID is not content coverage."
+        }
+      },
+      {
+        "sourceBlock": 32,
+        "youtube": "uoTMwX_clDs",
+        "owner": "LUBACH",
+        "title": "Kan Trump Nederland digitaal platleggen? | LUBACH",
+        "start": 0,
+        "originalUrl": "https://www.youtube.com/watch?v=uoTMwX_clDs",
+        "verificationStatus": "original-owner-description-reviewed; full-transcript-unavailable",
+        "knownCoreTeachingPurpose": "Historical 2025 current-affairs example of foreign cloud dependence, operational access, possible service cutoff and alternatives.",
+        "teachingLocations": [
+          "m4-03-b6",
+          "m4-03-b4"
+        ],
+        "verificationUrls": [
+          "https://www.youtube.com/watch?v=uoTMwX_clDs"
+        ],
+        "uniqueUnverifiedContent": "Unique geopolitical, legal and corporate claims are not fully verified. Do not convert the historical clip into a universal current power-to-shut-down claim.",
+        "requiredProjection": true,
+        "projectionRequirements": {
+          "investigationId": "m4-03",
+          "fullOriginalClip": true,
+          "shortSegmentsAllowed": true,
+          "transcriptOrCaptionsForAccessibility": true,
+          "applicationPrompt": "Welke afhankelijkheid toont het fragment? Vergelijk haar met de fictieve hub en onderbouw één geteste uitwijkroute zonder een actuele politieke voorspelling.",
+          "completionCriterion": "Original clip delivered within the investigation; learner applies its claim to this case and marks uncertainty. A click or source ID is not content coverage."
+        }
+      }
+    ],
+    "allRequiredProjectionIntegration": "Required sourceProjections authored in the chapter investigation arrays; runtime delivery remains parent QA. Known-purpose mapping is not a substitute for unverified unique spoken source content."
+  },
+  "fullSourceReplacementStatus": "Text/image/exercise purposes mapped; required original sourceProjections authored for clips whose unique transcript content remains unverified. Runtime delivery requires parent QA; opening plus written synthesis does not certify full viewing or mastery.",
+  "optionalMediaAndExercises": [
+    {
+      "sourceBlock": 2,
+      "type": "quiz",
+      "title": "m4-morele-architectuur",
+      "essentialConceptsTaughtInGame": "audited-feedback-purpose-mapped",
+      "completionRequired": false,
+      "delivery": "optional-original-review; challenging-changed-case-check-in-route"
+    },
+    {
+      "sourceBlock": 5,
+      "type": "quiz",
+      "title": "Oorspronkelijke oefening",
+      "essentialConceptsTaughtInGame": "audited-feedback-purpose-mapped",
+      "completionRequired": false,
+      "delivery": "optional-original-review; challenging-changed-case-check-in-route"
+    },
+    {
+      "sourceBlock": 8,
+      "type": "video",
+      "title": "PHILOSOPHY - EMERGING TECHNOLOGIES 1: Is Technology as \"Neutral\" as We Think It Is?",
+      "essentialConceptsTaughtInGame": "known-core-purpose-mapped; see transcript audit",
+      "completionRequired": true,
+      "delivery": "mandatory-original-projection-in-world-plus-case-application"
+    },
+    {
+      "sourceBlock": 11,
+      "type": "quiz",
+      "title": "m4-automatische-deur",
+      "essentialConceptsTaughtInGame": "audited-feedback-purpose-mapped",
+      "completionRequired": false,
+      "delivery": "optional-original-review; challenging-changed-case-check-in-route"
+    },
+    {
+      "sourceBlock": 14,
+      "type": "video",
+      "title": "Actor-Network Theory for Dummies",
+      "essentialConceptsTaughtInGame": "known-core-purpose-mapped; see transcript audit",
+      "completionRequired": true,
+      "delivery": "mandatory-original-projection-in-world-plus-case-application"
+    },
+    {
+      "sourceBlock": 15,
+      "type": "quiz",
+      "title": "Oorspronkelijke oefening",
+      "essentialConceptsTaughtInGame": "audited-feedback-purpose-mapped",
+      "completionRequired": false,
+      "delivery": "optional-original-review; challenging-changed-case-check-in-route"
+    },
+    {
+      "sourceBlock": 18,
+      "type": "quiz",
+      "title": "m4-onzichtbare-infra",
+      "essentialConceptsTaughtInGame": "audited-feedback-purpose-mapped",
+      "completionRequired": false,
+      "delivery": "optional-original-review; challenging-changed-case-check-in-route"
+    },
+    {
+      "sourceBlock": 23,
+      "type": "quiz",
+      "title": "Oorspronkelijke oefening",
+      "essentialConceptsTaughtInGame": "audited-feedback-purpose-mapped",
+      "completionRequired": false,
+      "delivery": "optional-original-review; challenging-changed-case-check-in-route"
+    },
+    {
+      "sourceBlock": 26,
+      "type": "video",
+      "title": "What Is Big Data?",
+      "essentialConceptsTaughtInGame": "known-core-purpose-mapped; see transcript audit",
+      "completionRequired": true,
+      "delivery": "mandatory-original-projection-in-world-plus-case-application"
+    },
+    {
+      "sourceBlock": 28,
+      "type": "quiz",
+      "title": "m4-poortwachter",
+      "essentialConceptsTaughtInGame": "audited-feedback-purpose-mapped",
+      "completionRequired": false,
+      "delivery": "optional-original-review; challenging-changed-case-check-in-route"
+    },
+    {
+      "sourceBlock": 31,
+      "type": "quiz",
+      "title": "Oorspronkelijke oefening",
+      "essentialConceptsTaughtInGame": "audited-feedback-purpose-mapped",
+      "completionRequired": false,
+      "delivery": "optional-original-review; challenging-changed-case-check-in-route"
+    },
+    {
+      "sourceBlock": 32,
+      "type": "video",
+      "title": "Kan Trump Nederland digitaal platleggen? | LUBACH",
+      "essentialConceptsTaughtInGame": "known-core-purpose-mapped; see transcript audit",
+      "completionRequired": true,
+      "delivery": "mandatory-original-projection-in-world-plus-case-application"
+    },
+    {
+      "sourceBlock": 35,
+      "type": "quiz",
+      "title": "m4-data-grondstof",
+      "essentialConceptsTaughtInGame": "audited-feedback-purpose-mapped",
+      "completionRequired": false,
+      "delivery": "optional-original-review; challenging-changed-case-check-in-route"
+    },
+    {
+      "sourceBlock": 38,
+      "type": "quiz",
+      "title": "Oorspronkelijke oefening",
+      "essentialConceptsTaughtInGame": "audited-feedback-purpose-mapped",
+      "completionRequired": false,
+      "delivery": "optional-original-review; challenging-changed-case-check-in-route"
+    },
+    {
+      "sourceBlock": 42,
+      "type": "quiz",
+      "title": "m4-ai-sorteren",
+      "essentialConceptsTaughtInGame": "audited-feedback-purpose-mapped",
+      "completionRequired": false,
+      "delivery": "optional-original-review; challenging-changed-case-check-in-route"
+    },
+    {
+      "sourceBlock": 45,
+      "type": "quiz",
+      "title": "m4-determinisme",
+      "essentialConceptsTaughtInGame": "audited-feedback-purpose-mapped",
+      "completionRequired": false,
+      "delivery": "optional-original-review; challenging-changed-case-check-in-route"
+    },
+    {
+      "sourceBlock": 52,
+      "type": "quiz",
+      "title": "m4-dsa-afsluiting",
+      "essentialConceptsTaughtInGame": "audited-feedback-purpose-mapped",
+      "completionRequired": false,
+      "delivery": "optional-original-review; challenging-changed-case-check-in-route"
+    }
+  ],
+  "accuracyAdjustments": [
+    {
+      "sourceBlocks": [
+        37,
+        47
+      ],
+      "issue": "De cursus noemt Gender Shades gezichtsherkenning; de studie onderzocht commerciële genderclassificatie uit gezichtsbeelden.",
+      "adjustment": "Het spel noemt de exacte classificatietaak en gebruikt de studie niet als prestatiebewijs voor de sorteerband.",
+      "verifiedUrl": "https://proceedings.mlr.press/v81/buolamwini18a.html",
+      "verifiedOn": "2026-10-12"
+    },
+    {
+      "sourceBlocks": [
+        47,
+        50
+      ],
+      "issue": "CSRD-, AI Act- en DSA-kaders hebben verschillende en veranderlijke toepassingsgrenzen; brede cursusuitspraken kunnen verkeerd worden gelezen als actuele universele verplichtingen.",
+      "adjustment": "Kadermechanismen worden onderwezen; geen generieke toepassingsplicht, exacte drempel of deadline wordt verondersteld. DSA-risicoverplichtingen zijn afgebakend tot de relevante zeer grote diensten.",
+      "verifiedUrls": [
+        "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+        "https://commission.europa.eu/law/law-making-process/better-regulation/simplification-implementation-and-enforcement/simplification_en",
+        "https://digital-strategy.ec.europa.eu/en/policies/dsa-vlops"
+      ],
+      "verifiedOn": "2026-10-12"
+    },
+    {
+      "sourceBlocks": [
+        5
+      ],
+      "issue": "Original low-overpass quiz feedback conflates the example with an unintentional effect; Winner presents intended political ordering in that example, while the broader argument also permits effects without stated intention.",
+      "adjustment": "The route separates observed access effects from claims about intention and teaches both routes through door evidence. No unverified historic motive is required for a correct answer.",
+      "verifiedUrl": "https://www.jstor.org/stable/20024652",
+      "verifiedOn": "2026-10-12"
+    },
+    {
+      "sourceBlocks": [
+        6,
+        8
+      ],
+      "issue": "Search ranking examples must not imply that Google accepts payment for higher organic search position.",
+      "adjustment": "Paid advertising and organic results are explicitly separated. The exercise teaches value/authority choices rather than a false current factual ranking rule.",
+      "verifiedUrl": "https://developers.google.com/search/docs/fundamentals/how-search-works",
+      "verifiedOn": "2026-10-12"
+    },
+    {
+      "sourceBlocks": [
+        24
+      ],
+      "issue": "The source diagram rhetorically ties scale to invisibility; large scale alone is not a sufficient causal explanation of invisibility.",
+      "adjustment": "The route teaches infrastructure often becoming background during normal functioning and salient at breakdown, with scale as a separate characteristic."
+    },
+    {
+      "sourceBlocks": [
+        48
+      ],
+      "issue": "The source feedback says governance without statutory framework remains merely voluntary; this must not be mistaken for organizational measures having no effect.",
+      "adjustment": "Internal audit/authority/incentives can change practice; institutional rules can reinforce and scale accountability without replacing design or organization."
+    }
+  ],
+  "researchAnchors": {
+    "guidedDiscovery": [
+      "S01",
+      "S02",
+      "S09"
+    ],
+    "constructiveReasoning": [
+      "S03",
+      "S04"
+    ],
+    "meaningfulMechanics": [
+      "S06",
+      "S07"
+    ],
+    "informativeFeedback": [
+      "S23"
+    ],
+    "ethicalPlurality": [
+      "S18"
+    ],
+    "motivation": [
+      "S19",
+      "S20",
+      "S25"
+    ],
+    "changedCaseAndRetrieval": [
+      "S13",
+      "S14"
+    ]
+  },
+  "limitations": [
+    "Deze map is een inhoudsaudit en geen empirisch bewijs van beheersing.",
+    "Een bekend videodoel is geen volledige transcriptdekking. Vereiste bronprojecties moeten daadwerkelijk in de route werken; geopend plus een notitie bewijst geen volledige kijktijd of begrip.",
+    "Fictieve documenten en modelwaarden dienen om mechanismen te onderzoeken, niet als bewijs over actuele echte bedrijven.",
+    "De dekking van bronproposities controleert de gemaakte inhoud; zij bewijst nog geen leerretentie of transfer."
+  ]
+}

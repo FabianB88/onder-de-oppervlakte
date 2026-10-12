@@ -1,0 +1,3085 @@
+{
+  "schemaVersion": 2,
+  "lessonId": "m5",
+  "title": "Greenwashing (kort)",
+  "source": "sources/business-ethics-course.json",
+  "scope": "Audited original text propositions, source examples, original quiz/matching feedback, diagrams and image content, plus explicitly scoped media fidelity.",
+  "essentialSourceBlocks": [
+    0,
+    3,
+    6,
+    9,
+    14,
+    17,
+    21,
+    24,
+    27
+  ],
+  "mappedSourceBlocks": [
+    0,
+    1,
+    3,
+    6,
+    7,
+    9,
+    10,
+    14,
+    15,
+    17,
+    18,
+    19,
+    21,
+    22,
+    24,
+    25,
+    27
+  ],
+  "unmappedEssentialSourceBlocks": [],
+  "propositions": [
+    {
+      "id": "m5-p001",
+      "proposition": "Een bezoeker vraagt naar milieu-impact en arbeidsomstandigheden. Maatschappelijke verwachtingen gaan verder dan goedkoop en snel leveren.",
+      "concepts": [
+        "greenwashing als systeemfenomeen",
+        "institutionele druk",
+        "organisatorische beperkingen",
+        "economische prikkels"
+      ],
+      "sourceBlocks": [
+        0,
+        3,
+        27
+      ],
+      "teachingLocation": "m5-01-b1:reveal:r1",
+      "worldEvidence": "Verzamel de verwachtingen rond de stand",
+      "practiceBeat": "m5-01-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m5-01:pressure",
+        "m5-01:decoupling"
+      ],
+      "knowledgeChecks": [
+        "m5-k2"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p002",
+      "proposition": "Een financier wil aantoonbare duurzaamheid zien vóór de volgende ronde. De wens om kapitaal te krijgen verhoogt de druk op communicatie.",
+      "concepts": [
+        "greenwashing als systeemfenomeen",
+        "institutionele druk",
+        "organisatorische beperkingen",
+        "economische prikkels"
+      ],
+      "sourceBlocks": [
+        0,
+        3,
+        27
+      ],
+      "teachingLocation": "m5-01-b1:reveal:r2",
+      "worldEvidence": "Verzamel de verwachtingen rond de stand",
+      "practiceBeat": "m5-01-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m5-01:pressure",
+        "m5-01:decoupling"
+      ],
+      "knowledgeChecks": [
+        "m5-k2"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p003",
+      "proposition": "Een ngo vraagt bewijs over materiaalstromen. Media en toezichthouders kunnen dezelfde kloof tussen belofte en praktijk zichtbaar maken.",
+      "concepts": [
+        "greenwashing als systeemfenomeen",
+        "institutionele druk",
+        "organisatorische beperkingen",
+        "economische prikkels"
+      ],
+      "sourceBlocks": [
+        0,
+        3,
+        27
+      ],
+      "teachingLocation": "m5-01-b1:reveal:r3",
+      "worldEvidence": "Verzamel de verwachtingen rond de stand",
+      "practiceBeat": "m5-01-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m5-01:pressure",
+        "m5-01:decoupling"
+      ],
+      "knowledgeChecks": [
+        "m5-k2"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p004",
+      "proposition": "De poster noemt de hele service circulair. Het bewijs betreft voorlopig één retourpilot; de rest van het bedrijfsmodel is nog niet aangepast.",
+      "concepts": [
+        "greenwashing als systeemfenomeen",
+        "institutionele druk",
+        "organisatorische beperkingen",
+        "economische prikkels"
+      ],
+      "sourceBlocks": [
+        0,
+        3,
+        27
+      ],
+      "teachingLocation": "m5-01-b1:reveal:r4",
+      "worldEvidence": "Verzamel de verwachtingen rond de stand",
+      "practiceBeat": "m5-01-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m5-01:pressure",
+        "m5-01:decoupling"
+      ],
+      "knowledgeChecks": [
+        "m5-k2"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p005",
+      "proposition": "Nieuwe infrastructuur, kennis en investeringen kosten tijd. Een capaciteitstekort kan de kloof verklaren, maar maakt een te brede claim niet waar.",
+      "concepts": [
+        "greenwashing als systeemfenomeen",
+        "institutionele druk",
+        "organisatorische beperkingen",
+        "economische prikkels"
+      ],
+      "sourceBlocks": [
+        0,
+        3,
+        27
+      ],
+      "teachingLocation": "m5-01-b1:reveal:r5",
+      "worldEvidence": "Verzamel de verwachtingen rond de stand",
+      "practiceBeat": "m5-01-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m5-01:pressure",
+        "m5-01:decoupling"
+      ],
+      "knowledgeChecks": [
+        "m5-k2"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p006",
+      "proposition": "Klimaatverandering, biodiversiteitsverlies en sociale ongelijkheid vergroten verwachtingen rond verantwoord ondernemen. Consumenten, financiers, media en overheden kunnen daar verschillend op reageren.",
+      "concepts": [
+        "greenwashing als systeemfenomeen",
+        "institutionele druk",
+        "organisatorische beperkingen",
+        "economische prikkels"
+      ],
+      "sourceBlocks": [
+        0,
+        3,
+        27
+      ],
+      "teachingLocation": "m5-01-b1:reveal:r6",
+      "worldEvidence": "Verzamel de verwachtingen rond de stand",
+      "practiceBeat": "m5-01-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m5-01:pressure",
+        "m5-01:decoupling"
+      ],
+      "knowledgeChecks": [
+        "m5-k2"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p007",
+      "proposition": "De oorspronkelijke GLOBIS-uitleg verbindt groene reputatie met consumenten die een meerprijs willen betalen. Dat is een mogelijke prikkel, geen bewijs dat iedere consument hetzelfde kiest.",
+      "concepts": [
+        "greenwashing als systeemfenomeen",
+        "institutionele druk",
+        "organisatorische beperkingen",
+        "economische prikkels"
+      ],
+      "sourceBlocks": [
+        0,
+        3,
+        27
+      ],
+      "teachingLocation": "m5-01-b1:reveal:r7",
+      "worldEvidence": "Verzamel de verwachtingen rond de stand",
+      "practiceBeat": "m5-01-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m5-01:pressure",
+        "m5-01:decoupling"
+      ],
+      "knowledgeChecks": [
+        "m5-k2"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p008",
+      "proposition": "Decoupling beschrijft de afstand tussen formele boodschap en feitelijke praktijk. Dat kan zonder een centraal misleidingsbesluit groeien, maar ook samengaan met bewuste onwaarheid. Onderzoek mechanisme én verantwoordelijkheid.",
+      "concepts": [
+        "greenwashing als systeemfenomeen",
+        "institutionele druk",
+        "organisatorische beperkingen",
+        "economische prikkels"
+      ],
+      "sourceBlocks": [
+        0,
+        3,
+        27
+      ],
+      "teachingLocation": "m5-01-b1:reveal:r8",
+      "worldEvidence": "Verzamel de verwachtingen rond de stand",
+      "practiceBeat": "m5-01-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m5-01:pressure",
+        "m5-01:decoupling"
+      ],
+      "knowledgeChecks": [
+        "m5-k2"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p009",
+      "proposition": "Legitimiteit betreft sociale erkenning. Decoupling betekent een loskoppeling tussen formele boodschap en feitelijke praktijk. De reactie op druk kan dus een echt veranderplan of vooral een zichtbaar symbool zijn.",
+      "concepts": [
+        "Suchman",
+        "legitimiteit",
+        "decoupling",
+        "symbolische communicatie"
+      ],
+      "sourceBlocks": [
+        3
+      ],
+      "teachingLocation": "m5-01-b2:explainAfter",
+      "worldEvidence": "Legitimiteit is niet hetzelfde als bewijs",
+      "practiceBeat": "m5-01-b2",
+      "practiceType": "connect",
+      "synthesisSlots": [
+        "m5-01:pressure",
+        "m5-01:decoupling"
+      ],
+      "knowledgeChecks": [],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p010",
+      "proposition": "Organisaties willen als passend en verantwoord worden erkend. Dat kan via werkelijk handelen of symbolische afstemming. Zoek het bewijs dat communicatie met praktijk verbindt.",
+      "concepts": [
+        "Suchman",
+        "legitimiteit",
+        "decoupling",
+        "symbolische communicatie"
+      ],
+      "sourceBlocks": [
+        3
+      ],
+      "teachingLocation": "m5-01-b2:hint",
+      "worldEvidence": "Legitimiteit is niet hetzelfde als bewijs",
+      "practiceBeat": "m5-01-b2",
+      "practiceType": "connect",
+      "synthesisSlots": [
+        "m5-01:pressure",
+        "m5-01:decoupling"
+      ],
+      "knowledgeChecks": [],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p011",
+      "proposition": "Een organisatie kan symbolisch voldoen aan verwachtingen terwijl haar werkwijze blijft bestaan. Het systeemonderzoek vergelijkt verwachtingen, doelen, middelen, uitvoering en communicatie; geen enkel symbool bewijst die gehele keten.",
+      "concepts": [
+        "symbolische maatregelen",
+        "feitelijke praktijk",
+        "decoupling"
+      ],
+      "sourceBlocks": [
+        0,
+        3,
+        9
+      ],
+      "teachingLocation": "m5-01-b3:explainAfter",
+      "worldEvidence": "Volg woorden en werk afzonderlijk",
+      "practiceBeat": "m5-01-b3",
+      "practiceType": "sort",
+      "synthesisSlots": [
+        "m5-01:pressure",
+        "m5-01:decoupling"
+      ],
+      "knowledgeChecks": [],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p012",
+      "proposition": "Een nieuw label verandert de presentatie; een retourproces verandert handelingen. Een formeel plan kan richting geven, maar uitvoering en effect moeten apart worden onderzocht.",
+      "concepts": [
+        "symbolische maatregelen",
+        "feitelijke praktijk",
+        "decoupling"
+      ],
+      "sourceBlocks": [
+        0,
+        3,
+        9
+      ],
+      "teachingLocation": "m5-01-b3:hint",
+      "worldEvidence": "Volg woorden en werk afzonderlijk",
+      "practiceBeat": "m5-01-b3",
+      "practiceType": "sort",
+      "synthesisSlots": [
+        "m5-01:pressure",
+        "m5-01:decoupling"
+      ],
+      "knowledgeChecks": [],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p013",
+      "proposition": "Je kunt een afgebakende pilot communiceren of wachten op breder bewijs. Beide behouden ruimte voor verandering. Leg uit wat bekend is, wat niet en welk werk de organisatie nog moet doen.",
+      "concepts": [
+        "waarheidsgetrouwe communicatie",
+        "claimgrens",
+        "legitimiteit"
+      ],
+      "sourceBlocks": [
+        3,
+        21,
+        24
+      ],
+      "teachingLocation": "m5-01-b4:explainAfter",
+      "worldEvidence": "Open de stand met een houdbare belofte",
+      "practiceBeat": "m5-01-b4",
+      "practiceType": "decision",
+      "synthesisSlots": [
+        "m5-01:pressure",
+        "m5-01:decoupling"
+      ],
+      "knowledgeChecks": [],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p014",
+      "proposition": "Maak de meetgrens, resultaten en onzekerheden zichtbaar. Een sterke toekomstambitie mag als ambitie worden benoemd, maar niet als al bereikte bedrijfsbrede prestatie.",
+      "concepts": [
+        "waarheidsgetrouwe communicatie",
+        "claimgrens",
+        "legitimiteit"
+      ],
+      "sourceBlocks": [
+        3,
+        21,
+        24
+      ],
+      "teachingLocation": "m5-01-b4:hint",
+      "worldEvidence": "Open de stand met een houdbare belofte",
+      "practiceBeat": "m5-01-b4",
+      "practiceType": "decision",
+      "synthesisSlots": [
+        "m5-01:pressure",
+        "m5-01:decoupling"
+      ],
+      "knowledgeChecks": [],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p015",
+      "proposition": "De advertentie toont alleen lagere verpakkingsemissies; grotere productie-emissies ontbreken terwijl de kop een totaalverbetering suggereert.",
+      "concepts": [
+        "selectieve communicatie",
+        "vage claims",
+        "irrelevante communicatie",
+        "symbolische duurzaamheid"
+      ],
+      "sourceBlocks": [
+        9,
+        10
+      ],
+      "teachingLocation": "m5-02-b1:reveal:r1",
+      "worldEvidence": "Vier manieren om een groen beeld te maken",
+      "practiceBeat": "m5-02-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m5-02:scope",
+        "m5-02:meaning"
+      ],
+      "knowledgeChecks": [
+        "m5-k1",
+        "m5-k4"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p016",
+      "proposition": "Het label zegt eco-friendly zonder te definiëren welke impact, vergelijking of meetmethode daarbij hoort.",
+      "concepts": [
+        "selectieve communicatie",
+        "vage claims",
+        "irrelevante communicatie",
+        "symbolische duurzaamheid"
+      ],
+      "sourceBlocks": [
+        9,
+        10
+      ],
+      "teachingLocation": "m5-02-b1:reveal:r2",
+      "worldEvidence": "Vier manieren om een groen beeld te maken",
+      "practiceBeat": "m5-02-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m5-02:scope",
+        "m5-02:meaning"
+      ],
+      "knowledgeChecks": [
+        "m5-k1",
+        "m5-k4"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p017",
+      "proposition": "De cursus gebruikt CFK-vrij als voorbeeld wanneer CFK’s in de relevante productcontext al verboden zijn. Voldoen aan die basisregel is dan geen uniek extra voordeel.",
+      "concepts": [
+        "selectieve communicatie",
+        "vage claims",
+        "irrelevante communicatie",
+        "symbolische duurzaamheid"
+      ],
+      "sourceBlocks": [
+        9,
+        10
+      ],
+      "teachingLocation": "m5-02-b1:reveal:r3",
+      "worldEvidence": "Vier manieren om een groen beeld te maken",
+      "practiceBeat": "m5-02-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m5-02:scope",
+        "m5-02:meaning"
+      ],
+      "knowledgeChecks": [
+        "m5-k1",
+        "m5-k4"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p018",
+      "proposition": "Eén kleine inzamelactie vult de gehele campagne, terwijl productvolume en hoofdprocessen ongewijzigd blijven.",
+      "concepts": [
+        "selectieve communicatie",
+        "vage claims",
+        "irrelevante communicatie",
+        "symbolische duurzaamheid"
+      ],
+      "sourceBlocks": [
+        9,
+        10
+      ],
+      "teachingLocation": "m5-02-b1:reveal:r4",
+      "worldEvidence": "Vier manieren om een groen beeld te maken",
+      "practiceBeat": "m5-02-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m5-02:scope",
+        "m5-02:meaning"
+      ],
+      "knowledgeChecks": [
+        "m5-k1",
+        "m5-k4"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p019",
+      "proposition": "De tekst noemt een gemeten reparatiepilot, de periode, de gebruikte indicator en welke overige gevolgen nog niet zijn onderzocht.",
+      "concepts": [
+        "selectieve communicatie",
+        "vage claims",
+        "irrelevante communicatie",
+        "symbolische duurzaamheid"
+      ],
+      "sourceBlocks": [
+        9,
+        10
+      ],
+      "teachingLocation": "m5-02-b1:reveal:r5",
+      "worldEvidence": "Vier manieren om een groen beeld te maken",
+      "practiceBeat": "m5-02-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m5-02:scope",
+        "m5-02:meaning"
+      ],
+      "knowledgeChecks": [
+        "m5-k1",
+        "m5-k4"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p020",
+      "proposition": "GLOBIS laat zien dat groene kleuren en natuurbeelden een milieuvriendelijke indruk kunnen suggereren zonder expliciete claim. Onderzoek de publieksindruk en het bewijs; een kleur alleen bewijst geen greenwashing.",
+      "concepts": [
+        "selectieve communicatie",
+        "vage claims",
+        "irrelevante communicatie",
+        "symbolische duurzaamheid"
+      ],
+      "sourceBlocks": [
+        9,
+        10
+      ],
+      "teachingLocation": "m5-02-b1:reveal:r6",
+      "worldEvidence": "Vier manieren om een groen beeld te maken",
+      "practiceBeat": "m5-02-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m5-02:scope",
+        "m5-02:meaning"
+      ],
+      "knowledgeChecks": [
+        "m5-k1",
+        "m5-k4"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p021",
+      "proposition": "Vegan leather kan kunststof zijn. Een uitspraak over dierlijke herkomst zegt niet vanzelf iets over milieu-impact, levensduur of verwerking. Vraag welke eigenschap echt is aangetoond.",
+      "concepts": [
+        "selectieve communicatie",
+        "vage claims",
+        "irrelevante communicatie",
+        "symbolische duurzaamheid"
+      ],
+      "sourceBlocks": [
+        9,
+        10
+      ],
+      "teachingLocation": "m5-02-b1:reveal:r7",
+      "worldEvidence": "Vier manieren om een groen beeld te maken",
+      "practiceBeat": "m5-02-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m5-02:scope",
+        "m5-02:meaning"
+      ],
+      "knowledgeChecks": [
+        "m5-k1",
+        "m5-k4"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p022",
+      "proposition": "Een compensatieproject buiten de eigen keten toont niet automatisch minder eigen uitstoot. Onderzoek methode, werkelijk effect en claimgrens; houd compensatie en eigen reductie zichtbaar gescheiden.",
+      "concepts": [
+        "selectieve communicatie",
+        "vage claims",
+        "irrelevante communicatie",
+        "symbolische duurzaamheid"
+      ],
+      "sourceBlocks": [
+        9,
+        10
+      ],
+      "teachingLocation": "m5-02-b1:reveal:r8",
+      "worldEvidence": "Vier manieren om een groen beeld te maken",
+      "practiceBeat": "m5-02-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m5-02:scope",
+        "m5-02:meaning"
+      ],
+      "knowledgeChecks": [
+        "m5-k1",
+        "m5-k4"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p023",
+      "proposition": "De cursus onderscheidt vier communicatievormen. Delmas en Burbano onderzoeken onder meer externe, organisatorische en individuele prikkels en bespreken andere taxonomieën. De vier lenzen helpen deze route analyseren; ze zijn geen universele, exclusieve indeling.",
+      "concepts": [
+        "selectieve communicatie",
+        "vage claims",
+        "irrelevante communicatie",
+        "symbolische duurzaamheid"
+      ],
+      "sourceBlocks": [
+        9,
+        10
+      ],
+      "teachingLocation": "m5-02-b1:reveal:r9",
+      "worldEvidence": "Vier manieren om een groen beeld te maken",
+      "practiceBeat": "m5-02-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m5-02:scope",
+        "m5-02:meaning"
+      ],
+      "knowledgeChecks": [
+        "m5-k1",
+        "m5-k4"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p024",
+      "proposition": "De categorie helpt gericht bewijs vragen. Zij bewijst geen intentie en is niet zelf de volledige ethische beoordeling. Beoordeel ook de indruk die de presentatie bij een publiek kan maken.",
+      "concepts": [
+        "selectieve communicatie",
+        "vage claims",
+        "irrelevante communicatie",
+        "symbolische duurzaamheid"
+      ],
+      "sourceBlocks": [
+        9
+      ],
+      "teachingLocation": "m5-02-b2:explainAfter",
+      "worldEvidence": "Leg de poster bij het getoonde mechanisme",
+      "practiceBeat": "m5-02-b2",
+      "practiceType": "sort",
+      "synthesisSlots": [
+        "m5-02:scope",
+        "m5-02:meaning"
+      ],
+      "knowledgeChecks": [
+        "m5-k1",
+        "m5-k4"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p025",
+      "proposition": "Een ontbrekende definitie wijst op vaagheid; een weggelaten grote stroom op selectie; een al verplichte eigenschap op irrelevantie; een uitvergrote kleine actie op symboliek.",
+      "concepts": [
+        "selectieve communicatie",
+        "vage claims",
+        "irrelevante communicatie",
+        "symbolische duurzaamheid"
+      ],
+      "sourceBlocks": [
+        9
+      ],
+      "teachingLocation": "m5-02-b2:hint",
+      "worldEvidence": "Leg de poster bij het getoonde mechanisme",
+      "practiceBeat": "m5-02-b2",
+      "practiceType": "sort",
+      "synthesisSlots": [
+        "m5-02:scope",
+        "m5-02:meaning"
+      ],
+      "knowledgeChecks": [
+        "m5-k1",
+        "m5-k4"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p026",
+      "proposition": "Transparante informatie is volledig genoeg voor de bedoelde uitspraak, controleerbaar en niet misleidend. Juridische toelaatbaarheid en ethische deugdelijkheid zijn niet identiek; ook ware selectie kan een verkeerd totaalbeeld geven.",
+      "concepts": [
+        "transparantie",
+        "controleerbaarheid",
+        "waarheidsgetrouwheid",
+        "legaliteit versus ethiek"
+      ],
+      "sourceBlocks": [
+        9,
+        21
+      ],
+      "teachingLocation": "m5-02-b3:explainAfter",
+      "worldEvidence": "Vraag het bewijs dat de claim mist",
+      "practiceBeat": "m5-02-b3",
+      "practiceType": "connect",
+      "synthesisSlots": [
+        "m5-02:scope",
+        "m5-02:meaning"
+      ],
+      "knowledgeChecks": [
+        "m5-k3"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p027",
+      "proposition": "Vraag naar betekenis, meetgrens, vergelijking, omvang en uitvoering. Een bewijsverzoek moet het concrete claimprobleem raken; populariteit is geen vervanging voor gegevens.",
+      "concepts": [
+        "transparantie",
+        "controleerbaarheid",
+        "waarheidsgetrouwheid",
+        "legaliteit versus ethiek"
+      ],
+      "sourceBlocks": [
+        9,
+        21
+      ],
+      "teachingLocation": "m5-02-b3:hint",
+      "worldEvidence": "Vraag het bewijs dat de claim mist",
+      "practiceBeat": "m5-02-b3",
+      "practiceType": "connect",
+      "synthesisSlots": [
+        "m5-02:scope",
+        "m5-02:meaning"
+      ],
+      "knowledgeChecks": [
+        "m5-k3"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p028",
+      "proposition": "De beste reparatie van een misleidende tekst is niet alleen een rustiger kleur. De uitspraak moet aansluiten op het bewijs. Daarna blijft een afzonderlijke vraag of het bedrijfsmodel voldoende verandert.",
+      "concepts": [
+        "claimgrens",
+        "transparantie",
+        "feitelijke prestatie",
+        "symbolische communicatie"
+      ],
+      "sourceBlocks": [
+        9,
+        21,
+        27
+      ],
+      "teachingLocation": "m5-02-b4:explainAfter",
+      "worldEvidence": "Maak een controleerbare drukproef",
+      "practiceBeat": "m5-02-b4",
+      "practiceType": "build",
+      "synthesisSlots": [
+        "m5-02:scope",
+        "m5-02:meaning"
+      ],
+      "knowledgeChecks": [
+        "m5-k3"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p029",
+      "proposition": "Een sterke claim heeft een betekenis, een meetgrens, gegevens en een vergelijking nodig. Benoem relevante beperkingen; toon wat al gebeurde en wat nog een plan is.",
+      "concepts": [
+        "claimgrens",
+        "transparantie",
+        "feitelijke prestatie",
+        "symbolische communicatie"
+      ],
+      "sourceBlocks": [
+        9,
+        21,
+        27
+      ],
+      "teachingLocation": "m5-02-b4:hint",
+      "worldEvidence": "Maak een controleerbare drukproef",
+      "practiceBeat": "m5-02-b4",
+      "practiceType": "build",
+      "synthesisSlots": [
+        "m5-02:scope",
+        "m5-02:meaning"
+      ],
+      "knowledgeChecks": [
+        "m5-k3"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p030",
+      "proposition": "Compensatie vraagt eigen bewijs en begrenzing. Zij verandert niet door haar bestaan het gemeten eigen uitstootniveau. Een verantwoord oordeel kan meerdere afwegingen toelaten; het gegeven uitstootfeit mag niet worden vervangen.",
+      "concepts": [
+        "compensatie versus reductie",
+        "claimgrens",
+        "waarheidsgetrouwheid"
+      ],
+      "sourceBlocks": [
+        1,
+        25
+      ],
+      "teachingLocation": "m5-02-b5:explainAfter",
+      "worldEvidence": "Wat bewijst de compensatiebon?",
+      "practiceBeat": "m5-02-b5",
+      "practiceType": "decision",
+      "synthesisSlots": [
+        "m5-02:scope",
+        "m5-02:meaning"
+      ],
+      "knowledgeChecks": [],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p031",
+      "proposition": "Een externe projectbijdrage en een vermindering in eigen processen zijn verschillende claims. Beoordeel hun afzonderlijke meetmethoden en effecten voordat je een totaalresultaat beweert.",
+      "concepts": [
+        "compensatie versus reductie",
+        "claimgrens",
+        "waarheidsgetrouwheid"
+      ],
+      "sourceBlocks": [
+        1,
+        25
+      ],
+      "teachingLocation": "m5-02-b5:hint",
+      "worldEvidence": "Wat bewijst de compensatiebon?",
+      "practiceBeat": "m5-02-b5",
+      "practiceType": "decision",
+      "synthesisSlots": [
+        "m5-02:scope",
+        "m5-02:meaning"
+      ],
+      "knowledgeChecks": [],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p032",
+      "proposition": "De oude productielijn is gekoppeld aan specifieke materialen en contracten. Een verandering vraagt niet alleen een andere poster, maar aanpassing van die relaties.",
+      "concepts": [
+        "path dependency",
+        "padafhankelijkheid",
+        "verwachting versus capaciteit",
+        "organisatorische traagheid"
+      ],
+      "sourceBlocks": [
+        0,
+        3
+      ],
+      "teachingLocation": "m5-03-b1:reveal:r1",
+      "worldEvidence": "Een oude machine, een nieuwe verwachting",
+      "practiceBeat": "m5-03-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m5-03:past",
+        "m5-03:total",
+        "m5-03:responsibility"
+      ],
+      "knowledgeChecks": [
+        "m5-k2"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p033",
+      "proposition": "Nieuwe machines en reparatiekennis zijn nog niet beschikbaar. Tijd, middelen en organisatie beperken wat vandaag uitgevoerd kan worden.",
+      "concepts": [
+        "path dependency",
+        "padafhankelijkheid",
+        "verwachting versus capaciteit",
+        "organisatorische traagheid"
+      ],
+      "sourceBlocks": [
+        0,
+        3
+      ],
+      "teachingLocation": "m5-03-b1:reveal:r2",
+      "worldEvidence": "Een oude machine, een nieuwe verwachting",
+      "practiceBeat": "m5-03-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m5-03:past",
+        "m5-03:total",
+        "m5-03:responsibility"
+      ],
+      "knowledgeChecks": [
+        "m5-k2"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p034",
+      "proposition": "Een deel van de producten gebruikt een minder belastende materiaalroute binnen één gemeten indicator. Het deel is nog niet de volledige productie.",
+      "concepts": [
+        "path dependency",
+        "padafhankelijkheid",
+        "verwachting versus capaciteit",
+        "organisatorische traagheid"
+      ],
+      "sourceBlocks": [
+        0,
+        3
+      ],
+      "teachingLocation": "m5-03-b1:reveal:r3",
+      "worldEvidence": "Een oude machine, een nieuwe verwachting",
+      "practiceBeat": "m5-03-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m5-03:past",
+        "m5-03:total",
+        "m5-03:responsibility"
+      ],
+      "knowledgeChecks": [
+        "m5-k2"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p035",
+      "proposition": "Meer productie kan een verbetering per stuk tenietdoen in het totale effect. Bekijk per-product- en absolute cijfers afzonderlijk.",
+      "concepts": [
+        "path dependency",
+        "padafhankelijkheid",
+        "verwachting versus capaciteit",
+        "organisatorische traagheid"
+      ],
+      "sourceBlocks": [
+        0,
+        3
+      ],
+      "teachingLocation": "m5-03-b1:reveal:r4",
+      "worldEvidence": "Een oude machine, een nieuwe verwachting",
+      "practiceBeat": "m5-03-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m5-03:past",
+        "m5-03:total",
+        "m5-03:responsibility"
+      ],
+      "knowledgeChecks": [
+        "m5-k2"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p036",
+      "proposition": "Een keuze voor lagere volumes, herontwerp of gefaseerde vervanging heeft verschillende kosten en belangen. Vergelijk die routes in plaats van traagheid als onvermijdelijk te behandelen.",
+      "concepts": [
+        "path dependency",
+        "padafhankelijkheid",
+        "verwachting versus capaciteit",
+        "organisatorische traagheid"
+      ],
+      "sourceBlocks": [
+        0,
+        3
+      ],
+      "teachingLocation": "m5-03-b1:reveal:r5",
+      "worldEvidence": "Een oude machine, een nieuwe verwachting",
+      "practiceBeat": "m5-03-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m5-03:past",
+        "m5-03:total",
+        "m5-03:responsibility"
+      ],
+      "knowledgeChecks": [
+        "m5-k2"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p037",
+      "proposition": "Padafhankelijkheid ontstaat doordat keuzes zich in apparaten, contracten en werkwijzen vastzetten. Daardoor is veranderen kostbaar en gecoördineerd werk nodig. Die geschiedenis bepaalt niet elke toekomstige uitkomst.",
+      "concepts": [
+        "padafhankelijkheid",
+        "investeringen",
+        "organisatorische beperkingen"
+      ],
+      "sourceBlocks": [
+        3
+      ],
+      "teachingLocation": "m5-03-b2:explainAfter",
+      "worldEvidence": "Reconstrueer de afhankelijke route",
+      "practiceBeat": "m5-03-b2",
+      "practiceType": "order",
+      "synthesisSlots": [
+        "m5-03:past",
+        "m5-03:total",
+        "m5-03:responsibility"
+      ],
+      "knowledgeChecks": [
+        "m5-k2"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p038",
+      "proposition": "Volg investering, bijpassende contracten en routines, omschakelkosten en de huidige beperkte speelruimte. Daarna onderzoek je alternatieven en bevoegde partijen.",
+      "concepts": [
+        "padafhankelijkheid",
+        "investeringen",
+        "organisatorische beperkingen"
+      ],
+      "sourceBlocks": [
+        3
+      ],
+      "teachingLocation": "m5-03-b2:hint",
+      "worldEvidence": "Reconstrueer de afhankelijke route",
+      "practiceBeat": "m5-03-b2",
+      "practiceType": "order",
+      "synthesisSlots": [
+        "m5-03:past",
+        "m5-03:total",
+        "m5-03:responsibility"
+      ],
+      "knowledgeChecks": [
+        "m5-k2"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p039",
+      "proposition": "De greenwashing-kloof ontstaat uit meer dan één persoon. Een systeemaanpak onderzoekt institutionele druk, prikkels en beperkingen én wie het werk kan aanpassen. Leg de feitelijke grenzen eerlijk uit.",
+      "concepts": [
+        "systeemfenomeen",
+        "capaciteit",
+        "middelen kennis bereidheid",
+        "agency"
+      ],
+      "sourceBlocks": [
+        0,
+        3,
+        27
+      ],
+      "teachingLocation": "m5-03-b3:explainAfter",
+      "worldEvidence": "Maak beperking geen vrijbrief",
+      "practiceBeat": "m5-03-b3",
+      "practiceType": "connect",
+      "synthesisSlots": [
+        "m5-03:past",
+        "m5-03:total",
+        "m5-03:responsibility"
+      ],
+      "knowledgeChecks": [],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p040",
+      "proposition": "Scheid fysieke capaciteit, financiering, kennis en bereidheid. Elk obstakel vraagt ander bewijs en een andere aanpak; druk op reputatie vervangt de verandering niet.",
+      "concepts": [
+        "systeemfenomeen",
+        "capaciteit",
+        "middelen kennis bereidheid",
+        "agency"
+      ],
+      "sourceBlocks": [
+        0,
+        3,
+        27
+      ],
+      "teachingLocation": "m5-03-b3:hint",
+      "worldEvidence": "Maak beperking geen vrijbrief",
+      "practiceBeat": "m5-03-b3",
+      "practiceType": "connect",
+      "synthesisSlots": [
+        "m5-03:past",
+        "m5-03:total",
+        "m5-03:responsibility"
+      ],
+      "knowledgeChecks": [],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p041",
+      "proposition": "Een lokale verbetering kan echt zijn terwijl de totale impact stijgt. Selectieve communicatie ontstaat wanneer de beperkte indicator een brede indruk draagt. De fictieve proef meet geen volledige duurzaamheid.",
+      "concepts": [
+        "per-product versus absolute impact",
+        "selectieve communicatie",
+        "claimgrens",
+        "volume"
+      ],
+      "sourceBlocks": [
+        9,
+        14,
+        21,
+        24
+      ],
+      "teachingLocation": "m5-03-b4:explainAfter",
+      "worldEvidence": "Verander volume en pilotbereik",
+      "practiceBeat": "m5-03-b4",
+      "practiceType": "experiment",
+      "synthesisSlots": [
+        "m5-03:past",
+        "m5-03:total",
+        "m5-03:responsibility"
+      ],
+      "knowledgeChecks": [
+        "m5-k5"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p042",
+      "proposition": "Een lagere impact per pilotproduct zegt niets op zichzelf over de volledige organisatie. Totaal hangt ook af van volume en welk deel verbeterd is; vaste grenzen maken vergelijken mogelijk.",
+      "concepts": [
+        "per-product versus absolute impact",
+        "selectieve communicatie",
+        "claimgrens",
+        "volume"
+      ],
+      "sourceBlocks": [
+        9,
+        14,
+        21,
+        24
+      ],
+      "teachingLocation": "m5-03-b4:hint",
+      "worldEvidence": "Verander volume en pilotbereik",
+      "practiceBeat": "m5-03-b4",
+      "practiceType": "experiment",
+      "synthesisSlots": [
+        "m5-03:past",
+        "m5-03:total",
+        "m5-03:responsibility"
+      ],
+      "knowledgeChecks": [
+        "m5-k5"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p043",
+      "proposition": "De Conscious Collection werd als duurzamere lijn gepresenteerd, met gerecyclede materialen en productiemethoden. De cursus beschrijft kritiek op de relatie met het bredere fast-fashionmodel.",
+      "concepts": [
+        "H&M Conscious Collection broncasus",
+        "fast fashion",
+        "deelinitiatief versus bedrijfsmodel",
+        "selectieve communicatie"
+      ],
+      "sourceBlocks": [
+        14,
+        15
+      ],
+      "teachingLocation": "m5-04-b1:reveal:r1",
+      "worldEvidence": "Een collectie is nog geen bedrijfsmodel",
+      "practiceBeat": "m5-04-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m5-04:model",
+        "m5-04:route"
+      ],
+      "knowledgeChecks": [
+        "m5-k1"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p044",
+      "proposition": "Snelle productiecycli, lage prijzen en grote volumes kunnen blijven bestaan naast een duurzamere collectie. Materiaalkeuze is niet hetzelfde als verandering van alle productieprikkels.",
+      "concepts": [
+        "H&M Conscious Collection broncasus",
+        "fast fashion",
+        "deelinitiatief versus bedrijfsmodel",
+        "selectieve communicatie"
+      ],
+      "sourceBlocks": [
+        14,
+        15
+      ],
+      "teachingLocation": "m5-04-b1:reveal:r2",
+      "worldEvidence": "Een collectie is nog geen bedrijfsmodel",
+      "practiceBeat": "m5-04-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m5-04:model",
+        "m5-04:route"
+      ],
+      "knowledgeChecks": [
+        "m5-k1"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p045",
+      "proposition": "Een kleine collectie kan een beperkt aandeel zijn. Een bedrijfsbrede claim vraagt informatie over het volledige aanbod en de grotere impactstromen.",
+      "concepts": [
+        "H&M Conscious Collection broncasus",
+        "fast fashion",
+        "deelinitiatief versus bedrijfsmodel",
+        "selectieve communicatie"
+      ],
+      "sourceBlocks": [
+        14,
+        15
+      ],
+      "teachingLocation": "m5-04-b1:reveal:r3",
+      "worldEvidence": "Een collectie is nog geen bedrijfsmodel",
+      "practiceBeat": "m5-04-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m5-04:model",
+        "m5-04:route"
+      ],
+      "knowledgeChecks": [
+        "m5-k1"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p046",
+      "proposition": "Een inzamelactie zonder betrouwbare verwerking toont niet dat materiaal daadwerkelijk opnieuw gebruikt of gerecycled wordt. Volg de vervolgstappen.",
+      "concepts": [
+        "H&M Conscious Collection broncasus",
+        "fast fashion",
+        "deelinitiatief versus bedrijfsmodel",
+        "selectieve communicatie"
+      ],
+      "sourceBlocks": [
+        14,
+        15
+      ],
+      "teachingLocation": "m5-04-b1:reveal:r4",
+      "worldEvidence": "Een collectie is nog geen bedrijfsmodel",
+      "practiceBeat": "m5-04-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m5-04:model",
+        "m5-04:route"
+      ],
+      "knowledgeChecks": [
+        "m5-k1"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p047",
+      "proposition": "Productie, gebruik, afval en sociale omstandigheden raken andere groepen en toekomstige mogelijkheden. Een groen materiaal zegt daar niet vanzelf alles over.",
+      "concepts": [
+        "H&M Conscious Collection broncasus",
+        "fast fashion",
+        "deelinitiatief versus bedrijfsmodel",
+        "selectieve communicatie"
+      ],
+      "sourceBlocks": [
+        14,
+        15
+      ],
+      "teachingLocation": "m5-04-b1:reveal:r5",
+      "worldEvidence": "Een collectie is nog geen bedrijfsmodel",
+      "practiceBeat": "m5-04-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m5-04:model",
+        "m5-04:route"
+      ],
+      "knowledgeChecks": [
+        "m5-k1"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p048",
+      "proposition": "Communicatie moet aansluiten op de uitgevoerde route. Bedrijven zijn ook verantwoordelijk voor gevolgen verder in de keten. Een duurzame ambitie heeft geen vrijbrief om onbekende vervolguitkomsten als bewezen te presenteren.",
+      "concepts": [
+        "feitelijke praktijk",
+        "verantwoordelijkheid voor gevolgen",
+        "claimgrens",
+        "circulaire processen"
+      ],
+      "sourceBlocks": [
+        14,
+        21,
+        24
+      ],
+      "teachingLocation": "m5-04-b2:explainAfter",
+      "worldEvidence": "Volg de belofte naar het werk",
+      "practiceBeat": "m5-04-b2",
+      "practiceType": "connect",
+      "synthesisSlots": [
+        "m5-04:model",
+        "m5-04:route"
+      ],
+      "knowledgeChecks": [],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p049",
+      "proposition": "Vraag wat werkelijk gebeurt na de handeling en op welke schaal. Hergebruik, reparatie en recycling vragen verschillende processen; één telling vervangt geen ketenbewijs.",
+      "concepts": [
+        "feitelijke praktijk",
+        "verantwoordelijkheid voor gevolgen",
+        "claimgrens",
+        "circulaire processen"
+      ],
+      "sourceBlocks": [
+        14,
+        21,
+        24
+      ],
+      "teachingLocation": "m5-04-b2:hint",
+      "worldEvidence": "Volg de belofte naar het werk",
+      "practiceBeat": "m5-04-b2",
+      "practiceType": "connect",
+      "synthesisSlots": [
+        "m5-04:model",
+        "m5-04:route"
+      ],
+      "knowledgeChecks": [],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p050",
+      "proposition": "Selectieve communicatie kan op echte gegevens rusten. Waarheidsgetrouwheid vraagt dat de indruk bij het publiek klopt met reikwijdte en relevante ontbrekende informatie, ook als elk los getal juist is.",
+      "concepts": [
+        "selectieve communicatie",
+        "deelinitiatief versus bedrijfsmodel",
+        "waarheidsgetrouwheid"
+      ],
+      "sourceBlocks": [
+        9,
+        14,
+        21
+      ],
+      "teachingLocation": "m5-04-b3:explainAfter",
+      "worldEvidence": "Sorteer wat de bewijsgrens toelaat",
+      "practiceBeat": "m5-04-b3",
+      "practiceType": "sort",
+      "synthesisSlots": [
+        "m5-04:model",
+        "m5-04:route"
+      ],
+      "knowledgeChecks": [
+        "m5-k1"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p051",
+      "proposition": "Een resultaat binnen één indicator is bruikbaar als deelbewijs. Voor het hele bedrijf heb je schaal, overige impact en uitvoering nodig. Kritiek bewijst niet dat iedere verbetering fictief is.",
+      "concepts": [
+        "selectieve communicatie",
+        "deelinitiatief versus bedrijfsmodel",
+        "waarheidsgetrouwheid"
+      ],
+      "sourceBlocks": [
+        9,
+        14,
+        21
+      ],
+      "teachingLocation": "m5-04-b3:hint",
+      "worldEvidence": "Sorteer wat de bewijsgrens toelaat",
+      "practiceBeat": "m5-04-b3",
+      "practiceType": "sort",
+      "synthesisSlots": [
+        "m5-04:model",
+        "m5-04:route"
+      ],
+      "knowledgeChecks": [
+        "m5-k1"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p052",
+      "proposition": "Een echte transitie kan geleidelijk zijn. Werk met gemeten deelresultaten, structurele veranderingen en open onzekerheden. Zo neemt communicatie het werk niet over en kunnen anderen de voortgang beoordelen.",
+      "concepts": [
+        "structurele verandering",
+        "feitelijke praktijk",
+        "verantwoordelijkheid",
+        "vertraging van systeemverandering"
+      ],
+      "sourceBlocks": [
+        14,
+        24,
+        27
+      ],
+      "teachingLocation": "m5-04-b4:explainAfter",
+      "worldEvidence": "Maak een veranderkaart voor de hele route",
+      "practiceBeat": "m5-04-b4",
+      "practiceType": "build",
+      "synthesisSlots": [
+        "m5-04:model",
+        "m5-04:route"
+      ],
+      "knowledgeChecks": [
+        "m5-k8"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p053",
+      "proposition": "Een betrouwbare route volgt feitelijke stromen, benoemt schaal en verbindt doelen aan productritme, budget en verantwoordelijkheid. Kleine verbeteringen mogen zichtbaar zijn, mits hun beperking zichtbaar blijft.",
+      "concepts": [
+        "structurele verandering",
+        "feitelijke praktijk",
+        "verantwoordelijkheid",
+        "vertraging van systeemverandering"
+      ],
+      "sourceBlocks": [
+        14,
+        24,
+        27
+      ],
+      "teachingLocation": "m5-04-b4:hint",
+      "worldEvidence": "Maak een veranderkaart voor de hele route",
+      "practiceBeat": "m5-04-b4",
+      "practiceType": "build",
+      "synthesisSlots": [
+        "m5-04:model",
+        "m5-04:route"
+      ],
+      "knowledgeChecks": [
+        "m5-k8"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p054",
+      "proposition": "Een wetenschappelijke methode ondersteunt vergelijking binnen duidelijke grenzen. Minder impact in één stap kan met meer impact elders samengaan. De drukproef moet zeggen welke levenscyclusstappen en indicatoren onderzocht zijn.",
+      "concepts": [
+        "Environmental Footprint",
+        "levenscyclus",
+        "claimgrens",
+        "selectieve communicatie"
+      ],
+      "sourceBlocks": [
+        18,
+        21,
+        24
+      ],
+      "teachingLocation": "m5-04-b5:explainAfter",
+      "worldEvidence": "De meetgrens volgt de levenscyclus",
+      "practiceBeat": "m5-04-b5",
+      "practiceType": "order",
+      "synthesisSlots": [
+        "m5-04:model",
+        "m5-04:route"
+      ],
+      "knowledgeChecks": [],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p055",
+      "proposition": "Een levenscyclusgrens kan winning, productie, gebruik en afval omvatten. Emissies en middelen kunnen over die stappen verschuiven; meet wat de claim werkelijk bestrijkt.",
+      "concepts": [
+        "Environmental Footprint",
+        "levenscyclus",
+        "claimgrens",
+        "selectieve communicatie"
+      ],
+      "sourceBlocks": [
+        18,
+        21,
+        24
+      ],
+      "teachingLocation": "m5-04-b5:hint",
+      "worldEvidence": "De meetgrens volgt de levenscyclus",
+      "practiceBeat": "m5-04-b5",
+      "practiceType": "order",
+      "synthesisSlots": [
+        "m5-04:model",
+        "m5-04:route"
+      ],
+      "knowledgeChecks": [],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p056",
+      "proposition": "De financier vraagt duurzaamheid naast rendement. Een reputatievoordeel kan toegang tot financiering of waardering beïnvloeden.",
+      "concepts": [
+        "ESG",
+        "reputatie als bedrijfsmiddel",
+        "kapitaalmarkten",
+        "informatie-asymmetrie",
+        "Lyon en Montgomery"
+      ],
+      "sourceBlocks": [
+        6,
+        7
+      ],
+      "teachingLocation": "m5-05-b1:reveal:r1",
+      "worldEvidence": "Wie weet wat en wie betaalt?",
+      "practiceBeat": "m5-05-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m5-05:asymmetry",
+        "m5-05:competition",
+        "m5-05:future"
+      ],
+      "knowledgeChecks": [
+        "m5-k3",
+        "m5-k6"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p057",
+      "proposition": "De organisatie kent verliezen en volledige volumes; het publiek ziet alleen het gunstige pilotgetal. Dit is informatie-asymmetrie.",
+      "concepts": [
+        "ESG",
+        "reputatie als bedrijfsmiddel",
+        "kapitaalmarkten",
+        "informatie-asymmetrie",
+        "Lyon en Montgomery"
+      ],
+      "sourceBlocks": [
+        6,
+        7
+      ],
+      "teachingLocation": "m5-05-b1:reveal:r2",
+      "worldEvidence": "Wie weet wat en wie betaalt?",
+      "practiceBeat": "m5-05-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m5-05:asymmetry",
+        "m5-05:competition",
+        "m5-05:future"
+      ],
+      "knowledgeChecks": [
+        "m5-k3",
+        "m5-k6"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p058",
+      "proposition": "Een concurrent investeert in reparatie en lagere impact. Wanneer alleen uitstraling beloond wordt, kan een goedkoper symbool vergelijkbaar reputatievoordeel krijgen.",
+      "concepts": [
+        "ESG",
+        "reputatie als bedrijfsmiddel",
+        "kapitaalmarkten",
+        "informatie-asymmetrie",
+        "Lyon en Montgomery"
+      ],
+      "sourceBlocks": [
+        6,
+        7
+      ],
+      "teachingLocation": "m5-05-b1:reveal:r3",
+      "worldEvidence": "Wie weet wat en wie betaalt?",
+      "practiceBeat": "m5-05-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m5-05:asymmetry",
+        "m5-05:competition",
+        "m5-05:future"
+      ],
+      "knowledgeChecks": [
+        "m5-k3",
+        "m5-k6"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p059",
+      "proposition": "Milieu, sociale gevolgen en governance zijn verschillende onderdelen. Een groene materiaalindicator dekt sociale omstandigheden en verantwoording niet vanzelf.",
+      "concepts": [
+        "ESG",
+        "reputatie als bedrijfsmiddel",
+        "kapitaalmarkten",
+        "informatie-asymmetrie",
+        "Lyon en Montgomery"
+      ],
+      "sourceBlocks": [
+        6,
+        7
+      ],
+      "teachingLocation": "m5-05-b1:reveal:r4",
+      "worldEvidence": "Wie weet wat en wie betaalt?",
+      "practiceBeat": "m5-05-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m5-05:asymmetry",
+        "m5-05:competition",
+        "m5-05:future"
+      ],
+      "knowledgeChecks": [
+        "m5-k3",
+        "m5-k6"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p060",
+      "proposition": "Herhaaldelijk niet-kloppende claims kunnen wantrouwen oproepen tegenover bedrijven, keurmerken, labels en beleid. Dat kan ook betrouwbare initiatieven raken.",
+      "concepts": [
+        "ESG",
+        "reputatie als bedrijfsmiddel",
+        "kapitaalmarkten",
+        "informatie-asymmetrie",
+        "Lyon en Montgomery"
+      ],
+      "sourceBlocks": [
+        6,
+        7
+      ],
+      "teachingLocation": "m5-05-b1:reveal:r5",
+      "worldEvidence": "Wie weet wat en wie betaalt?",
+      "practiceBeat": "m5-05-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m5-05:asymmetry",
+        "m5-05:competition",
+        "m5-05:future"
+      ],
+      "knowledgeChecks": [
+        "m5-k3",
+        "m5-k6"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p061",
+      "proposition": "Stakeholdertheorie vraagt aandacht voor geraakte belanghebbenden. Intergenerationele rechtvaardigheid kijkt ook naar mogelijkheden van toekomstige generaties. Een reputatievoordeel bij huidige klanten dekt die gevolgen niet.",
+      "concepts": [
+        "ESG",
+        "reputatie als bedrijfsmiddel",
+        "kapitaalmarkten",
+        "informatie-asymmetrie",
+        "Lyon en Montgomery"
+      ],
+      "sourceBlocks": [
+        6,
+        7
+      ],
+      "teachingLocation": "m5-05-b1:reveal:r6",
+      "worldEvidence": "Wie weet wat en wie betaalt?",
+      "practiceBeat": "m5-05-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m5-05:asymmetry",
+        "m5-05:competition",
+        "m5-05:future"
+      ],
+      "knowledgeChecks": [
+        "m5-k3",
+        "m5-k6"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p062",
+      "proposition": "Green fatigue beschrijft het risico dat mensen duurzaamheidsclaims niet meer serieus nemen. Herhaalde misleiding kan ook vertrouwen in betrouwbare labels en echte verandering verzwakken.",
+      "concepts": [
+        "ESG",
+        "reputatie als bedrijfsmiddel",
+        "kapitaalmarkten",
+        "informatie-asymmetrie",
+        "Lyon en Montgomery"
+      ],
+      "sourceBlocks": [
+        6,
+        7
+      ],
+      "teachingLocation": "m5-05-b1:reveal:r7",
+      "worldEvidence": "Wie weet wat en wie betaalt?",
+      "practiceBeat": "m5-05-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m5-05:asymmetry",
+        "m5-05:competition",
+        "m5-05:future"
+      ],
+      "knowledgeChecks": [
+        "m5-k3",
+        "m5-k6"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p063",
+      "proposition": "Informatie-asymmetrie kan keuze en investering vertekenen. Betere toegang tot controleerbare gegevens kan de kloof verkleinen. Transparantie alleen verandert echter niet automatisch productie en financieringsprikkels.",
+      "concepts": [
+        "informatie-asymmetrie",
+        "macht door informatie",
+        "kapitaalmarkten",
+        "transparantie"
+      ],
+      "sourceBlocks": [
+        6,
+        17,
+        24
+      ],
+      "teachingLocation": "m5-05-b2:explainAfter",
+      "worldEvidence": "Van kenniskloof naar voordeel",
+      "practiceBeat": "m5-05-b2",
+      "practiceType": "connect",
+      "synthesisSlots": [
+        "m5-05:asymmetry",
+        "m5-05:competition",
+        "m5-05:future"
+      ],
+      "knowledgeChecks": [
+        "m5-k3",
+        "m5-k6"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p064",
+      "proposition": "Volg wie interne gegevens heeft, wat de ander te zien krijgt en hoe reputatie of kapitaal daarop reageert. De oorzaak is niet hetzelfde als een bewezen totale maatschappelijke uitkomst.",
+      "concepts": [
+        "informatie-asymmetrie",
+        "macht door informatie",
+        "kapitaalmarkten",
+        "transparantie"
+      ],
+      "sourceBlocks": [
+        6,
+        17,
+        24
+      ],
+      "teachingLocation": "m5-05-b2:hint",
+      "worldEvidence": "Van kenniskloof naar voordeel",
+      "practiceBeat": "m5-05-b2",
+      "practiceType": "connect",
+      "synthesisSlots": [
+        "m5-05:asymmetry",
+        "m5-05:competition",
+        "m5-05:future"
+      ],
+      "knowledgeChecks": [
+        "m5-k3",
+        "m5-k6"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p065",
+      "proposition": "Greenwashing reikt verder dan marketing. Transparantie, eerlijke concurrentie, vertrouwen, stakeholderverantwoordelijkheid en intergenerationele rechtvaardigheid vragen zicht op betrokkenen, feiten en toekomstige gevolgen.",
+      "concepts": [
+        "transparantie",
+        "eerlijke concurrentie",
+        "institutioneel vertrouwen",
+        "green fatigue",
+        "stakeholderverantwoordelijkheid",
+        "intergenerationele rechtvaardigheid"
+      ],
+      "sourceBlocks": [
+        21,
+        22,
+        24
+      ],
+      "teachingLocation": "m5-05-b3:explainAfter",
+      "worldEvidence": "Wie draagt welk ethisch gevolg?",
+      "practiceBeat": "m5-05-b3",
+      "practiceType": "sort",
+      "synthesisSlots": [
+        "m5-05:asymmetry",
+        "m5-05:competition",
+        "m5-05:future"
+      ],
+      "knowledgeChecks": [
+        "m5-k3",
+        "m5-k6",
+        "m5-k7"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p066",
+      "proposition": "Misleiding raakt beslissingen; oneerlijke reputatieconcurrentie raakt investeerders in echte verandering; wantrouwen raakt instituties. Stakeholders en toekomstige generaties worden getroffen door de feitelijke milieu- en sociale gevolgen.",
+      "concepts": [
+        "transparantie",
+        "eerlijke concurrentie",
+        "institutioneel vertrouwen",
+        "green fatigue",
+        "stakeholderverantwoordelijkheid",
+        "intergenerationele rechtvaardigheid"
+      ],
+      "sourceBlocks": [
+        21,
+        22,
+        24
+      ],
+      "teachingLocation": "m5-05-b3:hint",
+      "worldEvidence": "Wie draagt welk ethisch gevolg?",
+      "practiceBeat": "m5-05-b3",
+      "practiceType": "sort",
+      "synthesisSlots": [
+        "m5-05:asymmetry",
+        "m5-05:competition",
+        "m5-05:future"
+      ],
+      "knowledgeChecks": [
+        "m5-k3",
+        "m5-k6",
+        "m5-k7"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p067",
+      "proposition": "De organisatie moet anderen geen breder resultaat laten afleiden dan haar bewijs draagt. Eerlijke informatie ondersteunt keuzes; vervolgens moet ook de investering in werkelijke transformatie worden onderzocht.",
+      "concepts": [
+        "informatie-asymmetrie",
+        "controleerbaarheid",
+        "macht door informatie"
+      ],
+      "sourceBlocks": [
+        6,
+        21,
+        24
+      ],
+      "teachingLocation": "m5-05-b4:explainAfter",
+      "worldEvidence": "Repareer de informatie vóór de investering",
+      "practiceBeat": "m5-05-b4",
+      "practiceType": "decision",
+      "synthesisSlots": [
+        "m5-05:asymmetry",
+        "m5-05:competition",
+        "m5-05:future"
+      ],
+      "knowledgeChecks": [
+        "m5-k3"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p068",
+      "proposition": "Maak de relevante prestatie en grenzen toegankelijk en toetsbaar. Een hoger reclamebudget verandert niet wat de financier over werkelijke effecten weet.",
+      "concepts": [
+        "informatie-asymmetrie",
+        "controleerbaarheid",
+        "macht door informatie"
+      ],
+      "sourceBlocks": [
+        6,
+        21,
+        24
+      ],
+      "teachingLocation": "m5-05-b4:hint",
+      "worldEvidence": "Repareer de informatie vóór de investering",
+      "practiceBeat": "m5-05-b4",
+      "practiceType": "decision",
+      "synthesisSlots": [
+        "m5-05:asymmetry",
+        "m5-05:competition",
+        "m5-05:future"
+      ],
+      "knowledgeChecks": [
+        "m5-k3"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p069",
+      "proposition": "WSJ rapporteert in het bronfragment uit 2023 consumentenbereidheid om meer te betalen voor duurzame verpakking. De leerfunctie is commercieel belang en bewijsgrens, niet het memoriseren van een tijdloos percentage.",
+      "concepts": [
+        "reputatie als bedrijfsmiddel",
+        "consumentenprikkels",
+        "bewijslimiet"
+      ],
+      "sourceBlocks": [
+        6,
+        25
+      ],
+      "teachingLocation": "m5-05-b5:explainAfter",
+      "worldEvidence": "Wat vertelt een consumentenonderzoek?",
+      "practiceBeat": "m5-05-b5",
+      "practiceType": "sort",
+      "synthesisSlots": [
+        "m5-05:asymmetry",
+        "m5-05:competition",
+        "m5-05:future"
+      ],
+      "knowledgeChecks": [
+        "m5-k6"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p070",
+      "proposition": "Een enquête meet wat mensen zeggen. Dat kan een reputatieprikkel helpen begrijpen, maar een percentage bewijst geen aankoopgedrag, geen huidige universele voorkeur en geen duurzame prestatie.",
+      "concepts": [
+        "reputatie als bedrijfsmiddel",
+        "consumentenprikkels",
+        "bewijslimiet"
+      ],
+      "sourceBlocks": [
+        6,
+        25
+      ],
+      "teachingLocation": "m5-05-b5:hint",
+      "worldEvidence": "Wat vertelt een consumentenonderzoek?",
+      "practiceBeat": "m5-05-b5",
+      "practiceType": "sort",
+      "synthesisSlots": [
+        "m5-05:asymmetry",
+        "m5-05:competition",
+        "m5-05:future"
+      ],
+      "knowledgeChecks": [
+        "m5-k6"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p071",
+      "proposition": "Vergelijkbare indicatoren, grenzen en perioden helpen anderen prestatieclaims beoordelen. Ze kunnen de kenniskloof verkleinen.",
+      "concepts": [
+        "CSRD",
+        "institutionele interventie",
+        "transparantie",
+        "vergelijkbaarheid",
+        "structurele verandering"
+      ],
+      "sourceBlocks": [
+        17,
+        19,
+        24,
+        27
+      ],
+      "teachingLocation": "m5-06-b1:reveal:r1",
+      "worldEvidence": "Welke reactie verandert het systeem?",
+      "practiceBeat": "m5-06-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m5-06:report",
+        "m5-06:system"
+      ],
+      "knowledgeChecks": [
+        "m5-k3",
+        "m5-k8"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p072",
+      "proposition": "De cursus gebruikt CSRD als voorbeeld van rapportage over milieu, sociale prestaties en governance. Het toepassingsbereik is inmiddels gewijzigd; controleer actuele publieke informatie.",
+      "concepts": [
+        "CSRD",
+        "institutionele interventie",
+        "transparantie",
+        "vergelijkbaarheid",
+        "structurele verandering"
+      ],
+      "sourceBlocks": [
+        17,
+        19,
+        24,
+        27
+      ],
+      "teachingLocation": "m5-06-b1:reveal:r2",
+      "worldEvidence": "Welke reactie verandert het systeem?",
+      "practiceBeat": "m5-06-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m5-06:report",
+        "m5-06:system"
+      ],
+      "knowledgeChecks": [
+        "m5-k3",
+        "m5-k8"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p073",
+      "proposition": "Richtlijnen en toezicht kunnen misleidende communicatie begrenzen. Hun werking vraagt passende criteria, uitvoering en controle.",
+      "concepts": [
+        "CSRD",
+        "institutionele interventie",
+        "transparantie",
+        "vergelijkbaarheid",
+        "structurele verandering"
+      ],
+      "sourceBlocks": [
+        17,
+        19,
+        24,
+        27
+      ],
+      "teachingLocation": "m5-06-b1:reveal:r3",
+      "worldEvidence": "Welke reactie verandert het systeem?",
+      "practiceBeat": "m5-06-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m5-06:report",
+        "m5-06:system"
+      ],
+      "knowledgeChecks": [
+        "m5-k3",
+        "m5-k8"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p074",
+      "proposition": "Werkelijke productie- en ketenverandering heeft middelen, kennis, bevoegdheid en beheer nodig. Een rapport zonder uitvoering sluit de kloof niet.",
+      "concepts": [
+        "CSRD",
+        "institutionele interventie",
+        "transparantie",
+        "vergelijkbaarheid",
+        "structurele verandering"
+      ],
+      "sourceBlocks": [
+        17,
+        19,
+        24,
+        27
+      ],
+      "teachingLocation": "m5-06-b1:reveal:r4",
+      "worldEvidence": "Welke reactie verandert het systeem?",
+      "practiceBeat": "m5-06-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m5-06:report",
+        "m5-06:system"
+      ],
+      "knowledgeChecks": [
+        "m5-k3",
+        "m5-k8"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p075",
+      "proposition": "Stakeholders en toekomstige generaties dragen gevolgen. Overdreven voortgang kan noodzakelijke transities vertragen en vertrouwen beschadigen.",
+      "concepts": [
+        "CSRD",
+        "institutionele interventie",
+        "transparantie",
+        "vergelijkbaarheid",
+        "structurele verandering"
+      ],
+      "sourceBlocks": [
+        17,
+        19,
+        24,
+        27
+      ],
+      "teachingLocation": "m5-06-b1:reveal:r5",
+      "worldEvidence": "Welke reactie verandert het systeem?",
+      "practiceBeat": "m5-06-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m5-06:report",
+        "m5-06:system"
+      ],
+      "knowledgeChecks": [
+        "m5-k3",
+        "m5-k8"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p076",
+      "proposition": "De Europese bronvideo noemt wetenschappelijke methoden om milieueffecten en grondstoffengebruik over de levenscyclus te onderzoeken. Een meting van verpakking alleen dekt winning, productie, gebruik en afval niet.",
+      "concepts": [
+        "CSRD",
+        "institutionele interventie",
+        "transparantie",
+        "vergelijkbaarheid",
+        "structurele verandering"
+      ],
+      "sourceBlocks": [
+        17,
+        19,
+        24,
+        27
+      ],
+      "teachingLocation": "m5-06-b1:reveal:r6",
+      "worldEvidence": "Welke reactie verandert het systeem?",
+      "practiceBeat": "m5-06-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m5-06:report",
+        "m5-06:system"
+      ],
+      "knowledgeChecks": [
+        "m5-k3",
+        "m5-k8"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p077",
+      "proposition": "De bronvideo noemt EU Ecolabel en EMAS als bestaande vrijwillige initiatieven. Een label heeft criteria en een toepassingsgrens; het bewijst niet vanzelf dat alle bedrijfseffecten zijn onderzocht.",
+      "concepts": [
+        "CSRD",
+        "institutionele interventie",
+        "transparantie",
+        "vergelijkbaarheid",
+        "structurele verandering"
+      ],
+      "sourceBlocks": [
+        17,
+        19,
+        24,
+        27
+      ],
+      "teachingLocation": "m5-06-b1:reveal:r7",
+      "worldEvidence": "Welke reactie verandert het systeem?",
+      "practiceBeat": "m5-06-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m5-06:report",
+        "m5-06:system"
+      ],
+      "knowledgeChecks": [
+        "m5-k3",
+        "m5-k8"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p078",
+      "proposition": "Het EU-fragment bespreekt een voorstel voor onderbouwing en controle van groene claims en labelbeheer. Een voorstel is geen bewijs dat elke genoemde regel vandaag ongewijzigd geldt.",
+      "concepts": [
+        "CSRD",
+        "institutionele interventie",
+        "transparantie",
+        "vergelijkbaarheid",
+        "structurele verandering"
+      ],
+      "sourceBlocks": [
+        17,
+        19,
+        24,
+        27
+      ],
+      "teachingLocation": "m5-06-b1:reveal:r8",
+      "worldEvidence": "Welke reactie verandert het systeem?",
+      "practiceBeat": "m5-06-b1",
+      "practiceType": "inspect",
+      "synthesisSlots": [
+        "m5-06:report",
+        "m5-06:system"
+      ],
+      "knowledgeChecks": [
+        "m5-k3",
+        "m5-k8"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p079",
+      "proposition": "Een systeembenadering verbindt maatschappelijke verwachtingen, economische prikkels en organisatiepraktijk. De interventie moet het aangetoonde mechanisme raken; een los symbool doet dat niet vanzelf.",
+      "concepts": [
+        "systeemfenomeen",
+        "institutionele druk",
+        "economische prikkels",
+        "organisatorische beperkingen",
+        "verantwoordelijkheid"
+      ],
+      "sourceBlocks": [
+        0,
+        3,
+        6,
+        17,
+        27
+      ],
+      "teachingLocation": "m5-06-b2:explainAfter",
+      "worldEvidence": "Laat iedere maatregel een mechanisme raken",
+      "practiceBeat": "m5-06-b2",
+      "practiceType": "connect",
+      "synthesisSlots": [
+        "m5-06:report",
+        "m5-06:system"
+      ],
+      "knowledgeChecks": [
+        "m5-k2"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p080",
+      "proposition": "Informatie-asymmetrie vraagt toetsbare toegang; een vage claim vraagt definitie; een uitvoeringsbeperking vraagt middelen of herontwerp; een reputatieprikkel vraagt een andere beoordeling en verantwoording.",
+      "concepts": [
+        "systeemfenomeen",
+        "institutionele druk",
+        "economische prikkels",
+        "organisatorische beperkingen",
+        "verantwoordelijkheid"
+      ],
+      "sourceBlocks": [
+        0,
+        3,
+        6,
+        17,
+        27
+      ],
+      "teachingLocation": "m5-06-b2:hint",
+      "worldEvidence": "Laat iedere maatregel een mechanisme raken",
+      "practiceBeat": "m5-06-b2",
+      "practiceType": "connect",
+      "synthesisSlots": [
+        "m5-06:report",
+        "m5-06:system"
+      ],
+      "knowledgeChecks": [
+        "m5-k2"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p081",
+      "proposition": "Een eerlijke claim en een echt veranderplan zijn beide nodig. Ze ondersteunen transparantie, concurrentie en vertrouwen, maar garanderen geen perfecte transitie. Blijf ook tegenvallers, tradeoffs en onzekerheden zichtbaar maken.",
+      "concepts": [
+        "waarheidsgetrouwheid",
+        "structurele verandering",
+        "governance",
+        "stakeholderverantwoordelijkheid",
+        "systeemreactie"
+      ],
+      "sourceBlocks": [
+        21,
+        24,
+        27
+      ],
+      "teachingLocation": "m5-06-b3:explainAfter",
+      "worldEvidence": "Maak de publicatie en het veranderplan samen",
+      "practiceBeat": "m5-06-b3",
+      "practiceType": "build",
+      "synthesisSlots": [
+        "m5-06:report",
+        "m5-06:system"
+      ],
+      "knowledgeChecks": [
+        "m5-k8"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p082",
+      "proposition": "Een plan noemt bewijs en begrenzing, middelen voor echt werk, verantwoordelijke bevoegdheid en momenten om voortgang te controleren. De precieze ambitie kan onderwerp van verdedigbare discussie blijven.",
+      "concepts": [
+        "waarheidsgetrouwheid",
+        "structurele verandering",
+        "governance",
+        "stakeholderverantwoordelijkheid",
+        "systeemreactie"
+      ],
+      "sourceBlocks": [
+        21,
+        24,
+        27
+      ],
+      "teachingLocation": "m5-06-b3:hint",
+      "worldEvidence": "Maak de publicatie en het veranderplan samen",
+      "practiceBeat": "m5-06-b3",
+      "practiceType": "build",
+      "synthesisSlots": [
+        "m5-06:report",
+        "m5-06:system"
+      ],
+      "knowledgeChecks": [
+        "m5-k8"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p083",
+      "proposition": "De eindkeuze mag verschillen wanneer bewijs en waarden helder zijn. Greenwashing begrijpen als systeemfenomeen maakt verantwoordelijkheden breder, maar ontslaat niemand van eerlijkheid en daadwerkelijk veranderwerk.",
+      "concepts": [
+        "systeemfenomeen",
+        "transparantie",
+        "verantwoordelijkheid",
+        "ethische afweging"
+      ],
+      "sourceBlocks": [
+        0,
+        21,
+        24,
+        27
+      ],
+      "teachingLocation": "m5-06-b4:explainAfter",
+      "worldEvidence": "Geef de volgende belofte vrij",
+      "practiceBeat": "m5-06-b4",
+      "practiceType": "decision",
+      "synthesisSlots": [
+        "m5-06:report",
+        "m5-06:system"
+      ],
+      "knowledgeChecks": [
+        "m5-k3"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    },
+    {
+      "id": "m5-p084",
+      "proposition": "Tijd, middelen en getroffen belangen kunnen verschillende prioriteiten rechtvaardigen. De grens is dat de boodschap geen onbekende of onbereikte prestatie als feit presenteert.",
+      "concepts": [
+        "systeemfenomeen",
+        "transparantie",
+        "verantwoordelijkheid",
+        "ethische afweging"
+      ],
+      "sourceBlocks": [
+        0,
+        21,
+        24,
+        27
+      ],
+      "teachingLocation": "m5-06-b4:hint",
+      "worldEvidence": "Geef de volgende belofte vrij",
+      "practiceBeat": "m5-06-b4",
+      "practiceType": "decision",
+      "synthesisSlots": [
+        "m5-06:report",
+        "m5-06:system"
+      ],
+      "knowledgeChecks": [
+        "m5-k3"
+      ],
+      "coverageStatus": "authored-teaching-and-application; learner-outcome-unverified"
+    }
+  ],
+  "sourcePropositionAudit": {
+    "schemaVersion": 1,
+    "lessonId": "m5",
+    "auditDate": "2026-10-12",
+    "method": "Read every original text/list/tab, every original quiz question/options/feedback and matching question/pairs/feedback; inspect SVG source and render/image pixels. Map original assertions and unique example functions to authored teaching and practice, independently of concept labels.",
+    "rows": [
+      {
+        "id": "m5-source-audit-01",
+        "sourceBlocks": [
+          0,
+          27
+        ],
+        "sourceProposition": "Greenwashing can arise from interacting institutional expectations, economic incentives and organizational constraints, not only an individual marketing decision.",
+        "teachingLocations": [
+          "m5-01-b1:explainAfter",
+          "m5-06-b1:explainAfter"
+        ],
+        "practiceLocations": [
+          "m5-01:finale",
+          "m5-06-b3"
+        ],
+        "sourceExampleFunction": "Market expectation, investment mail, production capacity and poster together expose the structural claim/practice gap.",
+        "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+      },
+      {
+        "id": "m5-source-audit-02",
+        "sourceBlocks": [
+          3,
+          4
+        ],
+        "sourceProposition": "Suchman legitimacy concerns socially accepted appropriateness; consumers/investors/NGOs/media/regulators can create pressure. Legitimate image and true measured performance are different.",
+        "teachingLocations": [
+          "m5-01-b2:explainAfter",
+          "m5-01-b1:reveal:r6"
+        ],
+        "practiceLocations": [
+          "m5-01-b2",
+          "m5-01:finale"
+        ],
+        "sourceExampleFunction": "Social recognition is contrasted with execution evidence and measured scope.",
+        "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+      },
+      {
+        "id": "m5-source-audit-03",
+        "sourceBlocks": [
+          3,
+          4
+        ],
+        "sourceProposition": "Decoupling separates formal communication from actual practice; symbolism can respond quickly while operations change slowly. It can grow without one central deceit decision or coexist with intentional falsehood.",
+        "teachingLocations": [
+          "m5-01-b2:explainAfter",
+          "m5-01-b1:reveal:r8"
+        ],
+        "practiceLocations": [
+          "m5-01-b3",
+          "m5-01:finale"
+        ],
+        "sourceExampleFunction": "The original feedback’s categorical ‘not a lie’ is corrected: systemic explanation is not exoneration.",
+        "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+      },
+      {
+        "id": "m5-source-audit-04",
+        "sourceBlocks": [
+          3,
+          7
+        ],
+        "sourceProposition": "Climate, biodiversity and social inequality raise responsible-business expectations while entrenched chains/infrastructure/investments can require costly and slow transition.",
+        "teachingLocations": [
+          "m5-01-b1:reveal:r6",
+          "m5-03-b1:explainAfter"
+        ],
+        "practiceLocations": [
+          "m5-03-b2",
+          "m5-03:finale"
+        ],
+        "sourceExampleFunction": "Contrasting fast-moving expectations with capacity teaches the temporal gap without claiming it always produces greenwashing.",
+        "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+      },
+      {
+        "id": "m5-source-audit-05",
+        "sourceBlocks": [
+          3,
+          7
+        ],
+        "sourceProposition": "Path dependency means previous machinery/contracts/chain choices constrain later alternatives. Missing resources, knowledge, capacity and willingness are distinct barriers; none eliminates agency.",
+        "teachingLocations": [
+          "m5-03-b1:reveal:r1",
+          "m5-03-b1:reveal:r2",
+          "m5-03-b3:hint",
+          "m5-03-b2:boundary"
+        ],
+        "practiceLocations": [
+          "m5-03-b2",
+          "m5-k2"
+        ],
+        "sourceExampleFunction": "Linked workshop machinery and contract evidence make the constraint concrete rather than an excuse for unproved claims.",
+        "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+      },
+      {
+        "id": "m5-source-audit-06",
+        "sourceBlocks": [
+          6,
+          7
+        ],
+        "sourceProposition": "Brand/reputation can earn consumer and capital advantages; ESG means Environmental/Social/Governance. A green reputation can improve finance/valuation, with investors differing and image not proving all dimensions.",
+        "teachingLocations": [
+          "m5-05-b1:hint",
+          "m5-05-b1:reveal:r1",
+          "m5-05-b1:reveal:r4"
+        ],
+        "practiceLocations": [
+          "m5-05-b2",
+          "m5-k6"
+        ],
+        "sourceExampleFunction": "The financier dossier shows how performance and reputation may be confused.",
+        "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+      },
+      {
+        "id": "m5-source-audit-07",
+        "sourceBlocks": [
+          6,
+          24
+        ],
+        "sourceProposition": "Lyon/Montgomery discuss reputational claims without matching substantial performance. Information asymmetry exists when firms know more relevant impact than consumers/investors, influencing others’ choices.",
+        "teachingLocations": [
+          "m5-05-b1:explainAfter",
+          "m5-05-b1:reveal:r2",
+          "m5-05-b2:explainAfter"
+        ],
+        "practiceLocations": [
+          "m5-05-b2",
+          "m5-05:finale",
+          "m5-k3"
+        ],
+        "sourceExampleFunction": "Internal full streams versus the public pilot number creates an inspectable evidence difference.",
+        "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+      },
+      {
+        "id": "m5-source-audit-08",
+        "sourceBlocks": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "sourceProposition": "Selective communication highlights a positive initiative while hiding larger relevant harm; vague claims lack defined measurable criteria. Both can mislead without a fabricated number.",
+        "teachingLocations": [
+          "m5-02-b1:reveal:r1",
+          "m5-02-b1:reveal:r2",
+          "m5-02-b1:explainAfter"
+        ],
+        "practiceLocations": [
+          "m5-02-b2",
+          "m5-02-b3"
+        ],
+        "sourceExampleFunction": "Original match and diagram purposes are retained, including where missing meaning or missing scope creates misdirection.",
+        "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+      },
+      {
+        "id": "m5-source-audit-09",
+        "sourceBlocks": [
+          9,
+          11,
+          12
+        ],
+        "sourceProposition": "Irrelevant communication presents an already-required/non-distinguishing property as special benefit; the CFK example requires a defined product/legal context.",
+        "teachingLocations": [
+          "m5-02-b1:reveal:r3"
+        ],
+        "practiceLocations": [
+          "m5-02-b2",
+          "m5-k4"
+        ],
+        "sourceExampleFunction": "An explicit fictional universal norm in the check tests the causal distinction without a blanket current CFK legal assertion.",
+        "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+      },
+      {
+        "id": "m5-source-audit-10",
+        "sourceBlocks": [
+          9,
+          11,
+          12
+        ],
+        "sourceProposition": "Symbolic sustainability magnifies a small real initiative into a broad impression; selectivity and symbolism differ in emphasis and can overlap. A valuable small improvement is not whole-model proof.",
+        "teachingLocations": [
+          "m5-02-b1:reveal:r4",
+          "m5-02-b1:hint",
+          "m5-04-b3:explainAfter"
+        ],
+        "practiceLocations": [
+          "m5-02-b2",
+          "m5-04-b3",
+          "m5-k1"
+        ],
+        "sourceExampleFunction": "The source’s four-box contrast is taught as primary mechanisms with real-case overlap, not mutually exclusive universal taxonomy.",
+        "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+      },
+      {
+        "id": "m5-source-audit-11",
+        "sourceBlocks": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "sourceProposition": "The four categories are the course’s analytical claim lenses. Delmas/Burbano’s primary model covers drivers and cites multiple other product-claim taxonomies, not this exact exhaustive four-category classification.",
+        "teachingLocations": [
+          "m5-02-b1:reveal:r9"
+        ],
+        "practiceLocations": [
+          "m5-02-b2"
+        ],
+        "sourceExampleFunction": "Attribution is corrected while preserving the original four distinctions.",
+        "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+      },
+      {
+        "id": "m5-source-audit-12",
+        "sourceBlocks": [
+          1
+        ],
+        "sourceProposition": "GLOBIS: green imagery can imply a benefit without explicit words; recycled fractions, material names and compensation can yield a misleading total impression. Vegan leather can be plastic; animal origin is not environmental performance.",
+        "teachingLocations": [
+          "m5-02-b1:reveal:r6",
+          "m5-02-b1:reveal:r7",
+          "m5-02-b1:reveal:r8"
+        ],
+        "practiceLocations": [
+          "m5-02-b4",
+          "m5-02-b5"
+        ],
+        "sourceExampleFunction": "Complete original-owner transcript reviewed; source examples become selectable layered evidence.",
+        "limit": "Imagery alone is not proof of greenwashing, not all vegan leather is plastic, and offsets are not all adjudged worthless."
+      },
+      {
+        "id": "m5-source-audit-13",
+        "sourceBlocks": [
+          1,
+          25
+        ],
+        "sourceProposition": "External compensation and measured reductions in the firm’s own chain are distinct claims requiring separate evidence; budget proportion is not a physical emissions percentage.",
+        "teachingLocations": [
+          "m5-02-b1:reveal:r8",
+          "m5-02-b5:explainAfter"
+        ],
+        "practiceLocations": [
+          "m5-02-b5"
+        ],
+        "sourceExampleFunction": "The offset receipt tests evidence boundary and arithmetic category, allowing ethical debate about compensation separately.",
+        "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+      },
+      {
+        "id": "m5-source-audit-14",
+        "sourceBlocks": [
+          1,
+          6,
+          25
+        ],
+        "sourceProposition": "Stated willingness to pay can create green reputation incentives, but a historical survey is not proof of real purchasing, all present students’ preferences or actual product performance.",
+        "teachingLocations": [
+          "m5-01-b1:reveal:r7",
+          "m5-05-b5:explainAfter"
+        ],
+        "practiceLocations": [
+          "m5-05-b5"
+        ],
+        "sourceExampleFunction": "GLOBIS commercial incentive plus the dated WSJ survey purpose are preserved with evidence limits.",
+        "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+      },
+      {
+        "id": "m5-source-audit-15",
+        "sourceBlocks": [
+          14,
+          15
+        ],
+        "sourceProposition": "Historical Conscious Collection critique: recycled/material improvements in a small line can be real while rapid cycles, low prices and large volumes of fast fashion remain; a broad corporate impression overreaches that scope.",
+        "teachingLocations": [
+          "m5-04-b1:reveal:r1",
+          "m5-04-b1:reveal:r2",
+          "m5-04-b1:reveal:r3",
+          "m5-04-b1:explainAfter"
+        ],
+        "practiceLocations": [
+          "m5-04-b3",
+          "m5-04:finale",
+          "m5-k1"
+        ],
+        "sourceExampleFunction": "Source case is historical criticism, not an unbounded current finding about H&M. Fictional hub metrics are explicitly separate.",
+        "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+      },
+      {
+        "id": "m5-source-audit-16",
+        "sourceBlocks": [
+          14,
+          24
+        ],
+        "sourceProposition": "Per-unit improvement, production volume, pilot coverage and total impact differ. A small lower-impact route can coexist with growing absolute burden.",
+        "teachingLocations": [
+          "m5-03-b1:reveal:r3",
+          "m5-03-b1:reveal:r4",
+          "m5-03-b4:explainAfter"
+        ],
+        "practiceLocations": [
+          "m5-03-b3",
+          "m5-03:finale",
+          "m5-k5"
+        ],
+        "sourceExampleFunction": "Illustrative claim-boundary model demonstrates causal arithmetic; it is not a predictive H&M model or complete LCA.",
+        "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+      },
+      {
+        "id": "m5-source-audit-17",
+        "sourceBlocks": [
+          14,
+          18,
+          24
+        ],
+        "sourceProposition": "A return/collection count alone does not show circular recovery; processing, losses, final destination, reuse/repair/recycling and life-cycle boundary require evidence.",
+        "teachingLocations": [
+          "m5-04-b2:explainAfter",
+          "m5-04-b5:explainAfter"
+        ],
+        "practiceLocations": [
+          "m5-04-b2",
+          "m5-04-b5",
+          "m5-04:finale"
+        ],
+        "sourceExampleFunction": "The recycling chain and EU life-cycle method prevent substituting receipt for final outcome.",
+        "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+      },
+      {
+        "id": "m5-source-audit-18",
+        "sourceBlocks": [
+          17,
+          19
+        ],
+        "sourceProposition": "Standardized reporting can reduce information asymmetry and support comparison. CSRD has changing scope/timing and neither replaces every label nor automatically produces sustainable operations.",
+        "teachingLocations": [
+          "m5-06-b1:reveal:r1",
+          "m5-06-b1:explainAfter"
+        ],
+        "practiceLocations": [
+          "m5-06-b2",
+          "m5-06:finale",
+          "m5-k8"
+        ],
+        "sourceExampleFunction": "Original quiz feedback purpose is retained with current scope caveat and separation of information and actual change.",
+        "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+      },
+      {
+        "id": "m5-source-audit-19",
+        "sourceBlocks": [
+          18
+        ],
+        "sourceProposition": "The EU 2023 video discusses scientific substantiation, common verification, label governance and Environmental Footprint over extraction, production, use and waste; Ecolabel/EMAS are existing voluntary initiatives.",
+        "teachingLocations": [
+          "m5-04-b5:explainAfter",
+          "m5-06-b1:reveal:r6",
+          "m5-06-b1:reveal:r7",
+          "m5-06-b1:reveal:r8"
+        ],
+        "practiceLocations": [
+          "m5-04-b5",
+          "m5-06-b4"
+        ],
+        "sourceExampleFunction": "Complete official primary transcript checked. The historical proposal is distinguished from current enacted requirements.",
+        "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+      },
+      {
+        "id": "m5-source-audit-20",
+        "sourceBlocks": [
+          21,
+          22
+        ],
+        "sourceProposition": "Truthful, controllable and non-misleading information supports consumers/investors/policymakers; a legally allowed claim can still create a misleading total impression.",
+        "teachingLocations": [
+          "m5-02-b4:explainAfter",
+          "m5-05-b3:explainAfter"
+        ],
+        "practiceLocations": [
+          "m5-02-b4",
+          "m5-05-b4"
+        ],
+        "sourceExampleFunction": "Claim quality and ethically sufficient transformation are separate evaluations.",
+        "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+      },
+      {
+        "id": "m5-source-audit-21",
+        "sourceBlocks": [
+          21,
+          22
+        ],
+        "sourceProposition": "Real process-change costs can be disadvantaged when a cheap green image receives similar reputation benefits; low price alone does not establish misrepresentation.",
+        "teachingLocations": [
+          "m5-05-b1:reveal:r3",
+          "m5-05-b3:cards:c2"
+        ],
+        "practiceLocations": [
+          "m5-05:finale",
+          "m5-k6"
+        ],
+        "sourceExampleFunction": "The original multi-answer economic fairness function is taught using a competitor evidence dossier.",
+        "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+      },
+      {
+        "id": "m5-source-audit-22",
+        "sourceBlocks": [
+          21,
+          22,
+          27
+        ],
+        "sourceProposition": "Repeated misleading claims can erode trust in firms, labels, certification and policy; green fatigue can spill over to honest initiatives without proving every label false.",
+        "teachingLocations": [
+          "m5-05-b1:reveal:r5",
+          "m5-05-b1:reveal:r7"
+        ],
+        "practiceLocations": [
+          "m5-05-b3",
+          "m5-k7"
+        ],
+        "sourceExampleFunction": "The complaints book and changed-case check separate perception spillover from actual label quality.",
+        "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+      },
+      {
+        "id": "m5-source-audit-23",
+        "sourceBlocks": [
+          24
+        ],
+        "sourceProposition": "Stakeholder responsibility and intergenerational justice concern present affected parties and future people’s opportunities; present reputation does not cover real ecological/social consequences.",
+        "teachingLocations": [
+          "m5-05-b1:reveal:r6",
+          "m5-05-b3:explainAfter"
+        ],
+        "practiceLocations": [
+          "m5-05-b3"
+        ],
+        "sourceExampleFunction": "Explicit short theory turn explains why future people matter even when they cannot currently buy or complain.",
+        "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+      },
+      {
+        "id": "m5-source-audit-24",
+        "sourceBlocks": [
+          24,
+          27
+        ],
+        "sourceProposition": "An impression that transition is already done can reduce pressure for further change, weakening collective capacity; transparency and implementation must address information, incentives and operational constraints together.",
+        "teachingLocations": [
+          "m5-05-b3:cards:c4",
+          "m5-06-b1:explainAfter",
+          "m5-06-b3:explainAfter"
+        ],
+        "practiceLocations": [
+          "m5-05:finale",
+          "m5-06-b3",
+          "m5-k8"
+        ],
+        "sourceExampleFunction": "The forum publication gate requires both bounded evidence and a responsible real change plan, not merely a nicer poster.",
+        "limit": "Authored proposition coverage; comprehension and transfer require learner assessment."
+      }
+    ],
+    "accuracyAdjustments": [
+      {
+        "sourceBlocks": [
+          4
+        ],
+        "issue": "Original quiz feedback categorically says decoupling is not a lie. Communication/practice separation can coexist with intentional falsehood.",
+        "adjustment": "Explicit card distinguishes system mechanism, intention and responsibility; no automatic exoneration."
+      },
+      {
+        "sourceBlocks": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "issue": "The source attributes its exact four-category greenwashing scheme to Delmas and Burbano (2011). Their primary article establishes a multilevel driver framework and cites other claim taxonomies.",
+        "adjustment": "Preserve all course categories and distinctions but identify them as analytical course lenses, with overlap and a source-attribution explanation.",
+        "verifiedUrl": "https://business.columbia.edu/sites/default/files-efs/pubfiles/14016/Greenwashing.pdf",
+        "verifiedOn": "2026-10-12"
+      },
+      {
+        "sourceBlocks": [
+          10
+        ],
+        "issue": "Original feedback asserts vague claims are the most common form without source-specific population/evidence.",
+        "adjustment": "Teach what makes a claim vague; omit an unsupported prevalence ranking."
+      },
+      {
+        "sourceBlocks": [
+          18
+        ],
+        "issue": "The EU video describes a proposal in 2023, not a universal currently enacted legal rule.",
+        "adjustment": "Explicit historical proposal card distinguishes policy status from Environmental Footprint method and voluntary Ecolabel/EMAS.",
+        "verifiedUrl": "https://audiovisual.ec.europa.eu/en/media/video/I-239279",
+        "verifiedOn": "2026-10-12"
+      }
+    ],
+    "limitations": [
+      "The original media whose transcript remains unavailable have separate exact clip metadata and mandatory projection requirements.",
+      "A proposition can be encountered without being understood; local synthesis, separate changed-case checks and future evaluation are distinct safeguards, not empirical proof of learning."
+    ]
+  },
+  "sourceMediaAudit": {
+    "schemaVersion": 1,
+    "lessonId": "m5",
+    "auditDate": "2026-10-12",
+    "method": "Original source JSON, original-owner metadata/descriptions, publisher module/transcript where accessible. Attempts to retrieve unavailable full captions failed (429/400); no guessed transcript substitute. Start preserves original assignment: WSJ begins at 81 seconds; its untrimmed player remains seekable.",
+    "clips": [
+      {
+        "sourceBlock": 1,
+        "youtube": "_RoA0wxsJMw",
+        "owner": "GLOBIS Insights",
+        "title": "Greenwashing...Basically",
+        "start": 0,
+        "originalUrl": "https://www.youtube.com/watch?v=_RoA0wxsJMw",
+        "verificationStatus": "complete-primary-transcript-reviewed-and-purpose-mapped",
+        "knownCoreTeachingPurpose": "Explicit and implicit green impressions; partial recycled/compensation claims; vegan leather material naming; willingness to pay; ask for transparent detail.",
+        "teachingLocations": [
+          "m5-01-b1",
+          "m5-02-b1",
+          "m5-02-b5"
+        ],
+        "verificationUrls": [
+          "https://www.globis.ac.jp/insights/entrepreneurship-business-strategy/greenwashing-basically/",
+          "https://www.youtube.com/watch?v=_RoA0wxsJMw"
+        ],
+        "uniqueUnverifiedContent": null,
+        "requiredProjection": false,
+        "projectionRequirements": {
+          "investigationId": "m5-02",
+          "fullOriginalClip": true,
+          "shortSegmentsAllowed": true,
+          "transcriptOrCaptionsForAccessibility": true,
+          "applicationPrompt": "Welke indruk wekt de poster zonder expliciete groene claim, en welk bewijs draagt alleen een deelprestatie?",
+          "completionCriterion": "Original clip delivered within the investigation; learner applies its claim to this case and marks uncertainty. A click or source ID is not content coverage."
+        }
+      },
+      {
+        "sourceBlock": 18,
+        "youtube": "j3ckSNsraJc",
+        "owner": "EU Environment",
+        "title": "EU measures to tackle greenwashing",
+        "start": 0,
+        "originalUrl": "https://www.youtube.com/watch?v=j3ckSNsraJc",
+        "verificationStatus": "complete-primary-transcript-reviewed-and-purpose-mapped",
+        "knownCoreTeachingPurpose": "2023 proposed substantiation and verification rules; scientific methods, Environmental Footprint/full life cycle, label governance and existing voluntary EU Ecolabel/EMAS.",
+        "teachingLocations": [
+          "m5-04-b5",
+          "m5-06-b1"
+        ],
+        "verificationUrls": [
+          "https://audiovisual.ec.europa.eu/en/media/video/I-239279",
+          "https://www.youtube.com/watch?v=j3ckSNsraJc"
+        ],
+        "uniqueUnverifiedContent": null,
+        "requiredProjection": false,
+        "projectionRequirements": {
+          "investigationId": "m5-06",
+          "fullOriginalClip": true,
+          "shortSegmentsAllowed": true,
+          "transcriptOrCaptionsForAccessibility": true,
+          "applicationPrompt": "Welke levenscyclusstappen missen in de claim? Houd het historische voorstel, de meetmethode en de bestaande vrijwillige kaders uit elkaar.",
+          "completionCriterion": "Original clip delivered within the investigation; learner applies its claim to this case and marks uncertainty. A click or source ID is not content coverage."
+        }
+      },
+      {
+        "sourceBlock": 25,
+        "youtube": "2NsBcVrPQok",
+        "owner": "The Wall Street Journal",
+        "title": "Greenwashing: When Companies Aren’t as Sustainable as They Claim | WSJ",
+        "start": 81,
+        "originalUrl": "https://www.youtube.com/watch?v=2NsBcVrPQok",
+        "verificationStatus": "original-owner-description-and-chapter-outline-reviewed; full-transcript-unavailable",
+        "knownCoreTeachingPurpose": "2023 consumer stated willingness to pay for sustainable packaging; greenwashing definition/accountability; American Airlines and H&M examples; historical US/EU regulatory plans.",
+        "teachingLocations": [
+          "m5-05-b5",
+          "m5-04-b1",
+          "m5-02-b5"
+        ],
+        "verificationUrls": [
+          "https://www.youtube.com/watch?v=2NsBcVrPQok"
+        ],
+        "uniqueUnverifiedContent": "Unique American Airlines and investigation details are not invented or declared covered. The full source projection is required. Historical proposals and consumer percentages are not timeless current facts.",
+        "requiredProjection": true,
+        "projectionRequirements": {
+          "investigationId": "m5-05",
+          "fullOriginalClip": true,
+          "shortSegmentsAllowed": true,
+          "transcriptOrCaptionsForAccessibility": true,
+          "applicationPrompt": "Welke claim en welk ontbrekend bewijs laat het fragment zien? Leg daarna uit wat een geuite koopintentie wel en niet bewijst in de eigen hubcasus.",
+          "completionCriterion": "Original clip delivered within the investigation; learner applies its claim to this case and marks uncertainty. A click or source ID is not content coverage."
+        }
+      }
+    ],
+    "allRequiredProjectionIntegration": "Required sourceProjections authored in the chapter investigation arrays; runtime delivery remains parent QA. Known-purpose mapping is not a substitute for unverified unique spoken source content."
+  },
+  "fullSourceReplacementStatus": "Text/image/exercise purposes mapped; required original sourceProjections authored for clips whose unique transcript content remains unverified. Runtime delivery requires parent QA; opening plus written synthesis does not certify full viewing or mastery.",
+  "optionalMediaAndExercises": [
+    {
+      "sourceBlock": 1,
+      "type": "video",
+      "title": "Greenwashing...Basically",
+      "essentialConceptsTaughtInGame": "known-core-purpose-mapped; see transcript audit",
+      "completionRequired": false,
+      "delivery": "complete-primary-transcript-teaching-functions-mapped; optional-original-review"
+    },
+    {
+      "sourceBlock": 4,
+      "type": "quiz",
+      "title": "m5-decoupling",
+      "essentialConceptsTaughtInGame": "audited-feedback-purpose-mapped",
+      "completionRequired": false,
+      "delivery": "optional-original-review; challenging-changed-case-check-in-route"
+    },
+    {
+      "sourceBlock": 7,
+      "type": "quiz",
+      "title": "Oorspronkelijke oefening",
+      "essentialConceptsTaughtInGame": "audited-feedback-purpose-mapped",
+      "completionRequired": false,
+      "delivery": "optional-original-review; challenging-changed-case-check-in-route"
+    },
+    {
+      "sourceBlock": 10,
+      "type": "quiz",
+      "title": "Oorspronkelijke oefening",
+      "essentialConceptsTaughtInGame": "audited-feedback-purpose-mapped",
+      "completionRequired": false,
+      "delivery": "optional-original-review; challenging-changed-case-check-in-route"
+    },
+    {
+      "sourceBlock": 15,
+      "type": "quiz",
+      "title": "m5-hm-casus",
+      "essentialConceptsTaughtInGame": "audited-feedback-purpose-mapped",
+      "completionRequired": false,
+      "delivery": "optional-original-review; challenging-changed-case-check-in-route"
+    },
+    {
+      "sourceBlock": 18,
+      "type": "video",
+      "title": "EU measures to tackle greenwashing",
+      "essentialConceptsTaughtInGame": "known-core-purpose-mapped; see transcript audit",
+      "completionRequired": false,
+      "delivery": "complete-primary-transcript-teaching-functions-mapped; optional-original-review"
+    },
+    {
+      "sourceBlock": 19,
+      "type": "quiz",
+      "title": "m5-csrd",
+      "essentialConceptsTaughtInGame": "audited-feedback-purpose-mapped",
+      "completionRequired": false,
+      "delivery": "optional-original-review; challenging-changed-case-check-in-route"
+    },
+    {
+      "sourceBlock": 22,
+      "type": "quiz",
+      "title": "m5-ethisch-meervoudig",
+      "essentialConceptsTaughtInGame": "audited-feedback-purpose-mapped",
+      "completionRequired": false,
+      "delivery": "optional-original-review; challenging-changed-case-check-in-route"
+    },
+    {
+      "sourceBlock": 25,
+      "type": "video",
+      "title": "Greenwashing: When Companies Aren't as Sustainable as They Claim | WSJ",
+      "essentialConceptsTaughtInGame": "known-core-purpose-mapped; see transcript audit",
+      "completionRequired": true,
+      "delivery": "mandatory-original-projection-in-world-plus-case-application"
+    }
+  ],
+  "accuracyAdjustments": [
+    {
+      "sourceBlocks": [
+        17
+      ],
+      "issue": "De algemene CSRD-beschrijving in de cursus is geen actuele toepassingstoets; Directive (EU) 2026/470 heeft onder meer de rapportagescope gewijzigd.",
+      "adjustment": "Het spel leert vergelijkbaarheid en informatie-asymmetrie, maar neemt geen blanket plicht voor elk groot bedrijf of een vaste invoeringsdeadline aan.",
+      "verifiedUrl": "https://commission.europa.eu/law/law-making-process/better-regulation/simplification-implementation-and-enforcement/simplification_en",
+      "verifiedOn": "2026-10-12"
+    },
+    {
+      "sourceBlocks": [
+        9
+      ],
+      "issue": "Het CFK-voorbeeld kan onterecht als wereldwijd verbod voor ieder product en iedere toepassing worden gelezen.",
+      "adjustment": "Het voorbeeld wordt begrensd tot de relevante productcontext; de zelfstandige kennistoets specificeert een fictieve casusregel in plaats van een algemene actuele juridische claim."
+    },
+    {
+      "sourceBlocks": [
+        14
+      ],
+      "issue": "Een historische kritiek op Conscious Collection is geen tijdloos, volledig of juridisch oordeel over huidige H&M-prestaties.",
+      "adjustment": "Broncasus, beschreven kritiek, claimperiode en bewijslimieten worden expliciet onderscheiden van fictieve NOVA-gegevens."
+    },
+    {
+      "sourceBlocks": [
+        4
+      ],
+      "issue": "Original quiz feedback categorically says decoupling is not a lie. Communication/practice separation can coexist with intentional falsehood.",
+      "adjustment": "Explicit card distinguishes system mechanism, intention and responsibility; no automatic exoneration."
+    },
+    {
+      "sourceBlocks": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "issue": "The source attributes its exact four-category greenwashing scheme to Delmas and Burbano (2011). Their primary article establishes a multilevel driver framework and cites other claim taxonomies.",
+      "adjustment": "Preserve all course categories and distinctions but identify them as analytical course lenses, with overlap and a source-attribution explanation.",
+      "verifiedUrl": "https://business.columbia.edu/sites/default/files-efs/pubfiles/14016/Greenwashing.pdf",
+      "verifiedOn": "2026-10-12"
+    },
+    {
+      "sourceBlocks": [
+        10
+      ],
+      "issue": "Original feedback asserts vague claims are the most common form without source-specific population/evidence.",
+      "adjustment": "Teach what makes a claim vague; omit an unsupported prevalence ranking."
+    },
+    {
+      "sourceBlocks": [
+        18
+      ],
+      "issue": "The EU video describes a proposal in 2023, not a universal currently enacted legal rule.",
+      "adjustment": "Explicit historical proposal card distinguishes policy status from Environmental Footprint method and voluntary Ecolabel/EMAS.",
+      "verifiedUrl": "https://audiovisual.ec.europa.eu/en/media/video/I-239279",
+      "verifiedOn": "2026-10-12"
+    }
+  ],
+  "researchAnchors": {
+    "guidedDiscovery": [
+      "S01",
+      "S02",
+      "S09"
+    ],
+    "constructiveReasoning": [
+      "S03",
+      "S04"
+    ],
+    "meaningfulMechanics": [
+      "S06",
+      "S07"
+    ],
+    "informativeFeedback": [
+      "S23"
+    ],
+    "ethicalPlurality": [
+      "S18"
+    ],
+    "motivation": [
+      "S19",
+      "S20",
+      "S25"
+    ],
+    "changedCaseAndRetrieval": [
+      "S13",
+      "S14"
+    ]
+  },
+  "limitations": [
+    "Deze map is een inhoudsaudit en geen empirisch bewijs van beheersing.",
+    "Een bekend videodoel is geen volledige transcriptdekking. Vereiste bronprojecties moeten daadwerkelijk in de route werken; geopend plus een notitie bewijst geen volledige kijktijd of begrip.",
+    "Fictieve documenten en modelwaarden dienen om mechanismen te onderzoeken, niet als bewijs over actuele echte bedrijven.",
+    "De dekking van bronproposities controleert de gemaakte inhoud; zij bewijst nog geen leerretentie of transfer."
+  ]
+}

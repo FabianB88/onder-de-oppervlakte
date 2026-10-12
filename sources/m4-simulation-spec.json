@@ -1,0 +1,34 @@
+{
+  "id": "sorter",
+  "title": "De sorteerband heeft een doel",
+  "parameters": [
+    {"id":"goal","label":"Optimalisatiedoel","type":"select","options":[{"value":"value","label":"Opbrengst van de verkoop"},{"value":"recovery","label":"Materiaal terugwinnen"}]},
+    {"id":"representativeTraining","label":"Ook vuile en donkere verpakkingen in de oefenset","type":"boolean"},
+    {"id":"humanReview","label":"Menselijke controle bij twijfel","type":"boolean"}
+  ],
+  "defaults": {"goal":"value","representativeTraining":false,"humanReview":false},
+  "fixedInput": {"valuableItems":6,"difficultLowValueItems":4,"unrecoverableItems":2},
+  "illustrativeOutcomeRules": [
+    "correctHigh = representativeTraining ? 6 : 5; humanReview verhoogt correctHigh naar maximaal 6.",
+    "correctLow = goal == recovery ? (representativeTraining ? 3 : 1) : 0; bij recovery verhoogt humanReview correctLow met 1 tot maximaal 4.",
+    "recoveredItems = correctHigh + correctLow; rejectedItems = 12 - recoveredItems.",
+    "illustrativeRevenue = 8 * correctHigh + 2 * correctLow - (humanReview ? 6 : 0).",
+    "Het eindproduct toont expliciet de 6 verkoopwaardige, 4 lastige laagwaardige en 2 niet-terugwinbare objecten; niet ieder verworpen object is een classificatiefout."
+  ],
+  "outputRows": [
+    {"id":"correctHigh","label":"Verkoopwaardige objecten teruggewonnen","unit":"van 6"},
+    {"id":"correctLow","label":"Lastige laagwaardige objecten teruggewonnen","unit":"van 4"},
+    {"id":"recoveredItems","label":"Totaal teruggewonnen","unit":"van 12"},
+    {"id":"rejectedItems","label":"Afgevoerde objecten","unit":"van 12"},
+    {"id":"illustrativeRevenue","label":"Illustratieve opbrengst na controlekosten","unit":"rekenpunten"}
+  ],
+  "assumptions": ["Dit is een fictief leerinstrument, geen prestatiemodel van AMP Robotics of een ander bedrijf.","De getallen zijn verzonnen om doelkeuze, trainingsdekking en controle apart te onderzoeken.","Meer terugwinning betekent hier niet automatisch een betere volledige milieubalans: energie, transport en latere verwerking zijn niet gemodelleerd.","De Gender Shades-casus betreft een andere taak en levert geen effectschattingen voor deze sorteerband."],
+  "contrastRequirements": ["Vergelijk opbrengst en terugwinning met gelijke trainingsdekking en controle.","Vergelijk beperkte en bredere oefendata terwijl het optimalisatiedoel gelijk blijft."],
+  "minimumTrials": 3,
+  "conceptQuestion": "Waarom blijven bij een opbrengstdoel lastige goedkope materialen liggen, zelfs met een betere oefenset?",
+  "options": [
+    {"id":"goal","text":"Herkennen en prioriteit geven zijn verschillende stappen; het doel geeft goedkope materialen weinig gewicht.","correct":true,"feedback":"Een betere detector verandert nog niet wat het systeem probeert te maximaliseren."},
+    {"id":"training","text":"Een grotere oefenset bewijst dat ieder materiaal economisch dezelfde prioriteit krijgt.","correct":false,"feedback":"Data kunnen herkenning verbeteren; het opbrengstdoel blijft waardering sturen."},
+    {"id":"failure","text":"Afvoer bewijst altijd een herkenningsfout, ook als de beslisregel het materiaal bewust overslaat.","correct":false,"feedback":"Vergelijk herkenning met de doelregel: een correct herkend object kan toch niet geselecteerd worden."}
+  ]
+}

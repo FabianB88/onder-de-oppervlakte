@@ -1,0 +1,48 @@
+{
+  "validatedAt": "2026-10-12T16:19:30.324Z",
+  "errors": [],
+  "warnings": [],
+  "report": [
+    {
+      "lessonId": "m4",
+      "areas": 6,
+      "beats": 28,
+      "sourceAuditRows": 27,
+      "sourceTeachingPropositions": 88,
+      "npcTopics": 56,
+      "questions": 8,
+      "correctAnswerPositions": [
+        0,
+        3,
+        2,
+        1,
+        0,
+        3,
+        2,
+        1
+      ],
+      "mandatoryOriginalProjections": 4
+    },
+    {
+      "lessonId": "m5",
+      "areas": 6,
+      "beats": 27,
+      "sourceAuditRows": 24,
+      "sourceTeachingPropositions": 84,
+      "npcTopics": 54,
+      "questions": 8,
+      "correctAnswerPositions": [
+        0,
+        3,
+        2,
+        1,
+        0,
+        3,
+        2,
+        1
+      ],
+      "mandatoryOriginalProjections": 1
+    }
+  ],
+  "scope": "Content structure, references, segmentation, dialogue depth, evidence trace and answer position. This does not certify runtime mechanics, semantic completeness of unverified original clips or empirical learning outcomes."
+}

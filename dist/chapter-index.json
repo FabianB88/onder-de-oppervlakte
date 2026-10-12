@@ -1,0 +1,16 @@
+{
+  "chapters": [
+    "chapters/m2.json",
+    "chapters/m3.json",
+    "chapters/m4.json",
+    "chapters/m5.json"
+  ],
+  "npcFiles": [
+    "chapters/m1-npcs.json",
+    "chapters/m1-supplement-npcs.json",
+    "chapters/m2-npcs.json",
+    "chapters/m3-npcs.json",
+    "chapters/m4-npcs.json",
+    "chapters/m5-npcs.json"
+  ]
+}

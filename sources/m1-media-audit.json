@@ -1,0 +1,757 @@
+{
+  "schemaVersion": 1,
+  "lessonId": "m1",
+  "auditDate": "2026-10-12",
+  "scope": "Audit of original Module 1 text, video, diagram, named examples and citations against the mandatory world tasks and optional NPC teaching. Coverage is judged from teaching propositions, not source-ID presence.",
+  "method": {
+    "sourceFile": "sources/business-ethics-course.json",
+    "sourceLessonIndex": 0,
+    "sourceBlockIndexing": "Zero-based indices in lessons[0].blocks.",
+    "gameFiles": [
+      "dist/playbook.json",
+      "dist/chapters/m1-npcs.json",
+      "dist/chapters/m1-supplement.json",
+      "dist/chapters/m1-supplement-npcs.json"
+    ],
+    "readDepth": "All original Module 1 JSON blocks and current Module 1 authored beats read. Two original diagrams visually inspected. Two primary TED transcripts fully read. Exact VPRO short-video metadata verified; its transcript unavailable. Primary corroborating papers were generally read at abstract or publisher-excerpt depth, not silently treated as full-text reading.",
+    "proofLimits": [
+      "An optional source film in the library does not teach a proposition in the mandatory game route.",
+      "An NPC theory panel supports explanation; optional opening of a panel is not evidence that every learner read or understood it.",
+      "This is a content audit. Runtime execution, accessibility, retention, transfer and learning superiority need separate verification.",
+      "The VPRO clip remains a hard verification gap. Course text and a related documentary synopsis cannot establish every proposition spoken in the exact short clip."
+    ]
+  },
+  "summary": {
+    "originalBaseline": "Six investigations, 24 authored beats. General moral-economy concepts were present; inequality-policy details and the distinct ecological-growth video were not adequately taught. Several named course cases and citation qualifications were missing or too implicit.",
+    "currentAuthoredSnapshot": "Eight investigations and 35 beats were present in dist/playbook.json when re-read after supplement integration. The two verified TED omissions and named-case inserts are now present as mandatory teaching tasks. All 16 Module 1 NPC instances have complementary theory panels.",
+    "conclusion": "Substantially fuller proposition coverage, with specific caveats. Do not claim that every original audiovisual proposition has been verified or that the experience is proven better than the e-learning.",
+    "remainingGaps": [
+      "Exact speech/content of the 60-second VPRO clip mmXGtf6GRjM remains unverified because its caption endpoint returned HTTP 429.",
+      "The original bibliography lacks sufficient detail to resolve exact editions or works for Smith 1776/2003, Aalbers 2017 and Kuttner 2019, and does not identify every 2019 Zuboff source precisely.",
+      "The complete books and most journal full texts were not read during this audit; broad universal wording in the original course should not be presented as a result directly established by these citations.",
+      "NPC explanation panels and additional tasks are authored and statically inspected; this audit does not establish successful learner use or runtime correctness."
+    ]
+  },
+  "media": [
+    {
+      "sourceBlock": 3,
+      "type": "video",
+      "title": "Is inequality inevitable?",
+      "youtubeId": "rEnf_CFoyv0",
+      "originalReference": "https://www.youtube.com/watch?v=rEnf_CFoyv0&start=132",
+      "originalStartSeconds": 132,
+      "primaryTranscript": "https://www.ted.com/talks/ted_ed_is_inequality_inevitable?view=transcript",
+      "readDepth": {
+        "primary": "Full published TED transcript read.",
+        "interval": "Original starts at 2:12. Full transcript was read for context; Gini prerequisites occurring earlier are identified as added support, not falsely claimed as part of the played interval."
+      },
+      "classification": "unique_essential_verified",
+      "teachingPropositions": [
+        {
+          "time": "2:19–3:45",
+          "text": "Government choices and institutional context affect distribution; historical socialist and capitalist examples show that a single system label does not determine inequality, prosperity or freedom.",
+          "currentRequiredCoverage": [
+            "m1-07-b2"
+          ],
+          "npcCoverage": [
+            "m1-07:Noor/theory"
+          ]
+        },
+        {
+          "time": "4:07–5:15",
+          "text": "Income taxes, inheritance taxes, transfers, education, healthcare and digital access act through different routes.",
+          "currentRequiredCoverage": [
+            "m1-07-b3",
+            "m1-07-b4",
+            "m1-07-b5"
+          ],
+          "npcCoverage": [
+            "m1-07:Noor",
+            "m1-07:Eva"
+          ]
+        },
+        {
+          "time": "5:34–6:13",
+          "text": "Wealth and political or media influence can reinforce each other; inequality is not an automatic unchangeable fate.",
+          "currentRequiredCoverage": [
+            "m1-07-b3",
+            "m1-07-b5"
+          ],
+          "npcCoverage": [
+            "m1-07:Eva/theory"
+          ]
+        },
+        {
+          "time": "0:38–1:32, before original start",
+          "text": "Gini summarises a chosen distribution and omits several dimensions. Income and wealth must be distinguished.",
+          "currentRequiredCoverage": [
+            "m1-07-b1",
+            "m1-07-b5"
+          ],
+          "status": "Added prerequisites, corroborated with OECD."
+        }
+      ],
+      "baselineCoverage": "m1-05 covered cumulative ownership and conditional r versus g, which did not substitute for these policy mechanisms or counterexamples.",
+      "implementedAddition": "m1-07 contains five teaching beats, a fictional fixed-total transfer exercise and two causal exit slots.",
+      "qualifications": [
+        "Country cards are historical examples from the 2022 film, not current rankings.",
+        "No historical inheritance-tax exemption amount is presented as current.",
+        "A static transfer changes recipients; it is not a complete growth or behavioural forecast."
+      ]
+    },
+    {
+      "sourceBlock": 11,
+      "type": "video",
+      "title": "The Rare Metals War: de schaduwkant van de energietransitie",
+      "youtubeId": "mmXGtf6GRjM",
+      "originalReference": "https://www.youtube.com/watch?v=mmXGtf6GRjM",
+      "readDepth": {
+        "metadata": "YouTube primary metadata identifies VPRO Tegenlicht, published 2024-04-27, duration 60 seconds and an English ASR caption track.",
+        "exactTranscript": "Unavailable: caption endpoint returned HTTP 429. Exact audiovisual speech/content not fully read or watched for this audit.",
+        "relatedPublisherContext": "VPRO program synopsis read; this concerns related documentary context and does not establish all content in the exact 60-second clip."
+      },
+      "classification": "unverified_exact_clip",
+      "relatedPublisherReference": "https://tegenlicht.vpro.nl/artikelen/the-rare-metals-war-guillaume-pitron-over-de-schaduwzijde-van-de-energietransitie",
+      "relatedFullFilmId": "vpiXdEsOmWE",
+      "confirmedFromCourseText": [
+        "High-tech and energy-transition products depend on mineral chains with unevenly distributed effects.",
+        "Source text explicitly names cobalt/Congo, rare-earth processing/China and e-waste/Ghana and India."
+      ],
+      "currentRequiredCoverage": [
+        "m1-03-b1",
+        "m1-03-b2",
+        "m1-03-b3"
+      ],
+      "npcCoverage": [
+        "m1-03:Mila",
+        "m1-03:Omar"
+      ],
+      "gap": "Possible unique propositions in the exact short clip cannot be classified as redundant or covered.",
+      "recommendedNextStep": "Manually watch the exact 60-second clip or obtain an authorised transcript. Record individual claims with timestamps; add only essential unique propositions to the route after verification.",
+      "prohibitedInference": "Do not infer the complete clip from the related full-documentary synopsis or call the 60-second upload the full film."
+    },
+    {
+      "sourceBlock": 16,
+      "type": "image",
+      "title": "Menselijke waarden versus systeemdoelen",
+      "originalReference": "https://fabianb88.github.io/minor-ce-elearnings/modules/business-ethics/media/Gemini_Generated_Image_2cy.jpg",
+      "localAuditCopy": "sources/media-audit/Gemini_Generated_Image_2cy.jpg",
+      "readDepth": "Full original raster visually inspected, including labels and apple-machine/bird-nest metaphor.",
+      "classification": "illustrative_redundancy_verified",
+      "teachingPropositions": [
+        "Human judgement can include empathy, justice, personal beliefs and group norms.",
+        "A system's goals and measured variables can omit morally relevant effects.",
+        "Responsibility for design, rules and use remains with people."
+      ],
+      "currentRequiredCoverage": [
+        "m1-04-b1",
+        "m1-04-b2",
+        "m1-04-b3"
+      ],
+      "npcCoverage": [
+        "m1-04:Iris/theory",
+        "m1-04:Mila/theory"
+      ],
+      "gap": "No unique essential proposition found beyond the adjacent source text and these tasks.",
+      "qualification": "The illustration is an analogy. It does not prove that every organisation is morally empty or every technology inevitably harms."
+    },
+    {
+      "sourceBlock": 21,
+      "type": "video",
+      "title": "Can the economy grow forever?",
+      "youtubeId": "mT3P0YSNonE",
+      "originalReference": "https://www.youtube.com/watch?v=mT3P0YSNonE",
+      "primaryTranscript": "https://www.ted.com/talks/ted_ed_can_the_economy_grow_forever?view=transcript",
+      "readDepth": {
+        "primary": "Full published TED transcript read from public page transcriptData translation cues in its Next.js document.",
+        "copyright": "No full transcript copied into the project or this report; propositions are paraphrased."
+      },
+      "classification": "unique_essential_verified",
+      "teachingPropositions": [
+        {
+          "time": "0:09–0:47",
+          "text": "Constant percentage growth produces compounding; historical growth motivates a debate over material and ecological conditions.",
+          "currentRequiredCoverage": [
+            "m1-08-b1"
+          ]
+        },
+        {
+          "time": "1:09–2:36",
+          "text": "Economic value differs from physical inputs; labour, capital and resources contribute, and efficiency can reduce inputs per unit.",
+          "currentRequiredCoverage": [
+            "m1-08-b2",
+            "m1-08-b3"
+          ]
+        },
+        {
+          "time": "3:01–3:35",
+          "text": "New demand can offset efficiency gains; ecological damage can matter before physical exhaustion, and feasibility remains contested.",
+          "currentRequiredCoverage": [
+            "m1-08-b3",
+            "m1-08-b4",
+            "m1-08-b5"
+          ]
+        },
+        {
+          "time": "3:38–5:26",
+          "text": "Innovation-driven growth and postgrowth proposals raise distinct evidence, needs, work, public-service and political questions.",
+          "currentRequiredCoverage": [
+            "m1-08-b4",
+            "m1-08-b5"
+          ],
+          "npcCoverage": [
+            "m1-08:Iris",
+            "m1-08:Mila"
+          ]
+        }
+      ],
+      "baselineCoverage": "The original game mapped block 21 to an ownership room, but r versus g is not the film's ecological growth question.",
+      "implementedAddition": "m1-08 has five teaching beats, a three-run material calculation, historical-versus-universal claim distinctions and two causal exit slots.",
+      "qualifications": [
+        "Germany's 2000–2014 GDP +16% and CO₂ −12% are explicitly historical film examples.",
+        "One country's CO₂ trend does not establish worldwide permanent decoupling of every resource or impact.",
+        "Fictional material runs show arithmetic, not a measured demand forecast or an inevitable rebound effect.",
+        "Neither growth nor postgrowth is presented as an automatically proven universal solution."
+      ]
+    },
+    {
+      "sourceBlock": 25,
+      "type": "image",
+      "title": "Bezit, schaal, technologie en machtsconcentratie",
+      "originalReference": "https://fabianb88.github.io/minor-ce-elearnings/modules/business-ethics/media/Gemini_Generated_Image_m3y.jpg",
+      "localAuditCopy": "sources/media-audit/Gemini_Generated_Image_m3y.jpg",
+      "readDepth": "Full original raster visually inspected, including institutional changes, sector nodes and downstream effects.",
+      "classification": "illustrative_redundancy_verified_with_named_case_gap_closed",
+      "teachingPropositions": [
+        "Deregulation, privatisation and financial priorities are different institutional mechanisms.",
+        "Concentration and control over access can affect prices, work, innovation, politics and autonomy.",
+        "Named sectors illustrate different possible routes to influence."
+      ],
+      "currentRequiredCoverage": [
+        "m1-05-b3",
+        "m1-05-b6",
+        "m1-05-b7",
+        "m1-06-b4"
+      ],
+      "npcCoverage": [
+        "m1-05:Noor/theory",
+        "m1-06:Iris/theory"
+      ],
+      "implementedAddition": "m1-05-b7 restores explicit Big Tech, Monsanto/Bayer, Maersk and energy-infrastructure cases.",
+      "qualification": "AI-created diagram contains ambiguous/mistyped labelling. The course's privatisation context takes precedence over a misleading literal label. A schematic is not empirical proof of automatic concentration in every market."
+    }
+  ],
+  "examples": [
+    {
+      "sourceBlocks": [
+        2
+      ],
+      "case": "European gas crisis, 2022",
+      "readDepth": "Original course text fully read.",
+      "teachingProposition": "A shortage requires choices about access and protection as well as capacity calculations.",
+      "baselineGap": "Dispatch illustrated scarcity without explicitly dating and connecting the course example.",
+      "currentRequiredCoverage": [
+        "m1-01-b1"
+      ],
+      "implemented": "Explain-after names the historical 2022 case and labels the 100-unit trial fictional.",
+      "qualification": "No current gas price, shortage statistic or actual 2022 European allocation is inferred."
+    },
+    {
+      "sourceBlocks": [
+        7
+      ],
+      "case": "Family-dinner distribution analogy",
+      "readDepth": "Original tabs fully read.",
+      "teachingProposition": "Equal portions, need and other criteria can justify different distributions.",
+      "currentRequiredCoverage": [
+        "m1-01-b1",
+        "m1-01-b2",
+        "m1-02-b3"
+      ],
+      "classification": "Transferred analogy; literal dinner setting not essential.",
+      "gap": "None at conceptual level; the task does not reproduce the original anecdote word for word."
+    },
+    {
+      "sourceBlocks": [
+        7
+      ],
+      "case": "Student shared-fridge commons analogy",
+      "readDepth": "Original tabs fully read.",
+      "teachingProposition": "Shared use needs rules, maintenance and accountability; commons differs from externalities.",
+      "currentRequiredCoverage": [
+        "m1-02-b1",
+        "m1-02-b3"
+      ],
+      "classification": "Transferred to river governance.",
+      "qualification": "Shared use is not a claim that everyone has the same legal ownership or that failure is inevitable."
+    },
+    {
+      "sourceBlocks": [
+        12
+      ],
+      "case": "Cobalt/Congo, rare earths/China, e-waste/Ghana and India",
+      "readDepth": "Original course text fully read; exact VPRO short speech still unverified.",
+      "teachingProposition": "Follow concrete material chains and inspect who receives benefits, costs and decision power.",
+      "currentRequiredCoverage": [
+        "m1-03-b1",
+        "m1-03-b2",
+        "m1-03-b3"
+      ],
+      "qualification": "Country examples are contextual; they are not a certification or accusation covering every firm or every current supply route."
+    },
+    {
+      "sourceBlocks": [
+        15,
+        16
+      ],
+      "case": "Apple-picking machine and bird nest",
+      "readDepth": "Original text read and original image visually inspected.",
+      "teachingProposition": "Meeting a specified target can miss another value; human design and governance remain responsible.",
+      "currentRequiredCoverage": [
+        "m1-04-b1",
+        "m1-04-b2",
+        "m1-04-b3"
+      ],
+      "qualification": "Analogy does not establish that automation inevitably harms or that human empathy always succeeds."
+    },
+    {
+      "sourceBlocks": [
+        19
+      ],
+      "case": "BlackRock and institutional investment",
+      "readDepth": "Original course text and primary company stewardship statement read.",
+      "primaryReference": "https://www.blackrock.com/corporate/insights/thought-leadership/investment-stewardship",
+      "teachingProposition": "Asset management, economic ownership, voting authority and operational control are distinct.",
+      "baselineGap": "The original game used generic institutional keys without restoring the named role.",
+      "currentRequiredCoverage": [
+        "m1-05-b2"
+      ],
+      "npcCoverage": [
+        "m1-05:Eva/theory",
+        "m1-07:Eva"
+      ],
+      "qualification": "Client-asset management and authorised voting are not unlimited ownership or control. No current assets-under-management figure is used."
+    },
+    {
+      "sourceBlocks": [
+        19
+      ],
+      "case": "Property funds and platform data",
+      "readDepth": "Original text read; Aalbers author-year ambiguous; Zuboff primary author article abstract/context read.",
+      "teachingProposition": "Property and data control offer different routes to influence, shaped by institutions and alternatives.",
+      "currentRequiredCoverage": [
+        "m1-05-b2",
+        "m1-05-b4",
+        "m1-06-b1"
+      ],
+      "qualification": "No universal price effect for all property funds or total control over consumer preference is claimed."
+    },
+    {
+      "sourceBlocks": [
+        24,
+        25
+      ],
+      "case": "Google, Amazon, Apple and Meta",
+      "readDepth": "Original named cases read; no independent current monopoly assessment undertaken.",
+      "teachingProposition": "Networks, data and access rules can create platform dependence.",
+      "currentRequiredCoverage": [
+        "m1-05-b7"
+      ],
+      "npcCoverage": [
+        "m1-05:Noor/theory"
+      ],
+      "qualification": "Names are historical course examples, not current market rankings or findings of abuse."
+    },
+    {
+      "sourceBlocks": [
+        24,
+        25
+      ],
+      "case": "Monsanto/Bayer",
+      "readDepth": "Original named case read; no independent current market-power assessment undertaken.",
+      "teachingProposition": "Knowledge, rights and chain access can be sources of influence in agriculture.",
+      "currentRequiredCoverage": [
+        "m1-05-b7"
+      ],
+      "qualification": "Course-sector example; no unsupported claim of a current monopoly, price or misconduct."
+    },
+    {
+      "sourceBlocks": [
+        24,
+        25
+      ],
+      "case": "Maersk and energy-infrastructure firms",
+      "readDepth": "Original named cases read; no independent current sector-share assessment undertaken.",
+      "teachingProposition": "Routes and necessary infrastructure can affect access, alternatives and conditions.",
+      "currentRequiredCoverage": [
+        "m1-05-b7",
+        "m1-05-b6"
+      ],
+      "qualification": "Scale can bring efficiency and dependence. Their actual balance requires concrete evidence."
+    },
+    {
+      "sourceBlocks": [
+        28,
+        29
+      ],
+      "case": "Supermarket and personalised digital shelf",
+      "readDepth": "Original text/quiz fully read; primary Zuboff author article context read.",
+      "teachingProposition": "Selection, visibility and feedback can shape demand while a person's choices remain real.",
+      "baselineGap": "Visibility was taught, but the adaptive data loop was too implicit.",
+      "currentRequiredCoverage": [
+        "m1-06-b1",
+        "m1-06-b3"
+      ],
+      "implemented": "Required reveal traces choice to data to ranking to visibility to new data.",
+      "qualification": "An observed click does not establish manipulation or eliminate every form of agency."
+    },
+    {
+      "sourceBlocks": [
+        28
+      ],
+      "case": "Financial horizon, maintenance and crisis vulnerability",
+      "readDepth": "Original text fully read.",
+      "teachingProposition": "Short-horizon incentives can displace maintenance and long-term resilience.",
+      "currentRequiredCoverage": [
+        "m1-06-b4"
+      ],
+      "npcCoverage": [
+        "m1-06:Iris/theory"
+      ],
+      "qualification": "Mechanism is conditional, not a universal judgement about every investor."
+    },
+    {
+      "sourceBlocks": [
+        31,
+        32,
+        34
+      ],
+      "case": "Herd behaviour, loss aversion and moral disengagement",
+      "readDepth": "Original definitions and questions fully read; Bandura primary article abstract read.",
+      "teachingProposition": "Social following, asymmetry of loss and gain, and rationalisation of harm are distinct mechanisms that can scale through organisations.",
+      "currentRequiredCoverage": [
+        "m1-06-b2",
+        "m1-06-b5",
+        "m1-06-b6"
+      ],
+      "npcCoverage": [
+        "m1-06:Lena/theory",
+        "m1-06:Iris/theory"
+      ],
+      "qualification": "They are context-dependent tendencies; the route avoids claiming every person or every market always reacts this way."
+    }
+  ],
+  "referenceQualifications": [
+    {
+      "sourceBlocks": [
+        2,
+        15,
+        24
+      ],
+      "citation": "Friedman (1970)",
+      "primaryReference": "https://public.websites.umich.edu/~thecore/doc/Friedman.pdf",
+      "readDepth": "Original essay text read from university-hosted copy.",
+      "correction": "Winst binnen de spelregels includes open/free competition without deception or fraud; do not compress to 'anything legal is ethical'.",
+      "implemented": [
+        "m1-01-b3 explainAfter",
+        "m1-01:Eva/theory"
+      ]
+    },
+    {
+      "sourceBlocks": [
+        2
+      ],
+      "citation": "Hourdequin (2010)",
+      "primaryReference": "https://doi.org/10.3197/096327110X531552",
+      "additionalReference": "https://www.jstor.org/stable/j.ctt1ht4vw6.37",
+      "readDepth": "Bibliographic metadata and published author excerpt read; full paper not read.",
+      "correction": "Collective action duties and individual obligations can coexist. Do not attribute the disappearance of individual responsibility to the author.",
+      "implemented": [
+        "m1-02-b3 explainAfter",
+        "m1-02:Omar/theory"
+      ]
+    },
+    {
+      "sourceBlocks": [
+        12,
+        24
+      ],
+      "citation": "Winner (1980)",
+      "primaryReference": "https://www.jstor.org/stable/20024652",
+      "readDepth": "Primary introduction excerpt read; full paper not read.",
+      "correction": "Artifacts can embody power and authority. This does not independently establish identical domination by every technology or infrastructure owner.",
+      "implemented": [
+        "m1-03:Omar/theory",
+        "m1-05-b6",
+        "m1-05:Noor/theory"
+      ]
+    },
+    {
+      "sourceBlocks": [
+        15,
+        24,
+        28
+      ],
+      "citation": "Goodpaster (1991)",
+      "primaryReference": "https://www.cambridge.org/core/journals/business-ethics-quarterly/article/abs/business-ethics-and-stakeholder-analysis/9B612083C2D8FDCEF30D498C49FABDE9",
+      "doi": "10.2307/3857592",
+      "readDepth": "Primary publisher abstract read; full paper not read.",
+      "correction": "The stakeholder paradox concerns strategic versus multifiduciary synthesis of stakeholder interests. The course's empty moral-machine story is an instructional application, not an exact definition or demonstrated causal consequence of neoliberalism.",
+      "implemented": [
+        "m1-04-b2 explainAfter",
+        "m1-04:Iris/theory",
+        "m1-04:Iris/paradox"
+      ]
+    },
+    {
+      "sourceBlocks": [
+        19
+      ],
+      "citation": "Smith (1776/2003)",
+      "primaryReference": null,
+      "readDepth": "Course attribution read; exact 2003 edition unresolved, no full book read.",
+      "correction": "Teach the course's ownership/autonomy framing as historical interpretation. Do not claim a verified quotation or exact passage without edition and page.",
+      "implemented": [
+        "m1-05-b2",
+        "m1-05:Eva/theory"
+      ],
+      "remaining": "Resolve edition and original passage in bibliography."
+    },
+    {
+      "sourceBlocks": [
+        19,
+        28
+      ],
+      "citation": "Piketty (2014)",
+      "primaryReference": "https://www.hup.harvard.edu/books/9780674430006",
+      "publisherExcerpt": "https://edelweiss-assets.abovethetreeline.com/HARB/pdfs/harvard-university-press-catalog-2013springsummer.pdf",
+      "readDepth": "Publisher metadata and catalogue description read; full book not read.",
+      "correction": "r greater than g is a conditional concentration mechanism, not proof that every person's wealth, wages or political power automatically rise at a fixed rate.",
+      "implemented": [
+        "m1-05-b1",
+        "m1-05-b5",
+        "m1-05:Eva/theory"
+      ]
+    },
+    {
+      "sourceBlocks": [
+        19
+      ],
+      "citation": "Aalbers (2017)",
+      "primaryReference": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/1468-2427.12522",
+      "relatedBook": "https://www.routledge.com/The-Financialization-of-Housing-A-political-economy-approach/Aalbers/p/book/9781138092907",
+      "readDepth": "Publisher metadata and related book description read; exact original author-year reference unresolved.",
+      "correction": "Multiple plausible works exist, including a related 2016 book. No universal housing-price effect follows from citing the author's surname and year.",
+      "implemented": [
+        "m1-05-b2"
+      ],
+      "remaining": "Add title, edition/DOI and relevant page before claiming exact source attribution."
+    },
+    {
+      "sourceBlocks": [
+        19,
+        24,
+        28
+      ],
+      "citation": "Autor, Dorn, Katz, Patterson and Van Reenen (2020)",
+      "primaryReference": "https://academic.oup.com/qje/article-abstract/135/2/645/5721266",
+      "doi": "10.1093/qje/qjaa004",
+      "readDepth": "Primary publisher abstract read; full paper not read.",
+      "correction": "The paper studies superstar firms, concentration and falling labour share. It does not establish that almost all innovation and value in every sector belong to a few firms. The original list omits Van Reenen in one place.",
+      "implemented": [
+        "m1-05-b6",
+        "m1-05-b7",
+        "m1-05:Noor/theory"
+      ]
+    },
+    {
+      "sourceBlocks": [
+        24,
+        28
+      ],
+      "citation": "Harvey (2005)",
+      "primaryReference": "https://academic.oup.com/book/40603",
+      "readDepth": "Publisher introduction/description read; full book not read.",
+      "correction": "A critical historical interpretation should be distinguished from an invariant empirical law that every deregulation causes monopoly.",
+      "implemented": [
+        "m1-05-b3",
+        "m1-05:Noor/theory"
+      ]
+    },
+    {
+      "sourceBlocks": [
+        24
+      ],
+      "citation": "Kuttner (2019)",
+      "primaryReference": null,
+      "readDepth": "Original author-year attribution read; exact work/year unresolved.",
+      "correction": "Do not silently invent a title or edition. Current tasks teach the stated short-horizon mechanism conditionally without presenting this incomplete reference as independently verified.",
+      "implemented": [
+        "m1-06-b4",
+        "m1-06:Iris/theory"
+      ],
+      "remaining": "Resolve bibliography and relevant original passage."
+    },
+    {
+      "sourceBlocks": [
+        19,
+        28,
+        29
+      ],
+      "citation": "Zuboff (2019)",
+      "primaryReference": "https://journals.sagepub.com/doi/abs/10.1177/1095796018819461",
+      "readDepth": "Primary author article publisher abstract/context read; original course likely also refers to a book but gives no full bibliographic detail. Full book not read.",
+      "correction": "Data-driven prediction and influence are a documented analytical framework; an absolute disappearance of individual agency is not established by a shelf analogy.",
+      "implemented": [
+        "m1-06-b1",
+        "m1-06:Lena/theory"
+      ]
+    },
+    {
+      "sourceBlocks": [
+        24
+      ],
+      "citation": "Stigler Center (2019)",
+      "primaryReference": "https://www.chicagobooth.edu/research/stigler/news-and-media/committee-on-digital-platforms-final-report",
+      "reportReference": "https://www.chicagobooth.edu/-/media/research/stigler/pdfs/digital-platforms---committee-report---stigler-center",
+      "readDepth": "Primary announcement and report introduction excerpt read; complete report not read.",
+      "correction": "Report covers digital-platform competition, privacy, news and democracy. It is not blanket proof about every agricultural, logistics or energy firm.",
+      "implemented": [
+        "m1-05-b7",
+        "m1-05:Noor/theory"
+      ]
+    },
+    {
+      "sourceBlocks": [
+        31
+      ],
+      "citation": "Bandura (1999)",
+      "primaryReference": "https://pubmed.ncbi.nlm.nih.gov/15661671/",
+      "doi": "10.1207/s15327957pspr0303_3",
+      "readDepth": "Primary journal abstract indexed by PubMed read; full paper not read.",
+      "correction": "Moral disengagement describes mechanisms that disengage self-regulation, not automatic evil character or a universal outcome of markets.",
+      "implemented": [
+        "m1-06-b2",
+        "m1-06:Lena/theory"
+      ]
+    }
+  ],
+  "corroboratingSources": [
+    {
+      "url": "https://www.oecd.org/en/data/indicators/income-inequality.html",
+      "supports": "Definition and limits of a summary distribution measure."
+    },
+    {
+      "url": "https://www.oecd.org/en/publications/income-redistribution-through-taxes-and-transfers-across-oecd-countries_bc7569c6-en.html",
+      "supports": "Taxes/transfers are mechanisms with institutional variation; abstract read."
+    },
+    {
+      "url": "https://www.oecd.org/en/publications/for-good-measure_9789264307278-en.html",
+      "supports": "Multiple inequality and wellbeing dimensions; publisher context read."
+    },
+    {
+      "url": "https://www.oecd.org/en/publications/how-s-life-in-the-digital-age_9789264311800-en.html",
+      "supports": "Digital access and outcomes have multiple dimensions; publisher context read."
+    },
+    {
+      "url": "https://www.worldbank.org/en/brief/2021/04/30/icp2021-concepts-definitions",
+      "supports": "GDP concepts: final production value, not simply sales or resource weight."
+    },
+    {
+      "url": "https://wedocs.unep.org/bitstream/handle/20.500.11822/31439/Decoupling_Factsheet_EN.pdf",
+      "supports": "Relative/absolute decoupling distinction; factsheet read."
+    },
+    {
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/13563467.2019.1598964",
+      "supports": "Primary research debate over green growth; abstract read, not universal proof of impossibility."
+    }
+  ],
+  "coverageDecisions": [
+    {
+      "decision": "Mandatory learning",
+      "content": "The verified inequality and ecological-growth propositions require tasks in m1-07 and m1-08. Generic ownership puzzles and library links were insufficient."
+    },
+    {
+      "decision": "Transferred examples",
+      "content": "Dinner, shared fridge and material-chain settings can change when the same distinctions, reasoning and limits are actually taught. Literal reproduction of every anecdote is not the educational objective."
+    },
+    {
+      "decision": "Source fidelity with qualifications",
+      "content": "Named cases are restored while universal or inadequately supported wording is qualified. Understanding a perspective does not require agreeing with every ideological claim."
+    },
+    {
+      "decision": "Assessments",
+      "content": "Original quiz and matching blocks 4, 9, 13, 17, 22, 26, 29, 32 and 34 are assessment evidence. Correct-answer completion alone does not establish initial teaching, comprehension or transfer."
+    }
+  ],
+  "authoredOutputs": {
+    "supplement": "dist/chapters/m1-supplement.json",
+    "supplementNPCs": "dist/chapters/m1-supplement-npcs.json",
+    "originalNPCsEnriched": "dist/chapters/m1-npcs.json",
+    "theorySchema": "theory:{title,concepts,sections:[{title,text}]}",
+    "theoryCount": 16,
+    "theorySectionsPerInstance": 3,
+    "theoryWordRange": [
+      45,
+      75
+    ],
+    "suggestedRoute": [
+      "m1-01",
+      "m1-02",
+      "m1-03",
+      "m1-04",
+      "m1-05",
+      "m1-07",
+      "m1-08",
+      "m1-06"
+    ],
+    "placementReason": "Distribution and ecological production constraints follow ownership; the final etalage connects production plans to demand and choice architecture."
+  },
+  "releaseLanguage": {
+    "supported": "Module 1 includes substantially expanded teaching of the original text and the two verified TED videos, with explicit model limits and complementary NPC explanations.",
+    "unsupported": [
+      "All original video content is verified.",
+      "The game is proven to teach better than the e-learning.",
+      "A source-ID coverage score proves full knowledge coverage.",
+      "A few named firms automatically control every decision in their sectors."
+    ]
+  },
+  "snapshot": {
+    "files": {
+      "sources/business-ethics-course.json": {
+        "sha256": "7fa9b0b4c664c90da7dd8e5b58ee532d37d298aee3927733c4bf7bdc67098449"
+      },
+      "dist/playbook.json": {
+        "sha256": "21d496e05c454884b92fab9b9ae625bb5aad992bbc39a1e27c5fa65d2a51651e"
+      },
+      "dist/chapters/m1-npcs.json": {
+        "sha256": "364b16fff339e2037837695739128ad6a6d0bd84077f0a44fdc528591bb7e3a8"
+      },
+      "dist/chapters/m1-supplement.json": {
+        "sha256": "bad59b00d2c325a64bd0e88b7b90551b29cd8ef35e52c5805fc836de3ce107a5"
+      },
+      "dist/chapters/m1-supplement-npcs.json": {
+        "sha256": "2aa6c360327724b15d99fc281ee518e65c14a5b5ab134a0a8959a1b4a2b7bf1c"
+      }
+    },
+    "observedRoomIds": [
+      "m1-01",
+      "m1-02",
+      "m1-03",
+      "m1-04",
+      "m1-05",
+      "m1-07",
+      "m1-08",
+      "m1-06"
+    ],
+    "observedBeatCount": 35,
+    "validation": "JSON parsed; 16 theory instances have 3 sections each within 45–75 words; supplement teaching lengths, causal evidence IDs and currently integrated patch content checked. Runtime not exercised by this auditor.",
+    "staticIssues": []
+  },
+  "runtimeIntegration": {
+    "areas": 8,
+    "worldActivities": 35,
+    "requiredSourceProjections": 1,
+    "exactVproClip": "Included as a required in-world source with case synthesis; complete speech remains independently unverified."
+  }
+}

@@ -1,0 +1,1488 @@
+{
+  "schemaVersion": 1,
+  "rooms": [
+    {
+      "investigationId": "m3-01",
+      "npcs": [
+        {
+          "name": "Omar",
+          "role": "Logistiek coördinator",
+          "cell": [
+            3,
+            4
+          ],
+          "opening": "Samen plannen bespaart werk. Maar ik wil weten welke aansluitvoorwaarden kleine partners onderweg tegenkomen.",
+          "topics": [
+            {
+              "id": "omar-t1",
+              "question": "Waarom bundelen we middelen?",
+              "answer": "Geen enkele reparateur kan alle machines, voorraad en specialistische kennis alleen organiseren. Samenwerking maakt complexere productie en planning mogelijk.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Een onderneming coördineert verschillende bijdragen in plaats van alleen losse aankopen te tellen."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Een gedeelde voorraad verkort leveringen en een gezamenlijke machine verdeelt vaste investeringskosten."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Het voordeel moet worden gemeten. Een grote organisatie kan ook coördinatieproblemen of verspilling hebben."
+                }
+              ]
+            },
+            {
+              "id": "omar-t2",
+              "question": "Wat is een schaalvoordeel?",
+              "answer": "Een voordeel dat ontstaat doordat meer gebruik of productie middelen efficiënter inzet, bijvoorbeeld lagere kosten per reparatie.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Vaste kosten kunnen over meer handelingen worden verdeeld en logistiek kan worden gebundeld."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Een dure machine wordt betaalbaar doordat meerdere werkplaatsen dezelfde capaciteit gebruiken."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Schaalvoordeel is niet hetzelfde als onbeperkt blijven groeien of automatisch de beste uitkomst voor iedereen."
+                }
+              ]
+            },
+            {
+              "id": "omar-t3",
+              "question": "Wanneer raakt de hub de toegang tot werk?",
+              "answer": "Als opdrachten en onderdelen alleen via haar netwerk bereikbaar zijn, beïnvloeden aansluitvoorwaarden wat andere partijen kunnen doen.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "De organisatie heeft dan meer dan een productprestatie: zij bepaalt mede deelnamevoorwaarden."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Een kundige reparateur kan toch geen opdracht uitvoeren als het platform hem niet laat aansluiten."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Sommige voorwaarden beschermen veiligheid. Onderzoek doel, proportionaliteit en alternatieven voordat je misbruik concludeert."
+                }
+              ]
+            },
+            {
+              "id": "omar-t4",
+              "question": "Welke gegevens ontbreken nog?",
+              "answer": "Wie afhankelijk is, welke alternatieven bestaan en wat aansluiten werkelijk kost.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Omvang of populariteit alleen vertelt niet de volledige machtspositie."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Vergelijk levertijd en kosten met toegangsrechten, mogelijke weigeringen en bereikbaarheid van andere leveranciers."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Mijn logistieke ervaring verklaart niet automatisch financiële of juridische bevoegdheden."
+                }
+              ]
+            }
+          ],
+          "theory": {
+            "title": "Waarom bundelen meer oplevert dan groter worden",
+            "concepts": [
+              "coördinatie",
+              "schaalvoordelen",
+              "marktmacht"
+            ],
+            "sections": [
+              {
+                "title": "Een onderneming verbindt bijdragen",
+                "text": "Een onderneming kan kapitaal, arbeid, kennis en leveranciers bundelen om productie mogelijk te maken die één persoon niet kan organiseren. Schaalvoordeel ontstaat bijvoorbeeld wanneer vaste kosten over meer producten worden verdeeld of specialisatie verbetert. Dat is een ander mechanisme dan macht: macht betreft invloed op voorwaarden, toegang of besluiten. Een groot bedrijf kan beide tegelijk hebben."
+              },
+              {
+                "title": "De hub heeft een werkplan en een toegangsreglement",
+                "text": "De gedeelde machines vragen geld vooraf, terwijl reparateurs, planners en leveranciers op elkaar moeten aansluiten. Gezamenlijke planning kan kosten verminderen. Het toegangsreglement bepaalt daarnaast wie mag deelnemen en welke prestaties tellen. Ik leg die documenten apart: het werkplan toont een coördinatiefunctie, terwijl bevoegdheden en beschikbare alternatieven nodig zijn om de toegangspositie te begrijpen."
+              },
+              {
+                "title": "Een lagere prijs bewijst niet minder macht",
+                "text": "Stel dat de kosten per dienst van negentig naar vijftig gaan en de prijs van honderd naar tachtig. De klant betaalt minder, terwijl het verschil tussen prijs en deze kosten groter wordt. Dat verschil is nog geen nettowinst: andere kosten kunnen ontbreken. Evenmin bewijst de lagere prijs dat verkopers meer zeggenschap over toelating kregen."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Eva",
+          "role": "Investeerder en adviseur over zeggenschap",
+          "cell": [
+            7,
+            4
+          ],
+          "opening": "Schaal kan plannen financierbaar maken. Hetzelfde netwerk kan anderen afhankelijk maken; die twee gevolgen moet ik naast elkaar zien.",
+          "topics": [
+            {
+              "id": "eva-t1",
+              "question": "Waarom kan efficiëntie macht worden?",
+              "answer": "Een nuttig groot netwerk kan essentieel worden voor anderen. Wie de toegang beheert, krijgt invloed op voorwaarden.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "De voordelen trekken deelname aan; afhankelijkheid maakt vertrek of alternatief opbouwen moeilijker."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "De hub levert goedkoop onderdelen en bepaalt tegelijk welke partijen het verplichte dataformaat mogen gebruiken."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Goedkoper werken bewijst geen misbruik. De relevante vraag is wat de beheerder met zijn positie kan doen."
+                }
+              ]
+            },
+            {
+              "id": "eva-t2",
+              "question": "Wat onderscheidt een netwerkeffect?",
+              "answer": "De waarde van deelname groeit doordat anderen meedoen. Dat verschilt van alleen lagere kosten door een grotere machine.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Deelnemers zoeken elkaar; een alternatief moet een bruikbaar netwerk opbouwen, niet uitsluitend dezelfde software kopen."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Meer leveranciers maakt de hub nuttiger voor reparateurs, waardoor meer reparateurs weer aantrekkelijk zijn voor leveranciers."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Sommige netwerken hebben weinig zulke effecten of gemakkelijk overstappen. Controleer de feitelijke relaties."
+                }
+              ]
+            },
+            {
+              "id": "eva-t3",
+              "question": "Wat bedoelt de cursus met superstar firms?",
+              "answer": "Ondernemingen met een zeer sterke marktpositie en disproportionele aandelen in waarde, winst of activiteit.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Onderzoek naar concentratie vraagt hoe schaal, netwerken en data zulke posities kunnen versterken."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Een platform is niet alleen aanbieder, maar beïnvloedt ook de standaard voor aansluiting van anderen."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "De term is een analytische onderzoeksbevinding, geen voorspelling dat elke sector één winnaar moet krijgen."
+                }
+              ]
+            },
+            {
+              "id": "eva-t4",
+              "question": "Waarom spreek je over spelregels?",
+              "answer": "Een dominante onderneming kan voorwaarden en standaarden mede vormen waar andere marktpartijen zich naar moeten voegen.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Dat verbindt economische efficiëntie aan institutionele en politieke invloed."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Als onze hub het noodzakelijke gegevensformaat bepaalt, moeten leveranciers hun werk daarop aanpassen."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Publieke regels, concurrentie en tegenmacht kunnen invloed begrenzen. Onderzoek wie verantwoording kan vragen."
+                }
+              ]
+            }
+          ],
+          "theory": {
+            "title": "Wanneer succes de structuur van een markt verandert",
+            "concepts": [
+              "netwerkeffecten",
+              "superstar firms",
+              "arbeidsaandeel"
+            ],
+            "sections": [
+              {
+                "title": "Schaal en netwerk hebben andere terugkoppelingen",
+                "text": "Bij schaalvoordeel kan meer productie de gemiddelde kosten verlagen. Bij een netwerkeffect wordt deelname waardevoller doordat meer relevante anderen deelnemen, bijvoorbeeld kopers voor verkopers. Dat kan groei zichzelf laten versterken en alternatieven minder aantrekkelijk maken. De superstar-lens onderzoekt hoe sterk presterende grote bedrijven productie naar zich toetrekken. Concentratie is daarbij geen zelfstandig bewijs van misbruik."
+              },
+              {
+                "title": "Toegang en verdeling moeten naast efficiëntie staan",
+                "text": "In de hub kan gezamenlijke productie nuttig zijn, terwijl de beheerder ook standaarden en toegang mede bepaalt. De bedrijfsstroken laten daarnaast zien dat het totale arbeidsaandeel kan dalen doordat een bedrijf met een lager aandeel groter wordt. Dat is een samenstellingseffect. Je moet het onderscheiden van een verhaal waarin ieder bedrijf afzonderlijk lonen verlaagt."
+              },
+              {
+                "title": "Meer loon kan toch een kleiner aandeel betekenen",
+                "text": "Twee bedrijven produceren eerst elk honderd; hun loonbedragen zijn zestig en twintig. Het tweede groeit naar driehonderd en betaalt zestig loon. Het totale loon stijgt van tachtig naar honderdtwintig, maar het aandeel daalt van veertig naar dertig procent. Dit fictieve voorbeeld toont de rekensom. Het bewijst niet welke oorzaak, uitbuiting of beleidsoplossing in een echte markt aanwezig is."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "investigationId": "m3-02",
+      "npcs": [
+        {
+          "name": "Eva",
+          "role": "Investeerder en adviseur over zeggenschap",
+          "cell": [
+            3,
+            5
+          ],
+          "opening": "Ik zie opbrengsten en risico's. Een korte beoordelingshorizon kan nuttige informatie missen, maar lange termijn betekent niet automatisch zekerheid.",
+          "topics": [
+            {
+              "id": "eva-t1",
+              "question": "Wat betekent aandeelhouderswaarde?",
+              "answer": "Een inrichting waarin kapitaalverschaffing en financieel risico centraal staan bij zeggenschap en beoordeling; rendement krijgt veel gewicht.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "De organisatie moet keuzes vaak tegenover financiers legitimeren in financiële termen."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Een opleiding wordt verdedigd als lagere toekomstige uitvalkosten in plaats van als zelfstandig sociaal belang."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Dat sluit morele afwegingen niet uit. Het laat zien via welk kader zij ruimte krijgen."
+                }
+              ]
+            },
+            {
+              "id": "eva-t2",
+              "question": "Waarom verandert financialisering de horizon?",
+              "answer": "Financiële indicatoren, marktvergelijkingen en verwachtingen worden sterker bepalend voor strategie.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Snel meetbare prestaties kunnen daardoor aantrekkelijker zijn dan latere moeilijk zichtbare waarde."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Onderhoud kost nu geld; voorkomen uitval verschijnt later. Een kwartaalkaart toont die posten ongelijk."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Niet iedere financier denkt kort. Kijk naar concrete voorwaarden, mandaten en strategie."
+                }
+              ]
+            },
+            {
+              "id": "eva-t3",
+              "question": "Waarom staan aandeleninkopen in de bron?",
+              "answer": "De bron gebruikt ze als voorbeeld van keuzes die financiële prestaties en aandeelhoudersoriëntatie zichtbaar kunnen ondersteunen.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Zulke maatregelen kunnen met langetermijninvesteringen concurreren om middelen en bestuurlijke aandacht."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Een direct financiële maatregel past gemakkelijker in een korte indicator dan een vijfjarige reparatievoorziening."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Dit is geen oordeel dat elke aandeleninkoop verkeerd is. Beoordeel context, alternatieven en gevolgen."
+                }
+              ]
+            },
+            {
+              "id": "eva-t4",
+              "question": "Hoe hangt dit met vermogensconcentratie samen?",
+              "answer": "Ondernemingen kunnen opbrengsten naar kapitaal laten terugvloeien; herinvestering en rendement kunnen bezit verder versterken.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "De cursus verbindt financiële inrichting aan bredere verdeling, zoals Piketty en Stiglitz analyseren."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Vraag wie de nieuwe opbrengst ontvangt en wie daarvoor specifieke kosten of risico's draagt."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "De concentratielens is voorwaardelijk. Belastingen, loonvorming, rendementen en governance kunnen de verdeling beïnvloeden."
+                }
+              ]
+            }
+          ],
+          "theory": {
+            "title": "Hoe de financiële meetlat een tijdvenster kiest",
+            "concepts": [
+              "aandeelhouderswaarde",
+              "financialisering",
+              "opbrengstverdeling"
+            ],
+            "sections": [
+              {
+                "title": "Financiering is belangrijk en stelt voorwaarden",
+                "text": "Aandeelhouders leveren kapitaal en verwachten vergoeding voor risico. Aandeelhouderswaarde is een lens waarin hun financiële belang sterk meeweegt. Financialisering beschrijft een grotere invloed van financiële doelen, instituties en maatstaven op handelen. Dat betekent niet dat elke investeerder dezelfde korte horizon heeft. Onderzoek welke indicatoren, vergelijkingen en mogelijkheden tot vertrek in deze organisatie daadwerkelijk invloed hebben."
+              },
+              {
+                "title": "Hetzelfde plan verschijnt anders per beoordelingsregel",
+                "text": "Het reparatiecentrum vraagt nu geld en kan later inkomsten, minder uitval en langere gebruiksduur opleveren. De kwartaalkaart toont vooral de huidige kosten. Een vijfjarenplan brengt meer gevolgen in beeld, maar bevat schattingen. Ik wil daarom zowel de horizon als de aannames zien. Ook de verdeling van opbrengsten tussen kapitaal, arbeid en andere bijdragen hoort in het dossier."
+              },
+              {
+                "title": "Een aandeleninkoop vraagt een vergelijking van alternatieven",
+                "text": "Een onderneming kan middelen gebruiken voor aandeleninkoop, onderhoud, opleiding of nieuwe activiteiten. Een inkoop is niet zonder onderzoek goed of slecht: vergelijk redenen, risico’s, beschikbare plannen en wie waarde ontvangt. De cursus gebruikt vermogensconcentratie als systeemvraag. Daaruit volgt geen automatische uitspraak over ieder bedrijf; belastingen, eigendomsverdeling, herinvestering en economische groei beïnvloeden het verloop."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Mila",
+          "role": "Reparatietechnicus",
+          "cell": [
+            7,
+            5
+          ],
+          "opening": "Het centrum kost vandaag geld. De latere reparatiecapaciteit zie ik op de werkvloer, maar die moet ik zorgvuldig onderbouwen.",
+          "topics": [
+            {
+              "id": "mila-t1",
+              "question": "Waarom wil je een langere horizon?",
+              "answer": "Een korte kaart laat aanlegkosten zien terwijl voordelen van opleiding en reparatie later kunnen komen.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Dezelfde investering verschijnt anders wanneer het gekozen tijdvenster verandert."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Training verlaagt mogelijk fouten over meerdere jaren; alleen dit kwartaal toont vooral de cursusrekening."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "'Mogelijk' is belangrijk. De opleiding kan minder werken dan verwacht; meet uitkomsten."
+                }
+              ]
+            },
+            {
+              "id": "mila-t2",
+              "question": "Moet de maatschappelijke waarde winst heten?",
+              "answer": "Niet iedere relevante waarde past volledig in geld. Zij kan naast kasstromen als eigen belang zichtbaar blijven.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Anders verdwijnt een belang zodra betrouwbare omzetting naar rendement ontbreekt."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Werkzekerheid, herstelbaarheid en regionale kennis vragen een eigen plaats met feiten en criteria."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Ook een belangrijk belang vraagt afweging tegen middelen, andere rechten en uitvoerbaarheid."
+                }
+              ]
+            },
+            {
+              "id": "mila-t3",
+              "question": "Wat moet het vijfjarenplan laten zien?",
+              "answer": "Termijnen, aannames, onzekerheid en wie baten en lasten draagt.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Een langer venster is meer informatie, geen garantie van een goede investering."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Toon verwachte inkomsten naast uitval, kwaliteit en verdeling van risico voor personeel en partners."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Vergelijk dezelfde grenzen en gebruik realistische aannames; optimistische cijfers kunnen het probleem verbergen."
+                }
+              ]
+            },
+            {
+              "id": "mila-t4",
+              "question": "Waarom blijft continuïteit belangrijk?",
+              "answer": "Zonder middelen kunnen opleiding en reparatie niet worden uitgevoerd.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Een uitvoerbaar voorstel houdt financiële voorwaarden en maatschappelijke doelen tegelijk zichtbaar."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "We kunnen een kleiner centrum of andere financiering vergelijken in plaats van kosten simpelweg uit het plan verwijderen."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Een financieel houdbare route is niet automatisch ethisch volledig verantwoord. De andere gevolgen blijven belangrijk."
+                }
+              ]
+            }
+          ],
+          "theory": {
+            "title": "Waarom waarde later kan verschijnen of buiten geld blijft",
+            "concepts": [
+              "tijdshorizon",
+              "sociale waarde",
+              "continuïteit"
+            ],
+            "sections": [
+              {
+                "title": "Een vroege kostenpost kan een late bijdrage hebben",
+                "text": "Opleiding en onderhoud kosten nu middelen, terwijl hun bijdrage aan kennis, veiligheid of betrouwbaarheid later zichtbaar kan worden. Een korte beoordeling kan die route missen. Daarnaast heeft niet iedere relevante waarde een betrouwbare geldprijs. Financieel rendement, continuïteit en sociale gevolgen zijn verschillende beoordelingsvragen. Hun onderlinge gewicht vraagt een expliciete afweging, geen vervanging door één algemene score."
+              },
+              {
+                "title": "Het reparatieplan vraagt meer dan een gunstige voorspelling",
+                "text": "Voor mij is van belang of het centrum vakkennis bewaart, werk uitvoerbaar maakt en toestellen langer bruikbaar houdt. Eva moet ook de financiering en onzekerheid kunnen beoordelen. Het vijfjarenplan moet daarom aannames, betrokken groepen en een mogelijke tegenvaller tonen. Dat maakt het bespreekbaar zonder te doen alsof langere gebruiksduur vanzelf voldoende inkomsten of eerlijke banen garandeert."
+              },
+              {
+                "title": "Een gecontroleerde vergelijking houdt onzekerheid zichtbaar",
+                "text": "Beoordeel hetzelfde onderhoudsplan eenmaal met alleen de huidige kosten en eenmaal met latere kosten en baten. Als de uitkomst verandert, zie je welke horizonposts verschil maken. Je bewijst daarmee nog niet dat de baten optreden. Een noodreserve, controlepunt en alternatief bij tegenvallers maken het voorstel uitvoerbaarder. Verschillende normatieve prioriteiten kunnen daarna nog tot verschillende verdedigbare keuzes leiden."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "investigationId": "m3-03",
+      "npcs": [
+        {
+          "name": "Noor",
+          "role": "Systeemanalist",
+          "cell": [
+            3,
+            4
+          ],
+          "opening": "Het archief toont bijdragen die geen aandelen heten. We moeten begrijpen hoe samenwerking risico en legitieme claims creëert.",
+          "topics": [
+            {
+              "id": "noor-t1",
+              "question": "Waarom spreken we van stakeholders?",
+              "answer": "De onderneming steunt op meerdere partijen die bijdragen, risico dragen of door haar handelen worden getroffen.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Eigendom alleen toont niet alle afhankelijkheden die waardecreatie mogelijk maken."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Werknemers leveren kennis, leveranciers speciale machines, gemeenten infrastructuur en financiers kapitaal."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Betrokkenheid geeft niet automatisch identieke rechten of gewicht. Criteria en context blijven nodig."
+                }
+              ]
+            },
+            {
+              "id": "noor-t2",
+              "question": "Wat is resource dependence?",
+              "answer": "Een lens die structurele afhankelijkheid van externe middelen en partijen onderzoekt.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Geen organisatie maakt alle benodigde kennis, grondstoffen, legitimiteit en financiering zelf."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Een leverancier met unieke onderdelen beïnvloedt wat NOVA kan produceren; NOVA beïnvloedt diens afzetmogelijkheden."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Afhankelijkheid kan wederzijds maar ongelijk zijn. Meet alternatieven en specifieke belangen."
+                }
+              ]
+            },
+            {
+              "id": "noor-t3",
+              "question": "Wat voegt team production toe?",
+              "answer": "Het benadrukt meerdere specifieke bijdragen aan gezamenlijke productie die niet volledig contractueel te beschermen zijn.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Waarde ontstaat relationeel; een contract voorziet niet elke toekomstige verandering of onzekerheid."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Specialistische kennis en maatwerktechniek verliezen misschien waarde als de samenwerking abrupt stopt."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Een contract is niet irrelevant. Onderzoek wat het regelt, wat onzeker blijft en wie risico draagt."
+                }
+              ]
+            },
+            {
+              "id": "noor-t4",
+              "question": "Waarom macht, legitimiteit en urgentie onderscheiden?",
+              "answer": "Ze verklaren verschillende redenen waarom een claim aandacht en invloed kan krijgen.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Veel macht bewijst niet vanzelf de sterkste rechtvaardiging; urgentie zegt iets over tijdgevoeligheid."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Een weinig machtige groep kan wel een legitieme en acute aanspraak hebben."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Dit is een analysekader, geen automatische morele ranglijst of exact rekenmodel."
+                }
+              ]
+            }
+          ],
+          "theory": {
+            "title": "Waarom afhankelijkheid en een aanspraak niet hetzelfde zijn",
+            "concepts": [
+              "stakeholderbenadering",
+              "resource dependence",
+              "team production",
+              "salience"
+            ],
+            "sections": [
+              {
+                "title": "Verschillende lenzen stellen verschillende vragen",
+                "text": "Stakeholders zijn partijen die de onderneming beïnvloeden of door haar worden geraakt. Resource dependence onderzoekt afhankelijkheid van middelen waar anderen over beschikken. Team production kijkt naar meerdere bijdragen aan gezamenlijke productie, waaronder moeilijk elders inzetbare investeringen. Deze lenzen kunnen aanspraken zichtbaar maken, maar geven niet automatisch een verdeelsleutel. Een beschrijving van afhankelijkheid is nog geen volledige normatieve rechtvaardiging."
+              },
+              {
+                "title": "Het archief toont vier soorten bijdrage",
+                "text": "Werknemers leveren kennis, leveranciers specifieke machines, financiers middelen en de regio infrastructuur en opleiding. In het ASML-lesvoorbeeld reconstrueren we die bijdragen; we rapporteren geen werkelijk huidig besluit. Daarna onderscheiden we macht, legitimiteit en urgentie. Een acute, relevante claim kan weinig invloed hebben. Een machtige partij hoeft daarom niet de enige gerechtvaardigde of dringendste claim te hebben."
+              },
+              {
+                "title": "Aandacht voor een claim is nog geen rechtvaardige verdeling",
+                "text": "Een leverancier met een onmisbaar onderdeel kan gemakkelijk overleg afdwingen. Omwonenden met acute schade kunnen minder middelen hebben, terwijl hun aanspraak relevant blijft. De salience-lens helpt voorspellen welke claims aandacht krijgen. Zij beslist niet welke verdeling ethisch juist is. Daarom moet het dossier ook weinig invloedrijke partijen en de onderbouwing van hun gevolgen zichtbaar houden."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Omar",
+          "role": "Logistiek coördinator",
+          "cell": [
+            7,
+            4
+          ],
+          "opening": "Een leverancier kan zijn investering niet altijd meenemen naar de volgende klant. Dat verandert wat een verhuizing voor hem betekent.",
+          "topics": [
+            {
+              "id": "omar-t1",
+              "question": "Wat maakt een investering specifiek?",
+              "answer": "Zij is sterk aan deze relatie of locatie gebonden en moeilijk elders inzetbaar.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Een besluit kan zulke waarde aantasten terwijl de oorspronkelijke factuur al betaald is."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Een maatwerkmachine voor één productielijn verschilt van standaardgereedschap dat veel klanten gebruiken."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Algemeen bruikbare middelen kunnen ook risico dragen. Specificiteit is één relevante dimensie."
+                }
+              ]
+            },
+            {
+              "id": "omar-t2",
+              "question": "Wat laat het ASML-bronvoorbeeld zien?",
+              "answer": "Kennis, leveranciersinvesteringen, publieke infrastructuur en kapitaal dragen samen een technisch bedrijf.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Het voorbeeld maakt de legitimatievraag bij strategische verandering zichtbaar."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Een leverancier of regio kan gevolgen ervaren hoewel alleen aandeelhouders op de eigendomslijst staan."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Dit is een lescasus, geen melding van een werkelijk huidig herstructureringsbesluit van ASML."
+                }
+              ]
+            },
+            {
+              "id": "omar-t3",
+              "question": "Waarom de uitweg van elke partij bekijken?",
+              "answer": "Dezelfde verandering kan heel verschillende verlies- en aanpassingsmogelijkheden geven.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Een partij met veel alternatieven draagt niet noodzakelijk dezelfde afhankelijkheid als een vast verbonden partner."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Vrij beschikbare middelen zijn anders inzetbaar dan een locatieaansluiting die voor deze onderneming is aangelegd."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Een uitweg is niet alleen technisch. Kosten, tijd, rechten en sociale gevolgen tellen ook."
+                }
+              ]
+            },
+            {
+              "id": "omar-t4",
+              "question": "Wat moet het besluitdossier bevatten?",
+              "answer": "Bijdrage, afhankelijkheid, risico, rechten en onderbouwde weegcriteria.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Dan wordt zichtbaar waarom een belang relevant is en hoe het tegenover andere belangen wordt behandeld."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Leg per partij vast wat een verhuizing verandert en wie de beslissing kan verantwoorden."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Een compleet dossier garandeert geen overeenstemming. Het maakt een conflict beter beargumenteerbaar."
+                }
+              ]
+            }
+          ],
+          "theory": {
+            "title": "Wat je verliest wanneer een samenwerking stopt",
+            "concepts": [
+              "specifieke investeringen",
+              "buitenopties",
+              "wederzijdse afhankelijkheid"
+            ],
+            "sections": [
+              {
+                "title": "Een specifieke investering is niet gemakkelijk herbruikbaar",
+                "text": "Een machine, opleiding of werkwijze kan vooral waarde hebben binnen één langdurige relatie. Bij beëindiging kan die waarde dalen omdat een andere klant iets anders nodig heeft. Dat heet een specifieke investering. Betaling voor de huidige levering zegt nog niet hoe toekomstig risico is verdeeld. Afhankelijkheid vraagt daarom een vergelijking van beschikbare buitenopties, contracten en feitelijke herbruikbaarheid."
+              },
+              {
+                "title": "Ons machinecontract is meer dan een losse aankoop",
+                "text": "Het archief bevat een leverancier die apparatuur voor de samenwerking maakt en medewerkers die specifieke kennis ontwikkelen. De regionale bijdrage is weer anders: infrastructuur en onderwijs ondersteunen de onderneming én andere activiteiten. Ik wil per partij weten wat verbonden raakt, welke uitweg bestaat en wie de gevolgen van een strategische verandering draagt. Die kaarten mogen niet tot één geldbijdrage worden samengevoegd."
+              },
+              {
+                "title": "Vergelijk een universele en een maatwerkmachine",
+                "text": "Een universele machine kan wellicht aan een andere klant worden verkocht. Een maatwerkmachine heeft mogelijk weinig waarde buiten deze relatie. Dat verschil helpt risico en afhankelijkheid onderzoeken. “Specifiek” betekent echter niet dat de leverancier automatisch mede-eigenaar of even machtig is. Contractuele bescherming, alternatieve toepassingen en gezamenlijke afspraken moeten apart worden vastgesteld voordat je gevolgen en rechten beschrijft."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "investigationId": "m3-04",
+      "npcs": [
+        {
+          "name": "Iris",
+          "role": "Ontwerper van planning en procedures",
+          "cell": [
+            3,
+            5
+          ],
+          "opening": "Nog voordat het bestuur kiest, bepaalt het formulier wat als een argument mag binnenkomen.",
+          "topics": [
+            {
+              "id": "iris-t1",
+              "question": "Wat zijn beslissingspremissen?",
+              "answer": "Vooraf vastgelegde doelen, indicatoren, tijdshorizonnen en interpretatiekaders.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Ze bepalen welke opties, gevolgen en risico's überhaupt als relevant verschijnen."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Een commissie accepteert alleen financieel kwantificeerbare schade. Dat is al een selectie vóór de keuze."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Een kader is nodig om te beslissen. Onderzoek of het relevante waarden onterecht buitensluit."
+                }
+              ]
+            },
+            {
+              "id": "iris-t2",
+              "question": "Waarom is inspraak niet altijd invloed?",
+              "answer": "Timing, informatie en bevoegdheid bepalen wat een gesprek kan veranderen.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Als het budget vaststaat, kan advies minder ruimte krijgen dan dezelfde informatie vóór het besluit."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Een panel krijgt achteraf uitleg maar geen recht op herbeoordeling."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Advies zonder veto kan nog nuttig zijn. Toets feitelijke invloed in plaats van alles-of-niets te denken."
+                }
+              ]
+            },
+            {
+              "id": "iris-t3",
+              "question": "Wat verandert de governanceproef?",
+              "answer": "Zij wijzigt informatie vóór het besluit, een herbeoordelingsrecht, de horizon en aparte maatschappelijke criteria.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Die onderdelen zijn verschillend; één extra rapport betekent niet automatisch een nieuw beslisrecht."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Een vijfjaarsvenster toont een later saldo; een terugstuurrecht maakt herbeoordeling mogelijk."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "De proef bepaalt geen moreel juiste uitkomst en verwijdert geen externe kapitaaldruk."
+                }
+              ]
+            },
+            {
+              "id": "iris-t4",
+              "question": "Hoe maak je verantwoording concreet?",
+              "answer": "Leg criteria, feiten, reactie op advies en verantwoordelijke vast.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Betrokkenen moeten begrijpen wat is meegewogen en waarom een bepaalde route is gekozen."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Het panel ziet waarom het bestuur afwijkt en wanneer nieuwe informatie tot herziening kan leiden."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Een mooi verslag alleen bewijst geen daadwerkelijke invloed of betere gevolgen."
+                }
+              ]
+            }
+          ],
+          "theory": {
+            "title": "De beslissing begint al bij het lege formulier",
+            "concepts": [
+              "beslissingspremissen",
+              "organisatorische rationaliteit",
+              "verantwoording"
+            ],
+            "sections": [
+              {
+                "title": "Een kader selecteert informatie voordat iemand kiest",
+                "text": "Beslissingspremissen zijn voorafgaande doelen, regels, indicatoren en interpretaties waarbinnen een organisatie kiest. Ze bepalen mede welke gevolgen relevant lijken en welke opties verschijnen. Iemand kan persoonlijk zorg voelen, terwijl een formulier alleen financiële argumenten accepteert. Dat maakt intentie en organisatorische inrichting verschillende aangrijpingspunten. Een andere uitkomst binnen dezelfde regel is nog geen verandering van die regel."
+              },
+              {
+                "title": "Een ontbrekende kolom heeft een concreet gevolg",
+                "text": "Het formulier bevat kwartaalopbrengst maar geen eigen plaats voor gezondheid of regionale afhankelijkheid. Het panel wordt gehoord wanneer het budget al vaststaat en kan niets terugsturen. Zelfs nuttige informatie komt dan laat of in een onpassend format. Daarom onderzoeken we toegelaten argumenten, timing en bevoegdheid samen; een vriendelijker overleg alleen herstelt die drie functies niet."
+              },
+              {
+                "title": "De modelproef verandert drie controleerbare voorwaarden",
+                "text": "In onze illustratie kun je stem, horizon en een brede meetlat veranderen. Een heropeningsrecht is iets anders dan advies; een vijfjaarshorizon is iets anders dan een kwartaal; een aparte waarde is iets anders dan financiële vertaling. De berekende gevolgen volgen uit bekende fictieve aannames. Ze voorspellen geen echt bestuursgedrag en leveren geen unieke moreel beste instelling."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Eva",
+          "role": "Investeerder en adviseur over zeggenschap",
+          "cell": [
+            7,
+            5
+          ],
+          "opening": "Verschillende vormen organiseren rechten anders. Je moet hun toepassingsgrenzen kennen en niet doen alsof één vorm alle druk oplost.",
+          "topics": [
+            {
+              "id": "eva-t1",
+              "question": "Wat onderscheidt de twee ondernemingslenzen?",
+              "answer": "De aandeelhouderslens benadrukt kapitaal en financieel risico; de stakeholderlens vertrekt uit meerdere bijdragen en afhankelijkheden.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Ze stellen verschillende vragen over legitimiteit, waarde en zeggenschap."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Dezelfde investeringskaart kan eigendom tonen of de samenwerking tussen kennis, leveranciers, gemeenschap en kapitaal."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "In de praktijk bestaat een spectrum. Een theoretisch perspectief is niet identiek aan één rechtsvorm."
+                }
+              ]
+            },
+            {
+              "id": "eva-t2",
+              "question": "Wat leren de medezeggenschapsvoorbeelden?",
+              "answer": "Werknemers kunnen in toepasselijke bestuurs- of toezichtsvormen vertegenwoordigd zijn. Duitse en Scandinavische regelingen hebben eigen grenzen.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Vertegenwoordiging geeft een institutionele stem; ze is geen universele gelijke dagelijkse controle."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Het Duitse bronvoorbeeld kent gelijke toezichtszetels in gedekte ondernemingen; andere landen en stemregels verschillen."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Controleer huidige reikwijdte en bevoegdheid. 'Scandinavië' is geen enkel wettelijk percentage."
+                }
+              ]
+            },
+            {
+              "id": "eva-t3",
+              "question": "Wat zeggen Nederlandse en Britse voorbeelden?",
+              "answer": "Ze laten zien dat ondernemingsbelang en aandacht voor betrokkenen juridisch kunnen worden georganiseerd zonder identieke stakeholderstemrechten.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Aandacht voor een belang, informatie en een veto zijn verschillende rechtsposities."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Section 172 verbindt bedrijfssucces voor leden aan aandacht voor onder meer werknemers, relaties, lange termijn en milieu."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Dit zijn institutionele lesvoorbeelden. Concrete juridische toepassing vraagt actuele, contextgerichte controle."
+                }
+              ]
+            },
+            {
+              "id": "eva-t4",
+              "question": "Wat doen een publieke-doelvorm en rapportage anders?",
+              "answer": "Een public benefit-vorm organiseert een doelafweging; rapportage maakt effecten zichtbaar. Geen van beide is automatisch totale machtshervorming.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "De functie van de instituutkeuze moet precies worden benoemd."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Delaware public benefit corporation is een rechtsvorm, geen B Corp-certificering. CSRD gaat over rapportage binnen veranderende toepassingsgrenzen."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Kapitaalmarkten en netwerkeffecten kunnen blijven sturen. Toets de feitelijke rechten en prikkels."
+                }
+              ]
+            }
+          ],
+          "theory": {
+            "title": "Waarom institutionele voorbeelden een precies bereik hebben",
+            "concepts": [
+              "governance",
+              "aandeelhouder en stakeholder",
+              "rapportage en beslisrechten"
+            ],
+            "sections": [
+              {
+                "title": "Vertegenwoordiging kan verschillende rechten betekenen",
+                "text": "Governance organiseert wie beslist, welke belangen zichtbaar zijn en hoe verantwoording verloopt. Een bestuurszetel, adviesmogelijkheid, informatieplicht en heropeningsrecht zijn verschillende instituties. De aandeelhouders- en stakeholderlens helpen hun inrichting bespreken, maar werkelijke ondernemingen kunnen elementen combineren. Breder vertegenwoordigen maakt financiële druk bovendien niet vanzelf ongedaan: financiering, concurrentie en afhankelijkheden blijven deel van het speelveld."
+              },
+              {
+                "title": "De landenkaart toont variatie, geen universele regel",
+                "text": "Het Britse voorbeeld vraagt het succes van de onderneming voor leden als geheel te bevorderen met aandacht voor genoemde andere factoren; dat is geen gelijk stemrecht. Het Duitse voorbeeld gaat over toezichthoudende vertegenwoordiging bij ondernemingen binnen het toepassingsgebied. Nederlandse en andere voorbeelden hebben eigen kaders. We gebruiken ze om institutionele functies te vergelijken, niet om ieder bedrijf hetzelfde te noemen."
+              },
+              {
+                "title": "Een publieke-doelvorm en een rapport hebben andere functies",
+                "text": "Een Delaware public benefit corporation kent een specifieke juridische balans tussen genoemde belangen en een publiek doel; dat is iets anders dan B Corp-certificering. Duurzaamheidsrapportage maakt informatie zichtbaar binnen haar actuele scope, maar kent niet vanzelf stakeholderzetels toe. Een voorgestelde verandering moet daarom precies benoemen: welke informatie, welk recht, voor wie en op welk moment in de besluitvorming?"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "investigationId": "m3-05",
+      "npcs": [
+        {
+          "name": "Eva",
+          "role": "Investeerder en adviseur over zeggenschap",
+          "cell": [
+            3,
+            4
+          ],
+          "opening": "Ik kan geld laten blijven of vertrekken. Ook de verwachting daarover kan een bestuursvoorstel veranderen.",
+          "topics": [
+            {
+              "id": "eva-t1",
+              "question": "Waarom is kapitaal een selectiemechanisme?",
+              "answer": "Financiering beïnvloedt welke activiteiten kunnen groeien, welke ideeën worden uitgevoerd en welke infrastructuur ontstaat.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Een rendementsvergelijking selecteert niet alleen geldstromen, maar mede de toekomstige mogelijkheden."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Een schaalbare dienst krijgt makkelijk middelen; een lokale voorziening met brede latere baten kan minder aantrekkelijk zijn."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Weinig private investering bewijst geen geringe maatschappelijke waarde; wel moet de uitvoering middelen krijgen."
+                }
+              ]
+            },
+            {
+              "id": "eva-t2",
+              "question": "Hoe werkt druk zonder rechtstreeks bevel?",
+              "answer": "Bestuurders kunnen anticiperen op beoordelingen, vertrek, koersreacties of financieringsvoorwaarden.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "De mogelijkheid van een reactie beïnvloedt keuzes voordat een expliciete opdracht verschijnt."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Een plan wordt aangepast om verwachte tegenvallende kwartaalcijfers te vermijden."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Onderzoek de echte contracten en reacties. Niet elke aanpassing heeft alleen deze oorzaak."
+                }
+              ]
+            },
+            {
+              "id": "eva-t3",
+              "question": "Wat is aandeelhoudersactivisme?",
+              "answer": "Een belegger gebruikt onder meer stemmen en publieke druk om strategie te beïnvloeden.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Dat is directere zeggenschapsdruk, naast de indirecte invloed van mogelijke kapitaalbeweging."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Een fonds vraagt via zijn belang kostenverlaging of verkoop van een bedrijfsonderdeel."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Fondsen en strategieën verschillen. Het etiket hedgefonds vertelt niet vanzelf horizon, werkwijze of effect."
+                }
+              ]
+            },
+            {
+              "id": "eva-t4",
+              "question": "Waarom kredietratings en analisten bekijken?",
+              "answer": "Zij behoren tot het financiële beoordelingssysteem waarin voorwaarden en vertrouwen kunnen veranderen.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Kapitaaldruk heeft meer kanalen dan één aandeelhouder."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Een ratingwijziging kan financiering duurder maken; vergelijkingen beïnvloeden hoe prestaties worden gelezen."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Een rating is geen volledige maatschappelijke waardebeoordeling. Kijk naar criteria en feitelijke consequenties."
+                }
+              ]
+            }
+          ],
+          "theory": {
+            "title": "Hoe geld projecten selecteert en daarna blijft sturen",
+            "concepts": [
+              "kapitaalselectie",
+              "financiële disciplinering",
+              "aandeelhoudersactivisme"
+            ],
+            "sections": [
+              {
+                "title": "Starten en bijsturen zijn andere mechanismen",
+                "text": "Kapitaal maakt een project mogelijk, maar financieringscriteria selecteren ook welke ontwikkeling middelen krijgt. Na investering kunnen ratings, koersvergelijkingen, kredietvoorwaarden en verwachte uitstroom het handelen disciplineren. Aandeelhoudersactivisme gebruikt bijvoorbeeld stemrecht of publieke druk om strategie te beïnvloeden. Deze mechanismen vragen geen dagelijkse opdracht aan iedere medewerker. Hun werkelijke invloed hangt van afspraken, alternatieven en financiële afhankelijkheid af."
+              },
+              {
+                "title": "De balie vergelijkt ongelijk zichtbare opbrengsten",
+                "text": "Het abonnement heeft snelle meetbare kasstromen; lokale reparatiecentra hebben latere en onzekerder inkomsten naast maatschappelijke waarde. Het financieringsformulier maakt de eerste route gemakkelijker vergelijkbaar. Ik wil weten of dat verschil uit informatie, gekozen criteria of werkelijk risico komt. Daarna onderzoeken we welke voorwaarden een toegewezen investering blijft sturen: goedkeuring nu is niet het einde van financiële invloed."
+              },
+              {
+                "title": "Vertrekdreiging is invloed zonder direct werkbevel",
+                "text": "Als een financier kan vertrekken wanneer kwartaalcijfers tegenvallen, kan een bestuur al vooraf kosten beperken. Dat is een mogelijk disciplineringsmechanisme. Niet elke belegger doet dit even snel; fondsen en strategieën verschillen. Een verantwoordelijke analyse vergelijkt tijdshorizon, stemgedrag, kredietvoorwaarden en alternatieve middelen. Alleen het etiket hedgefonds of pensioenfonds voorspelt niet iedere concrete beslissing of morele afweging."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Noor",
+          "role": "Systeemanalist",
+          "cell": [
+            7,
+            4
+          ],
+          "opening": "De stroom geld maakt sommige toekomsten makkelijker dan andere. Laten we selectie, lock-in en waarde niet door elkaar halen.",
+          "topics": [
+            {
+              "id": "noor-t1",
+              "question": "Wat betekent lock-in?",
+              "answer": "Eerdere investeringen maken overstappen kostbaar of moeilijk.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Een systeem kan zichzelf ondersteunen via infrastructuur, contracten en ingesleten afhankelijkheid."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Een andere energiebron vraagt afschrijving of vervanging van bestaande installaties."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Een lock-in is geen onmogelijkheid tot verandering. Vergelijk kosten, tijd, beleid en reële alternatieven."
+                }
+              ]
+            },
+            {
+              "id": "noor-t2",
+              "question": "Waarom kan vervuilende activiteit rendabel blijven?",
+              "answer": "Wanneer maatschappelijke schade niet volledig in prijzen zit, kan het financiële saldo aantrekkelijk zijn.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Private opbrengst en totale gevolgen hoeven niet samen te vallen."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Een bestaande energie-infrastructuur heeft stabiele kasstromen terwijl milieukosten elders vallen."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Dit vraagt concrete gegevens over prijzen, regels en schade; een sectornaam is geen volledige diagnose."
+                }
+              ]
+            },
+            {
+              "id": "noor-t3",
+              "question": "Wat bedoelt de verwijzing naar Polanyi?",
+              "answer": "Marktprijzen beschermen sociale functies niet automatisch. De cursus gebruikt dat om publieke waarde en private opbrengst te onderscheiden.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Niet alle waarde levert rechtstreeks hoge inkomsten op voor de partij die investeert."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Zorg, onderwijs en natuurherstel kunnen brede baten hebben zonder hetzelfde schaalbare kasstroommodel."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Dit is een analytische lens. Publieke financiering en marktorganisatie kunnen in verschillende vormen samenwerken."
+                }
+              ]
+            },
+            {
+              "id": "noor-t4",
+              "question": "Hoe onderzoek je een andere financieringsroute?",
+              "answer": "Maak voorwaarden, haalbare alternatieven en gevolgen zichtbaar.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Je moet weten wat verandert aan horizon, invloed, risico en uitvoering."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Vergelijk een langetermijnmandaat met een korter fonds, inclusief echte kosten en verplichtingen."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Een maatschappelijk wenselijke route trekt niet automatisch middelen aan. Uitvoerbaarheid blijft te bewijzen."
+                }
+              ]
+            }
+          ],
+          "theory": {
+            "title": "Waarom een eerdere keuze de volgende route duurder maakt",
+            "concepts": [
+              "lock-in",
+              "institutionele inrichting",
+              "markt en samenleving"
+            ],
+            "sections": [
+              {
+                "title": "Een keuze laat middelen en verwachtingen achter",
+                "text": "Lock-in ontstaat wanneer eerdere investeringen, standaarden of relaties een andere route relatief kostbaar maken. Dat betekent niet dat veranderen onmogelijk is. Je onderzoekt welke afhankelijkheden meebewegen en welke kosten werkelijk onvermijdelijk zijn. De institutionele lens, waaronder de verwijzing naar Polanyi, herinnert eraan dat markten via regels en sociale inrichting functioneren: hun huidige voorwaarden zijn niet vanzelfsprekend natuurlijke grenzen."
+              },
+              {
+                "title": "Financiering bouwt ook de volgende keuzeruimte",
+                "text": "Het gefinancierde platform krijgt infrastructuur en personeel, terwijl de reparatieroute kleiner blijft. Later kan hergebruik van het platform goedkoper lijken, juist doordat er eerder in is geïnvesteerd. Die terugkoppeling kan selectie bestendigen. Als vervuiling niet volledig in kosten meetelt, kan een route daarnaast rendabel lijken terwijl anderen gevolgen dragen. Dat zijn afzonderlijke mechanismen die samen moeten worden onderzocht."
+              },
+              {
+                "title": "Een alternatief vraagt een vergelijking van overstapvoorwaarden",
+                "text": "Maak een voorwaardenkaart voor de reparatieroute: benodigde middelen, herbruikbare infrastructuur, tijd, risico en niet-financiële waarde. Een andere kredietvoorwaarde of gedeelde voorziening kan één drempel verminderen. Daarmee verdwijnt niet automatisch alle lock-in of onzekerheid. De bedoeling is tonen welke institutionele wijziging welk obstakel raakt, niet vooraf bewijzen dat iedere nieuwe route beter is."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "investigationId": "m3-06",
+      "npcs": [
+        {
+          "name": "Lena",
+          "role": "Analist marketing en impact",
+          "cell": [
+            3,
+            5
+          ],
+          "opening": "De begroting zegt besparing. Ik wil weten welke effecten niet in dat woord of die rekening staan.",
+          "topics": [
+            {
+              "id": "lena-t1",
+              "question": "Wat blijft buiten de prijs?",
+              "answer": "Sommige milieu- en sociale gevolgen worden niet volledig gedragen of gemeten in de productprijs.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Een lage bedrijfsrekening kan samengaan met kosten of risico voor andere partijen."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Minder veilige verwerking bespaart geld, maar kan gevolgen bij werknemers of de omgeving leggen."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Niet elk extern gevolg is meteen gekwantificeerd. Onderzoek oorzaak, omvang en verantwoordelijkheid."
+                }
+              ]
+            },
+            {
+              "id": "lena-t2",
+              "question": "Waarom werknemers niet alleen als kosten zien?",
+              "answer": "Kennis, opleiding, relaties en stabiliteit dragen waarde die een korte begroting kan missen.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Een kostenbesparing kan tegelijk toekomstige kwaliteit of sociale zekerheid aantasten."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Opleiding verdwijnt nu van de rekening; fouten of verlies aan vakkennis verschijnen misschien later."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "De effecten moeten worden gemeten. Meer opleiding is niet onder alle omstandigheden de beste interventie."
+                }
+              ]
+            },
+            {
+              "id": "lena-t3",
+              "question": "Is legaal hetzelfde als ethisch verantwoord?",
+              "answer": "Nee. Juridische toestemming beantwoordt niet vanzelf alle vragen over gevolgen, rechten en eerlijkheid.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Recht is een relevant kader; ethische analyse kan aanvullende afwegingen vragen."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Een toegestane fiscale of arbeidsroute kan voordelen en lasten ongelijk verdelen."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Gebruik geen onbewezen beschuldigingen. Benoem precies welke waarde of aanspraak verder moet worden onderzocht."
+                }
+              ]
+            },
+            {
+              "id": "lena-t4",
+              "question": "Welke claim kunnen we nu publiceren?",
+              "answer": "Dat de inrichting is aangepast, als dat aantoonbaar is. Verbeterde gevolgen vragen aparte gegevens.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Maatregel, doel en resultaat zijn verschillende claims."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Een nieuwe opleidingsregel bestaat; reparatiekwaliteit en werkdruk zijn nog niet gemeten."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Geen zekerheid claimen betekent niet dat de maatregel waardeloos is. Maak toetsing en onzekerheid zichtbaar."
+                }
+              ]
+            }
+          ],
+          "theory": {
+            "title": "Wat buiten de begroting toch echte waarde heeft",
+            "concepts": [
+              "ecologische waarde",
+              "sociale waarde",
+              "opbrengstverdeling"
+            ],
+            "sections": [
+              {
+                "title": "Een prijs is een beperkte registratie",
+                "text": "Productprijzen en begrotingen registreren bepaalde betalingen, maar niet noodzakelijk alle gevolgen voor water, klimaat, gezondheid of relaties. Ecologische waarde betreft ook natuurlijke voorwaarden waarop productie berust. Sociale waarde omvat bijvoorbeeld kennis, beloning, werkzekerheid en gemeenschap. Een gebrek aan geldprijs maakt een gevolg niet onwerkelijk. Het maakt onderbouwing, begrenzing en een expliciete manier van afwegen juist belangrijker."
+              },
+              {
+                "title": "Vier registers voorkomen een voortijdig succesverhaal",
+                "text": "De besparingskaart toont lagere huidige uitgaven. Het milieuregister en werknemersregister tonen andere mogelijke gevolgen; de opbrengstkaart vraagt wie voordeel ontvangt. Ik kan de besparing daarom niet presenteren als totaal maatschappelijk succes. Tegelijk bewijst een risicovermelding nog geen exacte schade. Iedere claim moet zeggen welke groep, welk gevolg, welke termijn en welk bewijs daadwerkelijk in het dossier staan."
+              },
+              {
+                "title": "Een scholingsbesparing heeft meerdere toetsbare kanten",
+                "text": "Minder opleiding verlaagt dit jaar de uitgave. Misschien dalen later vakkennis en betrouwbaarheid, maar dat moet met gegevens worden onderzocht. Eerlijke kansen kunnen daarnaast zelfstandig belangrijk zijn, ook wanneer een financieel effect onzeker is. De Piketty-lens opent een vraag over concentratie en verdeling; zij levert geen automatische voorspelling voor deze onderneming zonder eigendom, herinvestering en instituties te bekijken."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Omar",
+          "role": "Logistiek coördinator",
+          "cell": [
+            7,
+            5
+          ],
+          "opening": "Concurrenten beïnvloeden onze marge. Die druk is echt, maar ze kiest niet vanzelf welke risico's we mogen doorschuiven.",
+          "topics": [
+            {
+              "id": "omar-t1",
+              "question": "Hoe kan concurrentiedruk normen verschuiven?",
+              "answer": "Een betwiste besparing kan door herhaling en rechtvaardiging als professionele noodzaak gaan voelen.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "De organisatie reproduceert daarmee mede wat als normaal en verantwoord geldt."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Een uitzondering wordt 'wat iedereen moet doen om te overleven' en krijgt steeds minder nieuwe afweging."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Niet elke kostenbesparing is normverval. Onderzoek de eerdere norm, concrete gevolgen en alternatieven."
+                }
+              ]
+            },
+            {
+              "id": "omar-t2",
+              "question": "Wat is het verschil tussen verklaring en rechtvaardiging?",
+              "answer": "Druk verklaart waarom iets aantrekkelijk lijkt; rechtvaardiging beargumenteert waarom het tegenover getroffen belangen verdedigbaar is.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Een oorzaak is geen automatisch moreel criterium."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Een lagere marge verklaart de wens tot bezuinigen, maar beslist niet hoeveel werknemersrisico aanvaardbaar is."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Een rechtvaardiging moet ook uitvoerbaar zijn; financiële context mag niet eenvoudig verdwijnen."
+                }
+              ]
+            },
+            {
+              "id": "omar-t3",
+              "question": "Welke correcties kunnen waarde laten meetellen?",
+              "answer": "Prijsregels, belastingen, vertegenwoordiging, toezicht en andere doelen kunnen verschillende mechanismen veranderen.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Niet één instrument past bij elke blinde vlek."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Een lozingsprijs beïnvloedt de rekening; werknemersvertegenwoordiging beïnvloedt informatie en mogelijke stem."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Hun werking moet worden gevolgd. Een institutionele maatregel verandert niet vanzelf alle prikkels."
+                }
+              ]
+            },
+            {
+              "id": "omar-t4",
+              "question": "Hoe vergelijken we verdedigbare voorstellen?",
+              "answer": "Met feiten, expliciete criteria, rechten, uitvoerbare middelen en toetsing van gevolgen.",
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom maakt dat verschil?",
+                  "answer": "Dan kunnen verschillende waarden worden besproken zonder empirische fouten als mening te behandelen."
+                },
+                {
+                  "id": "example",
+                  "question": "Kun je dat concreet maken?",
+                  "answer": "Twee plannen prioriteren anders, maar beide moeten risico, verantwoordelijke en onzekerheid laten zien."
+                },
+                {
+                  "id": "limit",
+                  "question": "Wat blijft onzeker of anders?",
+                  "answer": "Er hoeft geen unieke morele winnaar te zijn. Sommige voorstellen kunnen wel feitelijk onhoudbaar of onuitvoerbaar zijn."
+                }
+              ]
+            }
+          ],
+          "theory": {
+            "title": "Wanneer concurrentiedruk een norm begint te verschuiven",
+            "concepts": [
+              "normverval",
+              "verklaring en rechtvaardiging",
+              "institutionele correcties"
+            ],
+            "sections": [
+              {
+                "title": "Een rationele reactie is nog geen volledig ethisch oordeel",
+                "text": "Concurrentiedruk kan kostenbeheersing aantrekkelijk of voor continuïteit belangrijk maken. Een verklaring beschrijft waarom een organisatie die keuze maakt. Rechtvaardiging onderzoekt waarom de keuze aanvaardbaar is tegenover gevolgen, rechten en andere waarden. Herhaling en verwijzing naar sectorstandaarden kunnen een eerdere twijfelachtige praktijk normaal laten lijken. Juridische toestemming, gebruikelijkheid en een normatief oordeel blijven verschillende vragen."
+              },
+              {
+                "title": "De concurrentenkaart maakt een terugkoppeling zichtbaar",
+                "text": "Een concurrent bespaart, klanten verwachten lagere prijzen en NOVA overweegt dezelfde route. Het verhaal verandert van twijfel naar noodzaak. Dat verklaart een mogelijk verloop, zonder alle alternatieven te kennen. Ik vergelijk daarom niet alleen de besparing, maar ook werknemersrisico’s, continuïteit en uitvoerbare andere routes. Een voorgestelde correctie moet duidelijk maken welk deel van deze druk zij verandert."
+              },
+              {
+                "title": "Een andere regel kan het speelveld veranderen",
+                "text": "Een gemeenschappelijke ondergrens, een aangepaste financieringsvoorwaarde of een eigen investeringscriterium kan een specifieke prikkel wijzigen. Elk voorstel heeft kosten, bereik en mogelijke ongewenste gevolgen. Twee plannen kunnen verschillende waarden prioriteren en toch verdedigbaar zijn. We beoordelen dan de feiten, causaliteit en expliciete afweging; we geven geen punt omdat iemand toevallig dezelfde morele voorkeur als de ontwerper kiest."
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   },
   "playbook": {
     "file": "dist/playbook.json",
-    "sha256": "6d28d7eb08157f595544da567c36f0a92b064320eca7ea9248e1852ab75eea17"
+    "sha256": "c36ff000b7b4e923acf6f6269a53a494200bbff5e3254a1eaf80389ed4fc7f57"
   },
   "scope": {
     "playableLessons": [

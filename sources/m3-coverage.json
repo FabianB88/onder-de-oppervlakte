@@ -1,0 +1,1868 @@
+{
+  "schemaVersion": 1,
+  "lessonId": "m3",
+  "coverageKind": "Author-audited proposition, example, exercise, figure and media learning-function map; not proof of learning equivalence.",
+  "originalCourse": "sources/business-ethics-course.json",
+  "chapterFile": "dist/chapters/m3.json",
+  "chapterSha256": "ed01f7844c1c9a3393d06b6d4a74260ad2a93f78e7fa45308dd0a2edbf26d96d",
+  "status": {
+    "authoringSchemaValid": true,
+    "coreTextAndExerciseFunctionsMapped": true,
+    "fullReplacementClaim": "Not certified solely by this map. Required source projections and all delivered world encounters need runtime/fidelity inspection; learning outcomes need later evaluation.",
+    "sourceMediaGaps": [
+      {
+        "sourceBlock": 4,
+        "status": "publisher-summary-read",
+        "resolution": "Required in-world original source projection plus case application",
+        "gap": "Unique full spoken details are not fully audited; required original source projection must be delivered and its application checked."
+      },
+      {
+        "sourceBlock": 30,
+        "status": "required-projection-unverified",
+        "resolution": "Required in-world original source projection plus case application",
+        "gap": "Unique full spoken details are not fully audited; required original source projection must be delivered and its application checked."
+      }
+    ],
+    "requiresLearnerFeedbackForBasicQuality": false
+  },
+  "counts": {
+    "areas": 6,
+    "worldTeachingBeats": 35,
+    "npcs": 12,
+    "npcTopics": 48,
+    "npcFollowups": 144,
+    "corePropositions": 44,
+    "originalExercisesAudited": 10,
+    "sourceMediaAudited": 3,
+    "figureFunctionsAudited": 2,
+    "knowledgeCheckItems": 8,
+    "sourceProjections": 2,
+    "npcTheorySections": 36,
+    "knowledgeCheckAlternatives": 32
+  },
+  "propositions": [
+    {
+      "id": "m3-src0-p1",
+      "sourceBlocks": [
+        0
+      ],
+      "statement": "Een onderneming is een ontworpen coördinatiestructuur die via mensen gedrag, mogelijkheden en gevolgen organiseert.",
+      "teachingEncounters": [
+        {
+          "id": "m3-01-b1",
+          "type": "inspect",
+          "title": "Waarom deze onderneming bestaat",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m3-01-b2",
+          "type": "connect",
+          "title": "De voordelen van schaal",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m3-06-b2",
+          "type": "connect",
+          "title": "Wanneer schade financieel logisch lijkt",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m3-k1"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m3-src0-p2",
+      "sourceBlocks": [
+        0
+      ],
+      "statement": "Persoonlijke intentie en formele organisatorische inrichting zijn verschillende verklaringsniveaus.",
+      "teachingEncounters": [
+        {
+          "id": "m3-01-b1",
+          "type": "inspect",
+          "title": "Waarom deze onderneming bestaat",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m3-01-b2",
+          "type": "connect",
+          "title": "De voordelen van schaal",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m3-06-b2",
+          "type": "connect",
+          "title": "Wanneer schade financieel logisch lijkt",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m3-k1"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m3-src2-p1",
+      "sourceBlocks": [
+        2
+      ],
+      "statement": "Ondernemingen bundelen kapitaal, arbeid, kennis en planning en kunnen efficiëntie en toegang vergroten.",
+      "teachingEncounters": [
+        {
+          "id": "m3-01-b1",
+          "type": "inspect",
+          "title": "Waarom deze onderneming bestaat",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m3-01-b2",
+          "type": "connect",
+          "title": "De voordelen van schaal",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m3-01-b3",
+          "type": "sort",
+          "title": "Kostenvoordeel of toegangspositie?",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m3-01-b4",
+          "type": "order",
+          "title": "Het netwerk trekt meer netwerk",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m3-01-b6",
+          "type": "connect",
+          "title": "Welke verklaring vraagt welk bewijs?",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m3-k1"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m3-src2-p2",
+      "sourceBlocks": [
+        2
+      ],
+      "statement": "Schaalvoordelen, data en netwerkeffecten kunnen concentratie en toetredingsdrempels versterken.",
+      "teachingEncounters": [
+        {
+          "id": "m3-01-b1",
+          "type": "inspect",
+          "title": "Waarom deze onderneming bestaat",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m3-01-b2",
+          "type": "connect",
+          "title": "De voordelen van schaal",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m3-01-b3",
+          "type": "sort",
+          "title": "Kostenvoordeel of toegangspositie?",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m3-01-b4",
+          "type": "order",
+          "title": "Het netwerk trekt meer netwerk",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m3-01-b6",
+          "type": "connect",
+          "title": "Welke verklaring vraagt welk bewijs?",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m3-k1"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m3-src2-p3",
+      "sourceBlocks": [
+        2
+      ],
+      "statement": "Marktdeelnemers kunnen mede voorwaarden en standaarden bepalen; grootte alleen bewijst geen misbruik.",
+      "teachingEncounters": [
+        {
+          "id": "m3-01-b1",
+          "type": "inspect",
+          "title": "Waarom deze onderneming bestaat",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m3-01-b2",
+          "type": "connect",
+          "title": "De voordelen van schaal",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m3-01-b3",
+          "type": "sort",
+          "title": "Kostenvoordeel of toegangspositie?",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m3-01-b4",
+          "type": "order",
+          "title": "Het netwerk trekt meer netwerk",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m3-01-b6",
+          "type": "connect",
+          "title": "Welke verklaring vraagt welk bewijs?",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m3-k1"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m3-src7-p1",
+      "sourceBlocks": [
+        7
+      ],
+      "statement": "Het aandeelhoudersmodel koppelt kapitaal en financieel risico aan zeggenschap en rendement.",
+      "teachingEncounters": [
+        {
+          "id": "m3-02-b1",
+          "type": "inspect",
+          "title": "Twee voorstellen, twee tijdvensters",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m3-02-b2",
+          "type": "connect",
+          "title": "Van marktverwachting naar voorstel",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m3-02-b3",
+          "type": "sort",
+          "title": "Wat staat wanneer in beeld?",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m3-02-b4",
+          "type": "build",
+          "title": "Maak een beoordeelbaar voorstel",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m3-k2"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m3-src7-p2",
+      "sourceBlocks": [
+        7
+      ],
+      "statement": "Friedmans positie geeft spelregels een centrale normatieve rol.",
+      "teachingEncounters": [
+        {
+          "id": "m3-02-b1",
+          "type": "inspect",
+          "title": "Twee voorstellen, twee tijdvensters",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m3-02-b2",
+          "type": "connect",
+          "title": "Van marktverwachting naar voorstel",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m3-02-b3",
+          "type": "sort",
+          "title": "Wat staat wanneer in beeld?",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m3-02-b4",
+          "type": "build",
+          "title": "Maak een beoordeelbaar voorstel",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m3-k2"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m3-src7-p3",
+      "sourceBlocks": [
+        7
+      ],
+      "statement": "Financialisering, aandeleninkoop en financiële beoordeling kunnen tijdshorizonnen en prioriteiten veranderen.",
+      "teachingEncounters": [
+        {
+          "id": "m3-02-b1",
+          "type": "inspect",
+          "title": "Twee voorstellen, twee tijdvensters",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m3-02-b2",
+          "type": "connect",
+          "title": "Van marktverwachting naar voorstel",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m3-02-b3",
+          "type": "sort",
+          "title": "Wat staat wanneer in beeld?",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m3-02-b4",
+          "type": "build",
+          "title": "Maak een beoordeelbaar voorstel",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m3-k2"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m3-src7-p4",
+      "sourceBlocks": [
+        7
+      ],
+      "statement": "Maatschappelijke belangen kunnen via rendement, risico of reputatie ruimte krijgen terwijl zelfstandige waarde buiten beeld blijft.",
+      "teachingEncounters": [
+        {
+          "id": "m3-02-b1",
+          "type": "inspect",
+          "title": "Twee voorstellen, twee tijdvensters",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m3-02-b2",
+          "type": "connect",
+          "title": "Van marktverwachting naar voorstel",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m3-02-b3",
+          "type": "sort",
+          "title": "Wat staat wanneer in beeld?",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m3-02-b4",
+          "type": "build",
+          "title": "Maak een beoordeelbaar voorstel",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m3-k2"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m3-src7-p5",
+      "sourceBlocks": [
+        7
+      ],
+      "statement": "Kapitaalopbrengst, herinvestering en institutionele inrichting kunnen verdeling en vermogensconcentratie beïnvloeden; de analyse is voorwaardelijk.",
+      "teachingEncounters": [
+        {
+          "id": "m3-02-b1",
+          "type": "inspect",
+          "title": "Twee voorstellen, twee tijdvensters",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m3-02-b2",
+          "type": "connect",
+          "title": "Van marktverwachting naar voorstel",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m3-02-b3",
+          "type": "sort",
+          "title": "Wat staat wanneer in beeld?",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m3-02-b4",
+          "type": "build",
+          "title": "Maak een beoordeelbaar voorstel",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m3-k2"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m3-src11-p1",
+      "sourceBlocks": [
+        11
+      ],
+      "statement": "De stakeholderbenadering vertrekt vanuit meerdere bijdragen, gedeelde risico's en wederzijdse afhankelijkheid.",
+      "teachingEncounters": [
+        {
+          "id": "m3-03-b1",
+          "type": "inspect",
+          "title": "Meer dan geld in de onderneming",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m3-03-b2",
+          "type": "connect",
+          "title": "Koppel bijdrage en afhankelijkheid",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m3-03-b3",
+          "type": "sort",
+          "title": "Hoe specifiek is de investering?",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m3-03-b4",
+          "type": "inspect",
+          "title": "Waarom krijgt één claim aandacht?",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m3-03-b5",
+          "type": "build",
+          "title": "Bouw het gezamenlijke besluitdossier",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m3-k3",
+        "m3-k4"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m3-src11-p2",
+      "sourceBlocks": [
+        11
+      ],
+      "statement": "Werknemers, leveranciers, klanten, gemeenschappen, ecosystemen en financiers leveren verschillende relevante voorwaarden.",
+      "teachingEncounters": [
+        {
+          "id": "m3-03-b1",
+          "type": "inspect",
+          "title": "Meer dan geld in de onderneming",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m3-03-b2",
+          "type": "connect",
+          "title": "Koppel bijdrage en afhankelijkheid",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m3-03-b3",
+          "type": "sort",
+          "title": "Hoe specifiek is de investering?",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m3-03-b4",
+          "type": "inspect",
+          "title": "Waarom krijgt één claim aandacht?",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m3-03-b5",
+          "type": "build",
+          "title": "Bouw het gezamenlijke besluitdossier",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m3-k3",
+        "m3-k4"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m3-src11-p3",
+      "sourceBlocks": [
+        11
+      ],
+      "statement": "Resource dependence en team production benadrukken respectievelijk middelenafhankelijkheid en specifieke gezamenlijke bijdragen.",
+      "teachingEncounters": [
+        {
+          "id": "m3-03-b1",
+          "type": "inspect",
+          "title": "Meer dan geld in de onderneming",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m3-03-b2",
+          "type": "connect",
+          "title": "Koppel bijdrage en afhankelijkheid",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m3-03-b3",
+          "type": "sort",
+          "title": "Hoe specifiek is de investering?",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m3-03-b4",
+          "type": "inspect",
+          "title": "Waarom krijgt één claim aandacht?",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m3-03-b5",
+          "type": "build",
+          "title": "Bouw het gezamenlijke besluitdossier",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m3-k3",
+        "m3-k4"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m3-src11-p4",
+      "sourceBlocks": [
+        11
+      ],
+      "statement": "Specifieke investeringen kunnen moeilijk elders inzetbaar zijn en roepen vragen over legitieme zeggenschap op.",
+      "teachingEncounters": [
+        {
+          "id": "m3-03-b1",
+          "type": "inspect",
+          "title": "Meer dan geld in de onderneming",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m3-03-b2",
+          "type": "connect",
+          "title": "Koppel bijdrage en afhankelijkheid",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m3-03-b3",
+          "type": "sort",
+          "title": "Hoe specifiek is de investering?",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m3-03-b4",
+          "type": "inspect",
+          "title": "Waarom krijgt één claim aandacht?",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m3-03-b5",
+          "type": "build",
+          "title": "Bouw het gezamenlijke besluitdossier",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m3-k3",
+        "m3-k4"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m3-src11-p5",
+      "sourceBlocks": [
+        11
+      ],
+      "statement": "Macht, legitimiteit en urgentie verklaren verschillende dimensies van aandacht voor een claim; betrokkenheid betekent geen automatische gelijkheid.",
+      "teachingEncounters": [
+        {
+          "id": "m3-03-b1",
+          "type": "inspect",
+          "title": "Meer dan geld in de onderneming",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m3-03-b2",
+          "type": "connect",
+          "title": "Koppel bijdrage en afhankelijkheid",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m3-03-b3",
+          "type": "sort",
+          "title": "Hoe specifiek is de investering?",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m3-03-b4",
+          "type": "inspect",
+          "title": "Waarom krijgt één claim aandacht?",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m3-03-b5",
+          "type": "build",
+          "title": "Bouw het gezamenlijke besluitdossier",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m3-k3",
+        "m3-k4"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m3-src13-p1",
+      "sourceBlocks": [
+        13
+      ],
+      "statement": "De ASML-broncasus laat gespecialiseerde medewerkers, specifieke leveranciers, publieke infrastructuur en kapitaal als verschillende bijdragen zien.",
+      "teachingEncounters": [
+        {
+          "id": "m3-03-b1",
+          "type": "inspect",
+          "title": "Meer dan geld in de onderneming",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m3-03-b3",
+          "type": "sort",
+          "title": "Hoe specifiek is de investering?",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m3-03.finale",
+        "m3-k3"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m3-src18-p1",
+      "sourceBlocks": [
+        18
+      ],
+      "statement": "KPI's, rollen, procedures, doelen en interpretatiekaders filteren wat als relevant of meetbaar verschijnt.",
+      "teachingEncounters": [
+        {
+          "id": "m3-04-b1",
+          "type": "inspect",
+          "title": "Het formulier vóór de beslissing",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m3-04-b2",
+          "type": "sort",
+          "title": "Premisse of uitkomst?",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m3-04-b5",
+          "type": "experiment",
+          "title": "Stem, horizon en meetlat",
+          "teachingMechanism": "prediction, controlled comparison and interpretation"
+        },
+        {
+          "id": "m3-04-b6",
+          "type": "build",
+          "title": "Verbind inspraak aan het besluit",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m3-k5",
+        "m3-k6"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m3-src18-p2",
+      "sourceBlocks": [
+        18
+      ],
+      "statement": "Beslissingspremissen gaan aan het besluit vooraf; een gevolg is niet dezelfde categorie.",
+      "teachingEncounters": [
+        {
+          "id": "m3-04-b1",
+          "type": "inspect",
+          "title": "Het formulier vóór de beslissing",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m3-04-b2",
+          "type": "sort",
+          "title": "Premisse of uitkomst?",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m3-04-b5",
+          "type": "experiment",
+          "title": "Stem, horizon en meetlat",
+          "teachingMechanism": "prediction, controlled comparison and interpretation"
+        },
+        {
+          "id": "m3-04-b6",
+          "type": "build",
+          "title": "Verbind inspraak aan het besluit",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m3-k5",
+        "m3-k6"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m3-src18-p3",
+      "sourceBlocks": [
+        18
+      ],
+      "statement": "March en Simon analyseren zulke premissen; institutionele veldnormen kunnen kaders vanzelfsprekend maken.",
+      "teachingEncounters": [
+        {
+          "id": "m3-04-b1",
+          "type": "inspect",
+          "title": "Het formulier vóór de beslissing",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m3-04-b2",
+          "type": "sort",
+          "title": "Premisse of uitkomst?",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m3-04-b5",
+          "type": "experiment",
+          "title": "Stem, horizon en meetlat",
+          "teachingMechanism": "prediction, controlled comparison and interpretation"
+        },
+        {
+          "id": "m3-04-b6",
+          "type": "build",
+          "title": "Verbind inspraak aan het besluit",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m3-k5",
+        "m3-k6"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m3-src18-p4",
+      "sourceBlocks": [
+        18
+      ],
+      "statement": "Bestuur organiseert afwegingen tussen efficiëntie, rendement, sociale stabiliteit en ecologische grenzen.",
+      "teachingEncounters": [
+        {
+          "id": "m3-04-b1",
+          "type": "inspect",
+          "title": "Het formulier vóór de beslissing",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m3-04-b2",
+          "type": "sort",
+          "title": "Premisse of uitkomst?",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m3-04-b5",
+          "type": "experiment",
+          "title": "Stem, horizon en meetlat",
+          "teachingMechanism": "prediction, controlled comparison and interpretation"
+        },
+        {
+          "id": "m3-04-b6",
+          "type": "build",
+          "title": "Verbind inspraak aan het besluit",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m3-k5",
+        "m3-k6"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m3-src18-p5",
+      "sourceBlocks": [
+        18
+      ],
+      "statement": "Samenstelling, vertegenwoordiging, horizon, internalisering van risico en strategische criteria zijn verschillende governancevragen.",
+      "teachingEncounters": [
+        {
+          "id": "m3-04-b1",
+          "type": "inspect",
+          "title": "Het formulier vóór de beslissing",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m3-04-b2",
+          "type": "sort",
+          "title": "Premisse of uitkomst?",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m3-04-b5",
+          "type": "experiment",
+          "title": "Stem, horizon en meetlat",
+          "teachingMechanism": "prediction, controlled comparison and interpretation"
+        },
+        {
+          "id": "m3-04-b6",
+          "type": "build",
+          "title": "Verbind inspraak aan het besluit",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m3-k5",
+        "m3-k6"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m3-src22-p1",
+      "sourceBlocks": [
+        22
+      ],
+      "statement": "Aandeelhouders- en stakeholderperspectieven leggen verschillende legitimatiegronden centraal; institutionele praktijk kent een spectrum.",
+      "teachingEncounters": [
+        {
+          "id": "m3-04-b3",
+          "type": "inspect",
+          "title": "Vier institutionele voorbeelden",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m3-04-b4",
+          "type": "inspect",
+          "title": "Een spectrum, geen twee vakjes",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m3-04-b5",
+          "type": "experiment",
+          "title": "Stem, horizon en meetlat",
+          "teachingMechanism": "prediction, controlled comparison and interpretation"
+        }
+      ],
+      "assessmentReferences": [
+        "m3-k6"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m3-src22-p2",
+      "sourceBlocks": [
+        22
+      ],
+      "statement": "Duitse, Scandinavische, Nederlandse, Britse en Amerikaanse bronvoorbeelden organiseren verschillende functies en rechten binnen hun eigen toepassingsgrenzen.",
+      "teachingEncounters": [
+        {
+          "id": "m3-04-b3",
+          "type": "inspect",
+          "title": "Vier institutionele voorbeelden",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m3-04-b4",
+          "type": "inspect",
+          "title": "Een spectrum, geen twee vakjes",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m3-04-b5",
+          "type": "experiment",
+          "title": "Stem, horizon en meetlat",
+          "teachingMechanism": "prediction, controlled comparison and interpretation"
+        }
+      ],
+      "assessmentReferences": [
+        "m3-k6"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m3-src22-p3",
+      "sourceBlocks": [
+        22
+      ],
+      "statement": "CSRD-rapportage kan gevolgen zichtbaar en vergelijkbaar maken; huidige scope is veranderlijk en rapportage is geen automatisch stemrecht.",
+      "teachingEncounters": [
+        {
+          "id": "m3-04-b3",
+          "type": "inspect",
+          "title": "Vier institutionele voorbeelden",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m3-04-b4",
+          "type": "inspect",
+          "title": "Een spectrum, geen twee vakjes",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m3-04-b5",
+          "type": "experiment",
+          "title": "Stem, horizon en meetlat",
+          "teachingMechanism": "prediction, controlled comparison and interpretation"
+        }
+      ],
+      "assessmentReferences": [
+        "m3-k6"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m3-src23-p1",
+      "sourceBlocks": [
+        23
+      ],
+      "statement": "Zeggenschap beïnvloedt investering, horizon, risico en opbrengst, maar bredere governance verandert niet automatisch alle externe prikkels.",
+      "teachingEncounters": [
+        {
+          "id": "m3-04-b4",
+          "type": "inspect",
+          "title": "Een spectrum, geen twee vakjes",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m3-04-b5",
+          "type": "experiment",
+          "title": "Stem, horizon en meetlat",
+          "teachingMechanism": "prediction, controlled comparison and interpretation"
+        },
+        {
+          "id": "m3-04-b6",
+          "type": "build",
+          "title": "Verbind inspraak aan het besluit",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m3-04.finale",
+        "m3-k6"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m3-src23-p2",
+      "sourceBlocks": [
+        23
+      ],
+      "statement": "Kapitaalmarkten, schaalvoordelen en netwerkeffecten kunnen naast vertegenwoordiging blijven sturen.",
+      "teachingEncounters": [
+        {
+          "id": "m3-04-b4",
+          "type": "inspect",
+          "title": "Een spectrum, geen twee vakjes",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m3-04-b5",
+          "type": "experiment",
+          "title": "Stem, horizon en meetlat",
+          "teachingMechanism": "prediction, controlled comparison and interpretation"
+        },
+        {
+          "id": "m3-04-b6",
+          "type": "build",
+          "title": "Verbind inspraak aan het besluit",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m3-04.finale",
+        "m3-k6"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m3-src26-p1",
+      "sourceBlocks": [
+        26
+      ],
+      "statement": "Kapitaal bepaalt mede wat mogelijk groeit en welke ideeën als haalbaar worden beschouwd; het is niet uitsluitend een betaalmiddel.",
+      "teachingEncounters": [
+        {
+          "id": "m3-05-b1",
+          "type": "inspect",
+          "title": "Twee plannen vragen dezelfde euro",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m3-05-b5",
+          "type": "build",
+          "title": "Bouw de voorwaardenkaart",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m3-k7"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m3-src27-p1",
+      "sourceBlocks": [
+        27
+      ],
+      "statement": "Mobiel kapitaal, rendementsvergelijkingen, beurswaarde, kredietbeoordeling en analisten vormen een continu financieel beoordelingssysteem.",
+      "teachingEncounters": [
+        {
+          "id": "m3-05-b1",
+          "type": "inspect",
+          "title": "Twee plannen vragen dezelfde euro",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m3-05-b3",
+          "type": "order",
+          "title": "Druk zonder dagelijkse opdracht",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m3-05-b4",
+          "type": "connect",
+          "title": "Vier gezichten van financiële invloed",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m3-05.finale",
+        "m3-k7"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m3-src27-p2",
+      "sourceBlocks": [
+        27
+      ],
+      "statement": "Mogelijke financiële reacties kunnen indirect en anticiperend strategische keuzes disciplineren.",
+      "teachingEncounters": [
+        {
+          "id": "m3-05-b1",
+          "type": "inspect",
+          "title": "Twee plannen vragen dezelfde euro",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m3-05-b3",
+          "type": "order",
+          "title": "Druk zonder dagelijkse opdracht",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m3-05-b4",
+          "type": "connect",
+          "title": "Vier gezichten van financiële invloed",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m3-05.finale",
+        "m3-k7"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m3-src27-p3",
+      "sourceBlocks": [
+        27
+      ],
+      "statement": "Meetbaarheid en vergelijking kunnen de horizon en ruimte voor andere waarden begrenzen zonder elke persoonlijke afweging uit te sluiten.",
+      "teachingEncounters": [
+        {
+          "id": "m3-05-b1",
+          "type": "inspect",
+          "title": "Twee plannen vragen dezelfde euro",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m3-05-b3",
+          "type": "order",
+          "title": "Druk zonder dagelijkse opdracht",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m3-05-b4",
+          "type": "connect",
+          "title": "Vier gezichten van financiële invloed",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m3-05.finale",
+        "m3-k7"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m3-src31-p1",
+      "sourceBlocks": [
+        31
+      ],
+      "statement": "Kapitaal selecteert welke sectoren en activiteiten groei, innovatie en infrastructuur kunnen financieren.",
+      "teachingEncounters": [
+        {
+          "id": "m3-05-b1",
+          "type": "inspect",
+          "title": "Twee plannen vragen dezelfde euro",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m3-05-b2",
+          "type": "sort",
+          "title": "Waarom krijgt een sector geld?",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m3-05-b5",
+          "type": "build",
+          "title": "Bouw de voorwaardenkaart",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m3-k7"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m3-src31-p2",
+      "sourceBlocks": [
+        31
+      ],
+      "statement": "Stabiele financiële winst kan samengaan met maatschappelijke schade wanneer kosten niet volledig zijn geprijsd.",
+      "teachingEncounters": [
+        {
+          "id": "m3-05-b1",
+          "type": "inspect",
+          "title": "Twee plannen vragen dezelfde euro",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m3-05-b2",
+          "type": "sort",
+          "title": "Waarom krijgt een sector geld?",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m3-05-b5",
+          "type": "build",
+          "title": "Bouw de voorwaardenkaart",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m3-k7"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m3-src31-p3",
+      "sourceBlocks": [
+        31
+      ],
+      "statement": "Lock-in door eerdere investeringen maakt overstappen kostbaar, zonder verandering noodzakelijk onmogelijk te maken.",
+      "teachingEncounters": [
+        {
+          "id": "m3-05-b1",
+          "type": "inspect",
+          "title": "Twee plannen vragen dezelfde euro",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m3-05-b2",
+          "type": "sort",
+          "title": "Waarom krijgt een sector geld?",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m3-05-b5",
+          "type": "build",
+          "title": "Bouw de voorwaardenkaart",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m3-k7"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m3-src31-p4",
+      "sourceBlocks": [
+        31
+      ],
+      "statement": "Zorg, onderwijs en natuurherstel kunnen brede waarde leveren zonder hoge directe private opbrengst; Polanyi helpt deze grens van prijsmechanismen analyseren.",
+      "teachingEncounters": [
+        {
+          "id": "m3-05-b1",
+          "type": "inspect",
+          "title": "Twee plannen vragen dezelfde euro",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m3-05-b2",
+          "type": "sort",
+          "title": "Waarom krijgt een sector geld?",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m3-05-b5",
+          "type": "build",
+          "title": "Bouw de voorwaardenkaart",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m3-k7"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m3-src36-p1",
+      "sourceBlocks": [
+        36
+      ],
+      "statement": "Hedgefondsen hebben uiteenlopende strategieën; de bron gebruikt snel verplaatsbaar kapitaal om tijdsdruk te illustreren.",
+      "teachingEncounters": [
+        {
+          "id": "m3-05-b3",
+          "type": "order",
+          "title": "Druk zonder dagelijkse opdracht",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m3-05-b4",
+          "type": "connect",
+          "title": "Vier gezichten van financiële invloed",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m3-05.finale"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m3-src36-p2",
+      "sourceBlocks": [
+        36
+      ],
+      "statement": "Aandeelhoudersactivisme via stemmen en publieke druk is onderscheiden van indirecte disciplinering via mogelijk vertrek.",
+      "teachingEncounters": [
+        {
+          "id": "m3-05-b3",
+          "type": "order",
+          "title": "Druk zonder dagelijkse opdracht",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m3-05-b4",
+          "type": "connect",
+          "title": "Vier gezichten van financiële invloed",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m3-05.finale"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m3-src39-p1",
+      "sourceBlocks": [
+        39
+      ],
+      "statement": "Natuurlijke hulpbronnen en milieugevolgen zijn voorwaarden en gevolgen die niet volledig in prijzen hoeven te zitten.",
+      "teachingEncounters": [
+        {
+          "id": "m3-06-b1",
+          "type": "inspect",
+          "title": "De kosten naast de begroting",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m3-06-b2",
+          "type": "connect",
+          "title": "Wanneer schade financieel logisch lijkt",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m3-06-b4",
+          "type": "build",
+          "title": "Een besluit met een bredere waardebasis",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m3-k8"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m3-src39-p2",
+      "sourceBlocks": [
+        39
+      ],
+      "statement": "Arbeid levert kennis, opleiding, zekerheid en relaties naast directe kosten.",
+      "teachingEncounters": [
+        {
+          "id": "m3-06-b1",
+          "type": "inspect",
+          "title": "De kosten naast de begroting",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m3-06-b2",
+          "type": "connect",
+          "title": "Wanneer schade financieel logisch lijkt",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m3-06-b4",
+          "type": "build",
+          "title": "Een besluit met een bredere waardebasis",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m3-k8"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m3-src39-p3",
+      "sourceBlocks": [
+        39
+      ],
+      "statement": "Een financiële maatstaf kan sociale en ecologische waarde minder zichtbaar maken; regelgeving, prijzen, maatschappelijke druk en governance kunnen verschillende mechanismen corrigeren.",
+      "teachingEncounters": [
+        {
+          "id": "m3-06-b1",
+          "type": "inspect",
+          "title": "De kosten naast de begroting",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m3-06-b2",
+          "type": "connect",
+          "title": "Wanneer schade financieel logisch lijkt",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m3-06-b4",
+          "type": "build",
+          "title": "Een besluit met een bredere waardebasis",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m3-k8"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m3-src39-p4",
+      "sourceBlocks": [
+        39
+      ],
+      "statement": "Opbrengstenverdeling tussen arbeid en kapitaal is een aparte vraag van uitsluitend winsthoogte.",
+      "teachingEncounters": [
+        {
+          "id": "m3-06-b1",
+          "type": "inspect",
+          "title": "De kosten naast de begroting",
+          "teachingMechanism": "concrete evidence plus concise explanation"
+        },
+        {
+          "id": "m3-06-b2",
+          "type": "connect",
+          "title": "Wanneer schade financieel logisch lijkt",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m3-06-b4",
+          "type": "build",
+          "title": "Een besluit met een bredere waardebasis",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m3-k8"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m3-src42-p1",
+      "sourceBlocks": [
+        42
+      ],
+      "statement": "Concurrentiedruk kan aanvankelijk betwiste praktijken via herhaling en rationalisatie normaliseren.",
+      "teachingEncounters": [
+        {
+          "id": "m3-06-b3",
+          "type": "order",
+          "title": "De concurrent deed het eerst",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m3-06-b4",
+          "type": "build",
+          "title": "Een besluit met een bredere waardebasis",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m3-06-b5",
+          "type": "decision",
+          "title": "Welke claim kan het besluit dragen?",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m3-k8"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m3-src42-p2",
+      "sourceBlocks": [
+        42
+      ],
+      "statement": "Kostenbeheersing kan continuïteit steunen maar vormt niet vanzelf een volledige ethische rechtvaardiging.",
+      "teachingEncounters": [
+        {
+          "id": "m3-06-b3",
+          "type": "order",
+          "title": "De concurrent deed het eerst",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m3-06-b4",
+          "type": "build",
+          "title": "Een besluit met een bredere waardebasis",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m3-06-b5",
+          "type": "decision",
+          "title": "Welke claim kan het besluit dragen?",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m3-k8"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m3-src42-p3",
+      "sourceBlocks": [
+        42
+      ],
+      "statement": "Wettelijke toestemming, strategische interpretatie en selectieve informatie vragen afzonderlijke normatieve beoordeling.",
+      "teachingEncounters": [
+        {
+          "id": "m3-06-b3",
+          "type": "order",
+          "title": "De concurrent deed het eerst",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m3-06-b4",
+          "type": "build",
+          "title": "Een besluit met een bredere waardebasis",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m3-06-b5",
+          "type": "decision",
+          "title": "Welke claim kan het besluit dragen?",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m3-k8"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    },
+    {
+      "id": "m3-src42-p4",
+      "sourceBlocks": [
+        42
+      ],
+      "statement": "Een gewijzigde inrichting is een maatregel; verbeterde feitelijke gevolgen vereisen aparte toetsing.",
+      "teachingEncounters": [
+        {
+          "id": "m3-06-b3",
+          "type": "order",
+          "title": "De concurrent deed het eerst",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m3-06-b4",
+          "type": "build",
+          "title": "Een besluit met een bredere waardebasis",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        },
+        {
+          "id": "m3-06-b5",
+          "type": "decision",
+          "title": "Welke claim kan het besluit dragen?",
+          "teachingMechanism": "guided action with specific explanatory feedback"
+        }
+      ],
+      "assessmentReferences": [
+        "m3-k8"
+      ],
+      "assessmentScope": "These references assess selected mechanisms; they do not certify independent mastery of every proposition.",
+      "sourceInterpretation": "Preserved as an analytical claim, distinction or source example with context and uncertainty."
+    }
+  ],
+  "exerciseAudit": [
+    {
+      "sourceBlock": 5,
+      "type": "quiz",
+      "question": " Welke redenering verklaart het best waarom schaalvergroting kan omslaan in machtsconcentratie? ",
+      "originalFeedback": "De omslag zit in de laatste stap. Een groot bedrijf is niet het probleem; een bedrijf dat groot genoeg is om de spelregels mee te schrijven wel — via lobby, standaarden en data die anderen niet hebben.",
+      "reviewStatus": "Question, correct answer(s), matching distinctions and feedback read",
+      "uniqueLearningFunction": "Answer-feedback mechanism and conceptual distinction are represented by the listed world actions; original exercise remains a review option.",
+      "mappedTo": [
+        "m3-01-b1",
+        "m3-01-b3",
+        "m3-01-b4"
+      ]
+    },
+    {
+      "sourceBlock": 9,
+      "type": "quiz",
+      "question": " Waarom leidt financialisering volgens de module tot een verschuiving in tijdshorizon binnen ondernemingen? ",
+      "originalFeedback": "Niemand verbiedt de langetermijninvestering. Het punt is dat de meetlat elk kwartaal opnieuw wordt gelegd, en wat daarop niet zichtbaar wordt, verliest het van wat dat wel doet.",
+      "reviewStatus": "Question, correct answer(s), matching distinctions and feedback read",
+      "uniqueLearningFunction": "Answer-feedback mechanism and conceptual distinction are represented by the listed world actions; original exercise remains a review option.",
+      "mappedTo": [
+        "m3-02-b1",
+        "m3-02-b3"
+      ]
+    },
+    {
+      "sourceBlock": 14,
+      "type": "quiz",
+      "question": " Stel dat ASML besluit een winstgevende maar risicovolle strategische herstructurering door te voeren die gevolgen heeft voor werkgelegenheid en regionale investeringen.  Waarom leidt deze situatie, vanuit stakeholderperspectief, tot een legitimatievraagstuk? ",
+      "originalFeedback": "De kern is de specifieke investering. Werknemers die zich hebben gespecialiseerd, toeleveranciers die hun productie hebben omgebouwd, een regio die er infrastructuur omheen legde: die inzet is niet zomaar elders in te zetten. Precies dat roept de vraag naar zeggenschap op.",
+      "reviewStatus": "Question, correct answer(s), matching distinctions and feedback read",
+      "uniqueLearningFunction": "Answer-feedback mechanism and conceptual distinction are represented by the listed world actions; original exercise remains a review option.",
+      "mappedTo": [
+        "m3-03-b1",
+        "m3-03-b3",
+        "m3-03-b5"
+      ]
+    },
+    {
+      "sourceBlock": 19,
+      "type": "quiz",
+      "question": " Wat is het ‘filtermechanisme’ dat volgens de module in organisaties ontstaat? ",
+      "originalFeedback": "Let op wat er níet gebeurt: niemand wíjst het morele argument af. Het komt alleen niet door de zeef van wat als relevant, urgent of meetbaar geldt.",
+      "reviewStatus": "Question, correct answer(s), matching distinctions and feedback read",
+      "uniqueLearningFunction": "Answer-feedback mechanism and conceptual distinction are represented by the listed world actions; original exercise remains a review option.",
+      "mappedTo": [
+        "m3-04-b1",
+        "m3-04-b2"
+      ]
+    },
+    {
+      "sourceBlock": 28,
+      "type": "quiz",
+      "question": " Welke twee uitspraken beschrijven het kernmechanisme van financiële marktdiscipline het meest nauwkeurig? ",
+      "originalFeedback": "Marktdiscipline werkt indirect: er belt niemand naar de directie. Maar omdat kapitaal weg kán, gedraagt de directie zich alsof dat elk moment kan gebeuren.",
+      "reviewStatus": "Question, correct answer(s), matching distinctions and feedback read",
+      "uniqueLearningFunction": "Answer-feedback mechanism and conceptual distinction are represented by the listed world actions; original exercise remains a review option.",
+      "mappedTo": [
+        "m3-05-b3",
+        "m3-05-b4"
+      ]
+    },
+    {
+      "sourceBlock": 32,
+      "type": "quiz",
+      "question": " Kapitaal stroomt naar waar het hoogste rendement wordt verwacht. Waarom is dat volgens de module meer dan alleen een efficiënte verdeling van middelen? ",
+      "originalFeedback": "Kapitaal is een selectiemechanisme, geen neutrale stroom. Zorg, natuurherstel en onderhoud leveren echte waarde, maar die is lastig in rendement uit te drukken — en trekt dus minder geld aan.",
+      "reviewStatus": "Question, correct answer(s), matching distinctions and feedback read",
+      "uniqueLearningFunction": "Answer-feedback mechanism and conceptual distinction are represented by the listed world actions; original exercise remains a review option.",
+      "mappedTo": [
+        "m3-05-b1",
+        "m3-05-b2"
+      ]
+    },
+    {
+      "sourceBlock": 34,
+      "type": "quiz",
+      "question": " Waarom versterkt financialisering de structurerende macht van kapitaalstromen binnen ondernemingen? ",
+      "originalFeedback": "Let op wat de drie andere opties gemeen hebben: ze wijzen allemaal een direct, aanwijsbaar kanaal aan — juridische structuren, efficiëntieprikkels, invloed van beleggers. Het mechanisme uit de module is indirecter en daardoor hardnekkiger: het zit in waaróp je wordt beoordeeld.",
+      "reviewStatus": "Question, correct answer(s), matching distinctions and feedback read",
+      "uniqueLearningFunction": "Answer-feedback mechanism and conceptual distinction are represented by the listed world actions; original exercise remains a review option.",
+      "mappedTo": [
+        "m3-02-b2",
+        "m3-05-b3"
+      ]
+    },
+    {
+      "sourceBlock": 37,
+      "type": "quiz",
+      "question": " Wat maakt hedgefondsen volgens de module illustratief voor de werking van kapitaalmobiliteit? ",
+      "originalFeedback": "Niemand hoeft te dreigen. Het vermógen om weg te gaan is al genoeg: bestuurders sturen op de mogelijkheid van vertrek, niet op het vertrek zelf.",
+      "reviewStatus": "Question, correct answer(s), matching distinctions and feedback read",
+      "uniqueLearningFunction": "Answer-feedback mechanism and conceptual distinction are represented by the listed world actions; original exercise remains a review option.",
+      "mappedTo": [
+        "m3-05-b3",
+        "m3-05-b4"
+      ]
+    },
+    {
+      "sourceBlock": 40,
+      "type": "quiz",
+      "question": " Waarom krijgen ecologische en sociale waarde volgens de module structureel minder gewicht in ondernemingsbeslissingen? ",
+      "originalFeedback": "Het is geen kwestie van niet willen, maar van niet meetellen. Wat niet op de meetlat staat, verliest het automatisch van wat er wel op staat.",
+      "reviewStatus": "Question, correct answer(s), matching distinctions and feedback read",
+      "uniqueLearningFunction": "Answer-feedback mechanism and conceptual distinction are represented by the listed world actions; original exercise remains a review option.",
+      "mappedTo": [
+        "m3-06-b1",
+        "m3-06-b2"
+      ]
+    },
+    {
+      "sourceBlock": 44,
+      "type": "match",
+      "question": "  Koppel elk begrip aan de meest passende omschrijving.  ",
+      "originalFeedback": "Beslissingspremissen is het lastigste begrip. Het gaat niet om de beslissing zelf, maar om wat al vaststond voordat er iemand ging beslissen: welke indicator telt, welke termijn geldt, wat als risico wordt gezien.",
+      "reviewStatus": "Question, correct answer(s), matching distinctions and feedback read",
+      "uniqueLearningFunction": "Answer-feedback mechanism and conceptual distinction are represented by the listed world actions; original exercise remains a review option.",
+      "mappedTo": [
+        "m3-01-b3",
+        "m3-02-b2",
+        "m3-03-b1",
+        "m3-04-b2",
+        "m3-05-b1"
+      ]
+    }
+  ],
+  "mediaAudit": [
+    {
+      "sourceBlock": 4,
+      "url": "https://cepr.org/voxeu/video/rise-superstar-firms",
+      "reviewStatus": "publisher-summary-read",
+      "reviewEvidence": "Officiële CEPR-beschrijving gekoppeld aan oorspronkelijke video; onderliggende auteursbrief aanvullend gelezen.",
+      "mappedEncounters": [
+        "m3-01-b4",
+        "m3-01-b5",
+        "m3-01-b6",
+        "m3-01-b7"
+      ],
+      "learningFunction": "Concentratie, efficiëntie/techniek, arbeidsaandeel via compositie en beleidsvragen. Volledige gesproken details niet woordelijk geverifieerd.",
+      "wholeSpokenContentVerified": false,
+      "delivery": "Required in-world original source projection plus case application",
+      "remainingGap": "Unique full spoken details are not fully audited; required original source projection must be delivered and its application checked."
+    },
+    {
+      "sourceBlock": 16,
+      "url": "https://no86.fedsoc.org/posts/the-stakeholder-shareholder-debate",
+      "reviewStatus": "publisher-transcript-read",
+      "reviewEvidence": "Volledige makertranscript gelezen.",
+      "mappedEncounters": [
+        "m3-03-b1",
+        "m3-03-b4",
+        "m3-03-b6",
+        "m3-03-b7"
+      ],
+      "learningFunction": "Historisch debat, residuele aandeelhoudersclaim, bredere belangen, 2018/2019-doelverklaringen en manageraccountabilitykritiek.",
+      "wholeSpokenContentVerified": true,
+      "delivery": "Authored world teaching; original media available for review",
+      "remainingGap": null
+    },
+    {
+      "sourceBlock": 30,
+      "url": "https://www.youtube.com/watch?v=P1RbqQW0fcI",
+      "reviewStatus": "required-projection-unverified",
+      "reviewEvidence": "Volledige makerbeschrijving gelezen; spoken transcript niet toegankelijk.",
+      "mappedEncounters": [
+        "m3-02-b2",
+        "m3-05-b3",
+        "m3-05-b4",
+        "m3-05-b6; m3-v30"
+      ],
+      "learningFunction": "Financiële motieven, historische deregulering/globalisering/techniek, corporate behavior, ongelijkheid, crisis 2008, aandeleninkoop en hervormingsdebat.",
+      "wholeSpokenContentVerified": false,
+      "delivery": "Required in-world original source projection plus case application",
+      "remainingGap": "Unique full spoken details are not fully audited; required original source projection must be delivered and its application checked."
+    }
+  ],
+  "figureAudit": [
+    {
+      "sourceBlock": 21,
+      "status": "pixels-inspected",
+      "learningFunction": "Shareholder- en stakeholderperspectief naast elkaar vergelijken.",
+      "mappedTo": [
+        "m3-04-b4"
+      ],
+      "note": "Origineel beeld is binair en bevat tweemaal Employees. De route behandelt relevante bijdragen, geen dubbele categorie; spectrum voorkomt een valse tweedeling."
+    },
+    {
+      "sourceBlock": 24,
+      "status": "svg-content-read",
+      "learningFunction": "Spectrum en gemengde institutionele praktijk; zeggenschap via kapitaal versus meerdere bijdragen en risico.",
+      "mappedTo": [
+        "m3-03-b1",
+        "m3-04-b4",
+        "m3-04-b5"
+      ],
+      "note": "De bronstelling over 'meeste ondernemingen' is geen kwantitatieve bewijsclaim in de nieuwe route."
+    }
+  ],
+  "beforeRealUse": [
+    "Confirm each listed explanation and consequence appears in the actual player route.",
+    "Deliver required source projections and targeted application; a clip title or an optional library link is insufficient.",
+    "Check meaningful exits, help, evidence storage, revised attempts and transfer questions.",
+    "Do not equate collected clues or eventual trial-and-error success with independent mastery."
+  ],
+  "legalAndTheoryLimits": [
+    {
+      "topic": "German codetermination",
+      "url": "https://www.gesetze-im-internet.de/mitbestg/__7.html",
+      "scope": "Covered-company supervisory seats; not universal equal operational control. Scope, exemptions and voting arrangements matter."
+    },
+    {
+      "topic": "UK Section 172",
+      "url": "https://www.legislation.gov.uk/ukpga/2006/46/section/172",
+      "scope": "Company success for members as a whole while having regard to listed factors; no equal-weighting rule or stakeholder veto."
+    },
+    {
+      "topic": "Delaware public benefit corporations",
+      "url": "https://delcode.delaware.gov/title8/c001/sc15/",
+      "scope": "One jurisdiction's legal form, distinct from private B Corp certification."
+    },
+    {
+      "topic": "CSRD scope changes",
+      "url": "https://commission.europa.eu/law/law-making-process/better-regulation/simplification-implementation-and-enforcement/simplification_en",
+      "scope": "Current reporting scope changed; teach transparency mechanism and verify applicable obligations for real organizations."
+    },
+    {
+      "topic": "Dutch and Scandinavian source examples",
+      "scope": "Dutch company-interest wording is context dependent; Scandinavian rules vary by country. This route teaches institutional variation, not exhaustive legal guidance."
+    }
+  ],
+  "validation": {
+    "errors": [],
+    "wordBudgets": "beat intro<=35; hint/explain/reveal<=45; NPC opening<=30, questions<=12, replies<=45",
+    "checked": "JSON schema, source indices, causal evidence links, answer shapes, NPC depth and all substantive source-text blocks",
+    "theoryDepth": "Ieder van twaalf NPC-instanties heeft drie verschillende theorieteksten van 45–75 woorden: uitleg, precieze casusverbinding, voorbeeld en grens."
+  },
+  "requiredSourceProjections": [
+    {
+      "investigationId": "m3-01",
+      "id": "m3-v4",
+      "sourceBlocks": [
+        4
+      ],
+      "youtube": "PW4dPJzj3cU",
+      "title": "The Rise of Superstar Firms",
+      "contentVerification": "Officiële CEPR-beschrijving en gerelateerd auteuronderzoek gelezen; volledige oorspronkelijke spoken transcript niet beschikbaar.",
+      "viewingTask": "Onderscheid een empirische bevinding, een voorgesteld mechanisme en een beleidsvraag.",
+      "afterPrompt": "Laat met de bedrijfsstroken zien hoe arbeidsaandeel kan dalen zonder dat het absolute loonbedrag daalt. Welk bewijs ontbreekt voor een beleidsconclusie?"
+    },
+    {
+      "investigationId": "m3-05",
+      "id": "m3-v30",
+      "sourceBlocks": [
+        30
+      ],
+      "youtube": "P1RbqQW0fcI",
+      "title": "Financialization Explained: Impact on Business and Society",
+      "contentVerification": "Makerbeschrijving gelezen; volledige brontranscript niet toegankelijk.",
+      "viewingTask": "Kies een kanaal van financiële invloed uit de video en onderscheid selectie, disciplinering en crisisrisico.",
+      "afterPrompt": "Leg een mechanisme uit met het kapitaaldossier en benoem wat dat bewijs niet over een hele economie kan zeggen."
+    }
+  ],
+  "deliveryRequirement": "Deze oorspronkelijke clips zijn verplichte onderzoeksobjecten, met gerichte casustoepassing. Alleen opname in auteurdata of naslag bewijst geen daadwerkelijke aflevering of beheersing.",
+  "npcFile": "dist/chapters/m3-npcs.json",
+  "npcSha256": "91b2fb8641d54bf95d9450f2e455211910963555b2f6b646dbbe0aec0339e98f",
+  "assessmentRefinement": "Vier plausibele alternatieven per vraag; twee juiste antwoorden op iedere positie. Toetsen onderscheiden aangrenzende causale mechanismen, onzekerheid en formele versus feitelijke invloed; ethische prioriteiten worden niet als overtuiging beoordeeld."
+}

@@ -1,0 +1,386 @@
+{
+  "schemaVersion": 2,
+  "rooms": [
+    {
+      "investigationId": "m1-07",
+      "npcs": [
+        {
+          "name": "Noor",
+          "role": "Analist van verdeling en kansen",
+          "opening": "Het archief bewaart inkomen en vermogen apart. Ik kan uitleggen wat de meter beschrijft. Jij onderzoekt welke groepen, mogelijkheden en geschiedenis achter de cijfers liggen.",
+          "topics": [
+            {
+              "id": "register",
+              "question": "Waarom twee registers?",
+              "answer": "Inkomen stroomt gedurende een periode. Nettovermogen is bezit minus schulden op een moment. Hetzelfde inkomen betekent niet dezelfde buffer, erfenis of mogelijkheden.",
+              "concepts": [
+                "inkomen versus vermogen"
+              ],
+              "followups": [
+                {
+                  "id": "gini",
+                  "question": "Wat zegt de Gini?",
+                  "answer": "Hij vat een verdeling samen: 0 is gelijkheid, 1 volledige concentratie. Het getal vertelt niet zelfstandig hoe iedere groep leeft of hoe de verdeling ontstond."
+                },
+                {
+                  "id": "missing",
+                  "question": "Wat moet ik erbij onderzoeken?",
+                  "answer": "Toegang tot onderwijs, zorg en internet, verschillen tussen groepen, mobiliteit en zeggenschap. Twee vergelijkbare totaalcijfers kunnen zulke verschillen verbergen."
+                }
+              ]
+            },
+            {
+              "id": "transfer",
+              "question": "Waar komen de tien eenheden vandaan?",
+              "answer": "Uit de hoogste groep in onze fictieve proef. Daarna wordt 20, 30, 50 veranderd in 30, 30, 40. Het totaal blijft honderd.",
+              "concepts": [
+                "herverdeling"
+              ],
+              "followups": [
+                {
+                  "id": "growth",
+                  "question": "Is dat groei?",
+                  "answer": "Deze proef verandert de ontvanger, niet de productie. Werk, investeringen, gedrag en uitvoeringskosten zijn niet gemodelleerd."
+                },
+                {
+                  "id": "wealth",
+                  "question": "Is vermogen nu ook gelijker?",
+                  "answer": "Dat blijkt hier niet. De rekening gaat over inkomen. Bezittingen, schulden en eerdere erfenissen staan in het andere register."
+                }
+              ]
+            },
+            {
+              "id": "levers",
+              "question": "Werken alle beleidsknoppen hetzelfde?",
+              "answer": "Inkomensbelasting en transfers veranderen besteedbare inkomens. Erfbelasting raakt vermogensoverdracht. Onderwijs, zorg en digitale toegang richten zich ook op mogelijkheden.",
+              "concepts": [
+                "belasting",
+                "transfers",
+                "toegang"
+              ],
+              "followups": [
+                {
+                  "id": "design",
+                  "question": "Wanneer werkt zo'n voorstel?",
+                  "answer": "Onderzoek grondslag, ontvangers, praktische toegang, financiering en mogelijke gedragsreacties. De beleidsnaam alleen bewijst geen effect."
+                },
+                {
+                  "id": "digital",
+                  "question": "Waarom digitale toegang?",
+                  "answer": "Zonder toegang of vaardigheden kunnen diensten onbereikbaar blijven. Een apparaat uitdelen beoordeelt nog niet betaalbaarheid, toegankelijkheid of bruikbaarheid."
+                }
+              ]
+            },
+            {
+              "id": "countries",
+              "question": "Waarom deze landenkaarten?",
+              "answer": "TED noemt in 2022 uiteenlopende markteconomieën, waaronder Frankrijk, Nederland en Denemarken. Ze laten zien dat het economische label niet zelfstandig iedere ongelijkheidsuitkomst voorspelt.",
+              "concepts": [
+                "historische tegenvoorbeelden"
+              ],
+              "followups": [
+                {
+                  "id": "socialism",
+                  "question": "Wat doen China en de Sovjet-Unie erbij?",
+                  "answer": "De video bespreekt historische ongelijkheidsafname én andere problemen. Eén verdelingsuitkomst bewijst geen totale welvaart of politieke vrijheid."
+                },
+                {
+                  "id": "date",
+                  "question": "Zijn dit actuele ranglijsten?",
+                  "answer": "Nee. Dit zijn gedateerde voorbeelden. Voor een actuele vergelijking moet je periode, indicator, belastingdefinitie en bron opnieuw controleren."
+                }
+              ]
+            }
+          ],
+          "theory": {
+            "title": "Ongelijkheid meten zonder haar te versimpelen",
+            "concepts": [
+              "inkomen versus vermogen",
+              "Gini",
+              "herverdeling",
+              "kansen en mobiliteit"
+            ],
+            "sections": [
+              {
+                "title": "Een stroom, een voorraad en een samenvattend getal",
+                "text": "Inkomen betreft ontvangsten over een periode; nettovermogen betreft bezit minus schulden op een moment. De Gini vat ongelijkheid binnen een gekozen verdeling samen, van 0 bij volledige gelijkheid tot 1 bij volledige concentratie. Het getal vertelt niet zelfstandig wie kwetsbaar is, hoe mensen tussen posities bewegen of hoe de verdeling historisch en institutioneel tot stand kwam."
+              },
+              {
+                "title": "Wat de fictieve transfer in het archief doet",
+                "text": "De drie groepen ontvangen 20, 30 en 50. Een belasting van 10 op de hoogste groep en een transfer van 10 naar de laagste geeft 30, 30 en 40. Het totaal blijft 100. Dit is herverdeling bij vaste productie. Het experiment rekent niet automatisch uitvoeringskosten, investeringsreacties of veranderingen in bezit en schulden mee."
+              },
+              {
+                "title": "Waarom een gelijker cijfer niet de hele beoordeling is",
+                "text": "Vergelijk daarnaast onderwijs, zorg, digitale toegang, verschillen tussen groepen en politieke invloed. De TED-video bespreekt uiteenlopende historische landenvoorbeelden om te tonen dat één economisch label niet iedere verdeling voorspelt. Minder inkomensongelijkheid bewijst evenmin totale welvaart of politieke vrijheid. Vraag welke dimensie je meet, voor welke periode en met welke vergelijking voordat je een brede beleidsconclusie trekt."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Eva",
+          "role": "Financiering en publieke verantwoording",
+          "opening": "Een regeling heeft geld, uitvoering en zeggenschap nodig. Ik help je onderscheiden wat de rekening aantoont en wat nog onderzocht of maatschappelijk verantwoord moet worden.",
+          "topics": [
+            {
+              "id": "criteria",
+              "question": "Bepaalt de meter wat eerlijk is?",
+              "answer": "Hij beschrijft een verdeling. De keuze voor behoefte, gelijkheid of kansen vraagt argumenten, onderzoek naar gevolgen en legitieme besluitvorming.",
+              "concepts": [
+                "meten versus rechtvaardigen"
+              ],
+              "followups": [
+                {
+                  "id": "disagree",
+                  "question": "Mag ik anders over verdeling denken?",
+                  "answer": "Ja. Onderbouw je criterium en onderzoek wie risico, voordeel en invloed krijgt. Begrijpen van de cursus vereist geen instemming met iedere beleidskeuze."
+                },
+                {
+                  "id": "power",
+                  "question": "Waar komt politieke invloed in beeld?",
+                  "answer": "Geconcentreerd vermogen kan media en besluitvorming beïnvloeden. Onderzoek bevoegdheden, toegang en verantwoording; veel vermogen bewijst niet automatisch misbruik."
+                }
+              ]
+            },
+            {
+              "id": "implementation",
+              "question": "Welke vraag blijft na de transfer open?",
+              "answer": "Wie bereikt wordt, wat uitvoering kost en wat later verandert. Onze vaste rekening is een begin, geen volledige beleidsprognose.",
+              "concepts": [
+                "modelgrenzen",
+                "beleid"
+              ],
+              "followups": [
+                {
+                  "id": "next",
+                  "question": "Welke vervolgproef helpt?",
+                  "answer": "Vergelijk bereik, uitvoeringskosten en gevolgen per groep. Leg vooraf vast welke verandering je meet en welke aannames gelijk blijven."
+                },
+                {
+                  "id": "blackrock",
+                  "question": "Waarom BlackRock als voorbeeld?",
+                  "answer": "De cursus noemt institutionele belegging. BlackRock beheert cliëntvermogen en kan met toestemming stemrechten uitoefenen. Beheer is geen onbeperkte beslismacht over iedere onderneming."
+                }
+              ]
+            }
+          ],
+          "theory": {
+            "title": "Herverdeling organiseren en verantwoorden",
+            "concepts": [
+              "progressieve belasting",
+              "erfbelasting",
+              "transfers",
+              "publieke diensten",
+              "zeggenschap"
+            ],
+            "sections": [
+              {
+                "title": "Beleidsinstrumenten werken via verschillende routes",
+                "text": "Progressieve inkomensbelasting laat het tarief stijgen met het inkomen binnen een gekozen stelsel. Transfers veranderen besteedbare inkomsten van ontvangers. Erfbelasting richt zich op overdracht van vermogen. Onderwijs, zorg en digitale toegang beïnvloeden ook mogelijkheden om mee te doen. De TED-video bespreekt deze routes; hun namen zeggen nog niet wie bereikt wordt, welke lasten ontstaan of hoe uitvoering werkt."
+              },
+              {
+                "title": "Waarom de transfer niet het hele beleidsplan is",
+                "text": "Noors rekening toont dat een vaste hoeveelheid anders verdeeld kan worden. Eva onderzoekt wie betaalt, wie daadwerkelijk ontvangt en hoe toegang georganiseerd is. Een digitale voorziening kan bestaan terwijl mensen vaardigheden, betaalbare toegang of bruikbare ondersteuning missen. Beleidsbeoordeling vraagt daarom meer dan een boeking: leg ook bereik, financiering, uitvoeringskosten en gevolgen voor verschillende groepen naast elkaar."
+              },
+              {
+                "title": "Vermogen, invloed en legitieme keuzes",
+                "text": "Geconcentreerd vermogen kan invloed op media en besluitvorming versterken; die terugkoppeling maakt zeggenschap relevant voor ongelijkheid. Onderzoek concrete bevoegdheden en verantwoordingsmogelijkheden, zonder rijkdom automatisch als misbruik te behandelen. BlackRock illustreert beheerd cliëntvermogen en mogelijke stemrechten, geen onbeperkte macht. Een verdelingscriterium vraagt argumenten en legitieme besluitvorming; een meetwaarde kan die maatschappelijke keuze niet zelfstandig bepalen."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "investigationId": "m1-08",
+      "npcs": [
+        {
+          "name": "Iris",
+          "role": "Onderzoeker van waarde en materiaalstromen",
+          "opening": "De leverancier toont minder materiaal per toestel. Ik wil ook het totaal zien. Leg de runs naast elkaar; dan kunnen we groeiverhalen en grenzen onderzoeken.",
+          "topics": [
+            {
+              "id": "value",
+              "question": "Waarom is waarde geen gewicht?",
+              "answer": "BBP meet productie als waarde van finale goederen en diensten. Materiaal, energie, verdeling en welzijn vragen andere meetbladen.",
+              "concepts": [
+                "BBP",
+                "waarde versus fysieke inputs"
+              ],
+              "followups": [
+                {
+                  "id": "inputs",
+                  "question": "Welke inputs volg je?",
+                  "answer": "De video noemt arbeid, kapitaal en natuurlijke hulpbronnen. Ontwerp en software dragen ook bij aan waarde; geld vertelt niet zelfstandig hoeveel fysieke belasting ontstaat."
+                },
+                {
+                  "id": "piketty",
+                  "question": "Is dit dezelfde vraag als r groter dan g?",
+                  "answer": "Nee. Daar onderzoek je rendement, groei en vermogensconcentratie. Hier verbind je productie aan middelen en ecologische gevolgen. De vragen raken elkaar maar zijn verschillend."
+                }
+              ]
+            },
+            {
+              "id": "doubling",
+              "question": "Waarom is verdubbelen geen optellen?",
+              "answer": "Bij gelijke procentuele groei worden de absolute toevoegingen groter: 100, 200, 400, 800. Dat is een rekenregel, geen garantie dat middelen blijven meegroeien.",
+              "concepts": [
+                "exponentiële groei"
+              ],
+              "followups": [
+                {
+                  "id": "coin",
+                  "question": "Is de munt echt?",
+                  "answer": "Nee. De munt in TED is een metafoor. De video verbindt exponentiële groei aan langdurige economische ontwikkeling en vraagt welke fysieke en ecologische voorwaarden gelden."
+                },
+                {
+                  "id": "forecast",
+                  "question": "Voorspelt onze strook de toekomst?",
+                  "answer": "Nee. Hij houdt een groeivoet vast om een mechanisme te tonen. Werkelijke groei, prijzen, technologie en grenzen kunnen veranderen."
+                }
+              ]
+            },
+            {
+              "id": "rebound",
+              "question": "Waarom driehonderd kilo in run C?",
+              "answer": "Een toestel daalt van 2 naar 1,5 kilogram, maar het aantal verdubbelt van 100 naar 200. Het totaal stijgt van 200 naar 300 kilogram.",
+              "concepts": [
+                "eenheidsverbruik versus totaal",
+                "mogelijke rebound"
+              ],
+              "followups": [
+                {
+                  "id": "always",
+                  "question": "Is efficiëntie zinloos?",
+                  "answer": "Bij hetzelfde aantal daalt het totaal naar 150 kilogram. Extra vraag kan besparing verminderen of overtreffen; of dat gebeurt vraagt bewijs."
+                },
+                {
+                  "id": "cause",
+                  "question": "Bewijzen de cijfers waarom de vraag stijgt?",
+                  "answer": "Nee. De run veronderstelt extra vraag. Onderzoek prijzen, toepassingen, zichtbaarheid en andere omstandigheden voordat je de oorzaak aanwijst."
+                }
+              ]
+            },
+            {
+              "id": "debate",
+              "question": "Welke toekomstvisie is juist?",
+              "answer": "TED bespreekt innovatiegedreven groei en een postgroeiperspectief dat behoeften vooropzet. Beide bevatten open vragen over bewijs, uitvoering en politieke overeenstemming.",
+              "concepts": [
+                "groei en postgroei",
+                "voorwaardelijke haalbaarheid"
+              ],
+              "followups": [
+                {
+                  "id": "germany",
+                  "question": "Wat laat Duitsland zien?",
+                  "answer": "TED noemt voor 2000–2014 BBP-groei van 16% en CO₂-daling van 12%. Dat is historisch, geen actuele score of bewijs voor alle hulpbronnen wereldwijd."
+                },
+                {
+                  "id": "needs",
+                  "question": "Wie bepaalt wat nodig is?",
+                  "answer": "Dat vereist inhoudelijke criteria en legitieme zeggenschap. De video noemt energie, zorg en openbaar vervoer, maar het economische etiket beslist de afweging niet."
+                }
+              ]
+            }
+          ],
+          "theory": {
+            "title": "Groei, waarde en fysieke belasting",
+            "concepts": [
+              "BBP",
+              "exponentiële groei",
+              "efficiëntie",
+              "rebound",
+              "groei en postgroei"
+            ],
+            "sections": [
+              {
+                "title": "Economische waarde is geen materiaalgewicht",
+                "text": "BBP meet productie als de waarde van finale goederen en diensten. Arbeid, kapitaal en natuurlijke hulpbronnen zijn verschillende inputs; ontwerp en software kunnen bijdragen aan waarde zonder dat geldbedragen hun fysieke belasting beschrijven. De reeks 100, 200, 400, 800 toont exponentiële groei. Deze groeivraag verschilt van Piketty's vergelijking tussen kapitaalrendement en economische groei bij vermogensconcentratie."
+              },
+              {
+                "title": "Wat de drie materiaalruns aantonen",
+                "text": "Honderd toestellen van 2 kilogram vragen 200 kilogram. Bij 1,5 kilogram per toestel daalt dat tot 150 bij hetzelfde aantal. Verdubbelt het aantal tot 200, dan is het totaal 300 kilogram. Extra vraag kan een besparing dus verkleinen of overtreffen. De proef veronderstelt die vraag; hij bewijst niet waarom zij stijgt of dat efficiëntie altijd averechts werkt."
+              },
+              {
+                "title": "Een debat met afgebakend bewijs",
+                "text": "TED bespreekt innovatiegedreven groei en een postgroeiperspectief dat behoeften en voorzieningen vooropzet. De video noemt Duitsland: tussen 2000 en 2014 steeg het BBP 16 procent en daalde de CO₂-uitstoot 12 procent. Dat historische voorbeeld betreft één gemeten impact, periode en land. Het beslist niet zelfstandig over wereldwijde hulpbronnen, toekomstige haalbaarheid of wie noodzakelijke productie mag bepalen."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Mila",
+          "role": "Technicus van de materiaalproeven",
+          "opening": "Ik meet eenheidsverbruik. Een groeiend productieaantal of plan vraagt meer perspectieven. Vraag waar mijn technische meting ophoudt en welk toetsplan de blinde vlekken zichtbaar maakt.",
+          "topics": [
+            {
+              "id": "measure",
+              "question": "Wat voeg je aan het toetsplan toe?",
+              "answer": "Aantallen, totaal materiaal en energie, andere impacts en gebruiksduur. Vergelijk gelijke meetgrenzen en benoem ontbrekende gegevens.",
+              "concepts": [
+                "totale impact",
+                "afbakening"
+              ],
+              "followups": [
+                {
+                  "id": "decouple",
+                  "question": "Wat betekent ontkoppeling?",
+                  "answer": "Relatief betekent dat belasting minder snel groeit dan output. Absoluut betekent dat de totale gemeten belasting daalt. Benoem impact, periode en systeemgrens."
+                },
+                {
+                  "id": "shop",
+                  "question": "Hoe sluit dit op de etalage aan?",
+                  "answer": "De campagne kan extra vraag beïnvloeden. Volg ontwerp, verkoopprikkels en productie samen; een zuinig toestel is één schakel."
+                }
+              ]
+            },
+            {
+              "id": "voices",
+              "question": "Wie beslist over minder productie?",
+              "answer": "Dat is niet uitsluitend technisch. Gebruikers, werknemers en andere getroffen groepen hebben kennis en belangen. Leg criteria, bevoegdheden en herziening vast.",
+              "concepts": [
+                "behoeften",
+                "zeggenschap"
+              ],
+              "followups": [
+                {
+                  "id": "work",
+                  "question": "Waarom noemt de video werk en basisdiensten?",
+                  "answer": "Een postgroeiperspectief bespreekt minder afhankelijkheid van een baan voor levensonderhoud of zorg. Financiering en uitvoering blijven te onderzoeken."
+                },
+                {
+                  "id": "automatic",
+                  "question": "Is minder produceren altijd beter?",
+                  "answer": "Dat volgt niet uit de proef. Onderzoek behoeften, gevolgen en alternatieven. Het doel vraagt een onderbouwde afweging."
+                }
+              ]
+            }
+          ],
+          "theory": {
+            "title": "Een totaalmeting verbinden met behoeften",
+            "concepts": [
+              "relatieve ontkoppeling",
+              "absolute ontkoppeling",
+              "systeemgrens",
+              "behoeften",
+              "uitvoering"
+            ],
+            "sections": [
+              {
+                "title": "Relatieve en absolute ontkoppeling onderscheiden",
+                "text": "Bij relatieve ontkoppeling groeit een gemeten belasting minder snel dan de output; het totaal kan dus nog stijgen. Bij absolute ontkoppeling daalt de totale gemeten belasting terwijl output groeit. Benoem telkens welke impact, periode en systeemgrens je bedoelt. Minder materiaal per toestel is een eenheidsmeting en bewijst op zichzelf geen absolute daling van materiaalgebruik of andere impacts."
+              },
+              {
+                "title": "Welke meetbladen bij het lab horen",
+                "text": "Mila combineert materiaal per toestel met productieaantallen en totaalverbruik. Voor een breder oordeel zijn energie, andere milieugevolgen, gebruiksduur en ketenstappen nodig. Vergelijk gelijk afgebakende runs en noteer ontbrekende gegevens. De campagnekamer kan verklaren waarom aantallen veranderen; winning en afval horen elders in dezelfde keten. Een verbetering in één laboratoriummeting is daardoor een begin van onderzoek, geen totaalkeurmerk."
+              },
+              {
+                "title": "Minder produceren vraagt ook maatschappelijke afweging",
+                "text": "Een postgroeiperspectief bespreekt behoeften, publieke diensten en afhankelijkheid van werk voor levensonderhoud. Een technicus kan helpen meten wat een productieplan vraagt, maar bepaalt niet alleen welke behoeften prioriteit krijgen. Betrek gebruikers, werknemers en andere getroffen groepen; onderzoek financiering en uitvoerbaarheid. Minder productie is niet automatisch beter. Maak criteria, alternatieven en besluitbevoegdheden zichtbaar en leg vast wanneer het plan wordt herzien."
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

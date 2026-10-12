@@ -1,0 +1,935 @@
+{
+  "schemaVersion": 1,
+  "lessonId": "m1",
+  "status": "integrated_static_verified_runtime_not_verified",
+  "placement": {
+    "afterInvestigationId": "m1-05",
+    "beforeInvestigationId": "m1-06",
+    "suggestedOrder": [
+      "m1-05",
+      "m1-07",
+      "m1-08",
+      "m1-06"
+    ],
+    "routeCause": "Eigendom leidt naar verdeling; verdeling vraagt ook ecologische haalbaarheid; het productieplan gaat daarna naar marketing.",
+    "rootMergeNotes": "Gebruik investigations-array. Herzie oorspronkelijke video-blockmapping zodat bronreviews niet dubbel als verplichte dekking tellen. Beide video's blijven als optionele oorspronkelijke media beschikbaar; hun kerninhoud wordt in de nieuwe gebieden onderwezen."
+  },
+  "evidenceSources": [
+    {
+      "id": "ted-inequality",
+      "url": "https://www.ted.com/talks/ted_ed_is_inequality_inevitable?view=transcript",
+      "originalUrl": "https://www.youtube.com/watch?v=rEnf_CFoyv0&t=132s",
+      "sourceBlock": 3,
+      "readDepth": "full_primary_transcript",
+      "scope": "Original playback begins at132s. Policy/country material from2:19 onward verified; basic indicator definitions before132s supply prerequisite context.",
+      "supplementalUrls": [
+        "https://www.oecd.org/en/data/indicators/income-inequality.html",
+        "https://www.oecd.org/en/publications/income-redistribution-through-taxes-and-transfers-across-oecd-countries_bc7569c6-en.html",
+        "https://www.oecd.org/en/publications/for-good-measure_9789264307278-en.html",
+        "https://www.oecd.org/en/publications/how-s-life-in-the-digital-age_9789264311800-en.html"
+      ]
+    },
+    {
+      "id": "ted-growth",
+      "url": "https://www.ted.com/talks/ted_ed_can_the_economy_grow_forever?view=transcript",
+      "originalUrl": "https://www.youtube.com/watch?v=mT3P0YSNonE",
+      "sourceBlock": 21,
+      "readDepth": "full_primary_transcript_from_public_next_data",
+      "scope": "Full English transcript read from publisher page transcriptData.translation.paragraphs. Historical examples are explicitly dated; no present-day prediction implied.",
+      "supplementalUrls": [
+        "https://www.worldbank.org/en/brief/2021/04/30/icp2021-concepts-definitions",
+        "https://wedocs.unep.org/bitstream/handle/20.500.11822/31439/Decoupling_Factsheet_EN.pdf"
+      ]
+    }
+  ],
+  "investigations": [
+    {
+      "id": "m1-07",
+      "originalSourceBlocks": [
+        3
+      ],
+      "optionalReviewBlocks": [
+        3
+      ],
+      "world": {
+        "name": "Het verdelingsarchief",
+        "imageKey": "room-archive",
+        "exit": {
+          "label": "Breng de twee rekeningen naar het materialenlab",
+          "lockType": "redistribution-trace",
+          "problem": "Het register bevat zowel inkomens als bezittingen. Het bestuur moet weten welk mechanisme verandert en welke conclusie de cijfers nog niet dragen.",
+          "unlockedText": "Je onderscheidt verdeling, totale opbrengst en ontbrekende toegangsinformatie.",
+          "destinationReason": "Een eerlijkere verdeling vertelt nog niet of productie binnen ecologische grenzen blijft. Neem de rekeningen mee naar het materialenlab."
+        }
+      },
+      "beats": [
+        {
+          "id": "m1-07-b1",
+          "type": "inspect",
+          "title": "Twee registers, verschillende vragen",
+          "sceneObject": "evidence",
+          "intro": "Noor opent het stadsregister. Onderzoek inkomen, vermogen en de ongelijkheidsmeter voordat je een conclusie trekt.",
+          "hint": "Inkomen is een stroom gedurende een periode. Vermogen is bezit minus schulden op een moment. Een ongelijkheidscijfer is geen volledige diagnose.",
+          "explainAfter": "De registers meten verschillende dingen. Bekijk naast de verdeling ook groepen, toegang, geschiedenis en mogelijkheden om vooruit te komen.",
+          "concepts": [
+            "inkomen versus vermogen",
+            "Gini als verdelingsmaat",
+            "grenzen van ongelijkheidsindicatoren"
+          ],
+          "sourceBlocks": [
+            3
+          ],
+          "clueId": "m1-07-b1-clue",
+          "clueTitle": "Twee registers, verschillende vragen",
+          "reveal": [
+            {
+              "id": "income",
+              "label": "Inkomenslade",
+              "title": "Een stroom",
+              "text": "Loon, kapitaalopbrengsten en transfers vormen inkomen over een periode. Belastingen veranderen wat beschikbaar blijft."
+            },
+            {
+              "id": "wealth",
+              "label": "Vermogenslade",
+              "title": "Een voorraad",
+              "text": "Bezittingen minus schulden vormen nettovermogen. Hetzelfde inkomen kan samengaan met verschillende buffers, erfenissen of bezittingen."
+            },
+            {
+              "id": "gini",
+              "label": "Gini-meter",
+              "title": "Een samenvattend getal",
+              "text": "Bij deze verdelingsmaat betekent 0 volledige gelijkheid en 1 volledige concentratie. Controleer of het cijfer inkomen of vermogen beschrijft."
+            },
+            {
+              "id": "limits",
+              "label": "Ontbrekende kaarten",
+              "title": "Wat niet in één getal past",
+              "text": "Een totaalcijfer vertelt niet zelfstandig welke groepen achterblijven, waarom de verdeling ontstond of hoe toegankelijk kansen zijn."
+            }
+          ],
+          "required": [
+            "income",
+            "wealth",
+            "gini",
+            "limits"
+          ]
+        },
+        {
+          "id": "m1-07-b2",
+          "type": "sort",
+          "title": "Landen zijn geen natuurwetten",
+          "sceneObject": "evidence",
+          "intro": "Eva legt historische voorbeelden uit de TED-video naast stellige conclusies. Scheid wat de voorbeelden ondersteunen van wat verder bewijs vraagt.",
+          "hint": "De landenvergelijking uit 2022 illustreert variatie. Een economisch label verklaart niet automatisch iedere uitkomst of historische ontwikkeling.",
+          "explainAfter": "Markteconomieën hebben verschillende beleidskeuzes en uitkomsten. Gelijkere inkomens, totale welvaart en politieke vrijheid zijn verschillende beoordelingsvragen.",
+          "concepts": [
+            "beleid beïnvloedt ongelijkheid",
+            "capitalistische tegenvoorbeelden",
+            "verdeling versus welvaart",
+            "voorwaardelijke historische vergelijking"
+          ],
+          "sourceBlocks": [
+            3
+          ],
+          "clueId": "m1-07-b2-clue",
+          "clueTitle": "Landen zijn geen natuurwetten",
+          "categories": [
+            {
+              "id": "evidence",
+              "label": "Ondersteund door het beschreven voorbeeld"
+            },
+            {
+              "id": "overreach",
+              "label": "Conclusie gaat verder dan het voorbeeld"
+            }
+          ],
+          "cards": [
+            {
+              "id": "markets",
+              "text": "TED noemt Frankrijk, Nederland en Denemarken als markteconomieën met relatief beperkte of stabiele inkomensongelijkheid.",
+              "category": "evidence",
+              "feedback": "Dit is het historische tegenvoorbeeld uit de video, geen actuele landenranglijst."
+            },
+            {
+              "id": "china",
+              "text": "De video beschrijft dat China's marktgerichte ontwikkeling samengaat met hoger inkomen én grotere ongelijkheid.",
+              "category": "evidence",
+              "feedback": "Twee indicatoren kunnen tegelijk stijgen; het voorbeeld bewijst geen universele oorzaak."
+            },
+            {
+              "id": "socialism",
+              "text": "TED bespreekt eerdere ongelijkheidsafname in China en de Sovjet-Unie, naast andere economische en politieke problemen.",
+              "category": "evidence",
+              "feedback": "Een verdelingsuitkomst beoordeelt niet vanzelf alle aspecten van een systeem."
+            },
+            {
+              "id": "inevitable",
+              "text": "Het markteconomische label volstaat om zonder beleids- of periodegegevens de ongelijkheid van een land te voorspellen.",
+              "category": "overreach",
+              "feedback": "De verschillende markteconomieën weerleggen deze afleiding."
+            },
+            {
+              "id": "complete",
+              "text": "Een lagere Gini volstaat om toegang, welvaart, historische uitsluiting en politieke vrijheid tegelijk te beoordelen.",
+              "category": "overreach",
+              "feedback": "Die vragen vereisen andere gegevens naast de inkomensverdeling."
+            }
+          ]
+        },
+        {
+          "id": "m1-07-b3",
+          "type": "connect",
+          "title": "Waar grijpt een beleidsknop in?",
+          "sceneObject": "system",
+          "intro": "Verbind zes beleidsvoorstellen met het mechanisme dat je moet onderzoeken. Vergelijk daarna wie voordeel, kosten en zeggenschap krijgt.",
+          "hint": "Belastingen, transfers, toegang en macht werken via verschillende routes. Hun werking hangt af van ontwerp, uitvoering en context.",
+          "explainAfter": "Een beleidsnaam bewijst geen effect. Onderzoek belastinggrondslag, ontvangers, bruikbare toegang, uitvoering en invloed; houd inkomen en vermogen apart.",
+          "concepts": [
+            "progressieve inkomensbelasting",
+            "erfbelasting en vermogensaccumulatie",
+            "transfers",
+            "onderwijs en zorg",
+            "digitale kloof",
+            "vermogen en democratische invloed"
+          ],
+          "sourceBlocks": [
+            3
+          ],
+          "clueId": "m1-07-b3-clue",
+          "clueTitle": "Waar grijpt een beleidsknop in?",
+          "pairs": [
+            {
+              "id": "tax",
+              "left": "Hogere relatieve belasting bij hogere inkomens",
+              "right": "Kan de verdeling van besteedbare inkomens veranderen.",
+              "feedback": "Vergelijk vóór en na belasting; ontwijking en gedrag vragen extra onderzoek."
+            },
+            {
+              "id": "inherit",
+              "left": "Een belasting bij grote erfenissen",
+              "right": "Kan overdracht van vermogensconcentratie tussen generaties beperken.",
+              "feedback": "Dit raakt vermogen; het is niet dezelfde ingreep als loonbelasting."
+            },
+            {
+              "id": "transfer",
+              "left": "Belastinggeld gaat naar een andere inkomensgroep",
+              "right": "Verplaatst besteedbaar inkomen via een transfer.",
+              "feedback": "Onderzoek ontvangers, omvang en financiering."
+            },
+            {
+              "id": "services",
+              "left": "Onderwijs en zorg worden praktisch toegankelijker",
+              "right": "Kan kansen en verdienmogelijkheden ondersteunen.",
+              "feedback": "Beschikbaarheid is niet hetzelfde als bereikbare, bruikbare dienstverlening."
+            },
+            {
+              "id": "digital",
+              "left": "Internettoegang en digitale vaardigheden worden bereikbaar",
+              "right": "Kan een digitale toegangsdrempel verminderen.",
+              "feedback": "Alleen een apparaat uitdelen beoordeelt nog niet vaardigheden of bruikbaarheid."
+            },
+            {
+              "id": "power",
+              "left": "Maak concentratie van geld, media en politieke invloed controleerbaar",
+              "right": "Onderzoekt de terugkoppeling tussen vermogen en macht.",
+              "feedback": "De video verbindt extreme rijkdom met democratische risico's; concrete bevoegdheden en regels blijven nodig."
+            }
+          ]
+        },
+        {
+          "id": "m1-07-b4",
+          "type": "order",
+          "title": "Volg tien eenheden",
+          "sceneObject": "evidence",
+          "intro": "Drie even grote fictieve groepen ontvangen 20,30 en 50 inkomenseenheden. Volg een belasting en transfer van tien; de productie blijft in deze proef gelijk.",
+          "hint": "Het totaal is 100. Een transfer verandert de ontvanger; deze vereenvoudigde rekening voorspelt geen arbeid, investeringen of toekomstige opbrengst.",
+          "explainAfter": "De verdeling verandert naar 30,30,40; het totaal blijft 100. Dit toont herverdeling in een vaste rekening, geen nieuwe productie of volledig beleidsresultaat.",
+          "concepts": [
+            "herverdeling versus groei",
+            "marktinkomen versus besteedbaar inkomen",
+            "grenzen van een rekenvoorbeeld"
+          ],
+          "sourceBlocks": [
+            3
+          ],
+          "clueId": "m1-07-b4-clue",
+          "clueTitle": "Volg tien eenheden",
+          "order": [
+            {
+              "id": "start",
+              "text": "Lees de beginverdeling:20,30,50; samen 100.",
+              "feedback": "Alle groepen zijn even groot; het is een fictief vereenvoudigd register."
+            },
+            {
+              "id": "collect",
+              "text": "In deze proef betaalt de hoogste groep 10 belasting.",
+              "feedback": "Vóór de transfer resteert 20,30,40 plus 10 bij de overheid."
+            },
+            {
+              "id": "pay",
+              "text": "De overheid draagt die 10 over aan de laagste groep.",
+              "feedback": "De ontvanger verandert; geen extra productie is verondersteld."
+            },
+            {
+              "id": "compare",
+              "text": "Vergelijk de eindverdeling 30,30,40 met het oorspronkelijke totaal.",
+              "feedback": "De laagste groep stijgt, de hoogste daalt en het totaal blijft 100."
+            }
+          ],
+          "correctOrder": [
+            "start",
+            "collect",
+            "pay",
+            "compare"
+          ]
+        },
+        {
+          "id": "m1-07-b5",
+          "type": "build",
+          "title": "Wat moet naast het register?",
+          "sceneObject": "person",
+          "intro": "Het bestuur wil een toegangspilot beoordelen. Kies drie aanvullingen die de ontbrekende groepen, bruikbare toegang en politieke invloed zichtbaar maken.",
+          "hint": "De opdracht vraagt een breder oordeel dan één inkomenscijfer. Kies gegevens die de drie genoemde blinde vlekken rechtstreeks onderzoeken.",
+          "explainAfter": "De video biedt beleidsroutes, geen automatische oplossing. Meet effecten, houd tegenvoorbeelden open en verantwoord wie de regels kan bijsturen.",
+          "concepts": [
+            "ongelijkheid van kansen",
+            "digitale toegang",
+            "democratische controle",
+            "bewijs en beleidsvoorwaarden"
+          ],
+          "sourceBlocks": [
+            3
+          ],
+          "clueId": "m1-07-b5-clue",
+          "clueTitle": "Wat moet naast het register?",
+          "required": [
+            "groups",
+            "access",
+            "voice"
+          ],
+          "options": [
+            {
+              "id": "groups",
+              "text": "Splits uitkomsten naar relevante groepen en onderzoek historische uitsluiting en mobiliteit.",
+              "correct": true,
+              "feedback": "Dit vult verdelingsgemiddelden aan; voorkom dat groepen als homogene categorieën worden behandeld."
+            },
+            {
+              "id": "access",
+              "text": "Onderzoek daadwerkelijke toegang tot onderwijs, zorg, internet en vaardigheden.",
+              "correct": true,
+              "feedback": "Dit onderzoekt bruikbare kansen naast inkomen."
+            },
+            {
+              "id": "voice",
+              "text": "Breng invloed op media, besluitvorming en herziening van de pilot in kaart.",
+              "correct": true,
+              "feedback": "Dit maakt de terugkoppeling tussen geld en zeggenschap onderzoekbaar."
+            },
+            {
+              "id": "average",
+              "text": "Vervang de drie aanvullingen door één gemiddeld inkomen per inwoner.",
+              "correct": false,
+              "feedback": "Een gemiddelde kan veranderen terwijl dezelfde blinde vlekken blijven bestaan."
+            },
+            {
+              "id": "label",
+              "text": "Beoordeel de pilot uitsluitend vanuit het economische label van het land.",
+              "correct": false,
+              "feedback": "Een label bevat de benodigde uitvoerings- en toegangsgegevens niet."
+            },
+            {
+              "id": "budget",
+              "text": "Laat alleen het totale belastingbedrag de drie ontbrekende dimensies vertegenwoordigen.",
+              "correct": false,
+              "feedback": "Een budget vertelt niet zelfstandig welke groepen bereikt worden of wie invloed heeft."
+            }
+          ]
+        }
+      ],
+      "finale": {
+        "intro": "Verklaar de veranderde verdeling en de grens van je conclusie voordat je het register overdraagt.",
+        "slots": [
+          {
+            "id": "mechanism",
+            "label": "Waarom krijgt de laagste groep tien extra zonder dat het totaal stijgt?",
+            "evidenceBeatId": "m1-07-b4",
+            "options": [
+              {
+                "id": "transfer",
+                "text": "De belasting en transfer veranderen wie bestaande inkomenseenheden ontvangt.",
+                "correct": true,
+                "feedback": "Het fictieve totaal blijft 100; de rekening reconstrueert de overdracht."
+              },
+              {
+                "id": "growth",
+                "text": "De transfer bewijst dat de totale productie met tien is gestegen.",
+                "correct": false,
+                "feedback": "In deze proef is de productie vastgehouden."
+              },
+              {
+                "id": "wealth",
+                "text": "De inkomensrekening bewijst dat iedere vermogensbuffer gelijk is geworden.",
+                "correct": false,
+                "feedback": "Inkomen en nettovermogen zijn verschillende registers."
+              }
+            ]
+          },
+          {
+            "id": "limits",
+            "label": "Wat ondersteunt de vergelijking van verschillende markteconomieën?",
+            "evidenceBeatId": "m1-07-b2",
+            "options": [
+              {
+                "id": "conditions",
+                "text": "Beleid en instituties doen ertoe; het economische label voorspelt niet zelfstandig alle verdelingsuitkomsten.",
+                "correct": true,
+                "feedback": "De tegenvoorbeelden vragen onderzoek naar ontwerp, periode en context."
+              },
+              {
+                "id": "label",
+                "text": "Het landlabel vervangt bewijs over belasting, toegang en politieke invloed.",
+                "correct": false,
+                "feedback": "Die concrete verschillen zijn juist relevant."
+              },
+              {
+                "id": "single",
+                "text": "Een lagere inkomens-Gini bewijst tegelijk betere welvaart en gelijke toegang voor iedere groep.",
+                "correct": false,
+                "feedback": "Voor die dimensies zijn aanvullende gegevens nodig."
+              }
+            ]
+          }
+        ],
+        "conclusion": "Je volgt de route van belasting naar transfer en scheidt verdeling van productie. Daarna onderzoek je wie kansen en invloed krijgt."
+      }
+    },
+    {
+      "id": "m1-08",
+      "originalSourceBlocks": [
+        21
+      ],
+      "optionalReviewBlocks": [
+        21
+      ],
+      "world": {
+        "name": "Het materialenlab van de groeiproef",
+        "imageKey": "room-materials",
+        "exit": {
+          "label": "Breng het toetsbare productievoorstel naar de etalage",
+          "lockType": "growth-boundary-trace",
+          "problem": "Een leverancier toont minder materiaal per toestel. Het bestuur moet weten wat er met totale belasting gebeurt en welke toekomstclaims nog bewijs vragen.",
+          "unlockedText": "Je onderscheidt waarde, eenheidsverbruik, totale belasting en een onderbouwde groeiroute.",
+          "destinationReason": "Het productieplan wordt een campagne. Onderzoek in de etalage hoe zichtbaarheid en verkoopprikkels de extra vraag kunnen beïnvloeden."
+        }
+      },
+      "beats": [
+        {
+          "id": "m1-08-b1",
+          "type": "order",
+          "title": "De verdubbelingsstrook",
+          "sceneObject": "evidence",
+          "intro": "Iris geeft een fictieve waarde-index die elke gelijke periode verdubbelt. Leg de perioden neer en vergelijk de absolute toenamen.",
+          "hint": "Exponentieel betekent dezelfde procentuele groei per periode. De toevoegingen worden groter; deze strook is geen economische voorspelling.",
+          "explainAfter": "Van 100 naar 800 vraagt drie verdubbelingen. Een vaste groeivoet heeft steeds grotere absolute gevolgen; vraag daarna welke middelen en effecten meegroeien.",
+          "concepts": [
+            "exponentiële groei",
+            "groeivoet versus absolute toename",
+            "begrenzing"
+          ],
+          "sourceBlocks": [
+            21
+          ],
+          "clueId": "m1-08-b1-clue",
+          "clueTitle": "De verdubbelingsstrook",
+          "order": [
+            {
+              "id": "one",
+              "text": "Periode 0: index 100.",
+              "feedback": "Het gekozen beginpunt is fictief."
+            },
+            {
+              "id": "two",
+              "text": "Periode 1: index 200; toevoeging 100.",
+              "feedback": "Een verdubbeling is 100% groei."
+            },
+            {
+              "id": "three",
+              "text": "Periode 2: index 400; toevoeging 200.",
+              "feedback": "De procentuele groeivoet blijft gelijk, de toevoeging groeit."
+            },
+            {
+              "id": "four",
+              "text": "Periode 3: index 800; toevoeging 400.",
+              "feedback": "Doortrekken is een rekenregel, geen garantie van haalbaarheid."
+            }
+          ],
+          "correctOrder": [
+            "one",
+            "two",
+            "three",
+            "four"
+          ]
+        },
+        {
+          "id": "m1-08-b2",
+          "type": "inspect",
+          "title": "Waarde is geen gewicht",
+          "sceneObject": "product",
+          "intro": "Onderzoek de telefoon en twee meetbladen. Maak onderscheid tussen marktwaarde, productie-inputs en fysieke belasting.",
+          "hint": "GDP/BBP meet productie als waarde van finale goederen en diensten. Kilogrammen, energie en schade meten andere dimensies; één bedrijfstotaal is geen nationaal BBP.",
+          "explainAfter": "Materiaal, ontwerp en software dragen verschillend bij aan waarde. Een hogere waarde bewijst niet zelfstandig minder materiaalgebruik of betere verdeling.",
+          "concepts": [
+            "BBP en marktwaarde",
+            "arbeid kapitaal natuurlijke hulpbronnen",
+            "waarde versus materiaalvolume",
+            "materiële en immateriële bijdragen"
+          ],
+          "sourceBlocks": [
+            21
+          ],
+          "clueId": "m1-08-b2-clue",
+          "clueTitle": "Waarde is geen gewicht",
+          "reveal": [
+            {
+              "id": "output",
+              "label": "Waarde-index",
+              "title": "Een productiestroom",
+              "text": "BBP gaat over productie binnen een economie gedurende een periode. Het is geen gewicht, vermogensvoorraad of volledige welzijnsmaat."
+            },
+            {
+              "id": "material",
+              "label": "Materiaalbak",
+              "title": "Winning en verwerking",
+              "text": "Metalen en andere grondstoffen vragen energie en verwerking. De telefoon verbindt marktwaarde met fysieke inputs en gevolgen."
+            },
+            {
+              "id": "design",
+              "label": "Ontwerpnotitie",
+              "title": "Meer dan de behuizing",
+              "text": "Ontwerp, software en arbeid dragen ook bij aan waarde. Duurdere verkoop vertelt daarom niet zelfstandig hoeveel extra materiaal nodig was."
+            },
+            {
+              "id": "inputs",
+              "label": "Inputblad",
+              "title": "Waar productie op steunt",
+              "text": "De video noemt arbeid, kapitaal en natuurlijke hulpbronnen. Onderzoek naast geld ook fysieke beschikbaarheid en ecologische gevolgen."
+            }
+          ],
+          "required": [
+            "output",
+            "material",
+            "design",
+            "inputs"
+          ]
+        },
+        {
+          "id": "m1-08-b3",
+          "type": "inspect",
+          "title": "De zuinige machine produceert meer",
+          "sceneObject": "system",
+          "intro": "Open drie fictieve productieruns. De derde combineert een zuiniger toestel met meer vraag. Vergelijk eenheidsverbruik én het totaal.",
+          "hint": "Totaal materiaal is aantal maal materiaal per toestel. Efficiëntie verlaagt het eenheidsverbruik; de omvang van productie kan tegelijk veranderen.",
+          "explainAfter": "De derde run gebruikt 300 in plaats van 200 kg. Dat toont een mogelijk terugslageffect in dit scenario, niet dat efficiënte techniek altijd extra schade veroorzaakt.",
+          "concepts": [
+            "efficiëntie versus totale belasting",
+            "rebound als mogelijke route",
+            "vraag en productieomvang"
+          ],
+          "sourceBlocks": [
+            21
+          ],
+          "clueId": "m1-08-b3-clue",
+          "clueTitle": "De zuinige machine produceert meer",
+          "reveal": [
+            {
+              "id": "before",
+              "label": "Run A",
+              "title": "De beginrun",
+              "text": "100 toestellen gebruiken elk 2 kg: samen 200 kg. Dit is een fictieve vergelijking met dezelfde materiaaleenheid."
+            },
+            {
+              "id": "fixed",
+              "label": "Run B",
+              "title": "Het aantal blijft gelijk",
+              "text": "Een verbeterd ontwerp gebruikt 1,5 kg per toestel. Bij 100 toestellen wordt het totaal 150 kg."
+            },
+            {
+              "id": "demand",
+              "label": "Run C",
+              "title": "De vraag verdubbelt",
+              "text": "Bij 200 toestellen van 1,5 kg is het totaal 300 kg. Lagere kosten of nieuwe toepassingen kunnen extra vraag helpen uitlokken; dat verband moet worden onderzocht."
+            }
+          ],
+          "required": [
+            "before",
+            "fixed",
+            "demand"
+          ]
+        },
+        {
+          "id": "m1-08-b4",
+          "type": "connect",
+          "title": "Hoe groot is de bewezen daling?",
+          "sceneObject": "evidence",
+          "intro": "Verbind elke meetkaart met haar geldige conclusie. Een historische landenkaart en twee fictieve indices meten verschillende grenzen.",
+          "hint": "Minder belasting per euro is relatief. Een dalend totaal is absoluut voor die gemeten belasting. Dat bewijst nog geen daling van iedere impact.",
+          "explainAfter": "De TED-video noemt een historische CO₂-daling bij groei. Toets daarnaast tempo, periode, afbakening en andere milieugevolgen; extrapoleer niet naar een gegarandeerde wereldoplossing.",
+          "concepts": [
+            "relatieve versus absolute ontkoppeling",
+            "impactafbakening",
+            "historische tegenvoorbeelden",
+            "voorwaarden voor duurzaamheid"
+          ],
+          "sourceBlocks": [
+            21
+          ],
+          "clueId": "m1-08-b4-clue",
+          "clueTitle": "Hoe groot is de bewezen daling?",
+          "pairs": [
+            {
+              "id": "relative",
+              "left": "Fictieve output+20%, emissies+5%",
+              "right": "Lagere emissie-intensiteit, maar hogere totale emissies.",
+              "feedback": "Dit is relatieve ontkoppeling; het totaal is niet gedaald."
+            },
+            {
+              "id": "absolute",
+              "left": "Fictieve output+20%, emissies−5%",
+              "right": "Absolute ontkoppeling van die emissiemaat in deze proef.",
+              "feedback": "Dit vertelt nog niets over alle materiaalstromen."
+            },
+            {
+              "id": "germany",
+              "left": "TED: Duitsland2000–2014, BBP+16%, CO₂−12%",
+              "right": "Een gedateerd voorbeeld van groei naast dalende gemeten CO₂.",
+              "feedback": "De video beoordeelt ook of het dalingstempo voldoende is; dit is geen actuele nationale score."
+            },
+            {
+              "id": "scope",
+              "left": "Eén emissiemaat daalt; water- en materiaalgegevens ontbreken",
+              "right": "Een volledige duurzaamheidsconclusie is nog niet onderbouwd.",
+              "feedback": "Vraag naar andere impacts en de systeemgrens."
+            }
+          ]
+        },
+        {
+          "id": "m1-08-b5",
+          "type": "build",
+          "title": "Twee toekomstvoorstellen, één toetsplan",
+          "sceneObject": "person",
+          "intro": "Eva legt technologische groei en een behoeften-gerichte postgroeiroute neer. Kies drie onderzoeken die beide voorstellen serieus toetsen.",
+          "hint": "De video bespreekt verschillende economische perspectieven. Een postgroeiroute neemt groei niet als doel; een innovatieroute rekent op verbeteringen. Geen etiket bewijst haalbaarheid.",
+          "explainAfter": "Onderzoek totale impact, noodzakelijke dienstverlening, verdeling en politieke uitvoerbaarheid. Technologie kan helpen; bepalen wat nodig is vraagt legitieme besluitvorming en bewijs.",
+          "concepts": [
+            "groene groei en postgroei als debat",
+            "behoeften versus productiegroei",
+            "zorg energie openbaar vervoer",
+            "werk en publieke diensten",
+            "democratische prioritering"
+          ],
+          "sourceBlocks": [
+            21
+          ],
+          "clueId": "m1-08-b5-clue",
+          "clueTitle": "Twee toekomstvoorstellen, één toetsplan",
+          "required": [
+            "totals",
+            "needs",
+            "feasibility"
+          ],
+          "options": [
+            {
+              "id": "totals",
+              "text": "Meet totaal materiaal, energie en impacts naast efficiëntie per product.",
+              "correct": true,
+              "feedback": "Zo wordt zichtbaar of productieomvang de besparing versterkt of compenseert."
+            },
+            {
+              "id": "needs",
+              "text": "Onderzoek zorg, energie, vervoer en toegang; geef getroffen groepen invloed op wat noodzakelijk heet.",
+              "correct": true,
+              "feedback": "Een behoeften-gerichte route vraagt inhoudelijke criteria en legitieme zeggenschap."
+            },
+            {
+              "id": "feasibility",
+              "text": "Onderzoek financiering, werk, publieke diensten en onzekerheid bij beide routes.",
+              "correct": true,
+              "feedback": "De video bespreekt minder afhankelijkheid van werk voor basisdiensten; uitvoering en politieke overeenstemming blijven vragen."
+            },
+            {
+              "id": "unit",
+              "text": "Laat uitsluitend materiaal per toestel de beoordeling van totale belasting bepalen.",
+              "correct": false,
+              "feedback": "Het aantal toestellen kan veranderen."
+            },
+            {
+              "id": "promise",
+              "text": "Laat aangekondigde toekomstige innovatie bestaande effectmetingen vervangen.",
+              "correct": false,
+              "feedback": "Een mogelijkheid is nog geen aangetoond resultaat."
+            },
+            {
+              "id": "label",
+              "text": "Laat het gekozen groeilabel de vraag vervangen wie noodzakelijke productie mag bepalen.",
+              "correct": false,
+              "feedback": "Die vraag blijft bij beide voorstellen bestaan."
+            }
+          ]
+        }
+      ],
+      "finale": {
+        "intro": "Verklaar de derde productierun en begrens de toekomstclaim voordat de campagne begint.",
+        "slots": [
+          {
+            "id": "total",
+            "label": "Waarom stijgt materiaalgebruik ondanks het zuiniger toestel?",
+            "evidenceBeatId": "m1-08-b3",
+            "options": [
+              {
+                "id": "volume",
+                "text": "Het aantal verdubbelt;200 × 1,5 kg is 300 kg, meer dan 100 × 2 kg.",
+                "correct": true,
+                "feedback": "Eenheidsverbruik en totaal veranderen via verschillende factoren."
+              },
+              {
+                "id": "unit",
+                "text": "Een lager verbruik per toestel garandeert bij iedere productieomvang een lager totaal.",
+                "correct": false,
+                "feedback": "Run C laat de tegengestelde rekenuitkomst zien."
+              },
+              {
+                "id": "loss",
+                "text": "De gegevens bewijzen dat het verbeterde ontwerp per toestel meer materiaal gebruikt.",
+                "correct": false,
+                "feedback": "Per toestel daalt het verbruik van 2 naar 1,5 kg."
+              }
+            ]
+          },
+          {
+            "id": "scope",
+            "label": "Wat rechtvaardigt de historische CO₂-daling zonder haar te overschatten?",
+            "evidenceBeatId": "m1-08-b4",
+            "options": [
+              {
+                "id": "bounded",
+                "text": "Groei en een gemeten impactdaling kunnen samengaan; wereldwijde haalbaarheid en andere impacts vragen extra bewijs.",
+                "correct": true,
+                "feedback": "Periode, afbakening en voldoende tempo blijven relevant."
+              },
+              {
+                "id": "universal",
+                "text": "Eén land en periode bewijzen permanente ontkoppeling van alle hulpbronnen overal.",
+                "correct": false,
+                "feedback": "Dat gaat verder dan de kaart."
+              },
+              {
+                "id": "impossible",
+                "text": "De kaart bewijst dat technologische verbeteringen geen enkele impact kunnen verlagen.",
+                "correct": false,
+                "feedback": "Het historische voorbeeld ondersteunt die uitsluiting niet."
+              }
+            ]
+          }
+        ],
+        "conclusion": "Een zuiniger eenheid is geen totale duurzaamheidsuitkomst. Vergelijk schaal, impacts en behoeften voordat je een groeiverhaal in de etalage zet."
+      }
+    }
+  ],
+  "beatPatches": [
+    {
+      "investigationId": "m1-01",
+      "beatId": "m1-01-b1",
+      "sourceBlocks": [
+        0,
+        2
+      ],
+      "reason": "Restore dated source case, keeping simulation fictional.",
+      "replace": {
+        "explainAfter": "De rekensom bepaalt het tekort; je criterium verdeelt bescherming. De cursus gebruikt de Europese gascrisis van 2022 als voorbeeld. Deze stroomproef is fictief, geen reconstructie van dat beleid. Onderzoek wie toegang, risico en beslisrechten krijgt."
+      }
+    },
+    {
+      "investigationId": "m1-01",
+      "beatId": "m1-01-b3",
+      "sourceBlocks": [
+        2
+      ],
+      "reason": "Qualify Friedman from primary essay.",
+      "replace": {
+        "explainAfter": "Friedman koppelt winst aan spelregels, waaronder open concurrentie zonder misleiding of fraude. De cursus onderzoekt welke waarden die regels bevatten. Regels en prikkels verdelen toegang, risico en bescherming; dat vereist verantwoording."
+      }
+    },
+    {
+      "investigationId": "m1-02",
+      "beatId": "m1-02-b3",
+      "sourceBlocks": [
+        2,
+        7
+      ],
+      "reason": "Collective agreements do not erase individual ethical responsibility.",
+      "replace": {
+        "explainAfter": "Een grens, stem en controle organiseren gezamenlijk beheer. Hourdequin verbindt collectieve afspraken aan individuele ethische verantwoordelijkheid; collectiviteit heft die niet op. Dit is een startontwerp: de precieze verdeling en uitvoerbaarheid blijven vragen om bewijs en discussie."
+      }
+    },
+    {
+      "investigationId": "m1-04",
+      "beatId": "m1-04-b2",
+      "sourceBlocks": [
+        15
+      ],
+      "reason": "Qualify Goodpaster and preserve human responsibility for design.",
+      "replace": {
+        "explainAfter": "Goodpaster vraagt hoe stakeholderbelangen werkelijk meewegen: uitsluitend strategisch voor bedrijfsvoordeel, of via bredere verantwoordelijkheden? Zijn stakeholderparadox gaat over die verhouding. De smalle reparatiemeetlat is een toepassing; mensen blijven verantwoordelijk voor ontwerp en bijsturing."
+      }
+    },
+    {
+      "investigationId": "m1-05",
+      "beatId": "m1-05-b2",
+      "sourceBlocks": [
+        19
+      ],
+      "reason": "Restore named examples; asset management is not universal direct ownership.",
+      "replace": {
+        "reveal": [
+          {
+            "id": "home",
+            "label": "Huissleutel",
+            "title": "Autonomie en vastgoedfondsen",
+            "text": "Eigendom kan autonomie ondersteunen. De cursus koppelt Smith aan vrijheid tegenover feodale afhankelijkheid, en vastgoedfondsen aan invloed op woningtoegang en prijzen. Onderzoek de concrete eigendomsrechten, markt en instituties."
+          },
+          {
+            "id": "fund",
+            "label": "Beleggingspas",
+            "title": "BlackRock als cursusvoorbeeld",
+            "text": "De cursus noemt BlackRock als institutionele belegger. Een vermogensbeheerder beheert cliëntvermogen en kan met verleende stemrechten invloed uitoefenen. Beheer is niet hetzelfde als onbeperkt direct eigendom of beslismacht over iedere onderneming."
+          },
+          {
+            "id": "data",
+            "label": "Datasleutel",
+            "title": "Platformbezit",
+            "text": "De cursus verbindt platformdata aan accumulatie. Veel gegevens en deelnemers kunnen een platform aantrekkelijker maken en alternatieven moeilijker opbouwen. Onderzoek datagebruik, rechten en overstapmogelijkheden."
+          }
+        ],
+        "required": [
+          "home",
+          "fund",
+          "data"
+        ]
+      }
+    },
+    {
+      "investigationId": "m1-06",
+      "beatId": "m1-06-b1",
+      "sourceBlocks": [
+        28,
+        29
+      ],
+      "reason": "Teach behavioural-data feedback loop beyond static personalisation.",
+      "appendReveal": [
+        {
+          "id": "learn",
+          "label": "Gedragsregister",
+          "title": "Het menu leert mee",
+          "text": "Zuboff beschrijft hoe gedragsgegevens voorspelling en beïnvloeding mogelijk maken. Het cursusschap past zich aan eerdere keuzes aan: gedrag wordt data, data beïnvloeden rangschikking, nieuwe keuzes leveren nieuwe data. Onderzoek wie deze lus beheert."
+        }
+      ],
+      "appendRequired": [
+        "learn"
+      ]
+    }
+  ],
+  "beatInsertions": [
+    {
+      "investigationId": "m1-05",
+      "afterBeatId": "m1-05-b6",
+      "reason": "Restore sector cases without asserting current monopoly status.",
+      "beat": {
+        "id": "m1-05-b7",
+        "type": "inspect",
+        "title": "Vier sectoren, verschillende poorten",
+        "sceneObject": "evidence",
+        "intro": "Eva opent vier cursusdossiers. Onderzoek in welke sector bezit, schaal of infrastructuur invloed kan geven; het bedrijfslabel bewijst die invloed nog niet.",
+        "hint": "De namen zijn cursusvoorbeelden, geen actuele ranglijst of bewijs van monopolie. Vraag telkens naar alternatieven, toegangseisen, eigendom en gevolgen.",
+        "explainAfter": "Dezelfde lens reist tussen sectoren. Een naam of omvang bewijst geen misbruik; breng de concrete bron van invloed en de beschikbare alternatieven in kaart.",
+        "concepts": [
+          "Big Tech als sectorvoorbeeld",
+          "Monsanto/Bayer als landbouwvoorbeeld",
+          "Maersk als logistiek voorbeeld",
+          "energie-infrastructuur",
+          "voorwaardelijke marktmacht"
+        ],
+        "sourceBlocks": [
+          24,
+          25
+        ],
+        "clueId": "m1-05-b7-clue",
+        "clueTitle": "Vier sectoren, verschillende poorten",
+        "required": [
+          "tech",
+          "agriculture",
+          "logistics",
+          "energy"
+        ],
+        "reveal": [
+          {
+            "id": "tech",
+            "label": "Platformdossier",
+            "title": "Google, Amazon, Apple en Meta",
+            "text": "De cursus noemt deze Big Tech-bedrijven. Onderzoek per platform welke data, netwerken en toegangsregels afhankelijkheid kunnen scheppen. Dat bewijst niet dat zij allemaal hetzelfde mechanisme of dezelfde marktpositie hebben."
+          },
+          {
+            "id": "agriculture",
+            "label": "Landbouwdossier",
+            "title": "Monsanto/Bayer",
+            "text": "Dit is het landbouw- en voedselconcernvoorbeeld uit de cursus. Onderzoek wie kennis, rechten en toegang in de keten beheert; de naam alleen stelt geen actuele prijs, monopolie of misbruik vast."
+          },
+          {
+            "id": "logistics",
+            "label": "Transportdossier",
+            "title": "Maersk",
+            "text": "Maersk is het cursusvoorbeeld voor grote logistieke ondernemingen. Onderzoek routes, infrastructuur en toegangsvoorwaarden. Schaal kan efficiëntie ondersteunen en afhankelijkheid beïnvloeden; het effect vraagt concrete gegevens."
+          },
+          {
+            "id": "energy",
+            "label": "Infrastructuurdossier",
+            "title": "Energiebedrijven",
+            "text": "De cursus noemt bedrijven die energie-infrastructuur controleren. Wie een noodzakelijke verbinding beheert, kan toegang en voorwaarden beïnvloeden. Onderzoek toezicht, alternatieven en publieke belangen."
+          }
+        ]
+      }
+    }
+  ],
+  "citationNotes": [
+    {
+      "source": "Friedman1970",
+      "url": "https://public.websites.umich.edu/~thecore/doc/Friedman.pdf",
+      "readDepth": "primary_essay_extract",
+      "qualification": "Open competition and no deception/fraud are explicit limits. Rule-design critique is a further course lens."
+    },
+    {
+      "source": "Goodpaster1991",
+      "url": "https://www.cambridge.org/core/journals/business-ethics-quarterly/article/abs/business-ethics-and-stakeholder-analysis/9B612083C2D8FDCEF30D498C49FABDE9",
+      "readDepth": "publisher_abstract",
+      "qualification": "Stakeholder analysis/synthesis and strategic versus multi-fiduciary approaches; the machine metaphor is an application."
+    },
+    {
+      "source": "Hourdequin2010",
+      "url": "https://doi.org/10.3197/096327110X531552",
+      "readDepth": "publisher_metadata_and_published_author_excerpt",
+      "qualification": "Collective action obligations coexist with individual ethical obligations."
+    },
+    {
+      "source": "BlackRock",
+      "url": "https://www.blackrock.com/corporate/insights/thought-leadership/investment-stewardship",
+      "readDepth": "company_primary_stewardship_statement",
+      "qualification": "Client assets and authorised voting; no current asset-value, market-share or misconduct claim."
+    },
+    {
+      "source": "Zuboff2019",
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/1095796018819461",
+      "readDepth": "author_article_publisher_page",
+      "qualification": "Behavioural data, prediction and influence; agency is not assumed absent."
+    }
+  ]
+}

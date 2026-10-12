@@ -1,0 +1,3208 @@
+{
+  "lessonId": "m3",
+  "title": "De architectuur van zeggenschap",
+  "status": "playable-runtime-checked",
+  "investigations": [
+    {
+      "id": "m3-01",
+      "world": {
+        "name": "De logistieke hub",
+        "imageKey": "room-depot",
+        "exit": {
+          "label": "Onderzoek de voorwaarden achter het schaalvoordeel",
+          "lockType": "market-access",
+          "problem": "De hub maakt reparatie goedkoper, maar nieuwe aanbieders moeten haar netwerkvoorwaarden accepteren.",
+          "unlockedText": "De kaart onderscheidt kostenvoordeel en toegangsafhankelijkheid.",
+          "destinationReason": "De investeringskamer beoordeelt welke uitbreiding de hub kiest en welke horizon daarbij telt."
+        },
+        "spots": [
+          {
+            "id": "m3-01-record",
+            "title": "Werknotitie naast het dossier",
+            "point": [
+              0.18,
+              0.55
+            ],
+            "approach": [
+              0.25,
+              0.7
+            ],
+            "observation": "Een korte werknotitie verbindt dit dossier met de dagelijkse praktijk.",
+            "detail": "Een onderneming bundelt middelen en organiseert rollen. Dat kan waarde creëren én keuzes en verantwoordelijkheid structureren."
+          },
+          {
+            "id": "m3-01-empty",
+            "title": "Een ongebruikte lade",
+            "point": [
+              0.84,
+              0.73
+            ],
+            "approach": [
+              0.76,
+              0.83
+            ],
+            "observation": "De lade is leeg. De krassen en stoflaag vertellen niet waarom het besluit is genomen.",
+            "detail": "Dit spoor geeft geen inhoudelijk bewijs voor je verklaring. Een onderzoek bevat ook doodlopende sporen: keer terug naar de concrete documenten, handelingen en mensen."
+          }
+        ]
+      },
+      "beats": [
+        {
+          "id": "m3-01-b1",
+          "type": "inspect",
+          "title": "Waarom deze onderneming bestaat",
+          "sceneObject": "evidence",
+          "intro": "Onderzoek drie onderdelen van de hub. Productie op schaal vraagt samenwerking die één reparateur niet alleen kan organiseren.",
+          "hint": "Een onderneming bundelt middelen en organiseert rollen. Dat kan waarde creëren én keuzes en verantwoordelijkheid structureren.",
+          "reveal": [
+            {
+              "id": "capital",
+              "label": "Investeringsplan",
+              "title": "Middelen bundelen",
+              "text": "De gedeelde machines vragen kapitaal vóór er inkomsten zijn. Financiering maakt grotere productie mogelijk."
+            },
+            {
+              "id": "work",
+              "label": "Werkplanning",
+              "title": "Arbeid coördineren",
+              "text": "Verschillende specialisten en leveranciers moeten op tijd aansluiten. Procedures maken gezamenlijke productie mogelijk."
+            },
+            {
+              "id": "rules",
+              "label": "Toegangsreglement",
+              "title": "Meer dan techniek",
+              "text": "De hub bepaalt tegelijk wie mee kan doen, welke prestaties tellen en wie beslissingen mag nemen."
+            },
+            {
+              "id": "policy",
+              "label": "Standaard- en beleidsoverleg",
+              "title": "Spelregels beïnvloeden",
+              "text": "De hub gebruikt expertise, gegevens en lobby om standaarden mede te vormen. Onderzoek wie ook gehoord wordt en welke informatie andere partijen missen."
+            }
+          ],
+          "required": [
+            "capital",
+            "work",
+            "rules",
+            "policy"
+          ],
+          "explainAfter": "Organisaties bestaan via mensen, maar hun formele inrichting stuurt mogelijkheden en gevolgen. Efficiëntie is een functie, geen volledige morele rechtvaardiging.",
+          "concepts": [
+            "onderneming als coördinatie",
+            "kapitaal arbeid kennis",
+            "morele organisatie-inrichting",
+            "lobby standaarden exclusieve data"
+          ],
+          "sourceBlocks": [
+            0,
+            2,
+            5
+          ],
+          "clueId": "m3-01-b1-clue",
+          "clueTitle": "Waarom deze onderneming bestaat"
+        },
+        {
+          "id": "m3-01-b2",
+          "type": "connect",
+          "title": "De voordelen van schaal",
+          "sceneObject": "evidence",
+          "intro": "Verbind de gezamenlijke middelen met hun mogelijke voordeel. Eva demonstreert eerst de gedeelde machine.",
+          "hint": "Een schaalvoordeel verlaagt bijvoorbeeld kosten per handeling. Het voordeel hangt af van uitvoering en context.",
+          "pairs": [
+            {
+              "id": "machine",
+              "left": "Meerdere reparateurs delen een dure machine",
+              "right": "De investering wordt over meer gebruik verdeeld.",
+              "feedback": "Een coördinatievoordeel kan de prijs verlagen."
+            },
+            {
+              "id": "stock",
+              "left": "Onderdelen worden gezamenlijk georganiseerd",
+              "right": "Beschikbaarheid en logistiek kunnen verbeteren.",
+              "feedback": "Bundeling kan toegang vergroten."
+            },
+            {
+              "id": "knowledge",
+              "left": "Specialisten werken met gezamenlijke planning",
+              "right": "Complexe taken worden samen uitvoerbaar.",
+              "feedback": "De onderneming coördineert verschillende bijdragen."
+            },
+            {
+              "id": "future",
+              "left": "Langdurige samenwerking ondersteunt investeringen",
+              "right": "Productie kan over een langere periode worden opgebouwd.",
+              "feedback": "Dit verklaart een historische rol van ondernemingen."
+            }
+          ],
+          "explainAfter": "Dezelfde organisatie die voordelen mogelijk maakt, kan afhankelijkheden veroorzaken. Onderzoek daarom de voorwaarden van deelname naast de productprestatie.",
+          "concepts": [
+            "schaalvoordelen",
+            "toegankelijkheid goederen",
+            "langetermijnplanning"
+          ],
+          "sourceBlocks": [
+            2,
+            4
+          ],
+          "clueId": "m3-01-b2-clue",
+          "clueTitle": "De voordelen van schaal"
+        },
+        {
+          "id": "m3-01-b3",
+          "type": "sort",
+          "title": "Kostenvoordeel of toegangspositie?",
+          "sceneObject": "evidence",
+          "intro": "Scheid zes bevindingen in een efficiëntiekaart en een machtskaart.",
+          "hint": "Efficiëntie betreft middelen en prestaties. Marktmacht betreft invloed op voorwaarden, toegang of spelregels. Eén hub kan beide hebben.",
+          "categories": [
+            {
+              "id": "efficiency",
+              "label": "Coördinatie of kostenvoordeel"
+            },
+            {
+              "id": "power",
+              "label": "Invloed op deelnamevoorwaarden"
+            }
+          ],
+          "cards": [
+            {
+              "id": "price",
+              "text": "Gedeeld transport kost per reparatie minder.",
+              "category": "efficiency",
+              "feedback": "Dit toont een kostenvoordeel."
+            },
+            {
+              "id": "gate",
+              "text": "Andere reparateurs hebben de hub nodig voor essentiële onderdelen.",
+              "category": "power",
+              "feedback": "Die afhankelijkheid kan voorwaarden invloedrijk maken."
+            },
+            {
+              "id": "standard",
+              "text": "De hub bepaalt het verplichte gegevensformaat.",
+              "category": "power",
+              "feedback": "Een standaard kan samenwerking én toegang beïnvloeden."
+            },
+            {
+              "id": "time",
+              "text": "Gezamenlijke voorraad verkort leveringsduur.",
+              "category": "efficiency",
+              "feedback": "Dit is een logistieke prestatie."
+            },
+            {
+              "id": "entry",
+              "text": "Nieuwe aanbieders moeten een hoge aansluitdrempel overwinnen.",
+              "category": "power",
+              "feedback": "Toetredingsmogelijkheden veranderen."
+            },
+            {
+              "id": "expert",
+              "text": "Specialisten kunnen gezamenlijk complexere taken uitvoeren.",
+              "category": "efficiency",
+              "feedback": "Dit is een samenwerkingsvoordeel."
+            }
+          ],
+          "explainAfter": "Omvang alleen bewijst geen machtsmisbruik. Onderzoek alternatieven, toegangscriteria en de verdeling van voordelen.",
+          "concepts": [
+            "marktconcentratie",
+            "marktmacht",
+            "efficiëntie versus invloed"
+          ],
+          "sourceBlocks": [
+            2,
+            5
+          ],
+          "clueId": "m3-01-b3-clue",
+          "clueTitle": "Kostenvoordeel of toegangspositie?"
+        },
+        {
+          "id": "m3-01-b4",
+          "type": "order",
+          "title": "Het netwerk trekt meer netwerk",
+          "sceneObject": "evidence",
+          "intro": "Orden de beschreven groei van het onderdelenplatform. De kaarten tonen een mogelijk zichzelf versterkend pad.",
+          "hint": "Een netwerkeffect betekent dat deelname van anderen de waarde kan vergroten. Het is iets anders dan uitsluitend lagere productiekosten.",
+          "order": [
+            {
+              "id": "join",
+              "text": "Meer leveranciers en reparateurs sluiten aan.",
+              "feedback": "Het aanbod en bereik nemen toe."
+            },
+            {
+              "id": "value",
+              "text": "De hub biedt meer bruikbare verbindingen en gegevens.",
+              "feedback": "Deelname kan voor nieuwe partijen aantrekkelijker worden."
+            },
+            {
+              "id": "depend",
+              "text": "Alternatieven moeten een vergelijkbaar netwerk opbouwen.",
+              "feedback": "Toetreding kan moeilijker worden."
+            },
+            {
+              "id": "terms",
+              "text": "De hub krijgt meer invloed op voorwaarden en standaarden.",
+              "feedback": "Een marktdeelnemer kan mede regelvormer worden."
+            }
+          ],
+          "correctOrder": [
+            "join",
+            "value",
+            "depend",
+            "terms"
+          ],
+          "explainAfter": "Onderzoek naar superstar firms en concentratie voedt deze lens. Niet ieder netwerk volgt dezelfde route; bewijs over de concrete markt blijft nodig.",
+          "concepts": [
+            "netwerkeffecten",
+            "data en concentratie",
+            "superstar firms",
+            "onderneming als regelvormer"
+          ],
+          "sourceBlocks": [
+            2
+          ],
+          "clueId": "m3-01-b4-clue",
+          "clueTitle": "Het netwerk trekt meer netwerk"
+        },
+        {
+          "id": "m3-01-b5",
+          "type": "inspect",
+          "title": "Meer loon, een kleiner aandeel",
+          "sceneObject": "evidence",
+          "intro": "Vergelijk twee fictieve bedrijfsstroken vóór en na verschuiving van marktaandeel.",
+          "hint": "Arbeidsaandeel is de fractie van waarde die naar arbeid gaat. Een aandeel kan dalen terwijl het absolute bedrag stijgt.",
+          "reveal": [
+            {
+              "id": "small",
+              "label": "Bedrijf A",
+              "title": "Hogere loonfractie",
+              "text": "A produceert waarde 100 en betaalt 60 aan arbeid."
+            },
+            {
+              "id": "star",
+              "label": "Bedrijf B",
+              "title": "Lagere loonfractie",
+              "text": "B produceert eerst waarde 100 en betaalt 20 aan arbeid; later waarde 300 en arbeid 60."
+            },
+            {
+              "id": "before",
+              "label": "Eerste totaal",
+              "title": "80 van 200",
+              "text": "Samen gaat 80 van 200 naar arbeid: 40%."
+            },
+            {
+              "id": "after",
+              "label": "Nieuw totaal",
+              "title": "120 van 400",
+              "text": "Samen gaat 120 van 400 naar arbeid: 30%. Het bedrag stijgt, het aandeel daalt."
+            }
+          ],
+          "required": [
+            "small",
+            "star",
+            "before",
+            "after"
+          ],
+          "explainAfter": "Verschuiving naar bedrijven met een lager arbeidsaandeel kan het totaalaandeel verlagen. Dit voorbeeld bewijst geen ontslagen of loondaling bij ieder bedrijf.",
+          "concepts": [
+            "arbeidsaandeel",
+            "compositie-effect",
+            "superstar firms en verdeling"
+          ],
+          "sourceBlocks": [
+            4
+          ],
+          "clueId": "m3-01-b5-clue",
+          "clueTitle": "Meer loon, een kleiner aandeel"
+        },
+        {
+          "id": "m3-01-b6",
+          "type": "connect",
+          "title": "Welke verklaring vraagt welk bewijs?",
+          "sceneObject": "evidence",
+          "intro": "Verbind drie verklaringen van sterke marktposities aan de benodigde gegevens.",
+          "hint": "Onderzoek kan efficiëntie, technologie en barrières onderscheiden. Een dominante positie heeft niet overal dezelfde oorzaak.",
+          "pairs": [
+            {
+              "id": "productive",
+              "left": "Betere techniek verlaagt interne kosten",
+              "right": "Vergelijk productiviteit, kwaliteit en prijs.",
+              "feedback": "Innovatie kan een sterke positie helpen verklaren."
+            },
+            {
+              "id": "network",
+              "left": "Meer deelnemers vergroten netwerkwaarde",
+              "right": "Onderzoek deelname en overstapmogelijkheden.",
+              "feedback": "Dit is niet dezelfde maatstaf als machine-efficiëntie."
+            },
+            {
+              "id": "barrier",
+              "left": "Een beheerder sluit bruikbare alternatieven uit",
+              "right": "Onderzoek toegangsvoorwaarden en daadwerkelijke uitsluiting.",
+              "feedback": "Een beleidsreactie vraagt bewijs over het concrete machtsmechanisme."
+            }
+          ],
+          "explainAfter": "Het CEPR-bronvoorbeeld verbindt superstar firms ook aan arbeidsaandeel en beleidsvragen. Dominantie rechtvaardigt nader onderzoek, geen automatische diagnose van één oorzaak.",
+          "concepts": [
+            "productiviteit en concentratie",
+            "concurrentie versus toetredingsmacht",
+            "beleid en empirische onzekerheid"
+          ],
+          "sourceBlocks": [
+            2,
+            4
+          ],
+          "clueId": "m3-01-b6-clue",
+          "clueTitle": "Welke verklaring vraagt welk bewijs?"
+        },
+        {
+          "id": "m3-01-b7",
+          "type": "inspect",
+          "title": "Goedkoper voor klanten, grotere opslag",
+          "sceneObject": "evidence",
+          "intro": "Vergelijk twee fictieve aanbieders. Lagere consumentenprijs en hogere opslag boven kosten kunnen tegelijk voorkomen.",
+          "hint": "Opslag boven marginale kosten is niet dezelfde grootheid als de uiteindelijke nettowinst. Andere kosten blijven relevant.",
+          "reveal": [
+            {
+              "id": "old",
+              "label": "Aanbieder A",
+              "title": "Kosten 90, prijs 100",
+              "text": "De opslag boven deze marginale kosten is 10."
+            },
+            {
+              "id": "new",
+              "label": "Aanbieder B",
+              "title": "Kosten 50, prijs 80",
+              "text": "De klantprijs is lager, maar de opslag boven deze kosten is 30."
+            },
+            {
+              "id": "compare",
+              "label": "Vergelijkingsstrook",
+              "title": "Twee verschillende vragen",
+              "text": "Prijs daalt van 100 naar 80; de absolute opslag stijgt van 10 naar 30. Efficiëntie en verdelingsvragen kunnen samengaan."
+            },
+            {
+              "id": "limit",
+              "label": "Ontbrekende kosten",
+              "title": "Nog geen nettowinst",
+              "text": "De stroken tonen geen vaste kosten, financiering of andere posten. Een nettowinstclaim vraagt extra gegevens."
+            }
+          ],
+          "required": [
+            "old",
+            "new",
+            "compare",
+            "limit"
+          ],
+          "explainAfter": "Een hogere opslag bewijst niet één oorzaak of een hogere nettowinst. Onderzoek kosten, prijs, marktaandeel en voorwaarden afzonderlijk.",
+          "concepts": [
+            "winstopslag versus verkoopprijs",
+            "marginale kosten versus nettowinst",
+            "efficiëntie en dominante positie"
+          ],
+          "sourceBlocks": [
+            2,
+            4,
+            5
+          ],
+          "clueId": "m3-01-b7-clue",
+          "clueTitle": "Goedkoper voor klanten, grotere opslag"
+        }
+      ],
+      "finale": {
+        "intro": "De hub verlaagt leveringskosten én verplicht aansluiting voor bepaalde onderdelen.",
+        "slots": [
+          {
+            "id": "m3-01-s1",
+            "label": "Wat ondersteunen die twee bevindingen samen?",
+            "evidenceBeatId": "m3-01-b3",
+            "options": [
+              {
+                "id": "o0",
+                "text": "Efficiëntieverbetering kan samengaan met toegangsafhankelijkheid en invloed op voorwaarden.",
+                "correct": true,
+                "feedback": "De voordelen sluiten het machtsmechanisme niet uit."
+              },
+              {
+                "id": "o1",
+                "text": "Lagere kosten bewijzen dat deelnamevoorwaarden geen maatschappelijke gevolgen hebben.",
+                "correct": false,
+                "feedback": "De kostenkaart beantwoordt de machtsvraag niet."
+              },
+              {
+                "id": "o2",
+                "text": "Verplichte aansluiting bewijst dat geen coördinatievoordeel kan bestaan.",
+                "correct": false,
+                "feedback": "De twee functies kunnen tegelijk optreden."
+              }
+            ]
+          },
+          {
+            "id": "m3-01-s2",
+            "label": "Welk nieuw bewijs onderscheidt netwerkeffect van alleen schaalbesparing?",
+            "evidenceBeatId": "m3-01-b4",
+            "options": [
+              {
+                "id": "o0",
+                "text": "Meer gebruikers maken het platform voor andere gebruikers bruikbaarder.",
+                "correct": true,
+                "feedback": "Dit gaat over waarde door deelname."
+              },
+              {
+                "id": "o1",
+                "text": "Eén machine verwerkt hetzelfde werk tegen lagere energiekosten.",
+                "correct": false,
+                "feedback": "Dat toont efficiëntie, niet het deelnamemechanisme."
+              },
+              {
+                "id": "o2",
+                "text": "Het bedrijfslogo wordt vaker in brochures afgebeeld.",
+                "correct": false,
+                "feedback": "Zichtbaarheid is geen bewijs van netwerkwaarde."
+              }
+            ]
+          },
+          {
+            "id": "m3-01-s3",
+            "label": "Welke uitspraak volgt uit de twee nieuwe prijsstroken?",
+            "evidenceBeatId": "m3-01-b7",
+            "options": [
+              {
+                "id": "o0",
+                "text": "De klantprijs daalt en de opslag boven de gegeven marginale kosten stijgt.",
+                "correct": true,
+                "feedback": "Dit zijn afzonderlijke grootheden die beide uit de stroken berekend kunnen worden."
+              },
+              {
+                "id": "o1",
+                "text": "Een lagere klantprijs betekent hier ook een lagere opslag boven de kosten.",
+                "correct": false,
+                "feedback": "De kosten dalen meer dan de prijs; de absolute opslag gaat van 10 naar 30."
+              },
+              {
+                "id": "o2",
+                "text": "De volledige nettowinst is bewezen omdat alle vaste en financiële kosten bekend zijn.",
+                "correct": false,
+                "feedback": "Die aanvullende kosten ontbreken juist."
+              }
+            ]
+          }
+        ],
+        "conclusion": "De kaart opent onderzoek naar investeringskeuzes. Begrijp welke waarde ontstaat en wie invloed op de volgende stap heeft."
+      },
+      "sourceProjections": [
+        {
+          "id": "m3-v4",
+          "sourceBlocks": [
+            4
+          ],
+          "youtube": "PW4dPJzj3cU",
+          "title": "The Rise of Superstar Firms",
+          "required": true,
+          "purpose": "Het oorspronkelijke onderzoeksgesprek en zijn unieke gesproken voorbeelden behouden.",
+          "viewingTask": "Onderscheid een empirische bevinding, een voorgesteld mechanisme en een beleidsvraag.",
+          "afterPrompt": "Laat met de bedrijfsstroken zien hoe arbeidsaandeel kan dalen zonder dat het absolute loonbedrag daalt. Welk bewijs ontbreekt voor een beleidsconclusie?",
+          "knownCoreConcepts": [
+            "superstar firms",
+            "arbeidsaandeel",
+            "concentratie"
+          ],
+          "contentVerification": "Officiële CEPR-beschrijving en gerelateerd auteuronderzoek gelezen; volledige oorspronkelijke spoken transcript niet beschikbaar."
+        }
+      ],
+      "originalSourceBlocks": [
+        0,
+        2,
+        4,
+        5
+      ],
+      "optionalReviewBlocks": [
+        5
+      ]
+    },
+    {
+      "id": "m3-02",
+      "world": {
+        "name": "De investeringskamer",
+        "imageKey": "chapter-3",
+        "exit": {
+          "label": "Leg de volledige investeringshorizon op tafel",
+          "lockType": "horizon-review",
+          "problem": "Een reparatiecentrum verliest op de kwartaalkaart omdat latere opbrengsten en gevolgen niet zichtbaar zijn.",
+          "unlockedText": "Het voorstel toont korte en lange termijnen, onzekerheid en gekozen criteria.",
+          "destinationReason": "Het samenwerkingsarchief laat zien welke partijen door deze horizon risico dragen."
+        },
+        "spots": [
+          {
+            "id": "m3-02-record",
+            "title": "Werknotitie naast het dossier",
+            "point": [
+              0.18,
+              0.55
+            ],
+            "approach": [
+              0.25,
+              0.7
+            ],
+            "observation": "Een korte werknotitie verbindt dit dossier met de dagelijkse praktijk.",
+            "detail": "Financialisering maakt financiële markten en indicatoren belangrijker in strategie. Een tijdshorizon bepaalt welke kosten en opbrengsten zichtbaar worden."
+          },
+          {
+            "id": "m3-02-empty",
+            "title": "Een ongebruikte lade",
+            "point": [
+              0.84,
+              0.73
+            ],
+            "approach": [
+              0.76,
+              0.83
+            ],
+            "observation": "De lade is leeg. De krassen en stoflaag vertellen niet waarom het besluit is genomen.",
+            "detail": "Dit spoor geeft geen inhoudelijk bewijs voor je verklaring. Een onderzoek bevat ook doodlopende sporen: keer terug naar de concrete documenten, handelingen en mensen."
+          }
+        ]
+      },
+      "beats": [
+        {
+          "id": "m3-02-b1",
+          "type": "inspect",
+          "title": "Twee voorstellen, twee tijdvensters",
+          "sceneObject": "evidence",
+          "intro": "Open de kwartaalkaart, het vijfjarenplan en de beoordelingsregel. Hetzelfde voorstel verschijnt niet overal hetzelfde.",
+          "hint": "Financialisering maakt financiële markten en indicatoren belangrijker in strategie. Een tijdshorizon bepaalt welke kosten en opbrengsten zichtbaar worden.",
+          "reveal": [
+            {
+              "id": "quarter",
+              "label": "Kwartaalkaart",
+              "title": "Kosten nu",
+              "text": "Een nieuw reparatiecentrum vraagt nu middelen. De financiële opbrengst valt niet volledig dit kwartaal."
+            },
+            {
+              "id": "future",
+              "label": "Vijfjarenplan",
+              "title": "Waarde later",
+              "text": "Het plan bevat toekomstige reparatie-inkomsten, minder uitval en langere gebruiksduur. De schattingen zijn onzeker."
+            },
+            {
+              "id": "criterion",
+              "label": "Beoordelingsregel",
+              "title": "Wat telt als verantwoord?",
+              "text": "Het bestuur vraagt aantoonbaar rendement, risico of reputatievoordeel. Andere waarden moeten binnen dat kader worden vertaald."
+            },
+            {
+              "id": "distribution",
+              "label": "Opbrengstverdeling",
+              "title": "Wie ontvangt waarde?",
+              "text": "Onderzoek hoe opbrengsten naar kapitaal, arbeid en andere partijen gaan. De cursus verbindt herinvestering en financiële inrichting aan mogelijke vermogensconcentratie; context en instituties beïnvloeden die route."
+            }
+          ],
+          "required": [
+            "quarter",
+            "future",
+            "criterion",
+            "distribution"
+          ],
+          "explainAfter": "Financiële continuïteit is relevant. Het gekozen beoordelingskader kan tegelijk langetermijnwaarden begrenzen.",
+          "concepts": [
+            "aandeelhoudersmodel",
+            "financialisering",
+            "tijdshorizon",
+            "vermogensconcentratie Piketty Stiglitz"
+          ],
+          "sourceBlocks": [
+            7,
+            9
+          ],
+          "clueId": "m3-02-b1-clue",
+          "clueTitle": "Twee voorstellen, twee tijdvensters"
+        },
+        {
+          "id": "m3-02-b2",
+          "type": "connect",
+          "title": "Van marktverwachting naar voorstel",
+          "sceneObject": "evidence",
+          "intro": "Verbind iedere beoordeling met de manier waarop een voorstel moet worden gepresenteerd.",
+          "hint": "Het aandeelhoudersmodel koppelt kapitaal en financieel risico aan zeggenschap. De normatieve grenzen worden in Friedmans positie sterk bij spelregels gelegd.",
+          "pairs": [
+            {
+              "id": "return",
+              "left": "Investeerders vergelijken financieel rendement",
+              "right": "Het voorstel benadrukt meetbare financiële opbrengst.",
+              "feedback": "De vergelijkingsmaatstaf beïnvloedt de argumentatie."
+            },
+            {
+              "id": "risk",
+              "left": "Een sociale investering wordt als risicovermindering beschreven",
+              "right": "De waarde krijgt toegang via financieel relevante termen.",
+              "feedback": "Dat kan helpen, maar vernauwt ook wat zelfstandig telt."
+            },
+            {
+              "id": "compare",
+              "left": "Concurrenten worden op dezelfde cijfers beoordeeld",
+              "right": "Afwijken kan financiële en strategische kosten hebben.",
+              "feedback": "Dit is druk op de ruimte voor keuzes."
+            },
+            {
+              "id": "buyback",
+              "left": "Aandeleninkoop beïnvloedt financiële indicatoren",
+              "right": "Een snelle zichtbare maatregel kan aantrekkelijk worden.",
+              "feedback": "De cursus gebruikt dit als voorbeeld, niet als oordeel over ieder inkopen."
+            }
+          ],
+          "explainAfter": "Financiële logica sluit moreel handelen niet automatisch uit. Onderzoek hoe claims institutioneel ruimte krijgen en wat buiten het kader blijft.",
+          "concepts": [
+            "aandeelhouderswaarde",
+            "financieel referentiekader",
+            "structurele concurrentiedruk"
+          ],
+          "sourceBlocks": [
+            7
+          ],
+          "clueId": "m3-02-b2-clue",
+          "clueTitle": "Van marktverwachting naar voorstel"
+        },
+        {
+          "id": "m3-02-b3",
+          "type": "sort",
+          "title": "Wat staat wanneer in beeld?",
+          "sceneObject": "evidence",
+          "intro": "Leg zes gevolgen in een tijdvenster of een aparte waarde-kolom.",
+          "hint": "Een aparte waarde-kolom houdt een belang zichtbaar zonder het onmiddellijk als gegarandeerde winst te presenteren.",
+          "categories": [
+            {
+              "id": "now",
+              "label": "Directe geldstroom"
+            },
+            {
+              "id": "later",
+              "label": "Latere geschatte geldstroom"
+            },
+            {
+              "id": "value",
+              "label": "Relevant belang niet volledig in geld bewezen"
+            }
+          ],
+          "cards": [
+            {
+              "id": "cost",
+              "text": "Aanschafkosten van het reparatiecentrum.",
+              "category": "now",
+              "feedback": "Deze kosten staan nu op de rekening."
+            },
+            {
+              "id": "income",
+              "text": "Geschatte reparatie-inkomsten over vijf jaar.",
+              "category": "later",
+              "feedback": "Het plan moet aannames en onzekerheid tonen."
+            },
+            {
+              "id": "training",
+              "text": "Direct betaalde opleiding.",
+              "category": "now",
+              "feedback": "De investering gebeurt nu, ook als effecten later volgen."
+            },
+            {
+              "id": "failure",
+              "text": "Verwachte lagere uitvalkosten later.",
+              "category": "later",
+              "feedback": "Dit vraagt onderbouwing en gevoeligheid voor aannames."
+            },
+            {
+              "id": "stable",
+              "text": "Werkzekerheid en vertrouwen van de regio.",
+              "category": "value",
+              "feedback": "Dit is relevant, maar geen automatisch gegarandeerde winst."
+            },
+            {
+              "id": "nature",
+              "text": "Ecologische gebruiksduurwinst zonder volledige prijs.",
+              "category": "value",
+              "feedback": "De waarde mag niet verdwijnen omdat omzetting naar geld lastig is."
+            }
+          ],
+          "explainAfter": "Vergelijk dezelfde termijnen en grenzen. Vermogensaccumulatie en machtsverhoudingen vragen daarnaast onderzoek naar wie de opbrengsten ontvangt.",
+          "concepts": [
+            "korte versus lange horizon",
+            "maatschappelijke waarde versus rendement",
+            "onzekerheid"
+          ],
+          "sourceBlocks": [
+            7,
+            9
+          ],
+          "clueId": "m3-02-b3-clue",
+          "clueTitle": "Wat staat wanneer in beeld?"
+        },
+        {
+          "id": "m3-02-b4",
+          "type": "build",
+          "title": "Maak een beoordeelbaar voorstel",
+          "sceneObject": "system",
+          "intro": "Kies drie functies: termijnen vergelijken, andere waarden zichtbaar houden en aannames toetsbaar maken.",
+          "hint": "Deze taak kiest geen moreel verplichte investering. Zij bouwt een vollediger basis voor besluitvorming.",
+          "options": [
+            {
+              "id": "time",
+              "text": "Toon korte en lange kasstromen naast elkaar.",
+              "correct": true,
+              "feedback": "De horizon wordt zichtbaar in de beoordeling."
+            },
+            {
+              "id": "value",
+              "text": "Benoem betrokken waarden en de verdeling van risico en opbrengst.",
+              "correct": true,
+              "feedback": "Niet-financiële gevolgen krijgen een eigen plaats."
+            },
+            {
+              "id": "uncertainty",
+              "text": "Leg aannames, onzekerheid en evaluatie vast.",
+              "correct": true,
+              "feedback": "Latere opbrengsten blijven toetsbaar in plaats van gegarandeerd."
+            },
+            {
+              "id": "optimistic",
+              "text": "Tel alle latere voordelen als zekere winst.",
+              "correct": false,
+              "feedback": "Een ruimere horizon rechtvaardigt geen onbewezen zekerheid."
+            },
+            {
+              "id": "only",
+              "text": "Toon alleen dit kwartaal omdat dat het vaste formulier is.",
+              "correct": false,
+              "feedback": "Dit herhaalt de oorspronkelijke blinde vlek."
+            },
+            {
+              "id": "exclude",
+              "text": "Verwijder alle financieringsvoorwaarden uit het voorstel.",
+              "correct": false,
+              "feedback": "Dat mist een reële voorwaarde voor uitvoering."
+            }
+          ],
+          "required": [
+            "time",
+            "value",
+            "uncertainty"
+          ],
+          "explainAfter": "De investeringskaart is nu klaar voor een bredere afweging. Het archief onderzoekt waarom meerdere partijen relevante claims hebben.",
+          "concepts": [
+            "institutionele inbedding van morele claims",
+            "tijdshorizon",
+            "vermogensaccumulatie"
+          ],
+          "sourceBlocks": [
+            7
+          ],
+          "clueId": "m3-02-b4-clue",
+          "clueTitle": "Maak een beoordeelbaar voorstel"
+        }
+      ],
+      "finale": {
+        "intro": "Het reparatieplan wordt opnieuw beoordeeld, nu met vijfjaarsgegevens.",
+        "slots": [
+          {
+            "id": "m3-02-s1",
+            "label": "Wat verandert door een langere horizon zonder extra zekerheid?",
+            "evidenceBeatId": "m3-02-b1",
+            "options": [
+              {
+                "id": "o0",
+                "text": "Latere gevolgen worden zichtbaar; hun aannames moeten nog worden onderzocht.",
+                "correct": true,
+                "feedback": "Zichtbaarheid en bewezen opbrengst zijn verschillende claims."
+              },
+              {
+                "id": "o1",
+                "text": "Alle duurzame investeringen blijken gegarandeerd winstgevend.",
+                "correct": false,
+                "feedback": "Een langere horizon geeft geen garantie over elk project."
+              },
+              {
+                "id": "o2",
+                "text": "Directe kosten en financiële continuïteit worden daardoor irrelevant.",
+                "correct": false,
+                "feedback": "De uitvoering blijft middelen en continuïteit vragen."
+              }
+            ]
+          },
+          {
+            "id": "m3-02-s2",
+            "label": "Wat laat de risicobeschrijving van opleiding over het kader zien?",
+            "evidenceBeatId": "m3-02-b2",
+            "options": [
+              {
+                "id": "o0",
+                "text": "Een sociale waarde krijgt ruimte doordat zij financieel relevant wordt vertaald.",
+                "correct": true,
+                "feedback": "Dit maakt het financiële filter herkenbaar."
+              },
+              {
+                "id": "o1",
+                "text": "Het bestuur heeft bewezen geen enkele morele overtuiging.",
+                "correct": false,
+                "feedback": "Het kader is niet hetzelfde als persoonlijke intentie."
+              },
+              {
+                "id": "o2",
+                "text": "Alle belangen krijgen daardoor vanzelf exact dezelfde beslisrechten.",
+                "correct": false,
+                "feedback": "Een argumentatiekader regelt niet automatisch zeggenschap."
+              }
+            ]
+          }
+        ],
+        "conclusion": "Een langere horizon verbreedt de informatie. Wie risico en waarde draagt, moet nog afzonderlijk worden onderzocht."
+      },
+      "originalSourceBlocks": [
+        7,
+        9
+      ],
+      "optionalReviewBlocks": [
+        9
+      ]
+    },
+    {
+      "id": "m3-03",
+      "world": {
+        "name": "Het samenwerkingsarchief",
+        "imageKey": "room-archive",
+        "exit": {
+          "label": "Leg de relevante claims voor aan het bestuur",
+          "lockType": "contribution-map",
+          "problem": "Een verhuizing wordt alleen als kapitaalbesluit behandeld, terwijl anderen specifieke investeringen en risico's hebben.",
+          "unlockedText": "Het besluitdossier maakt bijdragen, afhankelijkheden, rechten en weegcriteria zichtbaar.",
+          "destinationReason": "De bestuurskamer moet bepalen hoe deze claims in zeggenschap en verantwoording terechtkomen."
+        },
+        "spots": [
+          {
+            "id": "m3-03-record",
+            "title": "Werknotitie naast het dossier",
+            "point": [
+              0.18,
+              0.55
+            ],
+            "approach": [
+              0.25,
+              0.7
+            ],
+            "observation": "Een korte werknotitie verbindt dit dossier met de dagelijkse praktijk.",
+            "detail": "Een specifieke investering is lastig elders inzetbaar. Daardoor kan een partij risico dragen zonder aandelen te bezitten."
+          },
+          {
+            "id": "m3-03-empty",
+            "title": "Een ongebruikte lade",
+            "point": [
+              0.84,
+              0.73
+            ],
+            "approach": [
+              0.76,
+              0.83
+            ],
+            "observation": "De lade is leeg. De krassen en stoflaag vertellen niet waarom het besluit is genomen.",
+            "detail": "Dit spoor geeft geen inhoudelijk bewijs voor je verklaring. Een onderzoek bevat ook doodlopende sporen: keer terug naar de concrete documenten, handelingen en mensen."
+          }
+        ]
+      },
+      "beats": [
+        {
+          "id": "m3-03-b1",
+          "type": "inspect",
+          "title": "Meer dan geld in de onderneming",
+          "sceneObject": "evidence",
+          "intro": "Open vier bijdragen uit de broncasus rond ASML. Dit is een lesvoorbeeld, geen melding van een werkelijk huidig herstructureringsbesluit.",
+          "hint": "Een specifieke investering is lastig elders inzetbaar. Daardoor kan een partij risico dragen zonder aandelen te bezitten.",
+          "reveal": [
+            {
+              "id": "workers",
+              "label": "Kennisarchief",
+              "title": "Werknemers",
+              "text": "Specialisten investeren kennis en tijd. Hun expertise maakt productie mogelijk en kan met de onderneming verbonden raken."
+            },
+            {
+              "id": "supplier",
+              "label": "Machinecontract",
+              "title": "Leveranciers",
+              "text": "Een leverancier maakt apparatuur voor deze langdurige samenwerking. Vertrekken kan de waarde van die investering verminderen."
+            },
+            {
+              "id": "region",
+              "label": "Regionaal dossier",
+              "title": "Gemeenschap",
+              "text": "Onderwijs, infrastructuur en rechtszekerheid ondersteunen het bedrijf. Een strategisch besluit kan de regio beïnvloeden."
+            },
+            {
+              "id": "finance",
+              "label": "Kapitaalrecord",
+              "title": "Investeerders",
+              "text": "Financiers leveren middelen en dragen financieel risico. Dat is een belangrijke bijdrage naast de andere."
+            }
+          ],
+          "required": [
+            "workers",
+            "supplier",
+            "region",
+            "finance"
+          ],
+          "explainAfter": "De stakeholderlens vertrekt vanuit samenwerking en risico. Betrokkenheid betekent niet automatisch dat elke claim hetzelfde gewicht moet krijgen.",
+          "concepts": [
+            "stakeholderbenadering",
+            "wederzijdse afhankelijkheid",
+            "specifieke investeringen"
+          ],
+          "sourceBlocks": [
+            11,
+            13,
+            14,
+            16
+          ],
+          "clueId": "m3-03-b1-clue",
+          "clueTitle": "Meer dan geld in de onderneming"
+        },
+        {
+          "id": "m3-03-b2",
+          "type": "connect",
+          "title": "Koppel bijdrage en afhankelijkheid",
+          "sceneObject": "evidence",
+          "intro": "Verbind vier bijdragen met hun betekenis voor het samenwerkingsverband.",
+          "hint": "Resource dependence onderzoekt afhankelijkheid van externe middelen. Team production benadrukt meerdere specifieke bijdragen die contracten niet volledig kunnen afdekken.",
+          "pairs": [
+            {
+              "id": "knowledge",
+              "left": "Werknemers bouwen gespecialiseerde expertise op",
+              "right": "De onderneming heeft mensen en hun kennis nodig.",
+              "feedback": "Geld alleen voert het werk niet uit."
+            },
+            {
+              "id": "relationship",
+              "left": "Een leverancier investeert in een specifieke relatie",
+              "right": "Beide partijen worden afhankelijk van de samenwerking.",
+              "feedback": "De waarde kan buiten deze relatie moeilijk herstelbaar zijn."
+            },
+            {
+              "id": "public",
+              "left": "De regio biedt infrastructuur en institutionele stabiliteit",
+              "right": "De onderneming steunt op meer dan private eigendom.",
+              "feedback": "Deze bijdrage vormt een relevante legitimatievraag."
+            },
+            {
+              "id": "eco",
+              "left": "Ecosystemen leveren grondstoffen en nemen emissies op",
+              "right": "Natuurlijke voorwaarden maken productie mede mogelijk.",
+              "feedback": "De gevolgen vragen verantwoordelijkheid, ook zonder een contractuele stem."
+            },
+            {
+              "id": "customers",
+              "left": "Klanten leveren inkomsten en gebruiksinformatie",
+              "right": "De samenwerking steunt ook op vraag en terugkoppeling.",
+              "feedback": "Hun bijdrage en getroffen belangen behoren tot de stakeholderkaart."
+            }
+          ],
+          "explainAfter": "Pfeffer en Salancik analyseren afhankelijkheid; Blair en Stout gezamenlijke specifieke bijdragen. De beslisvraag is hoe risico en zeggenschap worden erkend.",
+          "concepts": [
+            "resource dependence theory",
+            "team production theory",
+            "waardecreatie relationeel",
+            "klanteninkomsten en informatie"
+          ],
+          "sourceBlocks": [
+            11
+          ],
+          "clueId": "m3-03-b2-clue",
+          "clueTitle": "Koppel bijdrage en afhankelijkheid"
+        },
+        {
+          "id": "m3-03-b3",
+          "type": "sort",
+          "title": "Hoe specifiek is de investering?",
+          "sceneObject": "evidence",
+          "intro": "Scheid zes voorbeeldinvesteringen. Mila demonstreert eerst een machine die alleen in deze productie werkt.",
+          "hint": "Specifiek betekent moeilijk elders inzetbaar; algemeen bruikbaar betekent niet waardeloos of zonder risico.",
+          "categories": [
+            {
+              "id": "specific",
+              "label": "Sterk aan deze relatie gebonden"
+            },
+            {
+              "id": "general",
+              "label": "Ook gemakkelijk elders bruikbaar"
+            }
+          ],
+          "cards": [
+            {
+              "id": "machine",
+              "text": "Een maatwerkmachine voor deze productielijn.",
+              "category": "specific",
+              "feedback": "De investering kan bij vertrek sterk aan waarde verliezen."
+            },
+            {
+              "id": "tools",
+              "text": "Een standaardgereedschap dat vele klanten gebruiken.",
+              "category": "general",
+              "feedback": "Het gereedschap is breder inzetbaar."
+            },
+            {
+              "id": "skill",
+              "text": "Training uitsluitend in dit eigen bedrijfsproces.",
+              "category": "specific",
+              "feedback": "De overdraagbaarheid is beperkt."
+            },
+            {
+              "id": "basic",
+              "text": "Algemene vakvaardigheid die meerdere werkgevers vragen.",
+              "category": "general",
+              "feedback": "Er zijn meer mogelijke toepassingen."
+            },
+            {
+              "id": "network",
+              "text": "Een speciaal aangelegde aansluiting voor deze locatie.",
+              "category": "specific",
+              "feedback": "De locatie-relatie begrenst alternatief gebruik."
+            },
+            {
+              "id": "cash",
+              "text": "Vrij beschikbare middelen vóór een bindend contract.",
+              "category": "general",
+              "feedback": "Zij zijn in dit voorbeeld nog niet aan de samenwerking gebonden."
+            }
+          ],
+          "explainAfter": "Specifieke risico's maken claims relevant, maar bepalen hun gewicht niet alleen. Rechten, gevolgen en urgentie moeten mee worden onderzocht.",
+          "concepts": [
+            "specifieke versus generieke bijdrage",
+            "gedeeld risico"
+          ],
+          "sourceBlocks": [
+            11,
+            13
+          ],
+          "clueId": "m3-03-b3-clue",
+          "clueTitle": "Hoe specifiek is de investering?"
+        },
+        {
+          "id": "m3-03-b4",
+          "type": "inspect",
+          "title": "Waarom krijgt één claim aandacht?",
+          "sceneObject": "evidence",
+          "intro": "Open drie claimkaarten. Ze illustreren verschillende redenen waarom een belang in een organisatie zichtbaar wordt.",
+          "hint": "Mitchell, Agle en Wood onderscheiden macht, legitimiteit en urgentie. Dit verklaart aandacht; het is geen automatisch moreel ranglijstje.",
+          "reveal": [
+            {
+              "id": "power",
+              "label": "Stembelang",
+              "title": "Macht",
+              "text": "Een investeerder kan formele stemmen en kapitaalvoorwaarden inzetten. Zijn claim kan daardoor veel invloed krijgen."
+            },
+            {
+              "id": "legitimate",
+              "label": "Rechtendossier",
+              "title": "Legitimiteit",
+              "text": "Een getroffen partij heeft een relevante aanspraak die onderbouwd moet worden erkend, ook met weinig macht."
+            },
+            {
+              "id": "urgent",
+              "label": "Tijdsbericht",
+              "title": "Urgentie",
+              "text": "Een gevolg vraagt snel handelen. Tijdgevoeligheid kan prioriteit in de behandeling vergroten."
+            }
+          ],
+          "required": [
+            "power",
+            "legitimate",
+            "urgent"
+          ],
+          "explainAfter": "Een onderneming hiërarchiseert belangen. De ethische vraag is hoe de criteria worden gerechtvaardigd, niet alleen welke partij het luidst klinkt.",
+          "concepts": [
+            "macht legitimiteit urgentie",
+            "stakeholder-salience",
+            "legitimatievraagstuk"
+          ],
+          "sourceBlocks": [
+            11,
+            14
+          ],
+          "clueId": "m3-03-b4-clue",
+          "clueTitle": "Waarom krijgt één claim aandacht?"
+        },
+        {
+          "id": "m3-03-b5",
+          "type": "build",
+          "title": "Bouw het gezamenlijke besluitdossier",
+          "sceneObject": "system",
+          "intro": "Kies vier onderdelen die een strategisch besluit kunnen legitimeren.",
+          "hint": "Dit dossier legt verschillen vast. Het belooft niet dat belangen samenvallen of elke partij dezelfde macht krijgt.",
+          "options": [
+            {
+              "id": "contribution",
+              "text": "Maak bijdragen en afhankelijkheden zichtbaar.",
+              "correct": true,
+              "feedback": "Je verklaart waarom partijen relevant zijn."
+            },
+            {
+              "id": "risk",
+              "text": "Vergelijk risico's en beschikbare uitwegen.",
+              "correct": true,
+              "feedback": "Een besluit kan gevolgen ongelijk verdelen."
+            },
+            {
+              "id": "rights",
+              "text": "Benoem getroffen rechten en vertegenwoordiging.",
+              "correct": true,
+              "feedback": "Macht alleen bepaalt niet de legitimiteit."
+            },
+            {
+              "id": "criteria",
+              "text": "Leg weegcriteria en verantwoording vast.",
+              "correct": true,
+              "feedback": "De afweging wordt onderzoekbaar."
+            },
+            {
+              "id": "equal",
+              "text": "Geef iedere bijdrage zonder verdere afweging hetzelfde stemgewicht.",
+              "correct": false,
+              "feedback": "Gelijkheid vraagt een eigen rechtvaardiging."
+            },
+            {
+              "id": "shares",
+              "text": "Laat alleen de kapitaallijst alle andere claims vervangen.",
+              "correct": false,
+              "feedback": "Dit mist de beschreven samenwerking en specifieke risico's."
+            }
+          ],
+          "required": [
+            "contribution",
+            "risk",
+            "rights",
+            "criteria"
+          ],
+          "explainAfter": "Het dossier brengt claims naar de bestuurskamer. Daar wordt onderzocht hoe informatie en invloed institutioneel zijn georganiseerd.",
+          "concepts": [
+            "claims wegen",
+            "governance en samenwerking",
+            "bijdrage risico rechten"
+          ],
+          "sourceBlocks": [
+            11,
+            14
+          ],
+          "clueId": "m3-03-b5-clue",
+          "clueTitle": "Bouw het gezamenlijke besluitdossier"
+        },
+        {
+          "id": "m3-03-b6",
+          "type": "inspect",
+          "title": "Waarom is de discussie nog open?",
+          "sceneObject": "evidence",
+          "intro": "Open de debatkaart en twee historische verklaringen. Vergelijk een aangekondigd doel met daadwerkelijke verantwoording.",
+          "hint": "De shareholder-stakeholderdiscussie heeft meerdere argumenten. Een verklaring van een bestuurder verandert niet vanzelf rechten, criteria of prikkels.",
+          "reveal": [
+            {
+              "id": "history",
+              "label": "Debatarchief",
+              "title": "Een oud vraagstuk",
+              "text": "De bronvideo verwijst naar de Berle-Dodd-discussie in de jaren dertig over de verantwoordelijkheid van ondernemingen."
+            },
+            {
+              "id": "share",
+              "label": "Shareholderargument",
+              "title": "Een duidelijke maatstaf",
+              "text": "Een centrale aandeelhoudersdoelstelling kan een controleerbare maatstaf voor management bieden. Dat is een argument, geen universele norm."
+            },
+            {
+              "id": "statement",
+              "label": "Doelverklaringen",
+              "title": "Woorden en inrichting",
+              "text": "De bron noemt Finks oproep in 2018 en de Business Roundtable-verklaring in 2019. Onderzoek wat werkelijk in regels en gedrag veranderde."
+            },
+            {
+              "id": "critique",
+              "label": "Tegenargument",
+              "title": "Veel doelen, weinig houvast?",
+              "text": "Onduidelijke stakeholderdoelen kunnen management meer vrijheid geven zonder heldere verantwoording. Dat risico vraagt toetsbare criteria."
+            }
+          ],
+          "required": [
+            "history",
+            "share",
+            "statement",
+            "critique"
+          ],
+          "explainAfter": "De bronvideo presenteert een accountabilitykritiek. Begrijp die naast de samenwerkinglens zonder één positie als verplichte overtuiging te behandelen.",
+          "concepts": [
+            "Berle Dodd debat",
+            "residuele aandeelhoudersclaim",
+            "stakeholderverklaringen versus inrichting",
+            "manageraccountability"
+          ],
+          "sourceBlocks": [
+            16
+          ],
+          "clueId": "m3-03-b6-clue",
+          "clueTitle": "Waarom is de discussie nog open?"
+        },
+        {
+          "id": "m3-03-b7",
+          "type": "build",
+          "title": "Maak het doel controleerbaar",
+          "sceneObject": "evidence",
+          "intro": "Kies drie functies die meerdere doelen controleerbaar houden.",
+          "hint": "Deze taak lost waardedisagreement niet op. Zij voorkomt dat elke keuze achter onduidelijke doelen kan verdwijnen.",
+          "options": [
+            {
+              "id": "criteria",
+              "text": "Leg afwegingscriteria en relevante getroffen belangen vast.",
+              "correct": true,
+              "feedback": "De gekozen reden wordt zichtbaar."
+            },
+            {
+              "id": "evidence",
+              "text": "Vraag concrete effecten en afwijking van verwachtingen te rapporteren.",
+              "correct": true,
+              "feedback": "De argumenten krijgen toetsbaar bewijs."
+            },
+            {
+              "id": "review",
+              "text": "Regel wie uitleg en herbeoordeling kan vragen.",
+              "correct": true,
+              "feedback": "Verantwoording krijgt een bruikbare route."
+            },
+            {
+              "id": "label",
+              "text": "Gebruik alleen het woord stakeholder als criterium.",
+              "correct": false,
+              "feedback": "Het label maakt de weging niet duidelijk."
+            },
+            {
+              "id": "profit",
+              "text": "Meet alleen omzet terwijl andere doelen worden toegezegd.",
+              "correct": false,
+              "feedback": "De beloofde andere doelen blijven zo buiten toetsing."
+            },
+            {
+              "id": "freedom",
+              "text": "Laat elke bestuurder zelf achteraf een passend doel kiezen.",
+              "correct": false,
+              "feedback": "Dat kan de accountabilityvraag juist versterken."
+            }
+          ],
+          "required": [
+            "criteria",
+            "evidence",
+            "review"
+          ],
+          "explainAfter": "Verschillende doelen kunnen samen bestaan met duidelijke verantwoording. De governancekamer onderzoekt hoe die functies in rechten en procedures worden georganiseerd.",
+          "concepts": [
+            "pluraliteit met verantwoording",
+            "managementdiscretie",
+            "criteria en beoordeling"
+          ],
+          "sourceBlocks": [
+            11,
+            16
+          ],
+          "clueId": "m3-03-b7-clue",
+          "clueTitle": "Maak het doel controleerbaar"
+        }
+      ],
+      "finale": {
+        "intro": "Een leverancier heeft alleen voor NOVA geïnvesteerd; een aandeelhouder kan gemakkelijker elders investeren.",
+        "slots": [
+          {
+            "id": "m3-03-s1",
+            "label": "Waarom is dit verschil relevant zonder één partij automatisch voorrang te geven?",
+            "evidenceBeatId": "m3-03-b3",
+            "options": [
+              {
+                "id": "o0",
+                "text": "De mate van specifieke afhankelijkheid en de beschikbare uitweg verschillen.",
+                "correct": true,
+                "feedback": "Dit geeft informatie voor de afweging, geen automatische rangorde."
+              },
+              {
+                "id": "o1",
+                "text": "Een leverancier draagt nooit risico zolang een contract bestaat.",
+                "correct": false,
+                "feedback": "Het contract kan een specifieke investering juist zichtbaar maken."
+              },
+              {
+                "id": "o2",
+                "text": "Financieel kapitaal is niet relevant omdat andere partijen ook bijdragen.",
+                "correct": false,
+                "feedback": "De stakeholderlens voegt bijdragen toe; ze wist kapitaal niet uit."
+              }
+            ]
+          },
+          {
+            "id": "m3-03-s2",
+            "label": "Wat volgt uit een claim met veel macht maar beperkte urgentie?",
+            "evidenceBeatId": "m3-03-b4",
+            "options": [
+              {
+                "id": "o0",
+                "text": "Macht verklaart mogelijke invloed; legitimiteit en tijdgevoeligheid blijven aparte vragen.",
+                "correct": true,
+                "feedback": "Verwar zichtbaarheid niet met volledige morele rechtvaardiging."
+              },
+              {
+                "id": "o1",
+                "text": "Veel macht bewijst automatisch de sterkste legitieme aanspraak.",
+                "correct": false,
+                "feedback": "De drie dimensies zijn analytisch onderscheiden."
+              },
+              {
+                "id": "o2",
+                "text": "Geen urgentie betekent dat de partij geen bijdrage of recht kan hebben.",
+                "correct": false,
+                "feedback": "Tijdgevoeligheid is niet de enige grond voor een claim."
+              }
+            ]
+          }
+        ],
+        "conclusion": "De stakeholderkaart verandert de vraag van uitsluitend bezit naar samenwerking, risico en legitieme afweging."
+      },
+      "originalSourceBlocks": [
+        11,
+        13,
+        14,
+        16
+      ],
+      "optionalReviewBlocks": [
+        14
+      ]
+    },
+    {
+      "id": "m3-04",
+      "world": {
+        "name": "De bestuurskamer",
+        "imageKey": "chapter-3",
+        "exit": {
+          "label": "Open een verantwoord besluitproces",
+          "lockType": "governance-design",
+          "problem": "Stakeholders spreken, maar het besluitformulier en de timing laten hun gevolgen nauwelijks meewegen.",
+          "unlockedText": "Informatie, bevoegdheden, criteria en verantwoording zijn zichtbaar in het proces.",
+          "destinationReason": "De kapitaalbalie moet laten zien welke externe financiële voorwaarden deze ruimte blijven begrenzen."
+        },
+        "spots": [
+          {
+            "id": "m3-04-record",
+            "title": "Werknotitie naast het dossier",
+            "point": [
+              0.18,
+              0.55
+            ],
+            "approach": [
+              0.25,
+              0.7
+            ],
+            "observation": "Een korte werknotitie verbindt dit dossier met de dagelijkse praktijk.",
+            "detail": "Beslissingspremissen zijn kaders die vooraf vaststaan: doelen, indicatoren en wat als risico of succes telt."
+          },
+          {
+            "id": "m3-04-empty",
+            "title": "Een ongebruikte lade",
+            "point": [
+              0.84,
+              0.73
+            ],
+            "approach": [
+              0.76,
+              0.83
+            ],
+            "observation": "De lade is leeg. De krassen en stoflaag vertellen niet waarom het besluit is genomen.",
+            "detail": "Dit spoor geeft geen inhoudelijk bewijs voor je verklaring. Een onderzoek bevat ook doodlopende sporen: keer terug naar de concrete documenten, handelingen en mensen."
+          }
+        ]
+      },
+      "beats": [
+        {
+          "id": "m3-04-b1",
+          "type": "inspect",
+          "title": "Het formulier vóór de beslissing",
+          "sceneObject": "evidence",
+          "intro": "Open het lege besluitformulier voordat iemand een optie kiest. Het bepaalt al welke argumenten passen.",
+          "hint": "Beslissingspremissen zijn kaders die vooraf vaststaan: doelen, indicatoren en wat als risico of succes telt.",
+          "reveal": [
+            {
+              "id": "money",
+              "label": "Rendementsveld",
+              "title": "Een toegelaten argument",
+              "text": "Het formulier heeft velden voor kosten, omzet en kwartaalrisico."
+            },
+            {
+              "id": "missing",
+              "label": "Ontbrekende kolommen",
+              "title": "Een onzichtbare waarde",
+              "text": "Gezondheid, regionale afhankelijkheid en ecologische gevolgen hebben geen eigen plaats."
+            },
+            {
+              "id": "timing",
+              "label": "Agenda",
+              "title": "Een laat advies",
+              "text": "Het stakeholderpanel wordt gehoord nadat het budget definitief is."
+            },
+            {
+              "id": "roles",
+              "label": "Bevoegdheden",
+              "title": "Wie kan terugsturen?",
+              "text": "Het panel mag spreken, maar heeft geen recht op informatie of herbeoordeling vastgelegd."
+            }
+          ],
+          "required": [
+            "money",
+            "missing",
+            "timing",
+            "roles"
+          ],
+          "explainAfter": "Een filter werkt vóór de uiteindelijke keuze. Individuele zorg moet via rollen, procedures en indicatoren in handelen worden vertaald.",
+          "concepts": [
+            "beslissingspremissen",
+            "organisatorisch filter",
+            "Goodpaster",
+            "doelen indicatoren interpretatiekaders"
+          ],
+          "sourceBlocks": [
+            18,
+            19
+          ],
+          "clueId": "m3-04-b1-clue",
+          "clueTitle": "Het formulier vóór de beslissing"
+        },
+        {
+          "id": "m3-04-b2",
+          "type": "sort",
+          "title": "Premisse of uitkomst?",
+          "sceneObject": "evidence",
+          "intro": "Scheid zes dossierkaarten. Iris doet eerst het kwartaalcriterium voor.",
+          "hint": "Een premisse is de al gekozen meetlat of procedure; een uitkomst is wat binnen dat kader gebeurt.",
+          "categories": [
+            {
+              "id": "frame",
+              "label": "Vooraf gekozen kader"
+            },
+            {
+              "id": "outcome",
+              "label": "Besluit of gevolg"
+            }
+          ],
+          "cards": [
+            {
+              "id": "quarter",
+              "text": "Alleen dit kwartaal telt als relevante horizon.",
+              "category": "frame",
+              "feedback": "Deze regel bepaalt welke informatie voorrang krijgt."
+            },
+            {
+              "id": "reject",
+              "text": "Het opleidingstraject wordt afgewezen.",
+              "category": "outcome",
+              "feedback": "Onderzoek het kader dat aan die keuze voorafging."
+            },
+            {
+              "id": "risk",
+              "text": "Alleen financieel kwantificeerbare gevolgen heten risico.",
+              "category": "frame",
+              "feedback": "Dit bepaalt wat als relevant verschijnt."
+            },
+            {
+              "id": "later",
+              "text": "Onderhoud wordt naar volgend jaar verschoven.",
+              "category": "outcome",
+              "feedback": "Dit kan door de gekozen horizon worden beïnvloed."
+            },
+            {
+              "id": "vote",
+              "text": "Het panel mag alleen adviseren na budgetvaststelling.",
+              "category": "frame",
+              "feedback": "Timing en bevoegdheid structureren invloed."
+            },
+            {
+              "id": "miss",
+              "text": "Een regio draagt verlies zonder eigen stem.",
+              "category": "outcome",
+              "feedback": "Een gevolg kan een legitimatievraag zichtbaar maken."
+            }
+          ],
+          "explainAfter": "March en Simon helpen beslissingspremissen benoemen. DiMaggio en Powell verklaren hoe dominante veldnormen kaders vanzelfsprekend kunnen maken. Onderzoek doelen en sociale context vóór je de uitkomst beoordeelt.",
+          "concepts": [
+            "voorafgaande kaders versus besluiten",
+            "institutionele normen"
+          ],
+          "sourceBlocks": [
+            18,
+            19,
+            23
+          ],
+          "clueId": "m3-04-b2-clue",
+          "clueTitle": "Premisse of uitkomst?"
+        },
+        {
+          "id": "m3-04-b3",
+          "type": "inspect",
+          "title": "Vier institutionele voorbeelden",
+          "sceneObject": "evidence",
+          "intro": "Open vier bronvoorbeelden. Vergelijk functies, geen ranglijst van perfecte landen.",
+          "hint": "Governance organiseert zeggenschap en verantwoording. Juridische voorbeelden gelden binnen hun eigen toepassingsgebied; een zetel is geen onbeperkte operationele macht.",
+          "reveal": [
+            {
+              "id": "de",
+              "label": "Duits voorbeeld",
+              "title": "Medezeggenschap",
+              "text": "In toepasselijke Duitse ondernemingen kent het toezicht gelijke aantallen werknemers- en aandeelhouderszetels. Reikwijdte en besluitregels zijn van belang; dit is geen universele gelijke dagelijkse controle."
+            },
+            {
+              "id": "nl",
+              "label": "Nederlands voorbeeld",
+              "title": "Ondernemingsbelang",
+              "text": "Het bronvoorbeeld legt nadruk op het belang van de onderneming en verbonden onderneming. De toepassing vraagt context; het is niet eenvoudig uitsluitend aandeelhoudersrendement."
+            },
+            {
+              "id": "uk",
+              "label": "Brits voorbeeld",
+              "title": "Rekening houden met belangen",
+              "text": "Section 172 verbindt succes voor leden aan aandacht voor onder meer lange termijn, werknemers, relaties en milieu. Dat geeft niet automatisch gelijk stemrecht of een stakeholderveto."
+            },
+            {
+              "id": "us",
+              "label": "Amerikaans voorbeeld",
+              "title": "Publiek doel in de rechtsvorm",
+              "text": "Delaware public benefit corporations kennen een afweging tussen aandeelhoudersbelang, getroffen belangen en een omschreven publiek doel. Dit is niet hetzelfde als private B Corp-certificering."
+            }
+          ],
+          "required": [
+            "de",
+            "nl",
+            "uk",
+            "us"
+          ],
+          "explainAfter": "De voorbeelden tonen institutionele variatie. Hun exacte rechten en toepassingsgrenzen moeten bij een werkelijk besluit actueel worden gecontroleerd.",
+          "concepts": [
+            "werknemersvertegenwoordiging",
+            "ondernemingsbelang",
+            "UK section 172",
+            "Benefit Corporation"
+          ],
+          "sourceBlocks": [
+            21,
+            22
+          ],
+          "clueId": "m3-04-b3-clue",
+          "clueTitle": "Vier institutionele voorbeelden"
+        },
+        {
+          "id": "m3-04-b4",
+          "type": "inspect",
+          "title": "Een spectrum, geen twee vakjes",
+          "sceneObject": "evidence",
+          "intro": "Open de modelkaarten en twee aanvullende bronvoorbeelden. Zoek welk onderdeel van de inrichting werkelijk verandert.",
+          "hint": "Een perspectief helpt analyseren. Een institutionele vorm regelt concrete rechten; meer informatie of vertegenwoordiging verandert niet automatisch alle financiële prikkels.",
+          "reveal": [
+            {
+              "id": "share",
+              "label": "Aandeelhouderslens",
+              "title": "Kapitaal als legitimatie",
+              "text": "Financiële bijdrage en risico geven in deze lens een centrale grond voor zeggenschap. Rendement krijgt sterk gewicht."
+            },
+            {
+              "id": "stake",
+              "label": "Stakeholderlens",
+              "title": "Samenwerking als vertrekpunt",
+              "text": "Meerdere specifieke bijdragen en afhankelijkheden maken relevante claims zichtbaar. Het perspectief belooft geen gelijke belangen of gelijke macht."
+            },
+            {
+              "id": "north",
+              "label": "Scandinavisch bronvoorbeeld",
+              "title": "Werknemers in bestuursorganen",
+              "text": "De cursus noemt vertegenwoordiging in Scandinavische landen. Regels verschillen per land; behandel dit niet als één regionale regeling of percentage."
+            },
+            {
+              "id": "report",
+              "label": "Rapportagevoorbeeld",
+              "title": "Zichtbaarheid zonder automatisch stemrecht",
+              "text": "CSRD illustreert hoe rapportage gevolgen vergelijkbaar kan maken. Toepassingsgebied en tijdpaden veranderden; rapporteren is geen garantie van herverdeelde beslismacht."
+            }
+          ],
+          "required": [
+            "share",
+            "stake",
+            "north",
+            "report"
+          ],
+          "explainAfter": "Eigendom, zeggenschap, horizon, risico en opbrengst kunnen verschillend worden georganiseerd. Kapitaalmarkten en netwerkvoordelen kunnen daarnaast blijven doorwerken.",
+          "concepts": [
+            "aandeelhoudersmodel versus stakeholderperspectief",
+            "Scandinavische variatie",
+            "CSRD rapportage",
+            "governance niet automatisch machtshervorming"
+          ],
+          "sourceBlocks": [
+            22,
+            23,
+            21,
+            24
+          ],
+          "clueId": "m3-04-b4-clue",
+          "clueTitle": "Een spectrum, geen twee vakjes"
+        },
+        {
+          "id": "m3-04-b5",
+          "type": "experiment",
+          "title": "Stem, horizon en meetlat",
+          "sceneObject": "system",
+          "intro": "Voorspel welke informatie het fictieve panel kan inbrengen. Vergelijk advies zonder herbeoordeling met rechten, langere horizon en bredere criteria.",
+          "hint": "Dit model rekent geen moreel juiste keuze uit. Het toont welke informatie en bevoegdheden een gekozen procedure beschikbaar maakt.",
+          "simulation": "governance",
+          "minimumTrials": 2,
+          "simulationSpec": {
+            "title": "Wat kan het panel veranderen?",
+            "modelKind": "illustrative-decision-protocol",
+            "parameters": [
+              {
+                "id": "voice",
+                "label": "Panelrecht",
+                "min": 0,
+                "max": 2,
+                "step": 1,
+                "default": 0,
+                "labels": [
+                  "Alleen informeren",
+                  "Vooraf adviseren",
+                  "Herbeoordeling vragen"
+                ]
+              },
+              {
+                "id": "horizon",
+                "label": "Beoordelingshorizon",
+                "min": 1,
+                "max": 5,
+                "step": 4,
+                "default": 1
+              },
+              {
+                "id": "broad",
+                "label": "Aparte maatschappelijke criteria",
+                "min": 0,
+                "max": 1,
+                "step": 1,
+                "default": 0
+              }
+            ],
+            "inputs": {
+              "maintenanceCostNow": 30,
+              "avoidedCostAtYearFive": 70
+            },
+            "outcomeRules": [
+              {
+                "id": "shownNet",
+                "expression": "horizon===5 ? 40 : -30",
+                "label": "Zichtbaar onderhoudssaldo in dit fictieve venster"
+              },
+              {
+                "id": "panelInput",
+                "expression": "voice>=1 ? 1 : 0",
+                "label": "Panelinformatie vóór het besluit"
+              },
+              {
+                "id": "canReopen",
+                "expression": "voice===2 ? 1 : 0",
+                "label": "Recht om herbeoordeling te vragen"
+              },
+              {
+                "id": "separateValue",
+                "expression": "broad===1 ? 1 : 0",
+                "label": "Niet-financiële gevolgen apart zichtbaar"
+              }
+            ],
+            "assumptions": [
+              "De bedragen zijn fictief en vijfjaarsopbrengst wordt voor deze demonstratie als gegeven behandeld.",
+              "De governancekeuze verandert in het model informatie en rechten, niet automatisch beleid of iemands overtuiging.",
+              "Er is geen optimale morele score; partijen kunnen criteria verschillend prioriteren.",
+              "Externe financierings- en concurrentiedruk blijft buiten de berekening."
+            ],
+            "contrastRequirements": [
+              {
+                "id": "narrow",
+                "condition": "voice===0 && horizon===1 && broad===0"
+              },
+              {
+                "id": "revised",
+                "condition": "voice===2 && horizon===5 && broad===1"
+              }
+            ],
+            "predictionPrompt": "Wat wordt zichtbaar of wijzigbaar na deze procedurele veranderingen?",
+            "interpretationPrompt": "Welk recht of criterium veranderde, en waarom bewijst dit nog geen volledige machtshervorming?",
+            "conceptOptions": [
+              {
+                "id": "rights",
+                "text": "Informatie en rechten veranderen; het uiteindelijke besluit en externe druk blijven te onderzoeken.",
+                "correct": true,
+                "feedback": "Governance biedt mogelijkheden, geen gegarandeerde gedeelde uitkomst."
+              },
+              {
+                "id": "advice",
+                "text": "Vooraf adviseren geeft precies hetzelfde formele herbeoordelingsrecht als een vastgelegd terugstuurrecht.",
+                "correct": false,
+                "feedback": "De gekozen rechten hebben verschillende bevoegdheden."
+              },
+              {
+                "id": "capital",
+                "text": "Een breder formulier verwijdert alle kapitaalmarktvoorwaarden uit de onderneming.",
+                "correct": false,
+                "feedback": "De externe omgeving wordt niet door dit model gewijzigd."
+              }
+            ]
+          },
+          "explainAfter": "De proef onderscheidt informatie, timing, bevoegdheid en criteria. Toets vervolgens hoe die rechten feitelijk worden gebruikt.",
+          "concepts": [
+            "inspraak versus invloed",
+            "horizon en criteria",
+            "institutionele inrichting"
+          ],
+          "sourceBlocks": [
+            18,
+            22,
+            23,
+            24
+          ],
+          "clueId": "m3-04-b5-clue",
+          "clueTitle": "Stem, horizon en meetlat",
+          "requiresTool": "ledger"
+        },
+        {
+          "id": "m3-04-b6",
+          "type": "build",
+          "title": "Verbind inspraak aan het besluit",
+          "sceneObject": "evidence",
+          "intro": "Kies drie functies voor het besluitproces: tijdige informatie, aantoonbare invloed en verantwoording.",
+          "hint": "De gewenste weging blijft bespreekbaar. Deze taak beoordeelt of het proces de toegezegde functies werkelijk organiseert.",
+          "options": [
+            {
+              "id": "info",
+              "text": "Geef relevante informatie vóór opties en budget vaststaan.",
+              "correct": true,
+              "feedback": "Betrokkenen kunnen inhoudelijk bijdragen."
+            },
+            {
+              "id": "rights",
+              "text": "Leg vast hoe advies wordt gewogen of herbeoordeling kan worden gevraagd.",
+              "correct": true,
+              "feedback": "Inspraak krijgt een duidelijke relatie met het besluit."
+            },
+            {
+              "id": "account",
+              "text": "Verantwoord criteria, gevolgen en afwijking van advies.",
+              "correct": true,
+              "feedback": "De uiteindelijke afweging blijft controleerbaar."
+            },
+            {
+              "id": "photo",
+              "text": "Tel alleen aanwezigen op de panelbijeenkomst.",
+              "correct": false,
+              "feedback": "Aanwezigheid toont geen informatie of invloed."
+            },
+            {
+              "id": "report",
+              "text": "Publiceer alleen na afloop een mooi stakeholdersverslag.",
+              "correct": false,
+              "feedback": "Transparantie achteraf regelt niet alle benodigde invloed vooraf."
+            },
+            {
+              "id": "same",
+              "text": "Veronderstel dat ieder overleg dezelfde rechten bevat.",
+              "correct": false,
+              "feedback": "De procedure en bevoegdheden kunnen wezenlijk verschillen."
+            }
+          ],
+          "required": [
+            "info",
+            "rights",
+            "account"
+          ],
+          "explainAfter": "Het proces is beter onderzoekbaar. De kapitaalbalie laat zien waarom een breder bestuur nog externe beperkingen kan ervaren.",
+          "concepts": [
+            "bestuur als afweging",
+            "informatie timing beslisrechten verantwoording"
+          ],
+          "sourceBlocks": [
+            18,
+            23
+          ],
+          "clueId": "m3-04-b6-clue",
+          "clueTitle": "Verbind inspraak aan het besluit"
+        }
+      ],
+      "finale": {
+        "intro": "Een panel krijgt informatie vooraf, maar geen recht om budgetvaststelling te laten herzien.",
+        "slots": [
+          {
+            "id": "m3-04-s1",
+            "label": "Wat is verbeterd en wat is nog niet toegezegd?",
+            "evidenceBeatId": "m3-04-b1",
+            "options": [
+              {
+                "id": "o0",
+                "text": "De informatiepositie verbetert; een formeel herbeoordelingsrecht volgt daar niet automatisch uit.",
+                "correct": true,
+                "feedback": "Informatie en bevoegdheid zijn verschillende onderdelen."
+              },
+              {
+                "id": "o1",
+                "text": "Vooraf informatie krijgen betekent dezelfde bevoegdheid als een besluit terugsturen.",
+                "correct": false,
+                "feedback": "Het ontbrekende recht wordt niet door timing vervangen."
+              },
+              {
+                "id": "o2",
+                "text": "Het panel heeft geen enkele relevante mogelijkheid zolang het geen veto heeft.",
+                "correct": false,
+                "feedback": "Informatie en advies kunnen invloed geven, ook zonder veto."
+              }
+            ]
+          },
+          {
+            "id": "m3-04-s2",
+            "label": "Wat bewijst een breder formulier nog niet?",
+            "evidenceBeatId": "m3-04-b5",
+            "options": [
+              {
+                "id": "o0",
+                "text": "Dat andere gevolgen zichtbaar kunnen worden in de afweging.",
+                "correct": false,
+                "feedback": "Dat is juist een functie van het bredere criterium."
+              },
+              {
+                "id": "o1",
+                "text": "Dat kapitaalmarkt- en concurrentieprikkels volledig verdwenen zijn.",
+                "correct": true,
+                "feedback": "Het model wijzigt niet de gehele externe omgeving."
+              },
+              {
+                "id": "o2",
+                "text": "Dat het bestuur het besluit moet kunnen verantwoorden.",
+                "correct": false,
+                "feedback": "Dat is een passende procedurele vraag, geen verdwenen verantwoordelijkheid."
+              }
+            ]
+          }
+        ],
+        "conclusion": "Governance verbindt informatie en rechten, maar verandert niet iedere macht tegelijk. Volg nu de externe voorwaarden rond kapitaal."
+      },
+      "originalSourceBlocks": [
+        18,
+        19,
+        21,
+        22,
+        23,
+        24
+      ],
+      "optionalReviewBlocks": [
+        19,
+        21,
+        24
+      ]
+    },
+    {
+      "id": "m3-05",
+      "world": {
+        "name": "De kapitaalbalie",
+        "imageKey": "room-market",
+        "exit": {
+          "label": "Maak de financieringsvoorwaarden expliciet",
+          "lockType": "capital-selection",
+          "problem": "Twee maatschappelijk relevante plannen krijgen verschillende toegang tot financiering; een fonds kan voorwaarden of kapitaal wijzigen.",
+          "unlockedText": "Projectselectie, druk, mobiliteit en lock-ins staan apart op de kaart.",
+          "destinationReason": "Het waarderegister kan bepalen welke gevolgen daardoor buiten het rendementsbeeld blijven."
+        },
+        "spots": [
+          {
+            "id": "m3-05-record",
+            "title": "Werknotitie naast het dossier",
+            "point": [
+              0.18,
+              0.55
+            ],
+            "approach": [
+              0.25,
+              0.7
+            ],
+            "observation": "Een korte werknotitie verbindt dit dossier met de dagelijkse praktijk.",
+            "detail": "Kapitaal als selectiemechanisme betekent dat investeringsstromen mede bepalen welke activiteiten kunnen groeien."
+          },
+          {
+            "id": "m3-05-empty",
+            "title": "Een ongebruikte lade",
+            "point": [
+              0.84,
+              0.73
+            ],
+            "approach": [
+              0.76,
+              0.83
+            ],
+            "observation": "De lade is leeg. De krassen en stoflaag vertellen niet waarom het besluit is genomen.",
+            "detail": "Dit spoor geeft geen inhoudelijk bewijs voor je verklaring. Een onderzoek bevat ook doodlopende sporen: keer terug naar de concrete documenten, handelingen en mensen."
+          }
+        ]
+      },
+      "beats": [
+        {
+          "id": "m3-05-b1",
+          "type": "inspect",
+          "title": "Twee plannen vragen dezelfde euro",
+          "sceneObject": "evidence",
+          "intro": "Open twee plannen en het financieringsformulier. De middelen zijn niet alleen een hulpmiddel; hun selectie vormt wat wordt uitgevoerd.",
+          "hint": "Kapitaal als selectiemechanisme betekent dat investeringsstromen mede bepalen welke activiteiten kunnen groeien.",
+          "reveal": [
+            {
+              "id": "scale",
+              "label": "Schaalbare dienst",
+              "title": "Goed zichtbaar rendement",
+              "text": "Het platformabonnement heeft snelle en meetbare kasstromen. Daardoor past het gemakkelijk in dit financieringskader."
+            },
+            {
+              "id": "local",
+              "label": "Lokale reparatiecentra",
+              "title": "Langzame maatschappelijke opbrengst",
+              "text": "De centra bieden continuïteit en minder afval, maar hun financiële opbrengst is later en moeilijker voorspelbaar."
+            },
+            {
+              "id": "form",
+              "label": "Rendementsformulier",
+              "title": "Het filter",
+              "text": "Het formulier vergelijkt geldopbrengst en financieel risico. Andere waarde heeft geen zelfstandige kolom."
+            },
+            {
+              "id": "future",
+              "label": "Toekomstkaart",
+              "title": "Wat groeit?",
+              "text": "Welke financiering wordt toegekend, beïnvloedt later banen, infrastructuur en beschikbare oplossingen."
+            }
+          ],
+          "required": [
+            "scale",
+            "local",
+            "form",
+            "future"
+          ],
+          "explainAfter": "Financiering kiest mede een mogelijke toekomst. Dat verklaart een mechanisme, niet dat ieder maatschappelijk plan financieel uitvoerbaar is.",
+          "concepts": [
+            "kapitaal als selectiemechanisme",
+            "rendement risico legitimatie",
+            "financialisering"
+          ],
+          "sourceBlocks": [
+            26,
+            27,
+            31
+          ],
+          "clueId": "m3-05-b1-clue",
+          "clueTitle": "Twee plannen vragen dezelfde euro"
+        },
+        {
+          "id": "m3-05-b2",
+          "type": "sort",
+          "title": "Waarom krijgt een sector geld?",
+          "sceneObject": "evidence",
+          "intro": "Scheid zes verklaringen in meetbaar rendement, moeilijk te gelde gemaakte waarde of bestaande afhankelijkheid.",
+          "hint": "Lock-in betekent dat eerdere investeringen overstappen kostbaar maken. Maatschappelijke waarde en private financiële opbrengst zijn niet hetzelfde.",
+          "categories": [
+            {
+              "id": "cash",
+              "label": "Direct of schaalbaar geldrendement"
+            },
+            {
+              "id": "public",
+              "label": "Grote waarde niet volledig als privé-opbrengst"
+            },
+            {
+              "id": "lock",
+              "label": "Bestaande investering maakt overstap moeilijk"
+            }
+          ],
+          "cards": [
+            {
+              "id": "fossil",
+              "text": "Bestaande energie-infrastructuur en contracten binden gebruikers.",
+              "category": "lock",
+              "feedback": "Eerdere investeringen kunnen voortzetting aantrekkelijk maken."
+            },
+            {
+              "id": "health",
+              "text": "Zorg en natuurherstel helpen mensen zonder hoge directe beleggersopbrengst.",
+              "category": "public",
+              "feedback": "Waarde kan groot zijn terwijl het financiële model beperkt is."
+            },
+            {
+              "id": "software",
+              "text": "Eén dienst kan veel nieuwe betalende klanten bedienen.",
+              "category": "cash",
+              "feedback": "Schaalbaarheid maakt opbrengst voor financiers zichtbaar."
+            },
+            {
+              "id": "damage",
+              "text": "Vervuilende activiteit houdt winst omdat milieukosten niet volledig in de prijs zitten.",
+              "category": "cash",
+              "feedback": "Rendement kan samengaan met ongedragen gevolgen."
+            },
+            {
+              "id": "training",
+              "text": "Onderwijs levert brede latere baten aan meerdere partijen.",
+              "category": "public",
+              "feedback": "Niet alle baten keren naar de investeerder terug."
+            },
+            {
+              "id": "switch",
+              "text": "Nieuwe techniek vraagt afschrijving van bestaande installaties.",
+              "category": "lock",
+              "feedback": "Die kosten kunnen verandering begrenzen."
+            }
+          ],
+          "explainAfter": "Polanyi helpt vragen waarom prijsmechanismen sociale functies niet automatisch beschermen. Onderzoek sector, regelgeving, rendement en alternatieve financiering.",
+          "concepts": [
+            "lock-in",
+            "onbeprijsde milieukosten",
+            "publieke waarde versus private opbrengst",
+            "Polanyi"
+          ],
+          "sourceBlocks": [
+            31,
+            32,
+            34
+          ],
+          "clueId": "m3-05-b2-clue",
+          "clueTitle": "Waarom krijgt een sector geld?"
+        },
+        {
+          "id": "m3-05-b3",
+          "type": "order",
+          "title": "Druk zonder dagelijkse opdracht",
+          "sceneObject": "evidence",
+          "intro": "Orden het gedocumenteerde financieringsproces. Het fonds hoeft niet ieder dagelijks besluit te bevelen.",
+          "hint": "De mogelijkheid dat kapitaal vertrekt kan gedrag vooraf beïnvloeden. Dat is indirecte druk naast formeel stemrecht.",
+          "order": [
+            {
+              "id": "compare",
+              "text": "Financiers vergelijken rendement, risico en prestaties.",
+              "feedback": "Een extern beoordelingskader wordt relevant."
+            },
+            {
+              "id": "signal",
+              "text": "Tegenvallende cijfers kunnen vertrouwen of financieringsvoorwaarden wijzigen.",
+              "feedback": "De onderneming ziet een mogelijke consequentie."
+            },
+            {
+              "id": "anticipate",
+              "text": "Bestuurders passen plannen aan verwachte reacties aan.",
+              "feedback": "Invloed werkt vóór rechtstreeks ingrijpen."
+            },
+            {
+              "id": "select",
+              "text": "Snel meetbare opbrengsten krijgen meer plaats in strategie.",
+              "feedback": "De selectie kan de tijdshorizon en waarden begrenzen."
+            }
+          ],
+          "correctOrder": [
+            "compare",
+            "signal",
+            "anticipate",
+            "select"
+          ],
+          "explainAfter": "Dit is een mogelijke route. Onderzoek werkelijke voorwaarden en beschikbare financiers; niet iedere belegger heeft dezelfde horizon.",
+          "concepts": [
+            "financiële disciplinering",
+            "kapitaalmobiliteit",
+            "anticiperende strategiekeuze"
+          ],
+          "sourceBlocks": [
+            27,
+            28,
+            36,
+            37
+          ],
+          "clueId": "m3-05-b3-clue",
+          "clueTitle": "Druk zonder dagelijkse opdracht"
+        },
+        {
+          "id": "m3-05-b4",
+          "type": "connect",
+          "title": "Vier gezichten van financiële invloed",
+          "sceneObject": "evidence",
+          "intro": "Verbind financiële instrumenten met het mechanisme dat ze kunnen dragen.",
+          "hint": "Hedgefondsen bundelen kapitaal met uiteenlopende strategieën. De bron gebruikt snelle mobiliteit als voorbeeld; niet ieder fonds handelt hetzelfde.",
+          "pairs": [
+            {
+              "id": "exit",
+              "left": "Een fonds kan zijn investering verplaatsen",
+              "right": "Mogelijk vertrek kan disciplinerende druk geven.",
+              "feedback": "Een mogelijkheid kan tellen zonder dagelijkse opdracht."
+            },
+            {
+              "id": "voice",
+              "left": "Een belegger gebruikt stemmen en publieke campagne",
+              "right": "Strategie kan via aandeelhoudersactivisme worden beïnvloed.",
+              "feedback": "Dat is directere zeggenschapsdruk."
+            },
+            {
+              "id": "rating",
+              "left": "Een kredietrating of analistenvergelijking verandert",
+              "right": "Kosten en vertrouwen rond financiering kunnen verschuiven.",
+              "feedback": "Financiële beoordeling heeft meerdere kanalen."
+            },
+            {
+              "id": "horizon",
+              "left": "Een plan drukt nu de kwartaalcijfers",
+              "right": "Een financier met korte horizon kan een ander plan prefereren.",
+              "feedback": "Onderzoek de werkelijke strategie in plaats van het fondsetiket."
+            }
+          ],
+          "explainAfter": "Kapitaal selecteert projecten én kan ondernemingen disciplineren. Die mechanismen zijn verwant maar onderscheiden.",
+          "concepts": [
+            "hedgefonds",
+            "aandeelhoudersactivisme",
+            "beurskoers kredietrating analisten",
+            "mobiliteit versus directe zeggenschap"
+          ],
+          "sourceBlocks": [
+            30,
+            31,
+            36,
+            37
+          ],
+          "clueId": "m3-05-b4-clue",
+          "clueTitle": "Vier gezichten van financiële invloed"
+        },
+        {
+          "id": "m3-05-b5",
+          "type": "build",
+          "title": "Bouw de voorwaardenkaart",
+          "sceneObject": "system",
+          "intro": "Kies drie functies: voorwaarden zichtbaar maken, alternatieven vergelijken en maatschappelijke gevolgen volgen.",
+          "hint": "Deze kaart kiest niet automatisch de minst financiële route. Zij maakt de werkelijke keuze en beperkingen onderzoekbaar.",
+          "options": [
+            {
+              "id": "terms",
+              "text": "Toon horizon, rendementseis, stemrechten en vertrekvoorwaarden.",
+              "correct": true,
+              "feedback": "Het concrete drukmechanisme wordt zichtbaar."
+            },
+            {
+              "id": "alternatives",
+              "text": "Vergelijk uitvoerbare financiers en aanpassingen met hun kosten.",
+              "correct": true,
+              "feedback": "Een alternatief moet praktisch mogelijk zijn."
+            },
+            {
+              "id": "consequences",
+              "text": "Benoem welke activiteiten groeien en wie gevolgen draagt.",
+              "correct": true,
+              "feedback": "De toekomstselectie krijgt een maatschappelijke plaats."
+            },
+            {
+              "id": "label",
+              "text": "Gebruik alleen een algemene fondsbeoordeling zonder de concrete voorwaarden.",
+              "correct": false,
+              "feedback": "Een algemene beoordeling kan informatie geven, maar toont niet de projectvoorwaarden en invloed."
+            },
+            {
+              "id": "ignore",
+              "text": "Verwijder financieringskosten zonder vervangende middelen.",
+              "correct": false,
+              "feedback": "Dat verbergt een uitvoeringsvoorwaarde."
+            },
+            {
+              "id": "guarantee",
+              "text": "Veronderstel dat elk langetermijnplan zeker financiering aantrekt.",
+              "correct": false,
+              "feedback": "Maatschappelijke waarde is geen garantie van private opbrengst."
+            }
+          ],
+          "required": [
+            "terms",
+            "alternatives",
+            "consequences"
+          ],
+          "explainAfter": "Het waarderegister onderzoekt nu wat in geld past, wat erbuiten valt en welke normen financiële druk kan verschuiven.",
+          "concepts": [
+            "financieringsruimte",
+            "alternatieven en onzekerheid",
+            "kapitaal en maatschappelijke richting"
+          ],
+          "sourceBlocks": [
+            26,
+            27,
+            31,
+            36
+          ],
+          "clueId": "m3-05-b5-clue",
+          "clueTitle": "Bouw de voorwaardenkaart"
+        },
+        {
+          "id": "m3-05-b6",
+          "type": "inspect",
+          "title": "Financiële motieven buiten de onderneming",
+          "sceneObject": "evidence",
+          "intro": "Open de historische tijdkaart, verbindingskaart en crisisnotitie. De bronvideo breidt het onderwerp uit naar overheid en huishoudens.",
+          "hint": "De videobeschrijving geeft een historisch perspectief. Een crisis heeft meerdere oorzaken; een korte bronverwijzing bewijst geen volledig model.",
+          "reveal": [
+            {
+              "id": "history",
+              "label": "Historische kaart",
+              "title": "Financiële oriëntatie groeit",
+              "text": "De maker verwijst naar deregulering vanaf de jaren zeventig en verdere verandering door globalisering en techniek."
+            },
+            {
+              "id": "reach",
+              "label": "Verbindingskaart",
+              "title": "Meer dan de bedrijfsbalie",
+              "text": "Financiële markten en motieven kunnen ook overheden en individuele keuzes beïnvloeden. Onderzoek het concrete kanaal."
+            },
+            {
+              "id": "crisis",
+              "label": "Crisisnotitie",
+              "title": "2008 als bronvoorbeeld",
+              "text": "De video gebruikt de wereldwijde financiële crisis van 2008 om kwetsbaarheid te bespreken. Bekijk de bron voor haar specifieke verklaring."
+            },
+            {
+              "id": "reform",
+              "label": "Debatkaart",
+              "title": "Een andere inrichting?",
+              "text": "De maker bespreekt kritiek en hervormingsbewegingen. Een voorstel vraagt eigen feiten, criteria en uitvoerbaarheid."
+            }
+          ],
+          "required": [
+            "history",
+            "reach",
+            "crisis",
+            "reform"
+          ],
+          "explainAfter": "Deze beschrijvingskaart vervangt de niet volledig geverifieerde video niet. De verplichte bronprojectie en toepassing bewaren haar unieke leerfunctie.",
+          "concepts": [
+            "financialisering historische ontwikkeling",
+            "globalisering technologie",
+            "crisisrisico",
+            "hervorming als debat"
+          ],
+          "sourceBlocks": [
+            30
+          ],
+          "clueId": "m3-05-b6-clue",
+          "clueTitle": "Financiële motieven buiten de onderneming"
+        }
+      ],
+      "finale": {
+        "intro": "Het bestuur wijzigt een plan voordat het fonds een expliciete opdracht geeft.",
+        "slots": [
+          {
+            "id": "m3-05-s1",
+            "label": "Welke verklaring past bij de gedocumenteerde voorwaarden?",
+            "evidenceBeatId": "m3-05-b3",
+            "options": [
+              {
+                "id": "o0",
+                "text": "Verwachte financiële reacties kunnen vooraf strategische keuzes beïnvloeden.",
+                "correct": true,
+                "feedback": "Indirecte disciplinering vraagt geen dagelijkse instructie."
+              },
+              {
+                "id": "o1",
+                "text": "Invloed is onmogelijk zolang geen expliciete opdracht verstuurd is.",
+                "correct": false,
+                "feedback": "Voorwaarden en vertrekmogelijkheden kunnen anticiperend werken."
+              },
+              {
+                "id": "o2",
+                "text": "Elke hedgefondsnaam bewijst dezelfde korte strategie en dezelfde invloed.",
+                "correct": false,
+                "feedback": "Het concrete fonds en contract moeten worden onderzocht."
+              }
+            ]
+          },
+          {
+            "id": "m3-05-s2",
+            "label": "Wat is nodig om minder financiering voor een waardevol project te verklaren?",
+            "evidenceBeatId": "m3-05-b2",
+            "options": [
+              {
+                "id": "o0",
+                "text": "Onderzoek meetbare opbrengst, risico, lock-ins en wie de baten ontvangt.",
+                "correct": true,
+                "feedback": "De financiële selectie verschilt van totale maatschappelijke waarde."
+              },
+              {
+                "id": "o1",
+                "text": "Neem aan dat weinig private financiering bewijst dat het project maatschappelijk waardeloos is.",
+                "correct": false,
+                "feedback": "Waarde kan buiten private kasstromen vallen."
+              },
+              {
+                "id": "o2",
+                "text": "Neem aan dat grote maatschappelijke waarde elke financiële beperking opheft.",
+                "correct": false,
+                "feedback": "Uitvoering en financieringsmodel blijven relevant."
+              }
+            ]
+          }
+        ],
+        "conclusion": "De voorwaardenkaart maakt druk en selectie zichtbaar. Het waarderegister laat zien hoe andere waarden en normen daarin worden behandeld."
+      },
+      "sourceProjections": [
+        {
+          "id": "m3-v30",
+          "sourceBlocks": [
+            30
+          ],
+          "youtube": "P1RbqQW0fcI",
+          "title": "Financialization Explained: Impact on Business and Society",
+          "required": true,
+          "purpose": "De volledige geschiedenis, crisisvoorbeelden en hervormingsargumenten behouden.",
+          "viewingTask": "Kies een kanaal van financiële invloed uit de video en onderscheid selectie, disciplinering en crisisrisico.",
+          "afterPrompt": "Leg een mechanisme uit met het kapitaaldossier en benoem wat dat bewijs niet over een hele economie kan zeggen.",
+          "knownCoreConcepts": [
+            "financialisering",
+            "financiële disciplinering"
+          ],
+          "contentVerification": "Makerbeschrijving gelezen; volledige brontranscript niet toegankelijk."
+        }
+      ],
+      "originalSourceBlocks": [
+        26,
+        27,
+        28,
+        30,
+        31,
+        32,
+        34,
+        36,
+        37
+      ],
+      "optionalReviewBlocks": [
+        28,
+        32,
+        34,
+        37
+      ]
+    },
+    {
+      "id": "m3-06",
+      "world": {
+        "name": "Het brede waarderegister",
+        "imageKey": "room-forum",
+        "exit": {
+          "label": "Leg een uitvoerbaar veranderbesluit voor",
+          "lockType": "value-and-accountability",
+          "problem": "De begroting toont besparing, maar verbergt sociale en ecologische gevolgen; concurrentiedruk maakt de grens verschuifbaar.",
+          "unlockedText": "Het voorstel bevat criteria, gevolgen, rechten, middelen en toetsing.",
+          "destinationReason": "De technologieroute onderzoekt vervolgens hoe zulke waarden in systemen en infrastructuur terechtkomen."
+        },
+        "spots": [
+          {
+            "id": "m3-06-record",
+            "title": "Werknotitie naast het dossier",
+            "point": [
+              0.18,
+              0.55
+            ],
+            "approach": [
+              0.25,
+              0.7
+            ],
+            "observation": "Een korte werknotitie verbindt dit dossier met de dagelijkse praktijk.",
+            "detail": "Wat lastig in rendement past kan minder gewicht krijgen. Dat betekent niet dat de waarde afwezig is."
+          },
+          {
+            "id": "m3-06-empty",
+            "title": "Een ongebruikte lade",
+            "point": [
+              0.84,
+              0.73
+            ],
+            "approach": [
+              0.76,
+              0.83
+            ],
+            "observation": "De lade is leeg. De krassen en stoflaag vertellen niet waarom het besluit is genomen.",
+            "detail": "Dit spoor geeft geen inhoudelijk bewijs voor je verklaring. Een onderzoek bevat ook doodlopende sporen: keer terug naar de concrete documenten, handelingen en mensen."
+          }
+        ]
+      },
+      "beats": [
+        {
+          "id": "m3-06-b1",
+          "type": "inspect",
+          "title": "De kosten naast de begroting",
+          "sceneObject": "evidence",
+          "intro": "Open de bedrijfsrekening en drie gevolgenregisters. De posten zijn niet op dezelfde manier zichtbaar.",
+          "hint": "Wat lastig in rendement past kan minder gewicht krijgen. Dat betekent niet dat de waarde afwezig is.",
+          "reveal": [
+            {
+              "id": "budget",
+              "label": "Besparingskaart",
+              "title": "Kosten nu omlaag",
+              "text": "Minder opleiding, onderhoud en verwerking verlaagt de zichtbare begroting."
+            },
+            {
+              "id": "nature",
+              "label": "Milieuregister",
+              "title": "Natuurlijke voorwaarden",
+              "text": "Grondstoffen, water, energie en emissies hebben gevolgen die niet altijd volledig in productprijzen zitten."
+            },
+            {
+              "id": "work",
+              "label": "Werknemersregister",
+              "title": "Meer dan een kostenpost",
+              "text": "Kennis, eerlijke beloning, werkzekerheid, opleiding en langdurige relaties dragen waarde; een korte beoordeling kan hun latere effect missen."
+            },
+            {
+              "id": "distribution",
+              "label": "Opbrengstkaart",
+              "title": "Waar komt de waarde terecht?",
+              "text": "Onderzoek hoe opbrengsten tussen kapitaal, arbeid en andere partijen worden verdeeld. Piketty's concentratielens is voorwaardelijk, geen oordeel over ieder bedrijf."
+            }
+          ],
+          "required": [
+            "budget",
+            "nature",
+            "work",
+            "distribution"
+          ],
+          "explainAfter": "De inrichting van meting, beloning en governance bepaalt mede wat economisch zichtbaar en mogelijk wordt.",
+          "concepts": [
+            "ecologische waarde",
+            "sociale waarde",
+            "onbeprijsde gevolgen",
+            "arbeid versus kapitaal"
+          ],
+          "sourceBlocks": [
+            39,
+            40
+          ],
+          "clueId": "m3-06-b1-clue",
+          "clueTitle": "De kosten naast de begroting"
+        },
+        {
+          "id": "m3-06-b2",
+          "type": "connect",
+          "title": "Wanneer schade financieel logisch lijkt",
+          "sceneObject": "evidence",
+          "intro": "Verbind prijs, beoordeling en mogelijke gevolg. Beoordeel de verklaring los van de rechtvaardiging.",
+          "hint": "Financieel rationeel betekent passend bij een geldcriterium. Het betekent niet automatisch ethisch verantwoord.",
+          "pairs": [
+            {
+              "id": "pollution",
+              "left": "Milieuschade staat niet volledig in de prijs",
+              "right": "Een vervuilende optie kan financieel goedkoper lijken.",
+              "feedback": "De rekening en totale gevolgen verschillen."
+            },
+            {
+              "id": "labour",
+              "left": "Werk wordt alleen als directe kosten gemeten",
+              "right": "Opleiding en zekerheid kunnen minder prioriteit krijgen.",
+              "feedback": "De meetlat laat bijdragen en latere waarde minder zien."
+            },
+            {
+              "id": "rules",
+              "left": "Belasting, regels of maatschappelijke druk veranderen de voorwaarden",
+              "right": "Ecologische of sociale gevolgen kunnen zwaarder meewegen.",
+              "feedback": "Correcties veranderen prikkels; uitkomsten moeten worden gevolgd."
+            },
+            {
+              "id": "governance",
+              "left": "Betrokkenen krijgen bruikbare vertegenwoordiging",
+              "right": "Eerder gemiste belangen kunnen de afweging bereiken.",
+              "feedback": "Vertegenwoordiging verandert niet automatisch ieder extern criterium."
+            }
+          ],
+          "explainAfter": "Onderzoek welk mechanisme werkt: prijs, horizon, zeggenschap of hun combinatie. Goede bedoelingen zijn geen volledige systeemverklaring.",
+          "concepts": [
+            "prikkels versus intentie",
+            "externe correcties",
+            "financiële filter"
+          ],
+          "sourceBlocks": [
+            39,
+            40
+          ],
+          "clueId": "m3-06-b2-clue",
+          "clueTitle": "Wanneer schade financieel logisch lijkt"
+        },
+        {
+          "id": "m3-06-b3",
+          "type": "order",
+          "title": "De concurrent deed het eerst",
+          "sceneObject": "evidence",
+          "intro": "Orden het gevonden sectorpatroon rond minimale naleving. De route laat zien hoe een grens kan verschuiven.",
+          "hint": "Een verklaring vanuit concurrentie is niet automatisch een rechtvaardiging. Juridisch toegestaan en ethisch verdedigbaar zijn verschillende vragen.",
+          "order": [
+            {
+              "id": "pressure",
+              "text": "Concurrenten besparen met een aanvankelijk betwiste praktijk.",
+              "feedback": "Het bestuur ervaart een continuïteits- en margedruk."
+            },
+            {
+              "id": "frame",
+              "text": "De praktijk wordt 'nodig voor concurrentievermogen' genoemd.",
+              "feedback": "Een nieuwe interpretatie verzacht de eerdere twijfel."
+            },
+            {
+              "id": "repeat",
+              "text": "Herhaling en financiële beoordeling bevestigen de route.",
+              "feedback": "De sociale verwachting verandert."
+            },
+            {
+              "id": "normal",
+              "text": "De praktijk gaat als professioneel normaal gelden.",
+              "feedback": "De norm wordt mede door de organisatie gereproduceerd."
+            }
+          ],
+          "correctOrder": [
+            "pressure",
+            "frame",
+            "repeat",
+            "normal"
+          ],
+          "explainAfter": "Fiscaliteit, productie-uitbesteding of selectieve informatie kunnen zo worden bediscussieerd. Onderzoek de concrete feiten; niet elke kostenbesparing is normverval.",
+          "concepts": [
+            "concurrentiedruk",
+            "normverval",
+            "rationalisatie",
+            "legaal versus ethisch"
+          ],
+          "sourceBlocks": [
+            42
+          ],
+          "clueId": "m3-06-b3-clue",
+          "clueTitle": "De concurrent deed het eerst"
+        },
+        {
+          "id": "m3-06-b4",
+          "type": "build",
+          "title": "Een besluit met een bredere waardebasis",
+          "sceneObject": "system",
+          "intro": "Kies vier functies waarmee verschillende verdedigbare voorstellen kunnen worden beoordeeld.",
+          "hint": "De taak bouwt een kwaliteitsbasis. Zij schrijft geen unieke morele prioriteit voor.",
+          "options": [
+            {
+              "id": "facts",
+              "text": "Toon financiële én sociale en ecologische gevolgen.",
+              "correct": true,
+              "feedback": "De relevante informatie wordt breder."
+            },
+            {
+              "id": "criteria",
+              "text": "Benoem rechten, grenzen en gekozen waardecriteria.",
+              "correct": true,
+              "feedback": "Een normatieve keuze wordt beargumenteerbaar."
+            },
+            {
+              "id": "means",
+              "text": "Leg middelen, verantwoordelijkheid en uitvoerbare alternatieven vast.",
+              "correct": true,
+              "feedback": "Het voorstel krijgt een realistische route."
+            },
+            {
+              "id": "test",
+              "text": "Toets effecten, onzekerheden en mogelijke nevengevolgen.",
+              "correct": true,
+              "feedback": "Verandering blijft controleerbaar."
+            },
+            {
+              "id": "price",
+              "text": "Gebruik uitsluitend de laagste prijs als bewijs dat alle andere belangen zijn afgewogen.",
+              "correct": false,
+              "feedback": "Een prijscriterium vervangt de andere gevolgen niet."
+            },
+            {
+              "id": "intent",
+              "text": "Gebruik alleen goede bedoelingen als bewijs van feitelijke verbetering.",
+              "correct": false,
+              "feedback": "Intenties en effecten zijn verschillende gegevens."
+            }
+          ],
+          "required": [
+            "facts",
+            "criteria",
+            "means",
+            "test"
+          ],
+          "explainAfter": "Een breder besluit houdt continuïteit en andere waarden tegelijk zichtbaar. De precieze prioriteit vraagt argumenten en kan verschillen.",
+          "concepts": [
+            "waarden zelfstandig zichtbaar",
+            "uitvoerbaarheid",
+            "verantwoordingscriteria"
+          ],
+          "sourceBlocks": [
+            39,
+            42,
+            44
+          ],
+          "clueId": "m3-06-b4-clue",
+          "clueTitle": "Een besluit met een bredere waardebasis"
+        },
+        {
+          "id": "m3-06-b5",
+          "type": "decision",
+          "title": "Welke claim kan het besluit dragen?",
+          "sceneObject": "person",
+          "intro": "NOVA verlaagt een target en start opleiding. Nog geen effecten zijn gemeten. Kies de uitspraak die het dossier nu kan ondersteunen.",
+          "hint": "Een gewijzigde inrichting toont een maatregel. Voor verbeterde gevolgen heb je aanvullende gegevens nodig.",
+          "options": [
+            {
+              "id": "design",
+              "text": "De inrichting is aangepast; werking en gevolgen worden nog onderzocht.",
+              "correct": true,
+              "feedback": "Dit scheidt genomen maatregel van bewezen uitkomst."
+            },
+            {
+              "id": "result",
+              "text": "Alle sociale en ecologische gevolgen zijn nu aantoonbaar verbeterd.",
+              "correct": false,
+              "feedback": "Die effecten zijn nog niet gemeten."
+            },
+            {
+              "id": "profit",
+              "text": "De lagere target bewijst dat continuïteit niet meer relevant is.",
+              "correct": false,
+              "feedback": "De maatregel heft de financiële voorwaarden niet op."
+            },
+            {
+              "id": "belief",
+              "text": "Iedere betrokken partij moet nu dezelfde ethische prioriteit hebben.",
+              "correct": false,
+              "feedback": "Een procedurele verandering verwijdert waardedisagreement niet."
+            }
+          ],
+          "explainAfter": "Het besluit kan verantwoord worden voorgelegd. De technologieroute gaat verder met de waarden die ontwerpen en infrastructuren daadwerkelijk realiseren.",
+          "concepts": [
+            "verklaring versus rechtvaardiging",
+            "bewijs en onzekerheid"
+          ],
+          "sourceBlocks": [
+            39,
+            42
+          ],
+          "clueId": "m3-06-b5-clue",
+          "clueTitle": "Welke claim kan het besluit dragen?"
+        }
+      ],
+      "finale": {
+        "intro": "Een wettelijk toegestane besparing verlaagt de rekening, maar verschuift risico naar werknemers.",
+        "slots": [
+          {
+            "id": "m3-06-s1",
+            "label": "Welke uitspraak onderscheidt uitleg van rechtvaardiging?",
+            "evidenceBeatId": "m3-06-b3",
+            "options": [
+              {
+                "id": "o0",
+                "text": "Concurrentiedruk kan de besparing verklaren; gevolgen en rechten vragen aparte afweging.",
+                "correct": true,
+                "feedback": "Druk is relevante context, geen volledige normatieve onderbouwing."
+              },
+              {
+                "id": "o1",
+                "text": "Wettelijke toestemming bewijst dat elk getroffen belang al voldoende is beschermd.",
+                "correct": false,
+                "feedback": "Juridische status beantwoordt niet alle ethische gevolgen."
+              },
+              {
+                "id": "o2",
+                "text": "Een lagere bedrijfsrekening bewijst dat maatschappelijke totale kosten dalen.",
+                "correct": false,
+                "feedback": "Een deel van de rekening of het risico kan zijn verschoven."
+              }
+            ]
+          },
+          {
+            "id": "m3-06-s2",
+            "label": "Wat ondersteunt de nieuwe target zonder gemeten effecten?",
+            "evidenceBeatId": "m3-06-b5",
+            "options": [
+              {
+                "id": "o0",
+                "text": "Een gewijzigde maatregel is aantoonbaar; verdere uitkomsten blijven te toetsen.",
+                "correct": true,
+                "feedback": "Dit is de begrensde claim in de casus."
+              },
+              {
+                "id": "o1",
+                "text": "Iedere gemelde waarde heeft gegarandeerd een hogere feitelijke prestatie gekregen.",
+                "correct": false,
+                "feedback": "Doel en effect zijn verschillende claims."
+              },
+              {
+                "id": "o2",
+                "text": "Het voorstel hoeft geen uitvoerbare middelen of verantwoordelijkheid meer te bevatten.",
+                "correct": false,
+                "feedback": "Uitvoering en verantwoording blijven nodig."
+              }
+            ]
+          }
+        ],
+        "conclusion": "Je kunt de organisatie als morele inrichting onderzoeken zonder individuele intenties te raden of alle economische druk als lot te beschouwen."
+      },
+      "originalSourceBlocks": [
+        39,
+        40,
+        42,
+        44
+      ],
+      "optionalReviewBlocks": [
+        40,
+        44
+      ]
+    }
+  ],
+  "chapterFinale": {
+    "title": "Een regionaal vervoerbedrijf",
+    "intro": "Een regionaal vervoerbedrijf deelt planning en voertuigen. Gemeenten en chauffeurs investeren specifiek. Het panel adviseert na budgetvaststelling. Financiers beoordelen kwartaalcijfers; onderhoud vraagt kosten nu en voorkomt risico later.",
+    "caseFacts": [
+      {
+        "id": "hub",
+        "label": "Netwerkcontract",
+        "text": "Gezamenlijke planning verlaagt kosten. Kleine aanbieders hebben het netwerk nodig en kunnen de toegangsvoorwaarden niet zelfstandig wijzigen."
+      },
+      {
+        "id": "contribution",
+        "label": "Samenwerkingsdossier",
+        "text": "Gemeenten hebben locaties ingericht; chauffeurs kregen specifieke training. Financieel kapitaal is één van de meerdere bijdragen."
+      },
+      {
+        "id": "panel",
+        "label": "Panelagenda",
+        "text": "Het panel krijgt achteraf uitleg, zonder recht op herbeoordeling. Het budget is al vastgesteld."
+      },
+      {
+        "id": "finance",
+        "label": "Financieringsmail",
+        "text": "Een financier kan vertrekken bij tegenvallende kwartaalcijfers. Het bestuur stelt onderhoud uit voordat een expliciete opdracht wordt gegeven."
+      }
+    ],
+    "slots": [
+      {
+        "id": "scale",
+        "label": "Wat onderscheiden het kostenvoordeel en de verplichte netwerkaansluiting?",
+        "evidenceBeatId": "m3-01-b3",
+        "options": [
+          {
+            "id": "efficiency",
+            "text": "De prijsdaling geeft informatie over efficiëntie, maar niet volledig over toegangsafhankelijkheid.",
+            "correct": true,
+            "feedback": "De twee functies kunnen tegelijk bestaan; het contract geeft aanvullende machtsinformatie."
+          },
+          {
+            "id": "technology",
+            "text": "De prijsdaling verklaart uitsluitend technische nauwkeurigheid, onafhankelijk van gezamenlijke organisatie.",
+            "correct": false,
+            "feedback": "De casus noemt gedeelde planning en voertuigen als coördinatie."
+          },
+          {
+            "id": "demand",
+            "text": "De verplichte aansluiting is uitsluitend bewijs van veranderde reizigersvoorkeuren.",
+            "correct": false,
+            "feedback": "Het contract betreft de voorwaarden voor aanbieders, niet gemeten voorkeuren."
+          }
+        ]
+      },
+      {
+        "id": "claims",
+        "label": "Waarom horen de gemeentelijke locaties en specifieke training in het besluitdossier?",
+        "evidenceBeatId": "m3-03-b1",
+        "options": [
+          {
+            "id": "equal",
+            "text": "Elke specifieke investering moet zonder verdere criteria hetzelfde stemgewicht krijgen.",
+            "correct": false,
+            "feedback": "Betrokken claims vragen weging, geen automatische gelijkheidsveronderstelling."
+          },
+          {
+            "id": "risk",
+            "text": "Meerdere partijen dragen specifieke bijdragen en afhankelijkheden die relevante claims kunnen geven.",
+            "correct": true,
+            "feedback": "Dit is de stakeholderlens; de precieze weging blijft te rechtvaardigen."
+          },
+          {
+            "id": "price",
+            "text": "De bijdragen tellen alleen als hun oorspronkelijke aankoopprijs direct op aandelen lijkt.",
+            "correct": false,
+            "feedback": "De lens omvat ook kennis, relaties en institutionele ondersteuning."
+          }
+        ]
+      },
+      {
+        "id": "governance",
+        "label": "Welke beperking volgt uit de panelagenda?",
+        "evidenceBeatId": "m3-04-b1",
+        "options": [
+          {
+            "id": "late",
+            "text": "Timing en rechten beperken de mogelijkheid om het vastgestelde budget te beïnvloeden.",
+            "correct": true,
+            "feedback": "De agenda toont een procedurele begrenzing, niet de kwaliteit van de panelleden."
+          },
+          {
+            "id": "skill",
+            "text": "De panelleden hebben onvoldoende deskundigheid; hun latere timing bewijst dit.",
+            "correct": false,
+            "feedback": "Over deskundigheid zijn geen gegevens gegeven."
+          },
+          {
+            "id": "financial",
+            "text": "De agenda verandert rechtstreeks de rendementseis van de financier.",
+            "correct": false,
+            "feedback": "Het panelmoment en externe financieringsvoorwaarden zijn verschillende onderdelen."
+          }
+        ]
+      },
+      {
+        "id": "discipline",
+        "label": "Wat ondersteunt onderhoudsuitstel vóór een expliciete opdracht?",
+        "evidenceBeatId": "m3-05-b3",
+        "options": [
+          {
+            "id": "selection",
+            "text": "Alleen projectselectie tussen sectoren, zonder een rol van verwachte financiële reacties.",
+            "correct": false,
+            "feedback": "De mail toont ook dreigend vertrek en een anticiperende reactie."
+          },
+          {
+            "id": "anticipation",
+            "text": "Verwachte kapitaalreacties kunnen de strategie vooraf disciplineren en de horizon verkorten.",
+            "correct": true,
+            "feedback": "Dat past bij de beschreven volgorde; andere factoren blijven onderzoekbaar."
+          },
+          {
+            "id": "technical",
+            "text": "Gemeten onderhoudsvrije techniek maakt uitstel onafhankelijk van het financieringskader verantwoord.",
+            "correct": false,
+            "feedback": "De casus bevat geen dergelijke technische meting."
+          }
+        ]
+      }
+    ],
+    "conclusion": "Onderzoek coördinatie, specifieke bijdragen, governance en kapitaaldruk afzonderlijk én samen. Leg ontbrekende gegevens en waardecriteria vast. Een uitvoerbaar ethisch voorstel kan meerdere verdedigbare prioriteiten hebben."
+  },
+  "knowledgeCheck": {
+    "intro": "Beoordeel acht nieuwe gevallen op begrippen, mechanismen en bewijs. De vragen schrijven geen unieke ethische prioriteit voor.",
+    "items": [
+      {
+        "id": "m3-k1",
+        "question": "Een distributiebedrijf deelt magazijnen en verlaagt kosten. Welke aanvullende bevinding toont specifiek zeggenschap over markttoegang, naast het schaalvoordeel?",
+        "concepts": [
+          "schaalvoordelen",
+          "marktmacht"
+        ],
+        "sourceBlocks": [
+          2
+        ],
+        "options": [
+          {
+            "id": "o0",
+            "text": "Het bedrijf verwerkt meer bestellingen per route en klanten kiezen vaker zijn dienst dan die van kleinere aanbieders.",
+            "correct": false,
+            "feedback": "Volume en klantkeuze ondersteunen een schaal- of vraagverklaring. Ze tonen nog niet wie de voorwaarden voor toegang van andere partijen kan wijzigen."
+          },
+          {
+            "id": "o1",
+            "text": "Het bedrijf kan toelatingseisen voor onafhankelijke verkopers wijzigen; die verkopers hebben voor hun klanten weinig bruikbare andere routes.",
+            "correct": true,
+            "feedback": "De combinatie van regelbevoegdheid en afhankelijkheid toont een machtsmechanisme over toegang. Zij bewijst nog niet dat een concrete wijziging misbruik oplevert."
+          },
+          {
+            "id": "o2",
+            "text": "Het bedrijf spreidt vaste magazijnkosten over meer transacties en biedt deelnemers daardoor een lager tarief per bestelling.",
+            "correct": false,
+            "feedback": "Dit ondersteunt kostenspreiding en een efficiëntievoordeel. Een lager tarief vertelt niet wie toelatingsregels vaststelt of hoe afhankelijk deelnemers daarvan zijn."
+          },
+          {
+            "id": "o3",
+            "text": "Het bedrijf gebruikt gezamenlijke voorraadgegevens, waardoor aangesloten verkopers hun planning nauwkeuriger kunnen afstemmen op de verwachte vraag.",
+            "correct": false,
+            "feedback": "Dit is een informatie- en coördinatievoordeel. Onderzoek daarnaast bevoegdheden en alternatieven voordat je daar zeggenschap over markttoegang uit afleidt."
+          }
+        ]
+      },
+      {
+        "id": "m3-k2",
+        "question": "Een onderhoudsplan kost nu geld en heeft geschatte vijfjaarsbaten. De commissie beoordeelt alleen het huidige kwartaal. Welke vergelijking toetst specifiek de invloed van haar tijdshorizon?",
+        "concepts": [
+          "financialisering",
+          "tijdshorizon"
+        ],
+        "sourceBlocks": [
+          7
+        ],
+        "options": [
+          {
+            "id": "o0",
+            "text": "Vergelijk de offertes van onderhoudsleveranciers en herbereken de kosten die binnen het huidige kwartaal vallen.",
+            "correct": false,
+            "feedback": "Dit kan de keuze binnen het kwartaal veranderen. Het onderzoekt niet welke latere baten of schade door de gekozen horizon buiten beeld blijven."
+          },
+          {
+            "id": "o1",
+            "text": "Vergelijk hoe verschillende commissies hetzelfde kwartaalresultaat waarderen en welke financiële score zij voor goedkeuring verlangen.",
+            "correct": false,
+            "feedback": "Dit toetst de drempel of waardering binnen het kader. De specifieke uitsluiting van latere gevolgen blijft daarmee nog gelijk."
+          },
+          {
+            "id": "o2",
+            "text": "Vergelijk de precisie van de vijfjaarsschatting en accepteer alleen baten die even zeker zijn als de huidige kosten.",
+            "correct": false,
+            "feedback": "Onzekerheid is relevant, maar die eis kan toekomstige gevolgen blijven uitsluiten. Een horizonvergelijking moet aannames en onzekerheid zichtbaar houden in beide kaders."
+          },
+          {
+            "id": "o3",
+            "text": "Beoordeel hetzelfde plan met kwartaal- en vijfjaarsgevolgen, met dezelfde expliciete aannames, en vergelijk welke posten en afwegingen veranderen.",
+            "correct": true,
+            "feedback": "Dit is een gecontroleerde vergelijking van het kader. De langere horizon maakt latere gevolgen bespreekbaar; zij garandeert noch de schatting, noch een bepaalde ethische keuze."
+          }
+        ]
+      },
+      {
+        "id": "m3-k3",
+        "question": "Een leverancier bouwde machines voor één klant en medewerkers ontwikkelden klantspecifieke kennis. Welke interpretatie verklaart hun mogelijke aanspraken vanuit team production, zonder formele rechten te veronderstellen?",
+        "concepts": [
+          "stakeholderbenadering",
+          "team production theory"
+        ],
+        "sourceBlocks": [
+          11
+        ],
+        "options": [
+          {
+            "id": "o0",
+            "text": "Hun moeilijk elders inzetbare bijdragen dragen samen aan productie bij; afhankelijkheid en gezamenlijke risico’s maken verdeling en bescherming tot aparte vragen.",
+            "correct": true,
+            "feedback": "Team production bekijkt meerdere relationele bijdragen aan een gezamenlijke opbrengst. Dat kan aanspraken helpen begrijpen; de precieze verdeling en formele rechten volgen niet automatisch."
+          },
+          {
+            "id": "o1",
+            "text": "Hun bijdragen zijn via facturen en lonen afzonderlijk vergoed; die betalingen tonen daarmee hoe het risico van toekomstige afhankelijkheid is verdeeld.",
+            "correct": false,
+            "feedback": "Betaling toont afgesproken vergoeding, maar niet zonder meer wie onverhaalbare specifieke investeringen of toekomstige risico’s draagt. Daarvoor moet je de relatie en afspraken onderzoeken."
+          },
+          {
+            "id": "o2",
+            "text": "Hun specifieke investeringen lijken op kapitaalinbreng; daaruit kan voor deze partijen hetzelfde bestuursrecht als voor aandeelhouders worden afgeleid.",
+            "correct": false,
+            "feedback": "De analogie kan een normatief argument openen. Specifieke bijdragen bewijzen echter geen gelijk bestuursrecht; die rechten hangen van de gekozen instituties en afspraken af."
+          },
+          {
+            "id": "o3",
+            "text": "Hun kennis en machines verhogen de productiviteit; die hogere waarde maakt hun bijdragen op andere markten inzetbaar tegen vergelijkbare opbrengsten.",
+            "correct": false,
+            "feedback": "Hogere productiviteit in deze relatie zegt weinig over herbruikbaarheid elders. De casus noemt juist klantspecificiteit; overdraagbare marktwaarde moet afzonderlijk worden vastgesteld."
+          }
+        ]
+      },
+      {
+        "id": "m3-k4",
+        "question": "Omwonenden hebben een erkende aanspraak en acute schade, maar weinig invloed op een fabriek. Welke nieuwe bevinding verandert specifiek hun machtspositie, terwijl claim en schade gelijk blijven?",
+        "concepts": [
+          "macht legitimiteit urgentie"
+        ],
+        "sourceBlocks": [
+          11
+        ],
+        "options": [
+          {
+            "id": "o0",
+            "text": "Een onafhankelijk rapport bevestigt met nauwkeurigere metingen dezelfde schade die de omwonenden al melden.",
+            "correct": false,
+            "feedback": "Dit versterkt het feitenbewijs voor de claim en kan aandacht opleveren. Het geeft op zichzelf nog geen nieuw middel om besluitvorming of middelen te beïnvloeden."
+          },
+          {
+            "id": "o1",
+            "text": "Een publiek panel onderschrijft dat de bestaande aanspraak past bij de afspraken met de gemeenschap.",
+            "correct": false,
+            "feedback": "Dit bevestigt legitimiteit. Erkenning kan indirect invloed vergroten, maar een nieuw beslis- of drukmiddel wordt hiermee nog niet beschreven."
+          },
+          {
+            "id": "o2",
+            "text": "Een noodzakelijke financier verbindt krediet aan hun goedkeuring van het bestaande herstelplan.",
+            "correct": true,
+            "feedback": "De financieringsvoorwaarde geeft de groep invloed via een middel waarvan de fabriek afhankelijk is. Macht is hier analytisch te onderscheiden van legitimiteit en urgentie."
+          },
+          {
+            "id": "o3",
+            "text": "Een arts stelt vast dat uitstel van hetzelfde herstelplan binnen drie weken de bestaande schade verergert.",
+            "correct": false,
+            "feedback": "Dit specificeert tijdsgevoeligheid en urgentie. De claim kan dringender worden zonder dat de groep daarmee een nieuw beïnvloedingsmiddel krijgt."
+          }
+        ]
+      },
+      {
+        "id": "m3-k5",
+        "question": "Een commissie neemt gevolgen pas als risico in behandeling zodra er een geldbedrag bij staat. Welke aanpassing verandert deze beslissingspremisse, in plaats van alleen informatie binnen haar kader?",
+        "concepts": [
+          "beslissingspremissen",
+          "organisatorisch filter"
+        ],
+        "sourceBlocks": [
+          18
+        ],
+        "options": [
+          {
+            "id": "o0",
+            "text": "De commissie gebruikt nauwkeurigere prijzen om gezondheidsgevolgen uit dezelfde dossiers in geld om te rekenen.",
+            "correct": false,
+            "feedback": "Dit verbetert informatie die aan de bestaande toegangseis voldoet. De regel dat alleen geldbedragen risico’s laten meetellen blijft gelijk."
+          },
+          {
+            "id": "o1",
+            "text": "De commissie vraagt vertegenwoordigers van meer groepen om hun gevolgen in hetzelfde financiële format aan te leveren.",
+            "correct": false,
+            "feedback": "Meer perspectieven kunnen informatie verbreden. De financiële toelatingseis blijft echter bestaan en kan nog steeds gevolgen zonder geldbedrag uitsluiten."
+          },
+          {
+            "id": "o2",
+            "text": "De commissie rekent dezelfde soorten financiële gevolgen over vijf jaar door in plaats van over één jaar.",
+            "correct": false,
+            "feedback": "De horizon verandert, maar de vraag toetst de toegangseis van financiële kwantificering. Ook met vijf jaar kunnen niet-geprijsde gevolgen buiten beeld blijven."
+          },
+          {
+            "id": "o3",
+            "text": "De commissie laat ook onderbouwde niet-geprijsde gevolgen tot de risicobeoordeling toe en legt hun afweging expliciet vast.",
+            "correct": true,
+            "feedback": "Nu verandert de regel die bepaalt wat als relevante informatie binnenkomt. Dat schrijft niet voor dat elk gevolg even zwaar moet wegen."
+          }
+        ]
+      },
+      {
+        "id": "m3-k6",
+        "question": "Een bedrijf publiceert sociale cijfers en vraagt werknemers om reacties, maar de huidige beslisrechten blijven gelijk. Welke extra bepaling zou specifiek formele zeggenschap toevoegen?",
+        "concepts": [
+          "rapportage versus zeggenschap"
+        ],
+        "sourceBlocks": [
+          22,
+          23
+        ],
+        "options": [
+          {
+            "id": "o0",
+            "text": "Een werknemersorgaan krijgt een afdwingbaar recht om een omschreven besluit te heropenen en een herbeoordeling te verlangen.",
+            "correct": true,
+            "feedback": "Dit kent een concreet procedureel recht toe. Het is meer dan zichtbaarheid of informeel gewicht; het precieze bereik blijft afhankelijk van de bepaling."
+          },
+          {
+            "id": "o1",
+            "text": "Een bestuurder moet in het volgende rapport uitleggen waarom een gemelde sociale indicator niet tot een ander besluit leidde.",
+            "correct": false,
+            "feedback": "Dit voegt verantwoording en informatie toe. Het geeft werknemers nog niet zelf een afdwingbaar recht om het besluit te openen of te wijzigen."
+          },
+          {
+            "id": "o2",
+            "text": "Een grote investeerder kondigt aan bij tegenvallende cijfers zijn belang te verkopen tenzij het bestuur een verbeterplan presenteert.",
+            "correct": false,
+            "feedback": "Dit kan aanzienlijke druk uitoefenen via financiering. Het verandert de formele beslisrechten van de geraadpleegde werknemers niet op zichzelf."
+          },
+          {
+            "id": "o3",
+            "text": "Het bestuur bespreekt reacties in twee extra bijeenkomsten en gebruikt ze bij de voorbereiding van de jaarlijkse begroting.",
+            "correct": false,
+            "feedback": "Dit kan werkelijke invloed van informatie tonen. Raadpleging en gebruik zijn echter te onderscheiden van een toegekend, afdwingbaar besluitrecht."
+          }
+        ]
+      },
+      {
+        "id": "m3-k7",
+        "question": "Een fonds financiert vooral schaalbare diensten. Andere projecten krijgen moeilijk krediet en hergebruik van bestaande infrastructuur is goedkoper dan een nieuwe route. Welke combinatie verklaart dit het preciesst?",
+        "concepts": [
+          "kapitaal als selectiemechanisme",
+          "lock-in"
+        ],
+        "sourceBlocks": [
+          31
+        ],
+        "options": [
+          {
+            "id": "o0",
+            "text": "Het fonds disciplineert dagelijkse uitvoering; de infrastructuur veroorzaakt schaalvoordeel waardoor de financieringskeuze vooral na investering werkt.",
+            "correct": false,
+            "feedback": "Financiële disciplinering betreft sturing van reeds gefinancierde activiteiten. Hier kiest het fonds welke projecten beginnen; de goedkope bestaande route beïnvloedt daarnaast overstappen."
+          },
+          {
+            "id": "o1",
+            "text": "Het fonds volgt beschikbare technische mogelijkheden; de eerdere infrastructuur verklaart daarmee ook welke opbrengstcriteria de financier noodzakelijk hanteert.",
+            "correct": false,
+            "feedback": "Techniek kan kansen en kosten beïnvloeden. Zij verklaart niet op zichzelf het gekozen rendementscriterium; projectselectie en infrastructuurafhankelijkheid moeten afzonderlijk worden gevolgd."
+          },
+          {
+            "id": "o2",
+            "text": "Het fonds selecteert projecten via verwachte opbrengst; eerdere infrastructuur maakt overstappen relatief duur en kan die selectie vervolgens bestendigen.",
+            "correct": true,
+            "feedback": "Kapitaal bepaalt mede welke ontwikkelingen middelen krijgen. Lock-in betreft kosten en afhankelijkheden door eerdere keuzes; beide mechanismen kunnen elkaar versterken."
+          },
+          {
+            "id": "o3",
+            "text": "Het fonds versterkt voorkeuren van gebruikers; de bestaande infrastructuur blijft in gebruik doordat dezelfde gebruikers de huidige dienst waarderen.",
+            "correct": false,
+            "feedback": "Vraag kan relevant zijn, maar voorkeur en tevredenheid zijn niet gegeven. De casus noemt financieringscriteria en relatieve overstapkosten als concrete structurele mechanismen."
+          }
+        ]
+      },
+      {
+        "id": "m3-k8",
+        "question": "Concurrenten besparen met een wettelijk toegestane werkwijze die werknemersrisico’s verhoogt. Een bedrijf vreest klantenverlies bij een duurder alternatief. Welke analyse scheidt verklaring en rechtvaardiging het zorgvuldigst?",
+        "concepts": [
+          "normverval",
+          "verklaring versus rechtvaardiging"
+        ],
+        "sourceBlocks": [
+          39,
+          42
+        ],
+        "options": [
+          {
+            "id": "o0",
+            "text": "Vergelijk de besparing met het klantenverlies; een voordeel voor continuïteit maakt de concurrerende werkwijze tot het sterkste uitgangspunt voor de risicoafweging.",
+            "correct": false,
+            "feedback": "Continuïteit is een relevant belang, maar de verhouding met gevolgen, rechten en alternatieven vraagt expliciete rechtvaardiging. Een marktdrukverklaring bepaalt die prioriteit niet zelf."
+          },
+          {
+            "id": "o1",
+            "text": "Onderzoek de concurrentiedruk als oorzaak en weeg vervolgens gevolgen, rechten en uitvoerbare alternatieven met expliciete normatieve criteria.",
+            "correct": true,
+            "feedback": "Waarom de keuze aantrekkelijk wordt, is een andere vraag dan waarom zij verantwoord zou zijn. De analyse kan verschillende ethische prioriteiten erkennen en hun onderbouwing toetsen."
+          },
+          {
+            "id": "o2",
+            "text": "Vergelijk de werkwijze met de wettelijke grens; de ruimte daarbinnen geeft de organisatie een gemeenschappelijk criterium voor het wegen van werknemersrisico’s.",
+            "correct": false,
+            "feedback": "Een juridische grens is relevante informatie en een minimumkader. Zij legt niet zonder meer vast hoe alle toegestane risico’s tegenover continuïteit en alternatieven moeten worden gewogen."
+          },
+          {
+            "id": "o3",
+            "text": "Vergelijk hoe vaak concurrenten de werkwijze gebruiken; brede toepassing wijst op een gedeelde norm die als toets voor de eigen beslissing kan dienen.",
+            "correct": false,
+            "feedback": "Frequent gebruik kan normalisatie en marktverwachtingen verklaren. Een gangbare praktijk is nog geen toereikende rechtvaardiging; juist haar gevolgen en norm moeten worden onderzocht."
+          }
+        ]
+      }
+    ]
+  },
+  "institutionalSourceNotes": [
+    {
+      "topic": "German codetermination",
+      "url": "https://www.gesetze-im-internet.de/mitbestg/__7.html",
+      "scope": "Covered-company supervisory seats; not universal equal operational control. Scope, exemptions and voting arrangements matter."
+    },
+    {
+      "topic": "UK Section 172",
+      "url": "https://www.legislation.gov.uk/ukpga/2006/46/section/172",
+      "scope": "Company success for members as a whole while having regard to listed factors; no equal-weighting rule or stakeholder veto."
+    },
+    {
+      "topic": "Delaware public benefit corporations",
+      "url": "https://delcode.delaware.gov/title8/c001/sc15/",
+      "scope": "One jurisdiction's legal form, distinct from private B Corp certification."
+    },
+    {
+      "topic": "CSRD scope changes",
+      "url": "https://commission.europa.eu/law/law-making-process/better-regulation/simplification-implementation-and-enforcement/simplification_en",
+      "scope": "Current reporting scope changed; teach transparency mechanism and verify applicable obligations for real organizations."
+    },
+    {
+      "topic": "Dutch and Scandinavian source examples",
+      "scope": "Dutch company-interest wording is context dependent; Scandinavian rules vary by country. This route teaches institutional variation, not exhaustive legal guidance."
+    }
+  ]
+}

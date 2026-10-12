@@ -1,0 +1,3275 @@
+{
+  "lessonId": "m2",
+  "title": "De stroom onder het gedrag",
+  "status": "playable-runtime-checked",
+  "investigations": [
+    {
+      "id": "m2-01",
+      "world": {
+        "name": "De innamebalie",
+        "imageKey": "chapter-2",
+        "exit": {
+          "label": "Open het gewijzigde retourdossier",
+          "lockType": "review-route",
+          "problem": "De routine keurt een oud leveranciersdossier opnieuw goed, terwijl eigenaar en omstandigheden veranderd zijn.",
+          "unlockedText": "De wijzigingscheck markeert een retourstroom voor nader onderzoek.",
+          "destinationReason": "De retourruimte bevat de gevolgen die de oude routine niet registreerde."
+        },
+        "spots": [
+          {
+            "id": "m2-01-record",
+            "title": "Werknotitie naast het dossier",
+            "point": [
+              0.18,
+              0.55
+            ],
+            "approach": [
+              0.25,
+              0.7
+            ],
+            "observation": "Een korte werknotitie verbindt dit dossier met de dagelijkse praktijk.",
+            "detail": "Een heuristiek is een snelle vuistregel. Zij bespaart aandacht, maar moet bij belangrijke veranderingen worden gecontroleerd."
+          },
+          {
+            "id": "m2-01-empty",
+            "title": "Een ongebruikte lade",
+            "point": [
+              0.84,
+              0.73
+            ],
+            "approach": [
+              0.76,
+              0.83
+            ],
+            "observation": "De lade is leeg. De krassen en stoflaag vertellen niet waarom het besluit is genomen.",
+            "detail": "Dit spoor geeft geen inhoudelijk bewijs voor je verklaring. Een onderzoek bevat ook doodlopende sporen: keer terug naar de concrete documenten, handelingen en mensen."
+          }
+        ]
+      },
+      "beats": [
+        {
+          "id": "m2-01-b1",
+          "type": "inspect",
+          "title": "Een bekende naam, nieuwe omstandigheden",
+          "sceneObject": "evidence",
+          "intro": "Onderzoek drie delen van hetzelfde dossier. De balie ziet een bekende naam; jij zoekt wat veranderd is.",
+          "hint": "Een heuristiek is een snelle vuistregel. Zij bespaart aandacht, maar moet bij belangrijke veranderingen worden gecontroleerd.",
+          "reveal": [
+            {
+              "id": "stamp",
+              "label": "Goedkeuringsstempel",
+              "title": "Een bruikbare routine",
+              "text": "Bestaande leveranciers krijgen automatisch groen. Dat bespaart tijd bij onveranderde omstandigheden."
+            },
+            {
+              "id": "owner",
+              "label": "Eigenaarsbericht",
+              "title": "Een veranderd geval",
+              "text": "De leverancier heeft een nieuwe eigenaar. Een eerdere beoordeling bevat deze nieuwe omstandigheden niet."
+            },
+            {
+              "id": "timer",
+              "label": "Balietimer",
+              "title": "Beslissen onder druk",
+              "text": "De medewerker heeft beperkte tijd, veel informatie en een dagtarget. Snel handelen kan daardoor logisch voelen."
+            }
+          ],
+          "required": [
+            "stamp",
+            "owner",
+            "timer"
+          ],
+          "explainAfter": "Gedrag ontstaat in een wisselwerking van mensen en context. Een routine is niet vanzelf fout; onderzoek wanneer haar informatiebasis niet meer past.",
+          "concepts": [
+            "mens en systeem",
+            "beperkte rationaliteit",
+            "intuïtie emotie ervaring",
+            "heuristieken",
+            "contextdruk"
+          ],
+          "sourceBlocks": [
+            0,
+            5,
+            8
+          ],
+          "clueId": "m2-01-b1-clue",
+          "clueTitle": "Een bekende naam, nieuwe omstandigheden"
+        },
+        {
+          "id": "m2-01-b2",
+          "type": "sort",
+          "title": "Welke dossiers vragen een pauze?",
+          "sceneObject": "evidence",
+          "intro": "Zet vier dossiers in de normale route of de wijzigingscheck. Noor heeft één voorbeeld voorgedaan: een nieuwe eigenaar vraagt controle.",
+          "hint": "De check reageert op relevante verandering of onzekerheid, niet op iedere kleine administratieve wijziging.",
+          "categories": [
+            {
+              "id": "routine",
+              "label": "Bestaande informatie bruikbaar"
+            },
+            {
+              "id": "check",
+              "label": "Nieuwe beoordeling nodig"
+            }
+          ],
+          "cards": [
+            {
+              "id": "same",
+              "text": "Zelfde eigenaar; recente audit; dezelfde productie.",
+              "category": "routine",
+              "feedback": "De omstandigheden sluiten nog bij de bestaande beoordeling aan."
+            },
+            {
+              "id": "new",
+              "text": "Nieuwe eigenaar; audit van vóór de overname.",
+              "category": "check",
+              "feedback": "De oude beoordeling kan nieuwe praktijken niet onderbouwen."
+            },
+            {
+              "id": "font",
+              "text": "Nieuw lettertype; inhoud en organisatie ongewijzigd.",
+              "category": "routine",
+              "feedback": "De vormwijziging biedt geen inhoudelijke risicowijziging."
+            },
+            {
+              "id": "risk",
+              "text": "Nieuwe afvalroute; bestemming nog onbekend.",
+              "category": "check",
+              "feedback": "De route en onbekende gevolgen vragen nieuwe informatie."
+            }
+          ],
+          "explainAfter": "Bewuste reflectie heeft tijd en duidelijke signalen nodig. Een gerichte check ondersteunt deskundige routines zonder onbeperkte aandacht te veronderstellen.",
+          "concepts": [
+            "reflectievoorwaarden",
+            "routines versus heroverweging",
+            "informatie en tijd"
+          ],
+          "sourceBlocks": [
+            5,
+            6,
+            8,
+            10
+          ],
+          "clueId": "m2-01-b2-clue",
+          "clueTitle": "Welke dossiers vragen een pauze?"
+        },
+        {
+          "id": "m2-01-b3",
+          "type": "connect",
+          "title": "Van dagtarget naar systeemgedrag",
+          "sceneObject": "evidence",
+          "intro": "Verbind de baliecondities met hun mogelijke effect. Iedere verbinding verklaart een mechanisme, geen vast karakter van de medewerker.",
+          "hint": "Context kan een keuze veilig of riskant laten voelen. Dat verklaart gedrag zonder iedere verantwoordelijkheid op te heffen.",
+          "pairs": [
+            {
+              "id": "time",
+              "left": "Weinig tijd voor complexe dossiers",
+              "right": "De bekende goedkeuringsroutine wordt aantrekkelijker.",
+              "feedback": "Reflectie vraagt beschikbare aandacht."
+            },
+            {
+              "id": "leader",
+              "left": "Een leidinggevende beloont alleen snelle afhandeling",
+              "right": "Vertragen kan als afwijken van de norm voelen.",
+              "feedback": "Hiërarchie en voorbeeldgedrag beïnvloeden de sociale verwachting."
+            },
+            {
+              "id": "scale",
+              "left": "Alle balies gebruiken dezelfde vuistregel",
+              "right": "Afzonderlijke snelle keuzes kunnen één groot patroon vormen.",
+              "feedback": "Systeemgedrag ontstaat mede uit opgetelde menselijke reacties."
+            }
+          ],
+          "explainAfter": "Mensen maken systemen en worden door hun inrichting beïnvloed. Beoordeel een handeling samen met informatie, prikkels en sociale ruimte.",
+          "concepts": [
+            "sociale verwachtingen",
+            "hiërarchie",
+            "individueel gedrag op schaal",
+            "normveiligheid"
+          ],
+          "sourceBlocks": [
+            0,
+            5,
+            8
+          ],
+          "clueId": "m2-01-b3-clue",
+          "clueTitle": "Van dagtarget naar systeemgedrag"
+        },
+        {
+          "id": "m2-01-b4",
+          "type": "build",
+          "title": "Bouw de wijzigingsroute",
+          "sceneObject": "system",
+          "intro": "Kies drie onderdelen die verandering herkennen, tijd vrijmaken en een beslissing traceerbaar houden.",
+          "hint": "Dit bouwdoel gaat over een betrouwbare route. Andere maatregelen kunnen nuttig zijn, maar vervangen deze drie functies niet.",
+          "options": [
+            {
+              "id": "signal",
+              "text": "Markeer eigenaar-, proces- en risicowijzigingen.",
+              "correct": true,
+              "feedback": "Dit geeft de routine een inhoudelijk pauzesignaal."
+            },
+            {
+              "id": "time",
+              "text": "Reserveer beoordelingstijd voor gemarkeerde dossiers.",
+              "correct": true,
+              "feedback": "Een signaal wordt bruikbaar als iemand werkelijk kan onderzoeken."
+            },
+            {
+              "id": "owner",
+              "text": "Wijs beoordelaar en terugkoppeling aan.",
+              "correct": true,
+              "feedback": "Verantwoordelijkheid en besluitreden blijven zichtbaar."
+            },
+            {
+              "id": "training",
+              "text": "Bied alleen extra snelheidstraining.",
+              "correct": false,
+              "feedback": "Vaardigheid helpt, maar dit organiseert geen controle op verandering."
+            },
+            {
+              "id": "target",
+              "text": "Verhoog alleen het aantal dossiers per uur.",
+              "correct": false,
+              "feedback": "Dit versterkt de bestaande prikkel voor snelle afhandeling."
+            },
+            {
+              "id": "manual",
+              "text": "Laat ieder dossier volledig opnieuw onderzoeken.",
+              "correct": false,
+              "feedback": "Dat kan schaarse aandacht overbelasten zonder gericht risicosignaal."
+            }
+          ],
+          "required": [
+            "signal",
+            "time",
+            "owner"
+          ],
+          "explainAfter": "Een passende structuur maakt heroverweging uitvoerbaar. Observeer of de route werkelijke veranderingen vindt en geen schijncontrole wordt.",
+          "concepts": [
+            "gerichte ondersteuning",
+            "reflectievoorwaarden",
+            "contextinterventie"
+          ],
+          "sourceBlocks": [
+            5,
+            8,
+            10
+          ],
+          "clueId": "m2-01-b4-clue",
+          "clueTitle": "Bouw de wijzigingsroute"
+        },
+        {
+          "id": "m2-01-b5",
+          "type": "inspect",
+          "title": "Wie vormt hier een groep?",
+          "sceneObject": "evidence",
+          "intro": "Open de bezoekerslijst, teamfoto en relatiekaart. Gedeelde aanwezigheid is niet automatisch gedeelde verbondenheid.",
+          "hint": "Een sociale groep heeft betekenisvolle verbondenheid. Een aggregaat deelt een plaats; een categorie deelt een kenmerk.",
+          "reveal": [
+            {
+              "id": "team",
+              "label": "Teamfoto",
+              "title": "Verbonden deelnemers",
+              "text": "Dit team herkent zichzelf als samenwerkingsgroep. De gedeelde betekenis onderscheidt het van toevallig naast elkaar staan."
+            },
+            {
+              "id": "queue",
+              "label": "Wachtrij",
+              "title": "Een aggregaat",
+              "text": "Bezoekers staan tegelijk bij de balie. Dat geeft zonder verbondenheid nog geen sociale groep."
+            },
+            {
+              "id": "category",
+              "label": "Kenmerkfilter",
+              "title": "Een categorie",
+              "text": "'Alle bezitters van dit model' groepeert mensen op een kenmerk, zonder te bewijzen dat zij zich verbonden voelen."
+            },
+            {
+              "id": "ties",
+              "label": "Relatiekaart",
+              "title": "Twee soorten verbinding",
+              "text": "Primaire groepen steunen op nauwe relaties; secundaire op een taak of doel. Een projectteam kan later ook vriendschap ontwikkelen."
+            }
+          ],
+          "required": [
+            "team",
+            "queue",
+            "category",
+            "ties"
+          ],
+          "explainAfter": "De indeling helpt gedrag en verbondenheid onderzoeken. Zij zet mensen niet voor altijd in één vak.",
+          "concepts": [
+            "sociale groep",
+            "aggregaat",
+            "categorie",
+            "primaire en secundaire groep"
+          ],
+          "sourceBlocks": [
+            4
+          ],
+          "clueId": "m2-01-b5-clue",
+          "clueTitle": "Wie vormt hier een groep?"
+        },
+        {
+          "id": "m2-01-b6",
+          "type": "sort",
+          "title": "Herbouw de bezoekerskaart",
+          "sceneObject": "evidence",
+          "intro": "Orden zes bezoekersrecords. Dezelfde persoon kan op meerdere momenten deel zijn van verschillende verbanden.",
+          "hint": "Kijk naar de beschreven verbondenheid, aanwezigheid of overeenkomst. Gebruik geen beroepslabel als automatisch groepsbewijs.",
+          "categories": [
+            {
+              "id": "group",
+              "label": "Betekenisvolle groep"
+            },
+            {
+              "id": "aggregate",
+              "label": "Toevallig tegelijk hier"
+            },
+            {
+              "id": "category",
+              "label": "Gedeeld kenmerk"
+            }
+          ],
+          "cards": [
+            {
+              "id": "friends",
+              "text": "Vrienden die elkaar steunen en samen afspreken.",
+              "category": "group",
+              "feedback": "De records tonen verbondenheid."
+            },
+            {
+              "id": "wait",
+              "text": "Onbekenden die tegelijk op hun beurt wachten.",
+              "category": "aggregate",
+              "feedback": "Alleen gedeelde aanwezigheid is gegeven."
+            },
+            {
+              "id": "owners",
+              "text": "Alle klanten met toestelversie zeven.",
+              "category": "category",
+              "feedback": "Het filter geeft een overeenkomst."
+            },
+            {
+              "id": "project",
+              "text": "Deelnemers die zich als gezamenlijk reparatieteam zien.",
+              "category": "group",
+              "feedback": "Taak en gedeelde identificatie vormen hier een groep."
+            },
+            {
+              "id": "age",
+              "text": "Alle bezoekers tussen dezelfde leeftijden.",
+              "category": "category",
+              "feedback": "Leeftijd alleen toont geen relatie."
+            },
+            {
+              "id": "crossing",
+              "text": "Mensen die toevallig tegelijk het plein oversteken.",
+              "category": "aggregate",
+              "feedback": "De gebeurtenis geeft geen gedeelde groepsbetekenis."
+            }
+          ],
+          "explainAfter": "Groepsinformatie verklaart een andere laag dan alleen individuele kenmerken. Onderzoek later hoe normen en leiders die verbondenheid beïnvloeden.",
+          "concepts": [
+            "groep versus aggregaat versus categorie"
+          ],
+          "sourceBlocks": [
+            4
+          ],
+          "clueId": "m2-01-b6-clue",
+          "clueTitle": "Herbouw de bezoekerskaart"
+        },
+        {
+          "id": "m2-01-b7",
+          "type": "connect",
+          "title": "De relatie achter de naam",
+          "sceneObject": "evidence",
+          "intro": "Verbind vier relatieberichten. Zij laten zien waarom hetzelfde groepslid verschillende standaarden kan gebruiken.",
+          "hint": "Een referentiegroep is een vergelijkingsstandaard. Ingroup en outgroup betreffen identificatie en afstand; ze vallen niet automatisch samen met formele lidmaatschappen.",
+          "pairs": [
+            {
+              "id": "join",
+              "left": "Een gekozen vereniging versus toegewezen lidmaatschap",
+              "right": "De formele wijze van deelname verschilt.",
+              "feedback": "Formeel vrijwillig betekent niet dat vertrekken praktisch kosteloos is."
+            },
+            {
+              "id": "friends",
+              "left": "Een projectteam ontwikkelt nauwe wederzijdse steun",
+              "right": "Een secundair verband kan ook primaire relaties krijgen.",
+              "feedback": "De functie en banden kunnen veranderen."
+            },
+            {
+              "id": "standard",
+              "left": "Mila vergelijkt vakmanschap met een professionele gemeenschap",
+              "right": "Die gemeenschap werkt als referentiegroep.",
+              "feedback": "Een standaard hoeft geen actuele directe samenwerking te zijn."
+            },
+            {
+              "id": "belong",
+              "left": "Een team voelt 'van ons'; een rivaliserend team 'van hen'",
+              "right": "Identificatie en afstand kunnen normen en beoordeling kleuren.",
+              "feedback": "Dit kan ingroup- en outgroupeffecten helpen onderzoeken."
+            }
+          ],
+          "explainAfter": "De bezoekerskaart is ook een relatiekaart. Gebruik haar om verwachtingen te verklaren, niet om stereotypen als feiten te behandelen.",
+          "concepts": [
+            "vrijwillige en toegewezen groep",
+            "referentiegroep",
+            "ingroup outgroup",
+            "veranderende groepsband"
+          ],
+          "sourceBlocks": [
+            4
+          ],
+          "clueId": "m2-01-b7-clue",
+          "clueTitle": "De relatie achter de naam"
+        }
+      ],
+      "finale": {
+        "intro": "Reconstructeer waarom het gewijzigde dossier een andere route nodig heeft.",
+        "slots": [
+          {
+            "id": "m2-01-s1",
+            "label": "Wat is aangetoond door stempel en eigenaarsbericht?",
+            "evidenceBeatId": "m2-01-b1",
+            "options": [
+              {
+                "id": "o0",
+                "text": "De gebruikte beoordeling is ouder dan een relevante verandering.",
+                "correct": true,
+                "feedback": "De bewijsstukken onderbouwen een informatiegat."
+              },
+              {
+                "id": "o1",
+                "text": "De nieuwe eigenaar heeft aantoonbaar al schade veroorzaakt.",
+                "correct": false,
+                "feedback": "Een verandering rechtvaardigt onderzoek, maar bewijst nog geen schade."
+              },
+              {
+                "id": "o2",
+                "text": "De medewerker mist aantoonbaar iedere technische vaardigheid.",
+                "correct": false,
+                "feedback": "Over vaardigheid bevatten deze stukken geen gegevens."
+              }
+            ]
+          },
+          {
+            "id": "m2-01-s2",
+            "label": "Welke wijziging pakt het getoonde mechanisme aan?",
+            "evidenceBeatId": "m2-01-b4",
+            "options": [
+              {
+                "id": "o0",
+                "text": "Meer snelheid belonen, met behoud van automatische hergoedkeuring.",
+                "correct": false,
+                "feedback": "Dat verandert de ontbrekende wijzigingscheck niet."
+              },
+              {
+                "id": "o1",
+                "text": "Signalen verbinden aan beschikbare beoordelingstijd en een verantwoordelijke.",
+                "correct": true,
+                "feedback": "Dit verbindt herkennen met daadwerkelijk onderzoeken."
+              },
+              {
+                "id": "o2",
+                "text": "Alleen een nieuwe leveranciernaam op hetzelfde groenstempel zetten.",
+                "correct": false,
+                "feedback": "Een ander etiket levert geen nieuwe informatie."
+              }
+            ]
+          }
+        ],
+        "conclusion": "De wijzigingsroute opent een concrete onderzoekstaak. Goede wil, routine en controle moeten samenwerken; geen van deze bewijsstukken rechtvaardigt een oordeel over ieders intentie."
+      },
+      "originalSourceBlocks": [
+        0,
+        2,
+        4,
+        5,
+        6,
+        8,
+        10
+      ],
+      "optionalReviewBlocks": [
+        2,
+        6,
+        10
+      ]
+    },
+    {
+      "id": "m2-02",
+      "world": {
+        "name": "De retourruimte",
+        "imageKey": "room-recycling",
+        "exit": {
+          "label": "Stuur het retourprotocol naar gezamenlijke beoordeling",
+          "lockType": "responsibility-map",
+          "problem": "Werkende toestellen verdwijnen als 'voorraadoptimalisatie'; taakverdeling verbergt wie het protocol kan veranderen.",
+          "unlockedText": "Het dossier toont de feitelijke handeling en relevante beslisrollen.",
+          "destinationReason": "De vergaderkamer moet de verspreide verantwoordelijkheid gezamenlijk bespreken."
+        },
+        "spots": [
+          {
+            "id": "m2-02-record",
+            "title": "Werknotitie naast het dossier",
+            "point": [
+              0.18,
+              0.55
+            ],
+            "approach": [
+              0.25,
+              0.7
+            ],
+            "observation": "Een korte werknotitie verbindt dit dossier met de dagelijkse praktijk.",
+            "detail": "Moraal betreft normen over goed handelen; ethiek onderzoekt hun onderbouwing. Dissonantie is spanning tussen handelen en waarden."
+          },
+          {
+            "id": "m2-02-empty",
+            "title": "Een ongebruikte lade",
+            "point": [
+              0.84,
+              0.73
+            ],
+            "approach": [
+              0.76,
+              0.83
+            ],
+            "observation": "De lade is leeg. De krassen en stoflaag vertellen niet waarom het besluit is genomen.",
+            "detail": "Dit spoor geeft geen inhoudelijk bewijs voor je verklaring. Een onderzoek bevat ook doodlopende sporen: keer terug naar de concrete documenten, handelingen en mensen."
+          }
+        ]
+      },
+      "beats": [
+        {
+          "id": "m2-02-b1",
+          "type": "inspect",
+          "title": "Het toestel en de woorden",
+          "sceneObject": "evidence",
+          "intro": "Open het retourtoestel, de opdracht en een persoonlijke notitie. Dezelfde handeling krijgt verschillende beschrijvingen.",
+          "hint": "Moraal betreft normen over goed handelen; ethiek onderzoekt hun onderbouwing. Dissonantie is spanning tussen handelen en waarden.",
+          "reveal": [
+            {
+              "id": "device",
+              "label": "Werkend toestel",
+              "title": "Het feitelijke gevolg",
+              "text": "Het toestel werkt, maar gaat naar vernietiging. Dat is de handeling die onderzocht wordt."
+            },
+            {
+              "id": "memo",
+              "label": "Optimalisatieopdracht",
+              "title": "Een nieuw verhaal",
+              "text": "De opdracht noemt vernietiging 'voorraadoptimalisatie'. Zakelijke herformulering kan de morele lading verminderen."
+            },
+            {
+              "id": "note",
+              "label": "Persoonlijke notitie",
+              "title": "Spanning in het zelfbeeld",
+              "text": "Een medewerker vindt verspilling verkeerd, maar voert het protocol uit. Een geruststellend verhaal kan die spanning verkleinen."
+            }
+          ],
+          "required": [
+            "device",
+            "memo",
+            "note"
+          ],
+          "explainAfter": "Bij morele ontkoppeling verandert de interpretatie van schadelijk handelen. Het herkennen van zo'n mechanisme bewijst geen bewuste leugen of volledige verklaring.",
+          "concepts": [
+            "moraal versus ethiek",
+            "cognitieve dissonantie",
+            "morele ontkoppeling"
+          ],
+          "sourceBlocks": [
+            12,
+            14,
+            16
+          ],
+          "clueId": "m2-02-b1-clue",
+          "clueTitle": "Het toestel en de woorden"
+        },
+        {
+          "id": "m2-02-b2",
+          "type": "sort",
+          "title": "Decodeer de opdracht",
+          "sceneObject": "evidence",
+          "intro": "Leg vijf zinnen bij het mechanisme dat je rechtstreeks kunt herkennen.",
+          "hint": "Herdefiniëren verzacht de betekenis; minimaliseren maakt schade kleiner; verantwoordelijkheid verschuiven legt de afweging elders.",
+          "categories": [
+            {
+              "id": "rename",
+              "label": "Andere betekenis geven"
+            },
+            {
+              "id": "small",
+              "label": "Gevolgen kleiner maken"
+            },
+            {
+              "id": "elsewhere",
+              "label": "Verantwoordelijkheid elders leggen"
+            }
+          ],
+          "cards": [
+            {
+              "id": "strategy",
+              "text": "'Dit is strategische voorraadoptimalisatie.'",
+              "category": "rename",
+              "feedback": "De handeling krijgt een minder moreel geladen beschrijving."
+            },
+            {
+              "id": "tiny",
+              "text": "'Het betreft maar een klein deel van onze productie.'",
+              "category": "small",
+              "feedback": "De omvang wordt gebruikt om de gevolgen minder zwaar te laten voelen."
+            },
+            {
+              "id": "head",
+              "text": "'Het hoofdkantoor maakt de afweging.'",
+              "category": "elsewhere",
+              "feedback": "De eigen beslisrol verdwijnt uit het verhaal."
+            },
+            {
+              "id": "stable",
+              "text": "'We beschermen hiermee vooral stabiliteit.'",
+              "category": "rename",
+              "feedback": "Een gewenste doelterm verandert de beschrijving, niet vanzelf het gevolg."
+            },
+            {
+              "id": "step",
+              "text": "'Ik deed alleen deze ene stap.'",
+              "category": "elsewhere",
+              "feedback": "Een klein taakdeel kan gedeelde verantwoordelijkheid onzichtbaar maken."
+            }
+          ],
+          "explainAfter": "De mechanismen kunnen tegelijk voorkomen. Toets wat de woorden doen en onderzoek daarna feiten, bevoegdheden en werkelijke alternatieven.",
+          "concepts": [
+            "herdefiniëren",
+            "minimaliseren",
+            "verantwoordelijkheid verschuiven"
+          ],
+          "sourceBlocks": [
+            16,
+            17
+          ],
+          "clueId": "m2-02-b2-clue",
+          "clueTitle": "Decodeer de opdracht"
+        },
+        {
+          "id": "m2-02-b3",
+          "type": "order",
+          "title": "Het protocol reist door handen",
+          "sceneObject": "evidence",
+          "intro": "Orden de geregistreerde besluitketen. Markeer daarna welke rollen het protocol kunnen herzien.",
+          "hint": "Een keten toont betrokken taken. Verantwoordelijkheid vraagt daarnaast welke informatie en invloed elke rol had.",
+          "order": [
+            {
+              "id": "policy",
+              "text": "De beleidsrol schrijft de vernietigingsregel.",
+              "feedback": "Hier wordt de beslispremisse vastgelegd."
+            },
+            {
+              "id": "approve",
+              "text": "De leiding keurt het protocol en budget goed.",
+              "feedback": "Deze rol heeft invloed op uitvoering en middelen."
+            },
+            {
+              "id": "schedule",
+              "text": "Het depot plant de afhandeling.",
+              "feedback": "De planning vertaalt de regel naar taken."
+            },
+            {
+              "id": "execute",
+              "text": "De medewerker voert de toegewezen stap uit.",
+              "feedback": "Deze rol ziet concrete gevolgen maar heeft mogelijk minder beleidsruimte."
+            }
+          ],
+          "correctOrder": [
+            "policy",
+            "approve",
+            "schedule",
+            "execute"
+          ],
+          "explainAfter": "Een verspreide keten kan de morele afweging verdunnen. Goodpaster helpt de spanning tussen individuele zorg en economisch ingerichte organisatie onderzoeken.",
+          "concepts": [
+            "verspreide verantwoordelijkheid",
+            "Goodpaster",
+            "organisatie versus individuele zorg"
+          ],
+          "sourceBlocks": [
+            16
+          ],
+          "clueId": "m2-02-b3-clue",
+          "clueTitle": "Het protocol reist door handen"
+        },
+        {
+          "id": "m2-02-b4",
+          "type": "connect",
+          "title": "Waarom blijft het gedrag gelijk?",
+          "sceneObject": "evidence",
+          "intro": "Verbind de notitie aan de ontkoppelingsroute. Een extra kaart onderscheidt een ander groepsmechanisme.",
+          "hint": "Een rationalisatie vermindert spanning in het verhaal. Een veranderde norm gaat over wat herhaaldelijk als gewoon wordt behandeld.",
+          "pairs": [
+            {
+              "id": "tension",
+              "left": "De handeling botst met persoonlijke waarden",
+              "right": "Een geruststellende beschrijving vermindert de gevoelde spanning.",
+              "feedback": "Dit is de route van dissonantie naar ontkoppeling."
+            },
+            {
+              "id": "same",
+              "left": "Alleen de beschrijving verandert",
+              "right": "De feitelijke vernietiging kan doorgaan.",
+              "feedback": "Een beter gevoel is geen bewijs van minder schade."
+            },
+            {
+              "id": "routine",
+              "left": "Dezelfde uitzondering wordt lang herhaald",
+              "right": "De groep kan haar als normaal gaan zien.",
+              "feedback": "Dat is normalisatie; die kan ontkoppeling ondersteunen maar is niet hetzelfde."
+            }
+          ],
+          "explainAfter": "Onderscheid een gewijzigd verhaal, een veranderde groepsnorm en een werkelijk gewijzigd gevolg.",
+          "concepts": [
+            "zelfrechtvaardiging",
+            "verhaal versus handeling",
+            "normalisatie als verwante lens"
+          ],
+          "sourceBlocks": [
+            16,
+            17
+          ],
+          "clueId": "m2-02-b4-clue",
+          "clueTitle": "Waarom blijft het gedrag gelijk?"
+        },
+        {
+          "id": "m2-02-b5",
+          "type": "decision",
+          "title": "Open een onderzoek zonder schuldverhaal",
+          "sceneObject": "person",
+          "intro": "Omar wil het protocol verklaren; Lena wil de woorden controleren. Welke gezamenlijke opdracht kan beide informatiebronnen benutten?",
+          "hint": "De vraag is wat er gebeurt, wie kan ingrijpen en hoe de redenering werkt. Intenties blijven onbewezen zolang bewijs ontbreekt.",
+          "options": [
+            {
+              "id": "facts",
+              "text": "Vergelijk handeling, gevolgen, beslisrollen en de gebruikte rechtvaardiging.",
+              "correct": true,
+              "feedback": "Het onderzoek krijgt feitelijke en psychologische aanknopingspunten."
+            },
+            {
+              "id": "word",
+              "text": "Behandel het woord 'optimalisatie' als voldoende bewijs van bewuste misleiding.",
+              "correct": false,
+              "feedback": "Het woord kan herdefiniëren, maar bewijst opzet niet."
+            },
+            {
+              "id": "role",
+              "text": "Beschouw de uitvoerder als enige verantwoordelijke omdat die het toestel ziet.",
+              "correct": false,
+              "feedback": "Zicht op een gevolg en beleidsbevoegdheid zijn verschillende rollen."
+            },
+            {
+              "id": "policy",
+              "text": "Beschouw de formele goedkeuring als volledige ethische onderbouwing.",
+              "correct": false,
+              "feedback": "Een protocol kan juist de afweging vernauwen."
+            }
+          ],
+          "explainAfter": "Het dossier gaat met feiten en vragen naar gezamenlijk overleg. Context verklaart handelingsruimte; zij wist verantwoordelijkheid niet automatisch uit.",
+          "concepts": [
+            "context en verantwoordelijkheid",
+            "bewijs versus intentie"
+          ],
+          "sourceBlocks": [
+            16,
+            17
+          ],
+          "clueId": "m2-02-b5-clue",
+          "clueTitle": "Open een onderzoek zonder schuldverhaal"
+        },
+        {
+          "id": "m2-02-b6",
+          "type": "inspect",
+          "title": "Wat verdwijnt uit het verhaal?",
+          "sceneObject": "evidence",
+          "intro": "Open vier fragmenten uit een fictief retourdossier. De ontbrekende menselijke gevolgen vragen verschillende onderzoeksvragen.",
+          "hint": "Ontkoppeling kan naast taal en verantwoordelijkheid ook gevolgen of getroffen personen uit de morele afweging drukken.",
+          "reveal": [
+            {
+              "id": "compare",
+              "label": "Vergelijking",
+              "title": "Een erger alternatief",
+              "text": "'Anderen veroorzaken meer schade' kan de eigen handeling aanvaardbaar laten lijken zonder haar gevolgen op te lossen."
+            },
+            {
+              "id": "effects",
+              "label": "Gevolgenbericht",
+              "title": "Niet erkennen",
+              "text": "Een boodschap ontkent gemelde schade zonder de gegevens te toetsen."
+            },
+            {
+              "id": "blame",
+              "label": "Klantenbericht",
+              "title": "De getroffen partij beschuldigen",
+              "text": "Een beschrijving legt de schuld voor benadeling bij de klant en onderzoekt het eigen handelen niet."
+            },
+            {
+              "id": "dehuman",
+              "label": "Afstandelijke registratie",
+              "title": "Een mens wordt een etiket",
+              "text": "Een kleinerend label kan de getroffen persoon buiten volwaardige aandacht plaatsen."
+            }
+          ],
+          "required": [
+            "compare",
+            "effects",
+            "blame",
+            "dehuman"
+          ],
+          "explainAfter": "Sterke morele identiteit en empathie kunnen ontkoppeling minder aantrekkelijk maken; ze geven geen garantie. Maak getroffen mensen zichtbaar en toets het verhaal aan hun gevolgen.",
+          "concepts": [
+            "voordelige vergelijking",
+            "ontkennen effecten",
+            "slachtofferbeschuldiging",
+            "ontmenselijking"
+          ],
+          "sourceBlocks": [
+            14,
+            16
+          ],
+          "clueId": "m2-02-b6-clue",
+          "clueTitle": "Wat verdwijnt uit het verhaal?"
+        },
+        {
+          "id": "m2-02-b7",
+          "type": "sort",
+          "title": "Welk deel wordt weggedrukt?",
+          "sceneObject": "evidence",
+          "intro": "Orden zes uitspraken naar het direct verdwenen onderdeel van de afweging.",
+          "hint": "Gedrag en agency betreffen handeling en verantwoordelijkheid. Andere zinnen richten zich op gevolgen of de getroffen persoon.",
+          "categories": [
+            {
+              "id": "action",
+              "label": "Handeling of eigen rol"
+            },
+            {
+              "id": "effect",
+              "label": "Gevolgen"
+            },
+            {
+              "id": "person",
+              "label": "Getroffen persoon"
+            }
+          ],
+          "cards": [
+            {
+              "id": "good",
+              "text": "'De maatregel is noodzakelijk voor een hoger doel.'",
+              "category": "action",
+              "feedback": "Een doel kan het schadelijke handelen geruststellend herbeschrijven."
+            },
+            {
+              "id": "group",
+              "text": "'Het team keurde het goed, niet ik.'",
+              "category": "action",
+              "feedback": "De eigen rol wordt verschoven of verdund."
+            },
+            {
+              "id": "deny",
+              "text": "'De schade bestaat niet', zonder de melding te onderzoeken.",
+              "category": "effect",
+              "feedback": "Het gevolg wordt zonder toetsing ontkend."
+            },
+            {
+              "id": "worse",
+              "text": "'Andere producten richten meer schade aan.'",
+              "category": "effect",
+              "feedback": "Een gunstige vergelijking kan de eigen schade wegdrukken."
+            },
+            {
+              "id": "deserve",
+              "text": "'Die klant heeft het zelf verdiend.'",
+              "category": "person",
+              "feedback": "De getroffen persoon krijgt de schuld."
+            },
+            {
+              "id": "label",
+              "text": "Een getroffen groep wordt kleinerend beschreven.",
+              "category": "person",
+              "feedback": "Menselijke waardigheid verdwijnt uit het beeld."
+            }
+          ],
+          "explainAfter": "De categorieën helpen een mechanisme vinden. Controleer feiten en context voordat je bewust misleiden of een volledig karakteroordeel concludeert.",
+          "concepts": [
+            "gedrag agency effecten slachtoffer",
+            "ontkoppelingscategorieën"
+          ],
+          "sourceBlocks": [
+            14
+          ],
+          "clueId": "m2-02-b7-clue",
+          "clueTitle": "Welk deel wordt weggedrukt?"
+        }
+      ],
+      "finale": {
+        "intro": "Leg de feitelijke handeling naast het verhaal en de beslisketen.",
+        "slots": [
+          {
+            "id": "m2-02-s1",
+            "label": "Welke verandering tonen toestel en opdracht direct?",
+            "evidenceBeatId": "m2-02-b1",
+            "options": [
+              {
+                "id": "o0",
+                "text": "De vernietiging blijft gelijk; de formulering vermindert mogelijk haar morele lading.",
+                "correct": true,
+                "feedback": "Dit is bewijs voor herdefiniëring, geen bewijs van minder schade."
+              },
+              {
+                "id": "o1",
+                "text": "De technische handeling is schoner geworden door de term optimalisatie.",
+                "correct": false,
+                "feedback": "De nieuwe term verandert de geregistreerde handeling niet."
+              },
+              {
+                "id": "o2",
+                "text": "De medewerker heeft bewezen geen eigen waarden over verspilling.",
+                "correct": false,
+                "feedback": "De persoonlijke notitie wijst juist op spanning."
+              }
+            ]
+          },
+          {
+            "id": "m2-02-s2",
+            "label": "Wat vraagt de verdeelde keten om verantwoordelijkheid te beoordelen?",
+            "evidenceBeatId": "m2-02-b3",
+            "options": [
+              {
+                "id": "o0",
+                "text": "Alleen nagaan wie het laatste fysieke contact met het toestel had.",
+                "correct": false,
+                "feedback": "Dat mist eerdere beslisrechten en informatie."
+              },
+              {
+                "id": "o1",
+                "text": "Per rol onderzoeken welke informatie en beïnvloedingsmogelijkheden aanwezig waren.",
+                "correct": true,
+                "feedback": "Een taakdeel is een begin, geen volledige verantwoordelijkheidsanalyse."
+              },
+              {
+                "id": "o2",
+                "text": "Alle rollen precies dezelfde verantwoordelijkheid toekennen zonder bevoegdheden te vergelijken.",
+                "correct": false,
+                "feedback": "Positie en beïnvloedingsruimte kunnen relevant verschillen."
+              }
+            ]
+          }
+        ],
+        "conclusion": "De route opent overleg met een concrete verantwoordelijkheidskaart. Ontkoppeling verklaart een mogelijk psychologisch proces; normatieve beoordeling vraagt feiten en afwegingen."
+      },
+      "sourceProjections": [
+        {
+          "id": "m2-v12",
+          "sourceBlocks": [
+            12
+          ],
+          "youtube": "VqfWt2OS4rI",
+          "title": "Morals vs Ethics Explained in 2 Minutes w/Memes",
+          "required": true,
+          "purpose": "Een andere gebruikte moraal/ethiek-conventie en de bronvoorbeelden behouden.",
+          "viewingTask": "Noteer hoe deze maker moraal en ethiek onderscheidt; vergelijk met onze werkdefinitie.",
+          "afterPrompt": "Gebruik beide conventies op de retourcasus. Welk deel beschrijft een norm en welk deel onderzoekt haar reden?",
+          "knownCoreConcepts": [
+            "moraal versus ethiek"
+          ],
+          "contentVerification": "Maker en metadata geverifieerd; volledige transcript en unieke voorbeelden niet beschikbaar."
+        }
+      ],
+      "originalSourceBlocks": [
+        12,
+        14,
+        16,
+        17
+      ],
+      "optionalReviewBlocks": [
+        17
+      ]
+    },
+    {
+      "id": "m2-03",
+      "world": {
+        "name": "De vergaderkamer",
+        "imageKey": "room-canteen",
+        "exit": {
+          "label": "Open het gezamenlijke bezwarenregister",
+          "lockType": "consensus-reconstruction",
+          "problem": "De publieke notulen melden instemming; afzonderlijke reacties bevatten gedeelde zorgen.",
+          "unlockedText": "De schijnbare consensus is vervangen door een zichtbaar register met redenen.",
+          "destinationReason": "De aandachtstudio kan laten zien hoe vergelijkbare verwachtingen buiten de vergadering ontstaan."
+        },
+        "spots": [
+          {
+            "id": "m2-03-record",
+            "title": "Werknotitie naast het dossier",
+            "point": [
+              0.18,
+              0.55
+            ],
+            "approach": [
+              0.25,
+              0.7
+            ],
+            "observation": "Een korte werknotitie verbindt dit dossier met de dagelijkse praktijk.",
+            "detail": "Conformiteit is aanpassen aan groepsnormen. Groepsdenken beperkt tegenspraak. Pluralistische onwetendheid is een verkeerde inschatting van wat anderen werkelijk steunen."
+          },
+          {
+            "id": "m2-03-empty",
+            "title": "Een ongebruikte lade",
+            "point": [
+              0.84,
+              0.73
+            ],
+            "approach": [
+              0.76,
+              0.83
+            ],
+            "observation": "De lade is leeg. De krassen en stoflaag vertellen niet waarom het besluit is genomen.",
+            "detail": "Dit spoor geeft geen inhoudelijk bewijs voor je verklaring. Een onderzoek bevat ook doodlopende sporen: keer terug naar de concrete documenten, handelingen en mensen."
+          }
+        ]
+      },
+      "beats": [
+        {
+          "id": "m2-03-b1",
+          "type": "inspect",
+          "title": "Publieke stilte, private twijfel",
+          "sceneObject": "evidence",
+          "intro": "Open notulen, privéreacties en de leidinggevende reactie. De drie bronnen beschrijven niet dezelfde consensus.",
+          "hint": "Conformiteit is aanpassen aan groepsnormen. Groepsdenken beperkt tegenspraak. Pluralistische onwetendheid is een verkeerde inschatting van wat anderen werkelijk steunen.",
+          "reveal": [
+            {
+              "id": "minutes",
+              "label": "Publieke notulen",
+              "title": "Iedereen knikte",
+              "text": "Het besluit staat als unaniem genoteerd. Niemand stelde in de vergadering een vraag."
+            },
+            {
+              "id": "private",
+              "label": "Afzonderlijke reacties",
+              "title": "Vier gedeelde twijfels",
+              "text": "Vier mensen vrezen een onveilige testperiode. Ieder dacht de enige twijfelaar te zijn."
+            },
+            {
+              "id": "response",
+              "label": "Reactie op een eerdere vraag",
+              "title": "De sociale prijs",
+              "text": "Een eerdere vraagsteller kreeg minder projectruimte. Stilte kan daardoor veiliger voelen dan afwijking."
+            }
+          ],
+          "required": [
+            "minutes",
+            "private",
+            "response"
+          ],
+          "explainAfter": "Stilte heeft verschillende mogelijke betekenissen. De privéreacties leveren specifiek bewijs voor verkeerd waargenomen groepssteun.",
+          "concepts": [
+            "conformiteit",
+            "groepsdenken",
+            "pluralistische onwetendheid"
+          ],
+          "sourceBlocks": [
+            19,
+            20,
+            22
+          ],
+          "clueId": "m2-03-b1-clue",
+          "clueTitle": "Publieke stilte, private twijfel"
+        },
+        {
+          "id": "m2-03-b2",
+          "type": "connect",
+          "title": "Maak de stille lus zichtbaar",
+          "sceneObject": "evidence",
+          "intro": "Verbind verwachting, gedrag en gevolg. De lus kan zichzelf in stand houden zonder werkelijk gedeelde overtuiging.",
+          "hint": "Een structuur maakt handelen makkelijker of riskanter. Agency is handelingsruimte binnen die relaties; handelingen kunnen de structuur ook wijzigen.",
+          "pairs": [
+            {
+              "id": "alone",
+              "left": "Iedereen denkt alleen te staan in twijfel",
+              "right": "Vragen stellen lijkt persoonlijk riskant.",
+              "feedback": "De inschatting van de groep beïnvloedt agency."
+            },
+            {
+              "id": "silent",
+              "left": "Iedereen blijft daarom stil",
+              "right": "Anderen lezen stilte als instemming.",
+              "feedback": "De handelingen bevestigen de verkeerde groepsinschatting."
+            },
+            {
+              "id": "stuck",
+              "left": "De schijnbare instemming blijft bestaan",
+              "right": "Een gedeeld probleem krijgt geen gezamenlijke reactie.",
+              "feedback": "Hourdequin helpt dit collectieve actieprobleem analyseren."
+            }
+          ],
+          "explainAfter": "Individuele en structurele verklaringen hangen samen. De lus kan worden doorbroken door informatie en een veiligere procedure.",
+          "concepts": [
+            "collectieve actieproblemen",
+            "waargenomen normen",
+            "structuur en agency"
+          ],
+          "sourceBlocks": [
+            19,
+            20,
+            22,
+            23
+          ],
+          "clueId": "m2-03-b2-clue",
+          "clueTitle": "Maak de stille lus zichtbaar"
+        },
+        {
+          "id": "m2-03-b3",
+          "type": "order",
+          "title": "Een uitzondering wordt de norm",
+          "sceneObject": "evidence",
+          "intro": "Orden de geregistreerde geschiedenis van de te korte testperiode.",
+          "hint": "Normalisatie betekent dat een eerder betwiste praktijk door herhaling en sociale bevestiging gewoon gaat voelen.",
+          "order": [
+            {
+              "id": "exception",
+              "text": "Een korte test wordt één keer als uitzondering aanvaard.",
+              "feedback": "Een beperkte afwijking krijgt een aanleiding."
+            },
+            {
+              "id": "repeat",
+              "text": "De uitzondering wordt vaker toegepast.",
+              "feedback": "Herhaling maakt de praktijk vertrouwder."
+            },
+            {
+              "id": "silence",
+              "text": "Tegenspraak blijft uit en snelle oplevering wordt beloond.",
+              "feedback": "De groep krijgt signalen dat de praktijk verwacht wordt."
+            },
+            {
+              "id": "normal",
+              "text": "De korte test geldt voortaan als professioneel standaardwerk.",
+              "feedback": "De eerdere waardegrens is verschoven."
+            }
+          ],
+          "correctOrder": [
+            "exception",
+            "repeat",
+            "silence",
+            "normal"
+          ],
+          "explainAfter": "Deze casus toont een mogelijke route, geen noodzakelijke wet van groepsgedrag. Onderzoek de echte geschiedenis en gevolgen.",
+          "concepts": [
+            "normalisatie van afwijkend gedrag",
+            "herhaling zwijgen beloning",
+            "normverschuiving"
+          ],
+          "sourceBlocks": [
+            19
+          ],
+          "clueId": "m2-03-b3-clue",
+          "clueTitle": "Een uitzondering wordt de norm"
+        },
+        {
+          "id": "m2-03-b4",
+          "type": "build",
+          "title": "Herstel een bruikbaar overleg",
+          "sceneObject": "system",
+          "intro": "Kies drie functies voor het nieuwe register: zorgen veilig verzamelen, inhoud laten meewegen en terugkoppeling zichtbaar maken.",
+          "hint": "Een veilige inventarisatie helpt alleen als er iets met de informatie gebeurt.",
+          "options": [
+            {
+              "id": "collect",
+              "text": "Verzamel zorgen vooraf via een beschermde route.",
+              "correct": true,
+              "feedback": "Privé-twijfel kan zichtbaar worden zonder meteen sociale blootstelling."
+            },
+            {
+              "id": "weigh",
+              "text": "Bespreek argumenten voordat het besluit vaststaat.",
+              "correct": true,
+              "feedback": "Informatie krijgt invloed op de afweging."
+            },
+            {
+              "id": "respond",
+              "text": "Leg reactie, verantwoordelijke en herziening vast.",
+              "correct": true,
+              "feedback": "De groep kan zien wat haar zorgen veranderen."
+            },
+            {
+              "id": "vote",
+              "text": "Stem alleen opnieuw met dezelfde publieke stilteprocedure.",
+              "correct": false,
+              "feedback": "Dat kan de eerdere verkeerde inschatting herhalen."
+            },
+            {
+              "id": "speaker",
+              "text": "Laat één bekende twijfelaar alle bezwaren verdedigen.",
+              "correct": false,
+              "feedback": "Dit concentreert de sociale kosten bij één persoon."
+            },
+            {
+              "id": "survey",
+              "text": "Meet alleen algemene tevredenheid na het besluit.",
+              "correct": false,
+              "feedback": "Dat geeft de inhoudelijke zorgen geen tijdige invloed."
+            }
+          ],
+          "required": [
+            "collect",
+            "weigh",
+            "respond"
+          ],
+          "explainAfter": "Het bezwarenregister verandert zowel informatie als sociale ruimte. De volgende ruimte onderzoekt hoe zulke verwachtingen ook via producten en aandacht ontstaan.",
+          "concepts": [
+            "psychologische veiligheid",
+            "gezamenlijke informatie",
+            "procedurele agency"
+          ],
+          "sourceBlocks": [
+            19,
+            22
+          ],
+          "clueId": "m2-03-b4-clue",
+          "clueTitle": "Herstel een bruikbaar overleg"
+        },
+        {
+          "id": "m2-03-b5",
+          "type": "inspect",
+          "title": "Drie vergaderinstellingen",
+          "sceneObject": "evidence",
+          "intro": "Bekijk dezelfde overlegtafel in drie instellingen. De functie van leiding en haar stijl zijn verschillende vragen.",
+          "hint": "Instrumenteel richten betekent taakdoelen steunen; expressief richten ondersteunt relaties. Autoritair, democratisch en laissez-faire beschrijven verschillende manieren van leiden.",
+          "reveal": [
+            {
+              "id": "function",
+              "label": "Functiekaart",
+              "title": "Taak en relaties",
+              "text": "Een leidinggevende kan doelen organiseren en tegelijk groepssteun bevorderen. Die functies zijn geen vaste kenmerken van één soort persoon."
+            },
+            {
+              "id": "orders",
+              "label": "Opdrachtenkaart",
+              "title": "Autoritaire stijl",
+              "text": "Eén leider geeft duidelijke opdrachten. Dat kan snel zijn, maar betrokken perspectieven kunnen minder ruimte krijgen."
+            },
+            {
+              "id": "participation",
+              "label": "Gesprekskaart",
+              "title": "Democratische stijl",
+              "text": "Leden dragen bij aan besluiten. Dat kan perspectieven verbreden en vraagt tijd; consensus is niet gegarandeerd."
+            },
+            {
+              "id": "autonomy",
+              "label": "Zelfbeheerkaart",
+              "title": "Laissez-fairestijl",
+              "text": "Leden krijgen veel eigen ruimte. Zonder gezamenlijke doelen of steun kan coördinatie moeilijk worden."
+            }
+          ],
+          "required": [
+            "function",
+            "orders",
+            "participation",
+            "autonomy"
+          ],
+          "explainAfter": "Een stijl is geen universele winnaar. Onderzoek taak, tijdsdruk, relaties en wie wordt gehoord.",
+          "concepts": [
+            "instrumenteel expressief leiderschap",
+            "autoritair democratisch laissez-faire",
+            "contextafhankelijk leiderschap"
+          ],
+          "sourceBlocks": [
+            4,
+            19
+          ],
+          "clueId": "m2-03-b5-clue",
+          "clueTitle": "Drie vergaderinstellingen"
+        },
+        {
+          "id": "m2-03-b6",
+          "type": "connect",
+          "title": "Leg de netwerkverbindingen",
+          "sceneObject": "evidence",
+          "intro": "Verbind de relatiekaarten met het gevolg dat je moet onderzoeken. De bordvoorbeelden zijn afgebakende situaties.",
+          "hint": "Groepsgrootte en verbindingen veranderen mogelijkheden. Een netwerk toont ook indirecte en zwakkere banden buiten een vaste groep.",
+          "pairs": [
+            {
+              "id": "two",
+              "left": "Van twee samenwerkers verlaat één het verband",
+              "right": "Dit tweepersoonsverband bestaat daarna niet meer.",
+              "feedback": "Een dyade is kwetsbaar voor vertrek."
+            },
+            {
+              "id": "third",
+              "left": "Een derde deelnemer wordt aan een conflict toegevoegd",
+              "right": "Bemiddeling én nieuwe coalities worden mogelijk.",
+              "feedback": "Een triade verandert de structuur, niet noodzakelijk de harmonie."
+            },
+            {
+              "id": "outside",
+              "left": "Nieuwe deelnemers hebben contacten buiten de bestaande kring",
+              "right": "Meer externe informatie kan bereikbaar worden.",
+              "feedback": "Diversiteit kan verbindingen verbreden; het effect vraagt observatie."
+            },
+            {
+              "id": "weak",
+              "left": "Een kennis kent een andere werkplaats",
+              "right": "Een zwakke band kan een bruikbare nieuwe route openen.",
+              "feedback": "Niet alleen hechte groepsbanden leveren kansen."
+            },
+            {
+              "id": "large",
+              "left": "Een groter team vormt vaste subgroepen",
+              "right": "Interne coalities kunnen invloed en toegang verdelen.",
+              "feedback": "Groter kan stabieler zijn en tegelijk nieuwe verdeeldheid krijgen."
+            }
+          ],
+          "explainAfter": "Groepsstructuur helpt verklaren wie informatie en steun bereikt. Beoordeel concrete banden; groepsomvang bewijst geen vast gedrag.",
+          "concepts": [
+            "dyade triade groepsgrootte",
+            "coalities",
+            "diversiteit en buitennetwerk",
+            "zwakke verbindingen"
+          ],
+          "sourceBlocks": [
+            4,
+            19
+          ],
+          "clueId": "m2-03-b6-clue",
+          "clueTitle": "Leg de netwerkverbindingen"
+        },
+        {
+          "id": "m2-03-b7",
+          "type": "inspect",
+          "title": "Een onderzoek is geen karaktertest",
+          "sceneObject": "evidence",
+          "intro": "Open de historische onderzoekskaart naast het overlegdossier. Gebruik haar om vragen te stellen, niet om werknemers een vaste gehoorzaamheid toe te schrijven.",
+          "hint": "Een onderzoeksuitkomst hoort bij een specifieke opzet. Vergelijk autoriteit, betekenis van de taak en deelnemerscontext.",
+          "reveal": [
+            {
+              "id": "design",
+              "label": "Onderzoeksopzet",
+              "title": "Een schijnbare leerproef",
+              "text": "In Milgrams klassieke onderzoek dachten deelnemers shocks toe te dienen. De ontvanger was een medewerker van de proef; er werden geen echte shocks gegeven."
+            },
+            {
+              "id": "result",
+              "label": "Resultaatkaart",
+              "title": "Een specifieke uitkomst",
+              "text": "In een bekende opzet ging 65% tot de hoogste aangegeven stand. Dit is geen universeel percentage voor groepen of organisaties."
+            },
+            {
+              "id": "meaning",
+              "label": "Instructiekaart",
+              "title": "Waarom doorgaan?",
+              "text": "De video bespreekt zowel autoriteit als de gedeelde waarde van het onderzoek. Zulke interpretaties vragen kritisch vergelijken van verschillende omstandigheden."
+            },
+            {
+              "id": "work",
+              "label": "NOVA-vraag",
+              "title": "Een andere omgeving",
+              "text": "Welke opdracht, norm en bevoegdheid maken tegenspreken moeilijk? Ons werkdossier geeft eigen bewijs; het historische onderzoek vervangt dat niet."
+            }
+          ],
+          "required": [
+            "design",
+            "result",
+            "meaning",
+            "work"
+          ],
+          "explainAfter": "Onderzoek kan mechanismen suggereren. Gebruik context en tegenvoorbeelden om een overdreven algemene verklaring te vermijden.",
+          "concepts": [
+            "Milgram gehoorzaamheid",
+            "autoriteit en groepswaarden",
+            "historisch experiment contextbeperking"
+          ],
+          "sourceBlocks": [
+            4
+          ],
+          "clueId": "m2-03-b7-clue",
+          "clueTitle": "Een onderzoek is geen karaktertest"
+        }
+      ],
+      "finale": {
+        "intro": "Reconstrueer waarom de publieke consensus geen betrouwbare instemming bleek.",
+        "slots": [
+          {
+            "id": "m2-03-s1",
+            "label": "Welke verklaring ondersteunen notulen én privéreacties?",
+            "evidenceBeatId": "m2-03-b1",
+            "options": [
+              {
+                "id": "o0",
+                "text": "De groep is inhoudelijk unaniem; individuele twijfel ontbreekt.",
+                "correct": false,
+                "feedback": "De afzonderlijke reacties tonen juist gedeelde zorgen."
+              },
+              {
+                "id": "o1",
+                "text": "Leden schatten anderen als instemmend in, terwijl meerdere leden twijfelen.",
+                "correct": true,
+                "feedback": "Dit onderscheidt pluralistische onwetendheid van werkelijke consensus."
+              },
+              {
+                "id": "o2",
+                "text": "Alleen de technische testgegevens verklaren waarom iedereen stil bleef.",
+                "correct": false,
+                "feedback": "De bronnen tonen ook verwachtingen en sociale kosten."
+              }
+            ]
+          },
+          {
+            "id": "m2-03-s2",
+            "label": "Wat verandert wanneer dezelfde twijfels vooraf veilig zichtbaar worden?",
+            "evidenceBeatId": "m2-03-b4",
+            "options": [
+              {
+                "id": "o0",
+                "text": "De groep kan haar inschatting corrigeren; een inhoudelijke afweging blijft nodig.",
+                "correct": true,
+                "feedback": "Meer juiste groepsinformatie is geen automatisch besluit over de testduur."
+              },
+              {
+                "id": "o1",
+                "text": "Een veilig register garandeert dat alle mensen hetzelfde standpunt krijgen.",
+                "correct": false,
+                "feedback": "Veiligheid maakt verschil bespreekbaar, niet afwezig."
+              },
+              {
+                "id": "o2",
+                "text": "Het register vervangt iedere verantwoordelijkheid van de leiding voor besluitvorming.",
+                "correct": false,
+                "feedback": "De leiding moet informatie wegen en verantwoorden."
+              }
+            ]
+          }
+        ],
+        "conclusion": "De exit is een bruikbare gezamenlijke onderzoeksvraag. Een gedeelde twijfel is informatie, geen automatische morele einduitkomst."
+      },
+      "sourceProjections": [
+        {
+          "id": "m2-v23",
+          "sourceBlocks": [
+            23
+          ],
+          "youtube": "4NOLCSIpaJ0",
+          "title": "Structure and agency theory for postgrads",
+          "required": true,
+          "purpose": "De drie expliciete analyseproblemen uit de bron behouden.",
+          "viewingTask": "Noteer de drie problemen die de maker onderscheidt en verbind één met ons overleg.",
+          "afterPrompt": "Welk casusbewijs ondersteunt een structurele verklaring en welke handeling toont agency?",
+          "knownCoreConcepts": [
+            "structuur en agency"
+          ],
+          "contentVerification": "Definities en makerbeschrijving geverifieerd; de drie concrete issues niet volledig geverifieerd."
+        }
+      ],
+      "originalSourceBlocks": [
+        19,
+        20,
+        22,
+        23
+      ],
+      "optionalReviewBlocks": [
+        20
+      ]
+    },
+    {
+      "id": "m2-04",
+      "world": {
+        "name": "De aandachtstudio",
+        "imageKey": "chapter-5",
+        "exit": {
+          "label": "Maak de verborgen alternatieven zichtbaar",
+          "lockType": "choice-environment",
+          "problem": "De app maakt voortdurend vervangen makkelijk en reparatie moeilijk vindbaar; gebruikers ervaren dit als de normale route.",
+          "unlockedText": "Een transparanter keuzemenu toont doelen, alternatieven en instelbare sturing.",
+          "destinationReason": "De servicepoort kan nu beoordelen of zichtbare alternatieven ook werkelijk bereikbaar zijn."
+        },
+        "spots": [
+          {
+            "id": "m2-04-record",
+            "title": "Werknotitie naast het dossier",
+            "point": [
+              0.18,
+              0.55
+            ],
+            "approach": [
+              0.25,
+              0.7
+            ],
+            "observation": "Een korte werknotitie verbindt dit dossier met de dagelijkse praktijk.",
+            "detail": "Een voorkeur kan ontstaan in wisselwerking met aanbod, sociale afhankelijkheid en ontwerp. Dat bewijst geen centraal complot of totale passiviteit."
+          },
+          {
+            "id": "m2-04-empty",
+            "title": "Een ongebruikte lade",
+            "point": [
+              0.84,
+              0.73
+            ],
+            "approach": [
+              0.76,
+              0.83
+            ],
+            "observation": "De lade is leeg. De krassen en stoflaag vertellen niet waarom het besluit is genomen.",
+            "detail": "Dit spoor geeft geen inhoudelijk bewijs voor je verklaring. Een onderzoek bevat ook doodlopende sporen: keer terug naar de concrete documenten, handelingen en mensen."
+          }
+        ]
+      },
+      "beats": [
+        {
+          "id": "m2-04-b1",
+          "type": "inspect",
+          "title": "Een handige functie wordt een dagelijks ritme",
+          "sceneObject": "evidence",
+          "intro": "Open de appgeschiedenis, het werkbericht en de oude instellingen. Onderzoek hoe de telefoon een vanzelfsprekende route werd.",
+          "hint": "Een voorkeur kan ontstaan in wisselwerking met aanbod, sociale afhankelijkheid en ontwerp. Dat bewijst geen centraal complot of totale passiviteit.",
+          "reveal": [
+            {
+              "id": "history",
+              "label": "Appgeschiedenis",
+              "title": "Van hulpmiddel naar verwachting",
+              "text": "Eerst was de app optioneel. Later gingen collega's communicatie en roosters alleen daar delen."
+            },
+            {
+              "id": "work",
+              "label": "Werkbericht",
+              "title": "Bereikbaar zijn als norm",
+              "text": "Niet reageren heeft sociale en praktische kosten. Die verwachting kan gebruik in stand houden, ook als iemand minder notificaties wil."
+            },
+            {
+              "id": "settings",
+              "label": "Instellingen",
+              "title": "Een ontworpen makkelijke route",
+              "text": "Notificaties en automatisch doorscrollen staan standaard aan. Reparatie-informatie vraagt extra stappen."
+            },
+            {
+              "id": "ad",
+              "label": "Campagnekaart",
+              "title": "Een nieuwe behoefte",
+              "text": "De nieuwe telefoon wordt gekoppeld aan bijblijven en erbij horen. Een product kan zo helpen vormen wat als nodig voelt."
+            }
+          ],
+          "required": [
+            "history",
+            "work",
+            "settings",
+            "ad"
+          ],
+          "explainAfter": "Gedrag volgt niet uitsluitend bewust gekozen welzijn of oorspronkelijke vraag. Onderzoek doelen, gewoontes, verwachtingen en reële alternatieven.",
+          "concepts": [
+            "onbewust gevormde praktijken",
+            "infrastructuur en gewoontes",
+            "aanbod vormt vraag",
+            "professionele sociale verwachtingen"
+          ],
+          "sourceBlocks": [
+            25,
+            26,
+            28
+          ],
+          "clueId": "m2-04-b1-clue",
+          "clueTitle": "Een handige functie wordt een dagelijks ritme"
+        },
+        {
+          "id": "m2-04-b2",
+          "type": "order",
+          "title": "Van herhaling naar vanzelfsprekendheid",
+          "sceneObject": "evidence",
+          "intro": "Orden de geschiedenis van appgebruik in dit team.",
+          "hint": "Een gewoonte is herhaald gedrag. Een norm zegt wat verwacht wordt. De geschiedenis kan hun wisselwerking laten zien.",
+          "order": [
+            {
+              "id": "easy",
+              "text": "Een functie maakt een dagelijkse handeling makkelijk.",
+              "feedback": "Gemak ondersteunt herhaald gebruik."
+            },
+            {
+              "id": "habit",
+              "text": "Het team gebruikt de functie steeds opnieuw.",
+              "feedback": "Herhaling wordt routine."
+            },
+            {
+              "id": "normal",
+              "text": "Gebruik gaat als de gewone route gelden.",
+              "feedback": "De gewoonte krijgt sociale betekenis."
+            },
+            {
+              "id": "expected",
+              "text": "Collega's verwachten dat iedereen meedoet.",
+              "feedback": "Afwijken krijgt praktische en sociale kosten."
+            }
+          ],
+          "correctOrder": [
+            "easy",
+            "habit",
+            "normal",
+            "expected"
+          ],
+          "explainAfter": "De route laat een mogelijk proces zien. Zoek feitelijk bewijs over wie voordeel ervaart, wie afhankelijk wordt en welke alternatieven ontbreken.",
+          "concepts": [
+            "gewoonte norm verwachting",
+            "geleidelijke systeemafhankelijkheid"
+          ],
+          "sourceBlocks": [
+            25
+          ],
+          "clueId": "m2-04-b2-clue",
+          "clueTitle": "Van herhaling naar vanzelfsprekendheid"
+        },
+        {
+          "id": "m2-04-b3",
+          "type": "sort",
+          "title": "Wat probeert de boodschap te doen?",
+          "sceneObject": "evidence",
+          "intro": "Leg zes campagnekaarten bij het dominante aanknopingspunt. Dezelfde campagne kan meer dan één mechanisme hebben.",
+          "hint": "Een functie geeft informatie over gebruik. Een identiteitsboodschap koppelt het product aan wie je bent. Gepersonaliseerde sturing gebruikt profielgegevens voor gerichte beïnvloeding.",
+          "categories": [
+            {
+              "id": "function",
+              "label": "Concrete productfunctie"
+            },
+            {
+              "id": "identity",
+              "label": "Identiteit en sociale vergelijking"
+            },
+            {
+              "id": "profile",
+              "label": "Afgestemd op profielgedrag"
+            }
+          ],
+          "cards": [
+            {
+              "id": "battery",
+              "text": "'Deze batterij werkt in deze test tien uur.'",
+              "category": "function",
+              "feedback": "Een controleerbare functieclaim; de testgrens blijft relevant."
+            },
+            {
+              "id": "status",
+              "text": "'Een echte professional loopt niet achter.'",
+              "category": "identity",
+              "feedback": "Status en erbij horen worden aan bezit gekoppeld."
+            },
+            {
+              "id": "romance",
+              "text": "Een telefooncampagne met uitsluitend romantisch succes.",
+              "category": "identity",
+              "feedback": "Een associatie kan een product aan een identiteitsideaal verbinden."
+            },
+            {
+              "id": "night",
+              "text": "Een aanbod op basis van gemeten nachtelijk scrollgedrag.",
+              "category": "profile",
+              "feedback": "De timing wordt aangepast aan geregistreerd gedrag."
+            },
+            {
+              "id": "repair",
+              "text": "'Dit scherm is met deze onderdelen vervangbaar.'",
+              "category": "function",
+              "feedback": "De informatie kan een praktische keuze ondersteunen."
+            },
+            {
+              "id": "fear",
+              "text": "Een persoonlijk aanbod bij signalen van onzekerheid.",
+              "category": "profile",
+              "feedback": "Profielgebruik kan kwetsbaarheid gericht benutten."
+            }
+          ],
+          "explainAfter": "Reclame kan informatie geven én voorkeuren vormen. Beoordeel autonomie, kwetsbaarheid, eerlijkheid en wie invloed op mentale modellen heeft.",
+          "concepts": [
+            "sociale vergelijking",
+            "identiteitsassociaties",
+            "angst voor uitsluiting",
+            "gepersonaliseerde gedragssturing"
+          ],
+          "sourceBlocks": [
+            28,
+            33
+          ],
+          "clueId": "m2-04-b3-clue",
+          "clueTitle": "Wat probeert de boodschap te doen?"
+        },
+        {
+          "id": "m2-04-b4",
+          "type": "connect",
+          "title": "Van gegevens naar zichtbaarheid",
+          "sceneObject": "evidence",
+          "intro": "Verbind ieder onderdeel van de campagneketen. Dit voorbeeld verklaart hoe optimalisatie kan werken zonder een alwetend plan.",
+          "hint": "Een platform kan zichtbaarheid aanpassen op gemeten reacties. De keuze van doel en data bepaalt welke signalen tellen.",
+          "pairs": [
+            {
+              "id": "measure",
+              "left": "De app meet reacties en gebruikspatronen",
+              "right": "Profielen worden bruikbaar voor gerichte selectie.",
+              "feedback": "Dit is een informatie- en machtsvraag."
+            },
+            {
+              "id": "rank",
+              "left": "Een algoritme optimaliseert voor aandacht of aankoop",
+              "right": "Sommige boodschappen en opties komen vaker in beeld.",
+              "feedback": "De zichtbare wereld is mede geselecteerd."
+            },
+            {
+              "id": "loop",
+              "left": "Gebruikers reageren op het geselecteerde aanbod",
+              "right": "Nieuwe reacties kunnen de volgende selectie versterken.",
+              "feedback": "De lus maakt oorspronkelijke voorkeur en beïnvloeding lastig te scheiden."
+            },
+            {
+              "id": "limit",
+              "left": "Alternatieve kanalen ontbreken of zijn duur",
+              "right": "Afwijken van de standaardroute wordt minder haalbaar.",
+              "feedback": "Ontwerp en marktpositie kunnen samen keuzevrijheid begrenzen."
+            },
+            {
+              "id": "parallel",
+              "left": "Aanbevelingen versterken steeds vergelijkbare verhalen",
+              "right": "Een eenzijdige informatieroute kan ontstaan; onderzoek vertrouwen en tegeninformatie.",
+              "feedback": "Het VPRO-bronvoorbeeld bespreekt een mogelijke fuik, geen universele radicaliseringswet."
+            }
+          ],
+          "explainAfter": "De cursus biedt een kritisch perspectief op aandacht. Test de concrete werking; neem niet aan dat alle gebruikers of platforms identiek reageren.",
+          "concepts": [
+            "reclame als psychologische technologie",
+            "platformselectie",
+            "feedbacklus aandacht",
+            "autonomie",
+            "informatiefuik en polarisatie"
+          ],
+          "sourceBlocks": [
+            28,
+            30,
+            33,
+            35
+          ],
+          "clueId": "m2-04-b4-clue",
+          "clueTitle": "Van gegevens naar zichtbaarheid"
+        },
+        {
+          "id": "m2-04-b5",
+          "type": "build",
+          "title": "Maak het menu onderzoekbaar",
+          "sceneObject": "system",
+          "intro": "Kies drie functies die informatie, selectiecriteria en gebruikerscontrole verbeteren.",
+          "hint": "Het doel is een onderzoekbaar menu, niet één verplichte aankoopuitkomst.",
+          "options": [
+            {
+              "id": "alternatives",
+              "text": "Toon reparatie, behoud en vervanging vergelijkbaar.",
+              "correct": true,
+              "feedback": "Andere bruikbare routes worden zichtbaar."
+            },
+            {
+              "id": "explain",
+              "text": "Maak rangschikking, advertentiebelang en profielgebruik begrijpelijk.",
+              "correct": true,
+              "feedback": "Selectie krijgt een controleerbare verklaring."
+            },
+            {
+              "id": "control",
+              "text": "Laat notificaties, personalisatie en standaardroute aanpassen.",
+              "correct": true,
+              "feedback": "De gebruiker krijgt meer handelingsruimte."
+            },
+            {
+              "id": "ratings",
+              "text": "Voeg alleen meer populariteitssignalen toe.",
+              "correct": false,
+              "feedback": "Sociale informatie vervangt geen transparantie over selectie."
+            },
+            {
+              "id": "story",
+              "text": "Maak alleen een campagne over eigen keuzevrijheid.",
+              "correct": false,
+              "feedback": "Een boodschap verandert de bestaande instellingen niet."
+            },
+            {
+              "id": "hide",
+              "text": "Selecteer reparatie standaard zonder de route uit te leggen.",
+              "correct": false,
+              "feedback": "Dit verandert sturing, maar maakt haar niet onderzoekbaar."
+            }
+          ],
+          "required": [
+            "alternatives",
+            "explain",
+            "control"
+          ],
+          "explainAfter": "Een zichtbare optie is nog geen toegankelijke optie. Onderzoek vervolgens overstapkosten en afhankelijkheden aan de servicepoort.",
+          "concepts": [
+            "geïnformeerde keuze",
+            "zichtbare alternatieven",
+            "toestemming en controle"
+          ],
+          "sourceBlocks": [
+            28,
+            30,
+            33
+          ],
+          "clueId": "m2-04-b5-clue",
+          "clueTitle": "Maak het menu onderzoekbaar"
+        },
+        {
+          "id": "m2-04-b6",
+          "type": "inspect",
+          "title": "Drie knoppen in een economisch ontwerp",
+          "sceneObject": "evidence",
+          "intro": "Open de drie ontwerpknoppen uit het TED-bronvoorbeeld. Ze helpen verschillende economische inrichtingen vergelijken.",
+          "hint": "Dit is een vereenvoudigde lens, geen volledige taxonomie. Economieën verschillen in eigendom, publieke coördinatie en de rol van markten bij prijzen.",
+          "reveal": [
+            {
+              "id": "own",
+              "label": "Eigendom",
+              "title": "Wie bezit productiemiddelen?",
+              "text": "Kapitaal kan private of publieke eigendomsvormen hebben. Veel economieën combineren vormen."
+            },
+            {
+              "id": "coord",
+              "label": "Coördinatie",
+              "title": "Wie stuurt productie?",
+              "text": "Publieke planning en private besluitvorming kunnen verschillende rollen krijgen."
+            },
+            {
+              "id": "prices",
+              "label": "Prijsregels",
+              "title": "Waar bepalen markten de prijs?",
+              "text": "Markten, regulering en publieke prijsafspraken kunnen naast elkaar bestaan."
+            },
+            {
+              "id": "context",
+              "label": "Historische vergelijking",
+              "title": "Geen één effect overal",
+              "text": "Het video-voorbeeld toont dat ongelijkheid per land en periode verschilt. Een etiket alleen bewijst geen uniforme trend."
+            }
+          ],
+          "required": [
+            "own",
+            "coord",
+            "prices",
+            "context"
+          ],
+          "explainAfter": "Onderzoek concrete instituties en gevolgen. Een kapitalistische inrichting is geen enkel vast menu en de kritische videolens hoeft niet zonder argument onderschreven te worden.",
+          "concepts": [
+            "kapitalisme als variatie",
+            "eigendom coördinatie marktprijzen",
+            "institutionele keuzes"
+          ],
+          "sourceBlocks": [
+            31
+          ],
+          "clueId": "m2-04-b6-clue",
+          "clueTitle": "Drie knoppen in een economisch ontwerp"
+        },
+        {
+          "id": "m2-04-b7",
+          "type": "connect",
+          "title": "Een toegestane praktijk, veranderde regels",
+          "sceneObject": "evidence",
+          "intro": "Verbind de nieuwe historische en systeemkaarten. De koppelingen laten zien waarom politieke keuzes ertoe doen.",
+          "hint": "Een economie organiseert arbeid, kapitaal en natuurlijke hulpbronnen. Instellingen beïnvloeden productie, verdeling en bescherming.",
+          "pairs": [
+            {
+              "id": "inputs",
+              "left": "Arbeid, productiemiddelen en hulpbronnen worden gecombineerd",
+              "right": "Er ontstaan goederen, diensten en waarde.",
+              "feedback": "De machine-metafoor toont inputs, niet een zelfstandig geweten."
+            },
+            {
+              "id": "food",
+              "left": "Een schadelijke voedselpraktijk is aanvankelijk toegestaan",
+              "right": "Publieke kritiek kan aanleiding zijn voor nieuwe beschermingsregels.",
+              "feedback": "Het TED-bronvoorbeeld verwijst naar Amerikaanse voedselregulering rond 1906."
+            },
+            {
+              "id": "energy",
+              "left": "Goedkope fossiele energie en ongedragen klimaatgevolgen",
+              "right": "Groei- en winstprikkels kunnen schade buiten de rekening laten.",
+              "feedback": "Verklaring en morele rechtvaardiging blijven verschillend."
+            },
+            {
+              "id": "ownership",
+              "left": "Opbrengst en invloed versterken bepaalde eigenaren",
+              "right": "Regelvorming kan de verdeling opnieuw beïnvloeden.",
+              "feedback": "Een feedbacklus vraagt onderzoek naar tegenmacht en concrete context."
+            }
+          ],
+          "explainAfter": "Het bronvoorbeeld stelt hervorming tegenover radicalere verandering als discussie. Beoordeel mechanismen, feiten en criteria; gradeer geen politieke overtuiging.",
+          "concepts": [
+            "arbeid kapitaal natuurlijke hulpbronnen",
+            "productie als waardecreatie",
+            "klimaat groei prikkels",
+            "regelwijziging",
+            "ongelijkheid en feedbackmacht"
+          ],
+          "sourceBlocks": [
+            31,
+            28
+          ],
+          "clueId": "m2-04-b7-clue",
+          "clueTitle": "Een toegestane praktijk, veranderde regels"
+        }
+      ],
+      "finale": {
+        "intro": "Een gewijzigde app toont behoud en reparatie prominenter. Prijzen blijven gelijk.",
+        "slots": [
+          {
+            "id": "m2-04-s1",
+            "label": "Wat ondersteunt een toename van reparatiekeuzes?",
+            "evidenceBeatId": "m2-04-b1",
+            "options": [
+              {
+                "id": "o0",
+                "text": "De gewijzigde zichtbaarheid kan het gedrag mede beïnvloeden.",
+                "correct": true,
+                "feedback": "Gelijkgehouden prijzen ondersteunen onderzoek naar het menu-effect."
+              },
+              {
+                "id": "o1",
+                "text": "De reparatieprijs is aangetoond als enige veranderde oorzaak.",
+                "correct": false,
+                "feedback": "De casus houdt de prijzen gelijk."
+              },
+              {
+                "id": "o2",
+                "text": "De gebruikers hebben bewezen geen eigen doelen of voorkeuren.",
+                "correct": false,
+                "feedback": "Invloed van ontwerp bewijst geen totale afwezigheid van agency."
+              }
+            ]
+          },
+          {
+            "id": "m2-04-s2",
+            "label": "Wat onderscheidt gerichte profielsturing van een algemene statusboodschap?",
+            "evidenceBeatId": "m2-04-b3",
+            "options": [
+              {
+                "id": "o0",
+                "text": "De profielsturing past selectie aan geregistreerd individueel gedrag aan.",
+                "correct": true,
+                "feedback": "Een algemene associatie kan ook beïnvloeden, maar gebruikt hier niet dat individuele profiel."
+              },
+              {
+                "id": "o1",
+                "text": "Een algemene statusboodschap kan nooit een behoefte vormen.",
+                "correct": false,
+                "feedback": "Identiteitsassociaties kunnen vraag mede vormen."
+              },
+              {
+                "id": "o2",
+                "text": "Profielsturing geeft automatisch een controleerbare productprestatie.",
+                "correct": false,
+                "feedback": "Afstemming op gedrag is geen bewijs voor een functieclaim."
+              }
+            ]
+          }
+        ],
+        "conclusion": "Je maakt de route begrijpelijker zonder iedere voorkeur tot manipulatie te reduceren. De servicepoort onderzoekt nu de feitelijke mogelijkheden om anders te handelen."
+      },
+      "sourceProjections": [
+        {
+          "id": "m2-v31",
+          "sourceBlocks": [
+            31
+          ],
+          "youtube": "wcR815SfWOU",
+          "title": "Is capitalism actually broken?",
+          "required": true,
+          "purpose": "Historische voorbeelden, de ontwerpknoppen en de kritische bronredenering behouden.",
+          "viewingTask": "Vergelijk één historisch of landenvoorbeeld met de drie ontwerpknoppen.",
+          "afterPrompt": "Welke institutie en welk bewijs ondersteunen een mechanismelens; welke politieke conclusie blijft discussie?",
+          "knownCoreConcepts": [
+            "kapitalisme als variatie",
+            "institutionele keuzes"
+          ],
+          "contentVerification": "Volledige makertranscript in TED-paginadata gelezen; historische details aanvullend via verplichte bronprojectie."
+        },
+        {
+          "id": "m2-v35",
+          "sourceBlocks": [
+            35
+          ],
+          "youtube": "FLoR2Spftwg",
+          "title": "De online fabeltjesfuik | Zondag met Lubach (S12)",
+          "required": true,
+          "purpose": "De volledige satirische voorbeelden en argumentatie over aanbevelingen behouden.",
+          "viewingTask": "Volg één aanbevelingsketen en onderscheid de getoonde waarneming van de verklaring.",
+          "afterPrompt": "Welk ontwerpdoel kan de selectie verklaren; welk nieuw bewijs is nodig voor een claim over werkelijke polarisatie?",
+          "knownCoreConcepts": [
+            "informatiefuik en polarisatie",
+            "platformselectie"
+          ],
+          "contentVerification": "VPRO-makerbeschrijving en uitgeversubtitleverwijzing geverifieerd; volledige ondertitels nog niet toegankelijk."
+        }
+      ],
+      "originalSourceBlocks": [
+        25,
+        26,
+        28,
+        30,
+        31,
+        33,
+        35
+      ],
+      "optionalReviewBlocks": [
+        26,
+        30
+      ]
+    },
+    {
+      "id": "m2-05",
+      "world": {
+        "name": "De servicepoort",
+        "imageKey": "room-helpdesk",
+        "exit": {
+          "label": "Open een werkelijke overstaproute",
+          "lockType": "dependency-map",
+          "problem": "Er bestaan drie modellen, maar gegevens, onderdelen en werkcontacten zitten in hetzelfde ecosysteem.",
+          "unlockedText": "Het dossier toont bruikbare alternatieven, overstapkosten en de beslisrol achter elke drempel.",
+          "destinationReason": "Het veranderatelier kan gericht werken aan de gevonden handelingsruimte."
+        },
+        "spots": [
+          {
+            "id": "m2-05-record",
+            "title": "Werknotitie naast het dossier",
+            "point": [
+              0.18,
+              0.55
+            ],
+            "approach": [
+              0.25,
+              0.7
+            ],
+            "observation": "Een korte werknotitie verbindt dit dossier met de dagelijkse praktijk.",
+            "detail": "Een keuze is praktisch wanneer iemand haar met beschikbare middelen kan gebruiken. Overstapkosten en relaties kunnen formele opties begrenzen."
+          },
+          {
+            "id": "m2-05-empty",
+            "title": "Een ongebruikte lade",
+            "point": [
+              0.84,
+              0.73
+            ],
+            "approach": [
+              0.76,
+              0.83
+            ],
+            "observation": "De lade is leeg. De krassen en stoflaag vertellen niet waarom het besluit is genomen.",
+            "detail": "Dit spoor geeft geen inhoudelijk bewijs voor je verklaring. Een onderzoek bevat ook doodlopende sporen: keer terug naar de concrete documenten, handelingen en mensen."
+          }
+        ]
+      },
+      "beats": [
+        {
+          "id": "m2-05-b1",
+          "type": "inspect",
+          "title": "Drie modellen, één ecosysteem",
+          "sceneObject": "evidence",
+          "intro": "Onderzoek productkaarten, datatoegang en het werkrooster. Het aantal modellen vertelt niet de hele vrijheidsgeschiedenis.",
+          "hint": "Een keuze is praktisch wanneer iemand haar met beschikbare middelen kan gebruiken. Overstapkosten en relaties kunnen formele opties begrenzen.",
+          "reveal": [
+            {
+              "id": "models",
+              "label": "Drie modellen",
+              "title": "Productvariatie",
+              "text": "Monopolie betekent één aanbieder; duopolie twee. De modellen delen één account, onderdelenplatform en abonnement. Productvariatie bewijst geen onafhankelijke netwerken of volledige overstapvrijheid."
+            },
+            {
+              "id": "data",
+              "label": "Exportbericht",
+              "title": "Gegevens blijven achter",
+              "text": "Reparatiehistorie is niet overdraagbaar. Een alternatief vraagt opnieuw opbouw van informatie."
+            },
+            {
+              "id": "contacts",
+              "label": "Werkrooster",
+              "title": "Relaties in het systeem",
+              "text": "Roosters en collega's zitten in de app. Vertrekken heeft gevolgen voor dagelijkse samenwerking."
+            },
+            {
+              "id": "phrase",
+              "label": "Servicenotitie",
+              "title": "'Zo werkt het nu eenmaal'",
+              "text": "Een veranderbare afspraak wordt als vanzelfsprekend gepresenteerd. Dat kan kritiek en zicht op alternatieven beperken."
+            }
+          ],
+          "required": [
+            "models",
+            "data",
+            "contacts",
+            "phrase"
+          ],
+          "explainAfter": "Dominante infrastructuur kan afhankelijkheid versterken via routines, abonnementen en relaties. Onderzoek sector en alternatieven; een groot platform is niet automatisch hetzelfde als misbruik.",
+          "concepts": [
+            "monopolie duopolie",
+            "ecosysteemafhankelijkheid",
+            "formele versus praktische keuze",
+            "normalisering"
+          ],
+          "sourceBlocks": [
+            37,
+            38,
+            40
+          ],
+          "clueId": "m2-05-b1-clue",
+          "clueTitle": "Drie modellen, één ecosysteem"
+        },
+        {
+          "id": "m2-05-b2",
+          "type": "sort",
+          "title": "Optie, drempel of aanname?",
+          "sceneObject": "evidence",
+          "intro": "Classificeer zes berichten. Deze indeling helpt onderscheiden wat bestaat, wat moeilijk maakt en wat nog onderzocht moet worden.",
+          "hint": "Een formele optie is een toegestane route. Een drempel geeft concrete kosten. Een aanname kan mogelijkheden onzichtbaar maken.",
+          "categories": [
+            {
+              "id": "option",
+              "label": "Formele optie"
+            },
+            {
+              "id": "barrier",
+              "label": "Concrete drempel"
+            },
+            {
+              "id": "assumption",
+              "label": "Nog te toetsen vanzelfsprekendheid"
+            }
+          ],
+          "cards": [
+            {
+              "id": "cancel",
+              "text": "Een opzegknop bestaat.",
+              "category": "option",
+              "feedback": "De knop is een formele route; de gevolgen moeten nog worden bekeken."
+            },
+            {
+              "id": "export",
+              "text": "Gegevensoverdracht is niet beschikbaar.",
+              "category": "barrier",
+              "feedback": "Dit kan overstappen praktisch duur maken."
+            },
+            {
+              "id": "habit",
+              "text": "'Niemand zou ooit een ander systeem willen.'",
+              "category": "assumption",
+              "feedback": "Vraag naar ervaringen en werkelijk bereikbare alternatieven."
+            },
+            {
+              "id": "account",
+              "text": "Een tweede account is toegestaan.",
+              "category": "option",
+              "feedback": "Toestemming bewijst niet dat samenwerking daar werkt."
+            },
+            {
+              "id": "jobs",
+              "text": "Opdrachten zijn alleen in het huidige platform bereikbaar.",
+              "category": "barrier",
+              "feedback": "De netwerkrelatie begrenst praktische toegang tot werk."
+            },
+            {
+              "id": "natural",
+              "text": "'Onze voorwaarden zijn objectief en dus waardevrij.'",
+              "category": "assumption",
+              "feedback": "Voorwaarden bevatten keuzes over toegang en risico."
+            }
+          ],
+          "explainAfter": "Macht werkt via formele regels én verwachtingen. Maak het verschil tussen een knop en haalbaar gebruik zichtbaar.",
+          "concepts": [
+            "psychologische macht",
+            "verwachtingen versus dwang",
+            "handelingsruimte"
+          ],
+          "sourceBlocks": [
+            37,
+            40,
+            46
+          ],
+          "clueId": "m2-05-b2-clue",
+          "clueTitle": "Optie, drempel of aanname?"
+        },
+        {
+          "id": "m2-05-b3",
+          "type": "connect",
+          "title": "Dezelfde regel, een ander perspectief",
+          "sceneObject": "evidence",
+          "intro": "Leg Eva's beheerdersperspectief naast Mila's toegangservaring. Verbind hun posities met wat zij kunnen zien.",
+          "hint": "Positie beïnvloedt welke beperkingen vanzelfsprekend of scherp voelbaar worden. Dat is een mogelijke tendens, geen karakterwet.",
+          "pairs": [
+            {
+              "id": "control",
+              "left": "Een beheerder kan voorwaarden wijzigen",
+              "right": "De regel kan als logisch en flexibel voelen.",
+              "feedback": "Die handelingsruimte is voor anderen niet vanzelf beschikbaar."
+            },
+            {
+              "id": "depend",
+              "left": "Een reparateur heeft weinig alternatieve opdrachten",
+              "right": "Dezelfde regel kan als een harde grens voelen.",
+              "feedback": "Afhankelijkheid maakt gevolgen zichtbaar."
+            },
+            {
+              "id": "voice",
+              "left": "Bezwaren kunnen veilig worden ingebracht",
+              "right": "De beheerder krijgt informatie over eerder gemiste gevolgen.",
+              "feedback": "Veiligheid helpt perceptie en besluitvorming corrigeren."
+            },
+            {
+              "id": "duty",
+              "left": "Een partij heeft meer invloed op de voorwaarden",
+              "right": "Haar verantwoordelijkheidsvraag verschilt van die van een uitvoerder.",
+              "feedback": "Intentie en positie moeten apart worden onderzocht."
+            }
+          ],
+          "explainAfter": "Meer macht kan zicht op gevolgen verminderen; weinig macht kan onrecht voelbaar maken. Controleer perspectieven met feiten en geef kritiek een bruikbare route.",
+          "concepts": [
+            "macht als psychologisch fenomeen",
+            "positie en perceptie",
+            "ongelijk verdeelde verantwoordelijkheid",
+            "psychologische veiligheid"
+          ],
+          "sourceBlocks": [
+            46,
+            47
+          ],
+          "clueId": "m2-05-b3-clue",
+          "clueTitle": "Dezelfde regel, een ander perspectief"
+        },
+        {
+          "id": "m2-05-b4",
+          "type": "build",
+          "title": "Maak overstappen toetsbaar",
+          "sceneObject": "system",
+          "intro": "Kies drie onderdelen waarmee een overstaproute feitelijk onderzocht en uitgeprobeerd kan worden.",
+          "hint": "Je hoeft de hub niet automatisch af te schaffen. Onderzoek toegang, portabiliteit en beslisverantwoordelijkheid.",
+          "options": [
+            {
+              "id": "port",
+              "text": "Maak relevante gegevens overdraagbaar met passende bescherming.",
+              "correct": true,
+              "feedback": "De gegevensdrempel wordt gericht behandeld."
+            },
+            {
+              "id": "trial",
+              "text": "Test samenwerking en onderdelen via een bereikbaar alternatief.",
+              "correct": true,
+              "feedback": "De formele optie krijgt een praktische proef."
+            },
+            {
+              "id": "account",
+              "text": "Leg vast wie toegangsvoorwaarden beoordeelt en op bezwaren reageert.",
+              "correct": true,
+              "feedback": "Invloed en verantwoording krijgen een eigenaar."
+            },
+            {
+              "id": "models",
+              "text": "Voeg alleen een vierde model aan hetzelfde gesloten systeem toe.",
+              "correct": false,
+              "feedback": "Productvariatie verandert de ecosysteemafhankelijkheid niet."
+            },
+            {
+              "id": "campaign",
+              "text": "Noem de bestaande opzegknop voortaan een vrijheidsfunctie.",
+              "correct": false,
+              "feedback": "Een andere naam verandert de kosten van vertrekken niet."
+            },
+            {
+              "id": "survey",
+              "text": "Vraag alleen de beheerders of overstappen eenvoudig is.",
+              "correct": false,
+              "feedback": "Dit mist de ervaring en informatie van afhankelijke gebruikers."
+            }
+          ],
+          "required": [
+            "port",
+            "trial",
+            "account"
+          ],
+          "explainAfter": "Het dossier toont welke ruimte werkelijk bestaat en welke nog moet worden gebouwd. Het veranderatelier kan nu gerichte maatregelen in plaats van algemene schuldvragen bespreken.",
+          "concepts": [
+            "alternatieven zichtbaar maken",
+            "keuzevrijheid",
+            "macht en verantwoordelijkheid"
+          ],
+          "sourceBlocks": [
+            37,
+            40,
+            46
+          ],
+          "clueId": "m2-05-b4-clue",
+          "clueTitle": "Maak overstappen toetsbaar"
+        }
+      ],
+      "finale": {
+        "intro": "Een extra model verschijnt, maar account, opdrachten en data blijven gesloten.",
+        "slots": [
+          {
+            "id": "m2-05-s1",
+            "label": "Wat verandert aantoonbaar door dat vierde model?",
+            "evidenceBeatId": "m2-05-b1",
+            "options": [
+              {
+                "id": "o0",
+                "text": "De productvariatie groeit; de getoonde ecosysteemdrempels blijven.",
+                "correct": true,
+                "feedback": "Meer modellen is niet hetzelfde als meer bruikbare netwerken."
+              },
+              {
+                "id": "o1",
+                "text": "Gegevens worden automatisch overdraagbaar doordat het assortiment groeit.",
+                "correct": false,
+                "feedback": "De exportvoorwaarde is niet veranderd."
+              },
+              {
+                "id": "o2",
+                "text": "Alle gebruikers verliezen nu iedere mogelijke handelingsruimte.",
+                "correct": false,
+                "feedback": "De casus toont begrenzing, geen volledig bewijs van machteloosheid."
+              }
+            ]
+          },
+          {
+            "id": "m2-05-s2",
+            "label": "Welk extra bewijs is nodig om een haalbare uitweg te claimen?",
+            "evidenceBeatId": "m2-05-b4",
+            "options": [
+              {
+                "id": "o0",
+                "text": "Een nieuwe slogan over onafhankelijkheid van gebruikers.",
+                "correct": false,
+                "feedback": "Een slogan toetst de route niet."
+              },
+              {
+                "id": "o1",
+                "text": "Een proef met overdraagbare gegevens en werkende samenwerking buiten de hub.",
+                "correct": true,
+                "feedback": "Dit onderzoekt praktische bruikbaarheid naast formele toestemming."
+              },
+              {
+                "id": "o2",
+                "text": "Alleen een bevestiging van de beheerder dat niemand wil vertrekken.",
+                "correct": false,
+                "feedback": "Dat onderzoekt niet de behoeften en barrières van gebruikers."
+              }
+            ]
+          }
+        ],
+        "conclusion": "Een exit wordt pas bruikbaar met bereikbare mogelijkheden. Positie, verwachtingen en concrete kosten horen samen in de afhankelijkheidskaart."
+      },
+      "originalSourceBlocks": [
+        37,
+        38,
+        40,
+        46,
+        47
+      ],
+      "optionalReviewBlocks": [
+        38,
+        47
+      ]
+    },
+    {
+      "id": "m2-06",
+      "world": {
+        "name": "Het veranderatelier",
+        "imageKey": "room-forum",
+        "exit": {
+          "label": "Start een beschermde reparatiepilot",
+          "lockType": "collective-agency",
+          "problem": "Een medewerker heeft bewijs van verspilling, maar spreken heeft sociale risico's en het protocol blijft onveranderd.",
+          "unlockedText": "Steun, beoordelingsruimte en een toetsbaar alternatief vormen een route die iemand daadwerkelijk kan gebruiken.",
+          "destinationReason": "De volgende les onderzoekt waarom bestuur, kapitaal en zeggenschap deze ruimte mede bepalen."
+        },
+        "spots": [
+          {
+            "id": "m2-06-record",
+            "title": "Werknotitie naast het dossier",
+            "point": [
+              0.18,
+              0.55
+            ],
+            "approach": [
+              0.25,
+              0.7
+            ],
+            "observation": "Een korte werknotitie verbindt dit dossier met de dagelijkse praktijk.",
+            "detail": "Morele moed kan een kleine vraag of vertraging zijn. Agency is handelingsruimte binnen relaties, middelen en regels."
+          },
+          {
+            "id": "m2-06-empty",
+            "title": "Een ongebruikte lade",
+            "point": [
+              0.84,
+              0.73
+            ],
+            "approach": [
+              0.76,
+              0.83
+            ],
+            "observation": "De lade is leeg. De krassen en stoflaag vertellen niet waarom het besluit is genomen.",
+            "detail": "Dit spoor geeft geen inhoudelijk bewijs voor je verklaring. Een onderzoek bevat ook doodlopende sporen: keer terug naar de concrete documenten, handelingen en mensen."
+          }
+        ]
+      },
+      "beats": [
+        {
+          "id": "m2-06-b1",
+          "type": "inspect",
+          "title": "Een kleine vraag met grote kosten",
+          "sceneObject": "evidence",
+          "intro": "Open een conceptvraag, een eerdere reactie en een steunbericht. Onderzoek waarom vragen stellen niet voor iedereen hetzelfde kost.",
+          "hint": "Morele moed kan een kleine vraag of vertraging zijn. Agency is handelingsruimte binnen relaties, middelen en regels.",
+          "reveal": [
+            {
+              "id": "question",
+              "label": "Conceptvraag",
+              "title": "Geen heroïsche sprong",
+              "text": "Een medewerker vraagt waarom werkende retouren worden vernietigd. Zij heeft gegevens maar vreest minder projectkansen."
+            },
+            {
+              "id": "reaction",
+              "label": "Eerdere reactie",
+              "title": "Een reële drempel",
+              "text": "Een eerdere criticus verloor overlegtoegang. Die geschiedenis beïnvloedt hoe veilig spreken voelt."
+            },
+            {
+              "id": "support",
+              "label": "Steunbericht",
+              "title": "Een andere positie",
+              "text": "Mila wil de feiten gezamenlijk bespreken; Iris biedt een vast beoordelingsmoment. Relaties kunnen de ruimte vergroten."
+            }
+          ],
+          "required": [
+            "question",
+            "reaction",
+            "support"
+          ],
+          "explainAfter": "Vragen kunnen routines vertragen in een systeem dat snelheid beloont. Veiligheid, steun, erkenning, tijd en taal maken handelen mogelijk; ze garanderen geen risicoloze uitkomst.",
+          "concepts": [
+            "morele moed",
+            "sociale professionele kosten",
+            "relationele agency"
+          ],
+          "sourceBlocks": [
+            42,
+            43,
+            44,
+            50
+          ],
+          "clueId": "m2-06-b1-clue",
+          "clueTitle": "Een kleine vraag met grote kosten"
+        },
+        {
+          "id": "m2-06-b2",
+          "type": "connect",
+          "title": "Maak de kleine handelingsruimte bruikbaar",
+          "sceneObject": "evidence",
+          "intro": "Verbind handelingen met de ruimte die ze kunnen veranderen.",
+          "hint": "Een individu staat niet buiten het systeem. Kleine handelingen kunnen samen informatie, normen of mogelijkheden verschuiven.",
+          "pairs": [
+            {
+              "id": "share",
+              "left": "De medewerker deelt controleerbare retourgegevens",
+              "right": "Anderen kunnen de zorg toetsen en herkennen.",
+              "feedback": "Informatie verbindt individuele twijfel met een gezamenlijke basis."
+            },
+            {
+              "id": "pause",
+              "left": "Een beslisser reserveert een beoordelingsmoment",
+              "right": "Een automatische route wordt tijdelijk onderzoekbaar.",
+              "feedback": "Vertraging is hier een gerichte handeling, geen permanente blokkade."
+            },
+            {
+              "id": "pilot",
+              "left": "Reparateurs testen een uitvoerbaar alternatief",
+              "right": "Een andere praktijk wordt concreet zichtbaar.",
+              "feedback": "Een alternatief maakt 'zo werkt het nu eenmaal' minder vanzelfsprekend."
+            },
+            {
+              "id": "relation",
+              "left": "Collega's en leiding bieden een beschermde gespreksroute",
+              "right": "De sociale kosten worden minder eenzaam gedragen.",
+              "feedback": "Agency is relationeel en kan collectief worden versterkt."
+            }
+          ],
+          "explainAfter": "Systemen worden door mensen gevormd en beïnvloeden hen terug. Onderzoek welke kleine ruimte aanwezig is zonder de sterkste risico's bij de minst machtige persoon te leggen.",
+          "concepts": [
+            "collectieve agency",
+            "informatie delen",
+            "vertraging en alternatieven",
+            "mens systeem wisselwerking"
+          ],
+          "sourceBlocks": [
+            50,
+            51,
+            55,
+            56,
+            49
+          ],
+          "clueId": "m2-06-b2-clue",
+          "clueTitle": "Maak de kleine handelingsruimte bruikbaar"
+        },
+        {
+          "id": "m2-06-b3",
+          "type": "order",
+          "title": "Van frictie naar een nieuwe norm",
+          "sceneObject": "evidence",
+          "intro": "Orden de teruggevonden geschiedenis van een gereviseerde retourpraktijk.",
+          "hint": "Dit is een casusroute, geen universeel stappenplan. Normverandering kan terugvallen, ongelijk verlopen of door andere omstandigheden worden versneld.",
+          "order": [
+            {
+              "id": "friction",
+              "text": "Een praktijk voelt voor enkelen niet meer vanzelfsprekend.",
+              "feedback": "Individuele frictie ontstaat."
+            },
+            {
+              "id": "whisper",
+              "text": "Mensen ontdekken dat anderen dezelfde twijfel ervaren.",
+              "feedback": "Collectieve twijfel wordt herkenbaar."
+            },
+            {
+              "id": "language",
+              "text": "De groep benoemt verspilling als bespreekbaar probleem.",
+              "feedback": "Publieke taal maakt het patroon zichtbaar."
+            },
+            {
+              "id": "alternative",
+              "text": "Een reparatiepilot toont een uitvoerbare andere route.",
+              "feedback": "Een alternatief wordt ervaarbaar."
+            },
+            {
+              "id": "shift",
+              "text": "De nieuwe werkwijze wordt verwacht en verantwoord.",
+              "feedback": "Een norm kan verschuiven, mits zij in praktijk standhoudt."
+            }
+          ],
+          "correctOrder": [
+            "friction",
+            "whisper",
+            "language",
+            "alternative",
+            "shift"
+          ],
+          "explainAfter": "Woorden, relaties en alternatieven werken samen met druk van buitenaf en veranderende omstandigheden. Het chronologische voorbeeld bewijst geen vaste ontwikkelingswet.",
+          "concepts": [
+            "normverandering",
+            "frictie collectieve twijfel publieke taal alternatieven",
+            "verandering niet lineair"
+          ],
+          "sourceBlocks": [
+            53,
+            55
+          ],
+          "clueId": "m2-06-b3-clue",
+          "clueTitle": "Van frictie naar een nieuwe norm"
+        },
+        {
+          "id": "m2-06-b4",
+          "type": "experiment",
+          "title": "Welke route kan de zorg bereiken?",
+          "sceneObject": "system",
+          "intro": "Voorspel welke dossiers de beoordelaar bereiken. Vergelijk hoge targetdruk zonder beschermde route met een route met tijd en bescherming.",
+          "hint": "Dit is een fictief protocolmodel, geen voorspelling van menselijke moed. Parameters veranderen formele routes en beschikbare beoordelingsplaatsen.",
+          "simulation": "incentives",
+          "minimumTrials": 2,
+          "simulationSpec": {
+            "title": "Een beschermde beoordelingsroute",
+            "modelKind": "illustrative-protocol",
+            "parameters": [
+              {
+                "id": "pressure",
+                "label": "Targetdruk",
+                "min": 0,
+                "max": 2,
+                "step": 1,
+                "default": 2
+              },
+              {
+                "id": "reviewTime",
+                "label": "Beoordelingsplaatsen",
+                "min": 0,
+                "max": 4,
+                "step": 1,
+                "default": 1
+              },
+              {
+                "id": "protected",
+                "label": "Beschermde meldroute",
+                "min": 0,
+                "max": 1,
+                "step": 1,
+                "default": 0
+              }
+            ],
+            "inputs": {
+              "dossiers": 4
+            },
+            "outcomeRules": [
+              {
+                "id": "availableSlots",
+                "expression": "max(0,reviewTime-pressure)",
+                "label": "Beschikbare beoordelingsplaatsen"
+              },
+              {
+                "id": "reached",
+                "expression": "protected===1 ? min(4,availableSlots) : 0",
+                "label": "Dossiers via deze beschermde route"
+              },
+              {
+                "id": "waiting",
+                "expression": "4-reached",
+                "label": "Nog wachtende dossiers"
+              }
+            ],
+            "assumptions": [
+              "Vier fictieve dossiers wachten op deze specifieke route.",
+              "Zonder beschermde meldroute gebruikt niemand deze route in het model; andere menselijke acties zijn niet gemodelleerd.",
+              "Targetdruk trekt gekozen beoordelingsplaatsen af volgens een illustratieve planningsregel.",
+              "Een bereikt dossier is nog niet opgelost; geen kans op werkelijke moed wordt berekend."
+            ],
+            "contrastRequirements": [
+              {
+                "id": "baseline",
+                "condition": "protected===0 && pressure===2"
+              },
+              {
+                "id": "supported",
+                "condition": "protected===1 && reviewTime>pressure"
+              }
+            ],
+            "predictionPrompt": "Wat verwacht je dat de beschermde route en beschikbare tijd veranderen?",
+            "interpretationPrompt": "Welke formele mogelijkheid veranderde; wat weet het model niet over gedrag of gevolgen?",
+            "conceptOptions": [
+              {
+                "id": "space",
+                "text": "Ondersteuning opent een route; echte deelname en oplossing vragen apart bewijs.",
+                "correct": true,
+                "feedback": "Het model toont mogelijkheid en capaciteit, geen vaste psychologische reactie."
+              },
+              {
+                "id": "hero",
+                "text": "Een nieuwe route bewijst dat iedere werknemer zonder sociale kosten spreekt.",
+                "correct": false,
+                "feedback": "De werkelijke ervaring en reacties zijn niet gemodelleerd."
+              },
+              {
+                "id": "resolve",
+                "text": "Een beoordeeld dossier is automatisch een duurzaam opgelost probleem.",
+                "correct": false,
+                "feedback": "Bereiken, beoordelen en veranderen zijn afzonderlijke stappen."
+              }
+            ]
+          },
+          "explainAfter": "Bescherming en tijd kunnen een route bruikbaar maken. Volg in de werkelijkheid wie haar gebruikt, hoe wordt gereageerd en of gevolgen verbeteren.",
+          "concepts": [
+            "psychologische veiligheid",
+            "targetdruk",
+            "reflectietijd",
+            "ruimte versus uitkomst"
+          ],
+          "sourceBlocks": [
+            42,
+            50,
+            55
+          ],
+          "clueId": "m2-06-b4-clue",
+          "clueTitle": "Welke route kan de zorg bereiken?"
+        },
+        {
+          "id": "m2-06-b5",
+          "type": "build",
+          "title": "Maak de pilot uitvoerbaar",
+          "sceneObject": "evidence",
+          "intro": "Kies drie functies die de proef beschermen, uitvoeren en op gevolgen toetsen.",
+          "hint": "Een waardeposter of een moedige eerste vraag vervangt geen werkende procedure.",
+          "options": [
+            {
+              "id": "protect",
+              "text": "Leg bescherming en respons op zorgen concreet vast.",
+              "correct": true,
+              "feedback": "De sociale route krijgt duidelijke voorwaarden."
+            },
+            {
+              "id": "execute",
+              "text": "Wijs capaciteit, verantwoordelijke en betrokken partijen aan.",
+              "correct": true,
+              "feedback": "De pilot heeft middelen en beslisruimte."
+            },
+            {
+              "id": "evaluate",
+              "text": "Volg reparatieresultaat, werkdruk en ervaringen; herzie bij problemen.",
+              "correct": true,
+              "feedback": "Een effect en eventuele nieuwe drempels worden zichtbaar."
+            },
+            {
+              "id": "poster",
+              "text": "Publiceer alleen een algemene slogan over openheid.",
+              "correct": false,
+              "feedback": "Een slogan regelt geen bescherming of uitvoering."
+            },
+            {
+              "id": "hero",
+              "text": "Laat alleen de eerste vraagsteller de proef dragen.",
+              "correct": false,
+              "feedback": "Dat concentreert lasten zonder steun of middelen."
+            },
+            {
+              "id": "volume",
+              "text": "Beoordeel alleen het aantal ingediende zorgen.",
+              "correct": false,
+              "feedback": "Veel meldingen bewijzen nog geen bruikbare respons of verandering."
+            }
+          ],
+          "required": [
+            "protect",
+            "execute",
+            "evaluate"
+          ],
+          "explainAfter": "De route opent een concrete pilot. Een morele prioriteit blijft bespreekbaar; beoordeel bewijs, uitvoerbaarheid en de verdeling van verantwoordelijkheid.",
+          "concepts": [
+            "veiligheid steun erkenning",
+            "toetsbare interventie",
+            "gedeelde verantwoordelijkheid"
+          ],
+          "sourceBlocks": [
+            42,
+            50,
+            53,
+            55
+          ],
+          "clueId": "m2-06-b5-clue",
+          "clueTitle": "Maak de pilot uitvoerbaar"
+        }
+      ],
+      "finale": {
+        "intro": "De beschermde route bereikt meer dossiers. De uitkomsten zijn nog niet onderzocht.",
+        "slots": [
+          {
+            "id": "m2-06-s1",
+            "label": "Wat mag je uit het protocolmodel concluderen?",
+            "evidenceBeatId": "m2-06-b4",
+            "options": [
+              {
+                "id": "o0",
+                "text": "Meer formele routecapaciteit bewijst dat alle sociale risico's verdwenen zijn.",
+                "correct": false,
+                "feedback": "Dat is buiten de gekozen modelregels."
+              },
+              {
+                "id": "o1",
+                "text": "Een bruikbare beoordelingsroute is mogelijk; deelname en verbetering vragen nieuwe gegevens.",
+                "correct": true,
+                "feedback": "Mogelijkheid, gebruik en uitkomst zijn verschillende claims."
+              },
+              {
+                "id": "o2",
+                "text": "De uitkomst toont dat persoonlijke waarden geen enkele rol in handelen spelen.",
+                "correct": false,
+                "feedback": "Het model beschrijft formele routes, niet de volledige psychologie."
+              }
+            ]
+          },
+          {
+            "id": "m2-06-s2",
+            "label": "Wat ondersteunt de gevonden normverandering zonder een noodzakelijke cyclus te claimen?",
+            "evidenceBeatId": "m2-06-b3",
+            "options": [
+              {
+                "id": "o0",
+                "text": "Gedeelde twijfel, taal en een alternatief hangen in deze geschiedenis samen.",
+                "correct": true,
+                "feedback": "De casus geeft een mogelijke route, geen wet voor alle organisaties."
+              },
+              {
+                "id": "o1",
+                "text": "Iedere organisatie moet exact dezelfde vijf fasen altijd doorlopen.",
+                "correct": false,
+                "feedback": "Context, terugval en andere invloeden kunnen verschillen."
+              },
+              {
+                "id": "o2",
+                "text": "De eerste vraagsteller heeft alle verandering onafhankelijk van anderen veroorzaakt.",
+                "correct": false,
+                "feedback": "De geschiedenis bevat relaties, beleid en een gezamenlijke pilot."
+              }
+            ]
+          }
+        ],
+        "conclusion": "De pilot maakt agency praktisch. Onderzoek haar effecten en risico's opnieuw; de volgende route brengt financiële en institutionele grenzen aan die ruimte in beeld."
+      },
+      "sourceProjections": [
+        {
+          "id": "m2-v43",
+          "sourceBlocks": [
+            43
+          ],
+          "youtube": "i-78niX-jzU",
+          "title": "What is Moral Courage?",
+          "required": true,
+          "purpose": "De drie ontwikkelmanieren en CODE-geheugensteun behouden.",
+          "viewingTask": "Noteer de drie manieren en CODE; vergelijk ze met ruimte, steun en risico in ons atelier.",
+          "afterPrompt": "Welke persoonlijke voorbereiding en welke organisatorische voorwaarde heb je allebei nodig?",
+          "knownCoreConcepts": [
+            "morele moed",
+            "relationele agency"
+          ],
+          "contentVerification": "Makerbeschrijving bevestigt drie manieren en CODE; exacte inhoud daarvan nog niet geverifieerd."
+        }
+      ],
+      "originalSourceBlocks": [
+        42,
+        43,
+        44,
+        49,
+        50,
+        51,
+        53,
+        55,
+        56
+      ],
+      "optionalReviewBlocks": [
+        44,
+        49,
+        51,
+        56
+      ]
+    }
+  ],
+  "chapterFinale": {
+    "title": "Een bibliotheek verandert haar route",
+    "intro": "Een bibliotheek gebruikt één reserveringsapp. Vrijwilligers twijfelen privé aan toegankelijkheid; openbare notulen tonen steun. Het dashboard beloont snelle afhandeling. Overstappen kost bezoekers hun uitleenhistorie. Onderzoek deze nieuwe casus.",
+    "caseFacts": [
+      {
+        "id": "routine",
+        "label": "Dagrapport",
+        "text": "Medewerkers volgen een snelle bestaande route; nieuwe toegankelijkheidsproblemen krijgen geen aparte beoordeling."
+      },
+      {
+        "id": "silence",
+        "label": "Twee notulen",
+        "text": "De vergadering meldt instemming. Vier afzonderlijke reacties tonen dezelfde twijfel; ieder dacht alleen te staan."
+      },
+      {
+        "id": "exit",
+        "label": "Exportvoorwaarde",
+        "text": "Een alternatieve app bestaat, maar historie en afspraken kunnen niet worden overgedragen."
+      },
+      {
+        "id": "pilot",
+        "label": "Proefvoorstel",
+        "text": "Een beschermde meldroute en vaste beoordelingstijd worden ingevoerd. Resultaten en ervaringen zijn nog onbekend."
+      }
+    ],
+    "slots": [
+      {
+        "id": "routine",
+        "label": "Wat verklaart de gemiste nieuwe problemen zonder intenties in te vullen?",
+        "evidenceBeatId": "m2-01-b1",
+        "options": [
+          {
+            "id": "context",
+            "text": "Een oude vuistregel wordt onder druk hergebruikt zonder relevante wijzigingscheck.",
+            "correct": true,
+            "feedback": "Het dagrapport past bij het routine-mechanisme; andere oorzaken moeten nog worden onderzocht."
+          },
+          {
+            "id": "skill",
+            "text": "Een gebrek aan bibliotheekkennis is gemeten als enige oorzaak van alle problemen.",
+            "correct": false,
+            "feedback": "De casus bevat geen vaardigheidsmeting."
+          },
+          {
+            "id": "preference",
+            "text": "Snelle afhandeling bewijst dat bezoekers bewust geen toegankelijkheid wensen.",
+            "correct": false,
+            "feedback": "Werkgedrag is geen bewijs van de doelen van alle bezoekers."
+          }
+        ]
+      },
+      {
+        "id": "group",
+        "label": "Welke diagnose ondersteunen publieke en afzonderlijke reacties samen?",
+        "evidenceBeatId": "m2-03-b1",
+        "options": [
+          {
+            "id": "consensus",
+            "text": "Er bestaat inhoudelijke consensus; de individuele twijfel is slechts administratieve ruis.",
+            "correct": false,
+            "feedback": "De reacties tonen gedeelde inhoudelijke zorgen."
+          },
+          {
+            "id": "plural",
+            "text": "Mensen schatten anderen als instemmend in terwijl meerdere mensen hetzelfde betwijfelen.",
+            "correct": true,
+            "feedback": "Dit is de specifieke verkeerde groepsinschatting."
+          },
+          {
+            "id": "normal",
+            "text": "Herhaalde protocolafwijking is de aangetoonde oorzaak; private verwachtingen zijn niet relevant.",
+            "correct": false,
+            "feedback": "Een geschiedenis van normalisatie is hier niet beschreven; verkeerd waargenomen steun wel."
+          }
+        ]
+      },
+      {
+        "id": "choice",
+        "label": "Wat moet je toevoegen aan de claim dat overstappen vrij is?",
+        "evidenceBeatId": "m2-05-b1",
+        "options": [
+          {
+            "id": "button",
+            "text": "Het bestaan van een andere app bewijst al een bruikbaar alternatief.",
+            "correct": false,
+            "feedback": "Overdraagbaarheid en samenwerking blijven concrete drempels."
+          },
+          {
+            "id": "closed",
+            "text": "De exportdrempel bewijst dat bezoekers nooit enige andere handeling kunnen verrichten.",
+            "correct": false,
+            "feedback": "Een begrensde route is geen bewijs van totale afwezigheid van agency."
+          },
+          {
+            "id": "practical",
+            "text": "Onderzoek gegevensverlies, afhankelijkheden en een proef van praktisch gebruik buiten de app.",
+            "correct": true,
+            "feedback": "De eerdere ecosysteemkaart biedt de lens; de exportvoorwaarde geeft het nieuwe bewijs."
+          }
+        ]
+      },
+      {
+        "id": "agency",
+        "label": "Welke conclusie over de voorgestelde proefroute is verantwoord?",
+        "evidenceBeatId": "m2-06-b4",
+        "options": [
+          {
+            "id": "capacity",
+            "text": "Meer formele ruimte is ontworpen; deelname, veiligheidservaring en uitkomsten moeten worden onderzocht.",
+            "correct": true,
+            "feedback": "Een protocol geeft mogelijkheid, geen gegarandeerde menselijke reactie."
+          },
+          {
+            "id": "guarantee",
+            "text": "De route garandeert dat iedere vrijwilliger zonder sociale kosten zal spreken.",
+            "correct": false,
+            "feedback": "Ervaringen en reacties zijn niet gemeten."
+          },
+          {
+            "id": "replace",
+            "text": "De procedure vervangt alle verantwoordelijkheid voor inhoudelijke besluiten en hun gevolgen.",
+            "correct": false,
+            "feedback": "Beoordeling en besluitvorming blijven nodig."
+          }
+        ]
+      }
+    ],
+    "conclusion": "Combineer context, groepsinformatie, afhankelijkheid en relationele agency. Maak onderscheid tussen feit, mogelijke verklaring en ontbrekend bewijs. Een ethische prioriteit vraagt eigen onderbouwing; de casus dwingt niet één waardeoordeel af."
+  },
+  "knowledgeCheck": {
+    "intro": "Gebruik de begrippen in nieuwe gevallen. Kies de best door de gegeven informatie ondersteunde verklaring; verschillende ethische prioriteiten blijven bespreekbaar.",
+    "items": [
+      {
+        "id": "m2-k1",
+        "question": "Een team gebruikt onder tijdsdruk een oude checklist, terwijl de omstandigheden zijn veranderd. Welk onderzoek onderscheidt een ongeschikte routine het best van een gewone uitvoeringsfout?",
+        "concepts": [
+          "heuristieken",
+          "contextdruk"
+        ],
+        "sourceBlocks": [
+          5,
+          8
+        ],
+        "options": [
+          {
+            "id": "o0",
+            "text": "Vergelijk hoe nauwkeurig ervaren en nieuwe medewerkers dezelfde checklist uitvoeren en welke stappen zij overslaan.",
+            "correct": false,
+            "feedback": "Dit onderzoekt uitvoering en ervaring. Een zorgvuldig uitgevoerde checklist kan nog steeds op verouderde omstandigheden berusten."
+          },
+          {
+            "id": "o1",
+            "text": "Vergelijk welke leidinggevende de checklist heeft goedgekeurd en hoe vaak medewerkers diens instructies opvolgen.",
+            "correct": false,
+            "feedback": "Dit kan gezagswerking tonen. Het toetst nog niet of de routinevoorwaarden veranderden en heroverweging wordt verdrongen."
+          },
+          {
+            "id": "o2",
+            "text": "Vergelijk de oude aannames met actuele signalen en onderzoek of de tijdsdruk heroverweging van afwijkende gevallen belemmert.",
+            "correct": true,
+            "feedback": "Een heuristiek bespaart denkwerk onder passende voorwaarden. Gewijzigde voorwaarden en ontbrekende heroverweging onderscheiden hier routinegebruik van slordige uitvoering."
+          },
+          {
+            "id": "o3",
+            "text": "Vergelijk de lengte van de checklist met de beschikbare tijd en oefen vervolgens een snellere uitvoering.",
+            "correct": false,
+            "feedback": "Dit toetst belasting en tempo. Sneller werken lost niet op dat de checklist mogelijk het verkeerde geval of gewijzigde omstandigheden veronderstelt."
+          }
+        ]
+      },
+      {
+        "id": "m2-k2",
+        "question": "Een manager noemt dezelfde schadelijke uitstoot voortaan “procesoptimalisatie”. Er zijn nog geen gegevens over gewijzigde productie, verdeling van taken of herhaling. Welk mechanisme blijkt direct uit dit fragment?",
+        "concepts": [
+          "herdefiniëren",
+          "morele ontkoppeling"
+        ],
+        "sourceBlocks": [
+          16
+        ],
+        "options": [
+          {
+            "id": "o0",
+            "text": "De beschrijving verschuift naar een technische term, waardoor de morele betekenis van dezelfde handeling minder zichtbaar kan worden.",
+            "correct": true,
+            "feedback": "Dit is herdefiniëren via verzachtende taal. De casus toont een veranderde beschrijving; het daadwerkelijke psychologische effect op medewerkers moet apart worden onderzocht."
+          },
+          {
+            "id": "o1",
+            "text": "De verantwoordelijkheid verschuift naar meerdere afdelingen, waardoor niemand zijn eigen bijdrage aan de schade goed kan herkennen.",
+            "correct": false,
+            "feedback": "Verspreide verantwoordelijkheid is een relevant ontkoppelingsmechanisme, maar het fragment beschrijft geen gewijzigde taakverdeling of ervaren verantwoordelijkheid."
+          },
+          {
+            "id": "o2",
+            "text": "De schade wordt afgezet tegen ernstiger uitstoot elders, waardoor de eigen handeling relatief aanvaardbaar lijkt.",
+            "correct": false,
+            "feedback": "Dit zou voordelig vergelijken zijn. Er wordt echter geen referentiebedrijf of ernstiger alternatief genoemd; alleen de term verandert."
+          },
+          {
+            "id": "o3",
+            "text": "Een eerdere uitzondering wordt door terugkerend gebruik de normale werkwijze, waardoor de sociale grens geleidelijk opschuift.",
+            "correct": false,
+            "feedback": "Dit is normalisatie van afwijkingen. Daarvoor is een geschiedenis van herhaling en acceptatie nodig; die is hier nog niet gegeven."
+          }
+        ]
+      },
+      {
+        "id": "m2-k3",
+        "question": "Teamleden zijn privé tegen een plan. Ieder denkt ten onrechte dat de anderen het steunen en blijft publiek stil. Welke verklaring vraagt de minste aanvullende aannames?",
+        "concepts": [
+          "pluralistische onwetendheid"
+        ],
+        "sourceBlocks": [
+          19
+        ],
+        "options": [
+          {
+            "id": "o0",
+            "text": "Teamleden kennen elkaars bezwaren, maar volgen de openbare lijn om verwachte nadelen voor hun positie te vermijden.",
+            "correct": false,
+            "feedback": "Strategische conformiteit kan stilte verklaren, maar veronderstelt kennis van gedeelde bezwaren. Hier is juist de inschatting van anderen onjuist."
+          },
+          {
+            "id": "o1",
+            "text": "Teamleden verwachten dat een bevoegde collega bezwaar maakt, waardoor ieder zijn eigen bijdrage aan het overleg uitstelt.",
+            "correct": false,
+            "feedback": "Dit past bij verspreide verantwoordelijkheid. De casus noemt geen verwachting dat een ander verantwoordelijk is; de genoemde fout betreft andermans steun."
+          },
+          {
+            "id": "o2",
+            "text": "Teamleden erkennen het gezag van de voorzitter en vinden diens besluit belangrijker dan hun eigen inhoudelijke oordeel.",
+            "correct": false,
+            "feedback": "Gehoorzaamheid is mogelijk, maar een gezagsinstructie of acceptatie daarvan wordt niet beschreven. De foutieve groepsinschatting is wel expliciet aanwezig."
+          },
+          {
+            "id": "o3",
+            "text": "Teamleden onderschatten de gedeelde weerstand en lezen elkaars stilte als steun, waardoor diezelfde stilte zichzelf kan versterken.",
+            "correct": true,
+            "feedback": "Dit is pluralistische onwetendheid: de veronderstelde groepsnorm wijkt af van privéopvattingen. Een gezamenlijke anonieme peiling kan die inschatting toetsen."
+          }
+        ]
+      },
+      {
+        "id": "m2-k4",
+        "question": "Een veiligheidsafwijking begint als noodoplossing. Na herhaling en beloning behandelen medewerkers haar als standaard, zonder nieuwe risicometing. Welke verandering is het best aangetoond?",
+        "concepts": [
+          "normalisatie van afwijkend gedrag"
+        ],
+        "sourceBlocks": [
+          19
+        ],
+        "options": [
+          {
+            "id": "o0",
+            "text": "De technische werkwijze is door ervaring veiliger geworden, zodat medewerkers dezelfde grens onder gewijzigde risico’s toepassen.",
+            "correct": false,
+            "feedback": "Ervaring kan risico-informatie opleveren, maar er is geen nieuwe meting. Sociale acceptatie is wel beschreven; technisch verminderde schade niet."
+          },
+          {
+            "id": "o1",
+            "text": "De sociale grens van aanvaardbaar gedrag schuift op doordat de afwijking terugkeert en in de praktijk wordt bevestigd.",
+            "correct": true,
+            "feedback": "De geschiedenis van herhaling, beloning en standaardisering ondersteunt normalisatie van afwijkend gedrag. Dat bewijst niet dat het risico evenredig veranderde."
+          },
+          {
+            "id": "o2",
+            "text": "Een gunstige vergelijking met slechtere teams maakt de afwijking relatief verantwoord, terwijl de oorspronkelijke groepsnorm behouden blijft.",
+            "correct": false,
+            "feedback": "Een vergelijkingsmechanisme is mogelijk, maar een ander team wordt niet genoemd. Hier verandert juist de eigen gangbare norm door het verloop in de tijd."
+          },
+          {
+            "id": "o3",
+            "text": "Een gewijzigde taakverdeling maakt de verantwoordelijkheid diffuser, waardoor de oorspronkelijke veiligheidsnorm minder invloed op individuele keuzes heeft.",
+            "correct": false,
+            "feedback": "Verspreide verantwoordelijkheid vraagt informatie over taak- en aanspreekverdeling. De casus ondersteunt vooral geleidelijke acceptatie, niet die andere organisatorische verandering."
+          }
+        ]
+      },
+      {
+        "id": "m2-k5",
+        "question": "Een fietsadvertentie verbindt het product met sociale status; een andere geeft remmetingen onder beschreven testomstandigheden. Welk verschil kun je vaststellen zonder het effect op kopers al te bewijzen?",
+        "concepts": [
+          "identiteitsassociaties",
+          "reclame als psychologische technologie"
+        ],
+        "sourceBlocks": [
+          28,
+          33
+        ],
+        "options": [
+          {
+            "id": "o0",
+            "text": "De statusboodschap registreert een bestaande kopersgroep; de remboodschap verandert de voorkeuren doordat zij nieuwe technische informatie aanbiedt.",
+            "correct": false,
+            "feedback": "Dat is een hypothese over effecten. Zonder vergelijkend onderzoek weten we niet of een boodschap bestaande voorkeuren volgt of mede vormt."
+          },
+          {
+            "id": "o1",
+            "text": "De statusboodschap koppelt het product aan identiteit; de remboodschap doet een prestatieclaim die binnen haar testvoorwaarden onderzocht kan worden.",
+            "correct": true,
+            "feedback": "Dit onderscheidt betekenisassociatie en toetsbare functieclaim. Of en hoe beide voorkeuren veranderen, vraagt aanvullend bewijs over ontvangers en context."
+          },
+          {
+            "id": "o2",
+            "text": "De statusboodschap werkt via groepsdruk; de remboodschap geeft inzicht in de totale geschiktheid van de fiets voor iedere gebruikssituatie.",
+            "correct": false,
+            "feedback": "Groepsdruk is een mogelijke werking, nog geen aangetoond effect. Een begrensde remtest dekt bovendien niet iedere gebruiker, conditie of producteigenschap."
+          },
+          {
+            "id": "o3",
+            "text": "Beide boodschappen benutten dezelfde marktvoorkeur; het verschil betreft vooral presentatie, omdat beide aan één koopbeslissing bijdragen.",
+            "correct": false,
+            "feedback": "Een gezamenlijke koopcontext maakt de psychologische aanknopingspunten niet gelijk. Identiteitsassociatie en een meetbare functieclaim moeten afzonderlijk worden geanalyseerd."
+          }
+        ]
+      },
+      {
+        "id": "m2-k6",
+        "question": "Een platform biedt vijf abonnementen. Bij vertrek verdwijnen werkcontacten en zijn dossiers niet overdraagbaar. Welk onderzoek onderscheidt praktische afhankelijkheid van enkel een voorkeur voor het huidige pakket?",
+        "concepts": [
+          "formele versus praktische keuze",
+          "ecosysteemafhankelijkheid"
+        ],
+        "sourceBlocks": [
+          37,
+          40
+        ],
+        "options": [
+          {
+            "id": "o0",
+            "text": "Vergelijk de functies en maandprijzen van de vijf pakketten om te bepalen of de huidige aanbieder voldoende productvariatie biedt.",
+            "correct": false,
+            "feedback": "Dit toetst variatie binnen het platform. Het zegt weinig over de mogelijkheid het ecosysteem te verlaten met contacten en dossiers."
+          },
+          {
+            "id": "o1",
+            "text": "Vergelijk tevredenheid van blijvers met nieuwkomers om te bepalen hoeveel gebruikers de huidige interface prettig vinden.",
+            "correct": false,
+            "feedback": "Tevredenheid kan een voorkeur verklaren. Ook tevreden gebruikers kunnen afhankelijk zijn; deze vergelijking meet de beschreven export- en netwerkdrempels niet."
+          },
+          {
+            "id": "o2",
+            "text": "Vergelijk hoeveel opties tegelijk op het scherm staan en of een eenvoudiger keuzemenu overstappen tussen pakketten bevordert.",
+            "correct": false,
+            "feedback": "Dit onderzoekt keuzebelasting binnen het aanbod. De genoemde afhankelijkheid ontstaat bij vertrek uit het ecosysteem, niet alleen bij kiezen uit vijf pakketten."
+          },
+          {
+            "id": "o3",
+            "text": "Vergelijk een vertrekroute met en zonder overdraagbare dossiers en contacten, en bepaal welke haalbare alternatieven dan ontstaan.",
+            "correct": true,
+            "feedback": "Dit maakt de praktische overstapdrempel onderzoekbaar. Formele opties, persoonlijke voorkeur en feitelijke afhankelijkheid kunnen samengaan; ze zijn verschillende vragen."
+          }
+        ]
+      },
+      {
+        "id": "m2-k7",
+        "question": "Een leidinggevende noemt een regel flexibel. Tijdelijke medewerkers vrezen urenverlies bij afwijken; de formele regel is gelijk. Welke vergelijking toetst de betekenis van positie het best?",
+        "concepts": [
+          "positie en perceptie",
+          "macht als psychologisch fenomeen"
+        ],
+        "sourceBlocks": [
+          46
+        ],
+        "options": [
+          {
+            "id": "o0",
+            "text": "Vergelijk gevolgen van afwijken, beschikbare alternatieven en bescherming per positie, naast de uitleg die beide groepen van de regel geven.",
+            "correct": true,
+            "feedback": "Positie kan zowel feitelijke gevolgen als ervaren handelingsruimte veranderen. De combinatie van gevolg, alternatief en interpretatie voorkomt dat verschil als louter houding wordt verklaard."
+          },
+          {
+            "id": "o1",
+            "text": "Vergelijk hoe goed beide groepen de officiële tekst kennen en geef daarna iedereen dezelfde uitleg over toegestane uitzonderingen.",
+            "correct": false,
+            "feedback": "Verschil in regelkennis kan bestaan. Gelijke uitleg toetst nog niet de uiteenlopende contractrisico’s, bescherming en alternatieven die de casus noemt."
+          },
+          {
+            "id": "o2",
+            "text": "Vergelijk eerdere positieve ervaringen met uitzonderingen en neem de beoordeling van de meest ervaren groep als uitgangspunt.",
+            "correct": false,
+            "feedback": "Ervaring is relevante informatie, maar posities kunnen andere gevolgen ondervinden. De ervaren leidinggevende is daarom geen vervangende meting van risico voor tijdelijke medewerkers."
+          },
+          {
+            "id": "o3",
+            "text": "Vergelijk persoonlijke risicobereidheid en verdeel vervolgens uitzonderingsverzoeken onder mensen die zich het meest zeker voelen.",
+            "correct": false,
+            "feedback": "Risicobereidheid kan meespelen. Deze aanpak schrijft het verschil vooral toe aan personen en onderzoekt niet of positie het risico en de bescherming verandert."
+          }
+        ]
+      },
+      {
+        "id": "m2-k8",
+        "question": "Een beschermd meldkanaal leidt tot bespreking van een bezwaar. De werkpraktijk is nog gelijk en er is nog geen onderzoek naar represailles. Welke conclusie ondersteunt dit bewijs?",
+        "concepts": [
+          "relationele agency",
+          "ruimte versus uitkomst"
+        ],
+        "sourceBlocks": [
+          42,
+          50,
+          53,
+          55
+        ],
+        "options": [
+          {
+            "id": "o0",
+            "text": "De bescherming verlaagt het ervaren risico; de bespreking is daarom een eerste aanwijzing dat meer medewerkers hun bezwaren zullen melden.",
+            "correct": false,
+            "feedback": "Dit is een plausibele hypothese, maar één besproken melding meet ervaren risico of gebruik door andere medewerkers niet. Daarvoor zijn aanvullende gegevens nodig."
+          },
+          {
+            "id": "o1",
+            "text": "De gelijkblijvende praktijk wijst op beperkte veranderkracht; de melding heeft vooral informatie opgeleverd en nauwelijks handelingsruimte veranderd.",
+            "correct": false,
+            "feedback": "Het uitblijven van praktijkverandering begrenst de uitkomst. Het recht en vermogen om gehoord te worden kunnen wel veranderd zijn; “nauwelijks” vraagt apart bewijs."
+          },
+          {
+            "id": "o2",
+            "text": "Een beschikbare route is gebruikt en het bezwaar heeft overleg bereikt; veiligheid, respons en verandering zijn afzonderlijk nog te toetsen.",
+            "correct": true,
+            "feedback": "Onderscheid mogelijkheid, gebruik en effect. Relationele agency wordt zichtbaar in een handelingsroute, zonder dat bespreking reeds veilig of effectief optreden bewijst."
+          },
+          {
+            "id": "o3",
+            "text": "Het overleg wijst op bestuurlijke erkenning; de organisatie heeft daarmee een eerste herstelstap voltooid en hoeft nu vooral effecten te meten.",
+            "correct": false,
+            "feedback": "Bespreking kan erkenning opleveren, maar een herstelstap vraagt een besluit of handeling. Ook veiligheid en respons zijn nog niet vastgesteld."
+          }
+        ]
+      }
+    ]
+  }
+}

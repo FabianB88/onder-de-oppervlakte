@@ -1,0 +1,1161 @@
+{
+  "schemaVersion": 1,
+  "title": "Productieplan · Onder de oppervlakte",
+  "objective": "Een zelfstandig te spelen Business Ethics-module waarin een beginner alle essentiële leerstof via onderzoeken, manipuleren, gevolgen, gesprekken en nieuwe toepassingen leert.",
+  "scope": {
+    "lessons": 5,
+    "areasPerLesson": [
+      8,
+      6,
+      6,
+      6,
+      6
+    ],
+    "totalAreas": 32,
+    "platform": "Browser",
+    "setting": "Een oorspronkelijke NOVA-campagne rond reparatie, materiaalstromen, werk, zeggenschap, technologie en duurzaamheid.",
+    "completeCurriculum": "De bestaande cursus bepaalt het minimum. Unieke uitleg, onderscheidingen, voorbeelden en leerfuncties uit tekst, oefeningen, afbeeldingen en video's krijgen een aantoonbare plek.",
+    "worldTeachingBeats": 161,
+    "minimumAreasPerLesson": 6,
+    "totalActivities": 175,
+    "questions": 42
+  },
+  "experienceContract": [
+    "Elke ruimte heeft een eigen inhoudelijke functie; de obstakels volgen uit de theorie.",
+    "De student onderzoekt wereldobjecten en bewaart bewijs naast eigen hypothesen en notities.",
+    "Twee NPC's bieden aanvullende of botsende perspectieven en vertellen wat ze niet weten.",
+    "Een korte uitleg en demonstratie gaat vooraf aan onbekende zelfstandige redenering.",
+    "Pas na relevante onderzoekshandelingen combineert de student bewijs voor een betekenisvolle overgang.",
+    "Een hoofdstukfinale en afzonderlijke vragen gebruiken gewijzigde of andere-sectorgevallen.",
+    "XP erkent deelname en revisie; beheersing vraagt zelfstandig onderbouwde toepassing.",
+    "Verschillende ethische prioriteiten zijn bespreekbaar; feitelijke en causale fouten krijgen gerichte feedback."
+  ],
+  "chapters": [
+    {
+      "lessonId": "m1",
+      "title": "Economie & Systemen (kort)",
+      "routeStatus": "Auteurdata aanwezig; runtime en fidelitycontrole vóór gebruik",
+      "areas": [
+        {
+          "id": "m1-01",
+          "name": "De noodcentrale",
+          "imageKey": "room-dispatch",
+          "teachingGoal": "schaarste; morele economie; rechtvaardige verdeling; waarden in prioriteiten; technische berekening versus normatieve afweging; toegang en bescherming; Friedmans verantwoordelijkheid; spelregels zijn institutionele keuzes; collectieve actie en prikkels",
+          "worldAction": [
+            "De stroom valt uit",
+            "Twee stapels op de noodtafel",
+            "De winstregel"
+          ],
+          "exit": {
+            "label": "Leg het noodtransportplan vast",
+            "lockType": "dispatch-plan",
+            "problem": "Zonder uitvoerbaar én verantwoord noodplan weet de chauffeur niet welke aanvragen hij eerst moet bedienen.",
+            "unlockedText": "Het noodplan is verantwoord.",
+            "destinationReason": "De ontvangstdocumenten in het depot laten zien welke kosten je verdeling nog niet zichtbaar maakte."
+          },
+          "sourceBlocks": [
+            0,
+            2,
+            4
+          ]
+        },
+        {
+          "id": "m1-02",
+          "name": "Het ontvangstdepot",
+          "imageKey": "room-depot",
+          "teachingGoal": "externaliteiten; commons; begrenzing; rechtvaardige verdeling; prijs versus maatschappelijke kosten; prikkels; commons-governance; verdeling; collectieve verantwoordelijkheid",
+          "worldAction": [
+            "Volg het water",
+            "Verplaats de rekening",
+            "Maak een rivierafspraak"
+          ],
+          "exit": {
+            "label": "Open de route naar de retourstroom",
+            "lockType": "shared-management",
+            "problem": "De factuur, het vissersbericht en de waterafspraak beschrijven verschillende delen van hetzelfde probleem.",
+            "unlockedText": "De kosten en de beheerafspraak zijn uit elkaar gehaald.",
+            "destinationReason": "Volg nu de materialen naar het retour- en verwerkingsstation: daar zie je wie buiten de factuur blijft."
+          },
+          "sourceBlocks": [
+            6,
+            7,
+            9
+          ]
+        },
+        {
+          "id": "m1-03",
+          "name": "Het retour- en verwerkingsstation",
+          "imageKey": "room-recycling",
+          "teachingGoal": "grondstoffenketen; winning verwerking gebruik afval; Congo kobalt; China zeldzame aardmetalen; e-waste Ghana en India; geopolitieke macht; baten lasten machtsverhoudingen; technologie en infrastructuur als macht",
+          "worldAction": [
+            "Een telefoon reist verder",
+            "Drie berichten uit de keten",
+            "Koppel de macht aan het gevolg"
+          ],
+          "exit": {
+            "label": "Volg het serviceticket naar de werkplaats",
+            "lockType": "chain-trace",
+            "problem": "Een verzendadres vertelt nog niet waar winning, gebruik en afval terechtkomen. Je moet de route eerst reconstrueren.",
+            "unlockedText": "De materiaalroute en de open bewijsvragen zijn zichtbaar.",
+            "destinationReason": "Een retourticket wijst naar de reparatiewerkplaats. Daar kun je onderzoeken waarom het systeem een ander doel beloont dan je verwacht."
+          },
+          "sourceBlocks": [
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "id": "m1-04",
+          "name": "De reparatiewerkplaats",
+          "imageKey": "chapter-1",
+          "teachingGoal": "systeemdoel; menselijk oordeel versus organisatieontwerp; KPI-prikkels; morele paradox organisaties; Goodpaster; systeeminterventie; waarden in prestatiemeting",
+          "worldAction": [
+            "Het nest naast de sensor",
+            "De wachtrij groeit",
+            "Pas de planning aan"
+          ],
+          "exit": {
+            "label": "Breng de onderbouwde pilot naar het bestuur",
+            "lockType": "pilot-review",
+            "problem": "De machine beloont haar ingestelde doel. Een ingreep zonder begrip van die meetlat kan hetzelfde patroon herhalen.",
+            "unlockedText": "De pilot heeft een bredere, toetsbare meetlat.",
+            "destinationReason": "Wie mag die meetlat veranderen en wie ontvangt de opbrengst? Het bestuur en het eigendomsregister laten de bevoegdheden zien."
+          },
+          "sourceBlocks": [
+            15,
+            16,
+            17
+          ]
+        },
+        {
+          "id": "m1-05",
+          "name": "De kamer van de spelregels",
+          "imageKey": "chapter-3",
+          "teachingGoal": "eigendom zeggenschap opbrengst; cumulatieve vermogensgroei; Piketty; Smith: eigendom als autonomie; vastgoedfondsen; institutionele investeerders; databezit; schaalvoordelen; neoliberalisme; deregulering; privatisering; financialisering; marktconcentratie; toezicht; publieke voorzieningen; aannames markt versus staat; eigendom versus bijdrage; instituties bepalen waarde en macht; rendement r; economische groei g; r groter dan g; vermogensconcentratie afhankelijk van context; marktmacht prijzen; toegang tot werk; innovatie; politieke invloed; data-autonomie",
+          "worldAction": [
+            "De sleutel verdient mee",
+            "Drie soorten sleutel",
+            "Wie verandert de spelregels?",
+            "Stemrecht bij de reparatiehub",
+            "Twee groeistroken",
+            "De poort van de reparatiehub"
+          ],
+          "exit": {
+            "label": "Open het verdelingsarchief",
+            "lockType": "control-trace",
+            "problem": "De investeringssleutel, het grootboek en de marktregels tonen verschillende bronnen van zeggenschap.",
+            "unlockedText": "De route van eigendom naar invloed is gereconstrueerd.",
+            "destinationReason": "De eigendomsregisters vertellen wie opbrengst ontvangt. Onderzoek in het archief hoe inkomen, vermogen en toegang worden verdeeld."
+          },
+          "sourceBlocks": [
+            19,
+            22,
+            24,
+            25,
+            26
+          ]
+        },
+        {
+          "id": "m1-07",
+          "name": "Het verdelingsarchief",
+          "imageKey": "room-archive",
+          "teachingGoal": "inkomen versus vermogen; Gini als verdelingsmaat; grenzen van ongelijkheidsindicatoren; beleid beïnvloedt ongelijkheid; capitalistische tegenvoorbeelden; verdeling versus welvaart; voorwaardelijke historische vergelijking; progressieve inkomensbelasting; erfbelasting en vermogensaccumulatie; transfers; onderwijs en zorg; digitale kloof; vermogen en democratische invloed; herverdeling versus groei; marktinkomen versus besteedbaar inkomen; grenzen van een rekenvoorbeeld; ongelijkheid van kansen; digitale toegang; democratische controle; bewijs en beleidsvoorwaarden",
+          "worldAction": [
+            "Twee registers, verschillende vragen",
+            "Landen zijn geen natuurwetten",
+            "Waar grijpt een beleidsknop in?",
+            "Volg tien eenheden",
+            "Wat moet naast het register?"
+          ],
+          "exit": {
+            "label": "Breng de twee rekeningen naar het materialenlab",
+            "lockType": "redistribution-trace",
+            "problem": "Het register bevat zowel inkomens als bezittingen. Het bestuur moet weten welk mechanisme verandert en welke conclusie de cijfers nog niet dragen.",
+            "unlockedText": "Je onderscheidt verdeling, totale opbrengst en ontbrekende toegangsinformatie.",
+            "destinationReason": "Een eerlijkere verdeling vertelt nog niet of productie binnen ecologische grenzen blijft. Neem de rekeningen mee naar het materialenlab."
+          },
+          "sourceBlocks": [
+            3
+          ]
+        },
+        {
+          "id": "m1-08",
+          "name": "Het materialenlab van de groeiproef",
+          "imageKey": "room-materials",
+          "teachingGoal": "exponentiële groei; groeivoet versus absolute toename; begrenzing; BBP en marktwaarde; arbeid kapitaal natuurlijke hulpbronnen; waarde versus materiaalvolume; materiële en immateriële bijdragen; efficiëntie versus totale belasting; rebound als mogelijke route; vraag en productieomvang; relatieve versus absolute ontkoppeling; impactafbakening; historische tegenvoorbeelden; voorwaarden voor duurzaamheid; groene groei en postgroei als debat; behoeften versus productiegroei; zorg energie openbaar vervoer; werk en publieke diensten; democratische prioritering",
+          "worldAction": [
+            "De verdubbelingsstrook",
+            "Waarde is geen gewicht",
+            "De zuinige machine produceert meer",
+            "Hoe groot is de bewezen daling?",
+            "Twee toekomstvoorstellen, één toetsplan"
+          ],
+          "exit": {
+            "label": "Breng het toetsbare productievoorstel naar de etalage",
+            "lockType": "growth-boundary-trace",
+            "problem": "Een leverancier toont minder materiaal per toestel. Het bestuur moet weten wat er met totale belasting gebeurt en welke toekomstclaims nog bewijs vragen.",
+            "unlockedText": "Je onderscheidt waarde, eenheidsverbruik, totale belasting en een onderbouwde groeiroute.",
+            "destinationReason": "Het productieplan wordt een campagne. Onderzoek in de etalage hoe zichtbaarheid en verkoopprikkels de extra vraag kunnen beïnvloeden."
+          },
+          "sourceBlocks": [
+            21
+          ]
+        },
+        {
+          "id": "m1-06",
+          "name": "De etalage van morgen",
+          "imageKey": "chapter-5",
+          "teachingGoal": "aanbod vormt vraag; algoritmische zichtbaarheid; geconstrueerde keuzeruimte; kuddegedrag; verliesaversie; morele ontkoppeling; keuzevrijheid; publieke waarden; financiële versus stakeholderlogica; financiële dominantie; kortetermijnrendement; werknemerskosten; onderhoud en duurzaamheid; kwetsbaarheid bij crises; aandeelhouders versus stakeholders; kuddegedrag bij onzekerheid; angst voor uitsluiting; meerderheid als informatie; zichzelf versterkende navolging; tunnelvisie en instabiliteit; risicomijding; overreactie onder verliesdruk",
+          "worldAction": [
+            "Verborgen instellingen in de etalage",
+            "Drie duwtjes naar de aankoop",
+            "Herontwerp het keuzemenu",
+            "De onderhoudslade blijft dicht",
+            "Het gerucht op het koersscherm",
+            "Dezelfde honderd euro"
+          ],
+          "exit": {
+            "label": "Open de besliskamer van les 1",
+            "lockType": "integrated-case",
+            "problem": "Een nieuwe situatie vraagt om meerdere lenzen. Alleen een verkoopsignaal laat de belangen en systeemkeuzes niet volledig zien.",
+            "unlockedText": "Je onderscheidt keuzemechanismen van de bredere spelregels.",
+            "destinationReason": "Je gebruikt je inzichten in een nieuw stedelijk laadnetwerk, gevolgd door aanvullende vragen. Daarna begint les 2."
+          },
+          "sourceBlocks": [
+            28,
+            29,
+            31,
+            32,
+            34
+          ]
+        }
+      ],
+      "worldTeachingBeatCount": 34,
+      "requiredSourceProjectionCount": 0
+    },
+    {
+      "lessonId": "m2",
+      "title": "Psychologie & Systemen",
+      "routeStatus": "Auteurdata aanwezig; runtime en fidelitycontrole vóór gebruik",
+      "areas": [
+        {
+          "id": "m2-01",
+          "name": "De innamebalie",
+          "imageKey": "chapter-2",
+          "teachingGoal": "mens en systeem; beperkte rationaliteit; intuïtie emotie ervaring; heuristieken; contextdruk; reflectievoorwaarden; routines versus heroverweging; informatie en tijd; sociale verwachtingen; hiërarchie; individueel gedrag op schaal; normveiligheid; gerichte ondersteuning; contextinterventie; sociale groep; aggregaat; categorie; primaire en secundaire groep; groep versus aggregaat versus categorie; vrijwillige en toegewezen groep; referentiegroep; ingroup outgroup; veranderende groepsband",
+          "worldAction": [
+            "Een bekende naam, nieuwe omstandigheden",
+            "Welke dossiers vragen een pauze?",
+            "Van dagtarget naar systeemgedrag",
+            "Bouw de wijzigingsroute",
+            "Wie vormt hier een groep?",
+            "Herbouw de bezoekerskaart",
+            "De relatie achter de naam"
+          ],
+          "exit": {
+            "label": "Open het gewijzigde retourdossier",
+            "lockType": "review-route",
+            "problem": "De routine keurt een oud leveranciersdossier opnieuw goed, terwijl eigenaar en omstandigheden veranderd zijn.",
+            "unlockedText": "De wijzigingscheck markeert een retourstroom voor nader onderzoek.",
+            "destinationReason": "De retourruimte bevat de gevolgen die de oude routine niet registreerde."
+          },
+          "sourceBlocks": [
+            0,
+            4,
+            5,
+            6,
+            8,
+            10
+          ]
+        },
+        {
+          "id": "m2-02",
+          "name": "De retourruimte",
+          "imageKey": "room-recycling",
+          "teachingGoal": "moraal versus ethiek; cognitieve dissonantie; morele ontkoppeling; herdefiniëren; minimaliseren; verantwoordelijkheid verschuiven; verspreide verantwoordelijkheid; Goodpaster; organisatie versus individuele zorg; zelfrechtvaardiging; verhaal versus handeling; normalisatie als verwante lens; context en verantwoordelijkheid; bewijs versus intentie; voordelige vergelijking; ontkennen effecten; slachtofferbeschuldiging; ontmenselijking; gedrag agency effecten slachtoffer; ontkoppelingscategorieën",
+          "worldAction": [
+            "Het toestel en de woorden",
+            "Decodeer de opdracht",
+            "Het protocol reist door handen",
+            "Waarom blijft het gedrag gelijk?",
+            "Open een onderzoek zonder schuldverhaal",
+            "Wat verdwijnt uit het verhaal?",
+            "Welk deel wordt weggedrukt?"
+          ],
+          "exit": {
+            "label": "Stuur het retourprotocol naar gezamenlijke beoordeling",
+            "lockType": "responsibility-map",
+            "problem": "Werkende toestellen verdwijnen als 'voorraadoptimalisatie'; taakverdeling verbergt wie het protocol kan veranderen.",
+            "unlockedText": "Het dossier toont de feitelijke handeling en relevante beslisrollen.",
+            "destinationReason": "De vergaderkamer moet de verspreide verantwoordelijkheid gezamenlijk bespreken."
+          },
+          "sourceBlocks": [
+            12,
+            14,
+            16,
+            17
+          ]
+        },
+        {
+          "id": "m2-03",
+          "name": "De vergaderkamer",
+          "imageKey": "room-canteen",
+          "teachingGoal": "conformiteit; groepsdenken; pluralistische onwetendheid; collectieve actieproblemen; waargenomen normen; structuur en agency; normalisatie van afwijkend gedrag; herhaling zwijgen beloning; normverschuiving; psychologische veiligheid; gezamenlijke informatie; procedurele agency; instrumenteel expressief leiderschap; autoritair democratisch laissez-faire; contextafhankelijk leiderschap; dyade triade groepsgrootte; coalities; diversiteit en buitennetwerk; zwakke verbindingen; Milgram gehoorzaamheid; autoriteit en groepswaarden; historisch experiment contextbeperking",
+          "worldAction": [
+            "Publieke stilte, private twijfel",
+            "Maak de stille lus zichtbaar",
+            "Een uitzondering wordt de norm",
+            "Herstel een bruikbaar overleg",
+            "Drie vergaderinstellingen",
+            "Leg de netwerkverbindingen",
+            "Een onderzoek is geen karaktertest"
+          ],
+          "exit": {
+            "label": "Open het gezamenlijke bezwarenregister",
+            "lockType": "consensus-reconstruction",
+            "problem": "De publieke notulen melden instemming; afzonderlijke reacties bevatten gedeelde zorgen.",
+            "unlockedText": "De schijnbare consensus is vervangen door een zichtbaar register met redenen.",
+            "destinationReason": "De aandachtstudio kan laten zien hoe vergelijkbare verwachtingen buiten de vergadering ontstaan."
+          },
+          "sourceBlocks": [
+            4,
+            19,
+            20,
+            22,
+            23
+          ]
+        },
+        {
+          "id": "m2-04",
+          "name": "De aandachtstudio",
+          "imageKey": "chapter-5",
+          "teachingGoal": "onbewust gevormde praktijken; infrastructuur en gewoontes; aanbod vormt vraag; professionele sociale verwachtingen; gewoonte norm verwachting; geleidelijke systeemafhankelijkheid; sociale vergelijking; identiteitsassociaties; angst voor uitsluiting; gepersonaliseerde gedragssturing; reclame als psychologische technologie; platformselectie; feedbacklus aandacht; autonomie; informatiefuik en polarisatie; geïnformeerde keuze; zichtbare alternatieven; toestemming en controle; kapitalisme als variatie; eigendom coördinatie marktprijzen; institutionele keuzes; arbeid kapitaal natuurlijke hulpbronnen; productie als waardecreatie; klimaat groei prikkels; regelwijziging; ongelijkheid en feedbackmacht",
+          "worldAction": [
+            "Een handige functie wordt een dagelijks ritme",
+            "Van herhaling naar vanzelfsprekendheid",
+            "Wat probeert de boodschap te doen?",
+            "Van gegevens naar zichtbaarheid",
+            "Maak het menu onderzoekbaar",
+            "Drie knoppen in een economisch ontwerp",
+            "Een toegestane praktijk, veranderde regels"
+          ],
+          "exit": {
+            "label": "Maak de verborgen alternatieven zichtbaar",
+            "lockType": "choice-environment",
+            "problem": "De app maakt voortdurend vervangen makkelijk en reparatie moeilijk vindbaar; gebruikers ervaren dit als de normale route.",
+            "unlockedText": "Een transparanter keuzemenu toont doelen, alternatieven en instelbare sturing.",
+            "destinationReason": "De servicepoort kan nu beoordelen of zichtbare alternatieven ook werkelijk bereikbaar zijn."
+          },
+          "sourceBlocks": [
+            25,
+            26,
+            28,
+            30,
+            31,
+            33,
+            35
+          ]
+        },
+        {
+          "id": "m2-05",
+          "name": "De servicepoort",
+          "imageKey": "room-helpdesk",
+          "teachingGoal": "monopolie duopolie; ecosysteemafhankelijkheid; formele versus praktische keuze; normalisering; psychologische macht; verwachtingen versus dwang; handelingsruimte; macht als psychologisch fenomeen; positie en perceptie; ongelijk verdeelde verantwoordelijkheid; psychologische veiligheid; alternatieven zichtbaar maken; keuzevrijheid; macht en verantwoordelijkheid",
+          "worldAction": [
+            "Drie modellen, één ecosysteem",
+            "Optie, drempel of aanname?",
+            "Dezelfde regel, een ander perspectief",
+            "Maak overstappen toetsbaar"
+          ],
+          "exit": {
+            "label": "Open een werkelijke overstaproute",
+            "lockType": "dependency-map",
+            "problem": "Er bestaan drie modellen, maar gegevens, onderdelen en werkcontacten zitten in hetzelfde ecosysteem.",
+            "unlockedText": "Het dossier toont bruikbare alternatieven, overstapkosten en de beslisrol achter elke drempel.",
+            "destinationReason": "Het veranderatelier kan gericht werken aan de gevonden handelingsruimte."
+          },
+          "sourceBlocks": [
+            37,
+            38,
+            40,
+            46,
+            47
+          ]
+        },
+        {
+          "id": "m2-06",
+          "name": "Het veranderatelier",
+          "imageKey": "room-forum",
+          "teachingGoal": "morele moed; sociale professionele kosten; relationele agency; collectieve agency; informatie delen; vertraging en alternatieven; mens systeem wisselwerking; normverandering; frictie collectieve twijfel publieke taal alternatieven; verandering niet lineair; psychologische veiligheid; targetdruk; reflectietijd; ruimte versus uitkomst; veiligheid steun erkenning; toetsbare interventie; gedeelde verantwoordelijkheid",
+          "worldAction": [
+            "Een kleine vraag met grote kosten",
+            "Maak de kleine handelingsruimte bruikbaar",
+            "Van frictie naar een nieuwe norm",
+            "Welke route kan de zorg bereiken?",
+            "Maak de pilot uitvoerbaar"
+          ],
+          "exit": {
+            "label": "Start een beschermde reparatiepilot",
+            "lockType": "collective-agency",
+            "problem": "Een medewerker heeft bewijs van verspilling, maar spreken heeft sociale risico's en het protocol blijft onveranderd.",
+            "unlockedText": "Steun, beoordelingsruimte en een toetsbaar alternatief vormen een route die iemand daadwerkelijk kan gebruiken.",
+            "destinationReason": "De volgende les onderzoekt waarom bestuur, kapitaal en zeggenschap deze ruimte mede bepalen."
+          },
+          "sourceBlocks": [
+            42,
+            43,
+            44,
+            49,
+            50,
+            51,
+            53,
+            55,
+            56
+          ]
+        }
+      ],
+      "worldTeachingBeatCount": 37,
+      "requiredSourceProjectionCount": 5
+    },
+    {
+      "lessonId": "m3",
+      "title": "Organisaties & Macht",
+      "routeStatus": "Auteurdata aanwezig; runtime en fidelitycontrole vóór gebruik",
+      "areas": [
+        {
+          "id": "m3-01",
+          "name": "De logistieke hub",
+          "imageKey": "room-depot",
+          "teachingGoal": "onderneming als coördinatie; kapitaal arbeid kennis; morele organisatie-inrichting; lobby standaarden exclusieve data; schaalvoordelen; toegankelijkheid goederen; langetermijnplanning; marktconcentratie; marktmacht; efficiëntie versus invloed; netwerkeffecten; data en concentratie; superstar firms; onderneming als regelvormer; arbeidsaandeel; compositie-effect; superstar firms en verdeling; productiviteit en concentratie; concurrentie versus toetredingsmacht; beleid en empirische onzekerheid; winstopslag versus verkoopprijs; marginale kosten versus nettowinst; efficiëntie en dominante positie",
+          "worldAction": [
+            "Waarom deze onderneming bestaat",
+            "De voordelen van schaal",
+            "Kostenvoordeel of toegangspositie?",
+            "Het netwerk trekt meer netwerk",
+            "Meer loon, een kleiner aandeel",
+            "Welke verklaring vraagt welk bewijs?",
+            "Goedkoper voor klanten, grotere opslag"
+          ],
+          "exit": {
+            "label": "Onderzoek de voorwaarden achter het schaalvoordeel",
+            "lockType": "market-access",
+            "problem": "De hub maakt reparatie goedkoper, maar nieuwe aanbieders moeten haar netwerkvoorwaarden accepteren.",
+            "unlockedText": "De kaart onderscheidt kostenvoordeel en toegangsafhankelijkheid.",
+            "destinationReason": "De investeringskamer beoordeelt welke uitbreiding de hub kiest en welke horizon daarbij telt."
+          },
+          "sourceBlocks": [
+            0,
+            2,
+            4,
+            5
+          ]
+        },
+        {
+          "id": "m3-02",
+          "name": "De investeringskamer",
+          "imageKey": "chapter-3",
+          "teachingGoal": "aandeelhoudersmodel; financialisering; tijdshorizon; vermogensconcentratie Piketty Stiglitz; aandeelhouderswaarde; financieel referentiekader; structurele concurrentiedruk; korte versus lange horizon; maatschappelijke waarde versus rendement; onzekerheid; institutionele inbedding van morele claims; vermogensaccumulatie",
+          "worldAction": [
+            "Twee voorstellen, twee tijdvensters",
+            "Van marktverwachting naar voorstel",
+            "Wat staat wanneer in beeld?",
+            "Maak een beoordeelbaar voorstel"
+          ],
+          "exit": {
+            "label": "Leg de volledige investeringshorizon op tafel",
+            "lockType": "horizon-review",
+            "problem": "Een reparatiecentrum verliest op de kwartaalkaart omdat latere opbrengsten en gevolgen niet zichtbaar zijn.",
+            "unlockedText": "Het voorstel toont korte en lange termijnen, onzekerheid en gekozen criteria.",
+            "destinationReason": "Het samenwerkingsarchief laat zien welke partijen door deze horizon risico dragen."
+          },
+          "sourceBlocks": [
+            7,
+            9
+          ]
+        },
+        {
+          "id": "m3-03",
+          "name": "Het samenwerkingsarchief",
+          "imageKey": "room-archive",
+          "teachingGoal": "stakeholderbenadering; wederzijdse afhankelijkheid; specifieke investeringen; resource dependence theory; team production theory; waardecreatie relationeel; klanteninkomsten en informatie; specifieke versus generieke bijdrage; gedeeld risico; macht legitimiteit urgentie; stakeholder-salience; legitimatievraagstuk; claims wegen; governance en samenwerking; bijdrage risico rechten; Berle Dodd debat; residuele aandeelhoudersclaim; stakeholderverklaringen versus inrichting; manageraccountability; pluraliteit met verantwoording; managementdiscretie; criteria en beoordeling",
+          "worldAction": [
+            "Meer dan geld in de onderneming",
+            "Koppel bijdrage en afhankelijkheid",
+            "Hoe specifiek is de investering?",
+            "Waarom krijgt één claim aandacht?",
+            "Bouw het gezamenlijke besluitdossier",
+            "Waarom is de discussie nog open?",
+            "Maak het doel controleerbaar"
+          ],
+          "exit": {
+            "label": "Leg de relevante claims voor aan het bestuur",
+            "lockType": "contribution-map",
+            "problem": "Een verhuizing wordt alleen als kapitaalbesluit behandeld, terwijl anderen specifieke investeringen en risico's hebben.",
+            "unlockedText": "Het besluitdossier maakt bijdragen, afhankelijkheden, rechten en weegcriteria zichtbaar.",
+            "destinationReason": "De bestuurskamer moet bepalen hoe deze claims in zeggenschap en verantwoording terechtkomen."
+          },
+          "sourceBlocks": [
+            11,
+            13,
+            14,
+            16
+          ]
+        },
+        {
+          "id": "m3-04",
+          "name": "De bestuurskamer",
+          "imageKey": "chapter-3",
+          "teachingGoal": "beslissingspremissen; organisatorisch filter; Goodpaster; doelen indicatoren interpretatiekaders; voorafgaande kaders versus besluiten; institutionele normen; werknemersvertegenwoordiging; ondernemingsbelang; UK section 172; Benefit Corporation; aandeelhoudersmodel versus stakeholderperspectief; Scandinavische variatie; CSRD rapportage; governance niet automatisch machtshervorming; inspraak versus invloed; horizon en criteria; institutionele inrichting; bestuur als afweging; informatie timing beslisrechten verantwoording",
+          "worldAction": [
+            "Het formulier vóór de beslissing",
+            "Premisse of uitkomst?",
+            "Vier institutionele voorbeelden",
+            "Een spectrum, geen twee vakjes",
+            "Stem, horizon en meetlat",
+            "Verbind inspraak aan het besluit"
+          ],
+          "exit": {
+            "label": "Open een verantwoord besluitproces",
+            "lockType": "governance-design",
+            "problem": "Stakeholders spreken, maar het besluitformulier en de timing laten hun gevolgen nauwelijks meewegen.",
+            "unlockedText": "Informatie, bevoegdheden, criteria en verantwoording zijn zichtbaar in het proces.",
+            "destinationReason": "De kapitaalbalie moet laten zien welke externe financiële voorwaarden deze ruimte blijven begrenzen."
+          },
+          "sourceBlocks": [
+            18,
+            19,
+            21,
+            22,
+            23,
+            24
+          ]
+        },
+        {
+          "id": "m3-05",
+          "name": "De kapitaalbalie",
+          "imageKey": "room-market",
+          "teachingGoal": "kapitaal als selectiemechanisme; rendement risico legitimatie; financialisering; lock-in; onbeprijsde milieukosten; publieke waarde versus private opbrengst; Polanyi; financiële disciplinering; kapitaalmobiliteit; anticiperende strategiekeuze; hedgefonds; aandeelhoudersactivisme; beurskoers kredietrating analisten; mobiliteit versus directe zeggenschap; financieringsruimte; alternatieven en onzekerheid; kapitaal en maatschappelijke richting; financialisering historische ontwikkeling; globalisering technologie; crisisrisico; hervorming als debat",
+          "worldAction": [
+            "Twee plannen vragen dezelfde euro",
+            "Waarom krijgt een sector geld?",
+            "Druk zonder dagelijkse opdracht",
+            "Vier gezichten van financiële invloed",
+            "Bouw de voorwaardenkaart",
+            "Financiële motieven buiten de onderneming"
+          ],
+          "exit": {
+            "label": "Maak de financieringsvoorwaarden expliciet",
+            "lockType": "capital-selection",
+            "problem": "Twee maatschappelijk relevante plannen krijgen verschillende toegang tot financiering; een fonds kan voorwaarden of kapitaal wijzigen.",
+            "unlockedText": "Projectselectie, druk, mobiliteit en lock-ins staan apart op de kaart.",
+            "destinationReason": "Het waarderegister kan bepalen welke gevolgen daardoor buiten het rendementsbeeld blijven."
+          },
+          "sourceBlocks": [
+            26,
+            27,
+            28,
+            30,
+            31,
+            32,
+            34,
+            36,
+            37
+          ]
+        },
+        {
+          "id": "m3-06",
+          "name": "Het brede waarderegister",
+          "imageKey": "room-forum",
+          "teachingGoal": "ecologische waarde; sociale waarde; onbeprijsde gevolgen; arbeid versus kapitaal; prikkels versus intentie; externe correcties; financiële filter; concurrentiedruk; normverval; rationalisatie; legaal versus ethisch; waarden zelfstandig zichtbaar; uitvoerbaarheid; verantwoordingscriteria; verklaring versus rechtvaardiging; bewijs en onzekerheid",
+          "worldAction": [
+            "De kosten naast de begroting",
+            "Wanneer schade financieel logisch lijkt",
+            "De concurrent deed het eerst",
+            "Een besluit met een bredere waardebasis",
+            "Welke claim kan het besluit dragen?"
+          ],
+          "exit": {
+            "label": "Leg een uitvoerbaar veranderbesluit voor",
+            "lockType": "value-and-accountability",
+            "problem": "De begroting toont besparing, maar verbergt sociale en ecologische gevolgen; concurrentiedruk maakt de grens verschuifbaar.",
+            "unlockedText": "Het voorstel bevat criteria, gevolgen, rechten, middelen en toetsing.",
+            "destinationReason": "De technologieroute onderzoekt vervolgens hoe zulke waarden in systemen en infrastructuur terechtkomen."
+          },
+          "sourceBlocks": [
+            39,
+            40,
+            42,
+            44
+          ]
+        }
+      ],
+      "worldTeachingBeatCount": 35,
+      "requiredSourceProjectionCount": 2
+    },
+    {
+      "lessonId": "m4",
+      "title": "Technologie, Macht & Morele Interventie",
+      "routeStatus": "Auteurdata aanwezig; runtime en fidelitycontrole vóór gebruik",
+      "areas": [
+        {
+          "id": "m4-01",
+          "name": "De ingang die kiest",
+          "imageKey": "room-helpdesk",
+          "teachingGoal": "morele architectuur; toegang en afhankelijkheid; automatische deur; Winner; bewuste ontwerpsturing; organisatorische vereisten; Actor-Network Theory; menselijke en niet-menselijke actoren; Verbeek; technologische bemiddeling; ontwerpinterventie; menselijke agency",
+          "worldAction": [
+            "Test de deur in vier omstandigheden",
+            "Twee soorten politieke werking",
+            "De deur is een netwerk",
+            "Kies een werkende fallback"
+          ],
+          "exit": {
+            "label": "Open de onderhoudsdoorgang",
+            "lockType": "accessible-fallback",
+            "problem": "Een automatische deur helpt veel bezoekers, maar bij uitval kan een rolstoelgebruiker niet zelfstandig naar binnen. Onderbouw een toegangsoplossing voordat de onderhoudsroute wordt geopend.",
+            "unlockedText": "De fallback is afgesproken en getest. De onderhoudsroute is toegankelijk.",
+            "destinationReason": "Volg nu de infrastructuur die de ingang van energie en leveringen voorziet."
+          },
+          "sourceBlocks": [
+            0,
+            1,
+            4,
+            10,
+            13,
+            15,
+            22,
+            44,
+            47
+          ]
+        },
+        {
+          "id": "m4-02",
+          "name": "Het logistieke knooppunt",
+          "imageKey": "room-depot",
+          "teachingGoal": "infrastructuur; achtergrond en uitval; standaarden en afhankelijkheden; Star en Bowker; logistieke infrastructuur; fysiek en digitaal netwerk; coördinatie; Amazon voorbeeld; infrastructuurmacht; markttoegang; asymmetrische afhankelijkheid; toegang en voorwaarden; infrastructuur als morele structuur; langetermijneffecten",
+          "worldAction": [
+            "Zoek wat de apparaten mogelijk maakt",
+            "Laat de reparatie echt reizen",
+            "De snelste route heeft een eigenaar",
+            "Bouw de aansluitafspraak"
+          ],
+          "exit": {
+            "label": "Activeer de route voor onafhankelijke reparateurs",
+            "lockType": "interoperable-access",
+            "problem": "Een gerepareerd apparaat bereikt de klant alleen via een netwerk waarvoor kleine reparateurs geen standaardkoppeling hebben. Reconstrueer de route en stel verantwoorde aansluiting vast.",
+            "unlockedText": "De aansluiting heeft een bruikbaar formaat, toetsbare voorwaarden en een aanspreekpunt.",
+            "destinationReason": "De gegevens die je koppeling nodig heeft, liggen in de datakluis."
+          },
+          "sourceBlocks": [
+            17,
+            18,
+            20,
+            22,
+            23,
+            30
+          ]
+        },
+        {
+          "id": "m4-03",
+          "name": "De datakluis",
+          "imageKey": "room-archive",
+          "teachingGoal": "data als hulpbron; data als macht; Zuboff; surveillancekapitalisme; Internet of Things; gedragsdata; profilering; voorspellen en beïnvloeden; efficiëntie; datatoegang; lock-in; concurrentie; autonomie; menselijke agency; ontwerpinterventie; organisatorische interventie; morele architectuur; rangschikkingscriteria; waarden in technologie; zoekmachinevoorbeeld; cloudafhankelijkheid; digitale autonomie; infrastructuurmacht",
+          "worldAction": [
+            "Volg één gegevensspoor",
+            "Van handeling naar aanbeveling",
+            "Onderscheid voordeel en zeggenschap",
+            "Voer een beheerste export uit",
+            "Wie bepaalt wat een zoekmachine laat zien?",
+            "De cloud heeft ook een bestuurlijke grens"
+          ],
+          "exit": {
+            "label": "Maak de exportdeur bruikbaar",
+            "lockType": "portable-data",
+            "problem": "De hub kan haar onderhoudsgegevens niet naar een andere dienst verplaatsen zonder functies te verliezen. Onderzoek doelen, datagebruik en overstapkosten; bouw een gecontroleerde export.",
+            "unlockedText": "Een geteste export, verantwoordelijk beheer en een continuïteitsplan maken overstappen mogelijk.",
+            "destinationReason": "Dezelfde data voeden de sorteerband; onderzoek nu wat zij leert en selecteert."
+          },
+          "sourceBlocks": [
+            8,
+            10,
+            13,
+            27,
+            30,
+            32,
+            34,
+            35,
+            37,
+            44,
+            47
+          ]
+        },
+        {
+          "id": "m4-04",
+          "name": "Het sorteerlab",
+          "imageKey": "room-ai-lab",
+          "teachingGoal": "algoritme; trainingsdata; circulaire economie; AMP Robotics voorbeeld; representativiteit; algoritmisch doel; waardeprioritering; AI recycling; black box; explainable AI; algoritme-audit; bias; verantwoordelijkheid; algoritmische discriminatie; historische bias; groepsprestaties; bewijslimiet; AI-risicoregister; privacy en toestemming; arbeidsverschuiving; deepfakes en misbruik; juridische onduidelijkheid; accountability",
+          "worldAction": [
+            "Wat leert de machine precies?",
+            "Verander doel en oefendata",
+            "Maak de black box bevraagbaar",
+            "Wat mag je uit de test afleiden?",
+            "Zes incidenten naast de sorteerband",
+            "Van AI-incident naar gerichte onderzoeksvraag"
+          ],
+          "exit": {
+            "label": "Geef de band vrij voor een getoetste pilot",
+            "lockType": "tested-model",
+            "problem": "De band heet circulair maar laat bepaalde materialen liggen. Onderzoek herkenning, doel en controle voordat de pilot naar de rapportagekamer mag doorlopen.",
+            "unlockedText": "De pilot heeft een expliciet doel, gespreide testdata en een reviewroute.",
+            "destinationReason": "Volg nu hoe de resultaten als duurzaamheidsinformatie in het dashboard verschijnen."
+          },
+          "sourceBlocks": [
+            37,
+            38,
+            40,
+            41,
+            42,
+            47
+          ]
+        },
+        {
+          "id": "m4-05",
+          "name": "De controlekamer",
+          "imageKey": "chapter-4",
+          "teachingGoal": "technologische bemiddeling; KPI; selectieve duurzaamheidsinformatie; greenwashing; niveaus van verantwoordelijkheid; socio-technisch systeem; agency; ontwerpinterventie; organisatorische interventie; institutionele interventie; governance; transparantie; algoritme-audit; maatschappelijke verantwoordelijkheid; organisatorische weerstand",
+          "worldAction": [
+            "Wat verdwijnt buiten het scherm?",
+            "Wie kan wat veranderen?",
+            "Leg de interventies op drie werktafels",
+            "Maak het dashboard aanspreekbaar"
+          ],
+          "exit": {
+            "label": "Stuur een controleerbare rapportage door",
+            "lockType": "accountable-dashboard",
+            "problem": "Het dashboard toont alleen verkoopsnelheid en één groene indicator. Herstel de verbinding tussen prestatie, maatschappelijke gevolgen en verantwoordelijke rollen.",
+            "unlockedText": "Het dashboard toont zijn meetgrens, aanvullende gevolgen en verantwoordelijke beheerders.",
+            "destinationReason": "Gebruik deze diagnose om in de vrijgavekamer een uitvoerbare interventie te formuleren."
+          },
+          "sourceBlocks": [
+            0,
+            1,
+            13,
+            27,
+            41,
+            44,
+            47,
+            50,
+            51
+          ]
+        },
+        {
+          "id": "m4-06",
+          "name": "De vrijgavekamer",
+          "imageKey": "room-forum",
+          "teachingGoal": "Value Sensitive Design; responsible innovation; technologisch determinisme; AI Act; CSRD; Digital Services Act; menselijke agency; herziening; interventieniveaus; inclusief ontwerp; audits; institutionele bescherming; interventie; agency; verantwoordelijkheid; proportionaliteit",
+          "worldAction": [
+            "Open de drie regelkasten",
+            "Bouw een herzienbare pilot",
+            "Koppel risico aan bevoegdheid",
+            "Kies een verdedigbare eerste stap"
+          ],
+          "exit": {
+            "label": "Open de verantwoorde pilotroute",
+            "lockType": "multi-level-release",
+            "problem": "Een publieke partner wil de service gebruiken. Maak uit je bewijs een uitvoerbaar plan met ontwerp, beheer en publieke voorwaarden voordat je de pilot vrijgeeft.",
+            "unlockedText": "De pilot heeft begrensde claims, controle, herziening en een aanspreekbaar veranderplan.",
+            "destinationReason": "Een nieuwe sector test straks of je dezelfde mechanismen zelfstandig herkent."
+          },
+          "sourceBlocks": [
+            1,
+            44,
+            45,
+            47,
+            50,
+            51
+          ]
+        }
+      ],
+      "worldTeachingBeatCount": 28,
+      "requiredSourceProjectionCount": 0
+    },
+    {
+      "lessonId": "m5",
+      "title": "Greenwashing (kort)",
+      "routeStatus": "Auteurdata aanwezig; runtime en fidelitycontrole vóór gebruik",
+      "areas": [
+        {
+          "id": "m5-01",
+          "name": "De warenmarkt",
+          "imageKey": "room-market",
+          "teachingGoal": "greenwashing als systeemfenomeen; institutionele druk; organisatorische beperkingen; economische prikkels; Suchman; legitimiteit; decoupling; symbolische communicatie; symbolische maatregelen; feitelijke praktijk; waarheidsgetrouwe communicatie; claimgrens",
+          "worldAction": [
+            "Verzamel de verwachtingen rond de stand",
+            "Legitimiteit is niet hetzelfde als bewijs",
+            "Volg woorden en werk afzonderlijk",
+            "Open de stand met een houdbare belofte"
+          ],
+          "exit": {
+            "label": "Maak de publieksstand controleerbaar",
+            "lockType": "claim-evidence",
+            "problem": "Bezoekers krijgen de indruk dat de hele service al duurzaam is. Onderzoek de beloften en maatschappelijke verwachtingen; verbind elke uitspraak met haar werkelijke reikwijdte voordat de stand opent.",
+            "unlockedText": "De publieksstand maakt duidelijk wat veranderd is en wat nog onderzocht moet worden.",
+            "destinationReason": "Volg de poster terug naar de studio waar de communicatie wordt gemaakt."
+          },
+          "sourceBlocks": [
+            0,
+            3,
+            9,
+            21,
+            24,
+            27
+          ]
+        },
+        {
+          "id": "m5-02",
+          "name": "De campagnestudio",
+          "imageKey": "chapter-5",
+          "teachingGoal": "selectieve communicatie; vage claims; irrelevante communicatie; symbolische duurzaamheid; transparantie; controleerbaarheid; waarheidsgetrouwheid; legaliteit versus ethiek; claimgrens; feitelijke prestatie; symbolische communicatie; compensatie versus reductie",
+          "worldAction": [
+            "Vier manieren om een groen beeld te maken",
+            "Leg de poster bij het getoonde mechanisme",
+            "Vraag het bewijs dat de claim mist",
+            "Maak een controleerbare drukproef",
+            "Wat bewijst de compensatiebon?"
+          ],
+          "exit": {
+            "label": "Ontgrendel de drukproef",
+            "lockType": "verifiable-copy",
+            "problem": "De drukproef bevat vier verschillende probleemclaims. Diagnoseer hun primaire mechanisme en bouw een controleerbare tekst voordat de posters naar de materiaalroute gaan.",
+            "unlockedText": "De drukproef noemt een afgebakende prestatie met toetsbare gegevens en beperkingen.",
+            "destinationReason": "Een controleerbare tekst vraagt materiaalbewijs; ga naar de werkplaats."
+          },
+          "sourceBlocks": [
+            1,
+            9,
+            10,
+            21,
+            25,
+            27
+          ]
+        },
+        {
+          "id": "m5-03",
+          "name": "De materiaalwerkplaats",
+          "imageKey": "room-materials",
+          "teachingGoal": "path dependency; padafhankelijkheid; verwachting versus capaciteit; organisatorische traagheid; investeringen; organisatorische beperkingen; systeemfenomeen; capaciteit; middelen kennis bereidheid; agency; per-product versus absolute impact; selectieve communicatie; claimgrens; volume",
+          "worldAction": [
+            "Een oude machine, een nieuwe verwachting",
+            "Reconstrueer de afhankelijke route",
+            "Maak beperking geen vrijbrief",
+            "Verander volume en pilotbereik"
+          ],
+          "exit": {
+            "label": "Leg de pilot naast de volledige stroom",
+            "lockType": "full-boundary",
+            "problem": "Een kleine materiaalpilot krijgt een grote toekomstbelofte. Onderzoek padafhankelijkheid en vergelijk per-productverbetering met totale productie voordat de route naar inzameling wordt geopend.",
+            "unlockedText": "De pilot en volledige stroom zijn apart gemeten; de boodschap blijft binnen die grens.",
+            "destinationReason": "Volg nu wat na verkoop terugkomt en of de beloofde circulariteit echt doorwerkt."
+          },
+          "sourceBlocks": [
+            0,
+            3,
+            9,
+            14,
+            21,
+            24,
+            27
+          ]
+        },
+        {
+          "id": "m5-04",
+          "name": "De retour- en recyclingroute",
+          "imageKey": "room-recycling",
+          "teachingGoal": "H&M Conscious Collection broncasus; fast fashion; deelinitiatief versus bedrijfsmodel; selectieve communicatie; feitelijke praktijk; verantwoordelijkheid voor gevolgen; claimgrens; circulaire processen; waarheidsgetrouwheid; structurele verandering; verantwoordelijkheid; vertraging van systeemverandering; Environmental Footprint; levenscyclus",
+          "worldAction": [
+            "Een collectie is nog geen bedrijfsmodel",
+            "Volg de belofte naar het werk",
+            "Sorteer wat de bewijsgrens toelaat",
+            "Maak een veranderkaart voor de hele route",
+            "De meetgrens volgt de levenscyclus"
+          ],
+          "exit": {
+            "label": "Geef de circulariteitskaart vrij",
+            "lockType": "operational-proof",
+            "problem": "De campagne gebruikt een duurzame collectie als bewijs voor een veranderd bedrijfsmodel. Volg het materiaal voorbij de verkoop en vergelijk deelinitiatief met productritme en volume.",
+            "unlockedText": "De kaart onderscheidt echte deelverbetering, ketenbewijs en de nog benodigde verandering van het bedrijfsmodel.",
+            "destinationReason": "Neem deze gegevens mee naar het archief waar investeerders en concurrenten de claims beoordelen."
+          },
+          "sourceBlocks": [
+            9,
+            14,
+            15,
+            18,
+            21,
+            24,
+            27
+          ]
+        },
+        {
+          "id": "m5-05",
+          "name": "Het investerings- en bewijsarchief",
+          "imageKey": "room-archive",
+          "teachingGoal": "ESG; reputatie als bedrijfsmiddel; kapitaalmarkten; informatie-asymmetrie; Lyon en Montgomery; macht door informatie; transparantie; eerlijke concurrentie; institutioneel vertrouwen; green fatigue; stakeholderverantwoordelijkheid; intergenerationele rechtvaardigheid; controleerbaarheid; consumentenprikkels; bewijslimiet",
+          "worldAction": [
+            "Wie weet wat en wie betaalt?",
+            "Van kenniskloof naar voordeel",
+            "Wie draagt welk ethisch gevolg?",
+            "Repareer de informatie vóór de investering",
+            "Wat vertelt een consumentenonderzoek?"
+          ],
+          "exit": {
+            "label": "Open het toetsbare investeringsdossier",
+            "lockType": "information-access",
+            "problem": "Een financier ziet alleen de groene poster, terwijl een concurrent dure procesverbetering uitvoert. Onderzoek informatie-asymmetrie, reputatie en ethische gevolgen voordat het dossier openbaar wordt.",
+            "unlockedText": "De financier krijgt controleerbare prestaties, beperkingen en de relatie met echte investeringen.",
+            "destinationReason": "Breng de gevonden prikkels en gevolgen naar het forum voor een systeemreactie."
+          },
+          "sourceBlocks": [
+            6,
+            7,
+            17,
+            21,
+            22,
+            24,
+            25
+          ]
+        },
+        {
+          "id": "m5-06",
+          "name": "Het publieke forum",
+          "imageKey": "room-forum",
+          "teachingGoal": "CSRD; institutionele interventie; transparantie; vergelijkbaarheid; structurele verandering; systeemfenomeen; institutionele druk; economische prikkels; organisatorische beperkingen; verantwoordelijkheid; waarheidsgetrouwheid; governance; stakeholderverantwoordelijkheid; systeemreactie; ethische afweging",
+          "worldAction": [
+            "Welke reactie verandert het systeem?",
+            "Laat iedere maatregel een mechanisme raken",
+            "Maak de publicatie en het veranderplan samen",
+            "Geef de volgende belofte vrij"
+          ],
+          "exit": {
+            "label": "Open de eerlijke publieksroute",
+            "lockType": "credible-transition",
+            "problem": "Het publiek vraagt een houdbare belofte en echte voortgang. Combineer bewijs, organisatorische uitvoering en institutionele verantwoording voordat de finale publicatie doorgaat.",
+            "unlockedText": "De publieksroute toont grenzen, vergelijkbare resultaten en een aanspreekbaar veranderplan.",
+            "destinationReason": "Een nieuwe-sectorcasus toetst straks of je deze systeemanalyse buiten de warenmarkt kunt toepassen."
+          },
+          "sourceBlocks": [
+            0,
+            3,
+            6,
+            17,
+            19,
+            21,
+            24,
+            27
+          ]
+        }
+      ],
+      "worldTeachingBeatCount": 27,
+      "requiredSourceProjectionCount": 0
+    }
+  ],
+  "productionPhases": [
+    {
+      "id": "P1",
+      "title": "Volledige bron- en propositieanalyse",
+      "deliverables": [
+        "Alle bronblokken inclusief oefeningen en media inventariseren.",
+        "Per essentiële uitspraak de introductie, demonstratie, oefening, feedback en latere toepassing aanwijzen.",
+        "Historische voorbeelden en theoretische aannames van algemene feiten onderscheiden."
+      ],
+      "acceptance": [
+        "Geen inhoudelijke uitspraak wordt uitsluitend door een bron-ID afgedekt.",
+        "Unieke mediacontent is verwerkt of als verplicht bronobject met toepassing geïntegreerd.",
+        "Ongeverifieerde passages staan expliciet in de fidelity-audit."
+      ]
+    },
+    {
+      "id": "P2",
+      "title": "Dertig inhoudelijk verschillende gebieden bouwen",
+      "deliverables": [
+        "Zes samenhangende gebieden per les met betekenisvolle toegang en uitgangen.",
+        "Goede gegenereerde omgevingen en consistente personages.",
+        "Onderzoeken, ordenen, verbinden, bouwen en gecontroleerde proeven met zichtbare gevolgen.",
+        "Twee NPC's per gebied met verdiepende vragen, voorbeelden en grenzen."
+      ],
+      "acceptance": [
+        "Een overgang volgt uit een bruikbaar geleerd onderscheid of gerepareerd proces.",
+        "Kennis is nodig voor het werk in de wereld, niet alleen voor een losse deurquiz.",
+        "Korte tekstsegmenten ondersteunen de handeling; documenten zijn gericht oproepbaar."
+      ]
+    },
+    {
+      "id": "P3",
+      "title": "Bewijsboek, synthese en vragen",
+      "deliverables": [
+        "Persistent bewijsboek met eigen notities, voorspellingen en revisies.",
+        "Twee of drie causale bewijssloten per gebied.",
+        "Nieuwe-sectorfinale per les.",
+        "Een afzonderlijke set van uitdagende vragen met geloofwaardige alternatieven."
+      ],
+      "acceptance": [
+        "Bewijs moet relevant zijn voor de gekozen verklaring.",
+        "Een juiste formulering is niet systematisch de langste of meest moreel klinkende optie.",
+        "Feitelijke fout, ontbrekend bewijs en andere waardeprioriteit worden onderscheiden."
+      ]
+    },
+    {
+      "id": "P4",
+      "title": "Basisontwerp en software zelfstandig op kwaliteit brengen",
+      "deliverables": [
+        "Route voor route controleren op inhoud, begrijpelijkheid, logische puzzels en hulpmiddelen.",
+        "Alle interacties, opslag, herstel, adminpreview en terugkeer testen.",
+        "Visueel controleren op leesbaarheid, klikbaarheid, looproutes en passend artwork.",
+        "Bronprojecties en alternatieve toegankelijkheidsroutes testen."
+      ],
+      "acceptance": [
+        "Geen leerder moet ontbrekende uitleg of triviale ontwerpfouten eerst voor ons ontdekken.",
+        "Essentiële leerstof kan binnen de ervaring worden bereikt en gebruikt.",
+        "Toetsing van modelaannames en bronfidelity is gedocumenteerd vóór werkelijk onderwijsgebruik.",
+        "Zelfstandig studeren vereist geen aanvullende klassikale uitleg om gaten te vullen."
+      ]
+    },
+    {
+      "id": "P5",
+      "title": "Later het leren en de ervaring evalueren",
+      "deliverables": [
+        "Een kleine, gevarieerde pilot voor resterende gebruiks- en begripsproblemen.",
+        "Een vooraf ontworpen vergelijking met de bestaande e-learning.",
+        "Ongeziene toepassingen, vertraagde kennisvragen en rubricbeoordeling.",
+        "Ervaring, tijd, hulpgebruik, uitval en leereffecten afzonderlijk rapporteren."
+      ],
+      "acceptance": [
+        "Dit is validatie van het onderwijsresultaat, geen voorwaarde om het basisontwerp goed af te maken.",
+        "Engagement en gevoel van leren worden niet als bewijs van beheersing gebruikt.",
+        "Verbeterd leren wordt pas geclaimd wanneer passende gegevens die conclusie dragen."
+      ]
+    }
+  ],
+  "scholarlyRequirements": [
+    {
+      "id": "DR01",
+      "action": "Maak een propositiematrix met onderscheidingen en significante bronvoorbeelden."
+    },
+    {
+      "id": "DR02",
+      "action": "Gebruik expliciete korte uitleg, uitgewerkt voorbeeld en afbouw van steun."
+    },
+    {
+      "id": "DR03",
+      "action": "Integreer het doelbegrip in de vereiste handeling en zichtbare consequentie."
+    },
+    {
+      "id": "DR04",
+      "action": "Laat bewijs verbinden, veranderde omstandigheden voorspellen en onzekerheid aanwijzen."
+    },
+    {
+      "id": "DR05",
+      "action": "Gradeer empirische en causale kwaliteit; laat verdedigbare waardeverschillen bestaan."
+    },
+    {
+      "id": "DR06",
+      "action": "Houd aangeleverd bewijs en eigen redenering in het notebook uit elkaar."
+    },
+    {
+      "id": "DR07",
+      "action": "Elke proef bewaart voorspelling, zinvol contrast, gevolg en interpretatie."
+    },
+    {
+      "id": "DR08",
+      "action": "Gebruik volwassen artwork en beweging zonder onnodige navigatielast."
+    },
+    {
+      "id": "DR09",
+      "action": "Sluit af met reflectie en laat begrippen later in een nieuw geval terugkomen."
+    },
+    {
+      "id": "DR10",
+      "action": "Maak artifacts bruikbaar; beloon zorgvuldige revisie zonder snelheid als ethische prestatie."
+    },
+    {
+      "id": "DR11",
+      "action": "Bied begrensde keuze en een voorgestelde route; neem geen uniforme studentvoorkeur aan."
+    },
+    {
+      "id": "DR12",
+      "action": "Geef specifieke feedback die de volgende poging helpt."
+    },
+    {
+      "id": "DR13",
+      "action": "Onderzoek later echte voorkeuren en begrip zonder generatiestereotypen."
+    },
+    {
+      "id": "DR14",
+      "action": "Klassikale discussie verdiept; zelfstandig online leren blijft inhoudelijk compleet."
+    }
+  ],
+  "evidenceFile": "sources/learning-evidence.json",
+  "qualityGatesBeforeRealUse": [
+    "Bronfidelity: elke unieke essentiële propositie heeft een echte teaching encounter, geen alleenstaande verwijzing.",
+    "Voorbeelden en definities zijn inhoudelijk juist; kritische economische of psychologische lenzen worden begrensd.",
+    "Oefeningen vragen een relevant onderscheid of gevolg, niet alleen klikken tot een optie groen wordt.",
+    "Leerling ziet voldoende uitleg voor onbekende taken en kan hulp gebruiken zonder straf.",
+    "Verplichte bronmedia werkt in de spelwereld; problemen hebben een toegankelijke tekstuele of andere inhoudelijk gelijkwaardige route.",
+    "Alle tweeëndertig gebieden en overgangen zijn inhoudelijk en functioneel gecontroleerd.",
+    "Opgeslagen voortgang en notebook blijven intact; adminpreview manipuleert geen leerderbeheersing.",
+    "Visuele kwaliteit, leesbaarheid en bedienbaarheid zijn zelfstandig gecontroleerd."
+  ],
+  "coveragePolicy": {
+    "text": "Essentiële claims worden als korte gerichte objectinformatie en handelingsgevolgen verwerkt; woordelijke tekstkopie is geen doel.",
+    "exercise": "Ook unieke antwoordfeedback en matchonderscheidingen worden geaudit. De originele bank blijft voor aanvullende oefening bereikbaar.",
+    "media": "Geen video wordt zonder inhoudelijke audit redundant genoemd. Als unieke details niet betrouwbaar zijn verwerkt, blijft de originele bron als verplicht wereldobject met gerichte toepassing aanwezig.",
+    "figures": "Betekenis van diagrammen en significante beeldvoorbeelden wordt verwerkt; louter decoratieve beelden worden onderscheiden.",
+    "evidenceStatus": "Een authored map bewijst traceerbaarheid en ontwerpintentie. Geleverde encounters, zelfstandig gebruik en later leren zijn afzonderlijke controles.",
+    "originalCourse": "sources/business-ethics-course.json",
+    "sidecars": [
+      "sources/experiential-coverage.json",
+      "sources/m2-coverage.json",
+      "sources/m3-coverage.json",
+      "sources/m4-coverage.json",
+      "sources/m5-coverage.json"
+    ]
+  },
+  "currentGaps": [
+    {
+      "id": "G-media",
+      "status": "In audit",
+      "issue": "Dertien oorspronkelijke clips zijn verplichte bronprojecties. Volledige gesproken details van enkele clips zijn nog niet onafhankelijk geverifieerd; een bronnotitie bewijst geen volledige weergave of beheersing.",
+      "resolution": "De originele clips als verplicht wereldobject afleveren met gerichte toepassing; per bron toegankelijkheid en gelijkwaardige reserve-uitleg controleren. Zolang aflevering of unieke inhoud ontbreekt, geen volledige vervangingsclaim."
+    },
+    {
+      "id": "G-runtime",
+      "status": "Runtimecontrole geslaagd: alle 32 gebieden, 175 activiteiten en 42 vragen",
+      "issue": "Auteurdata is nog geen bewijs dat iedere handeling en uitleg correct in het spel verschijnt.",
+      "resolution": "Elke route en elk interaction type in de daadwerkelijke browser controleren, inclusief foutfeedback en revisie."
+    },
+    {
+      "id": "G-legal",
+      "status": "Voorbeelden begrensd; actuele toepassing apart",
+      "issue": "Governance- en rapportagevoorbeelden verschillen per rechtsgebied en veranderende toepassingsgrenzen.",
+      "resolution": "Primair geverifieerde scope gebruiken; juridische lesvoorbeelden niet als universele actuele verplichting presenteren."
+    },
+    {
+      "id": "G-assessment",
+      "status": "Ontwerp aanwezig; kalibratie later",
+      "issue": "Niet iedere bereikte clue is onafhankelijk beheerst, en automatische correctie valideert geen volledig ethisch oordeel.",
+      "resolution": "Eerste pogingen, hintgebruik, open redenen en ongeziene toepassingen apart beoordelen."
+    },
+    {
+      "id": "G-current-count",
+      "status": "Actuele auteurroute",
+      "issue": "Les 1 is uitgebreid naar acht gebieden; de andere vier routes hebben zes gebieden. Het totaal is 32 gebieden.",
+      "resolution": "Planning en kwaliteitscontrole gebruiken de actuele routevolgorde, inclusief de twee aanvullende eerste-lesgebieden."
+    }
+  ],
+  "evaluation": {
+    "timing": "Na zelfstandige basiskwaliteit en inhoudelijke/technische controle.",
+    "purpose": "Toetsen of de ervaring de oorspronkelijke leerdoelen minstens zo goed ondersteunt en waar retentie, toepassing of ervaring verbeteren.",
+    "comparison": "Gelijkwaardige leerstof en hulp; maak tijdsbesteding zichtbaar. Gebruik ongeziene gevallen en een vooraf gekozen uitgestelde meting.",
+    "limits": "Eén geslaagde les of enthousiasme bewijst niet de kwaliteit van de gehele module of later ethisch handelen."
+  }
+}
