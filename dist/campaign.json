@@ -1,0 +1,2016 @@
+{
+  "schemaVersion": 1,
+  "id": "nova-het-tweede-leven",
+  "title": "NOVA · Het tweede leven",
+  "subtitle": "Een avontuur in Business Ethics",
+  "language": "nl",
+  "premise": "NOVA ontwikkelt elektronica die langer mee moet gaan. Jij sluit je aan bij het onderzoeksteam rond een nieuwe telefoon. Volg de keten, spreek de mensen, onderzoek de regels en ontdek wat er nodig is om een belofte waar te maken.",
+  "orientation": "Je hoeft Business Ethics nog niet te kennen. Elke onderzoekslocatie begint met uitleg en een uitgewerkt voorbeeld. Daarna pas gebruik je de begrippen zelf. De volledige oorspronkelijke leerstof, inclusief video's en oefeningen, hoort bij de route. Verschillende ethische afwegingen kunnen verdedigbaar zijn; de feedback beoordeelt vooral je gebruik van bewijs en redenering.",
+  "epistemicNote": "NOVA en zijn documenten zijn fictief. Bedragen en effecten in casussen zijn illustraties. De cursus biedt onder meer een kritisch systeemperspectief op economie en technologie. Behandel analytische theorieën als lenzen: onderzoek hun aannames, toepassingsgebied en mogelijke tegenvoorbeelden. Een theorie herkennen is iets anders dan haar zonder meer onderschrijven.",
+  "learningPrinciples": [
+    "Eerst expliciete uitleg en uitgewerkte voorbeelden, daarna toepassing.",
+    "Elke bronpassage krijgt een vaste plek; verhaaltakken slaan geen essentiële leerstof over.",
+    "Feedback verklaart de redenering en biedt een nieuwe poging.",
+    "Dezelfde begrippen keren terug in andere sectoren en situaties.",
+    "XP toont deelname; beheersing vraagt toepassing en overdracht."
+  ],
+  "chapters": [
+    {
+      "id": "chapter-1",
+      "lessonId": "m1",
+      "title": "De prijs die je niet ziet",
+      "location": "De showroom",
+      "image": "assets/chapter-1.webp",
+      "subtitle": "Ontdek welke keuzes in een product verborgen zitten.",
+      "guide": {
+        "name": "Noor",
+        "role": "Onderzoeker economische systemen"
+      },
+      "intro": "De NOVA-showroom opent morgen. Op de tafel ligt een telefoon, op het scherm staat een prijs en in de etalage staat een belofte: een beter tweede leven. Noor vraagt je de belofte te volgen, van de eerste grondstof tot de laatste eigenaar. Wat laat het prijskaartje eigenlijk zien?",
+      "artifact": {
+        "id": "waardenkompas",
+        "title": "Waardenkompas",
+        "description": "Een herbruikbare kaart met vier vragen: wie krijgt toegang, wie ontvangt waarde, wie draagt kosten en wie beslist?"
+      },
+      "investigations": [
+        {
+          "id": "m1-01",
+          "title": "Het prijskaartje",
+          "mission": "Lees de wereld achter een eenvoudige verkoopprijs.",
+          "sourceBlocks": [
+            0,
+            2,
+            3,
+            4
+          ],
+          "briefing": "Economie organiseert hoe middelen, toegang en bescherming worden verdeeld. Een besluit bevat daardoor zowel een praktische rekensom als een afweging van waarden. Efficiëntie zegt hoe je een doel bereikt; het bepaalt niet vanzelf welk doel of welke verdeling wenselijk is. Friedman legt nadruk op winst binnen de spelregels. De cursus vraagt daarnaast wie die regels maakt en welke waarden erin zitten.",
+          "workedExample": "NOVA heeft tijdens een stroomtekort 100 beschikbare energie-eenheden. Productie, reparatie en noodleveringen vragen samen 140. Het tekort berekenen is een technische stap. Voorrang geven aan de hoogste omzet of aan noodzakelijke communicatie van zorgmedewerkers is een verdelingskeuze. Benoem eerst het criterium, daarna wie daardoor voordeel en nadeel krijgt.",
+          "dialogue": [
+            {
+              "speaker": "Noor",
+              "text": "De prijs lijkt één getal. Kijk eens hoeveel afspraken erachter zitten."
+            },
+            {
+              "speaker": "Daan · operations",
+              "text": "Als de productie stilvalt, lopen onze mensen ook risico. Neem dat mee in je afweging."
+            }
+          ],
+          "activity": {
+            "type": "decision",
+            "prompt": "De beschikbare energie moet vandaag worden verdeeld. Welke eerste stap maakt de beslissing beter verantwoord?",
+            "options": [
+              {
+                "text": "Geef alle energie aan de afdeling met de hoogste omzet per eenheid.",
+                "feedback": "Omzet is een mogelijk criterium, maar je maakt de verdelingskeuze daarmee al vóór je kwetsbaarheid en andere belangen hebt onderzocht."
+              },
+              {
+                "text": "Breng behoeften, gevolgen en mogelijke verdelingscriteria in kaart; leg daarna de gekozen prioriteit uit.",
+                "feedback": "Sterk: je maakt de waarden zichtbaar en kunt verschillende verdedigbare criteria vergelijken. Dit levert geen automatische morele winnaar op."
+              },
+              {
+                "text": "Laat iedere afdeling evenveel energie gebruiken, omdat gelijk altijd rechtvaardig is.",
+                "feedback": "Een gelijke hoeveelheid kan verdedigbaar zijn, maar verschillen in behoefte en gevolgen kunnen juist een andere verdeling rechtvaardigen."
+              },
+              {
+                "text": "Laat de marktprijs bepalen wie toegang krijgt en beschouw daarmee de afweging als afgerond.",
+                "feedback": "Prijs kan informatie geven en vraag beïnvloeden. Toegang via betaalvermogen bevat zelf echter een normatieve keuze."
+              }
+            ],
+            "best": 1,
+            "explanation": "De kwaliteitsstap is het zichtbaar maken van het criterium en de gevolgen. Economische berekeningen en morele afwegingen vullen elkaar aan."
+          },
+          "reflection": "Welk verdelingscriterium vond je aanvankelijk vanzelfsprekend? Wie zou daar een goede reden tegen kunnen aanvoeren?",
+          "transfer": {
+            "prompt": "Een gemeente heeft budget voor óf extra busritten óf een nieuw parkeerterrein. Welke vraag maakt de morele dimensie zichtbaar?",
+            "options": [
+              "Welk project heeft de kortste naam?",
+              "Welke aanbesteding is administratief het makkelijkst?",
+              "Welke groepen krijgen betere toegang en welke belangen worden minder bediend?",
+              "Kan het besluit zonder overleg worden genomen?"
+            ],
+            "correct": 2,
+            "feedback": "Toegang en de verdeling van baten en lasten maken de waarden in een budgetbesluit zichtbaar."
+          },
+          "artifact": {
+            "id": "energie-notitie",
+            "title": "Het verdelingsbesluit",
+            "description": "Bewijsstuk: een besluit wordt begrijpelijk wanneer de gebruikte waarden en betrokken groepen zichtbaar zijn."
+          }
+        },
+        {
+          "id": "m1-02",
+        "experiment": true,
+          "title": "De gedeelde voorraad",
+          "mission": "Leer vier begrippen waarmee je verborgen kosten ontdekt.",
+          "sourceBlocks": [
+            6,
+            7,
+            9
+          ],
+          "briefing": "Rechtvaardige verdeling vraagt wie wat krijgt en waarom. Begrenzing wijst op fysieke, sociale en ecologische grenzen. Commons zijn gedeelde hulpbronnen waarvan gebruik en beheer gezamenlijke afspraken vragen. Externaliteiten zijn gevolgen voor anderen die niet volledig in de beslissing of prijs zijn verwerkt. Commons kunnen goed worden beheerd; achteruitgang is geen onvermijdelijk lot.",
+          "workedExample": "Een fabriek gebruikt rivierwater en loost warmte. Het water en ecosysteem vormen een gedeelde hulpbron: een commons. Minder beschikbaar schoon water kan een grens stellen aan gebruik. Schade aan vissers die niet in de fabriekprijs zit, is een negatieve externaliteit. Wie water mag onttrekken, is een verdelingsvraag. Eén situatie kan dus alle vier de begrippen bevatten.",
+          "dialogue": [
+            {
+              "speaker": "Noor",
+              "text": "Gebruik begrippen om verschillende vragen te stellen, niet om één etiket op het hele probleem te plakken."
+            },
+            {
+              "speaker": "Mila · buurtvertegenwoordiger",
+              "text": "Wij betalen de telefoon niet, maar ervaren wel wat de productielocatie met onze omgeving doet."
+            }
+          ],
+          "activity": {
+            "type": "decision",
+            "prompt": "Bij een leverancier stijgt het watergebruik; omwonenden melden slechtere waterkwaliteit. Wat onderzoek je eerst?",
+            "options": [
+              {
+                "text": "Alleen de aankoopprijs, want schade hoort bij het lokale bestuur.",
+                "feedback": "Verantwoordelijkheden van het bestuur zijn relevant, maar de prijs vertelt niet wie de gevolgen draagt."
+              },
+              {
+                "text": "Alleen het maximale pompvermogen: dat bepaalt hoeveel water er gebruikt kan worden.",
+                "feedback": "Technische capaciteit is geen ecologische of rechtvaardige gebruiksgrens."
+              },
+              {
+                "text": "Wie water gebruikt en beheert, welke grenzen gelden en bij wie niet-vergoede schade terechtkomt.",
+                "feedback": "Je verbindt commons, begrenzing, verdeling en externaliteiten en kunt zo passende maatregelen zoeken."
+              },
+              {
+                "text": "Een algemeen label 'onethisch' aan de leverancier geven en het dossier sluiten.",
+              "feedback": "Een oordeel zonder analyse maakt niet duidelijk welk mechanisme veranderd moet worden of welke gegevens nog ontbreken."
+              }
+            ],
+            "best": 2,
+            "explanation": "Een goede diagnose onderscheidt de gedeelde hulpbron, de grens aan gebruik en de verschoven gevolgen. Daarna volgt de afweging over afspraken, vergoeding en toegang."
+          },
+          "reflection": "Welke schade kan buiten een prijs blijven, ook als alle transacties legaal zijn?",
+          "transfer": {
+            "prompt": "Een woonwijk gebruikt een gedeeld buurtplein. Wat is een commons-vraag?",
+            "options": [
+              "Welke afspraken houden het plein bruikbaar voor verschillende bewoners?",
+              "Welke bewoner heeft de duurste fiets?",
+              "Hoeveel verdient de kiosk per uur?",
+              "Welke route is het snelst voor bezorgers?"
+            ],
+            "correct": 0,
+            "feedback": "Een commons-vraag gaat over gezamenlijk gebruik, onderhoud en toegang tot een gedeelde hulpbron."
+          },
+          "artifact": {
+            "id": "verborgen-kostenlens",
+            "title": "Lens voor verborgen kosten",
+            "description": "Gereedschap: onderscheid verdeling, grenzen, commons en externaliteiten bij elke nieuwe casus."
+          }
+        },
+        {
+          "id": "m1-03",
+          "title": "Het spoor van de batterij",
+          "mission": "Volg waarde en risico door een internationale keten.",
+          "sourceBlocks": [
+            11,
+            12,
+            13
+          ],
+          "briefing": "Een telefoon verbindt mijnbouw, verwerking, assemblage, consumptie en afvalverwerking. De opbrengsten en lasten blijven niet op dezelfde plek. Wie alternatieve leveranciers, kennis, infrastructuur of onderhandelingsmacht heeft, beïnvloedt de verdeling. De cursus gebruikt kobalt, zeldzame aardmetalen en e-waste als voorbeelden van zulke internationale machtsrelaties.",
+          "workedExample": "Een denkbeeldige batterij kost NOVA €30. Die prijs zegt weinig over arbeidsveiligheid bij winning, winsten bij verwerking of veilige inzameling later. Teken per stap wie waarde ontvangt, welke risico's ontstaan en wie regels kan veranderen. Noteer waar informatie ontbreekt in plaats van gaten met aannames te vullen.",
+          "dialogue": [
+            {
+              "speaker": "Amina · ketenpartner",
+              "text": "Een audit geeft informatie, maar onze mensen moeten ook invloed kunnen hebben op de afspraken."
+            },
+            {
+              "speaker": "Noor",
+              "text": "Een land of gemeenschap is geen decor. Vraag naar hun perspectieven, alternatieven en zeggenschap."
+            }
+          ],
+          "activity": {
+            "type": "decision",
+            "prompt": "NOVA wil een claim over een 'verantwoorde batterij' onderbouwen. Welk dossier is het sterkste vertrekpunt?",
+            "options": [
+              {
+                "text": "Een kaart met ketenpartijen, locaties, baten, risico's, hun eigen perspectieven en ontbrekende gegevens.",
+                "feedback": "Dit maakt de verdeling en machtsrelaties onderzoekbaar. Het is een begin van onderbouwing, nog geen bewijs dat de hele keten verantwoord is."
+              },
+              {
+                "text": "Een foto van de nieuwe telefoon en een gemiddelde wereldmarktprijs van kobalt.",
+                "feedback": "Dit maakt het product tastbaar maar toont de concrete arbeids-, milieu- en machtsverhoudingen niet."
+              },
+              {
+                "text": "Een afspraak dat de goedkoopste leverancier verantwoordelijk blijft voor alle gevolgen.",
+                "feedback": "Contractuele verantwoordelijkheid kan nuttig zijn, maar macht, toezicht en daadwerkelijke mogelijkheden om schade te voorkomen blijven relevant."
+              },
+              {
+                "text": "Alleen een lijst van landen waar NOVA direct inkoopt.",
+                "feedback": "Directe leveranciers zijn een start. Winning, verwerking en afval kunnen buiten die lijst vallen."
+              }
+            ],
+            "best": 0,
+            "explanation": "Traceerbaarheid moet verder gaan dan herkomst alleen: maak verdeling, invloed en onzekerheden zichtbaar."
+          },
+          "reflection": "Welke partij in de keten zou je als eerste zelf willen spreken? Welke aanname zou die persoon kunnen corrigeren?",
+          "transfer": {
+            "prompt": "Een koffieproducent stelt dat boeren een eerlijke prijs krijgen. Wat onderzoek je om de systeemkant te begrijpen?",
+            "options": [
+              "Alleen de smaakscore van de koffie.",
+              "Alleen het aantal verkochte pakken.",
+              "Of iedere consument de boer persoonlijk kent.",
+              "De verdeling van opbrengsten en risico's en de onderhandelingspositie van verschillende partijen."
+            ],
+            "correct": 3,
+            "feedback": "Dezelfde lens werkt in andere ketens: de prijs alleen verklaart de verdeling van waarde en macht niet."
+          },
+          "artifact": {
+            "id": "batterij-routekaart",
+            "title": "De batterijroute",
+            "description": "Bewijskaart van winning tot afval, met betrokken partijen, baten, lasten en open vragen."
+          }
+        },
+        {
+          "id": "m1-04",
+          "title": "De machine en het nest",
+          "mission": "Ontdek wat een systeem meet en wat het overslaat.",
+          "sourceBlocks": [
+            15,
+            16,
+            17
+          ],
+          "briefing": "Een systeem volgt doelen, regels en meetinstrumenten. Als een doel efficiëntie is, worden gevolgen buiten die maatstaf niet vanzelf beschermd. De appelplukmachine uit de cursus stopt niet voor een vogelnest tenzij het ontwerp daar rekening mee houdt. Mensen hebben verantwoordelijkheid voor het ontwerpen, beheren en bijsturen van zulke systemen; de machine-metafoor ontslaat hen daar niet van.",
+          "workedExample": "De reparatieplanning beloont het aantal afgehandelde toestellen. Technici krijgen daardoor een prikkel om simpele reparaties te kiezen. Een complex toestel blijft liggen, hoewel de eigenaar het dringend nodig heeft. De uitkomst kan ontstaan zonder dat iemand die persoon wil benadelen. Een extra criterium voor urgentie en wachttijd verandert wat het systeem zichtbaar maakt.",
+          "dialogue": [
+            {
+              "speaker": "Jules · reparateur",
+              "text": "Ik wil dit toestel helpen, maar het maakt mijn dagcijfers slechter."
+            },
+            {
+              "speaker": "Noor",
+              "text": "Leg naast elkaar: de bedoeling van een mens en het doel van het meetsysteem."
+            }
+          ],
+          "activity": {
+            "type": "decision",
+            "prompt": "Complexe reparaties blijven liggen. Welke reactie onderzoekt het ontwerp van het systeem?",
+            "options": [
+              {
+                "text": "Vraag technici om harder te werken zonder de planning te veranderen.",
+                "feedback": "Inzet kan helpen, maar dezelfde meetprikkel blijft complexe reparaties onaantrekkelijk maken."
+              },
+              {
+                "text": "Verwijder alle metingen, zodat iedere reparateur zelf kan beslissen.",
+                "feedback": "Meer vrijheid kan nuttig zijn, maar zonder zicht op wachttijd en kwaliteit verdwijnen ook mogelijkheden voor verantwoording."
+              },
+              {
+                "text": "Beschouw de wachttijd als onvermijdelijk gevolg van techniek.",
+                "feedback": "De keuze van indicatoren en prioriteiten is veranderbaar; dit is geen zelfstandig technologisch lot."
+              },
+              {
+                "text": "Onderzoek de indicatoren en voeg kwaliteit, urgentie en wachttijd toe aan de besluitvorming.",
+                "feedback": "Je zoekt waar het doel te smal is en maakt eerder weggelaten gevolgen zichtbaar. Daarna moet je testen of de aanpassing werkt."
+              }
+            ],
+            "best": 3,
+            "explanation": "Een systeemprobleem vraagt onderzoek naar doelen, regels en feedback. Goede bedoelingen blijven belangrijk, maar hebben passende ruimte nodig."
+          },
+          "reflection": "Welke waarde ontbreekt in een prestatiemeting die je uit studie of werk kent?",
+          "transfer": {
+            "prompt": "Een ziekenhuis stuurt uitsluitend op het aantal behandelingen per dag. Welke onderzoeksvraag past bij de systeemlens?",
+            "options": [
+              "Zijn de medewerkers persoonlijk vriendelijk?",
+              "Welke zorgbehoeften en kwaliteitsaspecten verdwijnen uit beeld door deze indicator?",
+              "Welke afdeling heeft het mooiste logo?",
+              "Kan iedere behandeling precies even lang duren?"
+            ],
+            "correct": 1,
+            "feedback": "De systeemlens vraagt welke gevolgen de gekozen maatstaf zichtbaar en onzichtbaar maakt."
+          },
+          "artifact": {
+            "id": "meetlat",
+            "title": "De andere meetlat",
+            "description": "Gereedschap: vergelijk het formele doel, de gebruikte indicator en de gevolgen die buiten beeld blijven."
+          }
+        },
+        {
+          "id": "m1-05",
+          "title": "Wie bezit de toekomst?",
+          "mission": "Verbind eigendom, rendement en institutionele keuzes.",
+          "sourceBlocks": [
+            19,
+            21,
+            22,
+            24,
+            25,
+            26
+          ],
+          "briefing": "Eigendom bepaalt niet alleen wie iets heeft, maar ook wie opbrengsten ontvangt en zeggenschap kan uitoefenen. Rendement kan vermogen verder laten groeien. De cursus bespreekt Piketty's analyse van vermogensconcentratie en een kritische lezing van neoliberalisme: deregulering, privatisering en een sterkere financiële oriëntatie. Dat zijn historische en analytische perspectieven; hun werking verschilt per periode, sector en institutionele inrichting.",
+          "workedExample": "Twee mensen beginnen met een verschillend bezit. Wie een gebouw bezit, ontvangt huur en kan een deel opnieuw investeren; wie huurt, ontvangt die opbrengst niet. Zo kan een beginverschil worden versterkt. Dat voorbeeld bewijst niet dat ieder vermogensverschil dezelfde oorzaak heeft. Belastingen, schulden, rendement, lonen en zeggenschapsrechten beïnvloeden het resultaat.",
+          "dialogue": [
+            {
+              "speaker": "Eva · investeerder",
+              "text": "Kapitaal maakt onze ontwikkeling mogelijk. De vraag is ook welke rechten en verwachtingen we eraan koppelen."
+            },
+            {
+              "speaker": "Noor",
+              "text": "Een systeemverklaring is sterker wanneer je de voorwaarden benoemt waaronder het mechanisme werkt."
+            }
+          ],
+          "activity": {
+            "type": "decision",
+            "prompt": "De directie vraagt waarom eigendom belangrijk is voor Business Ethics. Welke uitleg is het meest zorgvuldig?",
+            "options": [
+              {
+                "text": "Verschillen in vermogen komen uitsluitend voort uit persoonlijke inzet.",
+                "feedback": "Inzet kan een rol spelen, maar deze verklaring laat erfenissen, eigendomsrechten, rendement en instituties buiten beeld."
+              },
+              {
+                "text": "Eigendom verbindt controle, opbrengsten en herinvestering; onderzoek hoe regels en omstandigheden verschillen versterken of begrenzen.",
+                "feedback": "Je benoemt een structureel mechanisme zonder te doen alsof alle contexten dezelfde uitkomst hebben."
+              },
+              {
+                "text": "Ieder bezit leidt onder alle omstandigheden tot dezelfde ongelijkheid.",
+                "feedback": "Dat maakt een analytische tendens tot een universele wet en negeert verschillen in beleid en economische omstandigheden."
+              },
+              {
+                "text": "Eigendom hoort alleen bij recht; economische en morele gevolgen zijn irrelevant.",
+                "feedback": "Juridische rechten bepalen mede wie risico, waarde en invloed krijgt en zijn daarom ethisch relevant."
+              }
+            ],
+            "best": 1,
+            "explanation": "Onderzoek hoe instituties eigendom en opbrengsten organiseren. Historische perspectieven helpen vragen stellen; zij vervangen concreet bewijs niet."
+          },
+          "reflection": "Welke zeggenschap zou een partij moeten hebben die veel bijdraagt maar geen aandelen bezit?",
+          "transfer": {
+            "prompt": "Bewoners willen hun buurtwinkel samen bezitten. Wat is naast de aankoopprijs belangrijk?",
+            "options": [
+              "Alleen de kleur van de gevel.",
+              "Hoe vaak de winkel op sociale media verschijnt.",
+              "Wie besluiten mag nemen, opbrengsten ontvangt en risico draagt.",
+              "Of alle leden exact dezelfde boodschappen kopen."
+            ],
+            "correct": 2,
+            "feedback": "Eigendom regelt ook zeggenschap en de verdeling van opbrengsten en risico's."
+          },
+          "artifact": {
+            "id": "eigendom-sleutel",
+            "title": "De eigendomssleutel",
+            "description": "Gereedschap: lees eigendom als een combinatie van controle, risico, opbrengsten en institutionele regels."
+          }
+        },
+        {
+          "id": "m1-06",
+          "title": "De keuzes in de etalage",
+          "mission": "Zie hoe aanbod, aandacht en psychologie samen keuzes vormen.",
+          "sourceBlocks": [
+            28,
+            29,
+            31,
+            32,
+            34
+          ],
+          "briefing": "Een keuzemenu is al ontworpen voordat je kiest. Aanbieders bepalen assortiment, zichtbaarheid, standaardinstellingen en reclame. Dat kan vraag mede vormen. Kuddegedrag betekent volgen wat anderen doen; verliesaversie betekent dat verliezen vaak zwaarder voelen dan vergelijkbare winsten; morele ontkoppeling maakt schadelijke handelingen aanvaardbaar in iemands verhaal. Deze mechanismen werken samen met markten en organisaties.",
+          "workedExample": "Een scherm toont 'meest gekozen' boven een duur model, met een inruilbonus die vandaag verloopt. Het label kan sociale navolging aanmoedigen; het verlopen van de bonus maakt een gemiste kans voelbaar als verlies. Dat bewijst niet dat elke klant wordt gemanipuleerd. Het laat wel zien welke ontwerpkeuzes je bij keuzevrijheid moet onderzoeken.",
+          "dialogue": [
+            {
+              "speaker": "Lena · impactanalist",
+              "text": "Wie alleen naar de uiteindelijke aankoop kijkt, mist hoe het menu is ontstaan."
+            },
+            {
+              "speaker": "Noor",
+              "text": "Bewaar je lenzen. Straks onderzoek je hoe dit binnen NOVA aanvoelt voor de mensen die hier werken."
+            }
+          ],
+          "activity": {
+            "type": "decision",
+            "prompt": "Klanten kiezen massaal het nieuwste toestel. Hoe onderzoek je of de keuzeomgeving hierbij meespeelt?",
+            "options": [
+              {
+                "text": "Neem aan dat de verkoop exact laat zien wat klanten vooraf al wilden.",
+                "feedback": "Verkoopcijfers laten gedrag zien; ze vertellen niet vanzelf hoe voorkeuren zijn ontstaan."
+              },
+              {
+                "text": "Neem aan dat klanten geen enkele eigen voorkeur of handelingsruimte hebben.",
+                "feedback": "Beïnvloeding neemt eigen voorkeuren en agency niet volledig weg."
+              },
+              {
+                "text": "Vergelijk opties, standaardinstellingen, zichtbaarheid en prikkels; vraag klanten hoe zij de keuze ervaren.",
+                "feedback": "Je onderzoekt ontwerp én ervaring en laat ruimte voor meerdere verklaringen."
+              },
+              {
+                "text": "Vraag alleen welke klant het hoogste inkomen heeft.",
+                "feedback": "Inkomen kan relevant zijn, maar verklaart de invloed van sociale signalen en het aanbodontwerp niet."
+              }
+            ],
+            "best": 2,
+            "explanation": "Keuzevrijheid beoordeel je samen met de context waarin keuzes ontstaan. Dezelfde gedraging kan meerdere oorzaken hebben."
+          },
+          "reflection": "Waar ben je zelf eens door een standaardkeuze, groepssignaal of dreigend verlies geholpen of gestuurd?",
+          "transfer": {
+            "prompt": "Een studiekeuzeplatform zet opleidingen met betaalde promotie bovenaan. Welke vraag past bij wat je hebt geleerd?",
+            "options": [
+              "Hoe beïnvloedt de rangschikking wat als een beschikbare of aantrekkelijke keuze verschijnt?",
+              "Hoeveel pixels heeft het logo?",
+              "Heeft iedere opleiding een eigen slogan?",
+              "Kiezen studenten altijd zonder enige invloed van hun omgeving?"
+            ],
+            "correct": 0,
+            "feedback": "Rangschikking vormt de keuzeruimte; onderzoek dus zowel beschikbare informatie als hoe die wordt getoond."
+          },
+          "artifact": {
+            "id": "etalage-notities",
+            "title": "Het ontworpen keuzemenu",
+            "description": "Bewijsstuk met voorbeelden van zichtbaarheid, sociale signalen, verliesaversie en aanbodgestuurde behoeften."
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter-2",
+      "lessonId": "m2",
+      "title": "De stilte in de vergaderkamer",
+      "location": "De werkvloer",
+      "image": "assets/chapter-2.webp",
+      "subtitle": "Ontdek hoe goede bedoelingen in dagelijkse routines veranderen.",
+      "guide": {
+        "name": "Sam",
+        "role": "Psycholoog en begeleider van het leerlab"
+      },
+      "intro": "In de showroom leek alles overzichtelijk. Achter de deur wachten targets, groepsnormen, deadlines en onuitgesproken verwachtingen. Sam geeft je geen lijst met schuldigen. Jullie onderzoeken hoe mensen en systemen elkaar vormen — en waar ruimte voor verandering ontstaat.",
+      "artifact": {
+        "id": "patroonradar",
+        "title": "Patroonradar",
+        "description": "Een analysetool die gedrag verbindt met context, groepsnormen, rationalisaties, macht en handelingsruimte."
+      },
+      "investigations": [
+        {
+          "id": "m2-01",
+          "title": "Een beslissing in dertig seconden",
+          "mission": "Herken waarom snel denken soms helpt en soms tekortschiet.",
+          "sourceBlocks": [
+            0,
+            2,
+            4,
+            5,
+            6,
+            8,
+            10
+          ],
+          "briefing": "Mensen beschikken over beperkte tijd, informatie en aandacht. Heuristieken zijn mentale vuistregels die beslissen makkelijker maken. Routines kunnen nuttig en deskundig zijn, maar worden riskant wanneer de omstandigheden veranderen of belangrijke gevolgen buiten beeld blijven. In een organisatie versterken tijdsdruk, hiërarchie en sociale verwachtingen soms automatisch gedrag. Analyseer daarom de persoon én de context.",
+          "workedExample": "Een medewerker keurt een leverancier goed omdat die vorig jaar al in het systeem stond. De vuistregel 'bestaand betekent betrouwbaar' bespaart tijd. Een nieuwe eigenaar en veranderde arbeidsomstandigheden maken de oude beoordeling echter onvoldoende. Een korte controle op veranderingen kan de routine ondersteunen zonder iedere beslissing volledig opnieuw te doen.",
+          "dialogue": [
+            {
+              "speaker": "Sam",
+              "text": "Snel beslissen is niet vanzelf slecht. Vraag wanneer een vuistregel past en wanneer hij belangrijke informatie mist."
+            },
+            {
+              "speaker": "Jules · reparateur",
+              "text": "Aan het einde van een drukke dag volg ik het systeem. Dat maakt de keuze haalbaar, maar soms zie ik pas later wat ik oversloeg."
+            }
+          ],
+          "activity": {
+            "type": "decision",
+            "prompt": "Een team mist nieuwe risico's omdat het oude leveranciers telkens automatisch goedkeurt. Welke aanpak past bij de diagnose?",
+            "options": [
+              {
+                "text": "Noem het team irrationeel en vervang iedereen.",
+                "feedback": "Dat schrijft de uitkomst alleen aan individuen toe en laat de omstandigheden en routine bestaan."
+              },
+              {
+                "text": "Behoud de routine en controleer voortaan geen leveranciers meer.",
+                "feedback": "Een routine wordt zo juist minder gevoelig voor relevante veranderingen."
+              },
+              {
+                "text": "Voeg bij hergoedkeuring een gerichte wijzigingscheck toe en reserveer tijd voor opvallende gevallen.",
+                "feedback": "Je ondersteunt een bruikbare routine met een moment voor reflectie wanneer de context verandert."
+              },
+              {
+                "text": "Eis bij ieder klein besluit een volledig onafhankelijk onderzoek.",
+                "feedback": "Dat kan de beschikbare aandacht overbelasten en de organisatie terugduwen naar schijncontroles."
+              }
+            ],
+            "best": 2,
+            "explanation": "Een passende interventie helpt mensen relevante veranderingen opmerken. Ze vraagt genoeg reflectie voor het risico, zonder onbeperkte aandacht te veronderstellen."
+          },
+          "reflection": "Wanneer werkt een routine in jouw voordeel? Welk signaal zou je moeten laten stoppen en opnieuw kijken?",
+          "transfer": {
+            "prompt": "Een docent beoordeelt een essay snel op basis van de eerste alinea. Welke verbetering richt zich op het risico van de vuistregel?",
+            "options": [
+              "Alle cijfers voortaan willekeurig bepalen.",
+              "Ervan uitgaan dat de eerste indruk altijd fout is.",
+              "Nog minder tekst lezen.",
+              "Een rubric gebruiken en bewust bewijs uit meerdere delen vergelijken."
+            ],
+            "correct": 3,
+            "feedback": "Een rubric en verschillende bewijsplaatsen helpen de eerste indruk controleren zonder intuïtie volledig uit te sluiten."
+          },
+          "artifact": {
+            "id": "routine-check",
+            "title": "De pauzeknop",
+            "description": "Gereedschap: zoek het signaal waarop een bruikbare routine plaats moet maken voor bewuste controle."
+          }
+        },
+        {
+          "id": "m2-02",
+          "title": "Het verhaal dat geruststelt",
+          "mission": "Onderscheid uitleg van rationalisatie.",
+          "sourceBlocks": [
+            12,
+            14,
+            16,
+            17
+          ],
+          "briefing": "Moraal gaat over normen en opvattingen over goed handelen; ethiek onderzoekt en beargumenteert die normen. Bij morele ontkoppeling verandert iemand de interpretatie van gedrag zodat schadelijke gevolgen minder botsen met het eigen zelfbeeld. Bandura beschrijft onder meer herdefiniëren, gevolgen minimaliseren en verantwoordelijkheid verschuiven. Een uitspraak kan zo'n mechanisme bevatten zonder dat de spreker bewust liegt.",
+          "workedExample": "Een retourmedewerker zegt: 'Dit is geen verspilling, alleen voorraadoptimalisatie; bovendien beslist het hoofdkantoor.' Het eerste deel herdefinieert wat er gebeurt, het tweede verschuift verantwoordelijkheid. Onderzoek daarna de feitelijke gevolgen en wie welke beslissing kon beïnvloeden. Het herkennen van een mechanisme is geen volledige diagnose van iemands intentie.",
+          "dialogue": [
+            {
+              "speaker": "Mara · retourcoördinator",
+              "text": "Ik volg een protocol dat onze afdeling niet geschreven heeft. Toch voelt het vernietigen van werkende toestellen vreemd."
+            },
+            {
+              "speaker": "Sam",
+              "text": "Je kunt begrip voor haar positie combineren met vragen over de gevolgen en de verdeling van verantwoordelijkheid."
+            }
+          ],
+          "activity": {
+            "type": "decision",
+            "prompt": "Een collega noemt het vernietigen van werkende retouren 'slechts optimalisatie'. Welke reactie opent de beste analyse?",
+            "options": [
+              {
+                "text": "Vraag wat er concreet met de toestellen gebeurt, wie de gevolgen draagt en wie het protocol kan veranderen.",
+                "feedback": "Je haalt de morele lading terug naar waarneembare gevolgen en verantwoordelijkheden zonder intenties vooraf in te vullen."
+              },
+              {
+                "text": "Stel vast dat de collega bewust liegt, omdat het woord optimalisatie wordt gebruikt.",
+                "feedback": "De woordkeuze is een aanwijzing voor herdefiniëring, geen bewijs van een bewuste leugen."
+              },
+              {
+                "text": "Accepteer het woord optimalisatie als bewijs dat de aanpak verantwoord is.",
+                "feedback": "Een zakelijk etiket verklaart niet wat het handelen doet of hoe het is te rechtvaardigen."
+              },
+              {
+                "text": "Vraag alleen of de collega zich persoonlijk goed voelt bij het werk.",
+                "feedback": "Het eigen gevoel is relevant, maar kan juist door rationalisatie gerustgesteld zijn."
+              }
+            ],
+            "best": 0,
+            "explanation": "Morele ontkoppeling onderzoek je via taal, concrete gevolgen en mogelijke verantwoordelijkheid. Begrip voor context en kritische beoordeling kunnen samengaan."
+          },
+          "reflection": "Welk zakelijk woord kan in jouw omgeving de gevolgen van een beslissing minder zichtbaar maken?",
+          "transfer": {
+            "prompt": "Een team zegt: 'Iedereen deed maar één klein stukje, dus niemand is verantwoordelijk.' Welk mechanisme moet je onderzoeken?",
+            "options": [
+              "Een automatisch bewijs van goede governance.",
+              "Verschuiven of verspreiden van verantwoordelijkheid.",
+              "Rechtvaardige verdeling van middelen.",
+              "Een begrenzing van een fysieke voorraad."
+            ],
+            "correct": 1,
+            "feedback": "Verspreide taken kunnen verantwoordelijkheid onzichtbaar maken. Onderzoek wie welk deel kon kennen en beïnvloeden."
+          },
+          "artifact": {
+            "id": "taaldecoder",
+            "title": "De taaldecoder",
+            "description": "Gereedschap: vergelijk geruststellende woorden met feitelijke gevolgen en concrete beslisrechten."
+          }
+        },
+        {
+          "id": "m2-03",
+          "title": "Iedereen knikt",
+          "mission": "Maak het verschil tussen stilte en instemming zichtbaar.",
+          "sourceBlocks": [
+            19,
+            20,
+            22,
+            23
+          ],
+          "briefing": "Conformiteit is aanpassen aan groepsnormen. Groepsdenken kan tegenspraak beperken bij gezamenlijk beslissen. Pluralistische onwetendheid ontstaat wanneer mensen ten onrechte denken dat anderen een norm steunen: ieder twijfelt, maar de stilte van de rest lijkt instemming. Structuur en agency hangen samen: mensen handelen binnen regels en verwachtingen, terwijl hun handelen die structuren ook kan veranderen.",
+          "workedExample": "Zes medewerkers twijfelen aan een te korte testperiode. Ieder ziet vijf zwijgende collega's en denkt de enige twijfelaar te zijn. De vergadering besluit 'unaniem' door te gaan. Afzonderlijk inventariseren van bezwaren laat zien dat die schijnbare consensus verkeerd was. Daarna zijn nog inhoudelijke argumenten en een echte beslissing nodig.",
+          "dialogue": [
+            {
+              "speaker": "Sam",
+              "text": "Stilte kan veel betekenen: instemming, onzekerheid, vermoeidheid of angst. Behandel haar niet als een stem."
+            },
+            {
+              "speaker": "Daan · operations",
+              "text": "Als manager dacht ik dat iedereen klaar was. Ik moet een manier maken waarop twijfel werkelijk mee kan tellen."
+            }
+          ],
+          "activity": {
+            "type": "decision",
+            "prompt": "Niemand stelt een vraag, maar in losse gesprekken blijken er veel zorgen. Welke vervolgstap is het meest passend?",
+            "options": [
+              {
+                "text": "Schrijf de stilte alsnog op als formele instemming.",
+                "feedback": "Je houdt de verkeerde waarneming van consensus in stand."
+              },
+              {
+                "text": "Vraag wie de grootste tegenstander is en laat die het team overtuigen.",
+                "feedback": "Dat maakt één persoon kwetsbaar en laat de gezamenlijke zorgen mogelijk verborgen."
+              },
+              {
+                "text": "Besluit dat de groep nooit zelfstandig mag overleggen.",
+                "feedback": "Een probleem in de overlegvorm hoeft niet te betekenen dat alle groepsbesluitvorming moet verdwijnen."
+              },
+              {
+                "text": "Verzamel zorgen op een veilige manier, bespreek patronen en maak expliciet hoe bezwaren de beslissing beïnvloeden.",
+                "feedback": "Je maakt verborgen twijfel zichtbaar en verandert de procedure waardoor stilte eerder op instemming leek."
+              }
+            ],
+            "best": 3,
+            "explanation": "Een veilige inventarisatie helpt de groepsnorm corrigeren. Veiligheid vraagt ook een geloofwaardige reactie op de inhoud van bezwaren."
+          },
+          "reflection": "Wat zou iemand in deze vergadering nodig hebben om een twijfel te durven uitspreken?",
+          "transfer": {
+            "prompt": "In een klas denkt iedereen dat de rest een theorie begrijpt, terwijl de meesten verward zijn. Wat is dit?",
+            "options": [
+              "Een situatie van pluralistische onwetendheid.",
+              "Een bewijs dat de theorie duidelijk is.",
+              "Een uitsluitend individueel geheugenprobleem.",
+              "Een voorbeeld van financiële discipline."
+            ],
+            "correct": 0,
+            "feedback": "Ieder interpreteert het gedrag van de anderen verkeerd. De groep kan daardoor een gedeelde misvatting over zichzelf in stand houden."
+          },
+          "artifact": {
+            "id": "stille-stemmen",
+            "title": "De ongehoorde notities",
+            "description": "Bewijsstuk: veilige inventarisatie maakt zichtbaar dat een schijnbare consensus niet altijd echte instemming is."
+          }
+        },
+        {
+          "id": "m2-04",
+          "title": "Een behoefte verschijnt",
+          "mission": "Onderzoek hoe aanbod en aandacht een voorkeur kunnen vormen.",
+          "sourceBlocks": [
+            25,
+            26,
+            28,
+            30,
+            31,
+            33,
+            35
+          ],
+          "briefing": "Voorkeuren ontstaan niet altijd los van de omgeving. Producten, reclame, standaarden en sociale vergelijkingen maken bepaalde behoeften zichtbaar of vanzelfsprekend. Aandachtsplatforms kunnen zulke processen versterken door te meten welke prikkels gedrag beïnvloeden. De cursus bekijkt dit kritisch. Vraag in een concrete situatie hoe informatie, ontwerp en eigen doelen op elkaar inwerken, zonder alle consumenten als passief te behandelen.",
+          "workedExample": "NOVA toont 'jouw telefoon loopt achter' aan gebruikers met een toestel van twee jaar oud. De boodschap koppelt een nieuwe aankoop aan erbij horen. Vergelijk dit met een melding die uitlegt welke reparatie of software-update het bestaande toestel nog bruikbaar maakt. Beide boodschappen bieden iets aan, maar maken verschillende handelingsmogelijkheden zichtbaar.",
+          "dialogue": [
+            {
+              "speaker": "Lena · impactanalist",
+              "text": "Een reparatiebelofte en een eindeloze vernieuwingsprikkel kunnen elkaar tegenwerken."
+            },
+            {
+              "speaker": "Sam",
+              "text": "Onderzoek eerst welk gedrag het ontwerp beloont en hoe gebruikers de boodschap begrijpen."
+            }
+          ],
+          "activity": {
+            "type": "decision",
+            "prompt": "NOVA wil testen of een campagne bestaande wensen helpt of nieuwe vervangingsdruk creëert. Welk onderzoek past het best?",
+            "options": [
+              {
+                "text": "Meet alleen klikken op de advertentie en noem iedere klik een weloverwogen behoefte.",
+                "feedback": "Een klik toont aandacht of gedrag, maar verklaart de oorsprong en kwaliteit van de voorkeur niet."
+              },
+              {
+                "text": "Vergelijk campagnes, vraag naar doelen vóór en na blootstelling en onderzoek beschikbare reparatiealternatieven.",
+                "feedback": "Je onderzoekt invloed, ervaring en keuzeruimte. Zo vermijd je zowel blind vertrouwen als de aanname dat alle invloed identiek is."
+              },
+              {
+                "text": "Neem vooraf aan dat ieder product zonder reclame geen waarde heeft.",
+                "feedback": "Een behoefte kan door reclame zichtbaar worden én werkelijk nuttig zijn; dat vraagt onderzoek."
+              },
+              {
+                "text": "Beoordeel alleen of de campagne een mooie afbeelding heeft.",
+                "feedback": "Vorm beïnvloedt aandacht, maar de ethische analyse vraagt ook wat er wordt gestimuleerd en welke informatie ontbreekt."
+              }
+            ],
+            "best": 1,
+            "explanation": "Onderzoek vraag en aanbod als wisselwerking. Klikken en verkopen alleen zijn onvoldoende om geïnformeerde, autonome voorkeuren te beoordelen."
+          },
+          "reflection": "Welke informatie zou jou helpen onderscheiden tussen een nuttige nieuwe mogelijkheid en onnodige vervangingsdruk?",
+          "transfer": {
+            "prompt": "Een streamingdienst begint de volgende aflevering automatisch. Wat moet je onderzoeken?",
+            "options": [
+              "Alleen het totale aantal titels.",
+              "Of de kleur van de afspeelknop modern is.",
+              "Hoe de standaardinstelling kijktijd beïnvloedt en hoeveel controle de gebruiker ervaart.",
+              "Of niemand meer eigen voorkeuren kan hebben."
+            ],
+            "correct": 2,
+            "feedback": "Een standaardinstelling vormt gedrag. De analyse verbindt het bedrijfsdoel, gebruikerseffecten en handelingsruimte."
+          },
+          "artifact": {
+            "id": "aandachtspoor",
+            "title": "Het aandachtsspoor",
+            "description": "Gereedschap: volg welk gedrag een boodschap of standaardinstelling stimuleert en welke alternatieven zichtbaar blijven."
+          }
+        },
+        {
+          "id": "m2-05",
+          "title": "De uitgang die geld kost",
+          "mission": "Verbind afhankelijkheid met de ervaring van macht.",
+          "sourceBlocks": [
+            37,
+            38,
+            40,
+            46,
+            47
+          ],
+          "briefing": "Keuzevrijheid hangt niet alleen af van het aantal knoppen. Overstapkosten, sociale relaties, routines en toegang tot infrastructuur kunnen iemand afhankelijk maken. Macht werkt ook psychologisch: wie veel ruimte heeft, kan beperkingen voor anderen als vanzelfsprekend zien. Normalisering maakt een veranderbare afspraak soms onzichtbaar: 'zo werkt het nu eenmaal'. Niet iedere dominante aanbieder is automatisch misbruikend; onderzoek de mechanismen.",
+          "workedExample": "Een NOVA-gebruiker kan kiezen uit drie telefoonmodellen, maar reparatiehistorie en onderdelen zijn alleen binnen één platform beschikbaar. Overstappen betekent verlies van toegang en gegevens. Het aantal modellen geeft dus geen volledig beeld van vrijheid. Vraag wie de uitgang kan veranderen en welke afhankelijkheden gebruikers zelf ervaren.",
+          "dialogue": [
+            {
+              "speaker": "Mila · gebruiker",
+              "text": "Ik kan wel vertrekken, maar mijn gegevens en alle apparaten in huis werken dan minder goed samen."
+            },
+            {
+              "speaker": "Eva · investeerder",
+              "text": "Wat voor ons gemak en schaal is, kan voor een kleine reparateur een toegangsdrempel zijn."
+            }
+          ],
+          "activity": {
+            "type": "decision",
+            "prompt": "De directie zegt dat klanten vrij zijn omdat er drie modellen bestaan. Wat voeg je toe?",
+            "options": [
+              {
+                "text": "Drie modellen betekenen altijd volledige keuzevrijheid.",
+                "feedback": "Productvariatie zegt niets over overstapkosten en afhankelijkheid van één infrastructuur."
+              },
+              {
+                "text": "Wie een platform gebruikt, heeft nooit meer enige agency.",
+                "feedback": "Afhankelijkheid begrenst mogelijkheden maar maakt alle handelingsruimte niet automatisch nul."
+              },
+              {
+                "text": "Vraag alleen welke telefoon de grootste accu heeft.",
+                "feedback": "Dat helpt een productkeuze, maar niet de analyse van afhankelijkheid en macht."
+              },
+              {
+                "text": "Onderzoek overstapkosten, datatoegang, alternatieven en wie de voorwaarden bepaalt.",
+                "feedback": "Je bekijkt of de formele keuze praktisch bruikbaar is en maakt verschillende machtsposities zichtbaar."
+              }
+            ],
+            "best": 3,
+            "explanation": "Werkelijke handelingsruimte blijkt uit toegankelijke alternatieven en de kosten van afwijken. Betrek ook het perspectief van mensen met minder invloed."
+          },
+          "reflection": "Welke regel lijkt voor de beslisser gemakkelijk, maar kan voor iemand anders een hoge drempel vormen?",
+          "transfer": {
+            "prompt": "Een werknemer mag een dienst ruilen, maar riskeert dan toekomstige uren te verliezen. Welke conclusie is zorgvuldig?",
+            "options": [
+              "Een formele mogelijkheid kan door sociale en economische kosten moeilijk bruikbaar zijn.",
+              "Er bestaat geen enkele keuze meer in het hele leven van de werknemer.",
+              "Het beleid is rechtvaardig omdat er een ruilknop is.",
+              "De werknemer moet gewoon beter plannen."
+            ],
+            "correct": 0,
+            "feedback": "Formele toestemming en feitelijke ruimte verschillen. Onderzoek verwachtingen, afhankelijkheid en mogelijke gevolgen van afwijken."
+          },
+          "artifact": {
+            "id": "uitgangskaart",
+            "title": "De uitgangskaart",
+            "description": "Gereedschap: onderzoek de afstand tussen een formele keuze en een praktisch haalbaar alternatief."
+          }
+        },
+        {
+          "id": "m2-06",
+        "experiment": true,
+          "title": "De eerste vraag",
+          "mission": "Ontwerp ruimte voor morele moed en gezamenlijke verandering.",
+          "sourceBlocks": [
+            42,
+            43,
+            44,
+            49,
+            50,
+            51,
+            53,
+            55,
+            56
+          ],
+          "briefing": "Morele moed kan beginnen met een kleine vraag of het vertragen van een besluit. Agency is het vermogen om binnen relaties en structuren te handelen; steun, veiligheid, informatie en positie beïnvloeden die ruimte. Normen kunnen verschuiven wanneer mensen hun twijfel delen, woorden vinden en alternatieven proberen. Dat is geen gegarandeerd stappenplan: verandering kan stokken of ongelijk uitpakken.",
+          "workedExample": "Mara wil het retourprotocol herzien, maar vreest reputatieschade. Ze verzamelt met Jules concrete gegevens, vraagt Sam een veilig gesprek te begeleiden en stelt een afgebakende reparatiepilot voor. De leiding legt vast dat zorgen niet tot straf leiden en koppelt zichtbaar terug. Zo combineert initiatief met voorwaarden die handelen veiliger en uitvoerbaar maken.",
+          "dialogue": [
+            {
+              "speaker": "Mara · retourcoördinator",
+              "text": "Met bewijs en iemand naast me kan ik de vraag wel stellen."
+            },
+            {
+              "speaker": "Sam",
+              "text": "Vraag geen uitzonderlijk heldendom van mensen. Bouw omstandigheden waarin gewone mensen kunnen handelen."
+            }
+          ],
+          "activity": {
+            "type": "decision",
+            "prompt": "Een collega signaleert verspilling maar durft niet te spreken. Welke aanpak vergroot haar handelingsruimte?",
+            "options": [
+              {
+                "text": "Laat haar alleen een publieke beschuldiging uitbrengen om moed te bewijzen.",
+                "feedback": "Dat vergroot de persoonlijke risico's en maakt geen veilige route voor onderzoek of verandering."
+              },
+              {
+                "text": "Adviseer haar niets meer te proberen omdat systemen altijd sterker zijn.",
+                "feedback": "Structurele druk is reëel, maar kleine en gezamenlijke ingrepen kunnen wel verschil maken."
+              },
+              {
+                "text": "Verzamel samen feiten, bied een veilige gespreksroute, maak verantwoordelijkheid duidelijk en test een alternatief.",
+                "feedback": "Je verbindt individuele agency met steun en organisatorische voorwaarden. Uitkomsten moeten daarna worden gevolgd."
+              },
+              {
+                "text": "Stuur alleen een poster over goede waarden naar de hele afdeling.",
+                "feedback": "Een poster kan taal geven, maar verandert op zichzelf het risico van spreken en het protocol niet."
+              }
+            ],
+            "best": 2,
+            "explanation": "Morele moed wordt haalbaarder wanneer steun, bewijs en responsieve besluitvorming samenkomen. De verantwoordelijkheid rust niet alleen bij de minst machtige medewerker."
+          },
+          "reflection": "Welke kleine verandering in een overleg of procedure zou iemand met weinig macht meer ruimte geven?",
+          "transfer": {
+            "prompt": "Een studententeam wil een onveilige gewoonte veranderen. Wat ondersteunt agency het meest?",
+            "options": [
+              "Wachten tot één uitzonderlijke held het oplost.",
+              "Een veilige gezamenlijke bespreking, concrete voorbeelden en een uitvoerbaar alternatief.",
+              "Alleen zeggen dat iedere student zelf verantwoordelijk is.",
+              "Beloven dat twijfel nooit tot verandering hoeft te leiden."
+            ],
+            "correct": 1,
+            "feedback": "Handelingsruimte groeit door relaties, veiligheid en concrete mogelijkheden, niet alleen door individuele wilskracht."
+          },
+          "artifact": {
+            "id": "moedprotocol",
+            "title": "Het eerste-vraagprotocol",
+            "description": "Gereedschap: bewijs, steun, veilige bespreking, een testbaar alternatief en terugkoppeling vormen een route naar verandering."
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter-3",
+      "lessonId": "m3",
+      "title": "Wie heeft hier een stem?",
+      "location": "De bestuurskamer",
+      "image": "assets/chapter-3.webp",
+      "subtitle": "Ontdek waarom sommige argumenten de tafel bereiken en andere verdwijnen.",
+      "guide": {
+        "name": "Iris",
+        "role": "Onderzoeker governance en organisaties"
+      },
+      "intro": "NOVA wil zijn reparatienetwerk uitbreiden. De plannen botsen op kwartaalcijfers, investeringsvoorwaarden en de vraag wie mag meebeslissen. Iris opent de bestuurskamer voor je. Gebruik je kaarten om te zien hoe bijdragen, risico's en formele zeggenschap zich tot elkaar verhouden.",
+      "artifact": {
+        "id": "machtkaart",
+        "title": "Machtkaart",
+        "description": "Een kaart van bijdragen, afhankelijkheden, beslisrechten, indicatoren en manieren om verantwoording te vragen."
+      },
+      "investigations": [
+        {
+          "id": "m3-01",
+          "title": "Groter, sneller, afhankelijker",
+          "mission": "Onderzoek wanneer schaalvoordeel ook machtsvoordeel wordt.",
+          "sourceBlocks": [
+            0,
+            2,
+            4,
+            5
+          ],
+          "briefing": "Ondernemingen bundelen arbeid, kennis en kapitaal om complexe productie mogelijk te maken. Schaal kan kosten verlagen en kwaliteit verbeteren. Maar wie een groot deel van een markt of essentieel netwerk beheerst, kan ook voorwaarden voor anderen bepalen. Netwerkeffecten maken een platform aantrekkelijker naarmate meer partijen het gebruiken; ze kunnen toetreding door alternatieven moeilijker maken.",
+          "workedExample": "Een gezamenlijk onderdelenplatform maakt reparaties goedkoper. Zodra bijna alle leveranciers en technici erop zitten, wordt aansluiten voor een nieuwe reparateur vrijwel noodzakelijk. NOVA kan nu via toegangstarieven en standaarden invloed uitoefenen. Hetzelfde netwerk biedt dus coördinatievoordelen én mogelijke afhankelijkheid. Onderzoek beide kanten.",
+          "dialogue": [
+            {
+              "speaker": "Iris",
+              "text": "Efficiëntie en macht kunnen uit hetzelfde ontwerp voortkomen."
+            },
+            {
+              "speaker": "Jules · reparateur",
+              "text": "Het platform bespaart me uren. Maar als de voorwaarden veranderen, kan ik niet zomaar ergens anders heen."
+            }
+          ],
+          "activity": {
+            "type": "decision",
+            "prompt": "Het onderdelenplatform groeit snel. Welke analyse is het meest compleet?",
+            "options": [
+              {
+                "text": "Omdat de kosten dalen, kan er geen machtsprobleem ontstaan.",
+                "feedback": "Lagere kosten zijn een voordeel, maar sluiten uitsluiting, afhankelijkheid of invloed op voorwaarden niet uit."
+              },
+              {
+                "text": "Meet kostenvoordelen én toetredingsdrempels, toegangstarieven, alternatieven en invloed op standaarden.",
+                "feedback": "Je verbindt de oorspronkelijke efficiëntiereden met de mogelijke machtsgevolgen."
+              },
+              {
+                "text": "Elke grote onderneming heeft dezelfde macht en veroorzaakt dezelfde schade.",
+                "feedback": "Omvang alleen verklaart niet welke marktpositie, alternatieven en bevoegdheden bestaan."
+              },
+              {
+                "text": "Vraag uitsluitend of gebruikers het platform snel vinden.",
+                "feedback": "Gebruiksgemak is relevant, maar toont niet wie de regels kan wijzigen en wie afhankelijk wordt."
+              }
+            ],
+            "best": 1,
+            "explanation": "Schaalvoordeel vraagt een dubbele analyse: welke waarde ontstaat en welke invloed op de voorwaarden van deelname ontstaat ermee?"
+          },
+          "reflection": "Welke voordelen zou je willen behouden wanneer je de macht van een platform begrenst?",
+          "transfer": {
+            "prompt": "Een bezorgplatform brengt bijna alle restaurants en klanten samen. Welke eigenschap kan nieuwe concurrenten hinderen?",
+            "options": [
+              "Het aantal kleuren in de app.",
+              "Dat de maaltijden warm zijn.",
+              "Dat een nieuw platform weinig waarde biedt zolang weinig restaurants en klanten meedoen.",
+              "Dat iedere restaurantkaart anders is."
+            ],
+            "correct": 2,
+            "feedback": "Een netwerkeffect verbindt de waarde van het platform met deelname van anderen en kan toetredingsdrempels verhogen."
+          },
+          "artifact": {
+            "id": "schaal-dubbelkaart",
+            "title": "De dubbele schaalkaart",
+            "description": "Gereedschap: zet coördinatievoordelen naast afhankelijkheid, toegang en invloed op spelregels."
+          }
+        },
+        {
+          "id": "m3-02",
+          "title": "Het kwartaal en het decennium",
+          "mission": "Leer hoe financiële verwachtingen een tijdshorizon vormen.",
+          "sourceBlocks": [
+            7,
+            9
+          ],
+          "briefing": "Het aandeelhoudersmodel koppelt kapitaalverschaffing en financieel risico aan zeggenschap. Financialisering betekent dat financiële markten, indicatoren en verwachtingen sterker doorwerken in strategische keuzes. Een investering met lange maatschappelijke opbrengsten moet dan vaak worden vertaald naar rendement, risico of reputatie. Dat verklaart een druk op keuzes; het betekent niet dat iedere investeerder dezelfde horizon heeft.",
+          "workedExample": "Een reparatiecentrum kost nu €200.000 en kan vijf jaar lang afval, wachttijd en afhankelijkheid verminderen. Een aandeleninkoop kan eerder effect hebben op financiële indicatoren. Als de vergadering alleen het volgende kwartaal bespreekt, verdwijnen een deel van de langetermijngevolgen. Breid de horizon uit en leg onzekerheden zichtbaar naast elkaar.",
+          "dialogue": [
+            {
+              "speaker": "Eva · investeerder",
+              "text": "Een bedrijf dat morgen geen geld meer heeft, kan over vijf jaar niemand helpen. Maar niet elke relevante opbrengst past in één kwartaal."
+            },
+            {
+              "speaker": "Iris",
+              "text": "Analyseer eerst welke horizon de beoordeling hanteert. Dan zie je welke keuzes daardoor logisch lijken."
+            }
+          ],
+          "activity": {
+            "type": "decision",
+            "prompt": "Het reparatieplan wordt afgewezen omdat het dit kwartaal de winst verlaagt. Wat is de sterkste vervolgvraag?",
+            "options": [
+              {
+                "text": "Kunnen we de toekomstige voordelen zonder bewijs als gegarandeerde winst tellen?",
+                "feedback": "Een langere horizon helpt alleen met geloofwaardige aannames en zichtbare onzekerheid."
+              },
+              {
+                "text": "Kunnen we financiële continuïteit volledig buiten beschouwing laten?",
+                "feedback": "Financiering blijft een reële voorwaarde. De vraag is hoe deze samen met andere waarden wordt beoordeeld."
+              },
+              {
+                "text": "Welke gevolgen, risico's en opbrengsten zien we over verschillende termijnen en waarom is het kwartaal doorslaggevend?",
+                "feedback": "Je maakt de gekozen beoordelingshorizon en de weggelaten gevolgen onderzoekbaar."
+              },
+              {
+                "text": "Welke bestuurder heeft persoonlijk de minst duurzame voorkeur?",
+                "feedback": "Persoonlijke opvattingen kunnen relevant zijn, maar verklaren het formele beoordelingskader onvoldoende."
+              }
+            ],
+            "best": 2,
+            "explanation": "Vergelijk tijdshorizonnen, indicatoren en onzekerheden. Zo kun je een financiële logica begrijpen en tegelijk de grenzen ervan bespreken."
+          },
+          "reflection": "Welke langetermijnwaarde zou in een financieel voorstel apart zichtbaar moeten blijven?",
+          "transfer": {
+            "prompt": "Een werkgever bezuinigt op opleiding omdat de opbrengst niet dit jaar zichtbaar wordt. Welk mechanisme onderzoek je?",
+            "options": [
+              "De invloed van de beoordelingshorizon op welke investeringen aantrekkelijk lijken.",
+              "Alleen het aantal leslokalen.",
+              "Of opleiden altijd onmiddellijk winst geeft.",
+              "De conclusie dat geen bestuurder ooit aan de toekomst denkt."
+            ],
+            "correct": 0,
+            "feedback": "De tijdshorizon kan langetermijninvesteringen minder zichtbaar of aantrekkelijk maken, ook als mensen hun waarde erkennen."
+          },
+          "artifact": {
+            "id": "tijdhorizon",
+            "title": "Het dubbele tijdvenster",
+            "description": "Gereedschap: vergelijk korte en lange termijnen en benoem welke waarde in elke beoordeling zichtbaar blijft."
+          }
+        },
+        {
+          "id": "m3-03",
+          "title": "De bijdragen achter de aandelen",
+          "mission": "Bouw een stakeholderkaart van samenwerking en risico.",
+          "sourceBlocks": [
+            11,
+            13,
+            14,
+            16
+          ],
+          "briefing": "De stakeholderbenadering ziet de onderneming als een netwerk van wederzijds afhankelijke bijdragen. Werknemers investeren kennis, leveranciers relaties, gemeenschappen infrastructuur en investeerders kapitaal. Specifieke investeringen kunnen moeilijk elders inzetbaar zijn. Daaruit ontstaan belangen en vragen over zeggenschap en legitimiteit. Niet elke claim heeft automatisch hetzelfde gewicht; argumenteer hoe bijdragen, risico's en rechten worden meegewogen.",
+          "workedExample": "NOVA verhuist een fabriek. Een aandeelhouder kan aandelen verkopen, maar een leverancier heeft machines speciaal voor NOVA gebouwd en medewerkers hebben lokale expertise ontwikkeld. De gemeente investeerde in onderwijs en bereikbaarheid. Een besluit dat alleen het aandelenrendement telt, mist deze afhankelijkheden. Breng per partij bijdrage, mogelijk verlies en beschikbare alternatieven in kaart.",
+          "dialogue": [
+            {
+              "speaker": "Amina · ketenpartner",
+              "text": "Onze nieuwe machines zijn voor dit contract ontworpen. Uitstappen kost ons meer dan een bestelling annuleren."
+            },
+            {
+              "speaker": "Iris",
+              "text": "Gebruik je batterijroute opnieuw. Voeg nu toe welke investeringen specifiek en moeilijk terug te draaien zijn."
+            }
+          ],
+          "activity": {
+            "type": "decision",
+            "prompt": "Wie moet in de analyse van de verhuizing voorkomen?",
+            "options": [
+              {
+                "text": "Alleen partijen met aandelen, omdat andere bijdragen geen risico bevatten.",
+                "feedback": "Ook kennis, infrastructuur en relaties kunnen specifieke investeringen en risico's bevatten."
+              },
+              {
+                "text": "Iedereen met precies dezelfde beslissingsmacht zonder verdere afweging.",
+                "feedback": "Brede betrokkenheid is belangrijk, maar gelijke macht volgt niet automatisch uit het bestaan van een belang."
+              },
+              {
+                "text": "Alleen de huidige klanten, omdat zij omzet leveren.",
+                "feedback": "Dit laat leveranciers, medewerkers, gemeenschappen, ecosystemen en financiers buiten beeld."
+              },
+              {
+                "text": "Partijen met relevante bijdragen, risico's of getroffen rechten; expliciteer vervolgens hun claims en beschikbare alternatieven.",
+                "feedback": "Je maakt het samenwerkingsverband zichtbaar en creëert een basis om belangen gemotiveerd te wegen."
+              }
+            ],
+            "best": 3,
+            "explanation": "Een stakeholderkaart identificeert bijdragen, afhankelijkheden en gevolgen. De daaropvolgende afweging moet haar criteria duidelijk maken."
+          },
+          "reflection": "Welke bijdrage aan een onderneming wordt gemakkelijk als vanzelfsprekend beschouwd?",
+          "transfer": {
+            "prompt": "Een universiteit sluit een opleiding. Wat maakt een stakeholderanalyse zinvol?",
+            "options": [
+              "Dat uitsluitend de financier het besluit mag beoordelen.",
+              "Dat studenten, medewerkers en partners specifieke investeringen en afhankelijkheden hebben.",
+              "Dat alle betrokkenen noodzakelijk hetzelfde willen.",
+              "Dat een goede analyse iedere spanning oplost."
+            ],
+            "correct": 1,
+            "feedback": "Bijdragen en afhankelijkheden verklaren waarom verschillende partijen relevante claims hebben, zonder te beloven dat hun belangen samenvallen."
+          },
+          "artifact": {
+            "id": "stakeholderkaart",
+            "title": "De stakeholderkaart",
+            "description": "Gereedschap: verbind per partij bijdrage, afhankelijkheid, risico, getroffen rechten en stem in het besluit."
+          }
+        },
+        {
+          "id": "m3-04",
+        "experiment": true,
+          "title": "Het argument dat niet in het formulier past",
+          "mission": "Ontdek beslissingspremissen en het verschil tussen inspraak en invloed.",
+          "sourceBlocks": [
+            18,
+            19,
+            21,
+            22,
+            23,
+            24
+          ],
+          "briefing": "Beslissingspremissen zijn kaders die al vaststaan voordat een besluit wordt genomen: doelen, indicatoren, tijdshorizonnen en wat als risico telt. Ze werken als filter. Governance organiseert wie besluiten neemt en aan wie verantwoording wordt afgelegd. Werknemersvertegenwoordiging en maatschappelijke doelstellingen kunnen perspectieven verbreden, maar veranderen niet vanzelf alle prikkels of machtsverhoudingen.",
+          "workedExample": "Een voorstel voor veiligere arbeid heeft een veld voor investering en omzet, maar geen veld voor gezondheid, stem van medewerkers of onzekerheid. Het probleem zit niet alleen in de uiteindelijke keuze: de inhoud van het formulier bepaalt al welke argumenten tellen. Een nieuw veld helpt pas werkelijk als de informatie besluitvorming en verantwoording kan beïnvloeden.",
+          "dialogue": [
+            {
+              "speaker": "Daan · operations",
+              "text": "We mochten ons verhaal vertellen, maar het besluit stond al vast."
+            },
+            {
+              "speaker": "Iris",
+              "text": "Vraag dus niet alleen wie aan tafel zit. Vraag welke rechten die persoon heeft en hoe diens informatie meeweegt."
+            }
+          ],
+          "activity": {
+            "type": "decision",
+            "prompt": "NOVA stelt een stakeholderpanel in. Wat moet je onderzoeken om te weten of dit meer is dan symbolische inspraak?",
+            "options": [
+              {
+                "text": "Welke informatie het panel krijgt, wanneer het meedoet, welke invloed het heeft en hoe besluiten worden verantwoord.",
+                "feedback": "Deze vragen verbinden deelname met echte besluitvorming en maken grenzen van de governance zichtbaar."
+              },
+              {
+                "text": "Alleen hoeveel mensen bij de eerste bijeenkomst op de foto staan.",
+                "feedback": "Aanwezigheid bewijst niet dat argumenten worden gehoord of gevolgen hebben."
+              },
+              {
+                "text": "Alleen of iedereen een duurzame functietitel krijgt.",
+                "feedback": "Een titel verandert geen beslisrechten of beoordelingscriteria."
+              },
+              {
+                "text": "Neem aan dat het bestaan van een panel alle financiële prikkels opheft.",
+                "feedback": "Kapitaalmarkten en concurrentie verdwijnen niet door één overlegvorm."
+              }
+            ],
+            "best": 0,
+            "explanation": "Toets governance aan informatie, timing, beslisrechten en verantwoording. Veranderingen in de formele structuur vragen controle op hun feitelijke werking."
+          },
+          "reflection": "Welke vraag ontbreekt in een beoordelingsformulier dat jij kent?",
+          "transfer": {
+            "prompt": "Een projectcommissie mag advies geven nadat het budget al definitief is. Wat onderzoek je?",
+            "options": [
+              "Of de commissie dezelfde lettertypes gebruikt.",
+              "Waarom het advies noodzakelijk alle macht verandert.",
+              "Of de timing en bevoegdheden ruimte laten om het besluit te beïnvloeden.",
+              "Of het budget een rond getal is."
+            ],
+            "correct": 2,
+            "feedback": "De procedure kan deelname toestaan terwijl beslissingspremissen en timing de invloed begrenzen."
+          },
+          "artifact": {
+            "id": "beslisfilter",
+            "title": "Het beslisfilter",
+            "description": "Gereedschap: inspecteer welke argumenten, rollen en rechten het besluitvormingsproces zichtbaar maakt."
+          }
+        },
+        {
+          "id": "m3-05",
+          "title": "Het geld dat kan vertrekken",
+          "mission": "Volg hoe kapitaal activiteiten selecteert en organisaties beïnvloedt.",
+          "sourceBlocks": [
+            26,
+            27,
+            28,
+            30,
+            31,
+            32,
+            34,
+            36,
+            37
+          ],
+          "briefing": "Kapitaal maakt activiteiten mogelijk en selecteert mede welke groeien. Beleggers, kredietverstrekkers en analisten vergelijken opbrengsten en risico's. De mogelijkheid dat kapitaal vertrekt kan bestuurders disciplineren, ook zonder dagelijks ingrijpen. Activistische beleggers kunnen bovendien stemrecht en publieke druk gebruiken. Hedgefondsen zijn uiteenlopend; niet ieder fonds heeft dezelfde strategie of horizon.",
+          "workedExample": "Twee NOVA-plannen vragen financiering: een snel schaalbare abonnementsdienst en lokale reparatiecentra met tragere opbrengsten. Wie alleen verwachte financiële winst vergelijkt, kan de dienst verkiezen. Dezelfde selectie vormt vervolgens beschikbare banen, infrastructuur en consumptiemogelijkheden. Een bestaande infrastructuur kan overstappen ook kostbaar maken: een lock-in.",
+          "dialogue": [
+            {
+              "speaker": "Eva · investeerder",
+              "text": "Onze voorwaarden beïnvloeden wat het bestuur haalbaar vindt. Dat is verantwoordelijkheid, ook als we niet iedere dag bellen."
+            },
+            {
+              "speaker": "Iris",
+              "text": "De vraag is welk mechanisme werkt: selectie van projecten, druk op bestuurders, of beide."
+            }
+          ],
+          "activity": {
+            "type": "decision",
+            "prompt": "Het bestuur wijzigt een duurzaamheidsplan uit vrees financiering te verliezen. Welke verklaring is het meest zorgvuldig?",
+            "options": [
+              {
+                "text": "Kapitaal is alleen een neutraal betaalmiddel en heeft niets met de verandering te maken.",
+                "feedback": "Financieringsvoorwaarden en de mogelijkheid van vertrek kunnen strategie beïnvloeden."
+              },
+              {
+                "text": "De verwachte reactie van financiers begrenst de keuzes; onderzoek voorwaarden, alternatieven en beoordelingscriteria.",
+                "feedback": "Je maakt financiële disciplinering zichtbaar zonder iedere keuze tot één oorzaak te reduceren."
+              },
+              {
+                "text": "Alle financiers bevelen altijd rechtstreeks iedere dagelijkse handeling.",
+                "feedback": "Invloed kan indirect via verwachtingen, vergelijkingen en kapitaalmobiliteit werken."
+              },
+              {
+                "text": "Het bestuur heeft helemaal geen verantwoordelijkheid meer zolang er financiële druk is.",
+                "feedback": "Druk beïnvloedt handelingsruimte; ze heft verantwoordelijkheid voor keuzes en mogelijke alternatieven niet automatisch op."
+              }
+            ],
+            "best": 1,
+            "explanation": "Financiële invloed kan indirect en anticiperend werken. Onderzoek hoe geld projecten selecteert en welke voorwaarden organisaties vooraf aanpassen."
+          },
+          "reflection": "Welke financieringsafspraak zou een langere maatschappelijke tijdshorizon mogelijk kunnen maken?",
+          "transfer": {
+            "prompt": "Een pensioenfonds kiest investeringen uitsluitend op verwacht rendement. Welk systeemgevolg moet je onderzoeken?",
+            "options": [
+              "Alleen de naam van het fonds.",
+              "Of de fondsmanager persoonlijk vriendelijk is.",
+              "Dat geld altijd zonder gevolgen van sector wisselt.",
+              "Welke activiteiten hierdoor toegang krijgen tot groei en welke waarden buiten de selectie vallen."
+            ],
+            "correct": 3,
+            "feedback": "Kapitaal selecteert mede de activiteiten en infrastructuren die zich kunnen ontwikkelen."
+          },
+          "artifact": {
+            "id": "kapitaalstroom",
+            "title": "De kapitaalstroomkaart",
+            "description": "Bewijskaart van financieringsvoorwaarden, selectie, druk, tijdshorizonnen en mogelijke lock-ins."
+          }
+        },
+        {
+          "id": "m3-06",
+          "title": "Wat telt als waarde?",
+          "mission": "Verbind ecologische en sociale waarde met prikkels en normverschuiving.",
+          "sourceBlocks": [
+            39,
+            40,
+            42,
+            44
+          ],
+          "briefing": "Sommige waarden zijn lastig in financiële indicatoren uit te drukken. Wanneer gezondheid, natuur of werkzekerheid buiten prijzen en doelen blijven, kan schade financieel aantrekkelijk lijken. Concurrentiedruk kan vervolgens twijfelachtige praktijken normaliseren: 'anders verliezen we de markt'. Dit verklaart een mechanisme, maar rechtvaardigt het niet vanzelf. Interventies moeten zowel uitvoerbaarheid als getroffen waarden en rechten beoordelen.",
+          "workedExample": "Een concurrent bespaart op opleiding en veilige verwerking. NOVA wil volgen om marges te behouden. Gebruik de verborgen-kostenlens: waar komen risico's terecht? Gebruik de machtkaart: wie kan normen, contracten of toezicht beïnvloeden? Mogelijke antwoorden zijn betere interne doelen, ketenafspraken of institutionele regels. Ieder antwoord vraagt onderbouwing en controle.",
+          "dialogue": [
+            {
+              "speaker": "Jules · reparateur",
+              "text": "Als onze opleiding verdwijnt, ziet de begroting een besparing. Onze fouten en uitval komen later."
+            },
+            {
+              "speaker": "Iris",
+              "text": "Noem de concurrentiedruk eerlijk en onderzoek daarna welke waarden niet tot die druk gereduceerd mogen worden."
+            }
+          ],
+          "activity": {
+            "type": "decision",
+            "prompt": "NOVA zegt: 'Onze concurrenten doen het, dus we moeten de veiligheidsopleiding schrappen.' Wat is de sterkste reactie?",
+            "options": [
+              {
+                "text": "Neem concurrentiedruk serieus, breng risico's en verplichtingen in kaart en vergelijk uitvoerbare alternatieven.",
+                "feedback": "Je erkent de economische context zonder haar als volledige rechtvaardiging te gebruiken."
+              },
+              {
+                "text": "Omdat concurrenten het doen, is het automatisch verantwoord.",
+                "feedback": "Veelvoorkomend gedrag levert geen morele onderbouwing en kan juist normverval versterken."
+              },
+              {
+                "text": "Negeer alle financiële gevolgen; een alternatief hoeft niet uitvoerbaar te zijn.",
+                "feedback": "Een interventie moet daadwerkelijk kunnen werken en vraagt inzicht in middelen en continuïteit."
+              },
+              {
+                "text": "Meet alleen de winst van de eerste maand na de besparing.",
+                "feedback": "Zo blijven latere sociale en ecologische gevolgen buiten de beoordeling."
+              }
+            ],
+            "best": 0,
+            "explanation": "Maak onderscheid tussen een verklaring van druk en een rechtvaardiging van gedrag. Weeg relevante gevolgen, rechten en uitvoerbare routes expliciet."
+          },
+          "reflection": "Welke maatschappelijke waarde mag in jouw voorstel een eigen plaats houden, ook als omzetting naar geld moeilijk is?",
+          "transfer": {
+            "prompt": "Een branche verlaagt geleidelijk arbeidsnormen omdat iedereen de laagste prijs wil bieden. Wat moet je onderzoeken?",
+            "options": [
+              "Alleen de goedkoopste aanbieder.",
+              "Of lagere normen altijd beter zijn.",
+              "Hoe concurrentiedruk en rationalisaties een nieuwe norm vormen en welke gezamenlijke regels mogelijk zijn.",
+              "Of ieder bedrijf dezelfde eigenaar heeft."
+            ],
+            "correct": 2,
+            "feedback": "De systeemlens verbindt individuele besluiten met gedeelde prikkels en verschuivende normen."
+          },
+          "artifact": {
+            "id": "waarde-balans",
+            "title": "De brede waardebalans",
+            "description": "Gereedschap: beoordeel financiële continuïteit naast ecologische gevolgen, sociale waarde en grenzen aan verantwoorde keuzes."
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter-4",
+      "lessonId": "m4",
+      "title": "De waarden in de machine",
+      "location": "Het ontwerp- en datalab",
+      "image": "assets/chapter-4.webp",
+      "subtitle": "Ontdek hoe techniek mogelijkheden, gedrag en macht organiseert.",
+      "guide": {
+        "name": "Amir",
+        "role": "Ontwerper technologie en maatschappelijke impact"
+      },
+      "intro": "De nieuwe telefoon is verbonden met apps, logistiek en een sorteersysteem. Amir laat je zien hoe een keuze in een interface doorwerkt in het leven van anderen. Je onderzoekt het netwerk en ontwerpt ingrepen op meer dan één niveau.",
+      "artifact": {
+        "id": "interventiekompas",
+        "title": "Interventiekompas",
+        "description": "Een ontwerpkaart die technische keuzes, organisatorische verantwoordelijkheid en institutionele regels met elkaar verbindt."
+      },
+      "investigations": [
+        {
+          "id": "m4-01",
+          "title": "Een deur is ook een beslissing",
+          "mission": "Lees waarden in een concreet ontwerp.",
+          "sourceBlocks": [
+            0,
+            1,
+            2,
+            4,
+            5,
+            6,
+            8,
+            10,
+            11
+          ],
+          "briefing": "Technologie maakt sommige handelingen mogelijk, makkelijk of moeilijk. Winner onderzoekt hoe artefacten politieke eigenschappen kunnen hebben: via bewuste ontwerpkeuzes of via de organisatie die hun werking vraagt. Een technisch ontwerp kan tegelijk toegankelijkheid vergroten en nieuwe afhankelijkheden creëren. Morele architectuur betekent dat waarden mede in het ontwerp zijn ingebouwd; het betekent niet dat het apparaat zelf moreel bewustzijn heeft.",
+          "workedExample": "De automatische deur van NOVA helpt mensen met een rolstoel, kinderwagen of zware doos. Bij stroomuitval werkt zij niet. Een toegankelijke handmatige noodroute en onderhoudsafspraken veranderen wie ook bij een storing naar binnen kan. De juiste vraag is daarom niet alleen 'opent de deur?', maar 'voor wie, wanneer en onder welke voorwaarden?'",
+          "dialogue": [
+            {
+              "speaker": "Amir",
+              "text": "Een handig ontwerp kan nieuwe drempels creëren. Test verschillende mensen én verschillende omstandigheden."
+            },
+            {
+              "speaker": "Mila · gebruiker",
+              "text": "Voor mij is de noodroute even belangrijk als de dagelijkse route."
+            }
+          ],
+          "activity": {
+            "type": "decision",
+            "prompt": "Welke aanvulling op de automatische deur is het best onderbouwde ontwerpvoorstel?",
+            "options": [
+              {
+                "text": "Een snellere sensor zonder te testen wie de deur gebruikt.",
+                "feedback": "Snelheid kan nuttig zijn, maar beantwoordt de vragen over uitval en diverse gebruikers niet."
+              },
+              {
+                "text": "Een bord met de boodschap dat bezoekers altijd zelf verantwoordelijk zijn.",
+                "feedback": "Een bord verandert de toegankelijkheid of afhankelijkheid niet."
+              },
+              {
+                "text": "Een met diverse gebruikers geteste deur, een toegankelijke noodroute en een duidelijke onderhoudsverantwoordelijke.",
+                "feedback": "Je verbindt gebruik, uitval, inclusie en beheer. Of de route werkelijk toegankelijk is, moet met gebruikers worden getoetst."
+              },
+              {
+                "text": "Het ontwerp uitsluitend laten beoordelen op aanschafprijs.",
+                "feedback": "Prijs is een relevante randvoorwaarde, maar geen volledige maatstaf voor toegankelijkheid en veiligheid."
+              }
+            ],
+            "best": 2,
+            "explanation": "Een ontwerp bevat afwegingen tussen waarden. Beoordeel normale werking, uitzonderingen en de mensen die voordeel of een drempel ervaren."
+          },
+          "reflection": "Welke ontwerpkeuze helpt de gemiddelde gebruiker maar kan voor een andere gebruiker onbruikbaar zijn?",
+          "transfer": {
+            "prompt": "Een overheidsdienst is alleen via een smartphone toegankelijk. Welke vraag past bij technologie als morele architectuur?",
+            "options": [
+              "Wie krijgt toegang en wie wordt door deze ontwerpvoorwaarde uitgesloten?",
+              "Welke telefoon is het duurst?",
+              "Hoeveel schermen heeft de website?",
+              "Kan een digitaal ontwerp nooit politieke gevolgen hebben?"
+            ],
+            "correct": 0,
+            "feedback": "De toegangseis verdeelt mogelijkheden. Het ontwerp draagt zo bij aan een sociale en morele structuur."
+          },
+          "artifact": {
+            "id": "deur-schets",
+            "title": "De toegankelijke schets",
+            "description": "Gereedschap: toets voor wie een ontwerp werkt, onder welke omstandigheden en met welke afhankelijkheden."
+          }
+        },
+        {
+          "id": "m4-02",
+          "title": "Wie doet mee in het netwerk?",
+          "mission": "Onderzoek hoe mensen, apparaten en regels samen gedrag vormen.",
+          "sourceBlocks": [
+            13,
+            14,
+            15
+          ],
+          "briefing": "Actor-Network Theory bekijkt relaties tussen menselijke en niet-menselijke actoren: mensen, software, machines, regels en infrastructuur. Een actor beïnvloedt in deze analyse wat anderen kunnen doen; dat is geen bewering dat een sensor intenties of geweten heeft. Verbeeks idee van technologische bemiddeling helpt zien hoe techniek waarneming en handelen mede vormt.",
+          "workedExample": "Een energiesensor meet per werkplek. Een dashboard kleurt hoge waarden rood. Een manager gebruikt rood in beoordelingsgesprekken en medewerkers zetten verwarming uit. Het effect zit niet alleen in de sensor: meting, weergave, beloning, gebouw en mensen vormen samen het netwerk. Door één relatie te wijzigen kan ook het gedrag veranderen.",
+          "dialogue": [
+            {
+              "speaker": "Amir",
+              "text": "Teken de relaties voordat je één apparaat de oorzaak noemt."
+            },
+            {
+              "speaker": "Jules · reparateur",
+              "text": "Het dashboard noemt mijn werkplek rood, maar daar staat de oven voor alle reparateurs."
+            }
+          ],
+          "activity": {
+            "type": "decision",
+            "prompt": "Het energiedashboard lijkt medewerkers onterecht te benadelen. Wat is de sterkste eerste analyse?",
+            "options": [
+              {
+                "text": "Breng meting, gebouw, taken, weergave, beoordelingsregels en reacties van medewerkers samen in kaart.",
+                "feedback": "Je bekijkt hoe het netwerk de uitkomst voortbrengt en kunt ontdekken waar verantwoordelijkheid en interpretatie moeten veranderen."
+              },
+              {
+                "text": "Beschuldig de sensor van een bewuste voorkeur tegen reparateurs.",
+                "feedback": "Een sensor kan een effect hebben zonder intentie. Onderzoek de meet- en gebruiksrelaties."
+              },
+              {
+                "text": "Beoordeel uitsluitend de technische nauwkeurigheid van de sensor.",
+                "feedback": "Een nauwkeurige meting kan alsnog verkeerd worden toegeschreven of gebruikt."
+              },
+              {
+                "text": "Vraag medewerkers het rode vak voortaan niet meer te bekijken.",
+                "feedback": "Dat verandert de beoordelingsregel en verdeling van verantwoordelijkheid niet."
+              }
+            ],
+            "best": 0,
+            "explanation": "De netwerkbenadering maakt verbindingen zichtbaar. Nauwkeurigheid, interpretatie en gebruik van een meting zijn afzonderlijke vragen."
+          },
+          "reflection": "Welke regel of weergave in een digitaal systeem verandert hoe jij jezelf of anderen beoordeelt?",
+          "transfer": {
+            "prompt": "Een navigatie-app leidt verkeer door een woonstraat. Wat zou een netwerkonderzoek omvatten?",
+            "options": [
+              "Alleen het merk van de auto's.",
+              "Alleen de intentie van één bestuurder.",
+              "De conclusie dat software altijd zelfstandig beslist.",
+              "Routecriteria, wegen, gebruikers, verkeersregels en gevolgen voor bewoners."
+            ],
+            "correct": 3,
+            "feedback": "De uitkomst ontstaat in relaties tussen techniek, mensen, infrastructuur en regels."
+          },
+          "artifact": {
+            "id": "netwerkkaart",
+            "title": "De netwerkkaart",
+            "description": "Gereedschap: teken hoe mensen, machines, gegevens, regels en prikkels elkaar beïnvloeden."
+          }
+        },
+        {
+          "id": "m4-03",
+          "title": "Het systeem achter het systeem",
+          "mission": "Ontdek de macht van infrastructuur en standaarden.",
+          "sourceBlocks": [
+            17,
+            18,
+            20,
+            22,
+            23,
+            24
+          ],
+          "briefing": "Infrastructuur maakt activiteiten mogelijk, werkt op grote schaal en legt standaarden en afhankelijkheden vast. Zij valt vaak pas op als ze uitvalt. Wie netwerken beheert, kan toegang, kosten en voorwaarden bepalen. Grote investeringen en langdurig gebruik maken verandering moeilijk. De invloed zit daarom vaak minder in een afzonderlijk apparaat dan in het netwerk waarop het moet aansluiten.",
+          "workedExample": "Een reparateur heeft een werkbank en kennis, maar kan geen onderdelen bestellen zonder NOVA's logistieke systeem. Dat systeem vraagt certificering, een vast dataformaat en een toegangstarief. Sommige eisen beschermen veiligheid; andere kunnen partijen uitsluiten. Onderzoek per eis het doel, de proportionaliteit, alternatieven en wie haar kan veranderen.",
+          "dialogue": [
+            {
+              "speaker": "Amir",
+              "text": "Een standaard kan samenwerking mogelijk maken én de toegang bewaken."
+            },
+            {
+              "speaker": "Amina · ketenpartner",
+              "text": "Als wij niet in het vereiste formaat kunnen aanleveren, verdwijnen we uit de keten — ook als onze producten goed zijn."
+            }
+          ],
+          "activity": {
+            "type": "decision",
+            "prompt": "Een kleine reparateur krijgt geen toegang tot de onderdeleninfrastructuur. Welke aanpak beoordeelt de eis het zorgvuldigst?",
+            "options": [
+              {
+                "text": "Iedere standaard afschaffen, ongeacht veiligheid en compatibiliteit.",
+                "feedback": "Standaarden kunnen waardevolle coördinatie en bescherming bieden. Hun doel en effect moeten worden beoordeeld."
+              },
+              {
+                "text": "Omdat NOVA eigenaar is, zijn alle toegangseisen zonder verdere onderbouwing verantwoord.",
+                "feedback": "Eigendom verklaart een bevoegdheid, maar maakt de maatschappelijke gevolgen niet ethisch irrelevant."
+              },
+              {
+                "text": "Alleen het aantal magazijnen tellen.",
+                "feedback": "Omvang zegt weinig over toegang en de voorwaarden van deelname."
+              },
+              {
+                "text": "Onderzoek waarom de eis bestaat, wie wordt uitgesloten en welke proportionele alternatieven mogelijk zijn.",
+                "feedback": "Je houdt nuttige functies zichtbaar en toetst de verdeling van toegang en macht."
+              }
+            ],
+            "best": 3,
+            "explanation": "Toegangseisen vragen een beoordeling van doelen, gevolgen en alternatieven. Infrastructuurmacht is niet volledig te begrijpen vanuit apparaatprestaties."
+          },
+          "reflection": "Welke infrastructuur in jouw dagelijks leven merk je pas op wanneer ze niet beschikbaar is?",
+          "transfer": {
+            "prompt": "Een betaalnetwerk kan webwinkels toegang weigeren. Welke macht is hier relevant?",
+            "options": [
+              "Alleen de snelheid van één laptop.",
+              "Invloed op wie onder welke voorwaarden aan economische activiteiten kan deelnemen.",
+              "Dat ieder betaalmiddel dezelfde regels heeft.",
+              "Dat techniek geen instellingen nodig heeft."
+            ],
+            "correct": 1,
+            "feedback": "Beheer van een essentieel netwerk kan de voorwaarden van marktdeelname bepalen."
+          },
+          "artifact": {
+            "id": "toegangskaart",
+            "title": "De toegangspas",
+            "description": "Gereedschap: beoordeel infrastructuur via toegang, standaarden, kosten, alternatieven en beslisrechten."
+          }
+        },
+        {
+          "id": "m4-04",
+          "title": "De poortwachter van aandacht",
+          "mission": "Onderscheid datagebruik van een model dat gedrag verkoopt en stuurt.",
+          "sourceBlocks": [
+            26,
+            27,
+            28,
+            30,
+            31,
+            32
+          ],
+          "briefing": "Platforms kunnen poortwachters worden voor communicatie, handel en informatie. Hun ontwerp bepaalt zichtbaarheid en toegang. Zuboffs surveillancekapitalisme beschrijft een specifieke economische logica waarin menselijke ervaring wordt omgezet in data om gedrag te voorspellen en commercieel te benutten of beïnvloeden. Niet iedere sensor of gegevensanalyse valt automatisch onder die hele analyse.",
+          "workedExample": "NOVA's app kan foutmeldingen verzamelen om reparaties te verbeteren. Een ander ontwerp combineert gebruik, locatie en sociale signalen om vervangingskansen te voorspellen en persoonlijke aanbiedingen te sturen. Vergelijk doelen, noodzakelijke gegevens, zichtbaarheid voor gebruikers, betrokken partijen en zeggenschap. Dezelfde app kan verschillende economische logica's ondersteunen.",
+          "dialogue": [
+            {
+              "speaker": "Amir",
+              "text": "Vraag waarvoor de gegevens worden gebruikt en wie daar invloed op heeft."
+            },
+            {
+              "speaker": "Lena · impactanalist",
+              "text": "Een uitlegscherm helpt pas als het klopt met de echte datastromen en gebruikers bruikbare keuzes hebben."
+            }
+          ],
+          "activity": {
+            "type": "decision",
+            "prompt": "Welke vraag onderscheidt de twee appmodellen het best?",
+            "options": [
+              {
+                "text": "Welke interface heeft de modernste achtergrond?",
+                "feedback": "Vorm kan gedrag beïnvloeden, maar onderscheidt hier het economische doel van datagebruik niet."
+              },
+              {
+                "text": "Worden gegevens alleen ingezet voor de gevraagde functie of ook voor commerciële voorspelling en sturing van gedrag?",
+                "feedback": "Je onderzoekt de functie, de economische logica en het doel van beïnvloeding. Daarvoor moet je de echte gegevensstromen kennen."
+              },
+              {
+                "text": "Heeft de app precies evenveel gegevens als een concurrent?",
+                "feedback": "Hoeveelheid alleen zegt niet wat gegevens organiseren en waarvoor ze worden gebruikt."
+              },
+              {
+                "text": "Is elke verzamelde byte automatisch surveillancekapitalisme?",
+                "feedback": "Dat maakt het begrip te breed en verliest het specifieke commerciële model uit zicht."
+              }
+            ],
+            "best": 1,
+            "explanation": "Beoordeel doel, datastromen, verdienmodel en invloed op gedrag. Gebruik een theorie precies genoeg om verschillen zichtbaar te houden."
+          },
+          "reflection": "Welke dataverzameling vind je functioneel gerechtvaardigd, en welke extra toepassing vraagt een afzonderlijke afweging?",
+          "transfer": {
+            "prompt": "Een onderwijsplatform personaliseert oefeningen en verkoopt daarnaast gedragsprofielen aan adverteerders. Wat moet je onderscheiden?",
+            "options": [
+              "Alleen de moeilijkheid van de oefeningen.",
+              "Dat elke personalisatie noodzakelijk schadelijk is.",
+              "Het leerdoel van de functie en de aparte commerciële benutting van gegevens.",
+              "Dat advertenties nooit gedrag kunnen beïnvloeden."
+            ],
+            "correct": 2,
+            "feedback": "Eén platform kan meerdere doelen en economische logica's bevatten. Beoordeel de datatoepassingen afzonderlijk en in samenhang."
+          },
+          "artifact": {
+            "id": "datadoelen",
+            "title": "Het datadoelendossier",
+            "description": "Gereedschap: verbind iedere datastroom aan functie, verdienmodel, beïnvloeding, zichtbaarheid en zeggenschap."
+          }
+        },
+        {
+          "id": "m4-05",
+        "experiment": true,
+          "title": "Wat de sorteermachine herkent",
+          "mission": "Onderzoek welke waarde een datamodel zichtbaar maakt.",
+          "sourceBlocks": [
+            34,
+            35,
+            37,
+            38,
+            40,
+            41,
+            42
+          ],
+          "briefing": "Data zijn een hulpbron én organiseren kennis en controle: wie meet en classificeert, beïnvloedt wat zichtbaar wordt. AI-systemen gebruiken gekozen gegevens, categorieën en doelen. Bij recycling kan een hoge nauwkeurigheid voor waardevolle materialen samengaan met het missen van andere materialen of groepen. Efficiëntie moet daarom worden verbonden met de vraag welk doel, welke waarde en welke gevolgen worden gemeten.",
+          "workedExample": "De NOVA-sorteerder is getraind op aluminium en gangbare telefoons. Een zeldzame batterijsoort zit nauwelijks in de data en belandt in de verkeerde stroom. Een algemene score van 96% nauwkeurigheid kan dat verbergen. Onderzoek resultaten per materiaal, veiligheidsrisico's en de terugwinning van minder winstgevende maar ecologisch relevante onderdelen.",
+          "dialogue": [
+            {
+              "speaker": "Amir",
+              "text": "Het getal klopt misschien. De vraag is of het meet wat wij belangrijk vinden."
+            },
+            {
+              "speaker": "Jules · reparateur",
+              "text": "Kunnen we iets als 'recyclebaar' tellen wanneer het in deze installatie nauwelijks wordt herkend?"
+            }
+          ],
+          "activity": {
+            "type": "decision",
+            "prompt": "Welke testopzet is het meest geschikt vóór inzet van de sorteerder?",
+            "options": [
+              {
+                "text": "Rapporteer alleen de gemiddelde nauwkeurigheid en stel alle andere vragen uit.",
+                "feedback": "Een gemiddelde kan belangrijke materiaalsoorten, risico's en fouten verbergen."
+              },
+              {
+                "text": "Neem het duurste materiaal als enige maatstaf voor circulariteit.",
+                "feedback": "Financiële waarde dekt veiligheid en ecologische terugwinning niet volledig."
+              },
+              {
+                "text": "Test verschillende materiaalstromen, beoordeel risico's en terugwinning per groep en regel controle voor onzekere gevallen.",
+                "feedback": "Je koppelt prestaties aan relevante waarden en maakt blinde vlekken en verantwoordelijkheid zichtbaar."
+              },
+              {
+                "text": "Vervang iedere menselijke controle omdat AI per definitie waardevrij is.",
+                "feedback": "Data, doelen en gebruik bevatten ontwerpkeuzes. Menselijke controle moet passend georganiseerd worden."
+              }
+            ],
+            "best": 2,
+            "explanation": "Een bruikbaar AI-resultaat vraagt representatieve tests en criteria die het gewenste maatschappelijke doel weerspiegelen. Eén technisch cijfer is geen volledige ethische beoordeling."
+          },
+          "reflection": "Welke categorie of groep kan verdwijnen wanneer één gemiddelde score als succes geldt?",
+          "transfer": {
+            "prompt": "Een sollicitatiemodel scoort gemiddeld goed, maar is slechter voor een kleine groep kandidaten. Welke stap past?",
+            "options": [
+              "Fouten per relevante groep onderzoeken en ontwerp, gebruik en controle opnieuw beoordelen.",
+              "De kleine groep uit de rapportage weglaten.",
+              "Alleen de rekensnelheid verhogen.",
+              "Een hoge gemiddelde score als voldoende rechtvaardiging gebruiken."
+            ],
+            "correct": 0,
+            "feedback": "Een gemiddelde kan ongelijke effecten verbergen. Onderzoek het model in relatie tot getroffen mensen en besluitvorming."
+          },
+          "artifact": {
+            "id": "blinde-vlekkaart",
+            "title": "De blinde-vlekkaart",
+            "description": "Gereedschap: inspecteer data, categorieën, doelen en prestaties per relevante groep of materiaalstroom."
+          }
+        },
+        {
+          "id": "m4-06",
+          "title": "Drie hendels, één verandering",
+          "mission": "Ontwerp een samenhangende interventie.",
+          "sourceBlocks": [
+            44,
+            45,
+            47,
+            48,
+            50,
+            51,
+            52
+          ],
+          "briefing": "Technologie beïnvloedt handelen, maar ontstaat binnen menselijke en institutionele keuzes. Interventies kunnen op drie niveaus plaatsvinden. Ontwerp: waarden, inclusie en begrijpelijkheid in het systeem. Organisatie: verantwoordelijkheid, audits en besluitvorming. Instituties: regels, toezicht en publieke normen. Value Sensitive Design vraagt waarden al in het ontwerp te onderzoeken. De niveaus vullen elkaar aan en hebben eigen mogelijkheden en grenzen.",
+          "workedExample": "Voor de sorteerder voeg je herkenning van risicomaterialen en uitleg bij onzekere voorspellingen toe: ontwerp. Je wijst een verantwoordelijke aan, test periodiek en stelt een escalatieroute in: organisatie. Je onderzoekt welke veiligheids- en rapportage-eisen van toepassing zijn: institutionele context. Een nieuwe knop zonder beheer, of beleid zonder werkend ontwerp, is onvoldoende.",
+          "dialogue": [
+            {
+              "speaker": "Amir",
+              "text": "Jij hoeft niet ieder niveau zelf te beheersen. Wel moet je zien welke partijen erbij horen."
+            },
+            {
+              "speaker": "Iris",
+              "text": "Gebruik de machtkaart: wie kan elke maatregel invoeren en wie controleert de werking?"
+            }
+          ],
+          "activity": {
+            "type": "decision",
+            "prompt": "NOVA wil zijn AI-sorteerder verantwoord verbeteren. Welk pakket is het meest samenhangend?",
+            "options": [
+              {
+                "text": "Alleen een verklarende knop toevoegen en iedere verantwoordelijkheid bij de gebruiker leggen.",
+                "feedback": "Begrijpelijkheid helpt, maar fouten, onderhoud en besluitvorming vragen ook organisatorische verantwoordelijkheid."
+              },
+              {
+                "text": "Alleen een ethische commissie instellen zonder toegang tot tests of beslisrechten.",
+                "feedback": "Een commissie zonder gegevens, bevoegdheden of opvolging kan weinig veranderen."
+              },
+              {
+                "text": "Wachten op regelgeving en tot die tijd geen ontwerp- of beheerproblemen onderzoeken.",
+                "feedback": "Publieke regels zijn belangrijk; ze vervangen de bestaande verantwoordelijkheid voor ontwerp en gebruik niet."
+              },
+              {
+                "text": "Combineer aangepast ontwerp, heldere verantwoordelijkheid en audits met toetsing aan toepasselijke regels en toezicht.",
+                "feedback": "Je verbindt verschillende niveaus en kunt de uitvoering en effecten controleren. De precieze eisen vragen actuele, toepassingsgerichte verificatie."
+              }
+            ],
+            "best": 3,
+            "explanation": "Een interventieplan wordt sterker met een passend ontwerp, uitvoerende verantwoordelijkheid en externe kaders. De precieze wettelijke verplichtingen hangen af van context en toepassingsgebied."
+          },
+          "reflection": "Welke maatregel uit jouw voorstel faalt als een ander niveau niet meewerkt?",
+          "transfer": {
+            "prompt": "Een platform wil een aanbevelingssysteem verbeteren. Welke combinatie bestrijkt drie interventieniveaus?",
+            "options": [
+              "Een nieuwe kleur, een nieuw logo en een nieuwe slogan.",
+              "Een gebruikerskeuze in het ontwerp, een verantwoordelijke auditprocedure en toepasselijke publieke toezichtregels.",
+              "Drie keer dezelfde disclaimer tonen.",
+              "Alle verantwoordelijkheid bij individuele gebruikers leggen."
+            ],
+            "correct": 1,
+            "feedback": "Ontwerp, governance en institutionele regels bieden verschillende maar samenhangende ingrepen."
+          },
+          "artifact": {
+            "id": "drie-hendels",
+            "title": "Het drie-hendelsplan",
+            "description": "Gereedschap: koppel iedere maatregel aan ontwerp, organisatie of instituties, een verantwoordelijke en een manier om het effect te volgen."
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter-5",
+      "lessonId": "m5",
+      "title": "De belofte onder het licht",
+      "location": "Het impactatelier",
+      "image": "assets/chapter-5.webp",
+      "subtitle": "Onderzoek wanneer een duurzaam verhaal echte verandering beschrijft.",
+      "guide": {
+        "name": "Lena",
+        "role": "Analist duurzaamheid en publieke verantwoording"
+      },
+      "intro": "De campagne voor de nieuwe telefoon ligt klaar: 'NOVA. Helemaal circulair.' Jouw eerdere onderzoeken laten een ingewikkelder beeld zien. Lena vraagt je de belofte te beoordelen en een verandering te ontwerpen die verder gaat dan een betere slogan. Je gereedschappen komen nu samen.",
+      "artifact": {
+        "id": "beloftebewijs",
+        "title": "Belofte & bewijs",
+        "description": "Een dossier waarin claims, grenzen, prestaties, verantwoordelijkheden en een toetsbaar veranderplan met elkaar zijn verbonden."
+      },
+      "investigations": [
+        {
+          "id": "m5-01",
+          "title": "Een verhaal vóór de verandering",
+          "mission": "Verbind duurzaamheidscommunicatie met institutionele en economische druk.",
+          "sourceBlocks": [
+            0,
+            1,
+            3,
+            4,
+            6,
+            7
+          ],
+          "briefing": "Greenwashing betreft een kloof tussen een gunstig duurzaamheidsbeeld en feitelijke prestaties. Legitimiteit is de erkenning dat een organisatie sociaal aanvaardbaar handelt. Consumenten, financiers, media en toezichthouders kunnen druk op duurzaamheid zetten. Als communicatie sneller verandert dan het bedrijfsmodel, kan een kloof ontstaan. Verklaren hoe die kloof ontstaat is iets anders dan misleiding goedkeuren.",
+          "workedExample": "NOVA krijgt meer vragen over circulariteit; de financier vraagt duurzaamheidsinformatie en de verkoopcampagne begint volgende week. De inzameling werkt nog beperkt en reserveonderdelen zijn niet overal verkrijgbaar. Onder druk kan een brede groene boodschap aantrekkelijk lijken. Teken de verwachtingen, economische prikkels en feitelijke beperkingen voordat je alleen de marketingmedewerker aanwijst.",
+          "dialogue": [
+            {
+              "speaker": "Lena",
+              "text": "Ik wil de communicatie verbeteren én begrijpen waarom de organisatie haar belofte vooruitloopt."
+            },
+            {
+              "speaker": "Eva · investeerder",
+              "text": "Vraag ook welke informatie wij belonen. Een goed verhaal en een goed resultaat zijn niet hetzelfde."
+            }
+          ],
+          "activity": {
+            "type": "decision",
+            "prompt": "De belofte loopt voor op de prestaties. Welke aanpak behandelt greenwashing als systeemfenomeen?",
+            "options": [
+              {
+                "text": "Alleen de tekstschrijver vervangen en het investeringsplan behouden.",
+                "feedback": "Een persoon kan bijdragen aan de claim, maar de druk en operationele kloof kunnen blijven bestaan."
+              },
+              {
+                "text": "Verwachtingen, financiële prikkels, daadwerkelijke prestaties en organisatorische mogelijkheden samen onderzoeken.",
+                "feedback": "Je analyseert de kloof en haar oorzaken, zodat communicatie en verandering in samenhang kunnen worden aangepakt."
+              },
+              {
+                "text": "Meer duurzame woorden toevoegen omdat legitimiteit vooral een vormgevingsvraag is.",
+                "feedback": "Legitimiteit gaat over aanvaardbaarheid; een gunstige presentatie zonder prestaties kan de kloof vergroten."
+              },
+              {
+                "text": "Iedere ambitie verbieden omdat toekomstige veranderingen onzeker zijn.",
+                "feedback": "Een ambitie kan zinvol zijn als zij duidelijk als doel wordt gepresenteerd, begrensd en toetsbaar gemaakt."
+              }
+            ],
+            "best": 1,
+            "explanation": "Het systeemperspectief verbindt communicatie aan prikkels, verwachtingen en uitvoering. De normatieve beoordeling blijft nodig."
+          },
+          "reflection": "Welke afspraak met een financier of bestuurder kan echte prestaties aantrekkelijker maken dan een mooi verhaal?",
+          "transfer": {
+            "prompt": "Een hotel gebruikt een groen keurmerk, maar heeft nog geen zicht op zijn grootste energieverbruik. Welke vraag gaat verder dan reclame alleen?",
+            "options": [
+              "Welke kleur groen het meest overtuigt.",
+              "Hoeveel gasten de slogan onthouden.",
+              "Welke verwachtingen en prikkels het verhaal belonen en wat de feitelijke prestaties zijn.",
+              "Of iedere hotelmedewerker dezelfde mening heeft."
+            ],
+            "correct": 2,
+            "feedback": "Een systeemverklaring onderzoekt de druk achter de boodschap en de meetbare kloof met de praktijk."
+          },
+          "artifact": {
+            "id": "legitimiteitskaart",
+            "title": "De legitimiteitskaart",
+            "description": "Bewijskaart van verwachtingen, reputatie, kapitaalprikkels en de afstand tussen boodschap en uitvoering."
+          }
+        },
+        {
+          "id": "m5-02",
+          "title": "Vier claims op de lichtbak",
+          "mission": "Leer verschillende vormen van greenwashing onderscheiden.",
+          "sourceBlocks": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "briefing": "Selectieve communicatie laat relevante negatieve informatie weg. Vage claims gebruiken woorden zonder meetbare betekenis. Irrelevante communicatie prijst iets dat weinig zegt, bijvoorbeeld het voldoen aan een algemene verplichte norm. Symbolische duurzaamheid vergroot een klein initiatief uit terwijl de totale impact nauwelijks verandert. Een claim kan meerdere kenmerken bevatten; houd bewijs en interpretatie apart.",
+          "workedExample": "'Groen' zonder definitie is vaag. 'Onze doos bevat 80% gerecycled karton' kan feitelijk juist zijn, maar selectief worden wanneer zij een ongunstig totaalbeeld verbergt. Een eenmalige opruimactie als bewijs van een duurzaam bedrijfsmodel is mogelijk symbolisch. Een precieze claim over een echt resultaat is niet automatisch greenwashing omdat het resultaat klein is; de context en gewekte indruk tellen mee.",
+          "dialogue": [
+            {
+              "speaker": "Lena",
+              "text": "Een etiket is het begin van je onderzoek. Vraag waar de misleidende indruk precies ontstaat."
+            },
+            {
+              "speaker": "Noor",
+              "text": "Pak je verborgen-kostenlens erbij. Welk deel van de impact staat buiten de lichtbak?"
+            }
+          ],
+          "activity": {
+            "type": "decision",
+            "prompt": "Op een poster staat: 'Een natuurlijk groene telefoon.' Er is geen definitie of onderbouwing. Wat is de meest precieze eerste conclusie?",
+            "options": [
+              {
+                "text": "De claim is vaag en niet toetsbaar; vraag welke eigenschap, grens en bewijs ermee worden bedoeld.",
+                "feedback": "Je identificeert het direct zichtbare probleem zonder andere vormen of intenties onbewezen aan te nemen."
+              },
+              {
+                "text": "De telefoon moet volledig duurzaam zijn omdat 'natuurlijk' een meetcriterium is.",
+                "feedback": "Het woord geeft zonder definitie geen controleerbare prestatie aan."
+              },
+              {
+                "text": "Het is bewezen selectieve communicatie, ook al kennen we de overige prestaties nog niet.",
+                "feedback": "Selectiviteit vraagt vergelijking met relevante weggelaten informatie. Dat moet je nog onderzoeken."
+              },
+              {
+                "text": "Iedere positieve claim over duurzaamheid is per definitie misleiding.",
+                "feedback": "Duidelijke, begrensde en onderbouwde claims kunnen relevante informatie bieden."
+              }
+            ],
+            "best": 0,
+            "explanation": "Classificeer wat je op basis van de beschikbare informatie kunt aantonen. Onderzoek daarna overige prestaties en het totaalbeeld."
+          },
+          "reflection": "Herschrijf één vage claim zodat een buitenstaander kan controleren wat ermee wordt bedoeld.",
+          "transfer": {
+            "prompt": "Een bedrijf prijst uitgebreid een kleine afvalactie terwijl de hoofdactiviteiten onveranderd blijven en nauwelijks impactvermindering laten zien. Welke vorm ligt het meest voor de hand?",
+            "options": [
+              "Een commons zonder afspraken.",
+              "Financialisering.",
+              "Een bewijs dat alle activiteiten duurzaam zijn.",
+              "Symbolische duurzaamheid, afhankelijk van de feitelijke grootte en gewekte indruk."
+            ],
+            "correct": 3,
+            "feedback": "Een klein initiatief kan symbolisch worden wanneer het een veel bredere duurzaamheidsindruk moet dragen. Beoordeel effect én communicatiecontext."
+          },
+          "artifact": {
+            "id": "claimdecoder",
+            "title": "De claimdecoder",
+            "description": "Gereedschap: onderscheid selectieve, vage, irrelevante en symbolische communicatie en noteer het bewijs voor je diagnose."
+          }
+        },
+        {
+          "id": "m5-03",
+        "experiment": true,
+          "title": "De goede collectie, het grote geheel",
+          "mission": "Beoordeel een initiatief binnen het totale bedrijfsmodel.",
+          "sourceBlocks": [
+            14,
+            15
+          ],
+          "briefing": "De cursus bespreekt kritiek op duurzame collecties in fast fashion. Een verbeterd onderdeel kan echte vooruitgang zijn, terwijl snelle productie, hoge volumes en korte gebruiksduur de totale impact blijven bepalen. Voor een zorgvuldige analyse scheid je het productresultaat, het gehele bedrijfsmodel en de indruk die de communicatie wekt. De historische casus is geen automatisch oordeel over ieder huidig product of bedrijf.",
+          "workedExample": "NOVA maakt de verpakking 20% lichter, maar verkoopt in dit fictieve voorbeeld 30% meer toestellen. De verpakking per toestel verbetert; het totale materiaalgebruik voor verpakkingen stijgt dan met 4%: 0,80 × 1,30 = 1,04. Voor het hele product ontbreken nog gegevens over grondstoffen, energie en gebruiksduur. Een lokale verbetering bewijst dus geen lagere totale impact.",
+          "dialogue": [
+            {
+              "speaker": "Lena",
+              "text": "Erken wat echt verbetert. Houd tegelijk de schaal en het totale verhaal in beeld."
+            },
+            {
+              "speaker": "Daan · operations",
+              "text": "De verpakking is een concrete stap. Onze claim moet niet meer beloven dan die stap kan dragen."
+            }
+          ],
+          "activity": {
+            "type": "decision",
+            "prompt": "NOVA heeft lichtere verpakkingen en hogere verkoopvolumes. Welke boodschap is het best onderbouwd met alleen deze gegevens?",
+            "options": [
+              {
+                "text": "'Het hele bedrijf is nu duurzaam', omdat één onderdeel verbetert.",
+                "feedback": "Een verbetering van een onderdeel onderbouwt geen conclusie over de volledige impact."
+              },
+              {
+                "text": "'Iedere verbetering is zinloos' omdat de verkoop stijgt.",
+                "feedback": "Een echte verbetering blijft een verbetering; de vraag is haar omvang binnen het totaal."
+              },
+              {
+                "text": "'Per toestel is de verpakking lichter; bij dit verkoopvolume is het totale verpakkingsmateriaal hoger. De volledige productimpact onderzoeken we apart.'",
+                "feedback": "Je begrenst de claim, laat het schaaleffect zien en maakt ontbrekende informatie expliciet."
+              },
+              {
+                "text": "'De totale impact daalt exact 20%', zonder andere levenscyclusgegevens.",
+                "feedback": "Dit verwart een deelprestatie per toestel met het totaal van alle toestellen en activiteiten."
+              }
+            ],
+            "best": 2,
+            "explanation": "Beoordeel relatieve verbeteringen en absolute impact afzonderlijk. Koppel de claim aan het niveau waarvoor bewijs bestaat."
+          },
+          "reflection": "Welke nuttige verbetering zou je willen behouden én aanvullen met een verandering van het bedrijfsmodel?",
+          "transfer": {
+            "prompt": "Een restaurant gebruikt per maaltijd minder energie maar serveert veel meer maaltijden. Wat heb je nodig om de totale energieprestatie te beoordelen?",
+            "options": [
+              "Alleen het mooiste gerecht.",
+              "Energie per maaltijd én het aantal maaltijden over vergelijkbare periodes.",
+              "Alleen de energie per maaltijd.",
+              "Alleen het aantal beoordelingen online."
+            ],
+            "correct": 1,
+            "feedback": "Totale impact hangt samen met prestatie per eenheid en volume. Vergelijk daarnaast dezelfde afbakening en periode."
+          },
+          "artifact": {
+            "id": "totaalbeeld",
+            "title": "Het totaalbeeld",
+            "description": "Gereedschap: onderscheid resultaat per eenheid, volume, totale impact en de grens van een onderbouwde claim."
+          }
+        },
+        {
+          "id": "m5-04",
+          "title": "Het bewijs dat anderen kunnen lezen",
+          "mission": "Ontdek wat transparantie en vergelijkbaarheid wel en niet oplossen.",
+          "sourceBlocks": [
+            17,
+            18,
+            19
+          ],
+          "briefing": "Informatie-asymmetrie ontstaat wanneer een partij meer relevante informatie heeft dan anderen. Gestandaardiseerde rapportage kan zichtbaar maken welke prestaties en risico's bestaan en vergelijking ondersteunen. De cursus gebruikt de CSRD als institutioneel voorbeeld. Verplichtingen, reikwijdte en tijdpaden kunnen wijzigen; controleer voor een echte organisatie de actuele regels. Transparantie is belangrijk, maar een rapport is geen garantie voor duurzame prestaties.",
+          "workedExample": "NOVA meldt 'lager materiaalgebruik'. Een controleerbare rapportage vermeldt de materialen, periode, eenheid, totale hoeveelheid, ketengrens, meetmethode en onzekerheid. Zij laat ook ongunstige resultaten zien. Een onafhankelijke lezer kan zo beoordelen wat werkelijk veranderde. Voor betrouwbaarheid zijn kwaliteit van data, eventuele verificatie en gevolgen van fouten eveneens relevant.",
+          "dialogue": [
+            {
+              "speaker": "Lena",
+              "text": "Een buitenstaander moet dezelfde vraag aan ons en aan een concurrent kunnen stellen."
+            },
+            {
+              "speaker": "Iris",
+              "text": "En als informatie wordt aangeleverd, moet duidelijk zijn wie erop kan handelen en verantwoording kan vragen."
+            }
+          ],
+          "activity": {
+            "type": "decision",
+            "prompt": "Welke rapportage vermindert de informatie-asymmetrie het meest?",
+            "options": [
+              {
+                "text": "Een meetbaar verslag met afbakening, periode, methode, vergelijkbare cijfers, beperkingen en verantwoordelijke partijen.",
+                "feedback": "Dit maakt de claim begrijpelijk en controleerbaar. De kwaliteit van de onderliggende data moet nog worden beoordeeld."
+              },
+              {
+                "text": "Een lange brochure met uitsluitend positieve voorbeelden.",
+                "feedback": "Lengte vervangt geen vergelijkbare en volledige informatie."
+              },
+              {
+                "text": "Eén groene score zonder uitleg over berekening of afbakening.",
+                "feedback": "Zonder methode en grenzen kan een lezer niet beoordelen wat het getal betekent."
+              },
+              {
+                "text": "Een belofte dat alle relevante informatie intern bekend is.",
+                "feedback": "Interne kennis helpt de buitenstaander niet zelfstandig vergelijken of controleren."
+              }
+            ],
+            "best": 0,
+            "explanation": "Rapportage helpt wanneer cijfers, grenzen en methoden controleerbaar zijn. Transparantie en prestaties zijn verwante maar verschillende doelen."
+          },
+          "reflection": "Welke beperking of ongunstige uitkomst zou een geloofwaardig NOVA-rapport moeten laten zien?",
+          "transfer": {
+            "prompt": "Twee organisaties melden een emissiedaling, maar gebruiken verschillende ketengrenzen. Welke conclusie is zorgvuldig?",
+            "options": [
+              "Hun percentages zijn direct vergelijkbaar.",
+              "Het hoogste percentage bewijst de duurzaamste organisatie.",
+              "Beide rapporten moeten per definitie frauduleus zijn.",
+              "Vergelijk eerst afbakening, methode, basisjaar en absolute cijfers."
+            ],
+            "correct": 3,
+            "feedback": "Een gestandaardiseerde vergelijking vraagt dezelfde betekenis van de cijfers, niet alleen dezelfde woorden."
+          },
+          "artifact": {
+            "id": "bewijsstandaard",
+            "title": "De bewijsstandaard",
+            "description": "Gereedschap: toets claim, meeteenheid, periode, methode, grenzen, onzekerheid, verificatie en verantwoordelijke."
+          }
+        },
+        {
+          "id": "m5-05",
+          "title": "De belofte opnieuw gebouwd",
+          "mission": "Gebruik je hele inventaris voor een verantwoord veranderplan.",
+          "sourceBlocks": [
+            21,
+            22,
+            24,
+            25,
+            27
+          ],
+          "briefing": "Greenwashing kan beslissingen misleiden, eerlijke concurrentie schaden, vertrouwen ondermijnen en echte verandering vertragen. Ook toekomstige generaties en partijen buiten de verkooptransactie kunnen gevolgen dragen. Een volwassen beoordeling combineert waarheidsgetrouwe communicatie met aandacht voor bedrijfsmodel, prikkels, zeggenschap en uitvoering. Je hoeft geen perfecte organisatie te beloven; maak een begrensde verbetering met controleerbare verantwoordelijkheid.",
+          "workedExample": "Je eindvoorstel voor NOVA vermeldt de huidige reparatie- en inzamelprestaties en corrigeert 'helemaal circulair'. Met de stakeholderkaart kies je wie in het plan wordt betrokken. De meetlat helpt doelen voor gebruiksduur en terugwinning ontwerpen. Het drie-hendelsplan verbindt toegankelijke onderdelen, verantwoordelijk beheer en toepasselijke regels. Je noteert kosten, onzekerheden, mogelijke nadelen en een evaluatiemoment.",
+          "dialogue": [
+            {
+              "speaker": "Lena",
+              "text": "Laat in je voorstel zien welke belofte het bewijs nu kan dragen en welke verandering nog nodig is."
+            },
+            {
+              "speaker": "Mila · gebruiker",
+              "text": "Vertel me ook wat nog niet werkt. Dan kan ik een beter geïnformeerde keuze maken."
+            },
+            {
+              "speaker": "Noor",
+              "text": "Je hebt geen lijst met goede woorden verzameld. Je hebt gereedschap om een systeem te begrijpen en te veranderen."
+            }
+          ],
+          "activity": {
+            "type": "decision",
+            "prompt": "Welke eindroute verbindt ethiek, bewijs en uitvoering het sterkst?",
+            "options": [
+              {
+                "text": "De brede claim behouden en één kleine groene actie groot presenteren.",
+                "feedback": "Zo kan de communicatie opnieuw meer suggereren dan de totale prestatie ondersteunt."
+              },
+              {
+                "text": "Claims corrigeren en begrenzen, getroffen partijen betrekken, systeemprikkels aanpassen en een meetbaar plan met verantwoordelijkheid en evaluatie uitvoeren.",
+                "feedback": "Je verbindt betrouwbare informatie met echte verandering en maakt de grenzen en toetsing zichtbaar. Over de precieze doelen blijft beargumenteerde discussie mogelijk."
+              },
+              {
+                "text": "Alleen publiceren dat de organisatie goede bedoelingen heeft.",
+                "feedback": "Bedoelingen bieden zonder bewijs en uitvoering onvoldoende basis voor de belofte."
+              },
+              {
+                "text": "Alle activiteiten stoppen zonder gevolgen voor werknemers, gebruikers en ketenpartners te onderzoeken.",
+                "feedback": "Stoppen kan soms nodig zijn, maar vraagt eveneens een afweging van gevolgen, rechten en haalbare alternatieven."
+              }
+            ],
+            "best": 1,
+            "explanation": "Een sterk eindvoorstel gebruikt bewijs, expliciete afwegingen en uitvoerbare verantwoordelijkheden. Het maakt zichtbaar wie profiteert, wie risico draagt en hoe de uitkomst wordt gecontroleerd."
+          },
+          "reflection": "Schrijf jouw NOVA-voorstel in vijf delen: 1) de begrensde claim die je nu kunt onderbouwen; 2) betrokken partijen en verdeelde gevolgen; 3) het psychologische of organisatorische mechanisme dat verandering hindert; 4) maatregelen op ontwerp-, organisatie- en institutioneel niveau; 5) criteria, onzekerheden en het moment waarop je opnieuw beoordeelt. Gebruik minstens drie gereedschappen uit je inventaris.",
+          "transfer": {
+            "prompt": "Een fictieve school verkoopt 'volledig duurzame' laptops terwijl alleen de verpakking verbeterd is. Welke eerste aanbeveling past bij je hele onderzoek?",
+            "options": [
+              "Meer groene afbeeldingen toevoegen.",
+              "De verpakking als bewijs voor de hele keten behandelen.",
+              "De claim begrenzen, de levenscyclus en betrokken partijen onderzoeken en een toetsbaar verbeterplan maken.",
+              "Uitsluitend leerlingen verantwoordelijk maken voor de gevolgen."
+            ],
+            "correct": 2,
+            "feedback": "Je brengt nu alle lenzen samen: waarden, keten, psychologie, organisatie, technologie en betrouwbare communicatie. Dit is een startpunt voor een verantwoord voorstel, geen garantie dat ieder conflict verdwijnt."
+          },
+          "artifact": {
+            "id": "nova-einddossier",
+            "title": "Het NOVA-einddossier",
+            "description": "Jouw geïntegreerde voorstel: een onderbouwde belofte, een stakeholderafweging, een systeemdiagnose en een toetsbaar veranderplan."
+          }
+        }
+      ]
+    }
+  ],
+  "description": "NOVA ontwikkelt elektronica die langer mee moet gaan. Jij sluit je aan bij het onderzoeksteam rond een nieuwe telefoon. Volg de keten, spreek de mensen, onderzoek de regels en ontdek wat er nodig is om een belofte waar te maken."
+}

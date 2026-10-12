@@ -1,0 +1,1701 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "file": "sources/business-ethics-course.json",
+    "id": "business-ethics",
+    "title": "Business Ethics",
+    "sha256": "7fa9b0b4c664c90da7dd8e5b58ee532d37d298aee3927733c4bf7bdc67098449",
+    "note": "All original non-continue blocks are assigned. Complete theory and original media/exercises are read by the app from these source indices; the new scenario does not replace their text."
+  },
+  "campaign": {
+    "file": "dist/campaign.json",
+    "id": "nova-het-tweede-leven",
+    "title": "NOVA · Het tweede leven"
+  },
+  "integrity": {
+    "valid": true,
+    "lessonCount": 5,
+    "chapterCount": 5,
+    "investigationCount": 29,
+    "experimentCount": 5,
+    "substantiveSourceBlockCount": 147,
+    "assignedExactlyOnce": 147,
+    "excludedContinueBlockCount": 71,
+    "coveragePercent": 100,
+    "sourceBlockTypes": {
+      "text": 63,
+      "video": 20,
+      "quiz": 47,
+      "tabs": 3,
+      "image": 5,
+      "match": 5,
+      "svg": 3,
+      "list": 1
+    },
+    "errors": []
+  },
+  "lessons": [
+    {
+      "lessonId": "m1",
+      "title": "Economie & Systemen (kort)",
+      "chapterId": "chapter-1",
+      "sourceBlockCount": 35,
+      "substantiveBlockCount": 24,
+      "excludedContinueBlocks": [
+        1,
+        5,
+        8,
+        10,
+        14,
+        18,
+        20,
+        23,
+        27,
+        30,
+        33
+      ],
+      "investigations": [
+        {
+          "id": "m1-01",
+          "title": "Het prijskaartje",
+          "sourceBlocks": [
+            0,
+            2,
+            3,
+            4
+          ],
+          "experiment": false
+        },
+        {
+          "id": "m1-02",
+          "title": "De gedeelde voorraad",
+          "sourceBlocks": [
+            6,
+            7,
+            9
+          ],
+          "experiment": true
+        },
+        {
+          "id": "m1-03",
+          "title": "Het spoor van de batterij",
+          "sourceBlocks": [
+            11,
+            12,
+            13
+          ],
+          "experiment": false
+        },
+        {
+          "id": "m1-04",
+          "title": "De machine en het nest",
+          "sourceBlocks": [
+            15,
+            16,
+            17
+          ],
+          "experiment": false
+        },
+        {
+          "id": "m1-05",
+          "title": "Wie bezit de toekomst?",
+          "sourceBlocks": [
+            19,
+            21,
+            22,
+            24,
+            25,
+            26
+          ],
+          "experiment": false
+        },
+        {
+          "id": "m1-06",
+          "title": "De keuzes in de etalage",
+          "sourceBlocks": [
+            28,
+            29,
+            31,
+            32,
+            34
+          ],
+          "experiment": false
+        }
+      ],
+      "blocks": [
+        {
+          "index": 0,
+          "type": "text",
+          "label": "Morele of Ethische Economie",
+          "chapterId": "chapter-1",
+          "investigationId": "m1-01",
+          "assignmentCount": 1
+        },
+        {
+          "index": 2,
+          "type": "text",
+          "label": "Economie als keuzesysteem",
+          "chapterId": "chapter-1",
+          "investigationId": "m1-01",
+          "assignmentCount": 1
+        },
+        {
+          "index": 3,
+          "type": "video",
+          "label": "Is inequality inevitable?",
+          "chapterId": "chapter-1",
+          "investigationId": "m1-01",
+          "assignmentCount": 1
+        },
+        {
+          "index": 4,
+          "type": "quiz",
+          "label": "Tijdens de gascrisis van 2022 moesten beleidsmakers bepalen wie voorrang kreeg: industrie, huishoudens of ziekenhuizen. Waarom noemt de module dat geen economische maar een morele vraag?",
+          "chapterId": "chapter-1",
+          "investigationId": "m1-01",
+          "assignmentCount": 1
+        },
+        {
+          "index": 6,
+          "type": "text",
+          "label": "Kernconcepten",
+          "chapterId": "chapter-1",
+          "investigationId": "m1-02",
+          "assignmentCount": 1
+        },
+        {
+          "index": 7,
+          "type": "tabs",
+          "label": "Rechtvaardige verdeling | Begrenzing | Commons | Externaliteiten",
+          "chapterId": "chapter-1",
+          "investigationId": "m1-02",
+          "assignmentCount": 1
+        },
+        {
+          "index": 9,
+          "type": "quiz",
+          "label": "Na het lezen van de kernconcepten (rechtvaardige verdeling, begrenzing, commons en externaliteiten): welk inzicht vat het beste samen wat deze concepten gezamenlijk duidelijk maken over economische systemen?",
+          "chapterId": "chapter-1",
+          "investigationId": "m1-02",
+          "assignmentCount": 1
+        },
+        {
+          "index": 11,
+          "type": "video",
+          "label": "The Rare Metals War: de schaduwkant van de energietransitie #grondstoffen #geopolitiek",
+          "chapterId": "chapter-1",
+          "investigationId": "m1-03",
+          "assignmentCount": 1
+        },
+        {
+          "index": 12,
+          "type": "text",
+          "label": "Morele economie in de wereld: geopolitiek en grondstoffen",
+          "chapterId": "chapter-1",
+          "investigationId": "m1-03",
+          "assignmentCount": 1
+        },
+        {
+          "index": 13,
+          "type": "quiz",
+          "label": "Kobalt uit Congo, Chinese controle over zeldzame aardmetalen en e-waste in Ghana en India staan in de module naast elkaar. Welk patroon delen die drie?",
+          "chapterId": "chapter-1",
+          "investigationId": "m1-03",
+          "assignmentCount": 1
+        },
+        {
+          "index": 15,
+          "type": "text",
+          "label": "Waarom systemen anders handelen dan mensen",
+          "chapterId": "chapter-1",
+          "investigationId": "m1-04",
+          "assignmentCount": 1
+        },
+        {
+          "index": 16,
+          "type": "image",
+          "label": "",
+          "chapterId": "chapter-1",
+          "investigationId": "m1-04",
+          "assignmentCount": 1
+        },
+        {
+          "index": 17,
+          "type": "quiz",
+          "label": "De machine die appels plukt stopt niet uit zichzelf voor een vogelnest; een mens wel. Wat illustreert die vergelijking?",
+          "chapterId": "chapter-1",
+          "investigationId": "m1-04",
+          "assignmentCount": 1
+        },
+        {
+          "index": 19,
+          "type": "text",
+          "label": "Bezit en Kapitalisme",
+          "chapterId": "chapter-1",
+          "investigationId": "m1-05",
+          "assignmentCount": 1
+        },
+        {
+          "index": 21,
+          "type": "video",
+          "label": "Can the economy grow forever?",
+          "chapterId": "chapter-1",
+          "investigationId": "m1-05",
+          "assignmentCount": 1
+        },
+        {
+          "index": 22,
+          "type": "quiz",
+          "label": "Na het lezen van het blok over bezit blijkt dat ongelijkheid niet alleen ontstaat door persoonlijke keuzes, maar door de manier waarop systemen met bezit omgaan. Welk inzicht verwoordt volgens de module het best waarom bezit in kapitalistische systemen zo’n sterke structurele werking heeft?",
+          "chapterId": "chapter-1",
+          "investigationId": "m1-05",
+          "assignmentCount": 1
+        },
+        {
+          "index": 24,
+          "type": "text",
+          "label": "Van klassiek kapitalisme naar neoliberalisme",
+          "chapterId": "chapter-1",
+          "investigationId": "m1-05",
+          "assignmentCount": 1
+        },
+        {
+          "index": 25,
+          "type": "image",
+          "label": "",
+          "chapterId": "chapter-1",
+          "investigationId": "m1-05",
+          "assignmentCount": 1
+        },
+        {
+          "index": 26,
+          "type": "quiz",
+          "label": "Wat veranderde er volgens de module met de opkomst van het neoliberale kapitalisme vanaf de jaren tachtig?",
+          "chapterId": "chapter-1",
+          "investigationId": "m1-05",
+          "assignmentCount": 1
+        },
+        {
+          "index": 28,
+          "type": "text",
+          "label": "",
+          "chapterId": "chapter-1",
+          "investigationId": "m1-06",
+          "assignmentCount": 1
+        },
+        {
+          "index": 29,
+          "type": "quiz",
+          "label": "De supermarktvergelijking uit de module: je koopt wat je wilt, maar iemand anders bepaalt wat op ooghoogte ligt. Wat is daar het punt van?",
+          "chapterId": "chapter-1",
+          "investigationId": "m1-06",
+          "assignmentCount": 1
+        },
+        {
+          "index": 31,
+          "type": "text",
+          "label": "Psychologie in economische systemen",
+          "chapterId": "chapter-1",
+          "investigationId": "m1-06",
+          "assignmentCount": 1
+        },
+        {
+          "index": 32,
+          "type": "quiz",
+          "label": "Wat maakt volgens de module dat psychologische mechanismen zoals kuddegedrag, verliesaversie en morele ontkoppeling zo’n grote invloed hebben op economische systemen?",
+          "chapterId": "chapter-1",
+          "investigationId": "m1-06",
+          "assignmentCount": 1
+        },
+        {
+          "index": 34,
+          "type": "match",
+          "label": "Koppel elk kernbegrip uit hoofdstuk 1 aan de juiste omschrijving.",
+          "chapterId": "chapter-1",
+          "investigationId": "m1-06",
+          "assignmentCount": 1
+        }
+      ]
+    },
+    {
+      "lessonId": "m2",
+      "title": "Psychologie & Systemen",
+      "chapterId": "chapter-2",
+      "sourceBlockCount": 57,
+      "substantiveBlockCount": 36,
+      "excludedContinueBlocks": [
+        1,
+        3,
+        7,
+        9,
+        11,
+        13,
+        15,
+        18,
+        21,
+        24,
+        27,
+        29,
+        32,
+        34,
+        36,
+        39,
+        41,
+        45,
+        48,
+        52,
+        54
+      ],
+      "investigations": [
+        {
+          "id": "m2-01",
+          "title": "Een beslissing in dertig seconden",
+          "sourceBlocks": [
+            0,
+            2,
+            4,
+            5,
+            6,
+            8,
+            10
+          ],
+          "experiment": false
+        },
+        {
+          "id": "m2-02",
+          "title": "Het verhaal dat geruststelt",
+          "sourceBlocks": [
+            12,
+            14,
+            16,
+            17
+          ],
+          "experiment": false
+        },
+        {
+          "id": "m2-03",
+          "title": "Iedereen knikt",
+          "sourceBlocks": [
+            19,
+            20,
+            22,
+            23
+          ],
+          "experiment": false
+        },
+        {
+          "id": "m2-04",
+          "title": "Een behoefte verschijnt",
+          "sourceBlocks": [
+            25,
+            26,
+            28,
+            30,
+            31,
+            33,
+            35
+          ],
+          "experiment": false
+        },
+        {
+          "id": "m2-05",
+          "title": "De uitgang die geld kost",
+          "sourceBlocks": [
+            37,
+            38,
+            40,
+            46,
+            47
+          ],
+          "experiment": false
+        },
+        {
+          "id": "m2-06",
+          "title": "De eerste vraag",
+          "sourceBlocks": [
+            42,
+            43,
+            44,
+            49,
+            50,
+            51,
+            53,
+            55,
+            56
+          ],
+          "experiment": true
+        }
+      ],
+      "blocks": [
+        {
+          "index": 0,
+          "type": "text",
+          "label": "Inleiding: waarom psychologie onmisbaar is voor het begrijpen van systemen",
+          "chapterId": "chapter-2",
+          "investigationId": "m2-01",
+          "assignmentCount": 1
+        },
+        {
+          "index": 2,
+          "type": "quiz",
+          "label": "Welke uitspraken beschrijven correct hoe menselijk gedrag zich manifesteert binnen economische en organisatorische systemen",
+          "chapterId": "chapter-2",
+          "investigationId": "m2-01",
+          "assignmentCount": 1
+        },
+        {
+          "index": 4,
+          "type": "video",
+          "label": "Social Groups: Crash Course Sociology #16",
+          "chapterId": "chapter-2",
+          "investigationId": "m2-01",
+          "assignmentCount": 1
+        },
+        {
+          "index": 5,
+          "type": "text",
+          "label": "Menselijk gedrag is contextgedreven, niet puur rationeel",
+          "chapterId": "chapter-2",
+          "investigationId": "m2-01",
+          "assignmentCount": 1
+        },
+        {
+          "index": 6,
+          "type": "quiz",
+          "label": "Waarom vertrouwen mensen in drukke, complexe organisaties zo sterk op routines en vuistregels?",
+          "chapterId": "chapter-2",
+          "investigationId": "m2-01",
+          "assignmentCount": 1
+        },
+        {
+          "index": 8,
+          "type": "text",
+          "label": "Hoe intuïtief denken systeemgedrag vormt",
+          "chapterId": "chapter-2",
+          "investigationId": "m2-01",
+          "assignmentCount": 1
+        },
+        {
+          "index": 10,
+          "type": "quiz",
+          "label": "Waarom leidt intuïtief denken binnen complexe systemen vaker tot problematische uitkomsten dan tot evenwichtige besluitvorming?",
+          "chapterId": "chapter-2",
+          "investigationId": "m2-01",
+          "assignmentCount": 1
+        },
+        {
+          "index": 12,
+          "type": "video",
+          "label": "Morals vs Ethics Explained in 2 Minutes w/Memes",
+          "chapterId": "chapter-2",
+          "investigationId": "m2-02",
+          "assignmentCount": 1
+        },
+        {
+          "index": 14,
+          "type": "video",
+          "label": "Moral Disengagement | Ethics Defined",
+          "chapterId": "chapter-2",
+          "investigationId": "m2-02",
+          "assignmentCount": 1
+        },
+        {
+          "index": 16,
+          "type": "text",
+          "label": "Morele ontkoppeling: waarom goede mensen deel kunnen worden van schadelijke systemen (verdieping)",
+          "chapterId": "chapter-2",
+          "investigationId": "m2-02",
+          "assignmentCount": 1
+        },
+        {
+          "index": 17,
+          "type": "match",
+          "label": "Bandura beschrijft verschillende manieren waarop mensen zich moreel ontkoppelen. Koppel elk mechanisme aan het voorbeeld.",
+          "chapterId": "chapter-2",
+          "investigationId": "m2-02",
+          "assignmentCount": 1
+        },
+        {
+          "index": 19,
+          "type": "text",
+          "label": "Groepspsychologie: hoe collectieve illusies ontstaan",
+          "chapterId": "chapter-2",
+          "investigationId": "m2-03",
+          "assignmentCount": 1
+        },
+        {
+          "index": 20,
+          "type": "quiz",
+          "label": "Wat maakt collectieve illusies volgens de theorie zo hardnekkig in groepen?",
+          "chapterId": "chapter-2",
+          "investigationId": "m2-03",
+          "assignmentCount": 1
+        },
+        {
+          "index": 22,
+          "type": "text",
+          "label": "Individuele keuzes binnen systeemdruk",
+          "chapterId": "chapter-2",
+          "investigationId": "m2-03",
+          "assignmentCount": 1
+        },
+        {
+          "index": 23,
+          "type": "video",
+          "label": "Structure and agency theory for postgrads - what they mean and how to critically analyse them",
+          "chapterId": "chapter-2",
+          "investigationId": "m2-03",
+          "assignmentCount": 1
+        },
+        {
+          "index": 25,
+          "type": "text",
+          "label": "Hoe mensen worden meegetrokken in systemen die ze niet bewust gekozen hebben",
+          "chapterId": "chapter-2",
+          "investigationId": "m2-04",
+          "assignmentCount": 1
+        },
+        {
+          "index": 26,
+          "type": "quiz",
+          "label": "De module schrijft: ‘Dat is geen complot, het is systeemlogica.’ Wat wordt daarmee bedoeld?",
+          "chapterId": "chapter-2",
+          "investigationId": "m2-04",
+          "assignmentCount": 1
+        },
+        {
+          "index": 28,
+          "type": "text",
+          "label": "Waarom vraag niet altijd aanbod stuurt en vaak zelfs andersom (verdieping)",
+          "chapterId": "chapter-2",
+          "investigationId": "m2-04",
+          "assignmentCount": 1
+        },
+        {
+          "index": 30,
+          "type": "quiz",
+          "label": "Welke verklaring vat het best samen hoe de module de combinatie beschrijft van (1) gedrag dat mensen niet expliciet kiezen en (2) het idee dat aanbod steeds vaker vraag en behoeften vormt?",
+          "chapterId": "chapter-2",
+          "investigationId": "m2-04",
+          "assignmentCount": 1
+        },
+        {
+          "index": 31,
+          "type": "video",
+          "label": "Is capitalism actually broken?",
+          "chapterId": "chapter-2",
+          "investigationId": "m2-04",
+          "assignmentCount": 1
+        },
+        {
+          "index": 33,
+          "type": "text",
+          "label": "De psychologie van reclame en aandacht: hoe systemen menselijke kwetsbaarheden benutten",
+          "chapterId": "chapter-2",
+          "investigationId": "m2-04",
+          "assignmentCount": 1
+        },
+        {
+          "index": 35,
+          "type": "video",
+          "label": "De online fabeltjesfuik | Zondag met Lubach (S12)",
+          "chapterId": "chapter-2",
+          "investigationId": "m2-04",
+          "assignmentCount": 1
+        },
+        {
+          "index": 37,
+          "type": "text",
+          "label": "Monopolisering en systeemafhankelijkheid: als keuzevrijheid een illusie wordt",
+          "chapterId": "chapter-2",
+          "investigationId": "m2-05",
+          "assignmentCount": 1
+        },
+        {
+          "index": 38,
+          "type": "quiz",
+          "label": "Wat maakt keuzevrijheid in dit kader van consumeren volgens de module problematisch?",
+          "chapterId": "chapter-2",
+          "investigationId": "m2-05",
+          "assignmentCount": 1
+        },
+        {
+          "index": 40,
+          "type": "text",
+          "label": "Psychologie, macht en de normalisering van afhankelijkheid",
+          "chapterId": "chapter-2",
+          "investigationId": "m2-05",
+          "assignmentCount": 1
+        },
+        {
+          "index": 42,
+          "type": "text",
+          "label": "Morele moed in systemen: waarom het zeldzaam is en toch bestaat",
+          "chapterId": "chapter-2",
+          "investigationId": "m2-06",
+          "assignmentCount": 1
+        },
+        {
+          "index": 43,
+          "type": "video",
+          "label": "What is Moral Courage?",
+          "chapterId": "chapter-2",
+          "investigationId": "m2-06",
+          "assignmentCount": 1
+        },
+        {
+          "index": 44,
+          "type": "quiz",
+          "label": "Waarom is morele moed binnen organisaties volgens de module zo zeldzaam?",
+          "chapterId": "chapter-2",
+          "investigationId": "m2-06",
+          "assignmentCount": 1
+        },
+        {
+          "index": 46,
+          "type": "text",
+          "label": "Macht als psychologisch fenomeen",
+          "chapterId": "chapter-2",
+          "investigationId": "m2-05",
+          "assignmentCount": 1
+        },
+        {
+          "index": 47,
+          "type": "quiz",
+          "label": "Waarom is macht volgens de module moeilijk te herkennen voor wie haar bezit?",
+          "chapterId": "chapter-2",
+          "investigationId": "m2-05",
+          "assignmentCount": 1
+        },
+        {
+          "index": 49,
+          "type": "image",
+          "label": "",
+          "chapterId": "chapter-2",
+          "investigationId": "m2-06",
+          "assignmentCount": 1
+        },
+        {
+          "index": 50,
+          "type": "text",
+          "label": "Agency: wat kan een mens wél binnen een systeem dat sterker is dan hijzelf?",
+          "chapterId": "chapter-2",
+          "investigationId": "m2-06",
+          "assignmentCount": 1
+        },
+        {
+          "index": 51,
+          "type": "quiz",
+          "label": "Hoe positioneert de module agency ten opzichte van de sterke structurele krachten die gedrag sturen (infrastructuur, platformen, normen en aanbodgestuurde behoeften)?",
+          "chapterId": "chapter-2",
+          "investigationId": "m2-06",
+          "assignmentCount": 1
+        },
+        {
+          "index": 53,
+          "type": "text",
+          "label": "Hoe systemen veranderen: de psychologie van verschuivende normen",
+          "chapterId": "chapter-2",
+          "investigationId": "m2-06",
+          "assignmentCount": 1
+        },
+        {
+          "index": 55,
+          "type": "text",
+          "label": "Synthese: wat deze module zegt over mens en systeem",
+          "chapterId": "chapter-2",
+          "investigationId": "m2-06",
+          "assignmentCount": 1
+        },
+        {
+          "index": 56,
+          "type": "quiz",
+          "label": "Deze module ging over de mens binnen het systeem. Welke conclusies passen bij wat je hebt gelezen? (meerdere antwoorden juist)",
+          "chapterId": "chapter-2",
+          "investigationId": "m2-06",
+          "assignmentCount": 1
+        }
+      ]
+    },
+    {
+      "lessonId": "m3",
+      "title": "Organisaties & Macht",
+      "chapterId": "chapter-3",
+      "sourceBlockCount": 45,
+      "substantiveBlockCount": 29,
+      "excludedContinueBlocks": [
+        1,
+        3,
+        6,
+        8,
+        10,
+        12,
+        15,
+        17,
+        20,
+        25,
+        29,
+        33,
+        35,
+        38,
+        41,
+        43
+      ],
+      "investigations": [
+        {
+          "id": "m3-01",
+          "title": "Groter, sneller, afhankelijker",
+          "sourceBlocks": [
+            0,
+            2,
+            4,
+            5
+          ],
+          "experiment": false
+        },
+        {
+          "id": "m3-02",
+          "title": "Het kwartaal en het decennium",
+          "sourceBlocks": [
+            7,
+            9
+          ],
+          "experiment": false
+        },
+        {
+          "id": "m3-03",
+          "title": "De bijdragen achter de aandelen",
+          "sourceBlocks": [
+            11,
+            13,
+            14,
+            16
+          ],
+          "experiment": false
+        },
+        {
+          "id": "m3-04",
+          "title": "Het argument dat niet in het formulier past",
+          "sourceBlocks": [
+            18,
+            19,
+            21,
+            22,
+            23,
+            24
+          ],
+          "experiment": true
+        },
+        {
+          "id": "m3-05",
+          "title": "Het geld dat kan vertrekken",
+          "sourceBlocks": [
+            26,
+            27,
+            28,
+            30,
+            31,
+            32,
+            34,
+            36,
+            37
+          ],
+          "experiment": false
+        },
+        {
+          "id": "m3-06",
+          "title": "Wat telt als waarde?",
+          "sourceBlocks": [
+            39,
+            40,
+            42,
+            44
+          ],
+          "experiment": false
+        }
+      ],
+      "blocks": [
+        {
+          "index": 0,
+          "type": "text",
+          "label": "Inleiding",
+          "chapterId": "chapter-3",
+          "investigationId": "m3-01",
+          "assignmentCount": 1
+        },
+        {
+          "index": 2,
+          "type": "text",
+          "label": "Hoe efficiëntie kan omslaan in machtsconcentratie",
+          "chapterId": "chapter-3",
+          "investigationId": "m3-01",
+          "assignmentCount": 1
+        },
+        {
+          "index": 4,
+          "type": "video",
+          "label": "The Rise of Superstar Firms",
+          "chapterId": "chapter-3",
+          "investigationId": "m3-01",
+          "assignmentCount": 1
+        },
+        {
+          "index": 5,
+          "type": "quiz",
+          "label": "Welke redenering verklaart het best waarom schaalvergroting kan omslaan in machtsconcentratie?",
+          "chapterId": "chapter-3",
+          "investigationId": "m3-01",
+          "assignmentCount": 1
+        },
+        {
+          "index": 7,
+          "type": "text",
+          "label": "Aandeelhouderswaarde, financiële logica en de begrenzing van morele ruimte",
+          "chapterId": "chapter-3",
+          "investigationId": "m3-02",
+          "assignmentCount": 1
+        },
+        {
+          "index": 9,
+          "type": "quiz",
+          "label": "Waarom leidt financialisering volgens de module tot een verschuiving in tijdshorizon binnen ondernemingen?",
+          "chapterId": "chapter-3",
+          "investigationId": "m3-02",
+          "assignmentCount": 1
+        },
+        {
+          "index": 11,
+          "type": "text",
+          "label": "De onderneming als institutioneel samenwerkingsverband",
+          "chapterId": "chapter-3",
+          "investigationId": "m3-03",
+          "assignmentCount": 1
+        },
+        {
+          "index": 13,
+          "type": "text",
+          "label": "",
+          "chapterId": "chapter-3",
+          "investigationId": "m3-03",
+          "assignmentCount": 1
+        },
+        {
+          "index": 14,
+          "type": "quiz",
+          "label": "Stel dat ASML besluit een winstgevende maar risicovolle strategische herstructurering door te voeren die gevolgen heeft voor werkgelegenheid en regionale investeringen. Waarom leidt deze situatie, vanuit stakeholderperspectief, tot een legitimatievraagstuk?",
+          "chapterId": "chapter-3",
+          "investigationId": "m3-03",
+          "assignmentCount": 1
+        },
+        {
+          "index": 16,
+          "type": "video",
+          "label": "The Stakeholder Shareholder Debate",
+          "chapterId": "chapter-3",
+          "investigationId": "m3-03",
+          "assignmentCount": 1
+        },
+        {
+          "index": 18,
+          "type": "text",
+          "label": "De institutionele en morele implicatie",
+          "chapterId": "chapter-3",
+          "investigationId": "m3-04",
+          "assignmentCount": 1
+        },
+        {
+          "index": 19,
+          "type": "quiz",
+          "label": "Wat is het ‘filtermechanisme’ dat volgens de module in organisaties ontstaat?",
+          "chapterId": "chapter-3",
+          "investigationId": "m3-04",
+          "assignmentCount": 1
+        },
+        {
+          "index": 21,
+          "type": "image",
+          "label": "",
+          "chapterId": "chapter-3",
+          "investigationId": "m3-04",
+          "assignmentCount": 1
+        },
+        {
+          "index": 22,
+          "type": "tabs",
+          "label": "Aandeelhoudersmodel | Stakeholdersmodel | Voorbeelden spectrum",
+          "chapterId": "chapter-3",
+          "investigationId": "m3-04",
+          "assignmentCount": 1
+        },
+        {
+          "index": 23,
+          "type": "text",
+          "label": "",
+          "chapterId": "chapter-3",
+          "investigationId": "m3-04",
+          "assignmentCount": 1
+        },
+        {
+          "index": 24,
+          "type": "svg",
+          "label": "",
+          "chapterId": "chapter-3",
+          "investigationId": "m3-04",
+          "assignmentCount": 1
+        },
+        {
+          "index": 26,
+          "type": "text",
+          "label": "Kapitaal, Macht & de Druk op Organisaties",
+          "chapterId": "chapter-3",
+          "investigationId": "m3-05",
+          "assignmentCount": 1
+        },
+        {
+          "index": 27,
+          "type": "text",
+          "label": "Aandeelhouderslogica: waarom financiële prikkels zwaarder wegen dan morele argumenten",
+          "chapterId": "chapter-3",
+          "investigationId": "m3-05",
+          "assignmentCount": 1
+        },
+        {
+          "index": 28,
+          "type": "quiz",
+          "label": "Welke twee uitspraken beschrijven het kernmechanisme van financiële marktdiscipline het meest nauwkeurig?",
+          "chapterId": "chapter-3",
+          "investigationId": "m3-05",
+          "assignmentCount": 1
+        },
+        {
+          "index": 30,
+          "type": "video",
+          "label": "Financialization Explained: Impact on Business and Society",
+          "chapterId": "chapter-3",
+          "investigationId": "m3-05",
+          "assignmentCount": 1
+        },
+        {
+          "index": 31,
+          "type": "text",
+          "label": "De macht van kapitaalstromen: hoe financiën bepalen wat mogelijk is",
+          "chapterId": "chapter-3",
+          "investigationId": "m3-05",
+          "assignmentCount": 1
+        },
+        {
+          "index": 32,
+          "type": "quiz",
+          "label": "Kapitaal stroomt naar waar het hoogste rendement wordt verwacht. Waarom is dat volgens de module meer dan alleen een efficiënte verdeling van middelen?",
+          "chapterId": "chapter-3",
+          "investigationId": "m3-05",
+          "assignmentCount": 1
+        },
+        {
+          "index": 34,
+          "type": "quiz",
+          "label": "Waarom versterkt financialisering de structurerende macht van kapitaalstromen binnen ondernemingen?",
+          "chapterId": "chapter-3",
+          "investigationId": "m3-05",
+          "assignmentCount": 1
+        },
+        {
+          "index": 36,
+          "type": "text",
+          "label": "Hedgefunds",
+          "chapterId": "chapter-3",
+          "investigationId": "m3-05",
+          "assignmentCount": 1
+        },
+        {
+          "index": 37,
+          "type": "quiz",
+          "label": "Wat maakt hedgefondsen volgens de module illustratief voor de werking van kapitaalmobiliteit?",
+          "chapterId": "chapter-3",
+          "investigationId": "m3-05",
+          "assignmentCount": 1
+        },
+        {
+          "index": 39,
+          "type": "text",
+          "label": "Wat betekent dit voor ecologische en sociale waarde?",
+          "chapterId": "chapter-3",
+          "investigationId": "m3-06",
+          "assignmentCount": 1
+        },
+        {
+          "index": 40,
+          "type": "quiz",
+          "label": "Waarom krijgen ecologische en sociale waarde volgens de module structureel minder gewicht in ondernemingsbeslissingen?",
+          "chapterId": "chapter-3",
+          "investigationId": "m3-06",
+          "assignmentCount": 1
+        },
+        {
+          "index": 42,
+          "type": "text",
+          "label": "Concurrentiedruk en het risico op normverval",
+          "chapterId": "chapter-3",
+          "investigationId": "m3-06",
+          "assignmentCount": 1
+        },
+        {
+          "index": 44,
+          "type": "match",
+          "label": "Koppel elk begrip aan de meest passende omschrijving.",
+          "chapterId": "chapter-3",
+          "investigationId": "m3-06",
+          "assignmentCount": 1
+        }
+      ]
+    },
+    {
+      "lessonId": "m4",
+      "title": "Technologie, Macht & Morele Interventie",
+      "chapterId": "chapter-4",
+      "sourceBlockCount": 53,
+      "substantiveBlockCount": 38,
+      "excludedContinueBlocks": [
+        3,
+        7,
+        9,
+        12,
+        16,
+        19,
+        21,
+        25,
+        29,
+        33,
+        36,
+        39,
+        43,
+        46,
+        49
+      ],
+      "investigations": [
+        {
+          "id": "m4-01",
+          "title": "Een deur is ook een beslissing",
+          "sourceBlocks": [
+            0,
+            1,
+            2,
+            4,
+            5,
+            6,
+            8,
+            10,
+            11
+          ],
+          "experiment": false
+        },
+        {
+          "id": "m4-02",
+          "title": "Wie doet mee in het netwerk?",
+          "sourceBlocks": [
+            13,
+            14,
+            15
+          ],
+          "experiment": false
+        },
+        {
+          "id": "m4-03",
+          "title": "Het systeem achter het systeem",
+          "sourceBlocks": [
+            17,
+            18,
+            20,
+            22,
+            23,
+            24
+          ],
+          "experiment": false
+        },
+        {
+          "id": "m4-04",
+          "title": "De poortwachter van aandacht",
+          "sourceBlocks": [
+            26,
+            27,
+            28,
+            30,
+            31,
+            32
+          ],
+          "experiment": false
+        },
+        {
+          "id": "m4-05",
+          "title": "Wat de sorteermachine herkent",
+          "sourceBlocks": [
+            34,
+            35,
+            37,
+            38,
+            40,
+            41,
+            42
+          ],
+          "experiment": true
+        },
+        {
+          "id": "m4-06",
+          "title": "Drie hendels, één verandering",
+          "sourceBlocks": [
+            44,
+            45,
+            47,
+            48,
+            50,
+            51,
+            52
+          ],
+          "experiment": false
+        }
+      ],
+      "blocks": [
+        {
+          "index": 0,
+          "type": "text",
+          "label": "Inleiding",
+          "chapterId": "chapter-4",
+          "investigationId": "m4-01",
+          "assignmentCount": 1
+        },
+        {
+          "index": 1,
+          "type": "list",
+          "label": "| | | |",
+          "chapterId": "chapter-4",
+          "investigationId": "m4-01",
+          "assignmentCount": 1
+        },
+        {
+          "index": 2,
+          "type": "quiz",
+          "label": "De module noemt technologie een morele architectuur . Wat wordt daarmee bedoeld?",
+          "chapterId": "chapter-4",
+          "investigationId": "m4-01",
+          "assignmentCount": 1
+        },
+        {
+          "index": 4,
+          "type": "text",
+          "label": "Technologie is niet neutraal",
+          "chapterId": "chapter-4",
+          "investigationId": "m4-01",
+          "assignmentCount": 1
+        },
+        {
+          "index": 5,
+          "type": "quiz",
+          "label": "Winner (1980) stelt dat technologische artefacten politieke eigenschappen kunnen bevatten. Welke uitspraak sluit hier het best bij aan?",
+          "chapterId": "chapter-4",
+          "investigationId": "m4-01",
+          "assignmentCount": 1
+        },
+        {
+          "index": 6,
+          "type": "text",
+          "label": "Kijkopdracht",
+          "chapterId": "chapter-4",
+          "investigationId": "m4-01",
+          "assignmentCount": 1
+        },
+        {
+          "index": 8,
+          "type": "video",
+          "label": "PHILOSOPHY - EMERGING TECHNOLOGIES 1: Is Technology as \"Neutral\" as We Think It Is?",
+          "chapterId": "chapter-4",
+          "investigationId": "m4-01",
+          "assignmentCount": 1
+        },
+        {
+          "index": 10,
+          "type": "text",
+          "label": "Voorbeeld: ontwerp en toegankelijkheid",
+          "chapterId": "chapter-4",
+          "investigationId": "m4-01",
+          "assignmentCount": 1
+        },
+        {
+          "index": 11,
+          "type": "quiz",
+          "label": "De automatische deur maakt een gebouw toegankelijker en schept tegelijk een afhankelijkheid van stroom, sensoren en onderhoud. Wat laat dit voorbeeld volgens de module vooral zien?",
+          "chapterId": "chapter-4",
+          "investigationId": "m4-01",
+          "assignmentCount": 1
+        },
+        {
+          "index": 13,
+          "type": "text",
+          "label": "Technologie als onderdeel van sociale netwerken",
+          "chapterId": "chapter-4",
+          "investigationId": "m4-02",
+          "assignmentCount": 1
+        },
+        {
+          "index": 14,
+          "type": "video",
+          "label": "Actor-Network Theory for Dummies",
+          "chapterId": "chapter-4",
+          "investigationId": "m4-02",
+          "assignmentCount": 1
+        },
+        {
+          "index": 15,
+          "type": "quiz",
+          "label": "Een organisatie introduceert een energiemonitoringsysteem. Welk effect beschrijft Latours Actor-Network Theory (ANT) het best in deze situatie?",
+          "chapterId": "chapter-4",
+          "investigationId": "m4-02",
+          "assignmentCount": 1
+        },
+        {
+          "index": 17,
+          "type": "text",
+          "label": "Infrastructuur en Macht",
+          "chapterId": "chapter-4",
+          "investigationId": "m4-03",
+          "assignmentCount": 1
+        },
+        {
+          "index": 18,
+          "type": "quiz",
+          "label": "Infrastructuur valt volgens de module pas op wanneer zij níet werkt. Waarom maakt juist die onzichtbaarheid haar machtig?",
+          "chapterId": "chapter-4",
+          "investigationId": "m4-03",
+          "assignmentCount": 1
+        },
+        {
+          "index": 20,
+          "type": "text",
+          "label": "Infrastructuren als structuren van economische organisatie & macht",
+          "chapterId": "chapter-4",
+          "investigationId": "m4-03",
+          "assignmentCount": 1
+        },
+        {
+          "index": 22,
+          "type": "text",
+          "label": "Technologie, infrastructuur en politieke macht",
+          "chapterId": "chapter-4",
+          "investigationId": "m4-03",
+          "assignmentCount": 1
+        },
+        {
+          "index": 23,
+          "type": "quiz",
+          "label": "Infrastructuren worden omschreven als systemen met drie specifieke kenmerken. Welke combinatie is correct?",
+          "chapterId": "chapter-4",
+          "investigationId": "m4-03",
+          "assignmentCount": 1
+        },
+        {
+          "index": 24,
+          "type": "svg",
+          "label": "",
+          "chapterId": "chapter-4",
+          "investigationId": "m4-03",
+          "assignmentCount": 1
+        },
+        {
+          "index": 26,
+          "type": "video",
+          "label": "What Is Big Data?",
+          "chapterId": "chapter-4",
+          "investigationId": "m4-04",
+          "assignmentCount": 1
+        },
+        {
+          "index": 27,
+          "type": "text",
+          "label": "Digitale infrastructuren en datamacht",
+          "chapterId": "chapter-4",
+          "investigationId": "m4-04",
+          "assignmentCount": 1
+        },
+        {
+          "index": 28,
+          "type": "quiz",
+          "label": "Platforms fungeren volgens de module als poortwachters van economische activiteiten . Wat houdt dat in?",
+          "chapterId": "chapter-4",
+          "investigationId": "m4-04",
+          "assignmentCount": 1
+        },
+        {
+          "index": 30,
+          "type": "text",
+          "label": "Infrastructuren als morele structuren",
+          "chapterId": "chapter-4",
+          "investigationId": "m4-04",
+          "assignmentCount": 1
+        },
+        {
+          "index": 31,
+          "type": "quiz",
+          "label": "Zuboff (2019) beschrijft surveillancekapitalisme . Wat onderscheidt dit model het meest van een traditioneel datagedreven bedrijfsmodel?",
+          "chapterId": "chapter-4",
+          "investigationId": "m4-04",
+          "assignmentCount": 1
+        },
+        {
+          "index": 32,
+          "type": "video",
+          "label": "Kan Trump Nederland digitaal platleggen? | LUBACH",
+          "chapterId": "chapter-4",
+          "investigationId": "m4-04",
+          "assignmentCount": 1
+        },
+        {
+          "index": 34,
+          "type": "text",
+          "label": "Digitale Systemen, Data en AI",
+          "chapterId": "chapter-4",
+          "investigationId": "m4-05",
+          "assignmentCount": 1
+        },
+        {
+          "index": 35,
+          "type": "quiz",
+          "label": "Data wordt vaak vergeleken met een grondstof. De module zegt er meteen bij dat die vergelijking tekortschiet. Waarom?",
+          "chapterId": "chapter-4",
+          "investigationId": "m4-05",
+          "assignmentCount": 1
+        },
+        {
+          "index": 37,
+          "type": "text",
+          "label": "Data als instrument van macht",
+          "chapterId": "chapter-4",
+          "investigationId": "m4-05",
+          "assignmentCount": 1
+        },
+        {
+          "index": 38,
+          "type": "quiz",
+          "label": "Platforms zoals Amazon hebben via logistieke infrastructuur een sterke marktpositie opgebouwd. Welk ethisch vraagstuk roept dit op?",
+          "chapterId": "chapter-4",
+          "investigationId": "m4-05",
+          "assignmentCount": 1
+        },
+        {
+          "index": 40,
+          "type": "image",
+          "label": "",
+          "chapterId": "chapter-4",
+          "investigationId": "m4-05",
+          "assignmentCount": 1
+        },
+        {
+          "index": 41,
+          "type": "text",
+          "label": "Duurzaamheid & Ethiek",
+          "chapterId": "chapter-4",
+          "investigationId": "m4-05",
+          "assignmentCount": 1
+        },
+        {
+          "index": 42,
+          "type": "quiz",
+          "label": "AI-sorteersystemen verhogen de efficiëntie van recycling aanzienlijk. Waarom is deze techniek volgens de module tóch niet waardevrij?",
+          "chapterId": "chapter-4",
+          "investigationId": "m4-05",
+          "assignmentCount": 1
+        },
+        {
+          "index": 44,
+          "type": "text",
+          "label": "Interventie in Systemen",
+          "chapterId": "chapter-4",
+          "investigationId": "m4-06",
+          "assignmentCount": 1
+        },
+        {
+          "index": 45,
+          "type": "quiz",
+          "label": "Waarom wijst de technologie-ethiek het idee af dat technologie een autonome kracht is die ons handelen bepaalt?",
+          "chapterId": "chapter-4",
+          "investigationId": "m4-06",
+          "assignmentCount": 1
+        },
+        {
+          "index": 47,
+          "type": "tabs",
+          "label": "Ontwerpinterventies: waarden in technologie | Organisatorische interventies: governance en verantwoordelijkheid | Institutionele interventies: regelgeving en beleid",
+          "chapterId": "chapter-4",
+          "investigationId": "m4-06",
+          "assignmentCount": 1
+        },
+        {
+          "index": 48,
+          "type": "match",
+          "label": "Koppel elke maatregel aan het interventieniveau waar hij thuishoort.",
+          "chapterId": "chapter-4",
+          "investigationId": "m4-06",
+          "assignmentCount": 1
+        },
+        {
+          "index": 50,
+          "type": "text",
+          "label": "Voorbeeld",
+          "chapterId": "chapter-4",
+          "investigationId": "m4-06",
+          "assignmentCount": 1
+        },
+        {
+          "index": 51,
+          "type": "text",
+          "label": "",
+          "chapterId": "chapter-4",
+          "investigationId": "m4-06",
+          "assignmentCount": 1
+        },
+        {
+          "index": 52,
+          "type": "quiz",
+          "label": "De Digital Services Act verplicht grote platforms tot risicoanalyses en transparantie over hun aanbevelingsalgoritmes. Wat laat deze interventie zien? (meerdere antwoorden juist)",
+          "chapterId": "chapter-4",
+          "investigationId": "m4-06",
+          "assignmentCount": 1
+        }
+      ]
+    },
+    {
+      "lessonId": "m5",
+      "title": "Greenwashing (kort)",
+      "chapterId": "chapter-5",
+      "sourceBlockCount": 28,
+      "substantiveBlockCount": 20,
+      "excludedContinueBlocks": [
+        2,
+        5,
+        8,
+        13,
+        16,
+        20,
+        23,
+        26
+      ],
+      "investigations": [
+        {
+          "id": "m5-01",
+          "title": "Een verhaal vóór de verandering",
+          "sourceBlocks": [
+            0,
+            1,
+            3,
+            4,
+            6,
+            7
+          ],
+          "experiment": false
+        },
+        {
+          "id": "m5-02",
+          "title": "Vier claims op de lichtbak",
+          "sourceBlocks": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "experiment": false
+        },
+        {
+          "id": "m5-03",
+          "title": "De goede collectie, het grote geheel",
+          "sourceBlocks": [
+            14,
+            15
+          ],
+          "experiment": true
+        },
+        {
+          "id": "m5-04",
+          "title": "Het bewijs dat anderen kunnen lezen",
+          "sourceBlocks": [
+            17,
+            18,
+            19
+          ],
+          "experiment": false
+        },
+        {
+          "id": "m5-05",
+          "title": "De belofte opnieuw gebouwd",
+          "sourceBlocks": [
+            21,
+            22,
+            24,
+            25,
+            27
+          ],
+          "experiment": false
+        }
+      ],
+      "blocks": [
+        {
+          "index": 0,
+          "type": "text",
+          "label": "Introductie",
+          "chapterId": "chapter-5",
+          "investigationId": "m5-01",
+          "assignmentCount": 1
+        },
+        {
+          "index": 1,
+          "type": "video",
+          "label": "Greenwashing...Basically",
+          "chapterId": "chapter-5",
+          "investigationId": "m5-01",
+          "assignmentCount": 1
+        },
+        {
+          "index": 3,
+          "type": "text",
+          "label": "Institutionele druk en legitimiteit",
+          "chapterId": "chapter-5",
+          "investigationId": "m5-01",
+          "assignmentCount": 1
+        },
+        {
+          "index": 4,
+          "type": "quiz",
+          "label": "Suchman (1995) beschrijft hoe organisaties streven naar legitimiteit. Wat gebeurt er volgens de module wanneer maatschappelijke verwachtingen sneller veranderen dan het bedrijfsmodel kan volgen?",
+          "chapterId": "chapter-5",
+          "investigationId": "m5-01",
+          "assignmentCount": 1
+        },
+        {
+          "index": 6,
+          "type": "text",
+          "label": "Economische prikkels en kapitaalmarkten",
+          "chapterId": "chapter-5",
+          "investigationId": "m5-01",
+          "assignmentCount": 1
+        },
+        {
+          "index": 7,
+          "type": "quiz",
+          "label": "Greenwashing wordt in dit blok niet primair verklaard als een marketingprobleem. Welke verklaring sluit het best aan bij het systeemperspectief?",
+          "chapterId": "chapter-5",
+          "investigationId": "m5-01",
+          "assignmentCount": 1
+        },
+        {
+          "index": 9,
+          "type": "text",
+          "label": "Typen greenwashing",
+          "chapterId": "chapter-5",
+          "investigationId": "m5-02",
+          "assignmentCount": 1
+        },
+        {
+          "index": 10,
+          "type": "quiz",
+          "label": "Delmas en Burbano (2011) onderscheiden meerdere vormen van greenwashing. Een bedrijf gebruikt termen als \"eco-friendly\" en \"natuurlijk\" zonder meetbare criteria. Welke vorm is dit?",
+          "chapterId": "chapter-5",
+          "investigationId": "m5-02",
+          "assignmentCount": 1
+        },
+        {
+          "index": 11,
+          "type": "match",
+          "label": "Koppel elke vorm van greenwashing aan het voorbeeld dat erbij hoort.",
+          "chapterId": "chapter-5",
+          "investigationId": "m5-02",
+          "assignmentCount": 1
+        },
+        {
+          "index": 12,
+          "type": "svg",
+          "label": "",
+          "chapterId": "chapter-5",
+          "investigationId": "m5-02",
+          "assignmentCount": 1
+        },
+        {
+          "index": 14,
+          "type": "text",
+          "label": "Casus: fast fashion en de “Conscious Collection”",
+          "chapterId": "chapter-5",
+          "investigationId": "m5-03",
+          "assignmentCount": 1
+        },
+        {
+          "index": 15,
+          "type": "quiz",
+          "label": "Waarom noemt de module de Conscious Collection een voorbeeld van greenwashing?",
+          "chapterId": "chapter-5",
+          "investigationId": "m5-03",
+          "assignmentCount": 1
+        },
+        {
+          "index": 17,
+          "type": "text",
+          "label": "Systeemreacties: regelgeving en transparantie",
+          "chapterId": "chapter-5",
+          "investigationId": "m5-04",
+          "assignmentCount": 1
+        },
+        {
+          "index": 18,
+          "type": "video",
+          "label": "EU measures to tackle greenwashing",
+          "chapterId": "chapter-5",
+          "investigationId": "m5-04",
+          "assignmentCount": 1
+        },
+        {
+          "index": 19,
+          "type": "quiz",
+          "label": "De CSRD verplicht grote bedrijven tot gestandaardiseerde rapportage over milieu-impact, sociale prestaties en governance. Welk probleem pakt die regelgeving vooral aan?",
+          "chapterId": "chapter-5",
+          "investigationId": "m5-04",
+          "assignmentCount": 1
+        },
+        {
+          "index": 21,
+          "type": "text",
+          "label": "Ethische implicaties van greenwashing als systeemfenomeen",
+          "chapterId": "chapter-5",
+          "investigationId": "m5-05",
+          "assignmentCount": 1
+        },
+        {
+          "index": 22,
+          "type": "quiz",
+          "label": "Greenwashing als systeemfenomeen brengt volgens de module verschillende ethische problemen met zich mee. Welke horen daarbij?",
+          "chapterId": "chapter-5",
+          "investigationId": "m5-05",
+          "assignmentCount": 1
+        },
+        {
+          "index": 24,
+          "type": "text",
+          "label": "Verantwoordelijkheid voor maatschappelijke en ecologische gevolgen",
+          "chapterId": "chapter-5",
+          "investigationId": "m5-05",
+          "assignmentCount": 1
+        },
+        {
+          "index": 25,
+          "type": "video",
+          "label": "Greenwashing: When Companies Aren't as Sustainable as They Claim | WSJ",
+          "chapterId": "chapter-5",
+          "investigationId": "m5-05",
+          "assignmentCount": 1
+        },
+        {
+          "index": 27,
+          "type": "text",
+          "label": "Afsluiting",
+          "chapterId": "chapter-5",
+          "investigationId": "m5-05",
+          "assignmentCount": 1
+        }
+      ]
+    }
+  ]
+}

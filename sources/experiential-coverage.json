@@ -1,0 +1,763 @@
+{
+  "schemaVersion": 1,
+  "coverageKind": "Authored conceptual mapping, not a claim that every source word is reproduced or that learning equivalence has been empirically demonstrated.",
+  "source": {
+    "file": "sources/business-ethics-course.json",
+    "sha256": "7fa9b0b4c664c90da7dd8e5b58ee532d37d298aee3927733c4bf7bdc67098449"
+  },
+  "playbook": {
+    "file": "dist/playbook.json",
+    "sha256": "6d28d7eb08157f595544da567c36f0a92b064320eca7ea9248e1852ab75eea17"
+  },
+  "scope": {
+    "playableLessons": [
+      "m1"
+    ],
+    "underDevelopment": [
+      "m2",
+      "m3",
+      "m4",
+      "m5"
+    ],
+    "originalMediaAndExercises": "Preserved as optional library review; completion is not required for adventure progress."
+  },
+  "validation": {
+    "valid": true,
+    "lessonCount": 1,
+    "investigationCount": 6,
+    "beatCount": 24,
+    "keyConceptCount": 72,
+    "beatTypes": {
+      "experiment": 2,
+      "sort": 3,
+      "decision": 2,
+      "inspect": 7,
+      "build": 3,
+      "order": 3,
+      "connect": 4
+    },
+    "errors": []
+  },
+  "lessons": [
+    {
+      "lessonId": "m1",
+      "title": "Economie & Systemen (kort)",
+      "investigationCount": 6,
+      "beatCount": 24,
+      "finaleSlotCount": 13,
+      "changedSectorFinaleSlotCount": 4,
+      "originalSubstantiveBlockReferences": 24,
+      "curatedKeyConceptCount": 72,
+      "sourceBlocks": [
+        {
+          "index": 0,
+          "type": "text",
+          "investigationId": "m1-01",
+          "mode": "experiential teaching",
+          "experientialBeatIds": [
+            "m1-01-b1",
+            "m1-01-b2"
+          ],
+          "claims": [
+            {
+              "concept": "schaarste",
+              "beats": [
+                "m1-01-b1"
+              ]
+            },
+            {
+              "concept": "morele economie",
+              "beats": [
+                "m1-01-b1"
+              ]
+            },
+            {
+              "concept": "waarden in prioriteiten",
+              "beats": [
+                "m1-01-b1"
+              ]
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "type": "text",
+          "investigationId": "m1-01",
+          "mode": "experiential teaching",
+          "experientialBeatIds": [
+            "m1-01-b1",
+            "m1-01-b2",
+            "m1-01-b3"
+          ],
+          "claims": [
+            {
+              "concept": "rechtvaardige verdeling",
+              "beats": [
+                "m1-01-b1"
+              ]
+            },
+            {
+              "concept": "Friedmans verantwoordelijkheid",
+              "beats": [
+                "m1-01-b3"
+              ]
+            },
+            {
+              "concept": "spelregels zijn institutionele keuzes",
+              "beats": [
+                "m1-01-b3"
+              ]
+            },
+            {
+              "concept": "collectieve actie en prikkels",
+              "beats": [
+                "m1-01-b3"
+              ]
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "type": "video",
+          "investigationId": "m1-01",
+          "mode": "optional original review/media",
+          "experientialBeatIds": [],
+          "claims": []
+        },
+        {
+          "index": 4,
+          "type": "quiz",
+          "investigationId": "m1-01",
+          "mode": "optional original review/media",
+          "experientialBeatIds": [
+            "m1-01-b3"
+          ],
+          "claims": []
+        },
+        {
+          "index": 6,
+          "type": "text",
+          "investigationId": "m1-02",
+          "mode": "structural heading",
+          "experientialBeatIds": [
+            "m1-02-b1"
+          ],
+          "claims": []
+        },
+        {
+          "index": 7,
+          "type": "tabs",
+          "investigationId": "m1-02",
+          "mode": "experiential teaching",
+          "experientialBeatIds": [
+            "m1-02-b1",
+            "m1-02-b2",
+            "m1-02-b3"
+          ],
+          "claims": [
+            {
+              "concept": "externaliteiten",
+              "beats": [
+                "m1-02-b1",
+                "m1-02-b2"
+              ]
+            },
+            {
+              "concept": "commons",
+              "beats": [
+                "m1-02-b1"
+              ]
+            },
+            {
+              "concept": "begrenzing",
+              "beats": [
+                "m1-02-b1",
+                "m1-02-b3"
+              ]
+            },
+            {
+              "concept": "rechtvaardige verdeling",
+              "beats": [
+                "m1-02-b1"
+              ]
+            },
+            {
+              "concept": "commons-governance",
+              "beats": [
+                "m1-02-b3"
+              ]
+            },
+            {
+              "concept": "prijs versus maatschappelijke kosten",
+              "beats": [
+                "m1-02-b2"
+              ]
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "type": "quiz",
+          "investigationId": "m1-02",
+          "mode": "optional original review/media",
+          "experientialBeatIds": [
+            "m1-02-b2",
+            "m1-02-b3"
+          ],
+          "claims": []
+        },
+        {
+          "index": 11,
+          "type": "video",
+          "investigationId": "m1-03",
+          "mode": "optional original review/media",
+          "experientialBeatIds": [
+            "m1-03-b1"
+          ],
+          "claims": []
+        },
+        {
+          "index": 12,
+          "type": "text",
+          "investigationId": "m1-03",
+          "mode": "experiential teaching",
+          "experientialBeatIds": [
+            "m1-03-b1",
+            "m1-03-b2",
+            "m1-03-b3"
+          ],
+          "claims": [
+            {
+              "concept": "grondstoffenketen",
+              "beats": [
+                "m1-03-b1"
+              ]
+            },
+            {
+              "concept": "Congo kobalt",
+              "beats": [
+                "m1-03-b2"
+              ]
+            },
+            {
+              "concept": "China zeldzame aardmetalen",
+              "beats": [
+                "m1-03-b2"
+              ]
+            },
+            {
+              "concept": "e-waste Ghana en India",
+              "beats": [
+                "m1-03-b2"
+              ]
+            },
+            {
+              "concept": "geopolitieke macht",
+              "beats": [
+                "m1-03-b2"
+              ]
+            },
+            {
+              "concept": "baten lasten machtsverhoudingen",
+              "beats": [
+                "m1-03-b3"
+              ]
+            },
+            {
+              "concept": "technologie en infrastructuur als macht",
+              "beats": [
+                "m1-03-b3"
+              ]
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "type": "quiz",
+          "investigationId": "m1-03",
+          "mode": "optional original review/media",
+          "experientialBeatIds": [
+            "m1-03-b2",
+            "m1-03-b3"
+          ],
+          "claims": []
+        },
+        {
+          "index": 15,
+          "type": "text",
+          "investigationId": "m1-04",
+          "mode": "experiential teaching",
+          "experientialBeatIds": [
+            "m1-04-b1",
+            "m1-04-b2",
+            "m1-04-b3"
+          ],
+          "claims": [
+            {
+              "concept": "systeemdoel",
+              "beats": [
+                "m1-04-b1"
+              ]
+            },
+            {
+              "concept": "menselijk oordeel versus organisatieontwerp",
+              "beats": [
+                "m1-04-b1"
+              ]
+            },
+            {
+              "concept": "KPI-prikkels",
+              "beats": [
+                "m1-04-b2"
+              ]
+            },
+            {
+              "concept": "morele paradox organisaties",
+              "beats": [
+                "m1-04-b2"
+              ]
+            },
+            {
+              "concept": "Goodpaster",
+              "beats": [
+                "m1-04-b2"
+              ]
+            },
+            {
+              "concept": "systeeminterventie",
+              "beats": [
+                "m1-04-b3"
+              ]
+            },
+            {
+              "concept": "waarden in prestatiemeting",
+              "beats": [
+                "m1-04-b3"
+              ]
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "type": "image",
+          "investigationId": "m1-04",
+          "mode": "optional original review/media",
+          "experientialBeatIds": [
+            "m1-04-b1"
+          ],
+          "claims": []
+        },
+        {
+          "index": 17,
+          "type": "quiz",
+          "investigationId": "m1-04",
+          "mode": "optional original review/media",
+          "experientialBeatIds": [
+            "m1-04-b2",
+            "m1-04-b3"
+          ],
+          "claims": []
+        },
+        {
+          "index": 19,
+          "type": "text",
+          "investigationId": "m1-05",
+          "mode": "experiential teaching",
+          "experientialBeatIds": [
+            "m1-05-b1",
+            "m1-05-b2",
+            "m1-05-b4",
+            "m1-05-b5"
+          ],
+          "claims": [
+            {
+              "concept": "eigendom zeggenschap opbrengst",
+              "beats": [
+                "m1-05-b1"
+              ]
+            },
+            {
+              "concept": "cumulatieve vermogensgroei",
+              "beats": [
+                "m1-05-b1"
+              ]
+            },
+            {
+              "concept": "Piketty",
+              "beats": [
+                "m1-05-b1"
+              ]
+            },
+            {
+              "concept": "rendement r",
+              "beats": [
+                "m1-05-b5"
+              ]
+            },
+            {
+              "concept": "economische groei g",
+              "beats": [
+                "m1-05-b5"
+              ]
+            },
+            {
+              "concept": "r groter dan g",
+              "beats": [
+                "m1-05-b5"
+              ]
+            },
+            {
+              "concept": "Smith: eigendom als autonomie",
+              "beats": [
+                "m1-05-b2"
+              ]
+            },
+            {
+              "concept": "vastgoedfondsen",
+              "beats": [
+                "m1-05-b2"
+              ]
+            },
+            {
+              "concept": "institutionele investeerders",
+              "beats": [
+                "m1-05-b2"
+              ]
+            },
+            {
+              "concept": "databezit",
+              "beats": [
+                "m1-05-b2"
+              ]
+            },
+            {
+              "concept": "schaalvoordelen",
+              "beats": [
+                "m1-05-b2"
+              ]
+            },
+            {
+              "concept": "eigendom versus bijdrage",
+              "beats": [
+                "m1-05-b4"
+              ]
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "type": "video",
+          "investigationId": "m1-05",
+          "mode": "optional original review/media",
+          "experientialBeatIds": [],
+          "claims": []
+        },
+        {
+          "index": 22,
+          "type": "quiz",
+          "investigationId": "m1-05",
+          "mode": "optional original review/media",
+          "experientialBeatIds": [
+            "m1-05-b1",
+            "m1-05-b5"
+          ],
+          "claims": []
+        },
+        {
+          "index": 24,
+          "type": "text",
+          "investigationId": "m1-05",
+          "mode": "experiential teaching",
+          "experientialBeatIds": [
+            "m1-05-b3",
+            "m1-05-b4",
+            "m1-05-b6"
+          ],
+          "claims": [
+            {
+              "concept": "neoliberalisme",
+              "beats": [
+                "m1-05-b3"
+              ]
+            },
+            {
+              "concept": "deregulering",
+              "beats": [
+                "m1-05-b3"
+              ]
+            },
+            {
+              "concept": "privatisering",
+              "beats": [
+                "m1-05-b3"
+              ]
+            },
+            {
+              "concept": "financialisering",
+              "beats": [
+                "m1-05-b3"
+              ]
+            },
+            {
+              "concept": "marktconcentratie",
+              "beats": [
+                "m1-05-b3"
+              ]
+            },
+            {
+              "concept": "toezicht",
+              "beats": [
+                "m1-05-b3"
+              ]
+            },
+            {
+              "concept": "publieke voorzieningen",
+              "beats": [
+                "m1-05-b3"
+              ]
+            },
+            {
+              "concept": "aannames markt versus staat",
+              "beats": [
+                "m1-05-b3"
+              ]
+            },
+            {
+              "concept": "marktmacht prijzen",
+              "beats": [
+                "m1-05-b6"
+              ]
+            },
+            {
+              "concept": "toegang tot werk",
+              "beats": [
+                "m1-05-b6"
+              ]
+            },
+            {
+              "concept": "innovatie",
+              "beats": [
+                "m1-05-b6"
+              ]
+            },
+            {
+              "concept": "politieke invloed",
+              "beats": [
+                "m1-05-b6"
+              ]
+            },
+            {
+              "concept": "data-autonomie",
+              "beats": [
+                "m1-05-b6"
+              ]
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "type": "image",
+          "investigationId": "m1-05",
+          "mode": "optional original review/media",
+          "experientialBeatIds": [
+            "m1-05-b3",
+            "m1-05-b6"
+          ],
+          "claims": []
+        },
+        {
+          "index": 26,
+          "type": "quiz",
+          "investigationId": "m1-05",
+          "mode": "optional original review/media",
+          "experientialBeatIds": [
+            "m1-05-b3",
+            "m1-05-b6"
+          ],
+          "claims": []
+        },
+        {
+          "index": 28,
+          "type": "text",
+          "investigationId": "m1-06",
+          "mode": "experiential teaching",
+          "experientialBeatIds": [
+            "m1-06-b1",
+            "m1-06-b3",
+            "m1-06-b4"
+          ],
+          "claims": [
+            {
+              "concept": "aanbod vormt vraag",
+              "beats": [
+                "m1-06-b1"
+              ]
+            },
+            {
+              "concept": "algoritmische zichtbaarheid",
+              "beats": [
+                "m1-06-b1"
+              ]
+            },
+            {
+              "concept": "geconstrueerde keuzeruimte",
+              "beats": [
+                "m1-06-b1"
+              ]
+            },
+            {
+              "concept": "financiële dominantie",
+              "beats": [
+                "m1-06-b4"
+              ]
+            },
+            {
+              "concept": "kortetermijnrendement",
+              "beats": [
+                "m1-06-b4"
+              ]
+            },
+            {
+              "concept": "werknemerskosten",
+              "beats": [
+                "m1-06-b4"
+              ]
+            },
+            {
+              "concept": "onderhoud en duurzaamheid",
+              "beats": [
+                "m1-06-b4"
+              ]
+            },
+            {
+              "concept": "kwetsbaarheid bij crises",
+              "beats": [
+                "m1-06-b4"
+              ]
+            },
+            {
+              "concept": "aandeelhouders versus stakeholders",
+              "beats": [
+                "m1-06-b4"
+              ]
+            },
+            {
+              "concept": "publieke waarden",
+              "beats": [
+                "m1-06-b3"
+              ]
+            }
+          ]
+        },
+        {
+          "index": 29,
+          "type": "quiz",
+          "investigationId": "m1-06",
+          "mode": "optional original review/media",
+          "experientialBeatIds": [
+            "m1-06-b1"
+          ],
+          "claims": []
+        },
+        {
+          "index": 31,
+          "type": "text",
+          "investigationId": "m1-06",
+          "mode": "experiential teaching",
+          "experientialBeatIds": [
+            "m1-06-b2",
+            "m1-06-b3",
+            "m1-06-b5",
+            "m1-06-b6"
+          ],
+          "claims": [
+            {
+              "concept": "kuddegedrag",
+              "beats": [
+                "m1-06-b2"
+              ]
+            },
+            {
+              "concept": "verliesaversie",
+              "beats": [
+                "m1-06-b2",
+                "m1-06-b6"
+              ]
+            },
+            {
+              "concept": "morele ontkoppeling",
+              "beats": [
+                "m1-06-b2"
+              ]
+            },
+            {
+              "concept": "kuddegedrag bij onzekerheid",
+              "beats": [
+                "m1-06-b5"
+              ]
+            },
+            {
+              "concept": "angst voor uitsluiting",
+              "beats": [
+                "m1-06-b5"
+              ]
+            },
+            {
+              "concept": "meerderheid als informatie",
+              "beats": [
+                "m1-06-b5"
+              ]
+            },
+            {
+              "concept": "zichzelf versterkende navolging",
+              "beats": [
+                "m1-06-b5"
+              ]
+            },
+            {
+              "concept": "tunnelvisie en instabiliteit",
+              "beats": [
+                "m1-06-b5"
+              ]
+            },
+            {
+              "concept": "risicomijding",
+              "beats": [
+                "m1-06-b6"
+              ]
+            },
+            {
+              "concept": "overreactie onder verliesdruk",
+              "beats": [
+                "m1-06-b6"
+              ]
+            }
+          ]
+        },
+        {
+          "index": 32,
+          "type": "quiz",
+          "investigationId": "m1-06",
+          "mode": "optional original review/media",
+          "experientialBeatIds": [
+            "m1-06-b2",
+            "m1-06-b5",
+            "m1-06-b6"
+          ],
+          "claims": []
+        },
+        {
+          "index": 34,
+          "type": "match",
+          "investigationId": "m1-06",
+          "mode": "optional original review/media",
+          "experientialBeatIds": [
+            "m1-06-b2",
+            "m1-06-b3"
+          ],
+          "claims": []
+        }
+      ]
+    }
+  ]
+}

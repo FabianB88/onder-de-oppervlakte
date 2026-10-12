@@ -1,0 +1,10 @@
+export const KEY='onder-de-oppervlakte-adventure-v2';
+export const fresh=()=>({version:2,started:false,room:0,beats:[],rooms:[],tools:[],expValues:{},exploration:{},finalAnswers:{},notes:{},trials:{},choices:{},seen:{},sorts:{},orders:{},links:{},selections:{},finalLesson:false,muted:true});
+export function restore(raw,book){const s=fresh();if(raw?.version!==2)return s;const ids=new Set(book.chapters[0].investigations.flatMap(i=>i.beats.map(b=>b.id))),objects=['exploration','expValues','finalAnswers','notes','trials','choices','seen','sorts','orders','links','selections'];for(const key of objects)if(raw[key]&&typeof raw[key]==='object'&&!Array.isArray(raw[key]))s[key]=raw[key];s.started=raw.started===true;s.muted=raw.muted!==false;s.finalLesson=raw.finalLesson===true;s.room=Math.max(0,Math.min(book.chapters[0].investigations.length-1,Math.trunc(Number(raw.room))||0));s.beats=[...new Set((Array.isArray(raw.beats)?raw.beats:[]).filter(id=>ids.has(id)))];s.rooms=[...new Set((Array.isArray(raw.rooms)?raw.rooms:[]).filter(id=>book.chapters[0].investigations.some(i=>i.id===id)))];s.tools=[...new Set((Array.isArray(raw.tools)?raw.tools:[]).filter(id=>['meter','map','key','camera','ledger','lens'].includes(id)))];return s;}
+export const investigated=(s,inv)=>inv.beats.every(b=>s.beats.includes(b.id));
+export const xp=s=>s.beats.length*30+s.rooms.length*120+(s.finalLesson?300:0);
+export const level=s=>Math.floor(xp(s)/300)+1;
+export function collect(s,beat){if(!s.beats.includes(beat.id))s.beats.push(beat.id);return s;}
+export function checkFinale(s,finale,key){return finale.slots.every(slot=>{const a=s.finalAnswers[`${key}:${slot.id}`];return a&&slot.options.some(o=>o.id===a.option&&o.correct)&&a.evidence===slot.evidenceBeatId;});}
+export function finishRoom(s,inv){if(!investigated(s,inv))throw Error('Onderzoek eerst alle aanwijzingen.');if(!checkFinale(s,inv.finale,inv.id))throw Error('Onderbouw de verbanden met je bewijs.');if(!s.rooms.includes(inv.id))s.rooms.push(inv.id);return s;}
+

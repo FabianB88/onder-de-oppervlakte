@@ -1,0 +1,1806 @@
+{
+  "schemaVersion": 1,
+  "title": "Onder de oppervlakte · NOVA",
+  "description": "Een campagne van onderzoeken, bouwen, uitproberen en keuzes met zichtbare gevolgen.",
+  "teachingNote": "Conceptuele dekking van de oorspronkelijke cursus. Originele teksten, quizzes, video's en afbeeldingen blijven als naslag en extra oefening beschikbaar; de actieve route is een nieuwe didactische bewerking, geen garantie van gelijke leeruitkomsten.",
+  "chapters": [
+    {
+      "lessonId": "m1",
+      "investigations": [
+        {
+          "id": "m1-01",
+          "beats": [
+            {
+              "id": "m1-01-b1",
+              "type": "experiment",
+              "title": "De stroom valt uit",
+              "sceneObject": "system",
+              "intro": "De noodaccu heeft 100 eenheden. Productie vraagt 60, reparatie 40 en noodklanten 40. Verdeel de stroom; kijk wie moet wachten. Test daarna een andere verdeling.",
+              "hint": "Er is geen verdeling die alle wensen vervult. Een criterium is de reden voor je voorrang: bijvoorbeeld noodzaak, gelijkheid of continuïteit.",
+              "simulation": "electricity",
+              "capacity": 100,
+              "demands": {
+                "production": 60,
+                "repair": 40,
+                "emergency": 40
+              },
+              "minimumTrials": 2,
+              "explainAfter": "Je hebt middelen verdeeld en gevolgen zichtbaar gemaakt. De rekensom bepaalt het tekort; het criterium bepaalt wie dit draagt. Morele economie onderzoekt hoe het systeem toegang, risico en bescherming organiseert.",
+              "concepts": [
+                "schaarste",
+                "morele economie",
+                "rechtvaardige verdeling",
+                "waarden in prioriteiten"
+              ],
+              "sourceBlocks": [
+                0,
+                2
+              ],
+              "clueId": "m1-01-b1-clue",
+              "clueTitle": "De stroom valt uit"
+            },
+            {
+              "id": "m1-01-b2",
+              "type": "sort",
+              "title": "Twee stapels op de noodtafel",
+              "sceneObject": "evidence",
+              "intro": "Noor wil je noodbesluit reconstrueren. Leg de kaarten bij meetinformatie of een verdelingscriterium.",
+              "hint": "Een meetgegeven beschrijft wat er is. Een verdelingscriterium zegt wat volgens iemand moet tellen.",
+              "categories": [
+                {
+                  "id": "meet",
+                  "label": "Wat we meten"
+                },
+                {
+                  "id": "waarde",
+                  "label": "Wat we laten tellen"
+                }
+              ],
+              "cards": [
+                {
+                  "id": "accu",
+                  "text": "100 eenheden beschikbaar",
+                  "category": "meet",
+                  "feedback": "De capaciteit beschrijft een grens, geen voorrangsregel."
+                },
+                {
+                  "id": "zorg",
+                  "text": "Noodklanten eerst beschermen",
+                  "category": "waarde",
+                  "feedback": "Je prioriteert kwetsbaarheid boven een andere mogelijke waarde."
+                },
+                {
+                  "id": "winst",
+                  "text": "Productie met hoogste opbrengst eerst",
+                  "category": "waarde",
+                  "feedback": "Ook winst voorrang geven is een waardegebonden keuze."
+                },
+                {
+                  "id": "vraag",
+                  "text": "140 eenheden gevraagd",
+                  "category": "meet",
+                  "feedback": "Vraag en capaciteit leveren een tekort van 40."
+                },
+                {
+                  "id": "gelijk",
+                  "text": "Iedere groep een gelijk deel",
+                  "category": "waarde",
+                  "feedback": "Gelijkheid is een criterium; gelijke delen zijn niet vanzelf gelijke gevolgen."
+                }
+              ],
+              "explainAfter": "Meten helpt een besluit uitvoeren. Een criterium geeft het besluit zijn richting. Vraag bij ieder criterium wie toegang krijgt, risico draagt en bescherming ontvangt.",
+              "concepts": [
+                "technische berekening versus normatieve afweging",
+                "toegang en bescherming"
+              ],
+              "sourceBlocks": [
+                0,
+                2
+              ],
+              "clueId": "m1-01-b2-clue",
+              "clueTitle": "Twee stapels op de noodtafel"
+            },
+            {
+              "id": "m1-01-b3",
+              "type": "decision",
+              "title": "De winstregel",
+              "sceneObject": "person",
+              "intro": "Eva zegt: 'Ons werk is winst maken binnen de regels.' Noor schuift het regelboek naar jou. Wat voeg je aan het noodbesluit toe?",
+              "hint": "Friedmans positie legt veel verantwoordelijkheid bij de spelregels. Onderzoek daarom ook wie die regels bepaalt en welke belangen ze beschermen.",
+              "options": [
+                {
+                  "id": "rule",
+                  "text": "Verbind de prioriteitsregel aan getroffen belangen, beslisrechten en herziening.",
+                  "correct": true,
+                  "feedback": "Je maakt het normatieve raamwerk zichtbaar en houdt continuïteit als relevant belang."
+                },
+                {
+                  "id": "price",
+                  "text": "Geef uitsluitend voorrang aan de hoogste opbrengst om de afweging waardevrij te houden.",
+                  "correct": false,
+                  "feedback": "Opbrengst meten is technisch; opbrengst als hoogste criterium kiezen is normatief."
+                },
+                {
+                  "id": "equal",
+                  "text": "Laat gelijke stroomaandelen de gehele rechtvaardigheidsanalyse vervangen.",
+                  "correct": false,
+                  "feedback": "Gelijkheid is een criterium, maar dezelfde hoeveelheid kan ongelijke gevolgen geven."
+                },
+                {
+                  "id": "vote",
+                  "text": "Behandel de voorkeur van afdelingshoofden als voldoende vertegenwoordiging van alle getroffen groepen.",
+                  "correct": false,
+                  "feedback": "Een stemming kan nuttig zijn; afwezige gebruikers en omwonenden zijn daarmee niet automatisch vertegenwoordigd."
+                }
+              ],
+              "explainAfter": "Regels en prikkels bepalen welke handelingen logisch en lonend worden. Morele economie onderzoekt die inrichting, niet alleen de individuele bedoelingen.",
+              "concepts": [
+                "Friedmans verantwoordelijkheid",
+                "spelregels zijn institutionele keuzes",
+                "collectieve actie en prikkels"
+              ],
+              "sourceBlocks": [
+                2,
+                4
+              ],
+              "clueId": "m1-01-b3-clue",
+              "clueTitle": "De winstregel"
+            }
+          ],
+          "finale": {
+            "intro": "Reconstrueer het noodbesluit uit je proeven en het regelboek.",
+            "slots": [
+              {
+                "id": "cause",
+                "label": "Waarom verdwijnt het tekort niet door anders te verdelen?",
+                "evidenceBeatId": "m1-01-b1",
+                "options": [
+                  {
+                    "id": "cap",
+                    "text": "De totale vraag is groter dan de capaciteit; herverdelen verplaatst het tekort.",
+                    "correct": true,
+                    "feedback": "Je proeven veranderen wie stroom krijgt, niet de vaste capaciteit of vraag."
+                  },
+                  {
+                    "id": "efficiency",
+                    "text": "Productie-inefficiëntie is bewezen als enige oorzaak; de andere aanvragen spelen geen rol.",
+                    "correct": false,
+                    "feedback": "De proef bevat geen efficiëntietest. De drie vaste aanvragen tellen samen tot 140."
+                  },
+                  {
+                    "id": "sequence",
+                    "text": "Een andere aanvraagvolgorde verlaagt de totale stroomvraag, ook bij dezelfde productie en dienstverlening.",
+                    "correct": false,
+                    "feedback": "Volgorde verdeelt de toegang; de gevraagde hoeveelheden blijven in de proef gelijk."
+                  }
+                ]
+              },
+              {
+                "id": "rule",
+                "label": "Wat onderscheidt meten van het rechtvaardigen van je prioriteit?",
+                "evidenceBeatId": "m1-01-b2",
+                "options": [
+                  {
+                    "id": "equal",
+                    "text": "Een gelijke stroomverdeling rechtvaardigt zichzelf zonder de verschillende gevolgen te onderzoeken.",
+                    "correct": false,
+                    "feedback": "Gelijkheid is een verdelingscriterium; gelijke eenheden hoeven geen gelijke bescherming te geven."
+                  },
+                  {
+                    "id": "values",
+                    "text": "De capaciteit is een gegeven; prioriteit vraagt een criterium en onderzoek naar gevolgen.",
+                    "correct": true,
+                    "feedback": "Ieder verdedigbaar criterium vraagt uitleg over wie voordeel en tekort ervaart."
+                  },
+                  {
+                    "id": "profit",
+                    "text": "De hoogste opbrengst rechtvaardigt voorrang uitsluitend technisch, onafhankelijk van gekozen waarden.",
+                    "correct": false,
+                    "feedback": "Opbrengst meten is technisch; haar voorrang boven andere belangen is een waardeafweging."
+                  }
+                ]
+              }
+            ],
+            "conclusion": "Het noodbesluit combineert een schaarstegrens met een verdelingscriterium. Verantwoord je criterium en laat de gevolgen voor elke groep zien."
+          },
+          "originalSourceBlocks": [
+            0,
+            2,
+            3,
+            4
+          ],
+          "optionalReviewBlocks": [
+            3,
+            4
+          ]
+        },
+        {
+          "id": "m1-02",
+          "beats": [
+            {
+              "id": "m1-02-b1",
+              "type": "inspect",
+              "title": "Volg het water",
+              "sceneObject": "evidence",
+              "intro": "Achter de productielocatie stroomt een rivier. Open de vier bewijsstukken; ontdek waarom de rekening niet bij het hek stopt.",
+              "hint": "Een externaliteit is een gevolg voor anderen dat niet volledig in de beslissing of prijs is meegenomen. Een commons vraagt gezamenlijk gebruik en beheer.",
+              "reveal": [
+                {
+                  "id": "bill",
+                  "label": "Factuur",
+                  "title": "Binnen de fabriek",
+                  "text": "NOVA betaalt voor energie en pompen. Deze kosten staan op de factuur."
+                },
+                {
+                  "id": "fish",
+                  "label": "Vissersnet",
+                  "title": "Een verschoven gevolg",
+                  "text": "Vissers verliezen inkomsten door slechter water. Als NOVA die schade niet draagt, is dit een negatieve externaliteit."
+                },
+                {
+                  "id": "river",
+                  "label": "Rivierpeil",
+                  "title": "Een gedeelde bron met grenzen",
+                  "text": "Meer onttrekking is niet onbeperkt mogelijk. De rivier is een gedeelde hulpbron; gebruikers moeten grenzen en onderhoud organiseren."
+                },
+                {
+                  "id": "permit",
+                  "label": "Vergunning",
+                  "title": "Wie krijgt toegang?",
+                  "text": "Voorrang voor industrie of drinkwater verdeelt kansen en bescherming. Dat is een rechtvaardigheidsvraag."
+                }
+              ],
+              "required": [
+                "bill",
+                "fish",
+                "river",
+                "permit"
+              ],
+              "explainAfter": "Eén rivier verbindt vier vragen: wie krijgt wat, welke grens geldt, wie beheert het gedeelde en waar belanden gevolgen buiten de transactie?",
+              "concepts": [
+                "externaliteiten",
+                "commons",
+                "begrenzing",
+                "rechtvaardige verdeling"
+              ],
+              "sourceBlocks": [
+                6,
+                7
+              ],
+              "clueId": "m1-02-b1-clue",
+              "clueTitle": "Volg het water"
+            },
+            {
+              "id": "m1-02-b2",
+              "type": "experiment",
+              "title": "Verplaats de rekening",
+              "sceneObject": "system",
+              "intro": "Draai aan het aandeel vervuilingskosten dat de fabriek zelf draagt. Volg zowel de bedrijfsrekening als de rekening van anderen.",
+              "hint": "Een lagere bedrijfsprijs kan samengaan met een hogere last buiten het bedrijf. Bekijk beide, niet alleen de winst.",
+              "simulation": "externalities",
+              "minimumTrials": 2,
+              "explainAfter": "Als de veroorzaker meer gevolgen draagt, veranderen de prikkels. Dat kan een keuze beïnvloeden. De passende maatregel vraagt ook bewijs over schade, verantwoordelijkheden en uitvoerbaarheid.",
+              "concepts": [
+                "externaliteiten",
+                "prijs versus maatschappelijke kosten",
+                "prikkels"
+              ],
+              "sourceBlocks": [
+                7,
+                9
+              ],
+              "clueId": "m1-02-b2-clue",
+              "clueTitle": "Verplaats de rekening"
+            },
+            {
+              "id": "m1-02-b3",
+              "type": "build",
+              "title": "Maak een rivierafspraak",
+              "sceneObject": "system",
+              "intro": "Kies drie onderdelen die samen gebruiksgrens, vertegenwoordiging en controle organiseren.",
+              "hint": "Een commons hoeft niet achteruit te gaan. Gebruik, toezicht en onderhoud kunnen gezamenlijk worden geregeld.",
+              "options": [
+                {
+                  "id": "limit",
+                  "text": "Stel met gebruikers een onderbouwde onttrekkingsgrens vast.",
+                  "correct": true,
+                  "feedback": "Dit onderdeel behandelt de gedeelde fysieke grens."
+                },
+                {
+                  "id": "voice",
+                  "text": "Geef getroffen gebruikers een rol in verdeling en herziening.",
+                  "correct": true,
+                  "feedback": "Dit regelt de stem in het gezamenlijke beheer."
+                },
+                {
+                  "id": "monitor",
+                  "text": "Maak metingen, onderhoud en herziening bij schade controleerbaar.",
+                  "correct": true,
+                  "feedback": "Dit maakt naleving en bijsturing mogelijk."
+                },
+                {
+                  "id": "compensate",
+                  "text": "Maak alleen een budget voor vergoeding achteraf.",
+                  "correct": false,
+                  "feedback": "Vergoeding kan nuttig zijn, maar organiseert geen gebruiksgrens of gezamenlijk beheer."
+                },
+                {
+                  "id": "consultant",
+                  "text": "Laat alleen een externe deskundige de jaarlijkse hoeveelheden bepalen.",
+                  "correct": false,
+                  "feedback": "Deskundigheid helpt; dit voorstel regelt de stem en verantwoording van gebruikers nog niet."
+                },
+                {
+                  "id": "equal",
+                  "text": "Reserveer vaste gelijke hoeveelheden, onafhankelijk van veranderend rivierpeil.",
+                  "correct": false,
+                  "feedback": "Gelijkheid is bespreekbaar, maar mist hier aanpassing aan de gezamenlijke grens."
+                }
+              ],
+              "required": [
+                "limit",
+                "voice",
+                "monitor"
+              ],
+              "explainAfter": "Dit is een startontwerp, geen universeel waterbeleid. Grens, stem en controle vullen elkaar aan; over de precieze verdeling blijft beargumenteerde discussie mogelijk.",
+              "concepts": [
+                "commons-governance",
+                "begrenzing",
+                "verdeling",
+                "collectieve verantwoordelijkheid"
+              ],
+              "sourceBlocks": [
+                7,
+                9
+              ],
+              "clueId": "m1-02-b3-clue",
+              "clueTitle": "Maak een rivierafspraak"
+            }
+          ],
+          "finale": {
+            "intro": "Verbind de factuur, het vissersbericht en de rivierafspraak.",
+            "slots": [
+              {
+                "id": "cost",
+                "label": "Wat verklaart de niet-vergoede inkomensschade bij vissers het meest precies?",
+                "evidenceBeatId": "m1-02-b1",
+                "options": [
+                  {
+                    "id": "external",
+                    "text": "Lozingsschade wordt niet door de fabriek gedragen en blijft buiten de productrekening.",
+                    "correct": true,
+                    "feedback": "De factuur en visserskaart tonen de negatieve externaliteit."
+                  },
+                  {
+                    "id": "commons",
+                    "text": "Een ontbrekende onttrekkingsgrens is op deze kaarten aangetoond als oorzaak van het vissersverlies.",
+                    "correct": false,
+                    "feedback": "Dat zou een commons- en begrenzingsprobleem zijn. Deze kaart toont specifiek lozingsschade."
+                  },
+                  {
+                    "id": "power",
+                    "text": "Weinig onderhandelingsmacht verklaart op zichzelf de technische oorzaak van de verminderde waterkwaliteit.",
+                    "correct": false,
+                    "feedback": "Macht kan de reactie beïnvloeden; de directe kaartverbinding is lozing naar ongedragen schade."
+                  }
+                ]
+              },
+              {
+                "id": "agreement",
+                "label": "Welk onderdeel verandert het gezamenlijke beheer van de hulpbron?",
+                "evidenceBeatId": "m1-02-b3",
+                "options": [
+                  {
+                    "id": "compensate",
+                    "text": "Alleen de productprijs hoger maken, zonder gebruiksafspraken.",
+                    "correct": false,
+                    "feedback": "Een prijswijziging garandeert nog geen gezamenlijke onttrekkingsgrens of toezicht."
+                  },
+                  {
+                    "id": "govern",
+                    "text": "Gebruikers verbinden aan een onderbouwde grens, open metingen en herziening.",
+                    "correct": true,
+                    "feedback": "Dit organiseert de commons en controle op de gezamenlijke grens."
+                  },
+                  {
+                    "id": "divide",
+                    "text": "Alleen een vaste hoeveelheid voor ieder reserveren, onafhankelijk van het rivierpeil.",
+                    "correct": false,
+                    "feedback": "De fysieke grens kan veranderen; beheer moet daarop kunnen reageren."
+                  }
+                ]
+              },
+              {
+                "id": "prediction",
+                "label": "Bij hetzelfde productievolume draagt de fabriek nu alle modelkosten. Wat verandert zonder extra aannames?",
+                "evidenceBeatId": "m1-02-b2",
+                "options": [
+                  {
+                    "id": "lower",
+                    "text": "De maatschappelijke totale kosten dalen onmiddellijk, omdat de bedrijfskosten nu vollediger worden gemeten.",
+                    "correct": false,
+                    "feedback": "Alleen de rekeningdrager verandert in deze proef; de schadehoeveelheid blijft gelijk."
+                  },
+                  {
+                    "id": "shift",
+                    "text": "De bedrijfsrekening stijgt, de rekening buiten het bedrijf daalt; de modeltotale kosten blijven gelijk.",
+                    "correct": true,
+                    "feedback": "Kosten internaliseren verandert de verdeling. Of gedrag en schade daarna veranderen vraagt een volgende proef."
+                  },
+                  {
+                    "id": "clean",
+                    "text": "De rivierkwaliteit verbetert automatisch, omdat vergoeding dezelfde werking heeft als technische schadepreventie.",
+                    "correct": false,
+                    "feedback": "Vergoeding of kostentoerekening is niet hetzelfde als minder lozen."
+                  }
+                ]
+              }
+            ],
+            "conclusion": "Externaliteiten en commons kunnen samen voorkomen. De eerste lens volgt de rekening; de tweede onderzoekt hoe gedeeld gebruik en beheer zijn georganiseerd."
+          },
+          "originalSourceBlocks": [
+            6,
+            7,
+            9
+          ],
+          "optionalReviewBlocks": [
+            9
+          ]
+        },
+        {
+          "id": "m1-03",
+          "beats": [
+            {
+              "id": "m1-03-b1",
+              "type": "order",
+              "title": "Een telefoon reist verder",
+              "sceneObject": "product",
+              "intro": "Leg de reis van een batterij op tafel. Elke stap opent een andere verantwoordelijkheid.",
+              "hint": "Orden naar de fysieke reis. Afval kan opnieuw grondstof worden, maar alleen met werkende verwerking.",
+              "order": [
+                {
+                  "id": "mine",
+                  "text": "Winning van kobalt",
+                  "feedback": "Arbeidsomstandigheden en lokale baten vragen onderzoek."
+                },
+                {
+                  "id": "process",
+                  "text": "Verwerking en materiaalcontrole",
+                  "feedback": "Verwerkingscapaciteit en toegang kunnen geopolitieke invloed geven."
+                },
+                {
+                  "id": "device",
+                  "text": "Assemblage en gebruik van de telefoon",
+                  "feedback": "Gebruikers ontvangen voordelen; waarde ontstaat op meerdere plaatsen."
+                },
+                {
+                  "id": "waste",
+                  "text": "Inzameling en veilige verwerking",
+                  "feedback": "Afval verdwijnt niet doordat het product verkocht is."
+                }
+              ],
+              "explainAfter": "De keten stopt niet bij de directe leverancier of de klant. Baten en lasten kunnen in verschillende landen terechtkomen.",
+              "concepts": [
+                "grondstoffenketen",
+                "winning verwerking gebruik afval"
+              ],
+              "sourceBlocks": [
+                11,
+                12
+              ],
+              "clueId": "m1-03-b1-clue",
+              "clueTitle": "Een telefoon reist verder",
+              "correctOrder": [
+                "mine",
+                "process",
+                "device",
+                "waste"
+              ]
+            },
+            {
+              "id": "m1-03-b2",
+              "type": "inspect",
+              "title": "Drie berichten uit de keten",
+              "sceneObject": "person",
+              "intro": "Open de berichten naast de ketenkaart. Het zijn voorbeelden uit de cursus; stel mensen niet gelijk aan één landsbeeld.",
+              "hint": "Een plaats in de keten geeft niet vanzelf evenveel opbrengst of zeggenschap. Vraag ook naar lokale perspectieven en alternatieven.",
+              "reveal": [
+                {
+                  "id": "cobalt",
+                  "label": "Kobaltbericht",
+                  "title": "Winning en verdeling",
+                  "text": "De cursus gebruikt kobaltwinning in Congo om te vragen waar waarde blijft en wie arbeidsrisico's draagt. Onderzoek de concrete leverancier; het voorbeeld beschrijft niet ieder mijnbouwproject."
+                },
+                {
+                  "id": "minerals",
+                  "label": "Materiaaldossier",
+                  "title": "Controle over een schakel",
+                  "text": "Concentratie van verwerking en levering van zeldzame aardmetalen kan toegang en afhankelijkheid beïnvloeden. China is het geopolitieke voorbeeld in de cursus."
+                },
+                {
+                  "id": "ewaste",
+                  "label": "Afvalmanifest",
+                  "title": "De laatste eigenaar",
+                  "text": "E-waste in Ghana en India laat zien dat consumptiebaten en afvalrisico's ver uit elkaar kunnen liggen. Lokale verwerking en beschermingsmogelijkheden zijn beslissend."
+                }
+              ],
+              "required": [
+                "cobalt",
+                "minerals",
+                "ewaste"
+              ],
+              "explainAfter": "De gemeenschappelijke lens is verdeling langs machtsverhoudingen. Herkomst alleen toont nog niet wie kan onderhandelen, risico verminderen of afspraken veranderen.",
+              "concepts": [
+                "Congo kobalt",
+                "China zeldzame aardmetalen",
+                "e-waste Ghana en India",
+                "geopolitieke macht"
+              ],
+              "sourceBlocks": [
+                12,
+                13
+              ],
+              "clueId": "m1-03-b2-clue",
+              "clueTitle": "Drie berichten uit de keten"
+            },
+            {
+              "id": "m1-03-b3",
+              "type": "connect",
+              "title": "Koppel de macht aan het gevolg",
+              "sceneObject": "evidence",
+              "intro": "Verbind iedere positie met het gevolg dat je moet onderzoeken.",
+              "hint": "Macht ontstaat onder meer uit alternatieven, eigendom, infrastructuur en toegang tot informatie.",
+              "pairs": [
+                {
+                  "id": "access",
+                  "left": "Een partij beheert een cruciale verwerkingsschakel",
+                  "right": "Andere partijen kunnen afhankelijk worden van haar toegangseisen.",
+                  "feedback": "Controle over infrastructuur kan de spelregels beïnvloeden."
+                },
+                {
+                  "id": "risk",
+                  "left": "Een regio verwerkt afval zonder voldoende bescherming",
+                  "right": "De lasten kunnen bij mensen terechtkomen die weinig consumptiebaten ontvingen.",
+                  "feedback": "Dit koppelt externaliteiten aan internationale verdeling."
+                },
+                {
+                  "id": "voice",
+                  "left": "Een leverancier heeft maar één grote afnemer",
+                  "right": "Weinig alternatieven kunnen zijn onderhandelingspositie beperken.",
+                  "feedback": "Vraag naar concrete contracten en beschikbare uitwegen."
+                }
+              ],
+              "explainAfter": "Winner helpt technologie en infrastructuur als machtsstructuur onderzoeken. Vul de routekaart aan met baten, lasten, zeggenschap en open informatievragen.",
+              "concepts": [
+                "baten lasten machtsverhoudingen",
+                "technologie en infrastructuur als macht"
+              ],
+              "sourceBlocks": [
+                12,
+                13
+              ],
+              "clueId": "m1-03-b3-clue",
+              "clueTitle": "Koppel de macht aan het gevolg"
+            }
+          ],
+          "finale": {
+            "intro": "Leg het materiaalbericht naast de afvalroute.",
+            "slots": [
+              {
+                "id": "power",
+                "label": "Waarom kan controle over een cruciale verwerkingsschakel invloed geven?",
+                "evidenceBeatId": "m1-03-b3",
+                "options": [
+                  {
+                    "id": "efficiency",
+                    "text": "Lagere kosten per verwerkt onderdeel geven zonder verdere toegangsgegevens volledige macht over andere partijen.",
+                    "correct": false,
+                    "feedback": "Schaalvoordeel kan meespelen. De kaart toont specifiek afhankelijkheid van een noodzakelijke schakel."
+                  },
+                  {
+                    "id": "gate",
+                    "text": "Andere partijen hebben de schakel nodig; de beheerder beïnvloedt voorwaarden voor aansluiting.",
+                    "correct": true,
+                    "feedback": "Het mechanismepaar gaat over toegang, niet alleen over grootte."
+                  },
+                  {
+                    "id": "popularity",
+                    "text": "De schakel is populair; deelname bewijst dat er bruikbare alternatieven met gelijke voorwaarden bestaan.",
+                    "correct": false,
+                    "feedback": "Veel deelname kan juist met afhankelijkheid samengaan; alternatieven moeten worden onderzocht."
+                  }
+                ]
+              },
+              {
+                "id": "burden",
+                "label": "Wat verbindt consumptie hier met onveilige afvalverwerking elders?",
+                "evidenceBeatId": "m1-03-b2",
+                "options": [
+                  {
+                    "id": "transfer",
+                    "text": "Baten en lasten van dezelfde keten belanden bij andere partijen met andere bescherming.",
+                    "correct": true,
+                    "feedback": "Het afvalmanifest verbindt voordeel en risico over de keten."
+                  },
+                  {
+                    "id": "origin",
+                    "text": "Herkomst van het metaal bewijst dat iedere latere stap onveilig is.",
+                    "correct": false,
+                    "feedback": "Elke stap vraagt eigen bewijs over omstandigheden en bescherming."
+                  },
+                  {
+                    "id": "choice",
+                    "text": "Een formeel afvalcontract bewijst dat lokale partijen evenveel handelingsruimte hebben.",
+                    "correct": false,
+                    "feedback": "Contracten zeggen niet vanzelf iets over alternatieven en feitelijke bescherming."
+                  }
+                ]
+              }
+            ],
+            "conclusion": "De routekaart moet niet alleen plaatsen tonen: leg baten, lasten, afhankelijkheden en open bewijs vragen naast elkaar."
+          },
+          "originalSourceBlocks": [
+            11,
+            12,
+            13
+          ],
+          "optionalReviewBlocks": [
+            11,
+            13
+          ]
+        },
+        {
+          "id": "m1-04",
+          "beats": [
+            {
+              "id": "m1-04-b1",
+              "type": "inspect",
+              "title": "Het nest naast de sensor",
+              "sceneObject": "system",
+              "intro": "De plukmachine telt appels. Open haar drie onderdelen voordat je haar opnieuw start.",
+              "hint": "Een systeem meet en optimaliseert gekozen doelen. Wat niet in het doel of de regels zit, krijgt geen automatische bescherming.",
+              "reveal": [
+                {
+                  "id": "goal",
+                  "label": "Doelscherm",
+                  "title": "Wat telt als succes?",
+                  "text": "Het scherm beloont veel appels per minuut. Nestbescherming is geen criterium."
+                },
+                {
+                  "id": "nest",
+                  "label": "Vogelnest",
+                  "title": "Wat de telling mist",
+                  "text": "Een mens kan dit als belangrijk herkennen. De machine stopt alleen als waarneming en een beschermingsregel zijn ontworpen."
+                },
+                {
+                  "id": "owner",
+                  "label": "Beheerkaart",
+                  "title": "Wie kan ingrijpen?",
+                  "text": "Ontwerpers, gebruikers en bestuurders kunnen doelen en regels veranderen. De metafoor maakt mensen niet ontheven van verantwoordelijkheid."
+                }
+              ],
+              "required": [
+                "goal",
+                "nest",
+                "owner"
+              ],
+              "explainAfter": "Goede bedoelingen van mensen worden niet vanzelf vertaald in systeemgedrag. Onderzoek doel, waarneming, regels en beheer.",
+              "concepts": [
+                "systeemdoel",
+                "menselijk oordeel versus organisatieontwerp"
+              ],
+              "sourceBlocks": [
+                15,
+                16
+              ],
+              "clueId": "m1-04-b1-clue",
+              "clueTitle": "Het nest naast de sensor"
+            },
+            {
+              "id": "m1-04-b2",
+              "type": "connect",
+              "title": "De wachtrij groeit",
+              "sceneObject": "system",
+              "intro": "NOVA beloont reparateurs op toestellen per dag. Verbind het doel met wat er daarna gebeurt.",
+              "hint": "Een KPI is een prestatie-indicator. Hij stuurt aandacht en kan onbedoelde selectie belonen.",
+              "pairs": [
+                {
+                  "id": "count",
+                  "left": "Alleen aantallen afgehandelde toestellen tellen",
+                  "right": "Eenvoudige reparaties lijken aantrekkelijker.",
+                  "feedback": "De indicator beloont snelheid, niet noodzakelijk behoefte."
+                },
+                {
+                  "id": "hard",
+                  "left": "Complexe toestellen drukken de dagscore",
+                  "right": "Hun eigenaren wachten langer.",
+                  "feedback": "Een effect kan ontstaan zonder dat iemand de eigenaar wil benadelen."
+                },
+                {
+                  "id": "care",
+                  "left": "Urgentie en wachttijd krijgen een eigen criterium",
+                  "right": "Eerder verborgen gevolgen worden zichtbaar in de planning.",
+                  "feedback": "Dat verbreedt het ontwerp; het effect moet worden gecontroleerd."
+                }
+              ],
+              "explainAfter": "Goodpaster onderzoekt de spanning tussen moreel relevante gevolgen en economisch ingerichte besluitvorming. Een smalle meetlat kan de handelingsruimte van goedwillende mensen begrenzen.",
+              "concepts": [
+                "KPI-prikkels",
+                "morele paradox organisaties",
+                "Goodpaster"
+              ],
+              "sourceBlocks": [
+                15,
+                17
+              ],
+              "clueId": "m1-04-b2-clue",
+              "clueTitle": "De wachtrij groeit"
+            },
+            {
+              "id": "m1-04-b3",
+              "type": "build",
+              "title": "Pas de planning aan",
+              "sceneObject": "system",
+              "intro": "Kies drie pilotonderdelen die urgentie, kwaliteit en toetsbare bijsturing tegelijk ondersteunen.",
+              "hint": "Meer indicatoren is geen garantie. Kies relevante gevolgen en wijs iemand aan die de resultaten kan bijsturen.",
+              "options": [
+                {
+                  "id": "wait",
+                  "text": "Maak urgentie en wachttijd zichtbaar in de planning.",
+                  "correct": true,
+                  "feedback": "Dit richt de selectie op de eerder gemiste behoefte."
+                },
+                {
+                  "id": "quality",
+                  "text": "Volg reparatiekwaliteit en terugkerende fouten per groep.",
+                  "correct": true,
+                  "feedback": "Dit bewaakt het gevolg naast sneller afhandelen."
+                },
+                {
+                  "id": "review",
+                  "text": "Laat gebruikers en reparateurs de pilot met een verantwoordelijke evalueren.",
+                  "correct": true,
+                  "feedback": "Dit geeft de toetsing een eigenaar en meerdere perspectieven."
+                },
+                {
+                  "id": "training",
+                  "text": "Bied alleen een extra technische vaardigheidstraining.",
+                  "correct": false,
+                  "feedback": "Training kan helpen; de aantallenprikkel blijft daarmee bestaan."
+                },
+                {
+                  "id": "software",
+                  "text": "Versnel alleen de administratieve ticketsoftware.",
+                  "correct": false,
+                  "feedback": "Minder administratie verbetert werkbaarheid maar verandert het prioriteitscriterium niet."
+                },
+                {
+                  "id": "bonus",
+                  "text": "Verhoog alleen de beloning per gesloten reparatieticket.",
+                  "correct": false,
+                  "feedback": "Dit maakt dezelfde selectieprikkel krachtiger."
+                }
+              ],
+              "required": [
+                "wait",
+                "quality",
+                "review"
+              ],
+              "explainAfter": "Je verandert de omstandigheden waarin mensen beslissen. Het voorstel moet worden getest: ook een bredere meetlat kan nieuwe ongewenste effecten krijgen.",
+              "concepts": [
+                "systeeminterventie",
+                "waarden in prestatiemeting"
+              ],
+              "sourceBlocks": [
+                15,
+                17
+              ],
+              "clueId": "m1-04-b3-clue",
+              "clueTitle": "Pas de planning aan"
+            }
+          ],
+          "finale": {
+            "intro": "Combineer de doelinstelling, wachtrij en pilot.",
+            "slots": [
+              {
+                "id": "mechanism",
+                "label": "Waarom blijven complexe reparaties liggen ondanks goede bedoelingen?",
+                "evidenceBeatId": "m1-04-b2",
+                "options": [
+                  {
+                    "id": "skills",
+                    "text": "Een gebrek aan reparatievaardigheid is de aangetoonde verklaring voor het overslaan van complexe gevallen.",
+                    "correct": false,
+                    "feedback": "Vaardigheid kan relevant zijn, maar is niet op de kaarten gemeten."
+                  },
+                  {
+                    "id": "complex",
+                    "text": "De langere taakduur verklaart de selectie volledig; de dagscore heeft geen zelfstandig effect.",
+                    "correct": false,
+                    "feedback": "De langere duur wordt door de aantallen-KPI extra nadelig gemaakt."
+                  },
+                  {
+                    "id": "metric",
+                    "text": "De aantallen-KPI maakt snelle gevallen voordeliger en verlaagt de prioriteit van complexe gevallen.",
+                    "correct": true,
+                    "feedback": "De kaarten verbinden doel, beloning en selectie. Intenties hoeven daarvoor niet slecht te zijn."
+                  }
+                ]
+              },
+              {
+                "id": "intervention",
+                "label": "Welk bewijs zou laten zien dat je pilot het probleem aanpakt?",
+                "evidenceBeatId": "m1-04-b3",
+                "options": [
+                  {
+                    "id": "wait",
+                    "text": "Wachttijd van urgente complexe gevallen daalt, met behouden reparatiekwaliteit en uitvoerbare werkdruk.",
+                    "correct": true,
+                    "feedback": "Dit volgt het doel en controleert relevante neveneffecten."
+                  },
+                  {
+                    "id": "count",
+                    "text": "Het totale aantal gesloten tickets stijgt, terwijl urgente complexe gevallen dezelfde wachttijd houden.",
+                    "correct": false,
+                    "feedback": "Een betere dagscore toont nog geen oplossing van het onderzochte selectieprobleem."
+                  },
+                  {
+                    "id": "average",
+                    "text": "De gemiddelde wachttijd daalt door snelle eenvoudige reparaties, zonder uitsplitsing van andere gevallen.",
+                    "correct": false,
+                    "feedback": "Een gemiddelde kan de groep met het probleem nog steeds verbergen."
+                  }
+                ]
+              }
+            ],
+            "conclusion": "Het ontwerp stuurt wat mensen als haalbaar en lonend ervaren. Toets een bredere meetlat aan concrete gevolgen, niet alleen aan nieuwe woorden."
+          },
+          "originalSourceBlocks": [
+            15,
+            16,
+            17
+          ],
+          "optionalReviewBlocks": [
+            16,
+            17
+          ]
+        },
+        {
+          "id": "m1-05",
+          "beats": [
+            {
+              "id": "m1-05-b1",
+              "type": "order",
+              "title": "De sleutel verdient mee",
+              "sceneObject": "evidence",
+              "intro": "Leg de route van bezit naar mogelijke extra invloed. De volgorde toont een mechanisme, geen wet voor ieder individu.",
+              "hint": "Eigendom kan opbrengsten en beslisrechten geven. Herinvestering kan een beginvoorsprong vergroten; beleid en omstandigheden beïnvloeden dat.",
+              "order": [
+                {
+                  "id": "own",
+                  "text": "Een partij bezit gebouwen, kapitaal of data",
+                  "feedback": "Eigendom verbindt toegang, opbrengst en controle."
+                },
+                {
+                  "id": "return",
+                  "text": "De partij ontvangt een rendement",
+                  "feedback": "Arbeidsinkomen en kapitaalopbrengst kunnen verschillend groeien."
+                },
+                {
+                  "id": "reinvest",
+                  "text": "Een deel wordt opnieuw geïnvesteerd",
+                  "feedback": "Vermogen kan zichzelf cumulatief versterken."
+                },
+                {
+                  "id": "influence",
+                  "text": "Meer bezit vergroot mogelijke marktinvloed",
+                  "feedback": "Schaal en afhankelijkheid kunnen de macht versterken."
+                }
+              ],
+              "explainAfter": "Piketty onderzoekt hoe rendement en economische groei samenhangen met vermogensconcentratie. Het mechanisme is voorwaardelijk: regels, belastingen en omstandigheden kunnen het versterken of begrenzen.",
+              "concepts": [
+                "eigendom zeggenschap opbrengst",
+                "cumulatieve vermogensgroei",
+                "Piketty"
+              ],
+              "sourceBlocks": [
+                19,
+                22
+              ],
+              "clueId": "m1-05-b1-clue",
+              "clueTitle": "De sleutel verdient mee",
+              "correctOrder": [
+                "own",
+                "return",
+                "reinvest",
+                "influence"
+              ]
+            },
+            {
+              "id": "m1-05-b2",
+              "type": "inspect",
+              "title": "Drie soorten sleutel",
+              "sceneObject": "evidence",
+              "intro": "Open de sleutelhangers. Ontdek dat eigendom meer kan doen dan een persoonlijke aankoop beschermen.",
+              "hint": "Vraag bij ieder bezit wie opbrengsten ontvangt, toegang bepaalt en alternatieven heeft.",
+              "reveal": [
+                {
+                  "id": "home",
+                  "label": "Huissleutel",
+                  "title": "Autonomie en vastgoed",
+                  "text": "Eigendom kan vrijheid en zekerheid geven. Smith verbond dit aan autonomie tegenover feodale afhankelijkheid. Groot vastgoedbezit kan tegelijk toegang en prijzen voor huurders beïnvloeden."
+                },
+                {
+                  "id": "fund",
+                  "label": "Beleggingspas",
+                  "title": "Institutionele investeerders",
+                  "text": "Gebundeld kapitaal kan bedrijven financieren en via voorwaarden en zeggenschap invloed uitoefenen."
+                },
+                {
+                  "id": "data",
+                  "label": "Datasleutel",
+                  "title": "Platformbezit",
+                  "text": "Veel data en deelnemers kunnen een platform aantrekkelijker maken en alternatieven moeilijker opbouwen."
+                }
+              ],
+              "required": [
+                "home",
+                "fund",
+                "data"
+              ],
+              "explainAfter": "De cursus verbindt bezit aan vrijheid én mogelijke machtsconcentratie. Beoordeel het concrete mechanisme, niet alleen het etiket van de eigenaar.",
+              "concepts": [
+                "Smith: eigendom als autonomie",
+                "vastgoedfondsen",
+                "institutionele investeerders",
+                "databezit",
+                "schaalvoordelen"
+              ],
+              "sourceBlocks": [
+                19
+              ],
+              "clueId": "m1-05-b2-clue",
+              "clueTitle": "Drie soorten sleutel"
+            },
+            {
+              "id": "m1-05-b3",
+              "type": "sort",
+              "title": "Wie verandert de spelregels?",
+              "sceneObject": "evidence",
+              "intro": "Een historisch dossier bevat institutionele veranderingen en mogelijke gevolgen. Maak twee stapels.",
+              "hint": "Neoliberalisme is een analytische naam voor deregulering, privatisering en vertrouwen dat marktwerking efficiënter is dan overheidsorganisatie. De cursus geeft hiervan een kritische lezing; effecten verschillen per sector en periode.",
+              "categories": [
+                {
+                  "id": "choice",
+                  "label": "Verandering van regels of inrichting"
+                },
+                {
+                  "id": "effect",
+                  "label": "Gevolg dat je moet onderzoeken"
+                }
+              ],
+              "cards": [
+                {
+                  "id": "dereg",
+                  "text": "Minder toezicht en marktregulering",
+                  "category": "choice",
+                  "feedback": "Dit verandert de institutionele grenzen van bedrijven."
+                },
+                {
+                  "id": "priv",
+                  "text": "Een publieke voorziening wordt geprivatiseerd",
+                  "category": "choice",
+                  "feedback": "Eigendom en verantwoordingsstructuur veranderen."
+                },
+                {
+                  "id": "finance",
+                  "text": "Financiële indicatoren wegen zwaarder in strategie",
+                  "category": "choice",
+                  "feedback": "Dit is de financiële oriëntatie die financialisering beschrijft."
+                },
+                {
+                  "id": "concentration",
+                  "text": "Weinig dominante aanbieders bepalen toegang",
+                  "category": "effect",
+                  "feedback": "Onderzoek marktaandeel, alternatieven en invloed."
+                },
+                {
+                  "id": "short",
+                  "text": "Onderhoud wordt uitgesteld voor een snelle opbrengst",
+                  "category": "effect",
+                  "feedback": "Een mogelijke verschuiving van tijdshorizon; niet elke context reageert gelijk."
+                },
+                {
+                  "id": "politics",
+                  "text": "Een grote aanbieder beïnvloedt standaarden en beleid",
+                  "category": "effect",
+                  "feedback": "Marktmacht kan buiten prijszetting doorwerken."
+                }
+              ],
+              "explainAfter": "Regelkeuzes kunnen toezicht, publieke toegang, innovatie en financiële prikkels veranderen. De precieze gevolgen verschillen per context; een kritische theorie vervangt concreet bewijs niet.",
+              "concepts": [
+                "neoliberalisme",
+                "deregulering",
+                "privatisering",
+                "financialisering",
+                "marktconcentratie",
+                "toezicht",
+                "publieke voorzieningen",
+                "aannames markt versus staat"
+              ],
+              "sourceBlocks": [
+                24,
+                25,
+                26
+              ],
+              "clueId": "m1-05-b3-clue",
+              "clueTitle": "Wie verandert de spelregels?"
+            },
+            {
+              "id": "m1-05-b4",
+              "type": "decision",
+              "title": "Stemrecht bij de reparatiehub",
+              "sceneObject": "person",
+              "intro": "NOVA koopt een reparatiehub met kennis van lokale technici. Iris vraagt je wat het eigendomscontract expliciet moet maken.",
+              "hint": "Eigendom regelt meer dan bezit van spullen: ook controle, opbrengsten, risico en verantwoording.",
+              "options": [
+                {
+                  "id": "rights",
+                  "text": "Verbind beslisrechten aan bijdragen, risico's en bescherming; leg de afweging in het contract vast.",
+                  "correct": true,
+                  "feedback": "Je maakt rechten en criteria zichtbaar. Niet elke bijdrage geeft automatisch dezelfde bevoegdheid."
+                },
+                {
+                  "id": "price",
+                  "text": "Gebruik uitsluitend de aankoopprijs als volledige rechtvaardiging voor alle beslisrechten.",
+                  "correct": false,
+                  "feedback": "Financiële bijdrage telt, maar gevolgen en specifieke investeringen van anderen blijven relevant."
+                },
+                {
+                  "id": "equal",
+                  "text": "Geef iedere betrokken partij exact hetzelfde stemgewicht zonder hun verschillende rechten te onderzoeken.",
+                  "correct": false,
+                  "feedback": "Gelijke macht is een voorstel dat onderbouwing vraagt, geen automatisch gevolg van betrokkenheid."
+                },
+                {
+                  "id": "consult",
+                  "text": "Noem vrijblijvend overleg voldoende, terwijl het contract geen informatie- of verantwoordingsrechten geeft.",
+                  "correct": false,
+                  "feedback": "Inspraak kan invloed missen als rechten en timing niet zijn geregeld."
+                }
+              ],
+              "explainAfter": "Morele economie vraagt hoe het systeem bepaalt wie controle, kansen en waarde ontvangt.",
+              "concepts": [
+                "eigendom versus bijdrage",
+                "instituties bepalen waarde en macht"
+              ],
+              "sourceBlocks": [
+                19,
+                24
+              ],
+              "clueId": "m1-05-b4-clue",
+              "clueTitle": "Stemrecht bij de reparatiehub"
+            },
+            {
+              "id": "m1-05-b5",
+              "type": "inspect",
+              "title": "Twee groeistroken",
+              "sceneObject": "evidence",
+              "intro": "Op de hubtafel liggen twee rekenstroken. Vergelijk ze voordat je de groei van eigendom verklaart.",
+              "hint": "Rendement r is opbrengst op kapitaal. Groei g beschrijft de economie. Als bezit langdurig sneller groeit, kan een vermogensvoorsprong groter worden.",
+              "reveal": [
+                {
+                  "id": "capital",
+                  "label": "Kapitaalstrook",
+                  "title": "5% opnieuw investeren",
+                  "text": "In dit fictieve rekenvoorbeeld groeit 1.000 kapitaal bij 5% jaarlijks herinvesteren na vijf jaar tot ongeveer 1.276."
+                },
+                {
+                  "id": "economy",
+                  "label": "Economiestrook",
+                  "title": "2% groei",
+                  "text": "Een economie-index van 1.000 groeit bij 2% per jaar na vijf jaar tot ongeveer 1.104. Dit is geen individuele loonvoorspelling."
+                },
+                {
+                  "id": "difference",
+                  "label": "Vergelijkingsvenster",
+                  "title": "Een groter verschil",
+                  "text": "5% is groter dan 2%: r > g. Piketty gebruikt de relatie om historische vermogensconcentratie te analyseren."
+                },
+                {
+                  "id": "conditions",
+                  "label": "Randvoorwaarden",
+                  "title": "Geen universele garantie",
+                  "text": "Belastingen, verliezen, schulden, instituties en veranderende rendementen beïnvloeden de route. Het voorbeeld bewijst niet dat ieder bezit altijd sneller groeit."
+                }
+              ],
+              "required": [
+                "capital",
+                "economy",
+                "difference",
+                "conditions"
+              ],
+              "explainAfter": "Het verschil tussen rendement en groei kan concentratie helpen verklaren. Onderzoek de omstandigheden en instituties; verwissel een tendens niet met een natuurwet.",
+              "concepts": [
+                "rendement r",
+                "economische groei g",
+                "r groter dan g",
+                "vermogensconcentratie afhankelijk van context"
+              ],
+              "sourceBlocks": [
+                19,
+                22
+              ],
+              "clueId": "m1-05-b5-clue",
+              "clueTitle": "Twee groeistroken"
+            },
+            {
+              "id": "m1-05-b6",
+              "type": "connect",
+              "title": "De poort van de reparatiehub",
+              "sceneObject": "system",
+              "intro": "Plaats de gevolgen bij de toegangsregel die ze veroorzaakt. De hub bezit nu een groot deel van het reparatienetwerk.",
+              "hint": "Marktmacht gaat verder dan prijs. Controle over een noodzakelijke infrastructuur kan kansen, standaarden en informatie beïnvloeden.",
+              "pairs": [
+                {
+                  "id": "price",
+                  "left": "Onderdelen zijn nauwelijks elders verkrijgbaar",
+                  "right": "De hub kan meer invloed op prijsvoorwaarden krijgen.",
+                  "feedback": "Onderzoek beschikbare alternatieven en marktaandeel."
+                },
+                {
+                  "id": "work",
+                  "left": "Alleen aangesloten technici krijgen reparatieopdrachten",
+                  "right": "Toegang tot het netwerk beïnvloedt toegang tot werk.",
+                  "feedback": "Het toetredingscriterium heeft gevolgen voor levensonderhoud."
+                },
+                {
+                  "id": "innovate",
+                  "left": "Een nieuw reparatieproces moet door de hub worden toegelaten",
+                  "right": "De poortwachter beïnvloedt welke innovaties klanten bereiken.",
+                  "feedback": "Een veiligheidsnorm en concurrentie uitsluiten vragen verschillende rechtvaardigingen."
+                },
+                {
+                  "id": "politics",
+                  "left": "De hub helpt de sectorstandaard en beleidsagenda bepalen",
+                  "right": "Economische positie kan politieke invloed geven.",
+                  "feedback": "Vraag wie mee beslist en verantwoording kan eisen."
+                },
+                {
+                  "id": "data",
+                  "left": "Reparatiegegevens blijven uitsluitend bij de hub",
+                  "right": "Datatoegang beïnvloedt inzicht en zelfstandigheid van anderen.",
+                  "feedback": "Data zijn ook controle over wat anderen kunnen weten en doen."
+                }
+              ],
+              "explainAfter": "De kritische cursuslens vraagt wie publieke waarden beschermt wanneer private infrastructuur veel bepaalt. Onderzoek iedere concrete toegangseis en haar rechtvaardiging.",
+              "concepts": [
+                "marktmacht prijzen",
+                "toegang tot werk",
+                "innovatie",
+                "politieke invloed",
+                "data-autonomie"
+              ],
+              "sourceBlocks": [
+                24,
+                25,
+                26
+              ],
+              "clueId": "m1-05-b6-clue",
+              "clueTitle": "De poort van de reparatiehub"
+            }
+          ],
+          "finale": {
+            "intro": "Reconstrueer hoe een sleutel zeggenschap kan worden.",
+            "slots": [
+              {
+                "id": "accumulation",
+                "label": "Welke route verklaart de groei van invloed in de bezitsketen?",
+                "evidenceBeatId": "m1-05-b1",
+                "options": [
+                  {
+                    "id": "reinvest",
+                    "text": "Opbrengst uit bezit wordt herbelegd; bij deze omstandigheden groeit de beschikbare eigendomsbasis.",
+                    "correct": true,
+                    "feedback": "Het mechanisme kan invloed vergroten, maar hangt af van rendement en instituties."
+                  },
+                  {
+                    "id": "marketing",
+                    "text": "Meer aandacht voor het merk is hier gemeten als de belangrijkste bron van het extra bezit.",
+                    "correct": false,
+                    "feedback": "Reclame kan vraag beïnvloeden; de rekenstroken tonen opbrengst en herinvestering."
+                  },
+                  {
+                    "id": "discipline",
+                    "text": "Een kwartaalbeoordeling is hier het directe bewijs dat persoonlijk arbeidsinkomen sneller groeit.",
+                    "correct": false,
+                    "feedback": "De bron toont kapitaalopbrengst; een financieel beoordelingskader is een ander mechanisme."
+                  }
+                ]
+              },
+              {
+                "id": "rules",
+                "label": "Nieuw toezicht wordt ingevoerd; de hub behoudt haar netwerk en eigendom. Welke voorspelling is zorgvuldig?",
+                "evidenceBeatId": "m1-05-b6",
+                "options": [
+                  {
+                    "id": "gone",
+                    "text": "De netwerkafhankelijkheid verdwijnt meteen, omdat iedere publieke regel automatisch marktconcentratie opheft.",
+                    "correct": false,
+                    "feedback": "Regels kunnen macht begrenzen; eigendom, schaal en alternatieven moeten nog worden onderzocht."
+                  },
+                  {
+                    "id": "conditional",
+                    "text": "Toezicht kan voorwaarden begrenzen; de bestaande toegangsafhankelijkheid kan desondanks blijven bestaan.",
+                    "correct": true,
+                    "feedback": "Institutionele ingrepen en infrastructuurmacht zijn verwant maar verschillende mechanismen."
+                  },
+                  {
+                    "id": "nothing",
+                    "text": "Het toezicht kan geen toegangseis beïnvloeden zolang het netwerk privaat eigendom blijft.",
+                    "correct": false,
+                    "feedback": "Publieke regels kunnen private voorwaarden beïnvloeden zonder het eigendom over te nemen."
+                  }
+                ]
+              }
+            ],
+            "conclusion": "Eigendom koppelt opbrengst, controle en risico. Onderzoek welke regels deze route mogelijk maken en welke alternatieven betrokken partijen hebben."
+          },
+          "originalSourceBlocks": [
+            19,
+            21,
+            22,
+            24,
+            25,
+            26
+          ],
+          "optionalReviewBlocks": [
+            21,
+            22,
+            25,
+            26
+          ]
+        },
+        {
+          "id": "m1-06",
+          "beats": [
+            {
+              "id": "m1-06-b1",
+              "type": "inspect",
+              "title": "Verborgen instellingen in de etalage",
+              "sceneObject": "product",
+              "intro": "Onderzoek de etalage: niets ligt toevallig op ooghoogte. Open drie instellingen.",
+              "hint": "Een keuze begint vóór de aankoop. Assortiment, rangschikking en standaardinstellingen bepalen wat gemakkelijk zichtbaar wordt.",
+              "reveal": [
+                {
+                  "id": "shelf",
+                  "label": "Schaphoogte",
+                  "title": "Zichtbaarheid",
+                  "text": "Het duurste model staat centraal. Een reparatieoptie staat onderaan. Het aanbod stuurt welke mogelijkheden opvallen."
+                },
+                {
+                  "id": "feed",
+                  "label": "Persoonlijke feed",
+                  "title": "Verschillend keuzemenu",
+                  "text": "Een algoritme bepaalt welke producten en informatie iedere gebruiker ziet."
+                },
+                {
+                  "id": "default",
+                  "label": "Standaardknop",
+                  "title": "De makkelijkste route",
+                  "text": "'Nieuw toestel' is vooraf geselecteerd. Afwijken vraagt een extra handeling."
+                }
+              ],
+              "required": [
+                "shelf",
+                "feed",
+                "default"
+              ],
+              "explainAfter": "Aanbod en vraag beïnvloeden elkaar. De aankoop bewijst niet dat de voorkeur los van deze omgeving bestond. Beïnvloeding betekent evenmin dat de gebruiker geen eigen voorkeur of agency heeft.",
+              "concepts": [
+                "aanbod vormt vraag",
+                "algoritmische zichtbaarheid",
+                "geconstrueerde keuzeruimte"
+              ],
+              "sourceBlocks": [
+                28,
+                29
+              ],
+              "clueId": "m1-06-b1-clue",
+              "clueTitle": "Verborgen instellingen in de etalage"
+            },
+            {
+              "id": "m1-06-b2",
+              "type": "sort",
+              "title": "Drie duwtjes naar de aankoop",
+              "sceneObject": "person",
+              "intro": "Leg ieder verkoopsignaal bij het mechanisme dat het kan activeren.",
+              "hint": "Kuddegedrag: anderen volgen als aanwijzing. Verliesaversie: verlies voelt vaak sterker dan vergelijkbare winst. Morele ontkoppeling: een geruststellend verhaal maakt schade aanvaardbaar.",
+              "categories": [
+                {
+                  "id": "herd",
+                  "label": "De groep volgen"
+                },
+                {
+                  "id": "loss",
+                  "label": "Verlies voorkomen"
+                },
+                {
+                  "id": "detach",
+                  "label": "Schade wegpraten"
+                }
+              ],
+              "cards": [
+                {
+                  "id": "popular",
+                  "text": "'Iedereen kiest dit model'",
+                  "category": "herd",
+                  "feedback": "Het aantal kopers kan onterecht als bewijs van kwaliteit of juistheid dienen."
+                },
+                {
+                  "id": "bonus",
+                  "text": "'Je verliest vandaag je inruilbonus'",
+                  "category": "loss",
+                  "feedback": "De boodschap presenteert niet kopen als verlies."
+                },
+                {
+                  "id": "legal",
+                  "text": "'Het is legaal, dus er is geen ethisch probleem'",
+                  "category": "detach",
+                  "feedback": "Wettelijke toestemming maakt gevolgen niet automatisch verantwoord."
+                },
+                {
+                  "id": "bubble",
+                  "text": "Beleggers kopen omdat andere beleggers kopen",
+                  "category": "herd",
+                  "feedback": "Navolging kan zichzelf versterken en signalen verdringen."
+                },
+                {
+                  "id": "cut",
+                  "text": "'De schade is maar een klein bijeffect'",
+                  "category": "detach",
+                  "feedback": "Minimalisering verlaagt de gevoelde morele spanning."
+                },
+                {
+                  "id": "money",
+                  "text": "Een verlies van €100 voelt zwaarder dan €100 winst",
+                  "category": "loss",
+                  "feedback": "Dit is het verschil in gevoelde waarde, niet een vaste reactie van ieder mens."
+                }
+              ],
+              "explainAfter": "Psychologische reflexen werken binnen prikkels en sociale context. Ze kunnen keuzes en marktdynamiek beïnvloeden zonder een bewuste slechte bedoeling.",
+              "concepts": [
+                "kuddegedrag",
+                "verliesaversie",
+                "morele ontkoppeling"
+              ],
+              "sourceBlocks": [
+                31,
+                32,
+                34
+              ],
+              "clueId": "m1-06-b2-clue",
+              "clueTitle": "Drie duwtjes naar de aankoop"
+            },
+            {
+              "id": "m1-06-b3",
+              "type": "build",
+              "title": "Herontwerp het keuzemenu",
+              "sceneObject": "system",
+              "intro": "Kies drie wijzigingen die informatie, zichtbaarheid en gebruikerscontrole verbeteren.",
+              "hint": "Je hoeft geen voorkeursuitkomst op te leggen. Vergroot informatie, bruikbare alternatieven en controle over de route.",
+              "options": [
+                {
+                  "id": "repair",
+                  "text": "Toon reparatie en vervanging met vergelijkbare prijs en gebruiksduur.",
+                  "correct": true,
+                  "feedback": "De gebruiker kan een bruikbaar alternatief afwegen."
+                },
+                {
+                  "id": "rank",
+                  "text": "Maak rangschikkingscriteria en betaalde plaatsing herkenbaar.",
+                  "correct": true,
+                  "feedback": "Dit verklaart waarom opties opvallen."
+                },
+                {
+                  "id": "control",
+                  "text": "Laat gebruikers standaardroute en personalisatie wijzigen.",
+                  "correct": true,
+                  "feedback": "De gebruiker kan de ontworpen route aanpassen."
+                },
+                {
+                  "id": "popular",
+                  "text": "Voeg alleen meer beoordelingen en populariteitssignalen toe.",
+                  "correct": false,
+                  "feedback": "Ervaringen kunnen nuttig zijn; dit geeft nog geen controle of transparantie over selectie."
+                },
+                {
+                  "id": "campaign",
+                  "text": "Maak alleen een nieuwe campagne over reparatie.",
+                  "correct": false,
+                  "feedback": "Een campagne kan aandacht geven maar verandert de standaardroute en informatietoegang niet."
+                },
+                {
+                  "id": "ranking",
+                  "text": "Zet reparatie altijd bovenaan zonder de rangschikking uit te leggen.",
+                  "correct": false,
+                  "feedback": "Dit verschuift de sturing; het maakt de werking en keuzemogelijkheid nog niet transparant."
+                }
+              ],
+              "required": [
+                "repair",
+                "rank",
+                "control"
+              ],
+              "explainAfter": "Een keuzeomgeving kan informatie en bruikbare alternatieven ondersteunen. Eén uitkomst achter druk verbergen is iets anders. Later onderzoek je wie dit ontwerp binnen NOVA kan veranderen.",
+              "concepts": [
+                "keuzevrijheid",
+                "publieke waarden",
+                "financiële versus stakeholderlogica"
+              ],
+              "sourceBlocks": [
+                28,
+                31,
+                34
+              ],
+              "clueId": "m1-06-b3-clue",
+              "clueTitle": "Herontwerp het keuzemenu"
+            },
+            {
+              "id": "m1-06-b4",
+              "type": "connect",
+              "title": "De onderhoudslade blijft dicht",
+              "sceneObject": "evidence",
+              "intro": "Open de begrotingslade. Verbind de snelle besparing met de partij of periode die het gevolg draagt.",
+              "hint": "Financiële beoordeling kan korte opbrengsten zwaarder laten wegen. Een besparing op de ene rekening kan waarde of risico elders veranderen.",
+              "pairs": [
+                {
+                  "id": "jobs",
+                  "left": "Arbeidskosten gaan vandaag omlaag",
+                  "right": "Werknemers kunnen zekerheid of tijd voor kwaliteit verliezen.",
+                  "feedback": "De besparing en het sociale gevolg vallen niet vanzelf bij dezelfde partij."
+                },
+                {
+                  "id": "maintenance",
+                  "left": "Onderhoud wordt naar volgend jaar verschoven",
+                  "right": "De kwartaalwinst verbetert; kans op latere uitval kan stijgen.",
+                  "feedback": "Een financiële tijdshorizon kan onderhoud minder zichtbaar maken."
+                },
+                {
+                  "id": "repair",
+                  "left": "De reparatie-investering vervalt zonder eigen rendement",
+                  "right": "Langere gebruiksduur telt minder als zij niet in de financiële beoordeling past.",
+                  "feedback": "Dit is het filter tussen maatschappelijke waarde en financieel criterium."
+                },
+                {
+                  "id": "buffer",
+                  "left": "Reserves en capaciteit worden strak geminimaliseerd",
+                  "right": "Een storing of crisis kan minder goed worden opgevangen.",
+                  "feedback": "Efficiëntie en weerbaarheid vragen een expliciete afweging."
+                }
+              ],
+              "explainAfter": "De cursus contrasteert aandeelhouderswaarde met breder betrokken belangen. Dit verklaart druk op keuzes; financiële continuïteit blijft relevant en alternatieven vragen uitvoerbaarheid.",
+              "concepts": [
+                "financiële dominantie",
+                "kortetermijnrendement",
+                "werknemerskosten",
+                "onderhoud en duurzaamheid",
+                "kwetsbaarheid bij crises",
+                "aandeelhouders versus stakeholders"
+              ],
+              "sourceBlocks": [
+                28
+              ],
+              "clueId": "m1-06-b4-clue",
+              "clueTitle": "De onderhoudslade blijft dicht"
+            },
+            {
+              "id": "m1-06-b5",
+              "type": "order",
+              "title": "Het gerucht op het koersscherm",
+              "sceneObject": "system",
+              "intro": "Een beursgerucht over NOVA verspreidt zich. Leg de navolgingslus in volgorde; kijk hoe nieuwe kopers de eerdere kopers geruststellen.",
+              "hint": "Bij onzekerheid kan groepsgedrag als informatie gaan tellen. Meer deelnemers is dan een signaal, geen onafhankelijk bewijs.",
+              "order": [
+                {
+                  "id": "uncertain",
+                  "text": "Er is onzekerheid over de werkelijke waarde.",
+                  "feedback": "De zoektocht naar informatie maakt groepssignalen aantrekkelijk."
+                },
+                {
+                  "id": "follow",
+                  "text": "Beleggers volgen anderen en vrezen een kans of groepspositie te verliezen.",
+                  "feedback": "Veronderstelde deskundigheid en uitsluiting kunnen navolging versterken."
+                },
+                {
+                  "id": "signal",
+                  "text": "Meer kopers lijkt bewijs dat het gerucht klopt.",
+                  "feedback": "Dezelfde eerdere navolging wordt nu als nieuwe informatie gelezen."
+                },
+                {
+                  "id": "ignore",
+                  "text": "Tegenstrijdige signalen krijgen minder aandacht.",
+                  "feedback": "De diversiteit van oordelen neemt af: tunnelvisie kan instabiliteit versterken."
+                }
+              ],
+              "explainAfter": "Kuddegedrag kan zichzelf versterken. Dat is een mogelijk mechanisme achter bubbels of tunnelvisie, geen bewijs dat elke koersstijging of groepskeuze irrationeel is.",
+              "concepts": [
+                "kuddegedrag bij onzekerheid",
+                "angst voor uitsluiting",
+                "meerderheid als informatie",
+                "zichzelf versterkende navolging",
+                "tunnelvisie en instabiliteit"
+              ],
+              "sourceBlocks": [
+                31,
+                32
+              ],
+              "clueId": "m1-06-b5-clue",
+              "clueTitle": "Het gerucht op het koersscherm",
+              "correctOrder": [
+                "uncertain",
+                "follow",
+                "signal",
+                "ignore"
+              ]
+            },
+            {
+              "id": "m1-06-b6",
+              "type": "inspect",
+              "title": "Dezelfde honderd euro",
+              "sceneObject": "person",
+              "intro": "Eva legt twee kaartjes met hetzelfde bedrag neer. Onderzoek waarom hun gevoelde betekenis kan verschillen.",
+              "hint": "Verliesaversie betekent dat een verlies vaak zwaarder voelt dan een vergelijkbare winst. Een neiging is geen vaste reactie van ieder individu.",
+              "reveal": [
+                {
+                  "id": "gain",
+                  "label": "+ €100",
+                  "title": "Een mogelijke winst",
+                  "text": "Een voordeel van €100 kan aantrekkelijk zijn. De gevoelde waarde is niet automatisch het spiegelbeeld van hetzelfde bedrag verliezen."
+                },
+                {
+                  "id": "loss",
+                  "label": "− €100",
+                  "title": "Een mogelijk verlies",
+                  "text": "Een vergelijkbaar verlies kan sterker voelen. Daardoor kan iemand een kans vermijden die op basis van alleen de bedragen aantrekkelijk lijkt."
+                },
+                {
+                  "id": "pressure",
+                  "label": "Na een verlies",
+                  "title": "Verschillende reacties op druk",
+                  "text": "De cursus verbindt verliesdruk aan risicomijding én mogelijke overreacties. Onderzoek de concrete keuze en context; één verlies bewijst geen vaste strategie."
+                }
+              ],
+              "required": [
+                "gain",
+                "loss",
+                "pressure"
+              ],
+              "explainAfter": "De cijfers alleen verklaren de ervaring niet volledig. Psychologische neigingen werken samen met context en systeemprikkels; ze kunnen gevolgen hebben voor investeringen, beleid en crises.",
+              "concepts": [
+                "verliesaversie",
+                "risicomijding",
+                "overreactie onder verliesdruk"
+              ],
+              "sourceBlocks": [
+                31,
+                32
+              ],
+              "clueId": "m1-06-b6-clue",
+              "clueTitle": "Dezelfde honderd euro"
+            }
+          ],
+          "finale": {
+            "intro": "Combineer de etalage-instellingen met het verkoopsignaal.",
+            "slots": [
+              {
+                "id": "menu",
+                "label": "Reparatie staat nu bovenaan; bij gelijke prijzen kiezen meer gebruikers reparatie. Wat ondersteunt dit?",
+                "evidenceBeatId": "m1-06-b1",
+                "options": [
+                  {
+                    "id": "price",
+                    "text": "Een gewijzigde reparatieprijs is het aangetoonde mechanisme achter de veranderde keuze.",
+                    "correct": false,
+                    "feedback": "De voorwaarde zegt dat de prijzen gelijk blijven; deze verklaring is hier niet aangetoond."
+                  },
+                  {
+                    "id": "design",
+                    "text": "Zichtbaarheid kan het keuzegedrag beïnvloeden, naast bestaande doelen en voorkeuren van gebruikers.",
+                    "correct": true,
+                    "feedback": "Het resultaat ondersteunt invloed van het menu, niet volledige bepaling van ieder individu."
+                  },
+                  {
+                    "id": "preference",
+                    "text": "De rangschikking heeft geen invloed; de nieuwe keuze toont uitsluitend vooraf vaststaande voorkeuren.",
+                    "correct": false,
+                    "feedback": "De gewijzigde zichtbaarheid en gelijkgehouden prijzen geven juist reden haar effect te onderzoeken."
+                  }
+                ]
+              },
+              {
+                "id": "signal",
+                "label": "Wat is het meest specifieke mechanisme achter 'je verliest vandaag de bonus'?",
+                "evidenceBeatId": "m1-06-b2",
+                "options": [
+                  {
+                    "id": "herd",
+                    "text": "Kuddegedrag: de boodschap vertelt wat de meerderheid kiest.",
+                    "correct": false,
+                    "feedback": "Dat zou een groepssignaal zijn; deze boodschap benadrukt een dreigend verlies."
+                  },
+                  {
+                    "id": "detach",
+                    "text": "Morele ontkoppeling: de boodschap praat schade weg.",
+                    "correct": false,
+                    "feedback": "Hier wordt geen schade gerechtvaardigd maar een gemiste bonus als verlies gepresenteerd."
+                  },
+                  {
+                    "id": "loss",
+                    "text": "Verliesaversie: niet kopen wordt als het verliezen van een voordeel gepresenteerd.",
+                    "correct": true,
+                    "feedback": "De formulering activeert het verschil tussen gevoelde winst en verlies."
+                  }
+                ]
+              }
+            ],
+            "conclusion": "Een aankoop ontstaat in een ontworpen omgeving. Onderscheid het concrete psychologische mechanisme van het bredere systeem dat opties en aandacht organiseert."
+          },
+          "originalSourceBlocks": [
+            28,
+            29,
+            31,
+            32,
+            34
+          ],
+          "optionalReviewBlocks": [
+            29,
+            32,
+            34
+          ]
+        }
+      ],
+      "chapterFinale": {
+        "title": "Een nieuwe stad, dezelfde lenzen",
+        "intro": "Een stedelijk laadnetwerk kiest locaties op omzet. Eén platform bewaakt toegang en toont alleen contractlocaties. Omwonenden dragen onbetaalde geluidshinder. Een financier wil snel rendement. Gebruik je gereedschappen om dit nieuwe systeem te onderzoeken.",
+        "caseFacts": [
+          {
+            "id": "noise",
+            "label": "Klachtenkaart",
+            "text": "Omwonenden melden aantoonbare nachtelijke geluidsschade. De exploitant betaalt hiervoor niet."
+          },
+          {
+            "id": "gate",
+            "label": "Toegangscontract",
+            "text": "Onafhankelijke laadbedrijven hebben het netwerk nodig en kunnen alleen onder platformvoorwaarden aansluiten."
+          },
+          {
+            "id": "horizon",
+            "label": "Investeringsmail",
+            "text": "Onderhoud verlaagt de kwartaalopbrengst; de financier beoordeelt alleen dat kwartaal."
+          },
+          {
+            "id": "menu",
+            "label": "Appinstelling",
+            "text": "De app toont contractlocaties. Bruikbare onafhankelijke laadpunten ontbreken in de resultaten."
+          }
+        ],
+        "slots": [
+          {
+            "id": "costs",
+            "label": "Welke diagnose past bij de klachtenkaart, naast eventuele andere problemen?",
+            "evidenceBeatId": "m1-02-b1",
+            "options": [
+              {
+                "id": "commons",
+                "text": "Ontbrekende afspraken over gezamenlijk netwerkgebruik zijn aangetoond als directe oorzaak van de geluidsschade.",
+                "correct": false,
+                "feedback": "Een commons-diagnose vraagt gebruiks- en beheergegevens; de klachtenkaart toont direct ongedragen schade."
+              },
+              {
+                "id": "external",
+                "text": "De exploitant veroorzaakt aantoonbare geluidsschade die niet in zijn rekening wordt meegenomen.",
+                "correct": true,
+                "feedback": "De eerdere visserskaart geeft de lens; de nieuwe klachtenkaart geeft het concrete bewijs."
+              },
+              {
+                "id": "price",
+                "text": "De schade is al een interne productiekost, doordat bewoners extra reiskosten betalen.",
+                "correct": false,
+                "feedback": "Reiskosten van gebruikers zijn iets anders dan niet-vergoede geluidsschade bij omwonenden."
+              }
+            ]
+          },
+          {
+            "id": "power",
+            "label": "Welk mechanisme maakt de beheerder invloedrijk volgens het toegangscontract?",
+            "evidenceBeatId": "m1-05-b6",
+            "options": [
+              {
+                "id": "gate",
+                "text": "Afhankelijkheid van de infrastructuur geeft invloed op toegang en voorwaarden.",
+                "correct": true,
+                "feedback": "De poortkaart maakt het mechanisme herkenbaar; het contract toont dat het hier optreedt."
+              },
+              {
+                "id": "price",
+                "text": "Alleen een hoog tarief is genoeg om alle infrastructuurmacht aan te tonen.",
+                "correct": false,
+                "feedback": "Een hoog tarief heeft meerdere mogelijke oorzaken. Het concrete contract toont de toegangsafhankelijkheid."
+              },
+              {
+                "id": "good",
+                "text": "Een groot aantal deelnemers bewijst dat iedere voorwaarde hun vrije voorkeur weerspiegelt.",
+                "correct": false,
+                "feedback": "Veel deelnemers kunnen ook weinig bruikbare alternatieven hebben."
+              }
+            ]
+          },
+          {
+            "id": "time",
+            "label": "Waarom kan onderhoud uit beeld raken, ook als bestuurders de waarde erkennen?",
+            "evidenceBeatId": "m1-06-b4",
+            "options": [
+              {
+                "id": "capacity",
+                "text": "Een aangetoond gebrek aan monteurs maakt onderhoud onmogelijk, onafhankelijk van de financiële beoordeling.",
+                "correct": false,
+                "feedback": "Dit is een mogelijke alternatieve verklaring, maar de mail bevat geen capaciteitsgegevens."
+              },
+              {
+                "id": "quality",
+                "text": "Een lage technische onderhoudsbehoefte is gemeten als reden waarom de investering kan wachten.",
+                "correct": false,
+                "feedback": "De mail toont de beoordelingshorizon, geen technische meting die uitstel onderbouwt."
+              },
+              {
+                "id": "horizon",
+                "text": "De kwartaalmaatstaf telt kosten direct en laat latere weerbaarheid minder meewegen.",
+                "correct": true,
+                "feedback": "De begrotingslade geeft de lens; de mail toont de korte horizon in deze nieuwe casus."
+              }
+            ]
+          },
+          {
+            "id": "choice",
+            "label": "Welke conclusie ondersteunt de appinstelling zonder alle gebruikers agency te ontzeggen?",
+            "evidenceBeatId": "m1-06-b1",
+            "options": [
+              {
+                "id": "quality",
+                "text": "De ontbrekende locaties hebben bewezen lagere kwaliteit; het filter verandert daarom geen bruikbare alternatieven.",
+                "correct": false,
+                "feedback": "Het contractfilter is bekend; de kwaliteit van de ontbrekende locaties is niet onderzocht."
+              },
+              {
+                "id": "menu",
+                "text": "Het platform vormt het zichtbare menu; onderzoek welke bruikbare alternatieven en belangen daardoor ontbreken.",
+                "correct": true,
+                "feedback": "Je past de etalagelens toe zonder de gebruiker een eigen voorkeur te ontzeggen."
+              },
+              {
+                "id": "price",
+                "text": "Verschillende laadprijzen zijn aangetoond als enige reden waarom gebruikers contractlocaties kiezen.",
+                "correct": false,
+                "feedback": "De appinstelling toont selectie van zichtbaarheid, geen prijsvergelijking of exclusieve oorzaak."
+              }
+            ]
+          }
+        ],
+        "conclusion": "Je kunt de lenzen naar een nieuwe sector overdragen. Over de gewenste verdeling is discussie mogelijk. Onderbouw de diagnose met casusbewijs, benoem je waarden en test maatregelen op gevolgen, uitvoerbaarheid en verantwoordelijkheid."
+      }
+    }
+  ],
+  "release": {
+    "playableLessons": [
+      "m1"
+    ],
+    "underDevelopment": [
+      "m2",
+      "m3",
+      "m4",
+      "m5"
+    ],
+    "note": "De eerste les is een zelfstandige avonturenroute. Latere lessen blijven afzonderlijke routes in ontwikkeling."
+  }
+}

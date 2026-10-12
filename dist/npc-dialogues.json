@@ -1,0 +1,731 @@
+{
+  "schemaVersion": 1,
+  "rooms": [
+    {
+      "investigationId": "m1-01",
+      "npc": {
+        "name": "Noor",
+        "role": "Systeemanalist bij de nooddispatch",
+        "opening": "De noodaccu is aangesloten. Ik ken de aanvragen; jij verdeelt de stroom. Vraag gerust waarom mijn spreadsheet niet vertelt wie voorrang hoort te krijgen.",
+        "topics": [
+          {
+            "id": "scarcity",
+            "question": "Waarom kunnen we niet iedereen helpen?",
+            "answer": "De accu levert 100 eenheden. Productie vraagt 60, reparatie 40 en noodklanten 40. Samen is dat 140. Anders verdelen verandert dit tekort niet.",
+            "followups": [
+              {
+                "id": "numbers",
+                "question": "Kun je het tekort laten zien?",
+                "answer": "60 + 40 + 40 is 140. Trek de beschikbare 100 af: 40 eenheden blijven onvervuld. Welke groep dat merkt, hangt van jouw verdeling af."
+              },
+              {
+                "id": "capacity",
+                "question": "Kunnen we extra stroom organiseren?",
+                "answer": "Misschien, maar niet binnen deze noodproef. Daarvoor moeten we beschikbare leveranciers, levertijd en veiligheid onderzoeken. De proef leert verdelen onder een vaste grens."
+              }
+            ],
+            "concepts": [
+              "schaarste",
+              "morele economie"
+            ]
+          },
+          {
+            "id": "fairness",
+            "question": "Wat maakt een verdeling rechtvaardig?",
+            "answer": "Je kunt behoefte, gelijkheid of continuïteit laten tellen. Geen spreadsheet kiest dat voor je. Benoem je criterium en bekijk wie daardoor bescherming of tekort krijgt.",
+            "followups": [
+              {
+                "id": "equal",
+                "question": "Is evenveel geven niet gewoon eerlijk?",
+                "answer": "Gelijke eenheden kunnen verschillende gevolgen geven. Eén eenheid kan een noodzakelijke oproep mogelijk maken of een klein stukje productie. Gelijkheid vraagt dus ook uitleg."
+              },
+              {
+                "id": "emergency",
+                "question": "Moeten noodklanten altijd voorrang krijgen?",
+                "answer": "Hun kwetsbaarheid kan een sterke reden zijn. Onderzoek tegelijk gevolgen voor anderen, zoals werk of noodzakelijke reparaties. Verdedig het criterium; verberg de afweging niet."
+              }
+            ],
+            "concepts": [
+              "rechtvaardige verdeling",
+              "waarden in prioriteiten",
+              "toegang en bescherming",
+              "technische berekening versus normatieve afweging"
+            ]
+          },
+          {
+            "id": "profit",
+            "question": "Waarom zegt Eva: winst binnen de regels?",
+            "answer": "Dat sluit aan bij Friedmans positie: bedrijven streven winst na binnen de spelregels. De cursus vraagt vervolgens wie die regels maakt en welke waarden daarin zitten.",
+            "followups": [
+              {
+                "id": "neutral",
+                "question": "Zijn wettelijke regels dan niet neutraal?",
+                "answer": "Ook regels verdelen toegang, risico en bescherming. Democratische besluitvorming en toezicht kunnen ze legitimeren, maar maken de onderliggende waarden niet afwezig."
+              },
+              {
+                "id": "cash",
+                "question": "Moeten we winst buiten beschouwing laten?",
+                "answer": "Nee. Continuïteit en financiering zijn relevante belangen. Alleen volgt daaruit niet automatisch dat de hoogste opbrengst iedere andere waarde moet overheersen."
+              }
+            ],
+            "concepts": [
+              "Friedmans verantwoordelijkheid",
+              "spelregels zijn institutionele keuzes"
+            ]
+          },
+          {
+            "id": "incentives",
+            "question": "Waarom helpt goede wil alleen niet genoeg?",
+            "answer": "Iedere afdeling kan redelijk handelen en toch te veel vragen. Gemeenschappelijke afspraken en prikkels moeten hun afzonderlijke keuzes verbinden. Anders blijft het collectieve probleem bestaan.",
+            "followups": [
+              {
+                "id": "example",
+                "question": "Welk duwtje kan de uitkomst veranderen?",
+                "answer": "Als alleen productie wordt beloond, lijkt elke productie-eenheid belangrijker. Beloon je ook urgente dienstverlening, dan verandert wat afdelingen als succes ervaren."
+              },
+              {
+                "id": "blame",
+                "question": "Zijn afdelingen zonder overleg automatisch egoïstisch?",
+                "answer": "Dat is niet bewezen. Ze kunnen hun eigen opdracht zorgvuldig uitvoeren. Kijk naar doelen, informatie en samenwerking voordat je intenties invult."
+              }
+            ],
+            "concepts": [
+              "collectieve actie en prikkels"
+            ]
+          },
+          {
+            "id": "unknown",
+            "question": "Wat weet je nog niet?",
+            "answer": "Ik weet de aanvragen, niet alle gevolgen van uitstel. Daarvoor moeten we gebruikers en afdelingen spreken. Mijn getallen zijn een begin, geen volledige morele diagnose.",
+            "followups": [
+              {
+                "id": "evidence",
+                "question": "Welke informatie zou jouw besluit veranderen?",
+                "answer": "Hoe dringend een oproep is, welke reparaties noodzakelijk zijn en wat productiestilstand betekent. Ook onzekerheid over zulke gevolgen moet zichtbaar blijven."
+              },
+              {
+                "id": "review",
+                "question": "Wanneer moeten we opnieuw kijken?",
+                "answer": "Als capaciteit, behoeften of gevolgen veranderen. Leg vast wie de regel mag herzien en waarom. Zo blijft een gekozen verdeling verantwoordbaar."
+              }
+            ],
+            "concepts": [
+              "instituties bepalen waarde en macht"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "investigationId": "m1-02",
+      "npc": {
+        "name": "Omar",
+        "role": "Logistiek coördinator van het depot",
+        "opening": "Op mijn factuur staat niet iedere rekening. Ik kan de stromen volgen; de vissers weten meer over hun schade. Leg hun bericht naast onze kosten.",
+        "topics": [
+          {
+            "id": "external",
+            "question": "Waarom staat vissersschade niet op jouw factuur?",
+            "answer": "Dat noemen we een negatieve externaliteit: een gevolg voor anderen dat niet volledig door de veroorzaker wordt gedragen of in de beslissing is meegenomen.",
+            "followups": [
+              {
+                "id": "example",
+                "question": "Kun je de twee rekeningen vergelijken?",
+                "answer": "In het model kost productie 100 per eenheid en schade 20. Als de omgeving die 20 draagt, lijkt de bedrijfsrekening lager dan de maatschappelijke rekening."
+              },
+              {
+                "id": "power",
+                "question": "Is dit hetzelfde als weinig macht hebben?",
+                "answer": "Nee. Macht gaat over invloed en alternatieven. Een externaliteit gaat over ongedragen gevolgen. Weinig macht kan het wel moeilijker maken die gevolgen te laten meewegen."
+              }
+            ],
+            "concepts": [
+              "externaliteiten",
+              "prijs versus maatschappelijke kosten",
+              "baten lasten machtsverhoudingen"
+            ]
+          },
+          {
+            "id": "commons",
+            "question": "Waarom noem je de rivier een commons?",
+            "answer": "Verschillende partijen gebruiken een gedeelde hulpbron. Gezamenlijke gebruiks- en beheervragen staan centraal. 'Commons' bewijst niet dat iedereen juridisch eigenaar is of dat achteruitgang onvermijdelijk is.",
+            "followups": [
+              {
+                "id": "ownership",
+                "question": "Moet iedereen dezelfde eigenaar zijn?",
+                "answer": "Nee. Gedeeld gebruik, toegang en beheer zijn de onderzoeksvragen. Juridische eigendom en feitelijke gebruiksrechten kunnen verschillend zijn; bekijk de concrete afspraken."
+              },
+              {
+                "id": "other",
+                "question": "Bestaan commons ook buiten natuur?",
+                "answer": "De cursus noemt ook digitale infrastructuur en data. Vraag telkens wat gedeeld wordt, welke rechten gelden en hoe gebruik en onderhoud georganiseerd zijn."
+              }
+            ],
+            "concepts": [
+              "commons",
+              "commons-governance"
+            ]
+          },
+          {
+            "id": "limits",
+            "question": "Welke grens kunnen we niet wegonderhandelen?",
+            "answer": "Het rivierpeil en ecosysteem hebben fysieke beperkingen. Een afspraak kan gebruik verdelen, maar maakt niet onbeperkt schoon water beschikbaar. Dat is begrenzing.",
+            "followups": [
+              {
+                "id": "money",
+                "question": "Kunnen we de grens met geld oplossen?",
+                "answer": "Geld kan techniek of compensatie financieren. Het bewijst niet dat iedere fysieke of ecologische grens verdwijnt. Meet de mogelijkheden en gevolgen."
+              },
+              {
+                "id": "distribution",
+                "question": "Wie krijgt water als het schaars wordt?",
+                "answer": "Dat vraagt een verdelingscriterium: behoefte, bescherming of een ander onderbouwd belang. Betrek gebruikers; een gelijke hoeveelheid heeft niet voor iedereen dezelfde betekenis."
+              }
+            ],
+            "concepts": [
+              "begrenzing",
+              "rechtvaardige verdeling"
+            ]
+          },
+          {
+            "id": "internalise",
+            "question": "Wat gebeurt er als NOVA de schade betaalt?",
+            "answer": "Bij hetzelfde volume verschuift de rekening naar het bedrijf. De totale modelkosten blijven gelijk. Andere prikkels kunnen later gedrag veranderen; dat moeten we apart onderzoeken.",
+            "followups": [
+              {
+                "id": "clean",
+                "question": "Wordt het water daardoor meteen schoner?",
+                "answer": "Niet door het verplaatsen van de rekening alleen. Voor minder schade zijn minder lozing of andere technische en organisatorische maatregelen nodig."
+              },
+              {
+                "id": "predict",
+                "question": "Wat zou je daarna willen testen?",
+                "answer": "Of volledige kostentoerekening leidt tot een andere productiekeuze of betere preventie. Houd volume, techniek en schade uit elkaar, zodat je het mechanisme kunt herkennen."
+              }
+            ],
+            "concepts": [
+              "systeeminterventie",
+              "prikkels"
+            ]
+          },
+          {
+            "id": "agreement",
+            "question": "Wat moet in de rivierafspraak staan?",
+            "answer": "Een onderbouwde gebruiksgrens, een stem voor getroffen gebruikers en controle op metingen en onderhoud. Daarmee organiseer je beheer, verdeling en bijsturing samen.",
+            "followups": [
+              {
+                "id": "compensation",
+                "question": "Waarom is vergoeding alleen niet genoeg?",
+                "answer": "Vergoeding kan externaliteiten aanpakken, maar regelt niet vanzelf hoeveel water iedereen gebruikt. Een commons vraagt ook afspraken over gezamenlijke grenzen en beheer."
+              },
+              {
+                "id": "missing",
+                "question": "Welke gegevens ontbreken nog?",
+                "answer": "Werkelijke schade, seizoensgrenzen, bestaande rechten en ervaringen van gebruikers. Mijn logistieke overzicht vervangt geen ecologische meting of gesprek met getroffen mensen."
+              }
+            ],
+            "concepts": [
+              "collectieve verantwoordelijkheid",
+              "commons-governance",
+              "waarden in prestatiemeting"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "investigationId": "m1-03",
+      "npc": {
+        "name": "Mila",
+        "role": "Reparatietechnicus en onderzoeker van ketenrecords",
+        "opening": "Ik kan een telefoon openen. De hele keten kan ik niet aan de buitenkant zien. Samen leggen we herkomst, gebruik en afval naast elkaar.",
+        "topics": [
+          {
+            "id": "route",
+            "question": "Waar begint en eindigt de telefoonroute?",
+            "answer": "Bij winning, verwerking, assemblage en gebruik; daarna volgen inzameling en verwerking. Afval kan opnieuw grondstof worden, maar alleen als inzameling en veilige verwerking werkelijk functioneren.",
+            "followups": [
+              {
+                "id": "supplier",
+                "question": "Is onze directe leverancier het hele verhaal?",
+                "answer": "Nee. Die is één schakel. Winning en latere afvalverwerking kunnen elders plaatsvinden. Vraag naar onderliggende partijen en waar bewijs ontbreekt."
+              },
+              {
+                "id": "map",
+                "question": "Wat schrijf ik naast iedere schakel?",
+                "answer": "Wie bijdraagt, wie opbrengst ontvangt, welke risico's ontstaan en wie voorwaarden kan veranderen. Een landnaam alleen laat die verdeling niet zien."
+              }
+            ],
+            "concepts": [
+              "grondstoffenketen",
+              "winning verwerking gebruik afval",
+              "baten lasten machtsverhoudingen"
+            ]
+          },
+          {
+            "id": "cobalt",
+            "question": "Wat vertelt het kobaltbericht over Congo?",
+            "answer": "De cursus onderzoekt kobaltwinning als voorbeeld van ongelijke baten, risico's en invloed. Het bericht bewijst niet dat elk mijnbouwproject of elke gemeenschap hetzelfde ervaart.",
+            "followups": [
+              {
+                "id": "verify",
+                "question": "Hoe controleren we onze eigen keten?",
+                "answer": "Vraag traceerbare records en lokale perspectieven. Vergelijk arbeidsomstandigheden, opbrengsten en contracten. Een algemene landenkaart is onvoldoende bewijs over deze batterij."
+              },
+              {
+                "id": "voice",
+                "question": "Waarom de lokale partij zelf spreken?",
+                "answer": "Zij kent gevolgen en alternatieven die onze administratie kan missen. Een audit helpt, maar geeft een gemeenschap niet automatisch invloed op afspraken."
+              }
+            ],
+            "concepts": [
+              "Congo kobalt",
+              "geopolitieke macht"
+            ]
+          },
+          {
+            "id": "minerals",
+            "question": "Waarom geeft materiaalcontrole politieke invloed?",
+            "answer": "Wanneer anderen een cruciale verwerkingsschakel nodig hebben, kan de beheerder toegang en voorwaarden beïnvloeden. De cursus gebruikt Chinese posities in zeldzame aardmetalen als voorbeeld.",
+            "followups": [
+              {
+                "id": "cheap",
+                "question": "Is dat hetzelfde als goedkoop produceren?",
+                "answer": "Nee. Schaal kan kosten verlagen; afhankelijkheid kan macht geven. Beide kunnen samengaan. Onderzoek alternatieven en toegangsvoorwaarden naast de prijs."
+              },
+              {
+                "id": "infrastructure",
+                "question": "Wat zou Winner hier onderzoeken?",
+                "answer": "Hoe technologie en infrastructuur machtsverhoudingen ondersteunen. De relevante vraag is wie kan deelnemen, onder welke voorwaarden en wie die regels bepaalt."
+              }
+            ],
+            "concepts": [
+              "China zeldzame aardmetalen",
+              "technologie en infrastructuur als macht",
+              "schaalvoordelen"
+            ]
+          },
+          {
+            "id": "waste",
+            "question": "Waarom horen Ghana en India in het dossier?",
+            "answer": "De cursus gebruikt e-waste daar om te onderzoeken hoe consumptiebaten en afvalrisico's bij andere partijen terechtkomen. De concrete route en lokale bescherming blijven belangrijk.",
+            "followups": [
+              {
+                "id": "contract",
+                "question": "Is een afvalcontract genoeg als bewijs?",
+                "answer": "Het laat een afspraak zien, geen garantie van veilige uitvoering. Controleer waar het afval aankomt, welke capaciteit bestaat en wat werknemers en omwonenden ervaren."
+              },
+              {
+                "id": "responsibility",
+                "question": "Wie is dan verantwoordelijk?",
+                "answer": "Onderzoek wie welk deel kan kennen en beïnvloeden. Een lange keten maakt verantwoordelijkheid ingewikkeld, maar laat haar niet automatisch verdwijnen."
+              }
+            ],
+            "concepts": [
+              "e-waste Ghana en India",
+              "externaliteiten",
+              "collectieve verantwoordelijkheid"
+            ]
+          },
+          {
+            "id": "uncertain",
+            "question": "Wat weten we nog niet over deze batterij?",
+            "answer": "Herkomst tot de directe leverancier is bekend; sommige eerdere stappen niet. Ik kan dus vragen aanscherpen, maar nog geen totale verantwoordheidsclaim onderbouwen.",
+            "followups": [
+              {
+                "id": "next",
+                "question": "Welk bewijsstuk zoek je eerst?",
+                "answer": "Een verwerkingsrecord dat fysieke partijen en volumes verbindt. Daarnaast hebben we betrouwbare informatie nodig over omstandigheden, opbrengsten en zeggenschap."
+              },
+              {
+                "id": "difference",
+                "question": "Hoe scheid ik macht van externaliteiten?",
+                "answer": "Vraag voor macht wie voorwaarden bepaalt en alternatieven heeft. Vraag voor externaliteiten wie gevolgen draagt die buiten de veroorzakersrekening blijven. Eén casus kan beide bevatten."
+              }
+            ],
+            "concepts": [
+              "geopolitieke macht",
+              "datatoegang",
+              "toegangsafhankelijkheid"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "investigationId": "m1-04",
+      "npc": {
+        "name": "Iris",
+        "role": "Ontwerper van automatisering en reparatieplanning",
+        "opening": "Mijn planning vertelt mensen wat telt. Ik kan haar veranderen, maar wil eerst zien welk gedrag ze beloont en welke gevolgen buiten het scherm blijven.",
+        "topics": [
+          {
+            "id": "machine",
+            "question": "Waarom stopt de plukmachine niet voor het nest?",
+            "answer": "Ze is gebouwd om appels te tellen, niet om nesten te beschermen. Waarneming en een beschermingsregel moeten in het ontwerp zitten. De machine heeft geen eigen geweten.",
+            "followups": [
+              {
+                "id": "human",
+                "question": "Waarom zou een mens wel stoppen?",
+                "answer": "Mensen kunnen empathie, waarden en context meewegen. Ook mensen missen signalen. Het verschil laat zien wat het systeem moet waarnemen en mogelijk maken."
+              },
+              {
+                "id": "responsible",
+                "question": "Ontslaat de machine mensen van verantwoordelijkheid?",
+                "answer": "Nee. Ontwerpers, beheerders en gebruikers maken keuzes over doelen, regels en inzet. Vraag wie ze kan veranderen en op de gevolgen wordt aangesproken."
+              }
+            ],
+            "concepts": [
+              "systeemdoel",
+              "menselijk oordeel versus organisatieontwerp"
+            ]
+          },
+          {
+            "id": "kpi",
+            "question": "Waarom blijven complexe reparaties liggen?",
+            "answer": "Onze aantallen-KPI beloont snel afgesloten toestellen. Een ingewikkelde reparatie kost tijd en drukt de score. Zo kan de planning selectie sturen zonder slechte bedoelingen.",
+            "followups": [
+              {
+                "id": "skill",
+                "question": "Zou het ook een vaardigheidsprobleem kunnen zijn?",
+                "answer": "Ja. Dat vraagt ander bewijs, zoals foutpatronen en opleidingsgegevens. De huidige kaarten tonen de scoreprikkel; zij sluiten niet ieder ander mechanisme uit."
+              },
+              {
+                "id": "meaning",
+                "question": "Wat betekent KPI precies?",
+                "answer": "Een prestatie-indicator: de meetlat voor succes. Wat je meet en beloont, stuurt aandacht. Eén indicator vertegenwoordigt niet vanzelf alle belangrijke waarden."
+              }
+            ],
+            "concepts": [
+              "KPI-prikkels",
+              "waarden in prestatiemeting"
+            ]
+          },
+          {
+            "id": "paradox",
+            "question": "Wat bedoelt Goodpaster met deze spanning?",
+            "answer": "Organisaties produceren moreel relevante gevolgen, terwijl hun besluitvorming vooral economisch kan zijn ingericht. Een medewerker kan bezorgd zijn en toch weinig ruimte vinden in de procedure.",
+            "followups": [
+              {
+                "id": "empathy",
+                "question": "Moeten organisaties gewoon meer empathie hebben?",
+                "answer": "Goede intenties helpen mensen. Voor de organisatie heb je ook passende doelen, informatie, bevoegdheden en verantwoording nodig om die zorg in handelen om te zetten."
+              },
+              {
+                "id": "rules",
+                "question": "Welke regel blokkeert Jules hier?",
+                "answer": "Alleen gesloten tickets tellen voor zijn beoordeling. Urgentie en wachttijd passen nog niet in de score. Dat is de specifieke inrichting die we testen."
+              }
+            ],
+            "concepts": [
+              "morele paradox organisaties",
+              "Goodpaster",
+              "instituties bepalen waarde en macht"
+            ]
+          },
+          {
+            "id": "pilot",
+            "question": "Wat wil je in de pilot veranderen?",
+            "answer": "Urgentie en wachttijd zichtbaar maken, kwaliteit volgen en evaluatie een verantwoordelijke geven. De combinatie moet eerder gemiste gevolgen in de planning laten meewegen.",
+            "followups": [
+              {
+                "id": "training",
+                "question": "Waarom niet alleen een technische training?",
+                "answer": "Training kan vaardigheid verbeteren. Ze verandert de aantallenprikkel niet vanzelf. We moeten dus weten welk probleem we oplossen en welke maatregel daarbij past."
+              },
+              {
+                "id": "proof",
+                "question": "Wanneer heeft de pilot echt geholpen?",
+                "answer": "Als urgente complexe gevallen minder wachten, kwaliteit behouden blijft en de werkdruk uitvoerbaar is. Een hoger totaal aantal gesloten tickets is onvoldoende."
+              }
+            ],
+            "concepts": [
+              "systeeminterventie",
+              "waarden in prestatiemeting"
+            ]
+          },
+          {
+            "id": "risks",
+            "question": "Kan jouw nieuwe meetlat ook verkeerd uitpakken?",
+            "answer": "Ja. Meer indicatoren kunnen onoverzichtelijk worden of nieuw strategisch gedrag uitlokken. Volg gevolgen en laat gebruikers en reparateurs meedenken over bijsturing.",
+            "followups": [
+              {
+                "id": "remove",
+                "question": "Zouden we zonder metingen beter werken?",
+                "answer": "Soms is meer professionele ruimte nodig. Zonder gegevens kunnen ook wachttijd en kwaliteit verdwijnen uit de verantwoording. Zoek een passende combinatie."
+              },
+              {
+                "id": "missing",
+                "question": "Wat moet je nog weten?",
+                "answer": "Hoe urgentie betrouwbaar wordt vastgesteld, welke gevallen de gemiddelde cijfers verbergen en wie de pilot kan wijzigen. De eerste test is geen definitief bewijs."
+              }
+            ],
+            "concepts": [
+              "systeemdoel",
+              "morele paradox organisaties"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "investigationId": "m1-05",
+      "npc": {
+        "name": "Eva",
+        "role": "Investeerder en adviseur over zeggenschap",
+        "opening": "Mijn geld maakt plannen mogelijk; mijn voorwaarden beïnvloeden ze ook. Vraag naar die invloed. Een mooie investering is nog geen volledige rechtvaardiging voor alle beslisrechten.",
+        "topics": [
+          {
+            "id": "ownership",
+            "question": "Wat zit er achter een eigendomssleutel?",
+            "answer": "Controle, opbrengsten en risico. Eigendom kan autonomie geven; Smith verbond het aan vrijheid tegenover feodale afhankelijkheid. Groot bezit kan tegelijk de mogelijkheden van anderen beïnvloeden.",
+            "followups": [
+              {
+                "id": "voice",
+                "question": "Geeft betalen vanzelf alle zeggenschap?",
+                "answer": "Financiële bijdrage is relevant. Onderzoek ook specifieke bijdragen, getroffen rechten en risico's van anderen. De verdeling van beslisrechten vraagt institutionele keuzes."
+              },
+              {
+                "id": "freedom",
+                "question": "Kan bezit tegelijk vrijheid en afhankelijkheid geven?",
+                "answer": "Ja. Een eigen woning geeft zekerheid; geconcentreerd vastgoedbezit kan huurders met weinig alternatieven afhankelijk maken. De positie in het systeem maakt verschil."
+              }
+            ],
+            "concepts": [
+              "eigendom zeggenschap opbrengst",
+              "Smith: eigendom als autonomie",
+              "eigendom versus bijdrage",
+              "instituties bepalen waarde en macht"
+            ]
+          },
+          {
+            "id": "growth",
+            "question": "Waarom vergelijk je rendement met economische groei?",
+            "answer": "Piketty onderzoekt hoe vermogen kan concentreren wanneer kapitaalopbrengst langdurig sneller groeit dan de economie. r is rendement; g is groei. Dat is geen universele garantie.",
+            "followups": [
+              {
+                "id": "example",
+                "question": "Kun je beide groeistroken uitrekenen?",
+                "answer": "1.000 kapitaal met jaarlijks 5% herinvesteren wordt ongeveer 1.276 na vijf jaar. Een economie-index met 2% groei wordt ongeveer 1.104. Dat verschil kan toenemen."
+              },
+              {
+                "id": "conditions",
+                "question": "Wat kan dat mechanisme begrenzen?",
+                "answer": "Verliezen, belastingen, schulden, andere rendementen en instituties. Ook herinvesteren is een voorwaarde. De groeistrook bewijst niet dat ieder individu dezelfde route volgt."
+              }
+            ],
+            "concepts": [
+              "Piketty",
+              "rendement r",
+              "economische groei g",
+              "r groter dan g",
+              "cumulatieve vermogensgroei",
+              "vermogensconcentratie afhankelijk van context"
+            ]
+          },
+          {
+            "id": "keys",
+            "question": "Werkt dat alleen met geld en gebouwen?",
+            "answer": "Nee. De cursus bespreekt institutionele investeerders, vastgoedfondsen en platformdata. Bezit kan opbrengsten én invloed geven; schaalvoordelen kunnen concurrentie en toegang veranderen.",
+            "followups": [
+              {
+                "id": "data",
+                "question": "Waarom kan databezit een voordeel versterken?",
+                "answer": "Veel deelnemers en gegevens kunnen een platform nuttiger maken. Alternatieven moeten dan een netwerk opbouwen. Onderzoek welk datagebruik, welke rechten en welke overstapkosten bestaan."
+              },
+              {
+                "id": "fund",
+                "question": "Wat doet een institutionele investeerder?",
+                "answer": "Die bundelt en beheert veel kapitaal. Financieringsvoorwaarden en zeggenschap kunnen ondernemingen beïnvloeden. Fondsen verschillen; hun omvang bewijst niet één vaste strategie."
+              }
+            ],
+            "concepts": [
+              "institutionele investeerders",
+              "vastgoedfondsen",
+              "databezit",
+              "schaalvoordelen",
+              "marktconcentratie"
+            ]
+          },
+          {
+            "id": "neoliberal",
+            "question": "Wat verandert bij de besproken neoliberale inrichting?",
+            "answer": "De cursus benadrukt deregulering, privatisering en meer financiële oriëntatie. De aanname is dat marktwerking efficiënt organiseert. De kritische analyse vraagt wat met toezicht en publieke waarden gebeurt.",
+            "followups": [
+              {
+                "id": "finance",
+                "question": "Wat betekent financialisering dan?",
+                "answer": "Financiële markten en indicatoren worden belangrijker voor strategische keuzes. Plannen moeten vaker als rendement, risico of reputatievoordeel worden gelegitimeerd. Dat kan de tijdshorizon beïnvloeden."
+              },
+              {
+                "id": "assumption",
+                "question": "Moet ik die kritische analyse onderschrijven?",
+                "answer": "Je moet het perspectief begrijpen en kunnen toepassen. Onderzoek aannames, context en tegenvoorbeelden. Effecten van marktwerking verschillen; een theoretische lens is geen automatisch oordeel."
+              }
+            ],
+            "concepts": [
+              "neoliberalisme",
+              "deregulering",
+              "privatisering",
+              "financialisering",
+              "aannames markt versus staat",
+              "toezicht",
+              "publieke voorzieningen"
+            ]
+          },
+          {
+            "id": "power",
+            "question": "Waarom gaat marktmacht verder dan hoge prijzen?",
+            "answer": "Wie een noodzakelijke hub beheert, kan toegang tot werk, onderdelen, innovatie en gegevens beïnvloeden. Economische positie kan ook standaarden en beleid helpen bepalen.",
+            "followups": [
+              {
+                "id": "innovation",
+                "question": "Wanneer raakt dit innovatie en zelfstandigheid?",
+                "answer": "Als een nieuw reparatieproces toelating nodig heeft of gegevens bij de hub blijven, worden mogelijkheden van anderen mede door haar voorwaarden bepaald."
+              },
+              {
+                "id": "oversight",
+                "question": "Verdwijnt die macht door nieuw toezicht?",
+                "answer": "Toezicht kan voorwaarden begrenzen. Eigendom, schaal en afhankelijkheid kunnen blijven bestaan. Onderzoek de werkelijke alternatieven en hoe partijen verantwoording kunnen vragen."
+              }
+            ],
+            "concepts": [
+              "marktmacht prijzen",
+              "toegang tot werk",
+              "innovatie",
+              "politieke invloed",
+              "data-autonomie",
+              "publieke waarden"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "investigationId": "m1-06",
+      "npc": {
+        "name": "Lena",
+        "role": "Analist van marketing, aandacht en impact",
+        "opening": "Ik ontwerp wat je eerst ziet. Dat helpt mensen zoeken en kan hun keuze sturen. Open de instellingen; vraag ook welke informatie het ontwerp verbergt.",
+        "topics": [
+          {
+            "id": "menu",
+            "question": "Waarom is deze etalage geen neutraal menu?",
+            "answer": "Assortiment, ooghoogte, rangschikking en standaardknoppen bepalen welke opties opvallen. Gepersonaliseerde feeds tonen verschillende mogelijkheden. Aanbod kan daardoor voorkeuren en vraag mede vormen.",
+            "followups": [
+              {
+                "id": "agency",
+                "question": "Hebben gebruikers dan geen eigen voorkeur meer?",
+                "answer": "Die conclusie gaat te ver. Mensen hebben doelen en redenen. Onderzoek hoe ontwerp ze helpt, begrenst of beïnvloedt en welke alternatieven praktisch bereikbaar zijn."
+              },
+              {
+                "id": "test",
+                "question": "Hoe zou je het effect controleren?",
+                "answer": "Verander bijvoorbeeld zichtbaarheid bij gelijke prijzen. Vergelijk gedrag en ervaringen. Eén test bewijst niet dat iedere aankoop door het menu wordt veroorzaakt."
+              }
+            ],
+            "concepts": [
+              "aanbod vormt vraag",
+              "algoritmische zichtbaarheid",
+              "geconstrueerde keuzeruimte",
+              "keuzevrijheid"
+            ]
+          },
+          {
+            "id": "herd",
+            "question": "Wat doet het label 'meest gekozen'?",
+            "answer": "Het kan groepsgedrag als informatie presenteren. Bij onzekerheid volgen mensen anderen, soms uit angst buiten de groep te vallen. Populariteit is geen onafhankelijk bewijs van juistheid.",
+            "followups": [
+              {
+                "id": "loop",
+                "question": "Hoe kan zo'n groepssignaal zichzelf versterken?",
+                "answer": "Mensen volgen eerdere kopers; meer kopers lijkt daarna nieuw bewijs. Tegensignalen kunnen minder aandacht krijgen. Zo kan tunnelvisie of instabiliteit ontstaan."
+              },
+              {
+                "id": "counter",
+                "question": "Is de meerderheid volgen altijd verkeerd?",
+                "answer": "Nee. Anderen kunnen relevante informatie hebben. Controleer of het signaal werkelijk onafhankelijk bewijs biedt en of belangrijke andere perspectieven verdwijnen."
+              }
+            ],
+            "concepts": [
+              "kuddegedrag",
+              "kuddegedrag bij onzekerheid",
+              "angst voor uitsluiting",
+              "meerderheid als informatie",
+              "zichzelf versterkende navolging",
+              "tunnelvisie en instabiliteit"
+            ]
+          },
+          {
+            "id": "loss",
+            "question": "Waarom spreken we van een bonus 'verliezen'?",
+            "answer": "Verliesaversie: een verlies voelt vaak sterker dan een vergelijkbare winst. De formulering maakt niet kopen tot dreigend verlies, terwijl dezelfde bedragen ook anders kunnen worden gepresenteerd.",
+            "followups": [
+              {
+                "id": "equal",
+                "question": "Zijn dezelfde honderd euro dus niet hetzelfde?",
+                "answer": "Rekenkundig wel. Gevoelsmatig kan winnen anders wegen dan verliezen. Dat helpt gedrag verklaren, maar voorspelt niet met zekerheid hoe iedere persoon reageert."
+              },
+              {
+                "id": "risk",
+                "question": "Wordt iemand daardoor altijd voorzichtiger?",
+                "answer": "Niet altijd. De cursus bespreekt risicomijding en mogelijke overreacties onder verliesdruk. Bekijk de concrete keuze, context en prikkels voordat je een strategie toeschrijft."
+              }
+            ],
+            "concepts": [
+              "verliesaversie",
+              "risicomijding",
+              "overreactie onder verliesdruk"
+            ]
+          },
+          {
+            "id": "detach",
+            "question": "Wat betekent 'het is legaal, dus het mag'?",
+            "answer": "Het kan gevolgen wegdrukken uit de morele beoordeling. Morele ontkoppeling maakt schadelijk handelen verenigbaar met een geruststellend zelfbeeld. Wettelijke toestemming beantwoordt niet iedere ethische vraag.",
+            "followups": [
+              {
+                "id": "words",
+                "question": "Welke woorden zou je verder onderzoeken?",
+                "answer": "'Slechts een bijeffect', 'iedereen doet het' of 'niemand beslist alleen'. Kijk of gevolgen worden geminimaliseerd of verantwoordelijkheid verdwijnt. Vul intenties niet vooraf in."
+              },
+              {
+                "id": "response",
+                "question": "Hoe reageer je zonder iemand te beschuldigen?",
+                "answer": "Vraag wat feitelijk gebeurt, wie gevolgen draagt en wie beslisruimte heeft. Je kunt begrip voor druk combineren met een kritische beoordeling van de handeling."
+              }
+            ],
+            "concepts": [
+              "morele ontkoppeling",
+              "collectieve verantwoordelijkheid"
+            ]
+          },
+          {
+            "id": "quarter",
+            "question": "Wat heeft marketing met de onderhoudslade te maken?",
+            "answer": "Korte financiële doelen kunnen snelle verkoop en besparing aantrekkelijk maken. Onderhoud, opleiding of langere gebruiksduur tellen minder wanneer hun waarde niet in die beoordeling past.",
+            "followups": [
+              {
+                "id": "stakeholders",
+                "question": "Wie kan de snelle besparing later dragen?",
+                "answer": "Werknemers, gebruikers en de omgeving. Uitgesteld onderhoud kan ook weerbaarheid verminderen. Aandeelhoudersrendement en breder betrokken belangen vallen niet automatisch samen."
+              },
+              {
+                "id": "unknown",
+                "question": "Weet je welke investering het beste is?",
+                "answer": "Nog niet. Vergelijk termijnen, kosten, maatschappelijke gevolgen en onzekerheid. Financiële continuïteit blijft belangrijk; een goed verhaal vervangt geen bewijs over prestaties."
+              }
+            ],
+            "concepts": [
+              "financiële dominantie",
+              "kortetermijnrendement",
+              "werknemerskosten",
+              "onderhoud en duurzaamheid",
+              "kwetsbaarheid bij crises",
+              "aandeelhouders versus stakeholders"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
