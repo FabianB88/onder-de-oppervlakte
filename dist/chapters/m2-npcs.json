@@ -14,6 +14,26 @@
           "opening": "Ik zie een groene routine en nieuwe omstandigheden. Laten we kijken wanneer de oude beoordeling nog bruikbaar is.",
           "topics": [
             {
+              "id": "orientation",
+              "question": "Begin bij het begin: wat onderzoeken we hier?",
+              "answer": "Vergelijk de oude en nieuwe aanvraag voordat je het besluit opnieuw beoordeelt.",
+              "concepts": [
+                "context en ethisch dilemma"
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom is dit een ethische vraag?",
+                  "answer": "Hoe voorkomt NOVA dat tijdsdruk en routine nieuwe risico's voor gebruikers onzichtbaar maken? Je onderzoekt welk belang wordt beschermd, wie nadeel draagt en wie invloed heeft op de keuze."
+                },
+                {
+                  "id": "first",
+                  "question": "Waar begin ik met zoeken?",
+                  "answer": "Begin bij ‘het eerste bewijsstuk’. Bekijk de concrete situatie voordat je een algemene conclusie trekt. Je kunt bij ieder onderzoek de bijbehorende theorie openen."
+                }
+              ]
+            },
+            {
               "id": "noor-t1",
               "question": "Wat is een heuristiek?",
               "answer": "Een snelle vuistregel die aandacht en tijd bespaart. Ze kan deskundig werken wanneer de omstandigheden passen.",
@@ -134,6 +154,26 @@
           ],
           "opening": "Aan de balie moet ik werk afkrijgen. Ik wil geen verandering missen, maar heb niet onbeperkt tijd.",
           "topics": [
+            {
+              "id": "orientation",
+              "question": "Begin bij het begin: wat onderzoeken we hier?",
+              "answer": "Vergelijk de oude en nieuwe aanvraag voordat je het besluit opnieuw beoordeelt.",
+              "concepts": [
+                "context en ethisch dilemma"
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom is dit een ethische vraag?",
+                  "answer": "Hoe voorkomt NOVA dat tijdsdruk en routine nieuwe risico's voor gebruikers onzichtbaar maken? Je onderzoekt welk belang wordt beschermd, wie nadeel draagt en wie invloed heeft op de keuze."
+                },
+                {
+                  "id": "first",
+                  "question": "Waar begin ik met zoeken?",
+                  "answer": "Begin bij ‘het eerste bewijsstuk’. Bekijk de concrete situatie voordat je een algemene conclusie trekt. Je kunt bij ieder onderzoek de bijbehorende theorie openen."
+                }
+              ]
+            },
             {
               "id": "mila-t1",
               "question": "Waarom volg je de routine?",
@@ -261,6 +301,26 @@
           "opening": "Ik kan volgen welke rol een retour doorgeeft. Het protocol verklaart niet vanzelf waarom vernietiging verantwoord zou zijn.",
           "topics": [
             {
+              "id": "orientation",
+              "question": "Begin bij het begin: wat onderzoeken we hier?",
+              "answer": "Leg de oorspronkelijke gebeurtenis naast de uitleg op de werkbonnen en volg het protocol door de verschillende handen.",
+              "concepts": [
+                "context en ethisch dilemma"
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom is dit een ethische vraag?",
+                  "answer": "Wie blijft verantwoordelijk wanneer iedereen zegt slechts zijn eigen onderdeel van de opdracht uit te voeren? Je onderzoekt welk belang wordt beschermd, wie nadeel draagt en wie invloed heeft op de keuze."
+                },
+                {
+                  "id": "first",
+                  "question": "Waar begin ik met zoeken?",
+                  "answer": "Begin bij ‘het eerste bewijsstuk’. Bekijk de concrete situatie voordat je een algemene conclusie trekt. Je kunt bij ieder onderzoek de bijbehorende theorie openen."
+                }
+              ]
+            },
+            {
               "id": "omar-t1",
               "question": "Wie maakt het retourbesluit?",
               "answer": "De beleidsrol schrijft de regel, de leiding keurt middelen goed, het depot plant en de medewerker voert uit.",
@@ -381,6 +441,26 @@
           ],
           "opening": "Ik werk met woorden. Hier moeten woorden het gevolg laten zien, niet alleen mensen geruststellen.",
           "topics": [
+            {
+              "id": "orientation",
+              "question": "Begin bij het begin: wat onderzoeken we hier?",
+              "answer": "Leg de oorspronkelijke gebeurtenis naast de uitleg op de werkbonnen en volg het protocol door de verschillende handen.",
+              "concepts": [
+                "context en ethisch dilemma"
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom is dit een ethische vraag?",
+                  "answer": "Wie blijft verantwoordelijk wanneer iedereen zegt slechts zijn eigen onderdeel van de opdracht uit te voeren? Je onderzoekt welk belang wordt beschermd, wie nadeel draagt en wie invloed heeft op de keuze."
+                },
+                {
+                  "id": "first",
+                  "question": "Waar begin ik met zoeken?",
+                  "answer": "Begin bij ‘het eerste bewijsstuk’. Bekijk de concrete situatie voordat je een algemene conclusie trekt. Je kunt bij ieder onderzoek de bijbehorende theorie openen."
+                }
+              ]
+            },
             {
               "id": "lena-t1",
               "question": "Wat is cognitieve dissonantie?",
@@ -508,6 +588,26 @@
           "opening": "Mijn notulen zeggen unaniem. De afzonderlijke reacties vertellen iets anders. De overlegprocedure moet dat verschil kunnen herkennen.",
           "topics": [
             {
+              "id": "orientation",
+              "question": "Begin bij het begin: wat onderzoeken we hier?",
+              "answer": "Vergelijk de notulen met afzonderlijke reacties en onderzoek hoe stilte zich kan versterken.",
+              "concepts": [
+                "context en ethisch dilemma"
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom is dit een ethische vraag?",
+                  "answer": "Hoe kan NOVA zorgen dat medewerkers risico's kunnen benoemen zonder sociale uitsluiting of een onveilig overleg? Je onderzoekt welk belang wordt beschermd, wie nadeel draagt en wie invloed heeft op de keuze."
+                },
+                {
+                  "id": "first",
+                  "question": "Waar begin ik met zoeken?",
+                  "answer": "Begin bij ‘het eerste bewijsstuk’. Bekijk de concrete situatie voordat je een algemene conclusie trekt. Je kunt bij ieder onderzoek de bijbehorende theorie openen."
+                }
+              ]
+            },
+            {
               "id": "iris-t1",
               "question": "Wat is pluralistische onwetendheid?",
               "answer": "Iedereen schat anderen als instemmend in, terwijl meerdere mensen privé twijfelen.",
@@ -628,6 +728,26 @@
           ],
           "opening": "Ik dacht dat ik de enige was. Nu zie ik anderen dezelfde twijfel opschrijven. Dat verandert wat ik durf te vragen.",
           "topics": [
+            {
+              "id": "orientation",
+              "question": "Begin bij het begin: wat onderzoeken we hier?",
+              "answer": "Vergelijk de notulen met afzonderlijke reacties en onderzoek hoe stilte zich kan versterken.",
+              "concepts": [
+                "context en ethisch dilemma"
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom is dit een ethische vraag?",
+                  "answer": "Hoe kan NOVA zorgen dat medewerkers risico's kunnen benoemen zonder sociale uitsluiting of een onveilig overleg? Je onderzoekt welk belang wordt beschermd, wie nadeel draagt en wie invloed heeft op de keuze."
+                },
+                {
+                  "id": "first",
+                  "question": "Waar begin ik met zoeken?",
+                  "answer": "Begin bij ‘het eerste bewijsstuk’. Bekijk de concrete situatie voordat je een algemene conclusie trekt. Je kunt bij ieder onderzoek de bijbehorende theorie openen."
+                }
+              ]
+            },
             {
               "id": "mila-t1",
               "question": "Waarom knikte je mee?",
@@ -755,6 +875,26 @@
           "opening": "Ik kan laten zien welke boodschap bij welk doel hoort. Klikgedrag vertelt niet vanzelf of een wens onafhankelijk van dat ontwerp bestond.",
           "topics": [
             {
+              "id": "orientation",
+              "question": "Begin bij het begin: wat onderzoeken we hier?",
+              "answer": "Volg het gegevensspoor, de boodschap en de zichtbaarheid van alternatieven.",
+              "concepts": [
+                "context en ethisch dilemma"
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom is dit een ethische vraag?",
+                  "answer": "Welke invloed op aandacht en voorkeuren is behulpzaam, en wanneer wordt de autonomie van een klant beperkt? Je onderzoekt welk belang wordt beschermd, wie nadeel draagt en wie invloed heeft op de keuze."
+                },
+                {
+                  "id": "first",
+                  "question": "Waar begin ik met zoeken?",
+                  "answer": "Begin bij ‘het eerste bewijsstuk’. Bekijk de concrete situatie voordat je een algemene conclusie trekt. Je kunt bij ieder onderzoek de bijbehorende theorie openen."
+                }
+              ]
+            },
+            {
               "id": "lena-t1",
               "question": "Kan aanbod werkelijk vraag vormen?",
               "answer": "Producten, zichtbaarheid en associaties kunnen mede vormen wat aantrekkelijk of normaal voelt.",
@@ -875,6 +1015,26 @@
           ],
           "opening": "Ik onderzoek hoe een handige functie een vaste verwachting werd. De geschiedenis kan meer verklaren dan één individuele klik.",
           "topics": [
+            {
+              "id": "orientation",
+              "question": "Begin bij het begin: wat onderzoeken we hier?",
+              "answer": "Volg het gegevensspoor, de boodschap en de zichtbaarheid van alternatieven.",
+              "concepts": [
+                "context en ethisch dilemma"
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom is dit een ethische vraag?",
+                  "answer": "Welke invloed op aandacht en voorkeuren is behulpzaam, en wanneer wordt de autonomie van een klant beperkt? Je onderzoekt welk belang wordt beschermd, wie nadeel draagt en wie invloed heeft op de keuze."
+                },
+                {
+                  "id": "first",
+                  "question": "Waar begin ik met zoeken?",
+                  "answer": "Begin bij ‘het eerste bewijsstuk’. Bekijk de concrete situatie voordat je een algemene conclusie trekt. Je kunt bij ieder onderzoek de bijbehorende theorie openen."
+                }
+              ]
+            },
             {
               "id": "noor-t1",
               "question": "Waarom bleef de app ondanks klachten in gebruik?",
@@ -1002,6 +1162,26 @@
           "opening": "Een hub kan gemak en schaal bieden. Ik moet ook zien welke voorwaarden anderen afhankelijk maken.",
           "topics": [
             {
+              "id": "orientation",
+              "question": "Begin bij het begin: wat onderzoeken we hier?",
+              "answer": "Maak de drempels zichtbaar en vergelijk beschikbare knoppen met haalbaar gebruik.",
+              "concepts": [
+                "context en ethisch dilemma"
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom is dit een ethische vraag?",
+                  "answer": "Hoe vrij is een keuze als overstappen verlies van gegevens, dienstverlening of toegang betekent? Je onderzoekt welk belang wordt beschermd, wie nadeel draagt en wie invloed heeft op de keuze."
+                },
+                {
+                  "id": "first",
+                  "question": "Waar begin ik met zoeken?",
+                  "answer": "Begin bij ‘het eerste bewijsstuk’. Bekijk de concrete situatie voordat je een algemene conclusie trekt. Je kunt bij ieder onderzoek de bijbehorende theorie openen."
+                }
+              ]
+            },
+            {
               "id": "eva-t1",
               "question": "Waarom is productvariatie niet genoeg?",
               "answer": "Verschillende modellen kunnen één gesloten gegevens- en onderdelennetwerk gebruiken.",
@@ -1122,6 +1302,26 @@
           ],
           "opening": "Ik zie of een alternatief werkt: komen onderdelen, opdrachten en gegevens daar daadwerkelijk aan?",
           "topics": [
+            {
+              "id": "orientation",
+              "question": "Begin bij het begin: wat onderzoeken we hier?",
+              "answer": "Maak de drempels zichtbaar en vergelijk beschikbare knoppen met haalbaar gebruik.",
+              "concepts": [
+                "context en ethisch dilemma"
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom is dit een ethische vraag?",
+                  "answer": "Hoe vrij is een keuze als overstappen verlies van gegevens, dienstverlening of toegang betekent? Je onderzoekt welk belang wordt beschermd, wie nadeel draagt en wie invloed heeft op de keuze."
+                },
+                {
+                  "id": "first",
+                  "question": "Waar begin ik met zoeken?",
+                  "answer": "Begin bij ‘het eerste bewijsstuk’. Bekijk de concrete situatie voordat je een algemene conclusie trekt. Je kunt bij ieder onderzoek de bijbehorende theorie openen."
+                }
+              ]
+            },
             {
               "id": "omar-t1",
               "question": "Wat maakt een overstap praktisch?",
@@ -1249,6 +1449,26 @@
           "opening": "Ik kan ruimte voor een vraag organiseren. Of mensen die ruimte veilig ervaren en of de uitkomst verbetert, moeten we apart toetsen.",
           "topics": [
             {
+              "id": "orientation",
+              "question": "Begin bij het begin: wat onderzoeken we hier?",
+              "answer": "Verbind het bewijs met bescherming, bevoegdheid, middelen en een controleerbare pilot.",
+              "concepts": [
+                "context en ethisch dilemma"
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom is dit een ethische vraag?",
+                  "answer": "Wat moet NOVA regelen zodat een medewerker een verantwoord bezwaar werkelijk kan laten onderzoeken? Je onderzoekt welk belang wordt beschermd, wie nadeel draagt en wie invloed heeft op de keuze."
+                },
+                {
+                  "id": "first",
+                  "question": "Waar begin ik met zoeken?",
+                  "answer": "Begin bij ‘het eerste bewijsstuk’. Bekijk de concrete situatie voordat je een algemene conclusie trekt. Je kunt bij ieder onderzoek de bijbehorende theorie openen."
+                }
+              ]
+            },
+            {
               "id": "iris-t1",
               "question": "Wat maakt morele moed haalbaar?",
               "answer": "Steun, veiligheid, erkenning, taal en reflectietijd kunnen handelen ondersteunen.",
@@ -1369,6 +1589,26 @@
           ],
           "opening": "Mijn eerste vraag wordt sterker als ik feiten en steun heb. Ik hoef niet te doen alsof ik buiten het systeem sta.",
           "topics": [
+            {
+              "id": "orientation",
+              "question": "Begin bij het begin: wat onderzoeken we hier?",
+              "answer": "Verbind het bewijs met bescherming, bevoegdheid, middelen en een controleerbare pilot.",
+              "concepts": [
+                "context en ethisch dilemma"
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom is dit een ethische vraag?",
+                  "answer": "Wat moet NOVA regelen zodat een medewerker een verantwoord bezwaar werkelijk kan laten onderzoeken? Je onderzoekt welk belang wordt beschermd, wie nadeel draagt en wie invloed heeft op de keuze."
+                },
+                {
+                  "id": "first",
+                  "question": "Waar begin ik met zoeken?",
+                  "answer": "Begin bij ‘het eerste bewijsstuk’. Bekijk de concrete situatie voordat je een algemene conclusie trekt. Je kunt bij ieder onderzoek de bijbehorende theorie openen."
+                }
+              ]
+            },
             {
               "id": "mila-t1",
               "question": "Wat betekent agency voor jou?",

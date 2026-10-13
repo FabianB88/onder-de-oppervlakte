@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-13",
+  "trigger": "Lecturer could play but could not understand the situation, ethical purpose and concepts.",
+  "diagnosis": [
+    "Returning saves skipped the introduction.",
+    "Area changes introduced people and consequences before explaining the situation.",
+    "Required decisions could precede teaching of the relevant concept.",
+    "Clue feedback used abstract conclusions without a concrete application.",
+    "Flying controls still used invisible floor-only walking bounds."
+  ],
+  "changes": [
+    "32 authored arrival situations, ethical questions, tasks and specific reflection prompts.",
+    "Concrete preparatory evidence objects and teaching in the first two areas.",
+    "Existing NPC explanations retained, with a foundational opening question.",
+    "Original course explanations available from each activity as contextual expandable reading."
+  ],
+  "fidelity": "Sources remain the original course. Fictional NOVA events illustrate the concepts; they are not historical evidence. Structural coverage and completed clicks do not establish learning equivalence.",
+  "friedmanPrimary": "https://public.websites.umich.edu/~thecore/doc/Friedman.pdf",
+  "limitations": "The lecturer has identified substantive comprehension problems. This repair is not a claim that the full experience has demonstrated equivalent or superior learning.",
+  "friedmanVerified": "Original 1970 text checked: owner/agent responsibility, law and ethical custom, competition without deception or fraud."
+}

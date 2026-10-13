@@ -14,6 +14,26 @@
           "opening": "Samen plannen bespaart werk. Maar ik wil weten welke aansluitvoorwaarden kleine partners onderweg tegenkomen.",
           "topics": [
             {
+              "id": "orientation",
+              "question": "Begin bij het begin: wat onderzoeken we hier?",
+              "answer": "Vergelijk kostenvoordeel, netwerkvoorwaarden en alternatieven voor nieuwe reparateurs.",
+              "concepts": [
+                "context en ethisch dilemma"
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom is dit een ethische vraag?",
+                  "answer": "Wanneer levert schaal voordeel voor betrokkenen op, en welke bescherming is nodig als dezelfde schaal toegangsmacht geeft? Je onderzoekt welk belang wordt beschermd, wie nadeel draagt en wie invloed heeft op de keuze."
+                },
+                {
+                  "id": "first",
+                  "question": "Waar begin ik met zoeken?",
+                  "answer": "Begin bij ‘het eerste bewijsstuk’. Bekijk de concrete situatie voordat je een algemene conclusie trekt. Je kunt bij ieder onderzoek de bijbehorende theorie openen."
+                }
+              ]
+            },
+            {
               "id": "omar-t1",
               "question": "Waarom bundelen we middelen?",
               "answer": "Geen enkele reparateur kan alle machines, voorraad en specialistische kennis alleen organiseren. Samenwerking maakt complexere productie en planning mogelijk.",
@@ -134,6 +154,26 @@
           ],
           "opening": "Schaal kan plannen financierbaar maken. Hetzelfde netwerk kan anderen afhankelijk maken; die twee gevolgen moet ik naast elkaar zien.",
           "topics": [
+            {
+              "id": "orientation",
+              "question": "Begin bij het begin: wat onderzoeken we hier?",
+              "answer": "Vergelijk kostenvoordeel, netwerkvoorwaarden en alternatieven voor nieuwe reparateurs.",
+              "concepts": [
+                "context en ethisch dilemma"
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom is dit een ethische vraag?",
+                  "answer": "Wanneer levert schaal voordeel voor betrokkenen op, en welke bescherming is nodig als dezelfde schaal toegangsmacht geeft? Je onderzoekt welk belang wordt beschermd, wie nadeel draagt en wie invloed heeft op de keuze."
+                },
+                {
+                  "id": "first",
+                  "question": "Waar begin ik met zoeken?",
+                  "answer": "Begin bij ‘het eerste bewijsstuk’. Bekijk de concrete situatie voordat je een algemene conclusie trekt. Je kunt bij ieder onderzoek de bijbehorende theorie openen."
+                }
+              ]
+            },
             {
               "id": "eva-t1",
               "question": "Waarom kan efficiëntie macht worden?",
@@ -261,6 +301,26 @@
           "opening": "Ik zie opbrengsten en risico's. Een korte beoordelingshorizon kan nuttige informatie missen, maar lange termijn betekent niet automatisch zekerheid.",
           "topics": [
             {
+              "id": "orientation",
+              "question": "Begin bij het begin: wat onderzoeken we hier?",
+              "answer": "Leg de twee tijdvensters naast elkaar en maak de ontbrekende gevolgen zichtbaar.",
+              "concepts": [
+                "context en ethisch dilemma"
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom is dit een ethische vraag?",
+                  "answer": "Welke belangen van toekomstige klanten, werknemers en de organisatie verdwijnen wanneer alleen het komende kwartaal telt? Je onderzoekt welk belang wordt beschermd, wie nadeel draagt en wie invloed heeft op de keuze."
+                },
+                {
+                  "id": "first",
+                  "question": "Waar begin ik met zoeken?",
+                  "answer": "Begin bij ‘het eerste bewijsstuk’. Bekijk de concrete situatie voordat je een algemene conclusie trekt. Je kunt bij ieder onderzoek de bijbehorende theorie openen."
+                }
+              ]
+            },
+            {
               "id": "eva-t1",
               "question": "Wat betekent aandeelhouderswaarde?",
               "answer": "Een inrichting waarin kapitaalverschaffing en financieel risico centraal staan bij zeggenschap en beoordeling; rendement krijgt veel gewicht.",
@@ -381,6 +441,26 @@
           ],
           "opening": "Het centrum kost vandaag geld. De latere reparatiecapaciteit zie ik op de werkvloer, maar die moet ik zorgvuldig onderbouwen.",
           "topics": [
+            {
+              "id": "orientation",
+              "question": "Begin bij het begin: wat onderzoeken we hier?",
+              "answer": "Leg de twee tijdvensters naast elkaar en maak de ontbrekende gevolgen zichtbaar.",
+              "concepts": [
+                "context en ethisch dilemma"
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom is dit een ethische vraag?",
+                  "answer": "Welke belangen van toekomstige klanten, werknemers en de organisatie verdwijnen wanneer alleen het komende kwartaal telt? Je onderzoekt welk belang wordt beschermd, wie nadeel draagt en wie invloed heeft op de keuze."
+                },
+                {
+                  "id": "first",
+                  "question": "Waar begin ik met zoeken?",
+                  "answer": "Begin bij ‘het eerste bewijsstuk’. Bekijk de concrete situatie voordat je een algemene conclusie trekt. Je kunt bij ieder onderzoek de bijbehorende theorie openen."
+                }
+              ]
+            },
             {
               "id": "mila-t1",
               "question": "Waarom wil je een langere horizon?",
@@ -508,6 +588,26 @@
           "opening": "Het archief toont bijdragen die geen aandelen heten. We moeten begrijpen hoe samenwerking risico en legitieme claims creëert.",
           "topics": [
             {
+              "id": "orientation",
+              "question": "Begin bij het begin: wat onderzoeken we hier?",
+              "answer": "Koppel bijdragen aan afhankelijkheid en bouw een dossier waarin die aanspraken zichtbaar zijn.",
+              "concepts": [
+                "context en ethisch dilemma"
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom is dit een ethische vraag?",
+                  "answer": "Welke aanspraken verdienen aandacht wanneer partijen samen waarde maken maar verschillende invloed op het besluit hebben? Je onderzoekt welk belang wordt beschermd, wie nadeel draagt en wie invloed heeft op de keuze."
+                },
+                {
+                  "id": "first",
+                  "question": "Waar begin ik met zoeken?",
+                  "answer": "Begin bij ‘het eerste bewijsstuk’. Bekijk de concrete situatie voordat je een algemene conclusie trekt. Je kunt bij ieder onderzoek de bijbehorende theorie openen."
+                }
+              ]
+            },
+            {
               "id": "noor-t1",
               "question": "Waarom spreken we van stakeholders?",
               "answer": "De onderneming steunt op meerdere partijen die bijdragen, risico dragen of door haar handelen worden getroffen.",
@@ -629,6 +729,26 @@
           ],
           "opening": "Een leverancier kan zijn investering niet altijd meenemen naar de volgende klant. Dat verandert wat een verhuizing voor hem betekent.",
           "topics": [
+            {
+              "id": "orientation",
+              "question": "Begin bij het begin: wat onderzoeken we hier?",
+              "answer": "Koppel bijdragen aan afhankelijkheid en bouw een dossier waarin die aanspraken zichtbaar zijn.",
+              "concepts": [
+                "context en ethisch dilemma"
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom is dit een ethische vraag?",
+                  "answer": "Welke aanspraken verdienen aandacht wanneer partijen samen waarde maken maar verschillende invloed op het besluit hebben? Je onderzoekt welk belang wordt beschermd, wie nadeel draagt en wie invloed heeft op de keuze."
+                },
+                {
+                  "id": "first",
+                  "question": "Waar begin ik met zoeken?",
+                  "answer": "Begin bij ‘het eerste bewijsstuk’. Bekijk de concrete situatie voordat je een algemene conclusie trekt. Je kunt bij ieder onderzoek de bijbehorende theorie openen."
+                }
+              ]
+            },
             {
               "id": "omar-t1",
               "question": "Wat maakt een investering specifiek?",
@@ -756,6 +876,26 @@
           "opening": "Nog voordat het bestuur kiest, bepaalt het formulier wat als een argument mag binnenkomen.",
           "topics": [
             {
+              "id": "orientation",
+              "question": "Begin bij het begin: wat onderzoeken we hier?",
+              "answer": "Onderzoek het formulier, het moment van inspraak en de bevoegdheden om het voorstel te veranderen.",
+              "concepts": [
+                "context en ethisch dilemma"
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom is dit een ethische vraag?",
+                  "answer": "Hoe organiseert NOVA een besluit waarin inspraak meer is dan een gelegenheid om achteraf iets te zeggen? Je onderzoekt welk belang wordt beschermd, wie nadeel draagt en wie invloed heeft op de keuze."
+                },
+                {
+                  "id": "first",
+                  "question": "Waar begin ik met zoeken?",
+                  "answer": "Begin bij ‘het eerste bewijsstuk’. Bekijk de concrete situatie voordat je een algemene conclusie trekt. Je kunt bij ieder onderzoek de bijbehorende theorie openen."
+                }
+              ]
+            },
+            {
               "id": "iris-t1",
               "question": "Wat zijn beslissingspremissen?",
               "answer": "Vooraf vastgelegde doelen, indicatoren, tijdshorizonnen en interpretatiekaders.",
@@ -876,6 +1016,26 @@
           ],
           "opening": "Verschillende vormen organiseren rechten anders. Je moet hun toepassingsgrenzen kennen en niet doen alsof één vorm alle druk oplost.",
           "topics": [
+            {
+              "id": "orientation",
+              "question": "Begin bij het begin: wat onderzoeken we hier?",
+              "answer": "Onderzoek het formulier, het moment van inspraak en de bevoegdheden om het voorstel te veranderen.",
+              "concepts": [
+                "context en ethisch dilemma"
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom is dit een ethische vraag?",
+                  "answer": "Hoe organiseert NOVA een besluit waarin inspraak meer is dan een gelegenheid om achteraf iets te zeggen? Je onderzoekt welk belang wordt beschermd, wie nadeel draagt en wie invloed heeft op de keuze."
+                },
+                {
+                  "id": "first",
+                  "question": "Waar begin ik met zoeken?",
+                  "answer": "Begin bij ‘het eerste bewijsstuk’. Bekijk de concrete situatie voordat je een algemene conclusie trekt. Je kunt bij ieder onderzoek de bijbehorende theorie openen."
+                }
+              ]
+            },
             {
               "id": "eva-t1",
               "question": "Wat onderscheidt de twee ondernemingslenzen?",
@@ -1003,6 +1163,26 @@
           "opening": "Ik kan geld laten blijven of vertrekken. Ook de verwachting daarover kan een bestuursvoorstel veranderen.",
           "topics": [
             {
+              "id": "orientation",
+              "question": "Begin bij het begin: wat onderzoeken we hier?",
+              "answer": "Vergelijk toegang tot kapitaal en de gevolgen van de voorwaarden voor beide plannen.",
+              "concepts": [
+                "context en ethisch dilemma"
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom is dit een ethische vraag?",
+                  "answer": "Welke verantwoordelijkheid hoort bij de macht om via financiering maatschappelijke activiteiten mogelijk te maken of te beperken? Je onderzoekt welk belang wordt beschermd, wie nadeel draagt en wie invloed heeft op de keuze."
+                },
+                {
+                  "id": "first",
+                  "question": "Waar begin ik met zoeken?",
+                  "answer": "Begin bij ‘het eerste bewijsstuk’. Bekijk de concrete situatie voordat je een algemene conclusie trekt. Je kunt bij ieder onderzoek de bijbehorende theorie openen."
+                }
+              ]
+            },
+            {
               "id": "eva-t1",
               "question": "Waarom is kapitaal een selectiemechanisme?",
               "answer": "Financiering beïnvloedt welke activiteiten kunnen groeien, welke ideeën worden uitgevoerd en welke infrastructuur ontstaat.",
@@ -1123,6 +1303,26 @@
           ],
           "opening": "De stroom geld maakt sommige toekomsten makkelijker dan andere. Laten we selectie, lock-in en waarde niet door elkaar halen.",
           "topics": [
+            {
+              "id": "orientation",
+              "question": "Begin bij het begin: wat onderzoeken we hier?",
+              "answer": "Vergelijk toegang tot kapitaal en de gevolgen van de voorwaarden voor beide plannen.",
+              "concepts": [
+                "context en ethisch dilemma"
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom is dit een ethische vraag?",
+                  "answer": "Welke verantwoordelijkheid hoort bij de macht om via financiering maatschappelijke activiteiten mogelijk te maken of te beperken? Je onderzoekt welk belang wordt beschermd, wie nadeel draagt en wie invloed heeft op de keuze."
+                },
+                {
+                  "id": "first",
+                  "question": "Waar begin ik met zoeken?",
+                  "answer": "Begin bij ‘het eerste bewijsstuk’. Bekijk de concrete situatie voordat je een algemene conclusie trekt. Je kunt bij ieder onderzoek de bijbehorende theorie openen."
+                }
+              ]
+            },
             {
               "id": "noor-t1",
               "question": "Wat betekent lock-in?",
@@ -1250,6 +1450,26 @@
           "opening": "De begroting zegt besparing. Ik wil weten welke effecten niet in dat woord of die rekening staan.",
           "topics": [
             {
+              "id": "orientation",
+              "question": "Begin bij het begin: wat onderzoeken we hier?",
+              "answer": "Volg de kosten voorbij de begrotingsgrens en bouw een besluit met een bredere waardebasis.",
+              "concepts": [
+                "context en ethisch dilemma"
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom is dit een ethische vraag?",
+                  "answer": "Wanneer is een besparing verantwoord, en wie behoort schade te dragen of te voorkomen die buiten de begroting valt? Je onderzoekt welk belang wordt beschermd, wie nadeel draagt en wie invloed heeft op de keuze."
+                },
+                {
+                  "id": "first",
+                  "question": "Waar begin ik met zoeken?",
+                  "answer": "Begin bij ‘het eerste bewijsstuk’. Bekijk de concrete situatie voordat je een algemene conclusie trekt. Je kunt bij ieder onderzoek de bijbehorende theorie openen."
+                }
+              ]
+            },
+            {
               "id": "lena-t1",
               "question": "Wat blijft buiten de prijs?",
               "answer": "Sommige milieu- en sociale gevolgen worden niet volledig gedragen of gemeten in de productprijs.",
@@ -1370,6 +1590,26 @@
           ],
           "opening": "Concurrenten beïnvloeden onze marge. Die druk is echt, maar ze kiest niet vanzelf welke risico's we mogen doorschuiven.",
           "topics": [
+            {
+              "id": "orientation",
+              "question": "Begin bij het begin: wat onderzoeken we hier?",
+              "answer": "Volg de kosten voorbij de begrotingsgrens en bouw een besluit met een bredere waardebasis.",
+              "concepts": [
+                "context en ethisch dilemma"
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom is dit een ethische vraag?",
+                  "answer": "Wanneer is een besparing verantwoord, en wie behoort schade te dragen of te voorkomen die buiten de begroting valt? Je onderzoekt welk belang wordt beschermd, wie nadeel draagt en wie invloed heeft op de keuze."
+                },
+                {
+                  "id": "first",
+                  "question": "Waar begin ik met zoeken?",
+                  "answer": "Begin bij ‘het eerste bewijsstuk’. Bekijk de concrete situatie voordat je een algemene conclusie trekt. Je kunt bij ieder onderzoek de bijbehorende theorie openen."
+                }
+              ]
+            },
             {
               "id": "omar-t1",
               "question": "Hoe kan concurrentiedruk normen verschuiven?",

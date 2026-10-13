@@ -12,6 +12,26 @@
           "opening": "Onderzoek eerst de voorwerpen in De ingang die kiest. Ik help je de begrippen en redenering achter je bevindingen uitwerken.",
           "topics": [
             {
+              "id": "orientation",
+              "question": "Begin bij het begin: wat onderzoeken we hier?",
+              "answer": "Test de deur en onderzoek een bruikbare terugvalroute, met onderhoud en verantwoordelijkheid.",
+              "concepts": [
+                "context en ethisch dilemma"
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom is dit een ethische vraag?",
+                  "answer": "Wie moet zelfstandig toegang kunnen krijgen, ook wanneer de standaardtechniek uitvalt? Je onderzoekt welk belang wordt beschermd, wie nadeel draagt en wie invloed heeft op de keuze."
+                },
+                {
+                  "id": "first",
+                  "question": "Waar begin ik met zoeken?",
+                  "answer": "Begin bij ‘het eerste bewijsstuk’. Bekijk de concrete situatie voordat je een algemene conclusie trekt. Je kunt bij ieder onderzoek de bijbehorende theorie openen."
+                }
+              ]
+            },
+            {
               "id": "m4-01-iris-t1",
               "question": "Hoe moet ik 'Test de deur in vier omstandigheden' begrijpen?",
               "answer": "De deur is niet alleen een hulpmiddel. Stroom, sensoren, onderhoud en bediening bepalen samen wie toegang heeft. Verantwoordelijkheid betreft dus ontwerp, gebruik en beheer.",
@@ -169,6 +189,26 @@
           "cell": 2,
           "opening": "Ik volg de gevolgen voor mensen in De ingang die kiest. Leg je bewijs naast mijn vragen; een bruikbare diagnose laat ook zien wat je nog niet weet.",
           "topics": [
+            {
+              "id": "orientation",
+              "question": "Begin bij het begin: wat onderzoeken we hier?",
+              "answer": "Test de deur en onderzoek een bruikbare terugvalroute, met onderhoud en verantwoordelijkheid.",
+              "concepts": [
+                "context en ethisch dilemma"
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom is dit een ethische vraag?",
+                  "answer": "Wie moet zelfstandig toegang kunnen krijgen, ook wanneer de standaardtechniek uitvalt? Je onderzoekt welk belang wordt beschermd, wie nadeel draagt en wie invloed heeft op de keuze."
+                },
+                {
+                  "id": "first",
+                  "question": "Waar begin ik met zoeken?",
+                  "answer": "Begin bij ‘het eerste bewijsstuk’. Bekijk de concrete situatie voordat je een algemene conclusie trekt. Je kunt bij ieder onderzoek de bijbehorende theorie openen."
+                }
+              ]
+            },
             {
               "id": "m4-01-mila-t1",
               "question": "Wat betekent 'Test de deur in vier omstandigheden' voor betrokkenen?",
@@ -333,6 +373,26 @@
           "opening": "Onderzoek eerst de voorwerpen in Het logistieke knooppunt. Ik help je de begrippen en redenering achter je bevindingen uitwerken.",
           "topics": [
             {
+              "id": "orientation",
+              "question": "Begin bij het begin: wat onderzoeken we hier?",
+              "answer": "Reconstrueer de volledige route en onderzoek de voorwaarden voor aansluiting.",
+              "concepts": [
+                "context en ethisch dilemma"
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom is dit een ethische vraag?",
+                  "answer": "Welke toegang mogen kleine reparateurs verwachten tot infrastructuur waarvan hun klanten afhankelijk zijn? Je onderzoekt welk belang wordt beschermd, wie nadeel draagt en wie invloed heeft op de keuze."
+                },
+                {
+                  "id": "first",
+                  "question": "Waar begin ik met zoeken?",
+                  "answer": "Begin bij ‘het eerste bewijsstuk’. Bekijk de concrete situatie voordat je een algemene conclusie trekt. Je kunt bij ieder onderzoek de bijbehorende theorie openen."
+                }
+              ]
+            },
+            {
               "id": "m4-02-omar-t1",
               "question": "Hoe moet ik 'Zoek wat de apparaten mogelijk maakt' begrijpen?",
               "answer": "Star en Bowker benadrukken de achtergrondfunctie van infrastructuur. De storing toont afhankelijkheid. Wie standaarden en toegang beheert, beïnvloedt welke organisaties kunnen deelnemen.",
@@ -490,6 +550,26 @@
           "cell": 4,
           "opening": "Ik volg de gevolgen voor mensen in Het logistieke knooppunt. Leg je bewijs naast mijn vragen; een bruikbare diagnose laat ook zien wat je nog niet weet.",
           "topics": [
+            {
+              "id": "orientation",
+              "question": "Begin bij het begin: wat onderzoeken we hier?",
+              "answer": "Reconstrueer de volledige route en onderzoek de voorwaarden voor aansluiting.",
+              "concepts": [
+                "context en ethisch dilemma"
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom is dit een ethische vraag?",
+                  "answer": "Welke toegang mogen kleine reparateurs verwachten tot infrastructuur waarvan hun klanten afhankelijk zijn? Je onderzoekt welk belang wordt beschermd, wie nadeel draagt en wie invloed heeft op de keuze."
+                },
+                {
+                  "id": "first",
+                  "question": "Waar begin ik met zoeken?",
+                  "answer": "Begin bij ‘het eerste bewijsstuk’. Bekijk de concrete situatie voordat je een algemene conclusie trekt. Je kunt bij ieder onderzoek de bijbehorende theorie openen."
+                }
+              ]
+            },
             {
               "id": "m4-02-eva-t1",
               "question": "Wat betekent 'Zoek wat de apparaten mogelijk maakt' voor betrokkenen?",
@@ -653,6 +733,26 @@
           "cell": 0,
           "opening": "Onderzoek eerst de voorwerpen in De datakluis. Ik help je de begrippen en redenering achter je bevindingen uitwerken.",
           "topics": [
+            {
+              "id": "orientation",
+              "question": "Begin bij het begin: wat onderzoeken we hier?",
+              "answer": "Volg een gegevensspoor en ontwerp een gecontroleerde export zonder onnodig functieverlies.",
+              "concepts": [
+                "context en ethisch dilemma"
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom is dit een ethische vraag?",
+                  "answer": "Wie hoort controle te hebben over gebruik en verplaatsing van gegevens, en welke schade kan afhankelijkheid veroorzaken? Je onderzoekt welk belang wordt beschermd, wie nadeel draagt en wie invloed heeft op de keuze."
+                },
+                {
+                  "id": "first",
+                  "question": "Waar begin ik met zoeken?",
+                  "answer": "Begin bij ‘het eerste bewijsstuk’. Bekijk de concrete situatie voordat je een algemene conclusie trekt. Je kunt bij ieder onderzoek de bijbehorende theorie openen."
+                }
+              ]
+            },
             {
               "id": "m4-03-noor-t1",
               "question": "Hoe moet ik 'Volg één gegevensspoor' begrijpen?",
@@ -886,6 +986,26 @@
           "cell": 5,
           "opening": "Ik volg de gevolgen voor mensen in De datakluis. Leg je bewijs naast mijn vragen; een bruikbare diagnose laat ook zien wat je nog niet weet.",
           "topics": [
+            {
+              "id": "orientation",
+              "question": "Begin bij het begin: wat onderzoeken we hier?",
+              "answer": "Volg een gegevensspoor en ontwerp een gecontroleerde export zonder onnodig functieverlies.",
+              "concepts": [
+                "context en ethisch dilemma"
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom is dit een ethische vraag?",
+                  "answer": "Wie hoort controle te hebben over gebruik en verplaatsing van gegevens, en welke schade kan afhankelijkheid veroorzaken? Je onderzoekt welk belang wordt beschermd, wie nadeel draagt en wie invloed heeft op de keuze."
+                },
+                {
+                  "id": "first",
+                  "question": "Waar begin ik met zoeken?",
+                  "answer": "Begin bij ‘het eerste bewijsstuk’. Bekijk de concrete situatie voordat je een algemene conclusie trekt. Je kunt bij ieder onderzoek de bijbehorende theorie openen."
+                }
+              ]
+            },
             {
               "id": "m4-03-lena-t1",
               "question": "Wat betekent 'Volg één gegevensspoor' voor betrokkenen?",
@@ -1125,6 +1245,26 @@
           "opening": "Onderzoek eerst de voorwerpen in Het sorteerlab. Ik help je de begrippen en redenering achter je bevindingen uitwerken.",
           "topics": [
             {
+              "id": "orientation",
+              "question": "Begin bij het begin: wat onderzoeken we hier?",
+              "answer": "Vergelijk oefendata en doelen, voer proeven uit en onderzoek welke conclusie de test wel en niet ondersteunt.",
+              "concepts": [
+                "context en ethisch dilemma"
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom is dit een ethische vraag?",
+                  "answer": "Wie draagt de gevolgen van materialen die de machine mist, en wie is verantwoordelijk voor een toetsbare, herstelbare werking? Je onderzoekt welk belang wordt beschermd, wie nadeel draagt en wie invloed heeft op de keuze."
+                },
+                {
+                  "id": "first",
+                  "question": "Waar begin ik met zoeken?",
+                  "answer": "Begin bij ‘het eerste bewijsstuk’. Bekijk de concrete situatie voordat je een algemene conclusie trekt. Je kunt bij ieder onderzoek de bijbehorende theorie openen."
+                }
+              ]
+            },
+            {
               "id": "m4-04-iris-t1",
               "question": "Hoe moet ik 'Wat leert de machine precies?' begrijpen?",
               "answer": "AI kan recycling en terugwinning ondersteunen, zoals de cursuscasus AMP Robotics. Data en ontwerp bepalen wat herkend en gewaardeerd wordt. Toets representativiteit en meer dan alleen snelheid.",
@@ -1358,6 +1498,26 @@
           "cell": 2,
           "opening": "Ik volg de gevolgen voor mensen in Het sorteerlab. Leg je bewijs naast mijn vragen; een bruikbare diagnose laat ook zien wat je nog niet weet.",
           "topics": [
+            {
+              "id": "orientation",
+              "question": "Begin bij het begin: wat onderzoeken we hier?",
+              "answer": "Vergelijk oefendata en doelen, voer proeven uit en onderzoek welke conclusie de test wel en niet ondersteunt.",
+              "concepts": [
+                "context en ethisch dilemma"
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom is dit een ethische vraag?",
+                  "answer": "Wie draagt de gevolgen van materialen die de machine mist, en wie is verantwoordelijk voor een toetsbare, herstelbare werking? Je onderzoekt welk belang wordt beschermd, wie nadeel draagt en wie invloed heeft op de keuze."
+                },
+                {
+                  "id": "first",
+                  "question": "Waar begin ik met zoeken?",
+                  "answer": "Begin bij ‘het eerste bewijsstuk’. Bekijk de concrete situatie voordat je een algemene conclusie trekt. Je kunt bij ieder onderzoek de bijbehorende theorie openen."
+                }
+              ]
+            },
             {
               "id": "m4-04-mila-t1",
               "question": "Wat betekent 'Wat leert de machine precies?' voor betrokkenen?",
@@ -1598,6 +1758,26 @@
           "opening": "Onderzoek eerst de voorwerpen in De controlekamer. Ik help je de begrippen en redenering achter je bevindingen uitwerken.",
           "topics": [
             {
+              "id": "orientation",
+              "question": "Begin bij het begin: wat onderzoeken we hier?",
+              "answer": "Leg prestatie, gevolgen en verantwoordelijke rollen naast elkaar en herstel de ontbrekende verbindingen.",
+              "concepts": [
+                "context en ethisch dilemma"
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom is dit een ethische vraag?",
+                  "answer": "Welke maatschappelijke gevolgen moeten zichtbaar zijn en wie moet bevoegd zijn om erop te handelen? Je onderzoekt welk belang wordt beschermd, wie nadeel draagt en wie invloed heeft op de keuze."
+                },
+                {
+                  "id": "first",
+                  "question": "Waar begin ik met zoeken?",
+                  "answer": "Begin bij ‘het eerste bewijsstuk’. Bekijk de concrete situatie voordat je een algemene conclusie trekt. Je kunt bij ieder onderzoek de bijbehorende theorie openen."
+                }
+              ]
+            },
+            {
               "id": "m4-05-noor-t1",
               "question": "Hoe moet ik 'Wat verdwijnt buiten het scherm?' begrijpen?",
               "answer": "De score is geen volledige werkelijkheid. Een organisatie kan digitale monitoring voor echte verbeteringen of voor reputatie gebruiken. Onderzoek meetgrens, ontbrekende gevolgen en de prikkel achter selectie.",
@@ -1763,6 +1943,26 @@
           "cell": 5,
           "opening": "Ik volg de gevolgen voor mensen in De controlekamer. Leg je bewijs naast mijn vragen; een bruikbare diagnose laat ook zien wat je nog niet weet.",
           "topics": [
+            {
+              "id": "orientation",
+              "question": "Begin bij het begin: wat onderzoeken we hier?",
+              "answer": "Leg prestatie, gevolgen en verantwoordelijke rollen naast elkaar en herstel de ontbrekende verbindingen.",
+              "concepts": [
+                "context en ethisch dilemma"
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom is dit een ethische vraag?",
+                  "answer": "Welke maatschappelijke gevolgen moeten zichtbaar zijn en wie moet bevoegd zijn om erop te handelen? Je onderzoekt welk belang wordt beschermd, wie nadeel draagt en wie invloed heeft op de keuze."
+                },
+                {
+                  "id": "first",
+                  "question": "Waar begin ik met zoeken?",
+                  "answer": "Begin bij ‘het eerste bewijsstuk’. Bekijk de concrete situatie voordat je een algemene conclusie trekt. Je kunt bij ieder onderzoek de bijbehorende theorie openen."
+                }
+              ]
+            },
             {
               "id": "m4-05-lena-t1",
               "question": "Wat betekent 'Wat verdwijnt buiten het scherm?' voor betrokkenen?",
@@ -1935,6 +2135,26 @@
           "opening": "Onderzoek eerst de voorwerpen in De vrijgavekamer. Ik help je de begrippen en redenering achter je bevindingen uitwerken.",
           "topics": [
             {
+              "id": "orientation",
+              "question": "Begin bij het begin: wat onderzoeken we hier?",
+              "answer": "Koppel ieder risico aan een bevoegde rol en maak een controleerbaar, herzienbaar plan.",
+              "concepts": [
+                "context en ethisch dilemma"
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom is dit een ethische vraag?",
+                  "answer": "Onder welke voorwaarden is invoering verantwoord en wie beschermt gebruikers als de pilot anders werkt dan verwacht? Je onderzoekt welk belang wordt beschermd, wie nadeel draagt en wie invloed heeft op de keuze."
+                },
+                {
+                  "id": "first",
+                  "question": "Waar begin ik met zoeken?",
+                  "answer": "Begin bij ‘het eerste bewijsstuk’. Bekijk de concrete situatie voordat je een algemene conclusie trekt. Je kunt bij ieder onderzoek de bijbehorende theorie openen."
+                }
+              ]
+            },
+            {
               "id": "m4-06-iris-t1",
               "question": "Hoe moet ik 'Open de drie regelkasten' begrijpen?",
               "answer": "Systemen komen uit menselijke, organisatorische en institutionele keuzes voort. Analyse is een begin: stel interventies voor die techniek én verantwoordelijkheden veranderen, met ruimte voor maatschappelijke afweging.",
@@ -2104,6 +2324,26 @@
           "cell": 4,
           "opening": "Ik volg de gevolgen voor mensen in De vrijgavekamer. Leg je bewijs naast mijn vragen; een bruikbare diagnose laat ook zien wat je nog niet weet.",
           "topics": [
+            {
+              "id": "orientation",
+              "question": "Begin bij het begin: wat onderzoeken we hier?",
+              "answer": "Koppel ieder risico aan een bevoegde rol en maak een controleerbaar, herzienbaar plan.",
+              "concepts": [
+                "context en ethisch dilemma"
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom is dit een ethische vraag?",
+                  "answer": "Onder welke voorwaarden is invoering verantwoord en wie beschermt gebruikers als de pilot anders werkt dan verwacht? Je onderzoekt welk belang wordt beschermd, wie nadeel draagt en wie invloed heeft op de keuze."
+                },
+                {
+                  "id": "first",
+                  "question": "Waar begin ik met zoeken?",
+                  "answer": "Begin bij ‘het eerste bewijsstuk’. Bekijk de concrete situatie voordat je een algemene conclusie trekt. Je kunt bij ieder onderzoek de bijbehorende theorie openen."
+                }
+              ]
+            },
             {
               "id": "m4-06-eva-t1",
               "question": "Wat betekent 'Open de drie regelkasten' voor betrokkenen?",

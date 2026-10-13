@@ -1,6 +1,6 @@
 # Onder de oppervlakte
 
-Dutch browser adventure for all five Business Ethics lessons. The authored module contains 32 areas, 162 world activities, 13 required original source projections, area reconstructions, five transfer finales and 42 application questions. This is a substantial playable implementation; its educational superiority has not been empirically established.
+Dutch browser adventure for all five Business Ethics lessons. The authored module contains 32 areas, 166 world activities, 13 required original source projections, area reconstructions, five transfer finales and 42 application questions. This is a substantial playable implementation; its educational superiority has not been empirically established.
 
 ## Play
 
@@ -14,9 +14,9 @@ All clues must be investigated before each reconstruction unlocks. Reconstructio
 
 ## Teaching and scope
 
-Lesson 1 contains eight areas; the other lessons each contain six. The first route includes 30 optional environmental investigations, evidence checks, dead ends and a services-key return route. Later routes include optional work records and dead ends. Physical tools also unlock later accounting, model configuration and claim inspection tasks.
+Lesson 1 contains eight areas; the other lessons each contain six. The first route includes 33 optional environmental investigations, evidence checks, dead ends and a services-key return route. Later routes include optional work records and dead ends. Physical tools also unlock later accounting, model configuration and claim inspection tasks.
 
-Each area has a location and mission briefing. A quick theory overview can be read before play. There are two NPCs per area: 64 NPC instances using a six-character cast, with questions, follow-ups and three substantial optional theory sections each. The notebook stores evidence, predictions and personal notes.
+Every entry shows the start/resume screen without resetting progress. Each of the 32 areas has an authored situation, transition, ethical question, task and specific reflection prompt. The first two areas include preparatory evidence objects before concept application. Each activity has expandable context, explanation and the relevant original course reading; a quick theory overview remains available before play. There are two NPCs per area: 64 NPC instances using a six-character cast, with questions, follow-ups and three substantial optional theory sections each. The notebook stores evidence, predictions and personal notes.
 
 Use **Beheer**, code **fabian1**, to jump directly to any area, preview activities, read conversations, inspect area/lesson puzzles and view the questions. Preview changes never overwrite the ordinary learner save. This is a local content-review facility, not an authentication system for sensitive accounts.
 
@@ -36,7 +36,7 @@ Before educational rollout, independent subject review must confirm equivalence 
 
 Run `npm run build` after editing chapter or NPC authoring data to refresh the complete runtime module, conversations and readable plan. Commit and push changes to `main` to update GitHub Pages.
 
-`npm test` validates all five lessons, source references, activity shapes, dialogue depth, causal evidence, model results, progression gates, replay rewards and navigation. `scripts/qa-module.mjs` exercises all authored activity answers, dialogue branches, area/lesson finales and knowledge checks using synthetic DOM activation in a separate test profile. `qa-controls.mjs` checks pointer movement/cancellation, inspection and save isolation. `qa-features.mjs` checks all briefings, theory panels, hotspot hit targets and mobile layout. Screenshots and reports are in ignored `qa/`. Structural coverage is distinct from the separate semantic proposition and media audits in `sources/`.
+`npm test` validates all five lessons, source references, activity shapes, dialogue depth, causal evidence, model results, progression gates, replay rewards and navigation. `scripts/qa-module.mjs` exercises all authored activity answers, dialogue branches, area/lesson finales and knowledge checks using synthetic DOM activation in a separate test profile. `scripts/qa-learning-flow.mjs` checks the new/returning entry, older saves, concrete theory-before-decision path, continuous keyboard flight, all 179 contextual theory views, mobile layout and preserved notes. `qa-controls.mjs` checks pointer movement/cancellation, inspection and save isolation. `qa-features.mjs` checks all briefings, theory panels, hotspot hit targets and mobile layout. Screenshots and reports are in ignored `qa/`. Structural coverage is distinct from the separate semantic proposition and media audits in `sources/`.
 
 ## Artwork
 

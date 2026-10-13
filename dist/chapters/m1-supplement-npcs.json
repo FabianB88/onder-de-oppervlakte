@@ -10,6 +10,26 @@
           "opening": "Het archief bewaart inkomen en vermogen apart. Ik kan uitleggen wat de meter beschrijft. Jij onderzoekt welke groepen, mogelijkheden en geschiedenis achter de cijfers liggen.",
           "topics": [
             {
+              "id": "orientation",
+              "question": "Begin bij het begin: wat onderzoeken we hier?",
+              "answer": "Houd inkomen en vermogen uit elkaar. Volg een belasting en transfer, vergelijk voorbeelden en zoek welke groepen of toegangsdrempels buiten de cijfers blijven.",
+              "concepts": [
+                "context en ethisch dilemma"
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom is dit een ethische vraag?",
+                  "answer": "Wat betekent een rechtvaardige verdeling: dezelfde uitkomst, bescherming bij achterstand, bruikbare kansen of invloed op de regels? Je onderzoekt welk belang wordt beschermd, wie nadeel draagt en wie invloed heeft op de keuze."
+                },
+                {
+                  "id": "first",
+                  "question": "Waar begin ik met zoeken?",
+                  "answer": "Begin bij ‘Twee registers, verschillende vragen’. Bekijk de concrete situatie voordat je een algemene conclusie trekt. Je kunt bij ieder onderzoek de bijbehorende theorie openen."
+                }
+              ]
+            },
+            {
               "id": "register",
               "question": "Waarom twee registers?",
               "answer": "Inkomen stroomt gedurende een periode. Nettovermogen is bezit minus schulden op een moment. Hetzelfde inkomen betekent niet dezelfde buffer, erfenis of mogelijkheden.",
@@ -122,6 +142,26 @@
           "opening": "Een regeling heeft geld, uitvoering en zeggenschap nodig. Ik help je onderscheiden wat de rekening aantoont en wat nog onderzocht of maatschappelijk verantwoord moet worden.",
           "topics": [
             {
+              "id": "orientation",
+              "question": "Begin bij het begin: wat onderzoeken we hier?",
+              "answer": "Houd inkomen en vermogen uit elkaar. Volg een belasting en transfer, vergelijk voorbeelden en zoek welke groepen of toegangsdrempels buiten de cijfers blijven.",
+              "concepts": [
+                "context en ethisch dilemma"
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom is dit een ethische vraag?",
+                  "answer": "Wat betekent een rechtvaardige verdeling: dezelfde uitkomst, bescherming bij achterstand, bruikbare kansen of invloed op de regels? Je onderzoekt welk belang wordt beschermd, wie nadeel draagt en wie invloed heeft op de keuze."
+                },
+                {
+                  "id": "first",
+                  "question": "Waar begin ik met zoeken?",
+                  "answer": "Begin bij ‘Twee registers, verschillende vragen’. Bekijk de concrete situatie voordat je een algemene conclusie trekt. Je kunt bij ieder onderzoek de bijbehorende theorie openen."
+                }
+              ]
+            },
+            {
               "id": "criteria",
               "question": "Bepaalt de meter wat eerlijk is?",
               "answer": "Hij beschrijft een verdeling. De keuze voor behoefte, gelijkheid of kansen vraagt argumenten, onderzoek naar gevolgen en legitieme besluitvorming.",
@@ -198,6 +238,26 @@
           "role": "Onderzoeker van waarde en materiaalstromen",
           "opening": "De leverancier toont minder materiaal per toestel. Ik wil ook het totaal zien. Leg de runs naast elkaar; dan kunnen we groeiverhalen en grenzen onderzoeken.",
           "topics": [
+            {
+              "id": "orientation",
+              "question": "Begin bij het begin: wat onderzoeken we hier?",
+              "answer": "Vergelijk groei, materiaal per toestel en het totaal. Toets beide voorstellen aan impact, behoeften, verdeling en uitvoerbaarheid.",
+              "concepts": [
+                "context en ethisch dilemma"
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom is dit een ethische vraag?",
+                  "answer": "Hoe combineer je noodzakelijke dienstverlening en welvaart met ecologische grenzen, en wie moet ruimte krijgen wanneer niet alles kan groeien? Je onderzoekt welk belang wordt beschermd, wie nadeel draagt en wie invloed heeft op de keuze."
+                },
+                {
+                  "id": "first",
+                  "question": "Waar begin ik met zoeken?",
+                  "answer": "Begin bij ‘Waarde is geen gewicht’. Bekijk de concrete situatie voordat je een algemene conclusie trekt. Je kunt bij ieder onderzoek de bijbehorende theorie openen."
+                }
+              ]
+            },
             {
               "id": "value",
               "question": "Waarom is waarde geen gewicht?",
@@ -312,6 +372,26 @@
           "role": "Technicus van de materiaalproeven",
           "opening": "Ik meet eenheidsverbruik. Een groeiend productieaantal of plan vraagt meer perspectieven. Vraag waar mijn technische meting ophoudt en welk toetsplan de blinde vlekken zichtbaar maakt.",
           "topics": [
+            {
+              "id": "orientation",
+              "question": "Begin bij het begin: wat onderzoeken we hier?",
+              "answer": "Vergelijk groei, materiaal per toestel en het totaal. Toets beide voorstellen aan impact, behoeften, verdeling en uitvoerbaarheid.",
+              "concepts": [
+                "context en ethisch dilemma"
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom is dit een ethische vraag?",
+                  "answer": "Hoe combineer je noodzakelijke dienstverlening en welvaart met ecologische grenzen, en wie moet ruimte krijgen wanneer niet alles kan groeien? Je onderzoekt welk belang wordt beschermd, wie nadeel draagt en wie invloed heeft op de keuze."
+                },
+                {
+                  "id": "first",
+                  "question": "Waar begin ik met zoeken?",
+                  "answer": "Begin bij ‘Waarde is geen gewicht’. Bekijk de concrete situatie voordat je een algemene conclusie trekt. Je kunt bij ieder onderzoek de bijbehorende theorie openen."
+                }
+              ]
+            },
             {
               "id": "measure",
               "question": "Wat voeg je aan het toetsplan toe?",

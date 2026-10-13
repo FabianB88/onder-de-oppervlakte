@@ -2177,7 +2177,7 @@
               "feedback": "Voorwaarden bevatten keuzes over toegang en risico."
             }
           ],
-          "explainAfter": "Macht werkt via formele regels én verwachtingen. Maak het verschil tussen een knop en haalbaar gebruik zichtbaar.",
+          "explainAfter": "De klant kan op het scherm een ander model kiezen, maar onderdelen, gegevens en werkcontacten blijven aan hetzelfde ecosysteem gebonden. Een knop biedt dan minder vrijheid dan hij suggereert. Regels bepalen wat mag; kosten, kennis en verwachtingen bepalen mede wat iemand daadwerkelijk kan doen. Onderzoek die drempels voordat je de keuze vrij noemt.",
           "concepts": [
             "psychologische macht",
             "verwachtingen versus dwang",
@@ -2189,7 +2189,17 @@
             46
           ],
           "clueId": "m2-05-b2-clue",
-          "clueTitle": "Optie, drempel of aanname?"
+          "clueTitle": "Optie, drempel of aanname?",
+          "teaching": [
+            {
+              "title": "Een knop is nog geen bruikbare keuze",
+              "text": "Stel dat je naar een andere dienst mag overstappen, maar je onderhoudsgegevens en werkcontacten niet kunt meenemen. De toestemming bestaat, maar het verlies maakt overstappen moeilijk. De ethische vraag gaat daarom over werkelijke autonomie: welke informatie, middelen en toegang heeft deze gebruiker nodig?"
+            },
+            {
+              "title": "Formele en informele invloed",
+              "text": "Een formele regel staat bijvoorbeeld in een contract. Informele verwachtingen ontstaan bijvoorbeeld wanneer collega’s vinden dat je bij het vertrouwde ecosysteem hoort te blijven. Beide kunnen gedrag sturen. Je zoekt per spoor welke invloed aantoonbaar werkt, in plaats van iedere beperking simpelweg ‘macht’ te noemen."
+            }
+          ]
         },
         {
           "id": "m2-05-b3",

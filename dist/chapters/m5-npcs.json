@@ -12,6 +12,26 @@
           "opening": "Onderzoek eerst de voorwerpen in De warenmarkt. Ik help je de begrippen en redenering achter je bevindingen uitwerken.",
           "topics": [
             {
+              "id": "orientation",
+              "question": "Begin bij het begin: wat onderzoeken we hier?",
+              "answer": "Volg woorden en werkelijk werk afzonderlijk en verbind iedere uitspraak aan haar bewijsgrens.",
+              "concepts": [
+                "context en ethisch dilemma"
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom is dit een ethische vraag?",
+                  "answer": "Welke indruk mag NOVA wekken wanneer het bewijs slechts een deel van de service ondersteunt? Je onderzoekt welk belang wordt beschermd, wie nadeel draagt en wie invloed heeft op de keuze."
+                },
+                {
+                  "id": "first",
+                  "question": "Waar begin ik met zoeken?",
+                  "answer": "Begin bij ‘het eerste bewijsstuk’. Bekijk de concrete situatie voordat je een algemene conclusie trekt. Je kunt bij ieder onderzoek de bijbehorende theorie openen."
+                }
+              ]
+            },
+            {
               "id": "m5-01-lena-t1",
               "question": "Hoe moet ik 'Verzamel de verwachtingen rond de stand' begrijpen?",
               "answer": "De stand staat in een omgeving van consumenten, investeerders, media, ngo’s en toezichthouders. Hun verwachtingen kunnen verandering stimuleren, maar ook druk geven om sneller duurzaam te lijken dan te veranderen.",
@@ -170,6 +190,26 @@
           "cell": 1,
           "opening": "Ik volg de gevolgen voor mensen in De warenmarkt. Leg je bewijs naast mijn vragen; een bruikbare diagnose laat ook zien wat je nog niet weet.",
           "topics": [
+            {
+              "id": "orientation",
+              "question": "Begin bij het begin: wat onderzoeken we hier?",
+              "answer": "Volg woorden en werkelijk werk afzonderlijk en verbind iedere uitspraak aan haar bewijsgrens.",
+              "concepts": [
+                "context en ethisch dilemma"
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom is dit een ethische vraag?",
+                  "answer": "Welke indruk mag NOVA wekken wanneer het bewijs slechts een deel van de service ondersteunt? Je onderzoekt welk belang wordt beschermd, wie nadeel draagt en wie invloed heeft op de keuze."
+                },
+                {
+                  "id": "first",
+                  "question": "Waar begin ik met zoeken?",
+                  "answer": "Begin bij ‘het eerste bewijsstuk’. Bekijk de concrete situatie voordat je een algemene conclusie trekt. Je kunt bij ieder onderzoek de bijbehorende theorie openen."
+                }
+              ]
+            },
             {
               "id": "m5-01-omar-t1",
               "question": "Wat betekent 'Verzamel de verwachtingen rond de stand' voor betrokkenen?",
@@ -334,6 +374,26 @@
           "cell": 5,
           "opening": "Onderzoek eerst de voorwerpen in De campagnestudio. Ik help je de begrippen en redenering achter je bevindingen uitwerken.",
           "topics": [
+            {
+              "id": "orientation",
+              "question": "Begin bij het begin: wat onderzoeken we hier?",
+              "answer": "Diagnoseer iedere claim, zoek het ontbrekende bewijs en maak een controleerbare drukproef.",
+              "concepts": [
+                "context en ethisch dilemma"
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom is dit een ethische vraag?",
+                  "answer": "Welke informatie is nodig om een klant niet te misleiden over wat NOVA daadwerkelijk doet? Je onderzoekt welk belang wordt beschermd, wie nadeel draagt en wie invloed heeft op de keuze."
+                },
+                {
+                  "id": "first",
+                  "question": "Waar begin ik met zoeken?",
+                  "answer": "Begin bij ‘het eerste bewijsstuk’. Bekijk de concrete situatie voordat je een algemene conclusie trekt. Je kunt bij ieder onderzoek de bijbehorende theorie openen."
+                }
+              ]
+            },
             {
               "id": "m5-02-lena-t1",
               "question": "Hoe moet ik 'Vier manieren om een groen beeld te maken' begrijpen?",
@@ -524,6 +584,26 @@
           "cell": 0,
           "opening": "Ik volg de gevolgen voor mensen in De campagnestudio. Leg je bewijs naast mijn vragen; een bruikbare diagnose laat ook zien wat je nog niet weet.",
           "topics": [
+            {
+              "id": "orientation",
+              "question": "Begin bij het begin: wat onderzoeken we hier?",
+              "answer": "Diagnoseer iedere claim, zoek het ontbrekende bewijs en maak een controleerbare drukproef.",
+              "concepts": [
+                "context en ethisch dilemma"
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom is dit een ethische vraag?",
+                  "answer": "Welke informatie is nodig om een klant niet te misleiden over wat NOVA daadwerkelijk doet? Je onderzoekt welk belang wordt beschermd, wie nadeel draagt en wie invloed heeft op de keuze."
+                },
+                {
+                  "id": "first",
+                  "question": "Waar begin ik met zoeken?",
+                  "answer": "Begin bij ‘het eerste bewijsstuk’. Bekijk de concrete situatie voordat je een algemene conclusie trekt. Je kunt bij ieder onderzoek de bijbehorende theorie openen."
+                }
+              ]
+            },
             {
               "id": "m5-02-noor-t1",
               "question": "Wat betekent 'Vier manieren om een groen beeld te maken' voor betrokkenen?",
@@ -720,6 +800,26 @@
           "opening": "Onderzoek eerst de voorwerpen in De materiaalwerkplaats. Ik help je de begrippen en redenering achter je bevindingen uitwerken.",
           "topics": [
             {
+              "id": "orientation",
+              "question": "Begin bij het begin: wat onderzoeken we hier?",
+              "answer": "Volg de bestaande productieafhankelijkheid en toets pilotbereik, volume en totale impact.",
+              "concepts": [
+                "context en ethisch dilemma"
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom is dit een ethische vraag?",
+                  "answer": "Hoe vertelt NOVA eerlijk over beperkingen zonder die als vrijbrief te gebruiken om noodzakelijke verandering uit te stellen? Je onderzoekt welk belang wordt beschermd, wie nadeel draagt en wie invloed heeft op de keuze."
+                },
+                {
+                  "id": "first",
+                  "question": "Waar begin ik met zoeken?",
+                  "answer": "Begin bij ‘het eerste bewijsstuk’. Bekijk de concrete situatie voordat je een algemene conclusie trekt. Je kunt bij ieder onderzoek de bijbehorende theorie openen."
+                }
+              ]
+            },
+            {
               "id": "m5-03-mila-t1",
               "question": "Hoe moet ik 'Een oude machine, een nieuwe verwachting' begrijpen?",
               "answer": "Path dependency maakt organisatorische traagheid begrijpelijk. De spanning tussen verwachting en capaciteit kan communicatie vooruit laten lopen. Een beperking verklaart de situatie; zij rechtvaardigt geen onware claim.",
@@ -879,6 +979,26 @@
           "cell": 4,
           "opening": "Ik volg de gevolgen voor mensen in De materiaalwerkplaats. Leg je bewijs naast mijn vragen; een bruikbare diagnose laat ook zien wat je nog niet weet.",
           "topics": [
+            {
+              "id": "orientation",
+              "question": "Begin bij het begin: wat onderzoeken we hier?",
+              "answer": "Volg de bestaande productieafhankelijkheid en toets pilotbereik, volume en totale impact.",
+              "concepts": [
+                "context en ethisch dilemma"
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom is dit een ethische vraag?",
+                  "answer": "Hoe vertelt NOVA eerlijk over beperkingen zonder die als vrijbrief te gebruiken om noodzakelijke verandering uit te stellen? Je onderzoekt welk belang wordt beschermd, wie nadeel draagt en wie invloed heeft op de keuze."
+                },
+                {
+                  "id": "first",
+                  "question": "Waar begin ik met zoeken?",
+                  "answer": "Begin bij ‘het eerste bewijsstuk’. Bekijk de concrete situatie voordat je een algemene conclusie trekt. Je kunt bij ieder onderzoek de bijbehorende theorie openen."
+                }
+              ]
+            },
             {
               "id": "m5-03-eva-t1",
               "question": "Wat betekent 'Een oude machine, een nieuwe verwachting' voor betrokkenen?",
@@ -1044,6 +1164,26 @@
           "cell": 2,
           "opening": "Onderzoek eerst de voorwerpen in De retour- en recyclingroute. Ik help je de begrippen en redenering achter je bevindingen uitwerken.",
           "topics": [
+            {
+              "id": "orientation",
+              "question": "Begin bij het begin: wat onderzoeken we hier?",
+              "answer": "Volg materialen langs inzameling en verwerking en bewaak de grens van ieder bewijsstuk.",
+              "concepts": [
+                "context en ethisch dilemma"
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom is dit een ethische vraag?",
+                  "answer": "Wanneer zegt een deelverbetering iets over het bedrijfsmodel, en welke gevolgen blijven buiten de belofte? Je onderzoekt welk belang wordt beschermd, wie nadeel draagt en wie invloed heeft op de keuze."
+                },
+                {
+                  "id": "first",
+                  "question": "Waar begin ik met zoeken?",
+                  "answer": "Begin bij ‘het eerste bewijsstuk’. Bekijk de concrete situatie voordat je een algemene conclusie trekt. Je kunt bij ieder onderzoek de bijbehorende theorie openen."
+                }
+              ]
+            },
             {
               "id": "m5-04-mila-t1",
               "question": "Hoe moet ik 'Een collectie is nog geen bedrijfsmodel' begrijpen?",
@@ -1238,6 +1378,26 @@
           "cell": 1,
           "opening": "Ik volg de gevolgen voor mensen in De retour- en recyclingroute. Leg je bewijs naast mijn vragen; een bruikbare diagnose laat ook zien wat je nog niet weet.",
           "topics": [
+            {
+              "id": "orientation",
+              "question": "Begin bij het begin: wat onderzoeken we hier?",
+              "answer": "Volg materialen langs inzameling en verwerking en bewaak de grens van ieder bewijsstuk.",
+              "concepts": [
+                "context en ethisch dilemma"
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom is dit een ethische vraag?",
+                  "answer": "Wanneer zegt een deelverbetering iets over het bedrijfsmodel, en welke gevolgen blijven buiten de belofte? Je onderzoekt welk belang wordt beschermd, wie nadeel draagt en wie invloed heeft op de keuze."
+                },
+                {
+                  "id": "first",
+                  "question": "Waar begin ik met zoeken?",
+                  "answer": "Begin bij ‘het eerste bewijsstuk’. Bekijk de concrete situatie voordat je een algemene conclusie trekt. Je kunt bij ieder onderzoek de bijbehorende theorie openen."
+                }
+              ]
+            },
             {
               "id": "m5-04-omar-t1",
               "question": "Wat betekent 'Een collectie is nog geen bedrijfsmodel' voor betrokkenen?",
@@ -1438,6 +1598,26 @@
           "opening": "Onderzoek eerst de voorwerpen in Het investerings- en bewijsarchief. Ik help je de begrippen en redenering achter je bevindingen uitwerken.",
           "topics": [
             {
+              "id": "orientation",
+              "question": "Begin bij het begin: wat onderzoeken we hier?",
+              "answer": "Volg wie wat weet, wie betaalt en welk bewijs beschikbaar moet zijn vóór een investering.",
+              "concepts": [
+                "context en ethisch dilemma"
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom is dit een ethische vraag?",
+                  "answer": "Wie wordt benadeeld wanneer een beter verhaal meer beloond wordt dan aantoonbare verbetering? Je onderzoekt welk belang wordt beschermd, wie nadeel draagt en wie invloed heeft op de keuze."
+                },
+                {
+                  "id": "first",
+                  "question": "Waar begin ik met zoeken?",
+                  "answer": "Begin bij ‘het eerste bewijsstuk’. Bekijk de concrete situatie voordat je een algemene conclusie trekt. Je kunt bij ieder onderzoek de bijbehorende theorie openen."
+                }
+              ]
+            },
+            {
               "id": "m5-05-eva-t1",
               "question": "Hoe moet ik 'Wie weet wat en wie betaalt?' begrijpen?",
               "answer": "Lyon en Montgomery onderzoeken reputatievoordelen uit claims zonder overeenkomstige prestatieverandering. ESG kan echte verandering belonen, maar informatie en standaarden moeten controleerbaar zijn om schijn en prestatie te onderscheiden.",
@@ -1632,6 +1812,26 @@
           "cell": 5,
           "opening": "Ik volg de gevolgen voor mensen in Het investerings- en bewijsarchief. Leg je bewijs naast mijn vragen; een bruikbare diagnose laat ook zien wat je nog niet weet.",
           "topics": [
+            {
+              "id": "orientation",
+              "question": "Begin bij het begin: wat onderzoeken we hier?",
+              "answer": "Volg wie wat weet, wie betaalt en welk bewijs beschikbaar moet zijn vóór een investering.",
+              "concepts": [
+                "context en ethisch dilemma"
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom is dit een ethische vraag?",
+                  "answer": "Wie wordt benadeeld wanneer een beter verhaal meer beloond wordt dan aantoonbare verbetering? Je onderzoekt welk belang wordt beschermd, wie nadeel draagt en wie invloed heeft op de keuze."
+                },
+                {
+                  "id": "first",
+                  "question": "Waar begin ik met zoeken?",
+                  "answer": "Begin bij ‘het eerste bewijsstuk’. Bekijk de concrete situatie voordat je een algemene conclusie trekt. Je kunt bij ieder onderzoek de bijbehorende theorie openen."
+                }
+              ]
+            },
             {
               "id": "m5-05-lena-t1",
               "question": "Wat betekent 'Wie weet wat en wie betaalt?' voor betrokkenen?",
@@ -1833,6 +2033,26 @@
           "opening": "Onderzoek eerst de voorwerpen in Het publieke forum. Ik help je de begrippen en redenering achter je bevindingen uitwerken.",
           "topics": [
             {
+              "id": "orientation",
+              "question": "Begin bij het begin: wat onderzoeken we hier?",
+              "answer": "Verbind iedere maatregel aan het aangetoonde probleem, een bevoegde rol en controle op de uitkomst.",
+              "concepts": [
+                "context en ethisch dilemma"
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom is dit een ethische vraag?",
+                  "answer": "Hoe maakt NOVA een eerlijke belofte én concrete verbetering waarvoor het aanspreekbaar blijft? Je onderzoekt welk belang wordt beschermd, wie nadeel draagt en wie invloed heeft op de keuze."
+                },
+                {
+                  "id": "first",
+                  "question": "Waar begin ik met zoeken?",
+                  "answer": "Begin bij ‘het eerste bewijsstuk’. Bekijk de concrete situatie voordat je een algemene conclusie trekt. Je kunt bij ieder onderzoek de bijbehorende theorie openen."
+                }
+              ]
+            },
+            {
               "id": "m5-06-lena-t1",
               "question": "Hoe moet ik 'Welke reactie verandert het systeem?' begrijpen?",
               "answer": "Systeemreacties omvatten controleerbare informatie, passende toezichtkaders en daadwerkelijke organisatieverandering. Geen enkele maatregel voorkomt alle greenwashing. Leg vast wat zij kan veranderen en wat aanvullend werk vraagt.",
@@ -2002,6 +2222,26 @@
           "cell": 4,
           "opening": "Ik volg de gevolgen voor mensen in Het publieke forum. Leg je bewijs naast mijn vragen; een bruikbare diagnose laat ook zien wat je nog niet weet.",
           "topics": [
+            {
+              "id": "orientation",
+              "question": "Begin bij het begin: wat onderzoeken we hier?",
+              "answer": "Verbind iedere maatregel aan het aangetoonde probleem, een bevoegde rol en controle op de uitkomst.",
+              "concepts": [
+                "context en ethisch dilemma"
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom is dit een ethische vraag?",
+                  "answer": "Hoe maakt NOVA een eerlijke belofte én concrete verbetering waarvoor het aanspreekbaar blijft? Je onderzoekt welk belang wordt beschermd, wie nadeel draagt en wie invloed heeft op de keuze."
+                },
+                {
+                  "id": "first",
+                  "question": "Waar begin ik met zoeken?",
+                  "answer": "Begin bij ‘het eerste bewijsstuk’. Bekijk de concrete situatie voordat je een algemene conclusie trekt. Je kunt bij ieder onderzoek de bijbehorende theorie openen."
+                }
+              ]
+            },
             {
               "id": "m5-06-eva-t1",
               "question": "Wat betekent 'Welke reactie verandert het systeem?' voor betrokkenen?",

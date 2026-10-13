@@ -11,6 +11,58 @@
           "id": "m1-01",
           "beats": [
             {
+              "id": "m1-01-case",
+              "type": "inspect",
+              "title": "Drie aanvragen, drie belangen",
+              "sceneObject": "evidence",
+              "intro": "Op de werkbank liggen drie aanvragen en je onderzoeksopdracht. Lees waarvoor de afdelingen stroom nodig hebben voordat je een plan maakt.",
+              "hint": "Lees de concrete berichten en verbind ieder belang aan de partij die het gevolg ervaart.",
+              "reveal": [
+                {
+                  "id": "production",
+                  "label": "Productieaanvraag",
+                  "title": "De lancering en het bedrijf",
+                  "text": "Productie vraagt 60 eenheden om de geplande toestellen af te maken. Eva wijst op inkomsten, werk en toekomstige dienstverlening. Uitstel heeft dus gevolgen, ook al zijn die anders dan bij noodklanten. Winst is een relevant belang; zij bepaalt nog niet vanzelf de juiste prioriteit."
+                },
+                {
+                  "id": "repair",
+                  "label": "Reparatieaanvraag",
+                  "title": "De klanten in de wachtrij",
+                  "text": "Reparatie vraagt 40 eenheden voor klanten die hun bestaande toestel willen blijven gebruiken. Als hun reparatie wacht, missen zij hun toestel langer. Niet elke reparatie is even urgent. Onderzoek welke communicatie nodig is en welk uitstel mogelijk is."
+                },
+                {
+                  "id": "emergency",
+                  "label": "Noodaanvraag",
+                  "title": "Noodzakelijke communicatie",
+                  "text": "Noodklanten vragen 40 eenheden voor vervangende toestellen. Zij hebben communicatie dringend nodig. Dat geeft een reden voor bescherming, maar vertelt nog niet alle gevolgen van uitstel bij productie en reparatie. De aanvragen maken een waardeafweging nodig."
+                },
+                {
+                  "id": "mission",
+                  "label": "Jouw opdracht",
+                  "title": "Wat heeft dit met ethiek te maken?",
+                  "text": "Een ethisch oordeel vraagt wat we behoren te doen en waarom. Je onderzoekt belangen, gevolgen en rechtvaardigheid. Hier is economie meer dan rekenen: een verdelingsregel bepaalt wiens behoefte voorrang krijgt en wie het tekort draagt. Je moet je regel kunnen uitleggen aan de getroffen groepen."
+                }
+              ],
+              "required": [
+                "production",
+                "repair",
+                "emergency",
+                "mission"
+              ],
+              "sourceBlocks": [
+                0,
+                2
+              ],
+              "concepts": [
+                "morele economie",
+                "stakeholders",
+                "waarden in prioriteiten"
+              ],
+              "explainAfter": "De drie aanvragen vertegenwoordigen verschillende belangen: bedrijfscontinuïteit, reparatie en noodzakelijke communicatie. Bij een tekort beschermt ieder stroomplan sommige belangen meer dan andere. Je ethische taak is die prioriteit te verantwoorden en de gevolgen voor de andere groepen mee te nemen.",
+              "clueId": "m1-01-case-clue",
+              "clueTitle": "Drie aanvragen, drie belangen"
+            },
+            {
               "id": "m1-01-b1",
               "type": "experiment",
               "title": "De stroom valt uit",
@@ -37,7 +89,20 @@
                 2
               ],
               "clueId": "m1-01-b1-clue",
-              "clueTitle": "De stroom valt uit"
+              "clueTitle": "De stroom valt uit",
+              "requiresEvidence": [
+                "m1-01-case"
+              ],
+              "teaching": [
+                {
+                  "title": "Wat leer je aan de stroomverdeler?",
+                  "text": "Schaarste betekent dat niet alle aanvragen tegelijk kunnen worden vervuld. 60 + 40 + 40 is 140; de accu heeft 100. Iedere uitvoerbare verdeling laat minstens 40 onvervuld. Dat is de technische beperking."
+                },
+                {
+                  "title": "Waar zit de ethische afweging?",
+                  "text": "Vergelijk een plan dat productie veel geeft met een plan dat noodklanten beschermt. De capaciteit blijft gelijk, maar andere mensen moeten wachten. Je kiest welke waarde prioriteit krijgt: continuïteit, behoefte of gelijkheid. Het model maakt gevolgen zichtbaar; het kiest die waarde niet voor je."
+                }
+              ]
             },
             {
               "id": "m1-01-b2",
@@ -98,19 +163,75 @@
                 2
               ],
               "clueId": "m1-01-b2-clue",
-              "clueTitle": "Twee stapels op de noodtafel"
+              "clueTitle": "Twee stapels op de noodtafel",
+              "requiresEvidence": [
+                "m1-01-case"
+              ],
+              "teaching": [
+                {
+                  "title": "Waarom twee stapels?",
+                  "text": "Een meetgegeven beschrijft de situatie: 100 beschikbaar en 140 gevraagd. Een verdelingscriterium zegt wat bij een keuze behoort te tellen. ‘Noodklanten eerst’ geeft noodzakelijke communicatie prioriteit. ‘Hoogste opbrengst eerst’ geeft financiële opbrengst prioriteit. Beide zijn waardeafwegingen."
+                },
+                {
+                  "title": "Een uitgewerkt voorbeeld",
+                  "text": "Eva kan opbrengst meten en daarna voorrang voor productie verdedigen. De opbrengst is een getal; de voorrang is een oordeel over het gewicht van dat getal tegenover andere belangen. Door die stappen te scheiden, kun je de reden van een besluit kritisch bespreken."
+                }
+              ]
+            },
+            {
+              "id": "m1-01-friedman",
+              "type": "inspect",
+              "title": "Een standpunt over bedrijfsverantwoordelijkheid",
+              "sceneObject": "evidence",
+              "intro": "Naast Eva ligt een dossier over de vraag waarvoor een bedrijfsleider verantwoordelijk is. Lees het standpunt vóór je de winstregel beoordeelt.",
+              "hint": "Lees de concrete berichten en verbind ieder belang aan de partij die het gevolg ervaart.",
+              "reveal": [
+                {
+                  "id": "position",
+                  "label": "Wie is Friedman?",
+                  "title": "Een standpunt uit 1970",
+                  "text": "Milton Friedman was een econoom. Hij ziet de bedrijfsleider als vertegenwoordiger van de eigenaren: die behoort doorgaans hun winstdoel te dienen binnen maatschappelijke spelregels. Daarbij noemt hij ook ethische gebruiken en open concurrentie zonder misleiding of fraude."
+                },
+                {
+                  "id": "reason",
+                  "label": "Waarom verdedigt Eva continuïteit?",
+                  "title": "Een werkelijk belang",
+                  "text": "Eva wil de productielijn laten draaien omdat NOVA inkomsten nodig heeft voor werk en dienstverlening. Dat is geen waardevrije rekensom: zij geeft continuïteit gewicht. Noor vraagt welk gewicht noodzakelijke communicatie en reparatie krijgen. Je vergelijkt redenen, niet goede en slechte personen."
+                },
+                {
+                  "id": "rules",
+                  "label": "Wie bepaalt het spel?",
+                  "title": "De vraag van deze cursus",
+                  "text": "Een regel kan financiële continuïteit beschermen, maar ook toegang voor noodklanten. Jouw cursus vraagt daarom welke waarden in economische regels zitten, wie ze kan veranderen en wie risico draagt. Je hoeft Friedman niet af te wijzen om te onderzoeken of NOVA’s noodregel voldoende bescherming biedt."
+                }
+              ],
+              "required": [
+                "position",
+                "reason",
+                "rules"
+              ],
+              "sourceBlocks": [
+                2
+              ],
+              "concepts": [
+                "Friedmans verantwoordelijkheid",
+                "spelregels zijn institutionele keuzes"
+              ],
+              "explainAfter": "Friedman geeft een positie over de verantwoordelijkheid van een bedrijfsleider. De cursus gebruikt die positie om de spelregels zelf te onderzoeken: welke belangen beschermen zij en wie mag ze veranderen? Je maakt geen oordeel over de noodverdeling uitsluitend op basis van opbrengst.",
+              "clueId": "m1-01-friedman-clue",
+              "clueTitle": "Een standpunt over bedrijfsverantwoordelijkheid"
             },
             {
               "id": "m1-01-b3",
               "type": "decision",
               "title": "De winstregel",
               "sceneObject": "person",
-              "intro": "Eva zegt: 'Ons werk is winst maken binnen de regels.' Noor schuift het regelboek naar jou. Wat voeg je aan het noodbesluit toe?",
+              "intro": "Eva verdedigt bedrijfscontinuïteit; Noor vraagt hoe de noodregel andere belangen beschermt. Je hebt Friedmans standpunt gelezen. Wat moet het noodbesluit aanvullend verantwoorden?",
               "hint": "Friedmans positie legt veel verantwoordelijkheid bij de spelregels. Onderzoek daarom ook wie die regels bepaalt en welke belangen ze beschermen.",
               "options": [
                 {
                   "id": "rule",
-                  "text": "Verbind de prioriteitsregel aan getroffen belangen, beslisrechten en herziening.",
+                  "text": "Laat zien wiens belang voorrang krijgt, wie het nadeel draagt en wie de noodregel kan herzien.",
                   "correct": true,
                   "feedback": "Je maakt het normatieve raamwerk zichtbaar en houdt continuïteit als relevant belang."
                 },
@@ -144,7 +265,20 @@
                 4
               ],
               "clueId": "m1-01-b3-clue",
-              "clueTitle": "De winstregel"
+              "clueTitle": "De winstregel",
+              "requiresEvidence": [
+                "m1-01-friedman"
+              ],
+              "teaching": [
+                {
+                  "title": "Wat betekent het standpunt hier?",
+                  "text": "Het Friedman-dossier introduceert een positie over verantwoordelijkheid. Eva verdedigt een werkelijk bedrijfsbelang. Jij onderzoekt daarnaast hoe de bestaande noodregel bescherming, toegang en risico verdeelt. Je kiest geen oordeel over Eva als persoon."
+                },
+                {
+                  "title": "Wat maakt de noodregel bespreekbaar?",
+                  "text": "Een regel die eerst productie bedient heeft gevolgen voor reparatie en noodtoestellen. Een verantwoord dossier benoemt die gevolgen en het gekozen criterium. Het laat ook zien wie de regel kan herzien wanneer nieuwe informatie of andere behoeften dat nodig maken."
+                }
+              ]
             }
           ],
           "finale": {
@@ -222,43 +356,121 @@
               "problem": "Zonder uitvoerbaar én verantwoord noodplan weet de chauffeur niet welke aanvragen hij eerst moet bedienen.",
               "unlockedText": "Het noodplan is verantwoord.",
               "destinationReason": "De ontvangstdocumenten in het depot laten zien welke kosten je verdeling nog niet zichtbaar maakte."
-            }
-          }
+            },
+            "points": [
+              [
+                0.13,
+                0.43,
+                0.22,
+                0.5
+              ],
+              [
+                0.71,
+                0.3,
+                0.71,
+                0.4
+              ],
+              [
+                0.95,
+                0.66,
+                0.86,
+                0.66
+              ],
+              [
+                0.5,
+                0.16,
+                0.5,
+                0.28
+              ],
+              [
+                0.82,
+                0.43,
+                0.8,
+                0.55
+              ]
+            ]
+          },
+          "title": "Het noodbesluit"
         },
         {
           "id": "m1-02",
           "beats": [
             {
+              "id": "m1-02-case",
+              "type": "inspect",
+              "title": "De herkomstkaart en het bericht",
+              "sceneObject": "evidence",
+              "intro": "De ontvangen onderdelen komen van een NOVA-fabriek aan een rivier. Lees de herkomstkaart en het bericht voordat je de factuur onderzoekt.",
+              "hint": "Lees de concrete berichten en verbind ieder belang aan de partij die het gevolg ervaart.",
+              "reveal": [
+                {
+                  "id": "route",
+                  "label": "Herkomstkaart",
+                  "title": "Waarom ligt dit in het depot?",
+                  "text": "De fabriek aan de rivier maakt onderdelen. Ze worden hier ontvangen en gaan daarna naar NOVA’s productielijn. De rivier zelf ligt buiten deze kamer. Omar verzamelt de informatie bij deze zending; het depot is jouw onderzoekstafel voor wat vóór de bezorging gebeurt."
+                },
+                {
+                  "id": "fishers",
+                  "label": "Bericht van de vissers",
+                  "title": "Wie merkt de lozing?",
+                  "text": "Benedenstrooms melden vissers minder bruikbare vangst en verlies van inkomen door vervuild water. De fictieve casus koppelt dit aan de fabriekslozing. De rekening voor de onderdelen bevat nog geen vergoeding voor hun nadeel. Onderzoek dus ook gevolgen voor mensen die geen partij zijn bij de koop."
+                },
+                {
+                  "id": "users",
+                  "label": "Kaart van de watergebruikers",
+                  "title": "Meer dan één gebruik",
+                  "text": "De fabriek gebruikt water voor haar productie. Bewoners gebruiken water voor dagelijkse behoeften; vissers zijn afhankelijk van de rivier als leefomgeving. Een onttrekking of lozing kan hun mogelijkheden veranderen. Zij hebben een belang, ook wanneer zij niet op NOVA’s factuur staan."
+                }
+              ],
+              "required": [
+                "route",
+                "fishers",
+                "users"
+              ],
+              "sourceBlocks": [
+                6,
+                7
+              ],
+              "concepts": [
+                "externaliteiten",
+                "commons",
+                "rechtvaardige verdeling"
+              ],
+              "explainAfter": "Het depot ontvangt de baten van productie, maar de vissers en bewoners merken gevolgen buiten de koopovereenkomst. Je onderzoekt daarom wie betaalt voor de schade en wie invloed krijgt op het gebruik van het gedeelde water. Die twee vragen horen bij dezelfde rivier, maar vragen verschillende afspraken.",
+              "clueId": "m1-02-case-clue",
+              "clueTitle": "De herkomstkaart en het bericht"
+            },
+            {
               "id": "m1-02-b1",
               "type": "inspect",
               "title": "Volg het water",
               "sceneObject": "evidence",
-              "intro": "Achter de productielocatie stroomt een rivier. Open de vier bewijsstukken; ontdek waarom de rekening niet bij het hek stopt.",
+              "intro": "Bij de zending liggen vier bewijsstukken over dezelfde rivier: de productiefactuur, het vissersbericht, het rivierpeil en de watervergunning. Leg ze naast elkaar.",
               "hint": "Een externaliteit is een gevolg voor anderen dat niet volledig in de beslissing of prijs is meegenomen. Een commons vraagt gezamenlijk gebruik en beheer.",
               "reveal": [
                 {
                   "id": "bill",
                   "label": "Factuur",
-                  "title": "Binnen de fabriek",
-                  "text": "NOVA betaalt voor energie en pompen. Deze kosten staan op de factuur."
+                  "title": "Wat NOVA betaalt",
+                  "text": "De fabriek rekent materiaal, energie en pompen door aan NOVA. De factuur bevat geen vergoeding voor verloren vissersinkomen. Ze beschrijft kosten binnen deze transactie; ze toont niet alle gevolgen van de productie."
                 },
                 {
                   "id": "fish",
-                  "label": "Vissersnet",
-                  "title": "Een verschoven gevolg",
-                  "text": "Vissers verliezen inkomsten door slechter water. Als NOVA die schade niet draagt, is dit een negatieve externaliteit."
+                  "label": "Vissersbericht",
+                  "title": "Een last buiten de koop",
+                  "text": "Vissers verliezen in deze fictieve casus inkomen door de fabriekslozing. Ze verkopen geen onderdeel aan NOVA en ontvangen geen vergoeding op de productiefactuur. Zo ontstaat een negatieve externaliteit: de productie veroorzaakt een last die anderen dragen."
                 },
                 {
                   "id": "river",
                   "label": "Rivierpeil",
-                  "title": "Een gedeelde bron met grenzen",
-                  "text": "Meer onttrekking is niet onbeperkt mogelijk. De rivier is een gedeelde hulpbron; gebruikers moeten grenzen en onderhoud organiseren."
+                  "title": "Een bron die meerdere partijen nodig hebben",
+                  "text": "De fabriek, bewoners en vissers gebruiken dezelfde rivier. Extra onttrekking kan minder water voor anderen betekenen; lozing kan het bruikbare water aantasten. Dit gedeelde gebruik vraagt afspraken en controle. De commons-vraag gaat over gezamenlijk beheer, niet alleen over wie de schade betaalt."
                 },
                 {
                   "id": "permit",
-                  "label": "Vergunning",
-                  "title": "Wie krijgt toegang?",
-                  "text": "Voorrang voor industrie of drinkwater verdeelt kansen en bescherming. Dat is een rechtvaardigheidsvraag."
+                  "label": "Watervergunning",
+                  "title": "Een regel verdeelt bescherming",
+                  "text": "De vergunning bepaalt wie wanneer water mag gebruiken. Voorrang voor productie beschermt andere belangen dan voorrang voor noodzakelijke watervoorziening. De fysieke grens helpt vaststellen wat kan; een verdelingscriterium moet uitleggen wie voorrang hoort te krijgen en waarom."
                 }
               ],
               "required": [
@@ -279,7 +491,20 @@
                 7
               ],
               "clueId": "m1-02-b1-clue",
-              "clueTitle": "Volg het water"
+              "clueTitle": "Volg het water",
+              "requiresEvidence": [
+                "m1-02-case"
+              ],
+              "teaching": [
+                {
+                  "title": "Waarom staan deze documenten naast elkaar?",
+                  "text": "De factuur toont de betaling tussen de fabriek en NOVA. Het vissersbericht toont een gevolg voor een derde partij. Juist het verschil maakt een externaliteit zichtbaar: een last van productie die niet volledig in de productrekening terechtkomt."
+                },
+                {
+                  "title": "Twee vragen over dezelfde rivier",
+                  "text": "Bij externaliteiten vraag je wie het gevolg veroorzaakt en draagt. Bij commons vraag je hoe meerdere gebruikers samen toegang, grenzen en naleving regelen. Vergoeding kan de eerste last verschuiven zonder de tweede vraag te beantwoorden."
+                }
+              ]
             },
             {
               "id": "m1-02-b2",
@@ -290,7 +515,7 @@
               "hint": "Een lagere bedrijfsprijs kan samengaan met een hogere last buiten het bedrijf. Bekijk beide, niet alleen de winst.",
               "simulation": "externalities",
               "minimumTrials": 2,
-              "explainAfter": "Als de veroorzaker meer gevolgen draagt, veranderen de prikkels. Dat kan een keuze beïnvloeden. De passende maatregel vraagt ook bewijs over schade, verantwoordelijkheden en uitvoerbaarheid.",
+              "explainAfter": "In deze proef betaalt NOVA een groter deel van dezelfde schade. Daardoor betalen de vissers en omgeving minder, terwijl het totale modelbedrag gelijk blijft. Dit verandert wie de last draagt. Of de rivier schoner wordt, moet je apart onderzoeken: de proef verandert de lozing niet.",
               "concepts": [
                 "externaliteiten",
                 "prijs versus maatschappelijke kosten",
@@ -301,7 +526,73 @@
                 9
               ],
               "clueId": "m1-02-b2-clue",
-              "clueTitle": "Verplaats de rekening"
+              "clueTitle": "Verplaats de rekening",
+              "requiresEvidence": [
+                "m1-02-b1"
+              ],
+              "teaching": [
+                {
+                  "title": "Wat verandert de schuif?",
+                  "text": "De proef gebruikt een vaste productie en een vaste schadehoeveelheid. Jij verandert uitsluitend welk deel van de schade NOVA betaalt. Vergelijk de bedrijfsrekening en de lasten buiten het bedrijf. Hun som blijft in dit voorbeeld gelijk."
+                },
+                {
+                  "title": "Waarom is dit ethisch relevant?",
+                  "text": "Een hogere bedrijfsrekening en een lagere last voor de vissers veranderen de verdeling. Je kunt bespreken waarom de veroorzaker hoort te betalen en welke verantwoordelijkheid NOVA heeft. Schade voorkomen vraagt daarnaast een andere ingreep, bijvoorbeeld minder lozen; betalen is geen bewijs van preventie."
+                }
+              ]
+            },
+            {
+              "id": "m1-02-water",
+              "type": "inspect",
+              "title": "De waterafspraak in vier onderdelen",
+              "sceneObject": "evidence",
+              "intro": "Mila legt vier onderdelen van een mogelijke afspraak neer. Onderzoek wat elk onderdeel verandert; één ingreep lost niet alle problemen tegelijk op.",
+              "hint": "Lees de concrete berichten en verbind ieder belang aan de partij die het gevolg ervaart.",
+              "reveal": [
+                {
+                  "id": "limit",
+                  "label": "Meetstrook",
+                  "title": "Een gebruiksgrens",
+                  "text": "Een meting van rivierpeil en waterkwaliteit helpt bepalen wat er beschikbaar en veilig bruikbaar is. Een prijsafspraak schept geen extra water. De toegestane onttrekking moet aansluiten bij de fysieke grens en bij veranderende omstandigheden."
+                },
+                {
+                  "id": "voice",
+                  "label": "Deelnemerslijst",
+                  "title": "Wie mag meepraten?",
+                  "text": "Alleen NOVA uitnodigen geeft getroffen bewoners en vissers geen invloed op de verdeling. Vertegenwoordiging maakt hun informatie en belangen onderdeel van het besluit. Daarna moet duidelijk zijn wie het besluit neemt, hoe bezwaren worden behandeld en wanneer de afspraak wordt herzien."
+                },
+                {
+                  "id": "monitor",
+                  "label": "Controleformulier",
+                  "title": "Een afspraak die werkt",
+                  "text": "Een grens op papier helpt weinig zonder metingen, onderhoud en iemand die bij overschrijding kan ingrijpen. Spreek af wie controleert, wie gegevens kan zien en wie een verandering mag afdwingen. Zo krijgt gezamenlijk beheer praktische betekenis."
+                },
+                {
+                  "id": "prevent",
+                  "label": "Filter en schadefonds",
+                  "title": "Voorkomen en vergoeden",
+                  "text": "Een filter kan lozing verminderen als het werkt en onderhouden wordt. Een vergoeding kan een deel van geleden nadeel opvangen. Geld betalen herstelt niet automatisch de rivier, en een filter verdeelt niet vanzelf het beschikbare water. Onderzoek beide soorten verantwoordelijkheid."
+                }
+              ],
+              "required": [
+                "limit",
+                "voice",
+                "monitor",
+                "prevent"
+              ],
+              "sourceBlocks": [
+                7,
+                9
+              ],
+              "concepts": [
+                "commons",
+                "begrenzing",
+                "collectieve verantwoordelijkheid",
+                "preventie versus compensatie"
+              ],
+              "explainAfter": "Een rivierafspraak moet niet alleen geld verdelen. Ze moet gebruik binnen een onderbouwde grens brengen, getroffen gebruikers invloed geven en naleving controleerbaar maken. Een schadevergoeding en een technische oplossing kunnen helpen, maar regelen elk slechts een deel van dit probleem.",
+              "clueId": "m1-02-water-clue",
+              "clueTitle": "De waterafspraak in vier onderdelen"
             },
             {
               "id": "m1-02-b3",
@@ -353,7 +644,7 @@
                 "voice",
                 "monitor"
               ],
-              "explainAfter": "Een grens, stem en controle organiseren gezamenlijk beheer. Hourdequin verbindt collectieve afspraken aan individuele ethische verantwoordelijkheid; collectiviteit heft die niet op. Dit is een startontwerp: de precieze verdeling en uitvoerbaarheid blijven vragen om bewijs en discussie.",
+              "explainAfter": "De fabriek krijgt geen onbeperkte toegang tot de rivier: een gemeten grens beperkt het gebruik. Vissers en bewoners kunnen informatie en belangen inbrengen. Metingen en ingrijpbevoegdheid maken naleving mogelijk. Daarmee verandert wie bescherming en invloed krijgt, naast de vraag wie de schade betaalt.",
               "concepts": [
                 "commons-governance",
                 "begrenzing",
@@ -365,7 +656,20 @@
                 9
               ],
               "clueId": "m1-02-b3-clue",
-              "clueTitle": "Maak een rivierafspraak"
+              "clueTitle": "Maak een rivierafspraak",
+              "requiresEvidence": [
+                "m1-02-water"
+              ],
+              "teaching": [
+                {
+                  "title": "Wat is gezamenlijk beheer?",
+                  "text": "Meerdere partijen hebben dezelfde rivier nodig. Als iedere gebruiker alleen zijn eigen voordeel volgt, kan de gezamenlijke bron of toegang onder druk komen. Beheer verbindt daarom een gebruiksgrens aan rechten, plichten, inspraak en naleving."
+                },
+                {
+                  "title": "Een werkende afspraak herkennen",
+                  "text": "Een deskundige kan helpen de fysieke grens te bepalen. Bewoners en vissers brengen informatie en belangen in. Een controleur moet kunnen ingrijpen bij overschrijding. Zonder deze verbindingen is een afspraak mogelijk alleen een belofte, een los schadefonds of een onuitvoerbare hoeveelheid."
+                }
+              ]
             }
           ],
           "finale": {
@@ -466,8 +770,41 @@
               "problem": "De factuur, het vissersbericht en de waterafspraak beschrijven verschillende delen van hetzelfde probleem.",
               "unlockedText": "De kosten en de beheerafspraak zijn uit elkaar gehaald.",
               "destinationReason": "Volg nu de materialen naar het retour- en verwerkingsstation: daar zie je wie buiten de factuur blijft."
-            }
-          }
+            },
+            "points": [
+              [
+                0.32,
+                0.18,
+                0.32,
+                0.31
+              ],
+              [
+                0.63,
+                0.39,
+                0.63,
+                0.49
+              ],
+              [
+                0.89,
+                0.55,
+                0.82,
+                0.58
+              ],
+              [
+                0.15,
+                0.49,
+                0.22,
+                0.56
+              ],
+              [
+                0.8,
+                0.29,
+                0.76,
+                0.39
+              ]
+            ]
+          },
+          "title": "De rekening buiten de factuur"
         },
         {
           "id": "m1-03",

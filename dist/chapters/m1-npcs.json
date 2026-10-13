@@ -10,6 +10,26 @@
           "opening": "De noodaccu is aangesloten. Ik ken de aanvragen; jij verdeelt de stroom. Vraag gerust waarom mijn spreadsheet niet vertelt wie voorrang hoort te krijgen.",
           "topics": [
             {
+              "id": "orientation",
+              "question": "Begin bij het begin: wat onderzoeken we hier?",
+              "answer": "Lees eerst de drie aanvragen. Vergelijk vervolgens twee stroomplannen. Onderscheid wat je kunt meten van wat je rechtvaardig vindt en onderzoek het standpunt over winst en bedrijfsverantwoordelijkheid.",
+              "concepts": [
+                "context en ethisch dilemma"
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom is dit een ethische vraag?",
+                  "answer": "Wie hoort bij het stroomtekort voorrang te krijgen, op grond waarvan, en wie draagt de gevolgen van die keuze? Je onderzoekt welk belang wordt beschermd, wie nadeel draagt en wie invloed heeft op de keuze."
+                },
+                {
+                  "id": "first",
+                  "question": "Waar begin ik met zoeken?",
+                  "answer": "Begin bij ‘Drie aanvragen, drie belangen’. Bekijk de concrete situatie voordat je een algemene conclusie trekt. Je kunt bij ieder onderzoek de bijbehorende theorie openen."
+                }
+              ]
+            },
+            {
               "id": "scarcity",
               "question": "Waarom kunnen we niet iedereen helpen?",
               "answer": "De accu levert 100 eenheden. Productie vraagt 60, reparatie 40 en noodklanten 40. Samen is dat 140. Anders verdelen verandert dit tekort niet.",
@@ -170,6 +190,26 @@
           "opening": "Ik bewaak ook de continuïteit. Vraag mij welk belang een productieplan dient, en welke keuze het plan nog niet kan rechtvaardigen.",
           "topics": [
             {
+              "id": "orientation",
+              "question": "Begin bij het begin: wat onderzoeken we hier?",
+              "answer": "Lees eerst de drie aanvragen. Vergelijk vervolgens twee stroomplannen. Onderscheid wat je kunt meten van wat je rechtvaardig vindt en onderzoek het standpunt over winst en bedrijfsverantwoordelijkheid.",
+              "concepts": [
+                "context en ethisch dilemma"
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom is dit een ethische vraag?",
+                  "answer": "Wie hoort bij het stroomtekort voorrang te krijgen, op grond waarvan, en wie draagt de gevolgen van die keuze? Je onderzoekt welk belang wordt beschermd, wie nadeel draagt en wie invloed heeft op de keuze."
+                },
+                {
+                  "id": "first",
+                  "question": "Waar begin ik met zoeken?",
+                  "answer": "Begin bij ‘Drie aanvragen, drie belangen’. Bekijk de concrete situatie voordat je een algemene conclusie trekt. Je kunt bij ieder onderzoek de bijbehorende theorie openen."
+                }
+              ]
+            },
+            {
               "id": "second-0",
               "question": "Waarom telt de lancering ook mee?",
               "answer": "Productie kan inkomsten en werk ondersteunen. Dat is een relevant belang. Het zegt nog niet hoeveel bescherming noodklanten moeten krijgen. Die keuze vraagt een expliciet criterium.",
@@ -246,8 +286,28 @@
         {
           "name": "Omar",
           "role": "Logistiek coördinator van het depot",
-          "opening": "Op mijn factuur staat niet iedere rekening. Ik kan de stromen volgen; de vissers weten meer over hun schade. Leg hun bericht naast onze kosten.",
+          "opening": "Welkom in het ontvangstdepot. Deze onderdelen komen van NOVA’s fabriek aan de rivier. Vissers benedenstrooms melden schade door de lozing. Op mijn productiefactuur staat die last niet. Ik help je uitzoeken wat we betalen en wat anderen dragen.",
           "topics": [
+            {
+              "id": "orientation",
+              "question": "Begin bij het begin: wat onderzoeken we hier?",
+              "answer": "Begin bij de herkomstkaart van de zending. Vergelijk daarna factuur, vissersbericht, rivierpeil en vergunning. Probeer wie de kosten draagt en ontwerp afspraken voor gebruik, bescherming en inspraak.",
+              "concepts": [
+                "context en ethisch dilemma"
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom is dit een ethische vraag?",
+                  "answer": "Mag NOVA goedkoop produceren als anderen de schade dragen, en wie mag beslissen over het gedeelde rivierwater? Je onderzoekt welk belang wordt beschermd, wie nadeel draagt en wie invloed heeft op de keuze."
+                },
+                {
+                  "id": "first",
+                  "question": "Waar begin ik met zoeken?",
+                  "answer": "Begin bij ‘De herkomstkaart en het bericht’. Bekijk de concrete situatie voordat je een algemene conclusie trekt. Je kunt bij ieder onderzoek de bijbehorende theorie openen."
+                }
+              ]
+            },
             {
               "id": "external",
               "question": "Waarom staat vissersschade niet op jouw factuur?",
@@ -408,8 +468,28 @@
         {
           "name": "Mila",
           "role": "Technisch onderhoud en materiaalverwerking",
-          "opening": "De factuur vertelt wat wij betalen. Ik kan je ook laten zien welk materiaal of afval buiten die factuur terechtkomt.",
+          "opening": "Ik onderzoek de fabriekstechniek en het watergebruik. De fabriek, bewoners en vissers gebruiken dezelfde rivier. Ik kan uitleggen waarom schade betalen iets anders is dan minder vervuilen, en waarom we ook afspraken over gedeeld gebruik nodig hebben.",
           "topics": [
+            {
+              "id": "orientation",
+              "question": "Begin bij het begin: wat onderzoeken we hier?",
+              "answer": "Begin bij de herkomstkaart van de zending. Vergelijk daarna factuur, vissersbericht, rivierpeil en vergunning. Probeer wie de kosten draagt en ontwerp afspraken voor gebruik, bescherming en inspraak.",
+              "concepts": [
+                "context en ethisch dilemma"
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom is dit een ethische vraag?",
+                  "answer": "Mag NOVA goedkoop produceren als anderen de schade dragen, en wie mag beslissen over het gedeelde rivierwater? Je onderzoekt welk belang wordt beschermd, wie nadeel draagt en wie invloed heeft op de keuze."
+                },
+                {
+                  "id": "first",
+                  "question": "Waar begin ik met zoeken?",
+                  "answer": "Begin bij ‘De herkomstkaart en het bericht’. Bekijk de concrete situatie voordat je een algemene conclusie trekt. Je kunt bij ieder onderzoek de bijbehorende theorie openen."
+                }
+              ]
+            },
             {
               "id": "second-0",
               "question": "Betalen en voorkomen zijn hetzelfde?",
@@ -489,6 +569,26 @@
           "role": "Reparatietechnicus en onderzoeker van ketenrecords",
           "opening": "Ik kan een telefoon openen. De hele keten kan ik niet aan de buitenkant zien. Samen leggen we herkomst, gebruik en afval naast elkaar.",
           "topics": [
+            {
+              "id": "orientation",
+              "question": "Begin bij het begin: wat onderzoeken we hier?",
+              "answer": "Leg de materiaalroute neer, open de berichten en verbind concrete controle over grondstoffen of infrastructuur met afhankelijkheid van andere partijen.",
+              "concepts": [
+                "context en ethisch dilemma"
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom is dit een ethische vraag?",
+                  "answer": "Wie profiteert van de telefoon, wie draagt arbeids- of milieurisico's en wie heeft voldoende invloed om de afspraken te veranderen? Je onderzoekt welk belang wordt beschermd, wie nadeel draagt en wie invloed heeft op de keuze."
+                },
+                {
+                  "id": "first",
+                  "question": "Waar begin ik met zoeken?",
+                  "answer": "Begin bij ‘Een telefoon reist verder’. Bekijk de concrete situatie voordat je een algemene conclusie trekt. Je kunt bij ieder onderzoek de bijbehorende theorie openen."
+                }
+              ]
+            },
             {
               "id": "route",
               "question": "Waar begint en eindigt de telefoonroute?",
@@ -654,6 +754,26 @@
           "opening": "Ik weet waar een zending binnenkomt. Dat is nog niet hetzelfde als weten waar grondstoffen vandaan komen of waar afval eindigt.",
           "topics": [
             {
+              "id": "orientation",
+              "question": "Begin bij het begin: wat onderzoeken we hier?",
+              "answer": "Leg de materiaalroute neer, open de berichten en verbind concrete controle over grondstoffen of infrastructuur met afhankelijkheid van andere partijen.",
+              "concepts": [
+                "context en ethisch dilemma"
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom is dit een ethische vraag?",
+                  "answer": "Wie profiteert van de telefoon, wie draagt arbeids- of milieurisico's en wie heeft voldoende invloed om de afspraken te veranderen? Je onderzoekt welk belang wordt beschermd, wie nadeel draagt en wie invloed heeft op de keuze."
+                },
+                {
+                  "id": "first",
+                  "question": "Waar begin ik met zoeken?",
+                  "answer": "Begin bij ‘Een telefoon reist verder’. Bekijk de concrete situatie voordat je een algemene conclusie trekt. Je kunt bij ieder onderzoek de bijbehorende theorie openen."
+                }
+              ]
+            },
+            {
               "id": "second-0",
               "question": "Waarom is een adres niet genoeg?",
               "answer": "Een adres beschrijft één overdracht. De grondstoffenroute en de afvalroute lopen verder. Wie daar risico of afhankelijkheid ervaart, kan buiten het ontvangstregister blijven.",
@@ -732,6 +852,26 @@
           "role": "Ontwerper van automatisering en reparatieplanning",
           "opening": "Mijn planning vertelt mensen wat telt. Ik kan haar veranderen, maar wil eerst zien welk gedrag ze beloont en welke gevolgen buiten het scherm blijven.",
           "topics": [
+            {
+              "id": "orientation",
+              "question": "Begin bij het begin: wat onderzoeken we hier?",
+              "answer": "Inspecteer wat de machines meten, volg de reparatieprikkel en verander de planning zodat relevante belangen daadwerkelijk meewegen.",
+              "concepts": [
+                "context en ethisch dilemma"
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom is dit een ethische vraag?",
+                  "answer": "Waarvoor is NOVA verantwoordelijk als haar meetlat snelle productie beloont maar kwaliteit, natuur of kwetsbare klanten niet meeweegt? Je onderzoekt welk belang wordt beschermd, wie nadeel draagt en wie invloed heeft op de keuze."
+                },
+                {
+                  "id": "first",
+                  "question": "Waar begin ik met zoeken?",
+                  "answer": "Begin bij ‘Het nest naast de sensor’. Bekijk de concrete situatie voordat je een algemene conclusie trekt. Je kunt bij ieder onderzoek de bijbehorende theorie openen."
+                }
+              ]
+            },
             {
               "id": "machine",
               "question": "Waarom stopt de plukmachine niet voor het nest?",
@@ -894,6 +1034,26 @@
           "opening": "Ik kan de machine bedienen. Iris onderzoekt de meetlat. Samen kunnen we zien wanneer een technisch geslaagde uitvoering toch belangrijke belangen mist.",
           "topics": [
             {
+              "id": "orientation",
+              "question": "Begin bij het begin: wat onderzoeken we hier?",
+              "answer": "Inspecteer wat de machines meten, volg de reparatieprikkel en verander de planning zodat relevante belangen daadwerkelijk meewegen.",
+              "concepts": [
+                "context en ethisch dilemma"
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom is dit een ethische vraag?",
+                  "answer": "Waarvoor is NOVA verantwoordelijk als haar meetlat snelle productie beloont maar kwaliteit, natuur of kwetsbare klanten niet meeweegt? Je onderzoekt welk belang wordt beschermd, wie nadeel draagt en wie invloed heeft op de keuze."
+                },
+                {
+                  "id": "first",
+                  "question": "Waar begin ik met zoeken?",
+                  "answer": "Begin bij ‘Het nest naast de sensor’. Bekijk de concrete situatie voordat je een algemene conclusie trekt. Je kunt bij ieder onderzoek de bijbehorende theorie openen."
+                }
+              ]
+            },
+            {
               "id": "second-0",
               "question": "Kan een werkende machine toch iets missen?",
               "answer": "Ja. Zij kan het ingestelde doel goed uitvoeren terwijl bijvoorbeeld reparatiebaarheid niet wordt meegerekend. Het technische succes en de volledigheid van de meetlat zijn verschillende beoordelingen.",
@@ -972,6 +1132,26 @@
           "role": "Investeerder en adviseur over zeggenschap",
           "opening": "Mijn geld maakt plannen mogelijk; mijn voorwaarden beïnvloeden ze ook. Vraag naar die invloed. Een mooie investering is nog geen volledige rechtvaardiging voor alle beslisrechten.",
           "topics": [
+            {
+              "id": "orientation",
+              "question": "Begin bij het begin: wat onderzoeken we hier?",
+              "answer": "Volg de relatie tussen bezit en opbrengst. Vergelijk persoonlijke vrijheid met netwerkcontrole en onderzoek welke voorwaarden de reparateurs krijgen.",
+              "concepts": [
+                "context en ethisch dilemma"
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom is dit een ethische vraag?",
+                  "answer": "Welke zeggenschap mag eigendom geven, en hoe bescherm je mensen die afhankelijk zijn van infrastructuur die zij niet bezitten? Je onderzoekt welk belang wordt beschermd, wie nadeel draagt en wie invloed heeft op de keuze."
+                },
+                {
+                  "id": "first",
+                  "question": "Waar begin ik met zoeken?",
+                  "answer": "Begin bij ‘Drie soorten sleutel’. Bekijk de concrete situatie voordat je een algemene conclusie trekt. Je kunt bij ieder onderzoek de bijbehorende theorie openen."
+                }
+              ]
+            },
             {
               "id": "ownership",
               "question": "Wat zit er achter een eigendomssleutel?",
@@ -1151,6 +1331,26 @@
           "opening": "Het grootboek toont bezit en opbrengst. Ik help je de stap naar zeggenschap onderzoeken zonder cijfers als een complete morele verklaring te behandelen.",
           "topics": [
             {
+              "id": "orientation",
+              "question": "Begin bij het begin: wat onderzoeken we hier?",
+              "answer": "Volg de relatie tussen bezit en opbrengst. Vergelijk persoonlijke vrijheid met netwerkcontrole en onderzoek welke voorwaarden de reparateurs krijgen.",
+              "concepts": [
+                "context en ethisch dilemma"
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom is dit een ethische vraag?",
+                  "answer": "Welke zeggenschap mag eigendom geven, en hoe bescherm je mensen die afhankelijk zijn van infrastructuur die zij niet bezitten? Je onderzoekt welk belang wordt beschermd, wie nadeel draagt en wie invloed heeft op de keuze."
+                },
+                {
+                  "id": "first",
+                  "question": "Waar begin ik met zoeken?",
+                  "answer": "Begin bij ‘Drie soorten sleutel’. Bekijk de concrete situatie voordat je een algemene conclusie trekt. Je kunt bij ieder onderzoek de bijbehorende theorie openen."
+                }
+              ]
+            },
+            {
               "id": "second-0",
               "question": "Bewijst rendement automatisch zeggenschap?",
               "answer": "Het kan een bron van middelen zijn, maar de precieze beslisrechten volgen ook uit eigendomsrechten en instituties. Leg de cijfers naast de regels voor bestuur en toegang.",
@@ -1230,6 +1430,26 @@
           "role": "Analist van marketing, aandacht en impact",
           "opening": "Ik ontwerp wat je eerst ziet. Dat helpt mensen zoeken en kan hun keuze sturen. Open de instellingen; vraag ook welke informatie het ontwerp verbergt.",
           "topics": [
+            {
+              "id": "orientation",
+              "question": "Begin bij het begin: wat onderzoeken we hier?",
+              "answer": "Inspecteer het menu, herken de verschillende beïnvloedingsmechanismen en maak informatie en alternatieven bruikbaar zichtbaar.",
+              "concepts": [
+                "context en ethisch dilemma"
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom is dit een ethische vraag?",
+                  "answer": "Wanneer helpt NOVA mensen kiezen, en wanneer gebruikt het informatie, afhankelijkheid of verliesdruk om hun keuze te sturen? Je onderzoekt welk belang wordt beschermd, wie nadeel draagt en wie invloed heeft op de keuze."
+                },
+                {
+                  "id": "first",
+                  "question": "Waar begin ik met zoeken?",
+                  "answer": "Begin bij ‘Verborgen instellingen in de etalage’. Bekijk de concrete situatie voordat je een algemene conclusie trekt. Je kunt bij ieder onderzoek de bijbehorende theorie openen."
+                }
+              ]
+            },
             {
               "id": "menu",
               "question": "Waarom is deze etalage geen neutraal menu?",
@@ -1402,6 +1622,26 @@
           "role": "Keuzeomgeving en ethische analyse",
           "opening": "Lena maakt de campagne. Ik onderzoek hoe die aandacht, onzekerheid en mogelijke verliezen organiseert. Een verkooppiek vertelt nog niet welk mechanisme doorslaggevend was.",
           "topics": [
+            {
+              "id": "orientation",
+              "question": "Begin bij het begin: wat onderzoeken we hier?",
+              "answer": "Inspecteer het menu, herken de verschillende beïnvloedingsmechanismen en maak informatie en alternatieven bruikbaar zichtbaar.",
+              "concepts": [
+                "context en ethisch dilemma"
+              ],
+              "followups": [
+                {
+                  "id": "why",
+                  "question": "Waarom is dit een ethische vraag?",
+                  "answer": "Wanneer helpt NOVA mensen kiezen, en wanneer gebruikt het informatie, afhankelijkheid of verliesdruk om hun keuze te sturen? Je onderzoekt welk belang wordt beschermd, wie nadeel draagt en wie invloed heeft op de keuze."
+                },
+                {
+                  "id": "first",
+                  "question": "Waar begin ik met zoeken?",
+                  "answer": "Begin bij ‘Verborgen instellingen in de etalage’. Bekijk de concrete situatie voordat je een algemene conclusie trekt. Je kunt bij ieder onderzoek de bijbehorende theorie openen."
+                }
+              ]
+            },
             {
               "id": "second-0",
               "question": "Hoe onderscheid ik de mechanismen?",

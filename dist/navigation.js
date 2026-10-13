@@ -1,3 +1,7 @@
 export function inside(p,poly){let hit=false;for(let i=0,j=poly.length-1;i<poly.length;j=i++){const a=poly[i],b=poly[j];if((a.y>p.y)!==(b.y>p.y)&&p.x<(b.x-a.x)*(p.y-a.y)/(b.y-a.y)+a.x)hit=!hit;}return hit;}
 export function project(p,poly){if(inside(p,poly))return p;let best=null,dist=Infinity;for(let i=0;i<poly.length;i++){const a=poly[i],b=poly[(i+1)%poly.length],dx=b.x-a.x,dy=b.y-a.y,t=Math.max(0,Math.min(1,((p.x-a.x)*dx+(p.y-a.y)*dy)/(dx*dx+dy*dy))),q={x:a.x+t*dx,y:a.y+t*dy},d=(q.x-p.x)**2+(q.y-p.y)**2;if(d<dist){dist=d;best=q;}}const center=poly.reduce((a,b)=>({x:a.x+b.x/poly.length,y:a.y+b.y/poly.length}),{x:0,y:0});return {x:best.x*.997+center.x*.003,y:best.y*.997+center.y*.003};}
 export function moveToward(p,goal,dt,aspect=1.78,speed=.18){const dx=(goal.x-p.x)*aspect,dy=goal.y-p.y,d=Math.hypot(dx,dy),step=Math.min(d,speed*Math.min(dt,.05));if(d<.004)return {x:goal.x,y:goal.y,arrived:true};return {x:p.x+dx/d*step/aspect,y:p.y+dy/d*step,arrived:d<=step+.004};}
+// A flying drone can inspect the whole scene; the old walking-floor polygons
+// created invisible barriers across desks and the upper half of each room.
+export const flightBounds=[{x:.04,y:.22},{x:.96,y:.22},{x:.96,y:.96},{x:.04,y:.96}];
+export function flyDirection(p,dx,dy,dt,aspect=1.78,speed=.48){const length=Math.hypot(dx,dy);if(!length)return p;const step=speed*Math.min(Math.max(dt,0),.05);return project({x:p.x+dx/length*step/aspect,y:p.y+dy/length*step},flightBounds);}

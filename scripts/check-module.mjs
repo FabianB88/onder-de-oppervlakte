@@ -17,12 +17,16 @@ for(const ch of book.chapters){
   check(fs.existsSync(path.join(root,'dist/assets/'+i.world?.imageKey+'.webp')),i.id+': missing room artwork');
   short(i.world?.exit?.problem,i.id+'.door');short(i.world?.exit?.destinationReason,i.id+'.route');
   check(i.beats.length>=3,i.id+': insufficient research');
+  check(i.guide?.story?.length>100&&i.guide?.ethicalQuestion&&i.guide?.task&&i.guide?.reflection,i.id+': missing situation, ethical question or guidance');
+  check(i.beats.some(b=>b.id===i.guide?.firstBeat),i.id+': first investigation missing');
   for(const b of i.beats){
    check(!ids.has(b.id),'Duplicate activity '+b.id);ids.add(b.id);types[b.type]=(types[b.type]||0)+1;
    check(['inspect','sort','connect','order','build','decision','experiment','media'].includes(b.type),b.id+': unsupported activity');short(b.intro,b.id+'.intro');
    check(b.concepts?.length>0,b.id+': concepts missing');check(b.sourceBlocks?.length>0,b.id+': source mapping missing');
    for(const n of b.sourceBlocks||[]){check(Number.isInteger(n)&&src.blocks[n]&&src.blocks[n].t!=='continue',b.id+': invalid source '+n);mapped.add(n);}
    if(b.type!=='media'){short(b.hint,b.id+'.hint');short(b.explainAfter,b.id+'.explanation');}
+   check((b.requiresEvidence||[]).every(id=>i.beats.some(x=>x.id===id)&&id!==b.id),b.id+': prerequisite evidence missing');
+   for(const t of b.teaching||[])short(t.text,b.id+'.teaching',90);
    if(b.type==='inspect'){check(b.reveal.length>=2,b.id+': missing observations');b.reveal.forEach(r=>short(r.text,b.id+'.'+r.id));check(b.required?.every(id=>b.reveal.some(r=>r.id===id)),b.id+': required observations');}
    if(b.type==='sort')check(b.cards.every(c=>b.categories.some(x=>x.id===c.category)),b.id+': card targets');
    if(b.type==='connect')check(new Set(b.pairs.map(p=>p.id)).size===b.pairs.length,b.id+': relationships');

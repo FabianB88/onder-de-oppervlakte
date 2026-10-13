@@ -303,3 +303,6 @@ Final format verification: all eight workspace PNGs are byte-for-byte identical 
 
 
 Scene PNG originals are retained locally in sources/art-originals/. Runtime WebP files remain in dist/assets/. This avoids serving duplicate full-size PNGs in the deployment bundle; no artwork was discarded.
+
+
+2026-10-13: The lecturer requested rooms without people in background artwork. Chapter backgrounds 1–5 were edited with the built-in image generator to remove every person, worker, silhouette and human-shaped statue while preserving room composition, furniture, sunset lighting and teal/amber style. Selected outputs are preserved as sources/art-originals/chapter-N-empty.png; runtime WebP assets replace chapter-N.webp. NPCs are separately rendered game actors.

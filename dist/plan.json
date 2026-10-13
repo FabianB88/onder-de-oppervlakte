@@ -17,7 +17,7 @@
     "completeCurriculum": "De bestaande cursus bepaalt het minimum. Unieke uitleg, onderscheidingen, voorbeelden en leerfuncties uit tekst, oefeningen, afbeeldingen en video's krijgen een aantoonbare plek.",
     "worldTeachingBeats": 161,
     "minimumAreasPerLesson": 6,
-    "totalActivities": 175,
+    "totalActivities": 179,
     "questions": 42
   },
   "experienceContract": [
@@ -41,10 +41,12 @@
           "id": "m1-01",
           "name": "De noodcentrale",
           "imageKey": "room-dispatch",
-          "teachingGoal": "schaarste; morele economie; rechtvaardige verdeling; waarden in prioriteiten; technische berekening versus normatieve afweging; toegang en bescherming; Friedmans verantwoordelijkheid; spelregels zijn institutionele keuzes; collectieve actie en prikkels",
+          "teachingGoal": "morele economie; stakeholders; waarden in prioriteiten; schaarste; rechtvaardige verdeling; technische berekening versus normatieve afweging; toegang en bescherming; Friedmans verantwoordelijkheid; spelregels zijn institutionele keuzes; collectieve actie en prikkels",
           "worldAction": [
+            "Drie aanvragen, drie belangen",
             "De stroom valt uit",
             "Twee stapels op de noodtafel",
+            "Een standpunt over bedrijfsverantwoordelijkheid",
             "De winstregel"
           ],
           "exit": {
@@ -64,10 +66,12 @@
           "id": "m1-02",
           "name": "Het ontvangstdepot",
           "imageKey": "room-depot",
-          "teachingGoal": "externaliteiten; commons; begrenzing; rechtvaardige verdeling; prijs versus maatschappelijke kosten; prikkels; commons-governance; verdeling; collectieve verantwoordelijkheid",
+          "teachingGoal": "externaliteiten; commons; rechtvaardige verdeling; begrenzing; prijs versus maatschappelijke kosten; prikkels; collectieve verantwoordelijkheid; preventie versus compensatie; commons-governance; verdeling",
           "worldAction": [
+            "De herkomstkaart en het bericht",
             "Volg het water",
             "Verplaats de rekening",
+            "De waterafspraak in vier onderdelen",
             "Maak een rivierafspraak"
           ],
           "exit": {

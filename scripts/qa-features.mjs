@@ -12,7 +12,7 @@ try{
   const i=book.chapters[chapter].investigations[room];await click('[data-act=adminOverview]');await click(`[data-act=adminVisit][data-chapter="${chapter}"][data-index="${room}"]`);
   const hidden=await page.locator('.room-object[data-act=approach]').evaluateAll(es=>es.filter(e=>{const r=e.querySelector('.object-dot').getBoundingClientRect();return !e.contains(document.elementFromPoint(r.x+r.width/2,r.y+r.height/2));}).map(e=>e.dataset.id));report.inaccessible.push(...hidden);
   if(room===0)await page.screenshot({path:`qa/${i.id}-latest.png`});
-  await click('[data-act=openBriefing]');assert((await page.locator('.brief-location').innerText()).includes(i.world.exit.problem));await close();await click('[data-act=npc]');
+  await click('[data-act=openBriefing]');assert.equal(await page.locator('.arrival-story').innerText(),i.guide.story);await close();await click('[data-act=npc]');
   for(const n of npcs.get(i.id).npcs){await click(`[data-act=switchNPC][data-name="${n.name}"]`);await click('[data-act=npcTheory]');assert.equal(await page.locator('.theory-depth details').count(),3);for(let k=0;k<3;k++){if(k>0)await click(`.theory-depth details:nth-child(${k+1}) summary`);assert((await page.locator(`.theory-depth details:nth-child(${k+1})`).innerText()).includes(n.theory.sections[k].text));}if(chapter===0&&room===0&&n.name==='Noor')await page.screenshot({path:'qa/noor-verdieping.png'});report.theoryPanels++;await click('[data-act=npcReturn]');}await close();report.areas.push(i.id);
  }
  // Mobile scene, notebook and panels retain normal page scrolling.

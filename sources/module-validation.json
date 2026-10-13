@@ -8,7 +8,7 @@
     {
       "lessonId": "m1",
       "areas": 8,
-      "activities": 36,
+      "activities": 40,
       "requiredSourceProjections": 1,
       "questions": 10,
       "sourceRows": [
@@ -16,6 +16,7 @@
           "index": 0,
           "type": "text",
           "mappedTo": [
+            "m1-01-case",
             "m1-01-b1",
             "m1-01-b2"
           ]
@@ -24,8 +25,10 @@
           "index": 2,
           "type": "text",
           "mappedTo": [
+            "m1-01-case",
             "m1-01-b1",
             "m1-01-b2",
+            "m1-01-friedman",
             "m1-01-b3"
           ]
         },
@@ -51,6 +54,7 @@
           "index": 6,
           "type": "text",
           "mappedTo": [
+            "m1-02-case",
             "m1-02-b1"
           ]
         },
@@ -58,8 +62,10 @@
           "index": 7,
           "type": "tabs",
           "mappedTo": [
+            "m1-02-case",
             "m1-02-b1",
             "m1-02-b2",
+            "m1-02-water",
             "m1-02-b3"
           ]
         },
@@ -68,6 +74,7 @@
           "type": "quiz",
           "mappedTo": [
             "m1-02-b2",
+            "m1-02-water",
             "m1-02-b3"
           ]
         },
@@ -1328,13 +1335,13 @@
   "counts": {
     "lessons": 5,
     "areas": 32,
-    "activities": 175,
+    "activities": 179,
     "questions": 42,
     "types": {
+      "inspect": 52,
       "experiment": 6,
       "sort": 24,
       "decision": 10,
-      "inspect": 48,
       "build": 22,
       "order": 17,
       "connect": 35,
