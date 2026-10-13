@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-13",
+  "trigger": "The lecturer could not pass the electricity/depot comparisons or understand the evidence board, and described the teaching as disorganized and full of unexplained terms. The battery route was a clearer example.",
+  "diagnosis": [
+    "Selecting a clue did not replace placed evidence until a second, poorly signposted placement action.",
+    "Evidence validation required a single canonical artifact even where newly authored artifacts supported the same conclusion.",
+    "Legacy experiments used hidden arbitrary thresholds instead of meaningful comparison conditions.",
+    "Reopening experiments did not render saved completion requirements until running another trial.",
+    "Area-level orientation did not provide plain-language foundational concepts throughout all five lessons.",
+    "XP levels had no functional advantages."
+  ],
+  "changes": [
+    "Direct explanation/evidence selection, visible selected states, backward navigation and diagnostic feedback.",
+    "Explicitly authored alternative evidence with supporting explanations for the first two area puzzles; no automatic concept-overlap acceptance.",
+    "The preparatory electricity case now supplies both capacity and demand, enabling the selected case to support the deficit conclusion.",
+    "Visible comparison checklist, saved trial log, guided control presets and restored experiment interpretation.",
+    "Same-total feasible electricity comparisons and any distinct river-cost shares, with model interpretation still required.",
+    "32 plain-language learning goals and foundational concept sets; recommended route respects activity prerequisites.",
+    "Five XP levels unlock four usable assistance tools. Essential explanations are never XP-gated.",
+    "Previewing levels is isolated from learner saves."
+  ],
+  "scope": "Original source course and all existing activities retained. Foundation guides organize and explain the source concepts; they do not certify empirical learning equivalence.",
+  "validation": [
+    "test-learning-flow: supported alternate evidence, incorrect reasoning, restore invariants, comparison criteria, all presets, level thresholds and duplicate XP.",
+    "qa-puzzle-repair: direct replacement, backward navigation, saved answers, six experiments, 32 guides, working perks, admin isolation and mobile.",
+    "qa-module: complete authored activity and puzzle route, including incorrect-answer feedback without progression."
+  ]
+}

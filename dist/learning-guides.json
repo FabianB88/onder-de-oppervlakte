@@ -1,0 +1,674 @@
+{
+  "rooms": {
+    "m1-01": {
+      "goal": "Je leert het verschil tussen wat de cijfers mogelijk maken en welke keuze je rechtvaardig vindt. Je kunt uitleggen wie door een stroomplan wordt geholpen en wie moet wachten.",
+      "core": [
+        {
+          "term": "Schaarste",
+          "text": "Er is te weinig om alle wensen tegelijk te vervullen. De accu bevat 100 eenheden en er wordt 140 gevraagd. Anders verdelen bepaalt wie wacht; het maakt geen extra stroom."
+        },
+        {
+          "term": "Verdelingscriterium",
+          "text": "De reden die je gebruikt om iemand voorrang te geven. Bijvoorbeeld: eerst helpen wie communicatie dringend nodig heeft. Je moet ook uitleggen wat die keuze voor de andere groepen betekent.",
+          "aliases": [
+            "waarden in prioriteiten",
+            "rechtvaardige verdeling"
+          ]
+        },
+        {
+          "term": "Morele economie",
+          "text": "De manier waarop we middelen, voordelen en nadelen verdelen bevat ideeën over wat belangrijk en rechtvaardig is. Een bedrijfsregel beschermt bepaalde belangen. Je onderzoekt welke belangen dat zijn en waarom."
+        },
+        {
+          "term": "Stakeholder",
+          "text": "Iemand die invloed heeft op het bedrijf of gevolgen van zijn keuzes ondervindt. Hier zijn dat onder meer werknemers, eigenaren, reparatieklanten en noodklanten. Hun belangen kunnen verschillen."
+        },
+        {
+          "term": "Normatieve afweging",
+          "text": "Afwegen wat je behoort te doen en waarom. Je vergelijkt redenen zoals noodzaak, gelijkheid en bestaanszekerheid. Dat verschilt van alleen meten wat er is. Je kunt het eens zijn over 100 beschikbare eenheden en toch verschillend oordelen over voorrang."
+        }
+      ]
+    },
+    "m1-02": {
+      "goal": "Je leert waarom een productfactuur niet alle gevolgen van productie laat zien. Je onderscheidt schade betalen, schade voorkomen en afspraken maken over gedeeld water.",
+      "core": [
+        {
+          "term": "Negatieve externaliteit",
+          "text": "Een activiteit veroorzaakt nadeel voor anderen dat niet volledig door de veroorzaker wordt gedragen. Hier verliest een visser inkomen door de fabriekslozing, zonder vergoeding in de productrekening.",
+          "aliases": [
+            "externaliteiten",
+            "externaliteit"
+          ]
+        },
+        {
+          "term": "Commons",
+          "text": "Een gedeelde hulpbron waar meerdere mensen van afhankelijk zijn, zoals deze rivier. Als één gebruiker water onttrekt of vervuilt, kan dat anderen raken. Het beheer vraagt afspraken over gebruik, grenzen en controle."
+        },
+        {
+          "term": "Kosten internaliseren",
+          "text": "Kosten die eerst buiten het bedrijf vielen op de rekening van het bedrijf laten komen. NOVA betaalt dan bijvoorbeeld voor vissersschade. Wie betaalt verandert; daarmee is de lozing nog niet verminderd.",
+          "aliases": [
+            "internaliseren"
+          ]
+        },
+        {
+          "term": "Preventie en compensatie",
+          "text": "Preventie probeert schade te voorkomen, bijvoorbeeld met een werkend filter. Compensatie vergoedt geleden nadeel. Geld betalen en minder vervuilen zijn verschillende maatregelen; soms zijn beide nodig."
+        }
+      ]
+    },
+    "m1-03": {
+      "goal": "Je volgt een batterij van grondstof tot afval. Je leert zien waar de voordelen terechtkomen, waar de lasten ontstaan en wie invloed heeft op de voorwaarden.",
+      "core": [
+        {
+          "term": "Grondstoffenketen",
+          "text": "De opeenvolgende stappen waarin een materiaal wordt gewonnen, verwerkt, gebruikt en uiteindelijk hergebruikt of afgedankt. Een batterij verbindt daardoor mensen en plaatsen die je bij de aankoop niet ziet."
+        },
+        {
+          "term": "Baten en lasten",
+          "text": "Baten zijn voordelen, zoals inkomen of een bruikbaar toestel. Lasten zijn nadelen, zoals gevaarlijk werk of vervuiling. Ze hoeven niet bij dezelfde groep terecht te komen. Dat maakt de verdeling een ethische vraag."
+        },
+        {
+          "term": "Macht in de keten",
+          "text": "De mogelijkheid om voorwaarden te bepalen of anderen afhankelijk te maken. Wie een belangrijke grondstof, verbinding of afzetmarkt beheert, kan invloed krijgen. Die invloed hangt af van welke alternatieven anderen hebben."
+        }
+      ]
+    },
+    "m1-04": {
+      "goal": "Je ontdekt hoe een prestatiedoel gedrag stuurt, ook wanneer medewerkers goede bedoelingen hebben. Je onderzoekt welke regel moet veranderen om zorgvuldig werk mogelijk te maken.",
+      "core": [
+        {
+          "term": "KPI",
+          "text": "Een meetgetal waarmee een organisatie prestaties volgt, zoals het aantal afgewerkte reparaties. Als alleen snelheid meetelt, kan zorgvuldig werk naar de achtergrond verdwijnen. Wat je meet beïnvloedt waar mensen aandacht aan geven."
+        },
+        {
+          "term": "Prikkel",
+          "text": "Iets dat een bepaalde handeling aantrekkelijker of moeilijker maakt, zoals een beloning, tijdsdruk of beoordeling. Een snelheidsbonus kan haast bevorderen. Onderzoek de gevolgen; een prikkel bepaalt gedrag niet volledig.",
+          "aliases": [
+            "prikkels"
+          ]
+        },
+        {
+          "term": "Morele paradox van organisaties",
+          "text": "Een organisatie kan mensen met goede bedoelingen toch richting schadelijke uitkomsten sturen door haar doelen en regels. Goodpaster helpt je daarom naast de medewerker ook de inrichting van het werk te onderzoeken."
+        }
+      ]
+    },
+    "m1-05": {
+      "goal": "Je leert dat werken, eigenaar zijn en kunnen beslissen verschillende posities zijn. Je onderzoekt hoe bezit en spelregels opbrengsten, toegang en invloed verdelen.",
+      "core": [
+        {
+          "term": "Eigendom en zeggenschap",
+          "text": "Eigendom betekent dat iets van je is. Zeggenschap betekent dat je ergens over mag meebeslissen. Eigendom kan rechten op opbrengst en besluiten geven, maar dat hangt af van de regels. Wie veel bijdraagt is niet automatisch eigenaar."
+        },
+        {
+          "term": "Marktmacht",
+          "text": "De mogelijkheid om prijzen of toegangsvoorwaarden te beïnvloeden doordat anderen weinig alternatieven hebben. Een groot bedrijf heeft niet altijd zulke macht; je moet onderzoeken of klanten, leveranciers of concurrenten werkelijk kunnen uitwijken."
+        },
+        {
+          "term": "Vermogensgroei: r en g",
+          "text": "Vermogen is wat iemand bezit, min schulden. r staat hier voor het rendement op vermogen; g voor economische groei. Als bezit langdurig sneller groeit dan de economie, kan vermogen zich concentreren. Belastingen, sparen en andere omstandigheden doen er ook toe.",
+          "aliases": [
+            "Piketty",
+            "r groter dan g",
+            "cumulatieve vermogensgroei"
+          ]
+        },
+        {
+          "term": "Privatisering, deregulering en financialisering",
+          "text": "Privatisering brengt activiteiten of bezit van publieke naar private handen. Deregulering vermindert of verandert regels. Financialisering geeft financiële doelen en partijen meer invloed. Onderzoek bij elke verandering wie bescherming, toegang en beslisruimte krijgt."
+        },
+        {
+          "term": "Neoliberalisme",
+          "text": "Een benadering waarin marktwerking, private eigendom en concurrentie een grote rol krijgen. Dat kan samengaan met privatisering of veranderingen in regels. Het is geen land zonder overheid: onderzoek juist welke regels de markt vormgeven en wie daardoor invloed of bescherming krijgt."
+        }
+      ]
+    },
+    "m1-07": {
+      "goal": "Je leert inkomen en bezit uit elkaar houden en ongelijkheid voorzichtig beoordelen. Je onderzoekt welke beleidskeuze welke verdeling verandert en wat de cijfers niet laten zien.",
+      "core": [
+        {
+          "term": "Inkomen en vermogen",
+          "text": "Inkomen is wat je in een periode ontvangt, bijvoorbeeld loon. Vermogen is wat je op een moment bezit, min schulden. Iemand kan een laag maandinkomen hebben en toch veel bezit, of andersom."
+        },
+        {
+          "term": "Gini-coëfficiënt",
+          "text": "Een getal dat beschrijft hoe ongelijk inkomen of vermogen verdeeld is. Een hoger getal betekent meer ongelijkheid. Het vertelt niet hoe rijk iedereen is, of mensen toegang hebben tot onderwijs, of waarom de verdeling zo is."
+        },
+        {
+          "term": "Herverdeling",
+          "text": "De verdeling veranderen, bijvoorbeeld door belastingen en uitkeringen. Het verschil tussen inkomen vóór en na zulke maatregelen laat een deel van hun werking zien. Dat beoordeelt nog niet alle kansen, diensten of gevolgen."
+        }
+      ]
+    },
+    "m1-08": {
+      "goal": "Je leert groei, verbetering per product en totale belasting apart bekijken. Zo kun je beoordelen wat een duurzaamheidsvoorstel werkelijk aantoont en welke behoeften het dient.",
+      "core": [
+        {
+          "term": "Exponentiële groei",
+          "text": "Groei met telkens hetzelfde percentage van een steeds groter totaal. Daardoor wordt de toename in aantallen groter. Een vaste procentuele groei is iets anders dan ieder jaar hetzelfde aantal toevoegen."
+        },
+        {
+          "term": "BBP",
+          "text": "Het bruto binnenlands product beschrijft de marktwaarde van geproduceerde goederen en diensten in een land. Het is geen directe maat voor materiaalgewicht, rechtvaardigheid of welzijn. Niet alle waardevolle activiteiten komen volledig in dit getal terecht."
+        },
+        {
+          "term": "Relatieve en absolute ontkoppeling",
+          "text": "Bij relatieve ontkoppeling daalt de milieubelasting per eenheid economische activiteit. Bij absolute ontkoppeling daalt ook de totale belasting. Als veel meer wordt geproduceerd, kan verbetering per product samengaan met een stijgend totaal.",
+          "aliases": [
+            "relatieve versus absolute ontkoppeling"
+          ]
+        },
+        {
+          "term": "Reboundeffect",
+          "text": "Een besparing kan deels verloren gaan doordat goedkoper of zuiniger gebruik tot méér gebruik leidt. Dat is een mogelijke reactie, geen wet die bij elke verbetering optreedt. Volg daarom zowel de efficiëntie als het totale gebruik."
+        }
+      ]
+    },
+    "m1-06": {
+      "goal": "Je leert hoe aanbod, reclame en verwachtingen onze keuzes beïnvloeden. Je onderzoekt of mensen bruikbare alternatieven zien en welke gevolgen buiten een financieel doel verdwijnen.",
+      "core": [
+        {
+          "term": "Keuzeruimte",
+          "text": "De mogelijkheden die iemand daadwerkelijk kan zien en gebruiken. Een reparatieoptie bestaat misschien wel, maar blijft praktisch buiten beeld als het menu alleen nieuwe toestellen toont. Onderzoek zowel het aanbod als de presentatie."
+        },
+        {
+          "term": "Kuddegedrag",
+          "text": "Anderen volgen, bijvoorbeeld omdat hun gedrag bij onzekerheid als informatie voelt. Daardoor kan een keuze zichzelf versterken. Dat kan begrijpelijk zijn, maar bewijst niet dat de groep goed geïnformeerd is.",
+          "aliases": [
+            "kuddegedrag bij onzekerheid"
+          ]
+        },
+        {
+          "term": "Verliesaversie",
+          "text": "Een mogelijk verlies kan zwaarder voelen dan een even grote winst. Een boodschap als ‘mis dit voordeel niet’ kan daarop inspelen. Het is een mogelijke invloed op een keuze, geen verklaring voor alles wat iemand doet."
+        },
+        {
+          "term": "Kortetermijnrendement",
+          "text": "De financiële opbrengst op korte termijn. Als die maatstaf overheerst, kunnen onderhoud of langetermijngevolgen onvoldoende gewicht krijgen. Onderzoek wat het besluit wel en niet meetelt."
+        },
+        {
+          "term": "Morele ontkoppeling",
+          "text": "Een verhaal gebruiken waardoor de morele gevolgen van gedrag minder aandacht krijgen. Bijvoorbeeld schade klein noemen of zeggen dat een ander verantwoordelijk is. Zo kun je een gerust gevoel houden terwijl de gevolgen voor anderen niet veranderen."
+        }
+      ]
+    },
+    "m2-01": {
+      "goal": "Je leert waarom mensen niet altijd alles rustig afwegen en hoe de werkomgeving daarbij meespeelt. Je onderzoekt wanneer een routine helpt en wanneer heroverwegen nodig is.",
+      "core": [
+        {
+          "term": "Beperkte rationaliteit",
+          "text": "Mensen hebben beperkte tijd, informatie en aandacht. We kunnen daarom niet bij iedere keuze alle mogelijkheden berekenen. Dat maakt de omstandigheden en beschikbare hulp belangrijk voor zorgvuldig beslissen."
+        },
+        {
+          "term": "Heuristiek",
+          "text": "Een eenvoudige denkregel waarmee je snel kiest, zoals afgaan op een bekende naam. Zo'n vuistregel kan helpen, maar ook informatie missen als de omstandigheden zijn veranderd."
+        },
+        {
+          "term": "Groep, aggregaat en categorie",
+          "text": "Een groep heeft onderlinge relaties of een gedeeld verband. Een aggregaat is een verzameling mensen op dezelfde plek zonder zo'n verband. Een categorie deelt een kenmerk, zoals leeftijd; de leden hoeven elkaar niet te kennen."
+        },
+        {
+          "term": "Referentiegroep",
+          "text": "Een groep waarmee iemand zich vergelijkt of op wie iemand zijn gedrag afstemt. Mensen kunnen zich richten op collega's, vrienden of een beroepsgroep. Dat beïnvloedt verwachtingen, maar maakt hun keuze niet onvermijdelijk."
+        }
+      ]
+    },
+    "m2-02": {
+      "goal": "Je leert herkennen hoe woorden schade minder zichtbaar kunnen maken. Je onderscheidt een verklaring van gedrag van een rechtvaardiging, zonder zomaar slechte bedoelingen toe te schrijven.",
+      "core": [
+        {
+          "term": "Moraal en ethiek",
+          "text": "Moraal gaat over opvattingen en gewoontes rond goed en verkeerd. Ethiek onderzoekt die opvattingen: welke redenen geven we, passen ze bij elkaar en wat betekenen ze voor anderen?"
+        },
+        {
+          "term": "Cognitieve dissonantie",
+          "text": "Het ongemak wanneer gedrag en overtuiging niet goed bij elkaar passen. Iemand kan zijn gedrag aanpassen, maar ook een verhaal bedenken waardoor het toch aanvaardbaar lijkt. Onderzoek wat er feitelijk verandert."
+        },
+        {
+          "term": "Morele ontkoppeling",
+          "text": "Manieren om de morele betekenis van gedrag naar de achtergrond te schuiven. Bijvoorbeeld schade kleiner noemen, slachtoffers de schuld geven of verantwoordelijkheid doorgeven. De woorden maken de gevolgen niet ongedaan."
+        },
+        {
+          "term": "Verspreide verantwoordelijkheid",
+          "text": "Wanneer veel mensen ieder een deel doen, kan niemand zich verantwoordelijk voelen voor het geheel. Dat gevoel ontslaat betrokkenen niet automatisch van verantwoordelijkheid. Je onderzoekt wie welk deel kan controleren of veranderen."
+        }
+      ]
+    },
+    "m2-03": {
+      "goal": "Je leert hoe stilte en groepsverwachtingen een besluit sturen. Je onderzoekt hoe overleg zo kan worden ingericht dat twijfels en andere informatie werkelijk meetellen.",
+      "core": [
+        {
+          "term": "Conformiteit",
+          "text": "Je gedrag aanpassen aan wat de groep doet of verwacht. Dat kan samenwerking helpen, maar ook voorkomen dat iemand een zorg uitspreekt. Onderzoek welke druk en alternatieven er zijn."
+        },
+        {
+          "term": "Pluralistische onwetendheid",
+          "text": "Meerdere mensen twijfelen zelf, maar denken dat de anderen het eens zijn. Omdat ieder zwijgt, blijft die verkeerde indruk bestaan. Private twijfels en publieke stilte naast elkaar leggen maakt dit zichtbaar."
+        },
+        {
+          "term": "Groepsdenken",
+          "text": "Een groep richt zich zo sterk op overeenstemming dat kritiek en alternatieven onvoldoende worden onderzocht. Niet iedere overeenstemming is groepsdenken; kijk of er echt ruimte was voor andere informatie."
+        },
+        {
+          "term": "Psychologische veiligheid",
+          "text": "Het vertrouwen dat je vragen, fouten of zorgen kunt bespreken zonder vernedering of onredelijke straf. Een uitnodiging om te spreken helpt pas als de dagelijkse reactie dat vertrouwen ondersteunt."
+        },
+        {
+          "term": "Structuur en agency",
+          "text": "Structuur zijn de regels, posities en gewoontes waarbinnen je handelt. Agency is je mogelijkheid om te handelen en invloed uit te oefenen. Ze beïnvloeden elkaar: mensen werken binnen regels en kunnen soms samen regels veranderen.",
+          "aliases": [
+            "structuur",
+            "agency"
+          ]
+        }
+      ]
+    },
+    "m2-04": {
+      "goal": "Je volgt hoe een handige functie een gewoonte kan worden. Je leert herkennen hoe reclame, gegevens en regels keuzes sturen en welke invloed gebruikers daarop hebben.",
+      "core": [
+        {
+          "term": "Gewoonte en sociale norm",
+          "text": "Een gewoonte is iets dat je vaak op dezelfde manier doet. Een sociale norm is een verwachting over wat je hoort te doen. Een platform kan daardoor van handig hulpmiddel veranderen in iets waar je voor je werk nauwelijks buiten kunt."
+        },
+        {
+          "term": "Feedbacklus",
+          "text": "Een kringloop waarin een gevolg weer de volgende stap beïnvloedt. Wat je aanklikt levert gegevens op; die bepalen mede wat je daarna ziet; daarop reageer je opnieuw. Zo kan een bepaalde richting sterker worden."
+        },
+        {
+          "term": "Autonomie",
+          "text": "De mogelijkheid om zelf een geïnformeerde keuze te maken. Daarvoor moet je relevante informatie en bruikbare alternatieven hebben. Alleen een knop met ‘akkoord’ zegt nog weinig over hoeveel controle iemand heeft."
+        },
+        {
+          "term": "Kapitalisme en instituties",
+          "text": "Kapitalisme kent private eigendom en een belangrijke rol voor markten. Hoe dat precies werkt hangt af van instituties: wetten, afspraken en organisaties. De inrichting kan verschillen; gevolgen staan niet los van die regels."
+        }
+      ]
+    },
+    "m2-05": {
+      "goal": "Je leert het verschil tussen een keuze op een scherm en een keuze die iemand echt kan gebruiken. Je onderzoekt kosten, afhankelijkheden en verwachtingen die overstappen moeilijk maken.",
+      "core": [
+        {
+          "term": "Formele en praktische keuzevrijheid",
+          "text": "Formeel mag je een ander toestel kiezen. Praktisch kan dat moeilijk zijn als gegevens, onderdelen of werkcontacten niet meegaan. Je beoordeelt vrijheid daarom ook op wat iemand werkelijk kan doen."
+        },
+        {
+          "term": "Lock-in",
+          "text": "Vastzitten aan een aanbieder doordat overstappen veel kost of functies verloren gaan. Dat kan komen door techniek, contracten of gewoontes. Onderzoek welke drempel speelt en wie die kan veranderen."
+        },
+        {
+          "term": "Monopolie en duopolie",
+          "text": "Bij een monopolie is er één aanbieder; bij een duopolie domineren er twee. Dat kan alternatieven beperken. Het aantal aanbieders alleen vertelt nog niet hoe bruikbaar de alternatieven zijn of hoeveel invloed iemand heeft."
+        },
+        {
+          "term": "Psychologische macht",
+          "text": "Invloed die ook via verwachtingen en waargenomen posities werkt. Iemand kan een verzoek als onvermijdelijk ervaren zonder letterlijk gedwongen te worden. Onderzoek de werkelijke opties en de kosten van tegenspreken."
+        }
+      ]
+    },
+    "m2-06": {
+      "goal": "Je leert wat nodig is om een terechte zorg ook werkelijk te kunnen uitspreken en opvolgen. Je onderzoekt steun, tijd en bevoegdheid naast persoonlijke moed.",
+      "core": [
+        {
+          "term": "Morele moed",
+          "text": "Handelen vanuit een morele zorg terwijl je persoonlijk nadeel kunt verwachten, zoals kritiek of verlies van kansen. Moed helpt, maar een organisatie moet ook zorgen voor een veilige en bruikbare route."
+        },
+        {
+          "term": "Collectieve agency",
+          "text": "De mogelijkheid om samen invloed uit te oefenen. Collega's kunnen informatie delen, gezamenlijk een alternatief voorstellen of een regel ter discussie stellen. Wat lukt hangt ook af van steun en bevoegdheden."
+        },
+        {
+          "term": "Reflectieruimte",
+          "text": "Tijd en gelegenheid om een zorg te onderzoeken voordat je door moet. Een meldknop helpt weinig als niemand meldingen mag beoordelen of er onder hoge targetdruk geen tijd voor is."
+        }
+      ]
+    },
+    "m3-01": {
+      "goal": "Je leert waarom een onderneming mensen en middelen samenbrengt en hoe groter worden zowel voordelen als afhankelijkheid kan veroorzaken. Je onderscheidt efficiëntie van invloed op de markt.",
+      "core": [
+        {
+          "term": "Schaalvoordeel",
+          "text": "Een voordeel doordat je op grotere schaal werkt, zoals gedeelde kosten of gespecialiseerde kennis. Dat kan producten goedkoper maken. Het bewijst niet op zichzelf dat het bedrijf anderen kan buitensluiten."
+        },
+        {
+          "term": "Netwerkeffect",
+          "text": "Een dienst kan aantrekkelijker worden wanneer meer mensen haar gebruiken. Dat kan weer nieuwe gebruikers trekken. Of hierdoor macht ontstaat hangt onder meer af van overstappen en bruikbare alternatieven."
+        },
+        {
+          "term": "Marktconcentratie",
+          "text": "Een groot deel van een markt zit bij een klein aantal bedrijven. Onderzoek vervolgens of zij prijzen, toetreding of toegang kunnen beïnvloeden. Concentratie en marktmacht zijn verbonden, maar niet hetzelfde."
+        },
+        {
+          "term": "Arbeidsaandeel en winstopslag",
+          "text": "Het arbeidsaandeel is het deel van de toegevoegde waarde dat naar arbeid gaat. Winstopslag vergelijkt prijs met marginale kosten. Een lagere prijs kan samengaan met een hogere opslag; geen van beide getallen alleen is de nettowinst.",
+          "aliases": [
+            "arbeidsaandeel",
+            "winstopslag"
+          ]
+        }
+      ]
+    },
+    "m3-02": {
+      "goal": "Je leert hoe het gekozen tijdvenster en financiële doel bepalen welk voorstel gunstig lijkt. Je onderzoekt welke waarde zichtbaar wordt en wat buiten de beoordeling blijft.",
+      "core": [
+        {
+          "term": "Aandeelhoudersmodel",
+          "text": "Een manier om het bedrijf te sturen waarin de belangen van aandeelhouders een centrale plaats krijgen. Aandeelhouders bezitten aandelen en hebben bijbehorende rechten. Onderzoek welke plaats andere betrokkenen in de concrete inrichting krijgen."
+        },
+        {
+          "term": "Financialisering",
+          "text": "Financiële doelen, beoordelingen en partijen krijgen een grotere invloed op beslissingen. Een voorstel kan daardoor vooral worden bekeken als rendement en risico. Kijk welke andere gevolgen zelfstandig worden meegewogen."
+        },
+        {
+          "term": "Tijdshorizon",
+          "text": "De periode waarover je een voorstel beoordeelt. Een reparatieplan kan nu geld kosten en later storingen voorkomen. Een korte en lange horizon laten daardoor verschillende gevolgen zien; de toekomst blijft onzeker."
+        }
+      ]
+    },
+    "m3-03": {
+      "goal": "Je leert hoe waarde ontstaat door bijdragen van meerdere partijen. Je onderzoekt hoe hun afhankelijkheid, risico's en rechten in een besluit moeten worden meegenomen.",
+      "core": [
+        {
+          "term": "Stakeholderbenadering",
+          "text": "Een bedrijf beoordelen vanuit de belangen en bijdragen van meerdere betrokkenen, zoals werknemers, klanten, leveranciers en omgeving. Dat betekent niet iedereen altijd hetzelfde geven; je moet uitleggen hoe je hun aanspraken weegt."
+        },
+        {
+          "term": "Specifieke investering",
+          "text": "Een bijdrage die vooral waarde heeft binnen één samenwerking, zoals training voor één systeem. Als de samenwerking stopt, kun je die investering moeilijk elders gebruiken. Dat kan afhankelijkheid en risico vergroten."
+        },
+        {
+          "term": "Resource dependence en team production",
+          "text": "De eerste theorie benadrukt dat organisaties anderen nodig hebben voor middelen. De tweede benadrukt dat waarde door samenwerking ontstaat en niet eenvoudig aan één bijdrage is toe te schrijven. Beide helpen claims naast aandeelhouderskapitaal te onderzoeken."
+        },
+        {
+          "term": "Stakeholder-salience",
+          "text": "Waarom een aanspraak aandacht krijgt: bijvoorbeeld door macht, een gerechtvaardigde positie of urgentie. Veel aandacht krijgen bewijst niet automatisch dat een aanspraak moreel het zwaarst hoort te wegen."
+        }
+      ]
+    },
+    "m3-04": {
+      "goal": "Je leert dat een besluit al wordt gestuurd door het formulier, de meetlat en de rechten vóór het overleg. Je onderzoekt hoe inspraak ook invloed op het besluit kan krijgen.",
+      "core": [
+        {
+          "term": "Beslissingspremisse",
+          "text": "Een uitgangspunt dat vooraf bepaalt hoe een besluit wordt bekeken. Bijvoorbeeld: alleen voorstellen met snelle financiële opbrengst komen op de agenda. Daardoor kunnen andere waarden verdwijnen vóór iemand erover stemt."
+        },
+        {
+          "term": "Governance",
+          "text": "De inrichting van bestuur en toezicht: wie krijgt informatie, wie mag beslissen en wie kan iemand ter verantwoording roepen? Inspraak werkt anders dan een recht om een besluit te laten heroverwegen."
+        },
+        {
+          "term": "Institutionele inrichting",
+          "text": "De wetten, afspraken en rechten waarbinnen een organisatie werkt. Landen en ondernemingen kunnen daarin verschillen. Een rapportageplicht maakt informatie beschikbaar, maar geeft betrokkenen niet vanzelf beslisrechten."
+        }
+      ]
+    },
+    "m3-05": {
+      "goal": "Je leert hoe geldstromen bepalen welke plannen ruimte krijgen. Je onderzoekt hoe financiële druk invloed kan hebben zonder dat een financier iedere dagelijkse beslissing neemt.",
+      "core": [
+        {
+          "term": "Kapitaal als selectiemechanisme",
+          "text": "Geld gaat naar sommige plannen en niet naar andere op basis van verwachte opbrengst, risico en voorwaarden. Daarmee krijgt een bepaalde toekomst meer kans. Maatschappelijke waarde en private opbrengst hoeven niet gelijk te zijn."
+        },
+        {
+          "term": "Financiële disciplinering",
+          "text": "Een organisatie past haar plannen aan aan verwachtingen van financiers, bijvoorbeeld uit vrees voor duurder krediet of vertrek van kapitaal. Onderzoek de concrete druk; het is niet hetzelfde als een directe opdracht."
+        },
+        {
+          "term": "Aandeelhoudersactivisme",
+          "text": "Aandeelhouders proberen het beleid actief te beïnvloeden, bijvoorbeeld via voorstellen, stemmen of druk op bestuurders. De doelen kunnen verschillen. Je onderzoekt welke verandering wordt gevraagd en welke andere belangen worden geraakt."
+        },
+        {
+          "term": "Polanyi",
+          "text": "Een denker die benadrukt dat markten in sociale regels en instellingen zijn ingebed. Zijn perspectief helpt je vragen welke bescherming nodig is wanneer marktwerking mensen of de leefomgeving onder druk zet."
+        }
+      ]
+    },
+    "m3-06": {
+      "goal": "Je leert een financieel verklaarbare keuze onderscheiden van een ethisch verdedigbare keuze. Je maakt gevolgen voor mensen en leefomgeving zichtbaar naast de begroting.",
+      "core": [
+        {
+          "term": "Verklaring en rechtvaardiging",
+          "text": "Een verklaring vertelt waarom een keuze ontstaat, bijvoorbeeld door concurrentiedruk. Een rechtvaardiging geeft redenen waarom de keuze aanvaardbaar zou zijn. Dat iets financieel logisch is, maakt het nog niet automatisch verantwoord."
+        },
+        {
+          "term": "Sociale en ecologische waarde",
+          "text": "Waarde voor mensen en leefomgeving, zoals veilige arbeid, toegang of schoon water. Niet alles daarvan staat op een financiële rekening. Onderzoek de concrete gevolgen zonder te doen alsof één geldbedrag alles uitdrukt."
+        },
+        {
+          "term": "Legaal en ethisch",
+          "text": "Legaal betekent dat iets binnen de wet is toegestaan. Ethiek vraagt daarnaast wat verantwoord is en waarom. De wet is een belangrijke grens, maar beantwoordt niet iedere vraag over belangen en gevolgen."
+        }
+      ]
+    },
+    "m4-01": {
+      "goal": "Je leert hoe een technisch ontwerp sommige mensen toegang geeft en anderen afhankelijk maakt. Je onderzoekt de werking bij uitval en wie voor een bruikbaar alternatief zorgt.",
+      "core": [
+        {
+          "term": "Morele architectuur",
+          "text": "De manier waarop techniek, regels en omgeving mogelijkheden en gevolgen verdelen. Een automatische deur helpt veel bezoekers, maar kan bij uitval iemand buitensluiten. Het ontwerp heeft daardoor een morele betekenis."
+        },
+        {
+          "term": "Technologische bemiddeling",
+          "text": "Techniek beïnvloedt hoe we handelen en wat we ervaren. Een deur of scherm biedt mogelijkheden en maakt andere handelingen moeilijker. Verbeek helpt je die invloed onderzoeken; techniek bepaalt niet alles zelfstandig."
+        },
+        {
+          "term": "Actor-Network Theory",
+          "text": "Een manier om een situatie te onderzoeken als een netwerk van mensen én dingen. De toegang hangt niet alleen van de deur af, maar ook van stroom, onderhoud, personeel en afspraken. Volg hoe die verbindingen samenwerken."
+        }
+      ]
+    },
+    "m4-02": {
+      "goal": "Je leert dat een dienst afhankelijk is van verbindingen die meestal op de achtergrond blijven. Je onderzoekt wie het netwerk beheert en onder welke voorwaarden anderen kunnen aansluiten.",
+      "core": [
+        {
+          "term": "Infrastructuur",
+          "text": "De netwerken en voorzieningen die activiteiten mogelijk maken, zoals transport, elektriciteit en digitale verbindingen. Ze vallen vaak pas op als ze uitvallen of als je niet mag aansluiten."
+        },
+        {
+          "term": "Standaard",
+          "text": "Een afgesproken manier waarop onderdelen of systemen op elkaar aansluiten. Dat kan samenwerking makkelijker maken. Maar wie de standaard niet kan gebruiken, kan ook buiten een netwerk blijven."
+        },
+        {
+          "term": "Asymmetrische afhankelijkheid",
+          "text": "De ene partij heeft de ander harder nodig dan andersom. Een kleine reparateur kan afhankelijk zijn van één logistiek netwerk, terwijl de eigenaar vele klanten heeft. Dat verschil kan invloed op voorwaarden geven."
+        }
+      ]
+    },
+    "m4-03": {
+      "goal": "Je volgt hoe één handeling gegevens oplevert en hoe die worden gebruikt. Je onderzoekt voordeel, controle en afhankelijkheid wanneer gegevens of diensten moeilijk te verplaatsen zijn.",
+      "core": [
+        {
+          "term": "Gedragsdata en profilering",
+          "text": "Gedragsdata beschrijven wat iemand doet, bijvoorbeeld welke reparatie hij kiest. Profilering gebruikt zulke gegevens om kenmerken of voorkeuren af te leiden. Dat kan dienstverlening helpen, maar vraagt ook controle op gebruik en gevolgen."
+        },
+        {
+          "term": "Surveillancekapitalisme",
+          "text": "Zuboffs begrip voor een economisch model waarin gegevens over gedrag worden gebruikt om gedrag te voorspellen en beïnvloeden. Het is een specifieke analyse; niet ieder verzamelen van gegevens werkt automatisch op deze manier."
+        },
+        {
+          "term": "Internet of Things",
+          "text": "Apparaten die via een netwerk gegevens verzamelen of uitwisselen, zoals een onderhoudssensor. Onderzoek welke gegevens nodig zijn, wie erbij kan en wat gebeurt als de verbinding of aanbieder wegvalt."
+        },
+        {
+          "term": "Digitale autonomie",
+          "text": "Controle kunnen houden over digitale keuzes, gegevens en afhankelijkheden. Een exportbestand helpt alleen als je gegevens en benodigde functies elders ook werkelijk bruikbaar zijn."
+        }
+      ]
+    },
+    "m4-04": {
+      "goal": "Je leert hoe het doel en de oefendata van een systeem bepalen wat het herkent en selecteert. Je onderzoekt fouten, gevolgen en wat een beperkte test wel of niet bewijst.",
+      "core": [
+        {
+          "term": "Algoritme",
+          "text": "Een reeks stappen waarmee een systeem gegevens verwerkt en een uitkomst bepaalt. Het doel bepaalt mede welke uitkomst telt als goed. Opbrengst maximaliseren is bijvoorbeeld iets anders dan zoveel mogelijk materiaal terugwinnen."
+        },
+        {
+          "term": "Trainingsdata en bias",
+          "text": "Trainingsdata zijn voorbeelden waarmee een leersysteem wordt gevormd. Als belangrijke situaties ontbreken, kan het systeem voor die situaties slechter werken. Bias is een systematische vertekening; je moet de werking en gevolgen onderzoeken.",
+          "aliases": [
+            "trainingsdata",
+            "representativiteit",
+            "bias"
+          ]
+        },
+        {
+          "term": "Black box en uitlegbare AI",
+          "text": "Bij een black box is moeilijk te volgen hoe een uitkomst ontstaat. Uitlegbare AI probeert onderdelen van die werking inzichtelijk te maken. Een uitleg vervangt geen goede test of verantwoordelijkheid voor de gevolgen."
+        },
+        {
+          "term": "Algoritme-audit",
+          "text": "Een gerichte controle van het systeem: wat is het doel, welke gegevens gebruikt het, voor wie werkt het goed en wie kan fouten herstellen? Een goede gemiddelde score kan problemen voor bepaalde groepen verbergen."
+        }
+      ]
+    },
+    "m4-05": {
+      "goal": "Je leert waarom een gunstige score nog niet alle maatschappelijke gevolgen laat zien. Je koppelt een ontbrekend gevolg aan degene die het kan onderzoeken of veranderen.",
+      "core": [
+        {
+          "term": "Socio-technisch systeem",
+          "text": "Mensen, techniek, werkafspraken en maatschappelijke regels werken samen. Een dashboardprobleem kan daardoor een technische wijziging én een andere werkwijze vragen. Onderzoek de verbindingen in plaats van één onderdeel los te beoordelen."
+        },
+        {
+          "term": "Interventieniveaus",
+          "text": "Een verandering kan in het ontwerp zitten, in de organisatie of in publieke regels. Een extra meting is een ontwerpkeuze; tijd om erop te handelen een organisatiekeuze; een verplicht recht kan een institutionele keuze zijn."
+        },
+        {
+          "term": "Accountability",
+          "text": "Verantwoordelijkheid zo organiseren dat iemand uitleg moet geven en aangesproken kan worden. Daarvoor moeten rollen, informatie en bevoegdheden duidelijk zijn. Alleen ‘we zijn verantwoordelijk’ op een dashboard is onvoldoende."
+        }
+      ]
+    },
+    "m4-06": {
+      "goal": "Je leert voorwaarden maken voor een verantwoorde invoering van techniek. Je verbindt risico's aan ontwerp, bevoegdheden en een moment waarop het plan kan worden bijgesteld.",
+      "core": [
+        {
+          "term": "Value Sensitive Design",
+          "text": "Waarden van betrokkenen vanaf het begin in het ontwerp onderzoeken en meenemen. Je kijkt bijvoorbeeld naar toegang, privacy en zelfstandigheid en test hoe het ontwerp die waarden in de praktijk beschermt."
+        },
+        {
+          "term": "Responsible innovation",
+          "text": "Nieuwe techniek ontwikkelen met aandacht voor mogelijke gevolgen, betrokkenen en de mogelijkheid om bij te sturen. Niet alleen vragen of iets werkt, maar ook voor wie en onder welke voorwaarden invoering verantwoord is."
+        },
+        {
+          "term": "Technologisch determinisme",
+          "text": "De gedachte dat techniek vanzelf één onvermijdelijke richting oplegt. De cursus onderzoekt juist ook menselijke keuzes in ontwerp, beheer en regels. Niet iedere uitkomst staat bij de technologie vast."
+        },
+        {
+          "term": "AI Act, CSRD en Digital Services Act",
+          "text": "Europese regels met verschillende onderwerpen: AI, duurzaamheidsrapportage en digitale diensten. Een regel heeft een eigen reikwijdte en voorwaarden. Gebruik de bronuitleg voor details; geen van deze namen is een algemene garantie dat elke toepassing verantwoord is."
+        }
+      ]
+    },
+    "m5-01": {
+      "goal": "Je leert een goede indruk onderscheiden van aantoonbaar goed werk. Je onderzoekt welke belofte past bij het bewijs en welke maatschappelijke verwachtingen het bedrijf probeert te beantwoorden.",
+      "core": [
+        {
+          "term": "Greenwashing",
+          "text": "Communicatie of symbolische maatregelen wekken een gunstiger duurzaamheidsbeeld dan het feitelijke werk ondersteunt. Onderzoek de uitspraak, de indruk en het bewijs. Niet elke onvolkomen verbetering is automatisch greenwashing."
+        },
+        {
+          "term": "Legitimiteit",
+          "text": "De mate waarin anderen een organisatie en haar handelen aanvaardbaar vinden. Goedkeuring kan belangrijk zijn voor het bedrijf. Suchmans perspectief helpt vragen waardoor die goedkeuring ontstaat; zij bewijst niet dat een duurzaamheidsclaim klopt."
+        },
+        {
+          "term": "Decoupling",
+          "text": "Een belofte, formele regel of zichtbaar beleid raakt los van de dagelijkse praktijk. Het bedrijf kan iets uitdragen terwijl het werk anders blijft. Vergelijk daarom woorden, uitvoering en resultaten."
+        }
+      ]
+    },
+    "m5-02": {
+      "goal": "Je leert precies aanwijzen hoe een groene boodschap een verkeerde indruk kan geven. Je zoekt wat ontbreekt en maakt een uitspraak die iemand kan controleren.",
+      "core": [
+        {
+          "term": "Selectieve communicatie",
+          "text": "Een gunstig deel laten zien terwijl relevante minder gunstige informatie ontbreekt. Een poster over één verbeterde lijn kan bijvoorbeeld de indruk wekken dat de hele productie verbeterd is."
+        },
+        {
+          "term": "Vage en irrelevante claims",
+          "text": "Een vage claim zegt niet duidelijk wat wordt bedoeld of gemeten, zoals ‘groen’. Een irrelevante claim benadrukt iets dat weinig zegt over het werkelijke probleem. Vraag welke concrete prestatie de boodschap aantoont."
+        },
+        {
+          "term": "Claimgrens",
+          "text": "De grens van wat je bewijs toelaat om te zeggen: over welk product, welke periode en welk gevolg? Een pilot geeft geen bewijs voor alle productie. Een controleerbare boodschap maakt die grens duidelijk."
+        },
+        {
+          "term": "Compensatie en reductie",
+          "text": "Compensatie probeert uitstoot of schade elders op te vangen. Reductie vermindert de uitstoot of schade van de eigen activiteit. Een compensatiebon bewijst niet dat het eigen proces minder uitstoot."
+        }
+      ]
+    },
+    "m5-03": {
+      "goal": "Je leert waarom een organisatie niet alles direct kan veranderen en hoe je daar eerlijk over communiceert. Je toetst of een pilot ook verbetering van de totale productie aantoont.",
+      "core": [
+        {
+          "term": "Padafhankelijkheid",
+          "text": "Eerdere keuzes maken sommige vervolgstappen makkelijker en andere moeilijker. Machines, kennis en contracten kunnen een bedrijf aan een route binden. Dat verklaart beperkingen, maar maakt verbetering niet automatisch onmogelijk."
+        },
+        {
+          "term": "Organisatorische traagheid",
+          "text": "Een organisatie verandert niet meteen mee doordat werkwijzen, middelen en rollen moeten worden aangepast. Onderzoek welke concrete drempel speelt en wie die kan aanpakken. ‘Het systeem is traag’ is geen volledig plan."
+        },
+        {
+          "term": "Per product en totale impact",
+          "text": "De belasting per product is iets anders dan de som voor alle producten. Een kleine verbeterde pilot kan samengaan met groei van de totale belasting. Bekijk verbetering, bereik en productievolume samen."
+        }
+      ]
+    },
+    "m5-04": {
+      "goal": "Je leert een deelverbetering bekijken binnen de hele productroute. Je onderzoekt wat gebeurt vóór de verkoop, tijdens gebruik en na het afdanken.",
+      "core": [
+        {
+          "term": "Deelinitiatief en bedrijfsmodel",
+          "text": "Een deelinitiatief verandert een afgebakend onderdeel, zoals één collectie. Het bedrijfsmodel beschrijft hoe het bedrijf als geheel waarde en inkomsten organiseert. Een beter onderdeel bewijst nog niet dat de hele werkwijze verandert."
+        },
+        {
+          "term": "Levenscyclus",
+          "text": "De stappen van grondstof en productie via gebruik tot verwerking na afdanken. Een milieubeoordeling moet duidelijk zeggen welke stappen en gevolgen zij meetelt. Anders kan schade buiten de meetgrens verdwijnen."
+        },
+        {
+          "term": "Circulaire economie",
+          "text": "Producten en materialen langer bruikbaar houden en verspilling beperken, bijvoorbeeld door reparatie en hergebruik. Recycling kan daarbij helpen, maar een recycleclaim alleen zegt niet hoeveel materiaal werkelijk terugkomt of hoe de totale hoeveelheid verandert."
+        }
+      ]
+    },
+    "m5-05": {
+      "goal": "Je leert wie voordeel krijgt en wie risico draagt wanneer partijen verschillende informatie hebben. Je onderzoekt welk bewijs vóór een aankoop of investering beschikbaar moet zijn.",
+      "core": [
+        {
+          "term": "Informatie-asymmetrie",
+          "text": "De ene partij weet meer dan de andere over iets dat voor een besluit belangrijk is. Een bedrijf kan meer weten over zijn productie dan een klant of financier. De informatiekloof kan keuzes en voordeel beïnvloeden."
+        },
+        {
+          "term": "ESG",
+          "text": "Een verzamelnaam voor milieu, sociale onderwerpen en bestuur bij het beoordelen van een organisatie. Een ESG-label of score moet je bekijken op wat wordt gemeten, hoe en voor welk doel. Het is geen compleet moreel oordeel."
+        },
+        {
+          "term": "Green fatigue",
+          "text": "Moe of wantrouwig worden door veel groene boodschappen, vooral wanneer ze onduidelijk of onbetrouwbaar blijken. Dat kan ook geloofwaardige verbeteringen raken. Heldere en controleerbare informatie helpt onderscheid maken."
+        },
+        {
+          "term": "Intergenerationele rechtvaardigheid",
+          "text": "Rechtvaardigheid tussen generaties. Besluiten van nu kunnen mogelijkheden en lasten voor toekomstige mensen bepalen. Hun belangen staan niet vanzelf op een huidige rekening of in een onderhandeling."
+        }
+      ]
+    },
+    "m5-06": {
+      "goal": "Je brengt eerlijke communicatie en daadwerkelijke verandering samen. Je maakt een belofte met passend bewijs, duidelijke verantwoordelijkheden en controle op de uitvoering.",
+      "core": [
+        {
+          "term": "Transparantie en controleerbaarheid",
+          "text": "Transparantie maakt relevante informatie beschikbaar. Controleerbaarheid betekent dat iemand kan nagaan of een uitspraak klopt. Daarvoor moeten de meetgrens, gegevens, methode en verantwoordelijke voldoende duidelijk zijn."
+        },
+        {
+          "term": "Structurele verandering",
+          "text": "De werkwijze, prikkels of regels veranderen zodat een probleem bij de oorzaak wordt aangepakt. Een mooiere tekst kan misleiding verminderen, maar verandert niet vanzelf de productie of de verdeling van verantwoordelijkheid."
+        },
+        {
+          "term": "Institutionele interventie",
+          "text": "Een verandering in bredere regels of rechten, zoals een rapportageplicht of toezicht. Onderzoek wat de regel werkelijk verandert en wat de organisatie daarnaast zelf moet uitvoeren. Rapporteren en verbeteren zijn verschillende taken."
+        }
+      ]
+    }
+  }
+}

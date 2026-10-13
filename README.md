@@ -12,11 +12,19 @@ Start the static server with `npm start`. Fly the inspection drone with the arro
 
 All clues must be investigated before each reconstruction unlocks. Reconstructions require causal interpretation and evidence. The lesson finale applies the learned lenses to a new sector.
 
+The evidence questions use two direct selections: explanation and supporting clue. Clicking a different clue replaces the choice immediately; dragging is optional. Each question keeps its own answer, supports backward navigation, and gives specific feedback. The first two areas explicitly accept multiple authored evidence sources when those sources support the same explanation.
+
 ## Teaching and scope
 
 Lesson 1 contains eight areas; the other lessons each contain six. The first route includes 33 optional environmental investigations, evidence checks, dead ends and a services-key return route. Later routes include optional work records and dead ends. Physical tools also unlock later accounting, model configuration and claim inspection tasks.
 
 Every entry shows the start/resume screen without resetting progress. Each of the 32 areas has an authored situation, transition, ethical question, task and specific reflection prompt. The first two areas include preparatory evidence objects before concept application. Each activity has expandable context, explanation and the relevant original course reading; a quick theory overview remains available before play. There are two NPCs per area: 64 NPC instances using a six-character cast, with questions, follow-ups and three substantial optional theory sections each. The notebook stores evidence, predictions and personal notes.
+
+`dist/learning-guides.json` adds a plain-language learning goal and three to five foundational concept explanations to every area. The visible learning route follows situation, understanding, investigation and application; activity prerequisites determine the recommended research order. Concepts are accessible from each activity, clue and NPC conversation, with the original course retained for further reading. These explanations are authored orientation, not a replacement for the complete source curriculum.
+
+Experiments show saved trials, completed comparison requirements and the exact remaining step. Guided example presets set controls without executing a trial or supplying a prediction. Electricity comparisons require two different feasible allocations with the same positive total, rather than hidden priority thresholds. The river-cost comparison accepts any two different cost shares. Reopening preserves trial progress and interpretation.
+
+XP unlocks five researcher levels at 0, 300, 900, 2100 and 4200 XP: baseline support, a next-clue scanner, an approach/example lens, a side-by-side evidence board with saved notes, and an evidence compass for the final questions. All essential teaching and basic hints remain available from level 1. Duplicate investigations and repeated area completion do not award more XP. Admin can preview the perks at each level without changing learner XP or saves.
 
 Use **Beheer**, code **fabian1**, to jump directly to any area, preview activities, read conversations, inspect area/lesson puzzles and view the questions. Preview changes never overwrite the ordinary learner save. This is a local content-review facility, not an authentication system for sensitive accounts.
 

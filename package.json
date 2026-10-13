@@ -6,6 +6,6 @@
   "scripts": {
     "build": "node scripts/assemble-chapters.mjs && node scripts/build-module.mjs && node scripts/build-plan.mjs",
     "start": "node scripts/serve.mjs",
-    "test": "node scripts/check-module.mjs && node scripts/test-adventure.mjs && node scripts/test-models.mjs"
+    "test": "node scripts/check-module.mjs && node scripts/test-adventure.mjs && node scripts/test-models.mjs && node scripts/test-learning-flow.mjs"
   }
 }

@@ -7,7 +7,7 @@ const {book,npcs,course,root}=loadModule(),errors=[],ids=new Set(),types={},less
 const check=(ok,msg)=>{if(!ok)errors.push(msg);},words=s=>String(s||'').trim().split(/\s+/).filter(Boolean).length;
 const short=(s,at,max=65)=>check(typeof s==='string'&&words(s)>0&&words(s)<=max,at+': missing or oversized text');
 const options=(rows,at)=>{check(Array.isArray(rows)&&rows.length>=3,at+': alternatives missing');check(rows.filter(o=>o.correct).length===1,at+': answer key');rows.forEach(o=>{short(o.text,at+'.option');short(o.feedback,at+'.feedback');});};
-const finale=(f,evidence,at)=>{check(f?.slots?.length>=2,at+': puzzle missing');short(f.intro,at+'.intro');short(f.conclusion,at+'.conclusion');for(const slot of f.slots){check(evidence.has(slot.evidenceBeatId),at+': evidence '+slot.evidenceBeatId);options(slot.options,at+'.'+slot.id);}};
+const finale=(f,evidence,at)=>{check(f?.slots?.length>=2,at+': puzzle missing');short(f.intro,at+'.intro');short(f.conclusion,at+'.conclusion');for(const slot of f.slots){check(evidence.has(slot.evidenceBeatId),at+': evidence '+slot.evidenceBeatId);if(slot.evidenceBeatIds){check(slot.evidenceBeatIds.includes(slot.evidenceBeatId),at+': canonical evidence omitted');check(new Set(slot.evidenceBeatIds).size===slot.evidenceBeatIds.length,at+': duplicate accepted evidence');for(const id of slot.evidenceBeatIds){check(evidence.has(id),at+': alternative evidence '+id);short(slot.evidenceNotes?.[id],at+'.evidence explanation',90);}}options(slot.options,at+'.'+slot.id);}};
 check(book.chapters.length===5,'Expected all five lessons');
 for(const ch of book.chapters){
  const src=course.lessons.find(l=>l.id===ch.lessonId),beats=ch.investigations.flatMap(i=>i.beats),evidence=new Set(beats.map(b=>b.id)),mapped=new Set();
@@ -19,6 +19,8 @@ for(const ch of book.chapters){
   check(i.beats.length>=3,i.id+': insufficient research');
   check(i.guide?.story?.length>100&&i.guide?.ethicalQuestion&&i.guide?.task&&i.guide?.reflection,i.id+': missing situation, ethical question or guidance');
   check(i.beats.some(b=>b.id===i.guide?.firstBeat),i.id+': first investigation missing');
+  short(i.guide?.goal,i.id+'.learning goal',70);check(i.guide?.core?.length>=3,i.id+': plain-language concepts missing');
+  for(const c of i.guide?.core||[]){short(c.term,i.id+'.term',15);short(c.text,i.id+'.plain explanation',90);}
   for(const b of i.beats){
    check(!ids.has(b.id),'Duplicate activity '+b.id);ids.add(b.id);types[b.type]=(types[b.type]||0)+1;
    check(['inspect','sort','connect','order','build','decision','experiment','media'].includes(b.type),b.id+': unsupported activity');short(b.intro,b.id+'.intro');
