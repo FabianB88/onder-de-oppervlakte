@@ -39,3 +39,4 @@
 @media(max-width:760px){.answer-grid{grid-template-columns:1fr;gap:0}.finale-sheet>h2{font-size:1.4rem;line-height:1.2}.finale-sheet .panel-footer{bottom:0;gap:8px}.finale-sheet .panel-footer .btn{font-size:.74rem;padding:12px 13px}.answer-grid .answer-group{margin:16px 0}.finale-sheet .puzzle-support{font-size:.77rem}.finale-sheet .puzzle-support p{font-size:.82rem!important}}
 
 #panel:has(.finale-sheet) .panel-head{position:sticky;top:0;background:var(--cream);z-index:3}
+.finale-sheet .small-feedback{scroll-margin-block:135px 135px}
